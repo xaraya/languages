@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>概要</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>これは何？</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Pubsub module allows users to subscribe to events on your system such as new articles being posted in a particular category or replies on a forum thread.
+This module uses the Scheduler module to process events and the Mail module to actually send the notifications.</string>
+		<translation>パブサブモジュールは特定のカテゴリーに投稿された新しい記事や、フォーラムでの返信などのシステム上のイベントを定期購読できるようにするためのモジュールです。このモジュールはスケジューラモジュールを使用してイベントを処理し、メールモジュールを使用して通知を行います。</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>どうやって使うの？</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;The pubsub module should be hooked to the categories module first, so that your users can subscribe to events concerning a particular category.&lt;/p&gt;
+&lt;p&gt;Then you should enable the pubsub hooks for any other module (e.g. articles) where you want to send out create/update/delete notifications to your users.&lt;/p&gt;
+&lt;p&gt;And finally you should specify which templates to use for each module and how often events should be processed in &quot;Modify Configuration&quot;.&lt;/p&gt;</string>
+		<translation>&lt;p&gt;パブサブモジュールを最初にカテゴリーモジュールにフックします。こうすることにより、ユーザーが特定のカテゴリーのイベントを予約することが出来るようになります。&lt;/p&gt; &lt;p&gt;次に、パブサブフックを作成、更新、削除などの通知を送信させたい任意のモジュール（例：各種記事）で使用可能に設定します。&lt;/p&gt; &lt;p&gt;最後に、それぞれのモジュールでのテンプレートの指定、間隔の指定を行って終了です。&lt;/p&gt;これらの設定は&quot;設定を修正&quot;で行います。</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>付随するブロック</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Pubsub module has no blocks included at this time.</string>
+		<translation>なし</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>付随するフック</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Pubsub module supports item display hooks to let your users subscribe to events in particular categories. It also supports item create, item update and item delete hooks to inform your users when a module item is created, updated or deleted. This can be configured in the modules module.</string>
+		<translation>パブサブモジュールは表示フックを使用してユーザーが特定のイベントを予約しておくことが出来るようにします。また、アイテム作成、更新、削除フックをしようしてそのユーザーに通知を送信できるように設定します。これらの設定はモジュールの全て表示から設定できます。</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>その他の情報はモジュール＞全て表示＞モジュール情報で</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+</translations>

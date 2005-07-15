@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Display a Dynamic Example</string>
+		<translation>ダイナミックサンプル表示</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string>
+		<translation>APPROACH # 1 : &amp;lt;xar:data-display ...&amp;gt; タグ</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the item from DynamicData,
+and present it according to its user-objectdisplay.xd template.</string>
+		<translation>このタグは自動的にダイナミックデータからアイテムを取得し、user-objectdisplay.xdテンプレートで表示します。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string>
+		<translation>APPROACH # 2 : &amp;lt;xar:data-getitem ...&amp;gt; タグ</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will retrieve the properties of this item from DynamicData and
+make them available in the 'properties' variable in your template.</string>
+		<translation>このタグはプロパティーをダイナミックデータから取得し、&quot;properties&quot;変数に格納してテンプレートで使用できるようにします。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use that variable to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
+		<translation>これらの変数を使用して、独自のレイアウトを作成できます。&amp;lt;xar:data-label
+...&amp;gt; と&amp;lt;xar:data-output ...&amp;gt;タグを使用すればデータラベルと値を表示することが出来ます。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>let's be bold now</string>
+		<translation>太字にします</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="40" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="67" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 3 : getting the object via API</string>
+		<translation>APPROACH # 3 : APIでのオブジェクト取得</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;,</string>
+		<translation>オブジェクト取得後、全てのオブジェクトをテンプレートに渡し、&amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;として表示することができます。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>or pass along the properties and work like in APPROACH # 2.</string>
+		<translation>または、 APPROACH # 2のようなやり方も可能です。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notice for instance that you don't get the option to automatically display the image with &amp;lt;xar:data-output ... &amp;gt; or not here.</string>
+		<translation>自動的にイメージを表示するオプション&amp;lt;xar:data-output ... &amp;gt;または？？？？</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="98" />
+		</references>
+	</entry>
+</translations>

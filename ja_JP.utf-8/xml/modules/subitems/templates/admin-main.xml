@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Administration - Example</string>
+		<translation>サブアイテム管理</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>概要</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>これは何？</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module allows you to create and display sub-items for any module item. In the words of the author :</string>
+		<translation>このモジュールは任意のモジュールアイテムにサブアイテムを作成し、表示させるためのモジュールです。モジュール開発者の言葉をかりれば：</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;For example, if you want to have a pubtype &quot;cooking recipe&quot;. This
+pubtype could be to store the ingredients of the meal, thus there would
+be required a list of input fields: ingredient1, quantity1,
+pic1(extended info :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;
+&lt;p&gt;The disadvantage of this is the high number of fields to ensure, that
+there your users aren't going against the limit. Furthermore there are
+always displayed all input fields. And of course it's not a very nice
+way to do it.&lt;/p&gt;
+&lt;p&gt;As I didn't know how to do this better, I had a dream about a module,
+which can be hooked from any other module and which is able to display /
+provide editing / etc. for subitems to an item. I had a dream about a
+table, which saves the information, which DD-Object stores the subitems
+of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which
+DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object
+(1 to n Relation). I had the dream to share my module with the community.
+Now, the module is here, and all dreams got true. If you didn't get my
+technical information, don't worry. &lt;/p&gt;</string>
+		<translation>&lt;p&gt;例えば、クッキングレシピというパブタイプを作成するとしたら、このパブタイプには材料としてお肉が含まれるかもしれません。その場合必要なフィールドは材料１、量１、写真１（拡張情報）、材料２、量２、写真２．．．のようになるでしょう。&lt;/p&gt; &lt;p&gt;この場合、ユーザーがフィールド数の限界を超えないことを明確に確かめなければなりません。さらにそのフィールドを常に表示しなければなりません。こういったやり方では効率がいいとは思えません。&lt;/p&gt; &lt;p&gt;より良い方法を知らなかったときに、わたしはモジュールとして全てのモジュールからフックでき、表示、編集などをすることが出来るモジュールが夢でした。わたしはデータベースにDD-オブジェクトがどのモジュールやアイテムタイプが混合したサブアイテムを持ち、他のテーブルがアイテムIDに対応するどのモジュール、アイテムタイプ、アイテムID（１；N）などを保存させることが夢でした。私には私のモジュールをコミュニティで共有する夢がありました。今、そんな夢が全てかなったモジュールがここにあります。技術的な情報を理解できなくても心配しないでください。&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>どうやって使うの？</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;ol&gt;
+&lt;li&gt; install module&lt;/li&gt;
+&lt;li&gt; goto dynamicdata admin area, new object, create a dynamic data object
+, which should hold the subitem information (you must have one field
+with the ItemID, default 0, display only) -&gt; remember the objectid, edit
+label (used for display) and name (used for custom default template)&lt;/li&gt;
+&lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from
+previsously created dd-object), module name, itemtype&lt;/li&gt;
+&lt;li&gt; goto module modules, hooks -&gt; subitems -&gt; enable the hook for the
+module /itemtype combination, you created the link for&lt;/li&gt;
+&lt;/ol&gt;
+-&gt; now it should work (tested with custom pubtype)</string>
+		<translation>&lt;ol&gt;
+&lt;li&gt;モジュールをインストールします&lt;/li&gt;
+&lt;li&gt;ダイナミックデータ＞オブジェクト表示から＞新規作成で、サブアイテム情報（少なくともアイテムID、デフォルト０、表示のみ）を作成します。このときのオブジェクトIDを記憶しラベル（表示用）、名前（カスタムデフォルトテンプレート用）を編集します。&lt;/li&gt;
+&lt;li&gt;サブアイテム＞リンク追加でオブジェクトID、モジュール名、アイテムタイプを入力します&lt;/li&gt;
+&lt;li&gt;モジュール＞フック設定＞サブアイテムでモジュールまたはアイテムタイプのフックを設定します&lt;/li&gt; &lt;/ol&gt; -&gt; これで動作します（パブサブで確認しています）</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>付随するブロック</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>none</string>
+		<translation>なし</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>付随するフック</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>new/create/modify/update/delete -- Allows you to create/update sub-items</string>
+		<translation>新規/作成/修正/更新/削除：　サブアイテムの作成と削除を可能にします</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>display -- Allows you to display sub-items</string>
+		<translation>表示：　サブアイテムの表示を可能にします</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>他の情報は[modules module]</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+</translations>

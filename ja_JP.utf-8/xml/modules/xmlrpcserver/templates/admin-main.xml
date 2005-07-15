@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Administration - XML-RPC</string>
+		<translation>XML-RPC管理</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="1" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>概要</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>これは何？</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>XML-RPC is a Xaraya Utility Module.</string>
+		<translation>XML-RPCはXarayaのユーティリティモジュールです</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML-RPC server module is responsible for exposing certain procedure calls using XML as
+the transport format. Each command is send as an http request in a specified format. The XML-RPC
+server answers to that call with a properly formatted XML-RPC response.</string>
+		<translation>XML-RPCサーバーモジュールはXMLを一種の変換フォーマットとしてプロシージャコールを受け付けます。それぞれのコマンドはHTTPリクエストとして送信され、XML-RPCサーバーはその応答に答えます。</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML-RPC server can be extended by defining API modules to extend the functionality offered
+by Xaraya over XML-RPC. The XML-RPC standard is defined at</string>
+		<translation>XML-RPCサーバーはXarayaで提供するAPIモジュールを使用することによってその機能を拡張することができます。XML-RPCスタンダードは次のサイトで定義されています：</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>An XML-RPC enabled service can be used to</string>
+		<translation>XML-RPCサービスは</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>use Xaraya remotely</string>
+		<translation>Xarayaをリモートで使用することが出来ます。</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>let Xaraya interoperate with other applications or other Xaraya installations</string>
+		<translation>Xarayaと他のアプリーケーションや他のXarayaインストールを相互運用可能にします。</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>use desktop clients to manage or work with Xaraya</string>
+		<translation>デスクトップクライアントを使用することができます。</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>The most well known usage of XML-RPC are the API's used for blogging (see below). These API's are used in Xaraya to write
+articles on a Xaraya site, using a desktop client. Examples of blog clients include:</string>
+		<translation>もっとも有名なXML-RPCの使用方法はブログAPIでしょう。これらのAPIはXarayaでも使用されており、デスクトップクライアントからXarayaの記事を書き込むことが出来ます。幾つかのブログクライアントを例にあげます：</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML-RPC server can be configured to serve multiple APIs The currently supported APIs are</string>
+		<translation>XML-RPCサーバーは複数のAPIを（同時に）処理することができます。現在サポートしているAPIは：</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>use Xaraya as a Blogging site installation.
+(Note: the blogger.setTemplate and blogger.getTemplate functions are currently not implemented)</string>
+		<translation>ブログサイトを構築（注：blogger.setTemplateとblogger.getTemplateは未対応）</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>used to validate XML-RPC conformance</string>
+		<translation>XML-RPCの規格に準拠しているかを検証します。</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Get information about the XML-RPC server and its methods</string>
+		<translation>XML-RPCサーバーとメソッドの情報を取得します。</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>An extension of the Blogger API which adds more rich support for the message content and the ability to upload media objects
+(Note: the categories support in this API is limited and the metaWeblog.newMediaObject method hasn't been implemented yet.</string>
+		<translation>ブロガーAPI拡張により、コンテンツやメディアオブジェクトをアップロードする機能をもサポートします。（注：カテゴリーサポートに関しては制限されています。またmetaWeblog.newMediaObjuectに関しては組み込まれていません）</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Rough to do list(in roughly this order)</string>
+		<translation>TODO:</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>付随するブロック</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>なし</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>付随するフック</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks</string>
+		<translation>なし</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="82" />
+		</references>
+	</entry>
+</translations>

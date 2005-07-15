@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>これは何？</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Privileges module lets you manage &lt;b&gt;access rights&lt;/b&gt; on your site. Privileges give roles access to certain resources of your choosing. They are the basic components of the security system.</string>
+		<translation>権限モジュールは&lt;b&gt;アクセス権&lt;/b&gt;を扱います。設定される権限ははリソースに対してアクセスロールをあたえます。それらはセキュリティシステムの核になります。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here are some of the things you can do with privileges</string>
+		<translation>権限モジュールを使用していくつかの設定を行います。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
+		<translation>Xarayaの権限はとても柔軟に設定することがかのうです。サイトレベル、モジュールレベル、コンポーネントレベル、クラスレベルで設定可能です。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use privileges as building blocks. Assemble them into compound privileges tailored to any specific role on the site.</string>
+		<translation>権限を使用してブロックを作成することも出来ます。サイト内で特定の役割をもつ権限を組み立てることも可能です。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can assign privileges to roles which then pass them on to their children in the roles hierarchy through inheritance.</string>
+		<translation>役割に対して権限を発行し、その下階層にある全てのリソースに同じ権限をあたえることも出来ます。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites sharing the same resources.</string>
+		<translation>領域機能を使用すれば、共通のリソースを使用する仮想サイトとして分けることも出来ます。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>どうやって使うの？</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
+		<translation>権限を見るをクリックしてすると、システムの権限の概要を表示します。ツリー展開した状態で表示されますが、任意のコンポーネントをクリックすることによりそれぞれの詳細を見ることが出来ます。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges</string>
+		<translation>権限を追加、修正する時は（リソースに対して）独自のアクセス権を設定するか他の権限の受け皿として設定することも可能です。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are</string>
+		<translation>Xarayaでは最小構成の権限としてインストールされますが、設定の仕方で変わります。例えば：</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administration&lt;/b&gt;: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
+		<translation>&lt;b&gt;Administration&lt;/b&gt;:全てのリソースに対してのアクセス権を持ちます。インストール時に、この権限は管理者ロールに対して設定されユーザ管理に受け継がれます。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;CasualAccess&lt;/b&gt;: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
+		<translation>&lt;b&gt;CasualAaccess&lt;/b&gt;:これは未登録ユーザのための権限です。デフォルトでフロントページ及び、ログインブロックのみアクセス可能になっています。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;GeneralLock&lt;/b&gt;: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
+		<translation>&lt;b&gt;GeneralLock&lt;/b&gt;:この権限は特定の基本ロールと権限を持ちます。これは特定の権限の削除を禁止することが出来ます。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock above this takes a bit more doing.) You can also combine privileges by using them as elements to create compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges you can create or their levels of nesting.</string>
+		<translation>全ての権限は変更することができ、削除することが出来ます。（GeneralLockに関していえば多少複雑です）また、権限同士を結びつけたり、結合した権限を元に新しい権限を作成することも出来ます。権限の作成とネストに限界はありません。</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>付随するブロック</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>なし</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>付随するフック</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks.</string>
+		<translation>なし</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>より詳しい情報は</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+</translations>

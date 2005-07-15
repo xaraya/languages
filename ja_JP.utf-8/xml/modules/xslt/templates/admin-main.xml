@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>概要</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>これは何？</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT module is a utility module that allows you to do XSL transformations via transform hooks.</string>
+		<translation>XSLTモジュールは変換フックを通してXSL変換を行うユーティリティモジュールです。</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>どうやって使うの？</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>For each hooked module, specify the XSL file to be used in the transformation. This file should be located on the server, somewhere below the document root. Any DTD referenced by the original XML should also be available.
+&lt;br /&gt;&lt;br /&gt;In order to test this with articles, you should remove the call to xarVarPrepHTMLDisplay() on line 292 of modules/articles/xaruser/display.php (test only !), otherwise all XML tags in your content will be escaped before it gets passed to the transform hook...
+&lt;br /&gt;&lt;br /&gt;Note : this is a work in progress :)</string>
+		<translation>それぞれのフックされているモジュールに対して、変換に必要なXSLファイルを指定します。このファイルはサーバーのドキュメントルートディレクトリ下になければなりません。また、変換するXMLファイル内で記述されたDTDファイルも利用することができます。&lt;br /&gt;&lt;br /&gt;記事でテストするためには、modules/articles/xaruser/display.phpの292行目のxarVarPrepHTMLDisplay()関数を削除してください（テスト時のみ！）。そうしなければ、全てのタグが変換フックに渡される前にエスケープされてしまいます&lt;br /&gt;&lt;br /&gt;注：このモジュールは開発途中です:)</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+</translations>

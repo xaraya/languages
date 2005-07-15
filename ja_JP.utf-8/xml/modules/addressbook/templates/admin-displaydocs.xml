@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>1.1 Grant rights for an unregistered user</string>
+		<translation>1.1.未登録ユーザにアクセス権を付与</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unregistered users have their own set of rights. By default,
+unregistered users may view existing entries only. You may grant unregistered users the
+rights to edit and delete records created by other unregistered users only. Administrators
+may view / edit / delete any record created by an unregistered user.</string>
+		<translation>未登録ユーザは独自の権限を持ちます。デフォルトでは未登録ユーザは既存のエントリーを見ることができます。管理者は未登録ユーザに自身または他の未登録ユーザレコードへの編集、削除権を与えることが出来ます。管理者は未登録ユーザの作成したレコードに対し全ての権限を持ちます。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>1.2 Grant right for registered users</string>
+		<translation>1.2 登録ユーザにアクセス権を付与</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Registered users have their own set of rights. By default, registered users can create records, view records, and delete records. You can restrict access by deselecting grants. Registered users can edit records created by that user account only. All other records are view only. Records marked as private can be viewed only by the user that created the record and no one else save Administrators. Administrators may view / edit / delete any record created by a registered user.</string>
+		<translation>登録ユーザは独自の権限を持ちます。デフォルトでは登録ユーザはレコードの作製、表示、削除権を持ちます。管理者は選択解除することによりこれらの権限を剥奪することが出来ます。登録ユーザは自身のアカウントで作成したレコードのみ編集することができます。その他のレコードに対しては表示権限しかもちません。プライベートマークのあるレコードは自身と管理者以外の全てのユーザから見ることは出来ません。管理者は全ての登録ユーザの作成したレコードへの表示、編集、削除権を持ちます。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.1 Title of this Address Book</string>
+		<translation>2.1 アドレス帳タイトル</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter the title which will appear to all users.</string>
+		<translation>全てのユーザが見るタイトルを入力してください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.3 Default and Alternate sort order / List View</string>
+		<translation>2.3 リストビューにおけるデフォルトの表示順序</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select two columns of your choice. This setting
+affects not only the sort order but also the display of columns in
+the list view. Users are allowed to select between the Default and Alternate sort orders.</string>
+		<translation>２つのカラムを選択してください。この設定は順序に反映されるとともに、リストビューのカラムにも影響を及ぼします。デフォルトと代替の間での選択をすることが出来ます。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.4 Name display in list view and sort order for name
+information</string>
+		<translation>2.4 リストビューの名前表示の設定</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>This setting is for the sort order and display of names in
+the list view. You can change the default &amp;laquo;Last Name, First
+Name&amp;raquo; to &amp;laquo;First Name Last Name&amp;raquo;, which is default in
+some countries.</string>
+		<translation>これはリストビューの名前表示を設定します。&amp;lt;姓、名&amp;gt;または&amp;lt;名、姓&amp;gt;がたいていの国では使用されていると思います。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.5 Special character (Umlauts) replacement for sort columns</string>
+		<translation>2.5 スペシャルキャラクター（Umlauts）置き換え</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>MySQL 3.x uses the Latin-1 character set as
+default. Most users have no permission to change these settings.
+Therefore names and companies are now stored in special sort columns
+for correct sorting when special characters (Umlauts) are used. There
+is an admin setting where you can set up the character replacement to
+correct the sort for each language.</string>
+		<translation>MySQL 3.xではLatin-1文字をデフォルトで使用します。ほとんどのユーザはこの設定を変更する権限がないと思われますので、名前、会社名に関してスペシャルキャラクターが使用されたときに正しく整列できるように、特別なカラムに保存されます。管理者設定のなかにこのスペシャルキャラクターを設定する項目があります。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.6 Personal address book mode</string>
+		<translation>2.6 パーソナルアドレス帳モード</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Address Book may be used as a Global AddressBook (unchecked by default)
+or a Personal AddressBook (checked). As a Global AddressBook all users with access may view records
+that are NOT marked Private. As a Personal AddressBook users may only view entries they have created
+and unregistered users may not view or create any entries.</string>
+		<translation>アドレス帳はグローバル（チェックオフ）に、個人用（チェックオン）に使用することが出来ます。グローバルの場合は全てのユーザがプライベート以外のレコードを見ることが出来ます。個人用の場合はそれぞれのユーザが表示することができ、未登録ユーザはなんの権限もないかもしれません。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.7 Do you want to use a prefix field?</string>
+		<translation>2.7 敬称フィールドを使用しますか？</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Prefix/Title (Mr. Mrs. etc.). Values can be set in</string>
+		<translation>敬称フィールド/タイトル（Mr. Mrs. etc)。それぞれの値は</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Administration Panel and are optionally selected via a drop-down list when creating / editing an entry. This field is hidden by default.</string>
+		<translation>管理者パネルで設定できます。オプションとしてリストから選択することが出来ます。この設定はデフォルトでは使用されません。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.8 Do you want to use images/logos?</string>
+		<translation>2.8 イメージ/ロゴの使用</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Administrators will see a selection box of all
+files in the xarimages directory of AddressBook and can assign it to a
+record. The picture is shown in the upper right of the detail page.
+Currently, all pictures must be manually uploaded into the xarimages directory of
+AddressBook. This field is hidden by default.</string>
+		<translation>管理者はアドレス帳のxarimagesディレクトリ内の全てのファイルをセレクトボックスを表示することが出来、それぞれのレコードに割り当てることが出来ます。イメージは詳細ページの右上に表示されます。現在全てのイメージはアドレス帳のxarimagesディレクトリに別作業としてアップロードしなければなりません。このフィールドはデフォルトでオフになっています。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.9 Disable the menu</string>
+		<translation>2.9 メニューの停止</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to use the AddressBook as a
+simple contact list, you might want to disable the menu completely.
+You can also disable it for guests only. Note, Administrators always see the full menu, regardless of this setting.</string>
+		<translation>アドレス帳を簡易コンタクトリストに使用するとしたら、メニューをすべて停止します。またはゲストのみメニューを停止することも出来ます。注：管理者にはこの設定にかかわらず全てのメニューが表示されます。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.10 Disable the second line of the main menu</string>
+		<translation>2.10 セカンドラインメニューの停止</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>This hides the second menu line for all users who
+DO NOT have edit access. Users still have access to the categories,
+sort order and the search field, but not access to Private records,
+A-Z / Complete list view switch, and the Add New Record link.</string>
+		<translation>この設定は編集権限のないユーザへのサブメニューの表示を停止します。カテゴリーや、並び替え、検索に関してはかわりませんが、プライベートレコード、アルファベット順/完全リスト、新規レコード追加へのリンクは表示されません。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.11 Show zip before city</string>
+		<translation>2.11 市町村の表示と郵便番号の表示</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>In Europe the postal code (zip in USA) is shown before the city.
+This option is off by default.</string>
+		<translation>ヨーロッパでは郵便番号（米国ではZIP番号）は市町村の前に表示されます。日本でも大抵はそのようになっています。この設定はデフォルトでオフです。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.12 Records viewed per page</string>
+		<translation>2.12 1ページあたりのレコードの表示数</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Pick your number between 1 and ??</string>
+		<translation>1以上の数字を設定してください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.1 Custom tab</string>
+		<translation>3.1 カスタムタブ</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name of the Custom Fields tab and the
+headline for custom fields in the detail page. Leave it blank, if you
+do not use custom fields.</string>
+		<translation>詳細ページのカスタムフィールドのタブ名と説明を設定します。使用しない場合は空にしてください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.2 Width of TEXTAREA fields</string>
+		<translation>3.2 テキストエリアの横幅</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>TEXTAREA field width can change depending on
+the CSS of your theme. Sometimes this results in a very bad layout of
+your form. You can set the html COLS of a TEXTAREA field. Valid size ranges from 4 to 100.</string>
+		<translation>テキストエリアの横幅はCSSのテーマによって設定されますが、テーマによっては見栄えが悪くなる場合があります。そういう場合にはテキストエリアのCOLS属性を強制的に設定するためにフィールドに4以上100以下の数値を入力してください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.3 Format for date entries</string>
+		<translation>3.3 日付エントリーのフォーマット</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select the format for date entry and
+display. Only two options at this time, MM.DD.YYYY and DD.MM.YYYY.</string>
+		<translation>日付エントリーのフォーマットを設定します。MM.DD.YYYYまたはDD.MM.YYYYのどちらかを選択してください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.4 Format for numeric values</string>
+		<translation>3.4 数値フォーマット</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select the format for numeric entry and
+display. Only two options at this time, 9,999.00 and 9.999,00</string>
+		<translation>数値フォーマットを設定します。現在は9.999.00または9.999,00のどちらかのみ選択可能です。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>4.1 Send error reports to Site Admin</string>
+		<translation>4.1 管理者へのエラーレポート送信</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option enables error messages to be emailed directly to
+the site administrator email account. Uncheck to disable this feature.</string>
+		<translation>管理者あてのエラーレポートを登録されているメールアドレスに送信します。停止するにはチェックをはずしてください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>4.2 Alternate Site Admin email address</string>
+		<translation>4.2 代替メールアドレス</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose an alternate email address if the official Site Admin
+does not wish to receive AddressBook error notifications.</string>
+		<translation>サイト管理者がエラーメッセージを受け取りたくない場合には、代替メールアドレスを設定してください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>4.3 Send error reports to AddressBook Quality Control</string>
+		<translation>4.3 クオリティコントロールへのエラーレポート</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option sends an email directly to the AddressBook development
+team with the error message, date and time of occurrence, and the fully qualified host name of the
+server running the AddressBook module. NO OTHER INFORMATION IS SENT. This information is used solely for
+the purpose of fixing issues encountered in the AddressBook module. Uncheck to disable this feature.</string>
+		<translation>この設定ではアドレス帳モジュール開発者に直接エラーメッセージを送信します。日付、時間、FQDなどが送信されます。その他の情報は一切送信されません。これらの情報はアドレス帳モジュールの改善のみに使用されます。この機能を停止するにはチェックをはずしてください。</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="110" />
+		</references>
+	</entry>
+</translations>

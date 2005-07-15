@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Administration - Uploads</string>
+		<translation>管理 - アップロード</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>何ですか？</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads is a Xaraya Utility Module.</string>
+		<translation>アップロードはXarayaのユーティリティー モジュールです。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is currently responsible for accomplishing these tasks:</string>
+		<translation>以下のタスクを行うことが出来ます：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows for the importing of files into the Xaraya system either locally or externally.</string>
+		<translation>Xarayaシステムに外部および内部ファイルのインポートを許可します。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows the managing of access to files via privileges.</string>
+		<translation>権限によるファイルへのアクセスの管理を許可します。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>どのように使いますか？</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>External Imports and Uploads</string>
+		<translation>外部インポートとアップロード</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files that are uploaded or imported from external locations can be saved in the database (DB)
+or stored in the filesystem (FS). Use the options (FS/DB) under each form to select the
+storage location for your file.</string>
+		<translation>外部の場所からアップロードまたはインポートするファイルをデータベース（DB）に保存するか、またはファイルシステム（FS）に保存する事が出来ます。各フォームの下のオプション(FS/DB)を使用して、ファイルの保存先を選択してください。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>The import engine will try to make a best guess for the name of the file you are trying to import.
+In the event that it cannot figure out what the file name is it will use the following methods:</string>
+		<translation>インポート エンジンはあなたがインポートしようとしているファイルに適切な名前を付けます。ファイル名が何であるかを理解することができない場合は、以下のメソッドを使用します：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;HTTP and HTTPS&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;HTTP と HTTPS&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>In the event that the filename for an HTTP import can not be determined, the file will be
+named based on the host name of the server the file was imported from. For example, importing
+http://www.xaraya.com/ would return a file with the name of www_xaraya_com.html</string>
+		<translation>HTTPインポートはファイル名を決めることができないと、ファイルがインポートされたサーバーのホスト名に基づいて命名します。例えば、http://www.xaraya.com/からインポートすることはwww_xaraya_com.htmlの名前でのファイル名を返します</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Due to the underlying nature of the FTP protocol, it is impossible to successfully access a file
+on a system without providing a viable file name. In this case, no file name 'guessing' will be
+attempted and the import will fail.</string>
+		<translation>FTPプロトコルの性質上、存在するファイル名を指定しないでシステム上のファイルにアクセスする事は出来ません。この場合、ファイル名を&quot;憶測&quot;することはできずインポートに失敗します。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Local Imports Sandbox</string>
+		<translation>ローカル インポート送信ボックス</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files can be inserted into your local import sandbox and used immediately by users with sufficient access to
+add files and attach them to hooked objects (articles, comments, etc). Files you place in your local import
+sandbox can be seen in the 'Import Local Files' form immediately upon adding them.</string>
+		<translation>ファイルはあなたのローカル インポート送信ボックスに挿入され、アクセス権限を持ったユーザーによってファイルを追加し、それらフックされたオブジェクト（各種記事、コメント、など）で使うことができます。あなたがローカル インポート送信ボックスに置くファイルは、追加後すぐに「インポート ローカル ファイル」フォームで見られることができます。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>インクルード済みブロック</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks.</string>
+		<translation>インクルード済みブロックはありません。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>インクルード済みフック</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="93" />
+		</references>
+	</entry>
+</translations>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>これは何？</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The webdavserver module exposes the webdav protocol for a Xaraya site.
+A traditional webdav implementation does this by pointing at a certain
+location on the webserver and serving up files from there over WebDAV.</string>
+		<translation>WebdavサーバーモジュールはXarayaサイトにWEBDAVプロトコロルを追加します。伝統的なWEBDAVの使用方法はウェブサーバー上の特定の場所のファイルをWEBDAVを通して使用します。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Xaraya WebDAV implementation exposes a virtual filesystem based on
+the content of the site and (optionally) a location on the server.
+The modules, their itemtypes and the items therein are elements in this
+virtual filesystem which can then be accessed over WebDAV.</string>
+		<translation>XarayaでのWebDAVではサイト内のコンテンツと（オプションでサーバー内の特定した場所）を基本とする仮想ファイルシステムを使用します。モジュール、そのアイテムタイプ、アイテムがこの仮想ファイルシステム上の要素となり、WebDAVを通してアクセスできるようにします。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>WebDAV runs as a webservice in Xaraya, like xmlrpc and soap, so it's entry
+point is ws.php instead of index.php.</string>
+		<translation>WebDAVはxmlrpcやsoapと同じようにXarayaのウェブサービスとして動作します。ですので、エントリーポイントはindex.phpではなくws.phpになります。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>どうやって使うの？</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>After the usual install through the modules module the WebDAV server is operational
+and doesn't need any configuration in Xaraya itself. However because we need a virtual
+filesystem root, we need a mapping from the entrypoint (ws.php?type=webdav&amp;amp;path=/) to
+a directory like name where the virtual filesystem starts. To create such a mapping it
+is necessary at this time to create a ReWrite rule in your webserver.</string>
+		<translation>WebDAVサーバーをインストールした後は、Xarayaでの設定は一切ありません。ですが、仮想ファイルシステムを開始する上でエントリーポイント(ws.php?type=webdav&amp;amp;path=/）からディレクトリへのマッピングが必要になります。そのようなマッピングを作成する場合、ReWriteルールをウェブサーバーで設定してください。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>The easiest way (i think) to create such a rewrite rule is to place a .htaccess file in
+the webroot where xaraya is installed with similar contents as shown below:</string>
+		<translation>（作者が思う）簡単な方法は.htaccessファイルをXarayaのルートディレクトリに配置し、以下のような設定を行うことです。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>The specific contents of this file may differ in your situation, but there are a number
+of elements in it which should be present. The actual rewrite rule is at line 5.</string>
+		<translation>状況により変わるとは思いますが、指定すべき要素は沢山あります。実際のリライトルールは5行目です。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>Some remarks on the above:</string>
+		<translation>上記の注意点として：</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Line 1 turns the ReWriteEngine on for Apache, this may not be
+necessary if you have this already enabled.</string>
+		<translation>１行目はApacheのReWriteエンジン用で、すでに動作している場合は必要ありません</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>I needed line 2 because some things in my webroot are symbolic links to
+somewhere else, Line 2 makes sure they are followed through</string>
+		<translation>２行目は私のウェブルートはどこか別のディレクトリへのシンボリックリンクですので必要となります。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>The rewriterule on line 4 says i forbid access to the .htaccess file itself</string>
+		<translation>４行目は.htaccessファイルへのアクセスを禁止します</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>The key line in the .htaccess file is line 5. You'll notice the word 'webdav' in there
+and the entrypoint for the webdavserver. What this line does is if a request comes in at host.com/content/ over webdav
+Xaraya actually executes host.com/ws.php?type=webdav&amp;amp;path=/content/</string>
+		<translation>５行目ではwebdavという単語がありエントリーポイントをさしています。この行が何をさしているかというと、例えばhost.com/content/にWebdabを通してアクセスした場合、Xarayaはhost.com/ws.php?type=webdab&amp;amp;path=/content/をポイントします。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>After this the /content/ is the root of the virtual filesystem Xaraya will create and:</string>
+		<translation>この/content/をXarayaの仮想ファイルシステムでのルートにした後は、</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>will be the location to point your WebDAV to.</string>
+		<translation>がWebDAVをポイントする場所になります。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Limitations</string>
+		<translation>制限事項：</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>Requires PHP version 4.3 later than August 2003</string>
+		<translation>PHP4.3以降を必要とします。</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Apache with mod_rewrite is needed</string>
+		<translation>Apacheとmod_rewriteが必要です</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+</translations>

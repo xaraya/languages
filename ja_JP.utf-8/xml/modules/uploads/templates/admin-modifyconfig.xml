@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Modify Uploads Configuration</string>
+		<translation>アップロード設定の修正</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads Directory</string>
+		<translation>アップロード ディレクトリー</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the full path to the directory where uploaded and external import files will be placed.
+It is stronly recommended that this directory be located outside of your web directory.
+&lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
+		<translation>これはアップロードされた外部のインポートファイルが置かれるディレクトリーのフルパスです。このディレクトリーはWebディレクトリーの外（ドキュメントルートの外）に置くことを推奨します。&lt;/ br&gt;メモ：このディレクトリーはWebサーバーが書き込めるようにする必要があります。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Trusted Directory:</string>
+		<translation>信頼できるディレクトリー：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the full path to the local trusted directory. Files located in this directory will
+be immediately available for users to attach to other objects (ie: articles). Files in this directory
+are &lt;strong&gt;not&lt;/strong&gt; counted in the disk usage summary totals. It is strongly recommended
+that this directory be located outside of your web directory.
+&lt;br /&gt;NOTE: This directory MUST be readable and should also be writable by the webserver.</string>
+		<translation>これはローカルの信頼できるディレクトリーへのフルパスです。このディレクトリにあるファイルは、ユーザーが他のオブジェクトに利用することが可能です（例：記事など）。このディレクトリのファイルはディスク使用サマリー合計で数えられません。このディレクトリーはWebディレクトリーの外（ドキュメントルートの外）に置くことを推奨します。&lt;/ br&gt;メモ：このディレクトリーは読み込み可能でWebサーバーによる書き込みが可能でなければなりません。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Maximum Upload Size in bytes (commas are fine):</string>
+		<translation>バイトでの最大アップロード サイズ （コンマが必要）：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the maximum size an uploaded file may be.&lt;br /&gt;
+NOTE: The server wide PHP setting, if set to a lower value, &lt;em&gt;will&lt;/em&gt; override this setting.
+Please ask your web host provider for details on the settings that they use for uploaded files.</string>
+		<translation>これはアップロードされる最大サイズです。&lt;br /&gt;メモ：サーバーのPHP.iniのアップロードサイズを確認して下さい。この値が低いと、&lt;em&gt;設定が上書き&lt;/em&gt;されます。あなたのウェブホストプロバイダに、アップロードで使用する設定についての詳細を確認して下さい。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto approve files added by:</string>
+		<translation>自動認可ファイルの追加：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>No one</string>
+		<translation>許可しない</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Everyone</string>
+		<translation>誰でも</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="64" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="68" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option allows you to make all newly added files' status set to approved for Everyone (not recommended), Admins only, or No One.</string>
+		<translation>このオプションは新しくファイルの追加を許可するステータスを作成します。利用可能なステータス設定は「誰でも（推奨しません）」「管理者のみ」「許可しない」。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm deletion of files:</string>
+		<translation>削除ファイルの確認：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirmation must be provided before files are deleted.</string>
+		<translation>ファイルを削除する前に確認して下さい。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto purge files marked as 'rejected':</string>
+		<translation>自動的に一掃ファイルを'拒否'するようにマークします：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Normally, when you reject files, you have to manually purge them by clicking on
+the 'Purge Rejected' button located on the &lt;em&gt;Admin-&gt;Uploads-&gt;View page&lt;/em&gt;. This
+option forces any file you set to 'rejected' status to be deleted right away.</string>
+		<translation>通常、ファイルを拒否する場合、&lt;em&gt;管理- アップロード- ページを見る&lt;/em&gt;ボタンをクリックする事で手動で拒否しなければなりません。このオプションは、あなたが'拒否'ステータスを設定した全てのファイルをすぐに削除します。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>Obfuscate/Secure Imported Files:</string>
+		<translation>曖昧/安全なインポートファイル：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>If Yes, imported files will be stored with their original names obfuscated for added security.</string>
+		<translation>もし”はい”にチェックした場合はファイル名はセキュリティ向上のため曖昧な名前に変更されます</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>Obfuscate/Secure Uploaded Files:</string>
+		<translation>曖昧/安全なアップロードファイル：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>If Yes, uploaded files will be stored with their original names obfuscated for added security.
+&lt;br /&gt;
+&lt;strong style=&quot;color: red;&quot;&gt;NOTE:&lt;/strong&gt;Setting this option to 'No' can open a possible route for users
+to upload and run malicious scripts on your site. It is &lt;strong&gt;highly&lt;/strong&gt;
+recommended that you leave this option on unless you have a thorough understanding
+of the implications behind turning it off.</string>
+		<translation>もし”はい”にチェックした場合はファイル名はセキュリティ向上のため曖昧な名前に変更されます。&lt;br /&gt;
+&lt;strong style=&quot;color: red;&quot;&gt;注：&lt;/strong&gt;この設定を&quot;いいえ&quot;にした場合はユーザーは悪意のあるスクリプトをアップロードして実行できる可能性があります。このオプションを”はい”に設定することを強くお勧めします。”いいえ”に設定する場合は危険性を十分に理解した上で行ってください。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic File Upload Property Configuration</string>
+		<translation>ダイナミック ファイル アップロード プロパティー設定</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="163" />
+		</references>
+	</entry>
+	<entry>
+		<string>These settings allow you to redefine certain characteristics of the FileUpload DynamicData Property.
+These settings only take effect if you have 'hooked' the uploads module to the module using the
+FileUpload property.</string>
+		<translation>これらの設定はFileUploadダイナミックプロパティを再定義します。これらの設定はアップロードモジュールをそのプロパティを使用するモジュールにフックしない限り効果が現れません。</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="170" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select available file sources for the FileUpload Property:</string>
+		<translation>ファイルアップロード プロパティーに利用するファイル ソースを選択して下さい：</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="175" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: be sure to choose at &lt;strong&gt;least&lt;/strong&gt; one!</string>
+		<translation>メモ：少なくとも&lt;strong&gt;1つ&lt;/strong&gt;は選んで下さい！</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="180" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files located in the Trusted directory</string>
+		<translation>信用するディレクトリーに置かれたファイル</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>Externally located files (http / ftp / file)</string>
+		<translation>外部に置かれたファイル（http / ftp / file）</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="203" />
+		</references>
+	</entry>
+	<entry>
+		<string>User uploaded files</string>
+		<translation>ユーザーがアップロードしたファイル</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="215" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files previously stored</string>
+		<translation>以前に保存されたファイル</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="227" />
+		</references>
+	</entry>
+</translations>

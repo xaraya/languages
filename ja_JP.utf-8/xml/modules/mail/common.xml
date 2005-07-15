@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Submit</string>
+		<translation>登録</translation>
+		<references>
+			<reference file="modules/mail/xaradmin/compose.php" line="31" />
+			<reference file="modules/mail/xaradmin/modifyconfig.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong arguments to mail_adminapi</string>
+		<translation>不正な引数：mail_adminapi</translation>
+		<references>
+			<reference file="modules/mail/xaradminapi/_sendmail.php" line="61" />
+			<reference file="modules/mail/xaradminapi/sendmail.php" line="61" />
+			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Configuration</string>
+		<translation>設定をテスト</translation>
+		<references>
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="31" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>モジュール#(4):関数#(3)()で不正な#(2)の#(1)発生</translation>
+		<references>
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="48" />
+			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="48" />
+			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Administration</string>
+		<translation>メール管理</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="10" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="2" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="10" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="6" />
+		</references>
+	</entry>
+	<entry>
+		<string>Subject</string>
+		<translation>題名</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="36" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Message</string>
+		<translation>メッセージ</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="45" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails will not be sent.</string>
+		<translation>スケジューラの停止、またはトリガーの停止している場合はスケジュールメールは送信されません</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="36" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="331" />
+		</references>
+	</entry>
+</translations>

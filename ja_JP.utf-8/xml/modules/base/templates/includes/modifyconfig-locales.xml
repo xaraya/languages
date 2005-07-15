@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Mode of operation</string>
+		<translation>オペレーション モード</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>The multilanguage system (MLS) works in three different modes.</string>
+		<translation>マルチランゲージ システム(MLS)は3つの異なるモードで働きます。</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="12" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
+with the mbstring extension compiled in.</string>
+		<translation>UNBOXEDを使用するにはマルチ言語システムはPHP4.3.0以上でmbstringが有効になっている必要があります。</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Single language mode (SINGLE)</string>
+		<translation>単一の言語モード（シングル）</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
+built in. All information is stored coherently with the chosen character set (at installation time),
+and also user data is meaningful in the chosen character set.</string>
+		<translation>マルチ言語システムは大抵シングルバイトの1種類の文字セットを使用します。ですがmbstringが有効であればマルチバイト文字セットを使用することもできます。全ての情報はインストール時に選択した文字列で保存され、ユーザデータは使用する文字セットでも十分可読になります。</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Per page mode (BOXED)</string>
+		<translation>BOXEDモード</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
+above can be applied here), but only one character set per page is used (this is an obvious concept maybe,
+but important to understand). Due to this fact content cannot be shared across through different
+language areas (for example an Arabic comment won't be shown in the English area even if
+they are referring to the same object, e.g. an article available in both English and Arabic).
+Another point is that every operation involves only a single language. This mode can produce
+unexpected results if mb_string is not installed.</string>
+		<translation>MLSではひとつ以上の文字セットを使用することができます（シングル、マルチバイトでの考察と同じようなことがここでも当てはまります）。ですが、ひとつの文字セットがページ毎にしようされます（BOXED）。そのためコンテンツは全ての言語で表示されるわけではありません（例えば同じオブジェクトがアラビア語と英語で有効であってもアラビア語のコメントは英語ページでは表示されません）。そのほかに、全てのオペレーションでひとつの言語を使用している場合に、このモードを使用するとmbstringが有効でない限り予期しない結果を引き起こすこともあります。</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is installed on this server, so you can give this mode a try</string>
+		<translation>このサーバーにインストールされていますのでこのモードを試すことが出来ます</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
+		<translation>警告：mbstringがインストールされていません。</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Full multilanguage (UNBOXED) (experimental!)</string>
+		<translation>フルマルチ言語（UNBOXED）（実験的段階）</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
+conversion is needed for the content representation. Every page is always shown according to
+the user chosen language, but the page can contain texts in other languages
+(for example a French article and comments inside an English page).</string>
+		<translation>MLSはユニバーサル文字セットを使用して全てを表現します（詳細は：UTF-8）。これは変換を必要としません。どのページもユーザの指定した言語で表示されます。ですがこのモードの場合はテキストが多言語で表示される可能性もあります。（例：フランス語の記事に対して英語のコメントなど）</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Language/Locale Configuration</string>
+		<translation>言語/地域 設定</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following locales are available to this site:</string>
+		<translation>以下の地域が利用できます：</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Locale</string>
+		<translation>地域</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>Active</string>
+		<translation>アクティブ</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default locale to load</string>
+		<translation>デフォルトロケール</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Locale</string>
+		<translation>デフォルトロケール</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Timezone Configuration</string>
+		<translation>タイムゾーン設定</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Timezone</string>
+		<translation>タイムゾーン</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="131" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>Translations backend</string>
+		<translation>翻訳バックエンド</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>The translated information for xaraya and her modules can be stored in different back-ends. The following back-ends are supported:</string>
+		<translation>Xarayaとモジュールの翻訳された情報は違うバックエンドとして保存することが出来ます。以下のバックエンドが利用できます：</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="141" />
+		</references>
+	</entry>
+	<entry>
+		<string>Translations Backend</string>
+		<translation>翻訳バックエンド</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="146" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>XML (good for interoperability)</string>
+		<translation>XML（相互運用に便利）</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP (good for programmed access)</string>
+		<translation>PHP(Runtimeではこちらが速い）</translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="152" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
+		</references>
+	</entry>
+</translations>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>APPROACH # 1a : the &amp;lt;xar:data-view ...&amp;gt; tag</string>
+		<translation>APPROACH # 1a : &amp;lt;xar:data-view ...&amp;gt;　タグ</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the list of items from DynamicData,
+and present them according to its user-objectview.xd template.</string>
+		<translation>このタグは自動的にダイナミックデータからアイテムを取得し、対応したuser-objectview.xdテンプレートによって表示されます。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 1b : the &amp;lt;xar:data-view ...&amp;gt; tag with parameters</string>
+		<translation>APPROACH # 1b : &amp;lt;xar:data-view ...&amp;gt; タグ（パラメータ付）</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here's an example that uses the layout=&quot;list&quot;, and linkfield=&quot;name&quot;
+to tell DynamicData which field should be linked to a display of the item. It also
+uses fieldlist=&quot;name,age&quot; to show only a selected list of fields.</string>
+		<translation>このサンプルでは、layout=&quot;list&quot;とlinkfield=&quot;name&quot;を使用して、どのアイテムを表示するかを指定します。またfieldlist=&quot;name,age&quot;のように必要なフィールドを指定することも出来ます。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>See the admin list for an example... We'll skip this one here, since we'll be retrieving 'properties' and 'values'
+via the module code instead, with the next approach.</string>
+		<translation>例えば管理者リストの場合・・・私たちはここでの説明は省略します。理由は次のステップでモジュールコードを使用したプロパティと値を取得するからです。</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object list via API, you can pass along the whole object list to the template and use &amp;lt;xar:data-view object=&quot;...&quot;&amp;gt; (see admin list),</string>
+		<translation>APIでオブジェクトリストを取得した後に、全てのオブジェクトをテンプレートに渡します。そこで、&amp;lt;xar:data-view object=&quot;...&quot;&amp;gt;を使用します</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>or pass along the properties and values and work like in APPROACH # 2. We'll use that here...</string>
+		<translation>または、APPROACH # 2のように行うことも可能です。ここではそれを使用します・・・</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Display</string>
+		<translation>表示</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="69" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="101" />
+		</references>
+	</entry>
+</translations>

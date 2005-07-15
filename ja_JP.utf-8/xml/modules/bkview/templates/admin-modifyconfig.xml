@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Search capability</string>
+		<translation>検索機能</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable searching</string>
+		<translation>検索機能を追加する</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>(Search module not available)</string>
+		<translation>（検索モジュールが利用できません）</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>By hooking search into bkview we enable the search results screen provide by the search
+module (GUI hook) and by hooking bkview into search module, we expose the bkview search
+function to the search module (API) hook</string>
+		<translation>検索モジュールのGUI機能拡張でBkviewに検索結果を表示させる画面を追加したり、Bkviewモジュールの機能を検索モジュールに拡張することによってBkview検索を行うことが出来ます。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>By clicking the checkbox these hooks will be enabled for you, so you dont have to do this
+manually</string>
+		<translation>チェックすることで、それぞれのフックを一度に行うことが出来ます。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Request method</string>
+		<translation>リクエストメソッド</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use an XMLHTTP request method</string>
+		<translation>XMLHTTPリクエストメソッドを使用</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>BK-view can use an XML http request for all links in the module. This means that only the
+module area is fetched from the server and dynamically replaced, and not the whole theme with it. If you have a site
+configuration which is suitable this can speed up the access to bkview considerably. This option works
+only with browsers which have support for the XMLHTTPRequest object (Opera has not, for example).</string>
+		<translation>BKViewモジュールでは他のモジュールのリンクにXML HTTP リクエストを使用することができます。これはサーバからモジュールエリアのみを取り込みテーマ全体を置き換えるのではなく、モジュールエリアのみ置き換えることを可能にします。このようなサイト設定がされているのならばBKViewサーバへのアクセスは改善されます。この機能はブラウザのXMLHTTPリクエストサポートが必須となります（Operaはサポートされていません）。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Setting this wont break the site if your clients browser does not support the xmlhttprequest object, it
+should gracefully fall back to a normal page request, so it's safe to set this to ON if you like.</string>
+		<translation>この設定では、サポートされていないブラウザがアクセスした場合に自動的に通常ページを表示しますので、利用したい場合は設定してください。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>These are the &lt;em&gt;known&lt;/em&gt; issues:</string>
+		<translation>既知の問題点：</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>You will have to have the module.xt page template (included in recent distributions) on the server, otherwise the
+speed increase is considerably less, because the whole page will be fetched regardless.</string>
+		<translation>module.xtテンプレートページが必要です。テンプレートを見つけられない場合ペー人全体での処理を行うため性能はは低下します。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you have page caching enabled, and bkview pages are normally cached, this option will defeat this. This needs
+to be fixed eventually. For now, if you have page caching, this option will still work, but the page wont be cached
+in the output cache. In your configuration, you'll have to test what is the optimal configuration.</string>
+		<translation>ページキャッシュを使用している場合はBKViewページもキャッシュされなければならないのですがこの機能を追加することによってBKviewページのキャッシュに問題が発生します。これは修正しなければなりませんが、現状ではページキャッシュを使用しているばあにこの機能は有効に動作しますが、キャッシュはされません。設定で最適の状態をテストしてみてください。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not really an issue, because it is by design, but worth mentioning is that this technique basically NEVER
+refreshes the page. This has two major consequences:</string>
+		<translation>それほどの問題ではないですが、構造上ページをリフレッシュすることがありません。そのため２つの動作を引き起こします：</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>The back button (history functionality) will not be updated while navigating bkview.&lt;br/&gt;
+UPDATE: An emulation for this has been implemented.</string>
+		<translation>BKViewページを閲覧している状態ではバックボタンのための履歴が更新されます。&lt;br /&gt;アップーデート：この機能のためのエミュレーションが実装されました。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic blocks which base their content on the &lt;em&gt;current page&lt;/em&gt; will keep their content as if still on the
+main page of the bkview module.</string>
+		<translation>現在のダイナミックブロック内のコンテントがBKViewモジュールのメインページにそのまま表示されてしまいます。</translation>
+		<references>
+			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="89" />
+		</references>
+	</entry>
+</translations>

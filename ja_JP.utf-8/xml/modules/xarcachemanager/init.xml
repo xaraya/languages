@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>The xarCacheManager module upgrade has failed.
+Please make #(1) writable by the web server process
+owner to complete the upgrade. If #(1) does not exist,
+please make #(2) writable by the web server process and
+#(1) will be created for you.</string>
+		<translation>キャッシュマネージャモジュールアップグレードに失敗しました。アップグレードを完了するには#(1)を書き込み可能なパーミッションに設定してください。 #(1)が存在しない場合は#(2)を書き込み可能にしてください。#(1)は自動的に作成されます。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="122" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module upgrade has failed.
+The #(1) directory is missing, and the #(2) is not
+writable by the web server process owner. Please
+make #(2) writable by the web server process owner
+to complete the upgrade. Alternatively, the #(1)
+directory can be manually created. #(1) must be
+writable by the web service process owner for
+output caching to work.</string>
+		<translation>キャッシュマネージャモジュールアップグレードに失敗しました。#(1)ディレクトリがありません、また#(2)が書き込み不可能です。#(2)を書き込み可能な設定にしなおしてからアップグレードしてください。または、#(1)ディレクトリを手動で作成し書き込み可能な設定にしなおしてください。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="309" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) directory must be writable by the web server
+for the install script to set up output caching for you.
+The xarCacheManager module has not been installed,
+please make the #(1) directory writable by the web server
+before re-trying to install this module.
+Alternatively, you can manually create the #(2) directory
+and copy the #(3) file to #(4) - the #(2) directory and
+the #(4) file must be writable by the web server for
+output caching to work.</string>
+		<translation>#(1)ディレクトリが書き込み不可能ですのでインストールスクリプトが出力キャッシュ設定を完了できませんでした。キャッシュマネージャーモジュールはインストールされていません。#(1)ディレクトリを書き込み可能に設定してからもう一度モジュールをインストールしてください。または、Alternatively, you can manually create the #(2)ディレクトリを手動で作成し、#(3)ファイルを#(4)へコピーしてください。#(2)ディレクトリと#(4)ファイルを書き込み可能に設定してください。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="482" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) file must be writable by the web server for
+output caching to work.</string>
+		<translation>出力キャッシュを使用するためには＃(1)ファイルが書き込み可能でなければなりません。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="496" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) directory is not writable by the web
+web server. The #(1) must be writable by the web
+server process owner for output caching to work.
+Please change the permission on the #(1) directory
+so that the web server can write to it.</string>
+		<translation>#(1)ディレクトリは書き込み不可能な設定になっています。#(1)は出力キャッシュを使用するために書き込み可能に設定しなければなりません。#(1)ディレクトリのパーミッション設定を変更してください。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="517" />
+		</references>
+	</entry>
+</translations>

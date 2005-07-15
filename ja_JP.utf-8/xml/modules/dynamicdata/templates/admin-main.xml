@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Many modules are basically dealing with the equivalent of real-life objects, like news articles, projects, surveys, race tracks or whatever.</string>
+		<translation>沢山のモジュールは基本的に現実のオブジェクト（ニュース、記事、プロジェクト、サーベイ、レーストラック、その他）を扱います。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Those &quot;objects&quot; each have a number of &quot;properties&quot;, like an item id, a title, an author, a deadline or a number of VIP places, and their data is generally stored in some dedicated module table.</string>
+		<translation>これらの&quot;オブジェクト&quot;はそれぞれアイテムID,タイトル、製作者、機嫌、VIPプレースなどのプロパティを持ち、そのデータはモジュールテーブルに保存されます。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>The whole management of the object instances (creation, modification, display, deletion, ...) is typically hard-coded in the module, and tightly wired to the underlying data structure, which makes it difficult to e.g. add another property to your objects without rewriting half the module code (and templates).</string>
+		<translation>一般的にオブジェクトのインスタンスを扱う（作成、編集、表示、削除など）というのはモジュール内にコーディングされてデータ構造と密接に結び付けられています。この場合プロパティの追加などはコードとテンプレートを再構築しなければなりません。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Dynamic Data module allows you to dynamically add properties to your module objects, and to integrate them with the rest of the site without much effort - regardless of whether you're the module developer, a third-party solution designer or the website admin.</string>
+		<translation>モジュール開発者、第三者のソリューション提供者、サイト管理者であれだれでも、ダイナミックデータモジュールは動的にオブジェクトにプロパティを追加し、サイトに統合することが簡単にできるようになっています。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>And no-one says you're limited to existing modules - you could just as easily create whole new objects by defining their properties and telling the Dynamic Data module where their data should be coming from : dedicated module tables, dynamic data fields (auto-generated), some utility module from Xaraya or a user function you'll specify.</string>
+		<translation>もちろん既存のモジュールだけでなく、プロパティを定義しダイナミックデータモジュールにデータソース、専用モジュールテーブル、データフィールド（自動生成）、Xarayaやユーザ機能を指定することによって新しいオブジェクトを簡単に作成することが出来ます。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>The starting point for all this is of course the admin interface...</string>
+		<translation>スタートポイントは管理者インターフェースです・・・</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>2. Admin interface of the Dynamic Data module</string>
+		<translation>2.ダイナミックデータモジュール：管理者インターフェース</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Explain property types, data sources, validation, input &amp;amp; output representation</string>
+		<translation>プロパティタイプ、データソース、検証、入出力の表現を説明</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>3. Using the &amp;lt;xar:data-* ...&amp;gt; tags in your templates</string>
+		<translation>3.&amp;lt;xar:data-*...&amp;gt;をテンプレートで使用する</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.a. User view and admin list (for several items)</string>
+		<translation>3.a　ユーザビューと管理者リスト（複数回）</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>1) if you want to get the dynamic properties and values for your items, and include them somewhere in your own view/list</string>
+		<translation>１）ダイナミックプロパティと値をアイテムに格納させ、ビュー/リストで表示する</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Available tags : (replace 'users', '&amp;#36;uidlist' and '&amp;#36;uid' with your own)</string>
+		<translation>利用可能タグ：('users',&amp;#36;uidlist' and '&amp;#36;uid'を独自のものに置き換える）</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>this retrieves the dynamic properties defined for the 'users' module,
+and their value for all items listed in &amp;#36;uidlist. You'll need to build
+that uid list in your module function and pass it along to the template</string>
+		<translation>これはユーザーモジュールで定義されたダイナミックプロパティを取得し、その値を&amp;#36;uidlistに格納します。uidリストをモジュール関数で作成し、テンプレートに渡さなければなりません。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the label for dynamic property</string>
+		<translation>これは、ダイナミックプロパティのラベルを表示します。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid, i
+formatted for output</string>
+		<translation>これは、主力用のアイテム&amp;#36;uidのダイナミックプロパティ&amp;#36;nameの値を表示します。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid,
+formatted for input</string>
+		<translation>これは入力用のアイテム&amp;#36;uidのダイナミックプロパティ&amp;#36;nameの値を表示します</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sample use :</string>
+		<translation>例：</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (somewhere near the beginning of your template) ...</string>
+		<translation>．．．（テンプレートの最初のほうで）</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>avoid errors when the dynamic data module isn't activated</string>
+		<translation>ダイナミックデータモジュールがアクティブでない場合のエラー回避</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="108" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="120" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="135" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (when you're building some table headers, and you want to add labels for the dynamic properties) ...</string>
+		<translation>...（テーブルヘッダーを構築するとき、ダイナミックにラベルを追加する）...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (when you're looping over the individual items, and you want to add the dynamic values for item &amp;#36;uid) ...</string>
+		<translation>...（アイテムをループさせるときは、&amp;#36;uidのダイナミック値を追加する）...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>avoid errors if the value isn't defined for this
+item (yet)</string>
+		<translation>アイテムの値がセットされていない場合のエラー回避</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>2) if you want to show a standard list of items, with all the dynamic properties that are defined for that object</string>
+		<translation>２）アイテムのダイナミックプロパティをを表示する標準的なリストを作成するには</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>Idem for</string>
+		<translation>同上</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="180" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="238" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="250" />
+		</references>
+	</entry>
+	<entry>
+		<string>(Todo : group, join ?)</string>
+		<translation>(Todo : group, join ?)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="186" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.b. User display and admin form (for one item)</string>
+		<translation>3.b ユーザディスプレイと管理者アイテム（1アイテム）</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>1) if you want to get the dynamic properties for this item, and include them manually in your own display</string>
+		<translation>1）このアイテムのプロパティを取得し、独自の表現を行うには</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="196" />
+		</references>
+	</entry>
+	<entry>
+		<string>this retrieves the dynamic properties defined for the 'users' module
+and item &amp;#36;uid. Note that we don't use value=&quot;...&quot; here, since we only
+have one item</string>
+		<translation>これはユーザモジュールからダイナミックプロパティとアイテム&amp;#36;uidを取得します。1アイテムしか取得しないので、ここではvalue=&quot;...&quot;の形を使用しません。</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="201" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (where you want to add the dynamic labels and values for this item) ...</string>
+		<translation>...（アイテムにラベルと値をついかする）...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="206" />
+		</references>
+	</entry>
+	<entry>
+		<string>Idem for input forms, where you'd use &amp;lt;xar:data-input ... /&amp;gt; to show input fields</string>
+		<translation>インプットフォームと同じ：where you'd use &amp;lt;xar:data-input.../&amp;gt; to show input fields</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="219" />
+		</references>
+	</entry>
+	<entry>
+		<string>2) if you simply want to display the dynamic properties for this item (= easier in most cases)</string>
+		<translation>2)アイテムのダイナミックプロパティを単純に表示する場合(=ほとんどの場合簡単です）</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="224" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use the default layout of user-objectdisplay.xd</string>
+		<translation>これはデフォルトのuser-objectdisplay.xdを使用します</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="227" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use layout 'mylayout' of user-objectdisplay.xd</string>
+		<translation>これはuser-objectdisplay.xdのレイアウト”mylayout&quot;を使用します</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="230" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use the template user-objectdisplay-myusers.xd</string>
+		<translation>これはuser-objectdisplay-myusers.xdテンプレートを使用します</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="233" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.c. User output and admin input (for one field of an item)</string>
+		<translation>3.c ユーザアウトプット＆管理者インプット（1フィールド）</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="243" />
+		</references>
+	</entry>
+	<entry>
+		<string>4. Using hooks</string>
+		<translation>4.フックの使用</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="255" />
+		</references>
+	</entry>
+	<entry>
+		<string>deprecated</string>
+		<translation>非推奨</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="265" />
+		</references>
+	</entry>
+	<entry>
+		<string>5. Using API calls</string>
+		<translation>5.APIコール使用</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="272" />
+		</references>
+	</entry>
+	<entry>
+		<string>property types</string>
+		<translation>プロパティタイプ</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="278" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="305" />
+		</references>
+	</entry>
+	<entry>
+		<string>dynamic objects and object lists</string>
+		<translation>ダイナミックオブジェクト＆オブジェクトリスト</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="283" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="310" />
+		</references>
+	</entry>
+	<entry>
+		<string>dynamic properties</string>
+		<translation>ダイナミックプロパティ</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="288" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="315" />
+		</references>
+	</entry>
+	<entry>
+		<string>items : getitems(), getitem(), getfield()</string>
+		<translation>アイテム：getitems(), getitem(), getfield()</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="293" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="320" />
+		</references>
+	</entry>
+	<entry>
+		<string>6. Using OO programming</string>
+		<translation>6.オブジェクト指向プログラミング</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="299" />
+		</references>
+	</entry>
+	<entry>
+		<string>7. Customising Dynamic Data</string>
+		<translation>7.ダイナミックデータカスタマイズ</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="326" />
+		</references>
+	</entry>
+	<entry>
+		<string>templates, data sources, functions, validation, ...</string>
+		<translation>テンプレート、データソース、関数、検証...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="331" />
+		</references>
+	</entry>
+	<entry>
+		<string>8. Integrate utility modules via hooks or dynamic data (or both) ?</string>
+		<translation>8.フックまたはダイナミックデータ（または両方）を使ったユーティリティモジュールの組み込み</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="336" />
+		</references>
+	</entry>
+	<entry>
+		<string>9. Import/export utilities</string>
+		<translation>9.インポート/エクスポートユーティリティ</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="341" />
+		</references>
+	</entry>
+	<entry>
+		<string>Usage : Export object definitions and/or data - and import them elsewhere...</string>
+		<translation>使用方法：オブジェクト定義とデータをエクスポート－他でインポート</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="346" />
+		</references>
+	</entry>
+	<entry>
+		<string>[+ Easter Egg : util meta -&amp;gt; export to XML -&amp;gt; save to file -&amp;gt; util import -&amp;gt; access your whole database via DD]</string>
+		<translation>[+Easter Egg: util meta -&amp;gt; export to XML -&amp;gt; ファイルに保存 -&amp;gt; util import -&amp;gt; データベースにDDを通してアクセス]</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="351" />
+		</references>
+	</entry>
+</translations>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>Configure Query Caching</string>
+		<translation>クエリーキャッシュ設定</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-queries.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Queries in the following functions could be quite expensive for large sites.
+Even if you don't use page or module output caching, you might consider using query caching
+to save the results of individual database queries here.</string>
+		<translation>以下の関数に含まれるクエリーは大規模なサイトでは非常にコストが高くつきます。ページキャッシュやモジュール出力キャッシュを使用しないでも、それぞれのデータベースクエリーをキャッシュすることをお考えください。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-queries.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that cached query results will only be invalidated based on expiration time (for now ?).</string>
+		<translation>注：クエリーの結果をキャッシュすると有効期限が切れた時のみ無効になります。</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-queries.xd" line="45" />
+		</references>
+	</entry>
+</translations>

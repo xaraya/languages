@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ja_JP.utf-8">
+	<entry>
+		<string>LDAP Server Configuration</string>
+		<translation>LDAPサーバー設定</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>The LDAP server settings are also configurable from the</string>
+		<translation>LDAPサーバー設定は次のリンクでからでも設定できます</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Server Name or IP</string>
+		<translation>LDAPサーバー名またはIPアドレス</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Server Port Number</string>
+		<translation>LDAPサーバーポート番号</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note:</string>
+		<translation>注：</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string>
+		<translation>もしサーバー名に&quot;ldap://&quot;または&quot;ldaps://&quot;が含まれる場合はポート番号は無視されます、その代わりにサーバー名に&quot;ldaps://サーバー名:ポート番号&quot;のように設定してください。</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Anonymously Bind to Server</string>
+		<translation>匿名でのサーバーへのBind</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Bind DN</string>
+		<translation>LDAP bind DN</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP UserID Field Name</string>
+		<translation>LDAP ユーザーIDフィールド名</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search User DN</string>
+		<translation>ユーザーDN検索</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Admin ID</string>
+		<translation>LDAP管理者ID</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Admin Password</string>
+		<translation>LDAP管理者パスワード</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use TLS (LDAP Protocol 3 only)</string>
+		<translation>TLSを使用する（プロトコル３のみ）</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Authentication Configuration</string>
+		<translation>認証設定</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>Activate authentication module</string>
+		<translation>認証モジュールをアクティブに設定する。</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string>
+		<translation>LDAPサーバーが認証に利用できない場合、Xarayaの認証システムをフェイルオーバーシステムとして使用することが出来、これはLDAP認証が出来ないときにのみ起こります。LDAPバインドが成功し、ユーザーが認証できない場合にはフェイルオーバーシステムとしては働きません。</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string>
+		<translation>LDAPサーバーが利用不可能な場合にXaraya認証を許可しますか？</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Configuration</string>
+		<translation>ユーザー設定</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string>
+		<translation>ユーザーがLDAPサーバーに登録されており、Xarayaにアカウントがない場合、ユーザーはログインすることが出来ません。下のオプションを選択し、属性の値を入力することで、LDAPのユーザーアカウント情報は自動的にXarayaデータベースに追加され、ログイン可能になります。</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="156" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add LDAP User to Xaraya Database on Login</string>
+		<translation>LDAPユーザーをXarayaデータベースに追加する</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="161" />
+		</references>
+	</entry>
+	<entry>
+		<string>Store User's LDAP Password in the Xaraya Database?</string>
+		<translation>ユーザーのLDAPパスワードをXarayaデータベースで保存しますか？</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="173" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Username Attribute Name</string>
+		<translation>LDAP　ユーザー名の属性名</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="187" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Email Attribute Name</string>
+		<translation>LDAP　メールアドレスの属性名</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="195" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Group</string>
+		<translation>デフォルトグループ</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="203" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click &quot;Submit&quot; to change configuration:</string>
+		<translation>更新ボタンを押して設定を保存してください</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="220" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation>更新</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="224" />
+		</references>
+	</entry>
+</translations>
