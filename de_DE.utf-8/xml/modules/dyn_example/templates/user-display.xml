@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+	<entry>
+		<string>Display a Dynamic Example</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the item from DynamicData,
+and present it according to its user-objectdisplay.xd template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will retrieve the properties of this item from DynamicData and
+make them available in the 'properties' variable in your template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use that variable to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>let's be bold now</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="40" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="67" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 3 : getting the object via API</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;,</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>or pass along the properties and work like in APPROACH # 2.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notice for instance that you don't get the option to automatically display the image with &amp;lt;xar:data-output ... &amp;gt; or not here.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="98" />
+		</references>
+	</entry>
+</translations>
