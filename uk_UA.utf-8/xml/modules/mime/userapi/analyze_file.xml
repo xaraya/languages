@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="uk_UA.utf-8">
+	<entry>
+		<string>Unable to retrieve mime type. No filename supplied!</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mime/xaruserapi/analyze_file.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to analyze file [#(1)]. Cannot open for reading!</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mime/xaruserapi/analyze_file.php" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to seek to offset [#(1)] within file: [#(2)]' ,
+                                      $magicInfo['offset'], $fileName);
+                        xarExceptionSet(XAR_SYSTEM_EXCEPTION, 'FILE_NO_SEEK</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mime/xaruserapi/analyze_file.php" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to read (#(1) bytes) from file: [#(2)].' , 
+                                 $magicInfo['length'], $fileName);
+                    xarExceptionSet(XAR_SYSTEM_EXCEPTION, 'FILE_NO_READ</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mime/xaruserapi/analyze_file.php" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to rewind to beginning of file: [#(1)]</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mime/xaruserapi/analyze_file.php" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to read (256 bytes) from file: [#(1)]</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mime/xaruserapi/analyze_file.php" line="123" />
+		</references>
+	</entry>
+</translations>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="uk_UA.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>Що це?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Privileges module lets you manage &lt;b&gt;access rights&lt;/b&gt; on your site.  Privileges give roles access to certain resources of your choosing. They are the basic components of the security system.</string>
+		<translation>Модуль привілеїв дозволяє керувати &lt;b&gt;правами доступу&lt;/b&gt; на Вашому сайті. Привілеї надають або обмежують доступ ролей (користувачів або груп) до певних ресурсів на Ваш вибір. Привілеї  - це основні компоненти системи безпеки.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here are some of the things you can do with privileges</string>
+		<translation>Ось дещо, що можна робити з привілеями</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
+		<translation>Привілеї Зарайї надзвичайно гнучкі. Ви можете визначити привілеї на рівні сайтів, модулів, компонентів, класів компонентів в межах модулів або окремих примірників цих класів.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use privileges as building blocks. Assemble them into compound privileges tailored to any specific role on the site.</string>
+		<translation>Можна використовувати привілеї як будівельні блоки. Зберіть їх у складені привілеї призначені для будь-якої специфічної ролі на сайті.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can assign privileges to roles which then pass them on to their children in the roles hierarchy through inheritance.</string>
+		<translation>Можна призначати привілеї ролям, які потім передають їх своїм потомкам в ієрархії ролей через успадкування.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites sharing the same resources.</string>
+		<translation>Використовуючи функціональність областей, можна підрозділяти один сайт на багато &quot;віртуальних&quot; сайтів, які використовують ті самі ресурси.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Як цим користуватись?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
+		<translation>Клацання на &quot;Переглянути Привілеї&quot; дасть вам огляд всіх привілеїв у вашій системі. Складні привілеї подаються в скороченому вигляді, але можна клацнути на них, щоб відкрити і переглянути їхні компоненти.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges</string>
+		<translation>При додаванні або зміні привілею, ви можете визначити, що пиривілей буде мати свої власні права доступу, або просто служитиме контейнером для інших привілеїв.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are</string>
+		<translation>Зарая поступає налаштована з мінімальним набором привілеїв, які завантажуються при встановленні програми. Привілеї можуть відрізнятись, що залежить від від вибраної вами конфігурації. Наприклад:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administration&lt;/b&gt;: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
+		<translation>&lt;b&gt;Адміністрування/Administration&lt;/b&gt;: привілей, який надає ролі цілковитий доступ до всіх ресурсів сайту. При встановленні програми цей привілей надається ролі Administrators (Адміністратори) і успадкопується користувачем Admin.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;CasualAccess&lt;/b&gt;: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
+		<translation>&lt;b&gt;ЗвичайнийДоступ/CasualAccess&lt;/b&gt;: цей привілей надається незареєстрованим користувачам сайту. Він початково визначений, щоб надати дозвіл перегляду титульної сторінки, а також доступ до блока входу в систему.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;GeneralLock&lt;/b&gt;: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
+		<translation>&lt;b&gt;ЗагальнийЗамок/GeneralLock&lt;/b&gt;: привілей, який обмежує доступ до деяких основних ролей і привілеїв необхідних для функціонування системи, напр. admin. Призначений для захисту від випадкового видалення.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock above this takes a bit more doing.) You can also combine privileges by using them as elements to create compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges you can create or their levels of nesting.</string>
+		<translation>Всі привілеї системи можуть бути змінені або видалені. (Ті, що захищені ЗагальнимЗамком вище, вимагають трохи більше зусиль). Можна скласти привілеї використовуючи їх як окремі елементи для створення складених привілеїв. Немає обмеження на кількість привілеїв та їх рівень вкладання складених привілеїв.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Включені блоки</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>Немає включених блоків</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Включені хуки</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks.</string>
+		<translation>Немає включених хуків.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>Розширену інформацію про цей модуль можна знайти в</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+</translations>
