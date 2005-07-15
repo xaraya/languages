@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+	<entry>
+		<string>The Administration section of the Ledger module lets you manage master tables and other data that normally do not change during day-to-day operations, or that are naturally reserved to be viewed and changed by the administrator(s) of the accounting system.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>In general access to these areas should be restricted to persons with an advanced understanding of accounting and a working knowledge of the Ledger module.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can define master tables for the Ledger module such as applicable currencies and the chart of accounts. In some cases these allow import and export of XML data.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Following the Modify Config link you can set default values for the system, such as accounts for posting or applicable taxes.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Ledger module works on the basis of a cascading series of default values. If a required value cannot be found at a lower level, it is looked for at higher levels until an appropriate value is found.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>As an example take the applicable VAT for an invoice. Under Modify Config a global default can be set for VAT, When a customer is created this value is initially assumed unless another VAT is entered.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>In turn when an invoice is raised, the initial VAT value is defaulted to the rate of the customer the invoice is applied to, until it is manually changed.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ledger/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+</translations>

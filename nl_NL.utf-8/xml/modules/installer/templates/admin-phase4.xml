@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+	<entry>
+		<string>Database Settings Collection</string>
+		<translation>Database instellingen</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>Voer de instellingen voor uw database in. U kunt een verbinding maken op 'niet-standaard' poortnummers door 'server:poort' te gebruiken in het 'Server' veld (bijv. 'localhost:12345')</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
+		<translation>Als u geen beheerderstoegang heeft tot uw database (bijvoorbeeld omdat uw database bij een provider draait), dient u een voorgedefinieerde configuratie te gebruiken.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
+		<translation>Opwaardering opmerking: Als u van plan bent om Xaraya op te waarderen van een vorige versie of van een andere Weblog/CMS, installeer dan als normaal, maar volg dan een van de opwaardeer scripts.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Information</string>
+		<translation>Database informatie</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Host</string>
+		<translation>Server</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Name</string>
+		<translation>Database naam</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Table Prefix</string>
+		<translation>Tabel voorvoegsel</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>(for Table Sharing)</string>
+		<translation>(voor het delen van tabellen)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Type</string>
+		<translation>Database type</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>[not available]</string>
+		<translation>[niet beschikbaar]</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create the database</string>
+		<translation>Maak een nieuwe database aan</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
+		<translation>Deze optie geeft aan of er een nieuwe database moet worden aangemaakt voor u door het installatiescript of dat er een al bestaande database wordt gebruikt. Als u zelf geen database kunt aanmaken met bijv. phpMyAdmin omdat u bijvoorbeeld shared hosting gebruikt, dan kan het installatiescript geen database voor u aanmaken. De installatie procedure kan dan alsnog een bestaande database vullen met data (LET OP: bestaande Xaraya data gaat hierdoor verloren als de tabellen dezelfde naam hebben. Maak altijd eerst een BACKUP van uw bestaande data)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="88" />
+		</references>
+	</entry>
+</translations>

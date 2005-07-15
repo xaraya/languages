@@ -1,0 +1,74 @@
+<div class="xar-mod-head">
+    <span class="xar-mod-title">
+        <xar:mlstring>Newsletter</xar:mlstring>
+    </span>
+</div>
+<br />
+#$menu#
+<div class="xar-mod-body">
+    <div class="contentBorder">
+        <div style="text-align: left;margin: auto;">        
+            <br />
+            <form action="#xarModURL('newsletter', 'admin', 'updateconfig')#" method="post" enctype="application/x-www-form-urlencoded" >
+                <input type="hidden" name="authid" id="authid" value="#$authid#" />
+                <table border="0" cellpadding="2">
+                    <tr>
+                        <td colspan="2" align="left">
+                            <b><xar:mlstring>Bulk Email</xar:mlstring></b>
+                            <br />
+                            <xar:mlstring>Bulk email will send one email and bcc (blind carbon copy) all subscribers.</xar:mlstring>
+                            <br />
+                            <xar:mlstring>The email From address will be the publisher's email address.</xar:mlstring>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <xar:mlstring>Enable Bulk Email:</xar:mlstring>
+                        </td>
+                        <td align="left">
+                            <input type="checkbox" name="bulkemail" id="bulkemail" value="1" #$bulkemail# tabindex="1"/>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="left">
+                            <b><xar:mlstring>Active Users</xar:mlstring></b>
+                            <br />
+                            <xar:mlstring>Send newsletter only to active users.  This does not include alternative subscriptions.</xar:mlstring>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <xar:mlstring>Send to active users:</xar:mlstring>
+                        </td>
+                        <td align="left">
+                            <input type="checkbox" name="activeusers" id="activeusers" value="1" #$activeuserschecked# tabindex="2"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="left">
+                            <b><xar:mlstring>Short URL Support</xar:mlstring></b>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <xar:mlstring>Enable Short URL Support:</xar:mlstring>
+                        </td>
+                        <td align="left">
+                            <input type="checkbox" name="shorturls" id="shorturls" value="1" #$shorturlschecked# tabindex="3"/>
+                        </td>
+                    </tr>
+                </table>
+                <center>
+                <input type="submit" value="#$updatebutton#"  tabindex="3" />
+                </center>
+            </form>
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td>#$hooks#</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

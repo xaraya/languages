@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+	<entry>
+		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
+		<translation>Uw PHP configuratie mist waarschijnlijk de benodigde LDAP extensie. Zie http://www.php.net/manual/en/ref.ldap.php voor installatie hulp.</translation>
+		<references>
+			<reference file="modules/authldap/xarinit.php" line="23" />
+			<reference file="modules/xarldap/xarldap.php" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Connection to server #(1) port_number #(2) failed</string>
+		<translation>LDAP Fout: Verbinding met server #(1) poort nummer #(2) mislukt</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to set LDAP Protocol version to 3</string>
+		<translation>LDAP Fout: Het instellen van LDAP protocol versie 3 is mislukt</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to start TLS</string>
+		<translation>LDAP Fout: TLS kon niet gestart worden</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Search LDAP base_dn #(1) filter #(2) failed</string>
+		<translation>LDAP Fout: Zoeken in LDAP base_dn #(1) en filter #(2) mislukt</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="268" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty password (#(1)).</string>
+		<translation>Leeg wachtwoord (#(1)).</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="595" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty body (#(1)).</string>
+		<translation>Lege body (#(1)).</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="631" />
+		</references>
+	</entry>
+	<entry>
+		<string>AuthLDAP Administration</string>
+		<translation>AuthLDAP Beheer</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="1" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="3" />
+		</references>
+	</entry>
+</translations>
