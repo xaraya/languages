@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>Empty regid (#(1)).</string>
+		<translation>Regid (#(&amp;)) vide</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/activate.php" line="19" />
+			<reference file="modules/modules/xaradminapi/deactivate.php" line="17" />
+			<reference file="modules/modules/xaradminapi/update.php" line="18" />
+			<reference file="modules/modules/xaradminapi/updatehooks.php" line="17" />
+			<reference file="modules/modules/xaradminapi/upgrade.php" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to execute &quot;activate&quot; function in the xarinit.php file of module (#(1))</string>
+		<translation>Impossible d'executer la fonction &quot;Activer&quot; dans le fichier xarinit.php du module (#(1))</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/activate.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module name #(1) is already in use</string>
+		<translation>Nom de module #(1) déjà utilisé</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/add_module_alias.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing module regid (#(1)).</string>
+		<translation>Regid (#(1)) du module manquant.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/deactivatewithdependents.php" line="24" />
+			<reference file="modules/modules/xaradminapi/getalldependencies.php" line="23" />
+			<reference file="modules/modules/xaradminapi/getalldependents.php" line="22" />
+			<reference file="modules/modules/xaradminapi/initialise.php" line="18" />
+			<reference file="modules/modules/xaradminapi/installwithdependencies.php" line="23" />
+			<reference file="modules/modules/xaradminapi/removewithdependents.php" line="24" />
+			<reference file="modules/modules/xaradminapi/verifydependency.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module to be deactivated (#(1)) is not active nor upgraded</string>
+		<translation>Le module à désactiver (#(1)) n'est ni actif ni à jour</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/deactivatewithdependents.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to deactivate module &quot;#(1)&quot;.</string>
+		<translation>Impossible de désactiver le module &quot;#(1)&quot;.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/deactivatewithdependents.php" line="59" />
+			<reference file="modules/modules/xaradminapi/removewithdependents.php" line="40" />
+			<reference file="modules/modules/xaradminapi/removewithdependents.php" line="49" />
+			<reference file="modules/modules/xaradminapi/removewithdependents.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>callerModName or hookModName</string>
+		<translation>appelModName ou crochetModName</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/disablehooks.php" line="24" />
+			<reference file="modules/modules/xaradminapi/enablehooks.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to get dependencies for module with ID (#(1)).</string>
+		<translation>Impossible de récupérer les dépendances pour le module avec l'ID (#(1)).</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getalldependencies.php" line="71" />
+			<reference file="modules/modules/xaradminapi/getalldependents.php" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>View list of all installed modules on the system</string>
+		<translation>Voir la liste de tous les modules installés sur le système</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="17" />
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>View All</string>
+		<translation>Voir tout</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="18" />
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Set various options</string>
+		<translation>Configurer les options</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extend the functionality of your modules via hooks</string>
+		<translation>Etendre les fonctionnalités de vos modules grâce aux crochets</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configure Hooks</string>
+		<translation>Configurer les crochets</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use these tools to build and verify elements of modules.</string>
+		<translation>Utilisez ces outils pour construire et vérifier les éléments des modules.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>View recent release information for certified modules within the last week.</string>
+		<translation>Voir les informations sur les modules certifiés sorties durant la dernière semaine.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Certified Releases</string>
+		<translation>Sorties certifiées</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>The dependencies to initialize the module &quot;#(1)&quot; were not met.</string>
+		<translation>Les dépendances pour initialiser le moduyle &quot;(#1)&quot; n'ont pas été atteintes.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/initialise.php" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module initialisation failed because the function (#(1)) returned false</string>
+		<translation>L'initialisation du module a échoué car la fonction (#(1)) à renvoyé False</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/initialise.php" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module initialisation failed because your module did not include an init function</string>
+		<translation>L'initialisation du module a échoué car votre module ne contient pas de fonction d'initialisation</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/initialise.php" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module state change failed</string>
+		<translation>Le changement d'état du module a échoué</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/initialise.php" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to initialize dependecy module with ID (#(1)).</string>
+		<translation>Impossible d'initialiser les dépendances du module avec l'ID (#(1)).</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/installwithdependencies.php" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to initialize module &quot;#(1)&quot;.</string>
+		<translation>Impossible d'initialiser le module &quot;#(1)&quot;.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/installwithdependencies.php" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to activate module &quot;#(1)&quot;.</string>
+		<translation>Impossible d'activer le module &quot;#(1)&quot;.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/installwithdependencies.php" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty regid (#(1)) or state (#(2)).</string>
+		<translation>Regid (#(1)) ou état (#(2)) vide.</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/setstate.php" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid module state transition</string>
+		<translation>Etat de transition de module invalide</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/setstate.php" line="68" />
+			<reference file="modules/modules/xaradminapi/setstate.php" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid module name</string>
+		<translation>Nom de module invalide</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/updatehooks.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>No such module</string>
+		<translation>Pas de tel module</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/upgrade.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module has been upgraded, now inactive</string>
+		<translation>Le module a été mis à jour, il est maintenant inactif</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/upgrade.php" line="78" />
+		</references>
+	</entry>
+</translations>

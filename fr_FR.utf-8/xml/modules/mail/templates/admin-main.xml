@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>Vue d'ensemble</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Qu'est-ce que c'est ?</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The mail module controls the ways that your Xaraya system sends mail to users or groups of users.  This module is a utility module and takes information from other modules installed on your Xaraya system and formats the mail for them.  This module at its heart is using the</string>
+		<translation>Le module de Courrier contrôle la façon dont votre système Xaraya envoi les mails à vos utilisateurs ou à vos groupes d'utilisateurs. Ce module est un module de service qui prends l'informations d'autres modules installés sur votre système et formate leurs mails pour eux. Ce module utilise pour le traitement les classes</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>phpmailer</string>
+		<translation>phpmailer</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>classes for processing.  These classes extend Xaraya to allow you to use SMTP, SendMail or the normal PHP Mail functions.</string>
+		<translation>. Ces classes permettent au système d'utiliser les fontions SMTP, SendMail ou PHP Mail pour envoyer les mails.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Comment l'utiliser ?</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the menu, you have two choices.</string>
+		<translation>Vous avez deux choix dans le menu.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>&quot;Modify Configuration&quot;.  From this menu option, you can update the necessary configuration options, such as the email address that you want to send from, reply to address, type of mail system to use, etc.</string>
+		<translation>'Modifier la configuration' : Vous pouvez mettre à jour les différentes options de configuration, comme l'adresse d'envoi, celle de réponse, le type de système de mails à utiliser, etc.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>&quot;Test Configuration&quot;.  From this menu option you can test your mail system configuration.</string>
+		<translation>&quot;Tester la Configuration&quot;. Vous pouvez tester la configuration de votre environement de courrier.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Scheduling mail</string>
+		<translation>Courrier programmé</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Other modules can request that a certain mail be sent no earlier than a specific time.</string>
+		<translation>Certains modules peuvent demander qu'un mail soit envoyé à une heure précise.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>This will have no effect unless you install the 'scheduler' module first.</string>
+		<translation>Cela n'aura aucun effet sauf si vous installez le module 'scheduler' avant.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>In order to support that, you can configure the mail module to use the 'scheduler' and check if any mails need to be sent e.g. every x hours. Otherwise, those mails will be sent immediately.</string>
+		<translation>Pour activer cett prise en charge, vous devez configurer le module de mail pour utiliser le module 'scheduler' qui vérifiera si des mails doivent être envoyés toutes les x heures (par exemple). Sinon les mails seront envoyés immédiatement.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Blocs inclus</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Mail Module has no blocks included at this time.</string>
+		<translation>Le module de Courrier n'a pas de blocs inclus actuellement.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Crochets inclus</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>The mail hook allows you to send an email to the site admin when something (content, users, etc) is created or deleted.  This can be configured in the modules module.</string>
+		<translation>Le crochet Courrier vous permet d'envoyer un e-mail à l'administrateur du site quand quelque chose (contenu, utilisateur, etc) est créé ou supprimé. Cette option peut-être configurer dans le module Modules.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Des informations supplémentaires sur ce module peuvent être trouvées ici. [modules module]</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+</translations>

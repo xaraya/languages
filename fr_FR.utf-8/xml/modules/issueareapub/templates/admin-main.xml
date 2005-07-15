@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>The Issue Area Publication module allows an individual or organization to compile and distribute news and research updates to interested parties via email.  This module gives writers, editors, and publishers a comprehensive process to easily assemble the stories for an issue area and subsequently publish the information to a subscription base.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;  This overview is focused on the administrative tasks that must be performed before a publication can be created.  For an overview of Issue Area Publication, please refer to the overview in the main menu.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>As the module administrator, you will need to complete the following steps before you can start using the Issue Area Publication module:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>1.  Configure Roles and Privileges</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>As the module administrator, you must configure the necessary roles and privileges for the Issue Area Publication publishers, editors and writers.  You can create the groups and privileges manually or can you use the adminstration modify configuration menu to easily create the default groups and privileges.  After these groups and privileges have been created, you can then add a user to the publisher, editor or writer group.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>To add the groups and privileges, select Modify Configuration from the Issue Area Publication administration menu.  By default, the groups are assigned to the Everybody role.  You can select the default groups and privileges to be created or you can set which role to assign these groups and change the default privilege for each group.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;IssueAreaPublisher&lt;/b&gt; (AdminIssueAreaPub privilege)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can create, edit and delete stories, issues, publications and subscriptions.  Can set configuration for the information block.  Can publish issues.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;IssueAreaEditor&lt;/b&gt; (DeleteIssueAreaPub privilege)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can create, edit and delete stories or issues.  Cannot publish issues.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;IssueAreaWriter&lt;/b&gt; (AddIssueAreaPub privilege)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can add, edit or delete stories.  Cannot publish issues.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Once the groups and privileges are created, you do not need to modify the admin configuration unless you want to change the privilege of a group.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.  Add an Issue Area Publication user</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>After the Issue Area Publication groups and privileges have been successfully created, you can add users to these groups.  Select &quot;Add IAP User&quot; from the Issue Area Publication administration menu to add a user.   Once a user has been added to the appropriate group, that user will have writer, editor or publisher privileges and will be able to start creating content for a publication.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;  You will not be able to create a publication until at least one user is added to the IssueAreaPublisher group.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.  Add publication and story categories</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>When the module is first activated, a category named &quot;Issue Area Publication&quot; is created.  You must created sub-categories of this master category before a publication can be created.   Each sub-category of &quot;Issue Area Publication&quot; will be a publication category.  Under each publication category, you will want to create another set of categories corresponding to the story categories for each publication.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>For example:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>master category</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Learning Differences</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>publication category</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="83" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>LD Experts in the News</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>story category</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="89" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="95" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="101" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="107" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="118" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="124" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="130" />
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>Education / Schools</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Successful People</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Controversial Treatment</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>Internet Technology</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>Design and Architecture</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Emerging Technologies</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>Networks and Infrastructure</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="129" />
+		</references>
+	</entry>
+	<entry>
+		<string>Standards and Practices</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="135" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;  The stories within a publication will ordered in the same order as the story categories, so place the story categories accordingly.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following blocks are included:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;information&lt;/b&gt; - This block provides the following:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>- General information about the publications that a user can subscribe to.  This information is created in the Issue Area Publication user modify configuration screen in the text fields &quot;Publisher or Company Name&quot; and &quot;Information about Issue Area&quot;</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="153" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows non-registered users to view past issues.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows logged in users to modify their subscription(s) to the publications.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="155" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="161" />
+		</references>
+	</entry>
+	<entry>
+		<string>Issue Area Publication provides all the necessary hooks to be present within other modules.  But these hooks have not been thoroughly tested.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/issueareapub/xartemplates/admin-main.xd" line="165" />
+		</references>
+	</entry>
+</translations>

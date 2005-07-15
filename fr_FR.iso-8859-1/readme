@@ -1,0 +1,77 @@
+/**
+ * File: $Id$
+ *
+ * Pack Langage Francais
+ *
+ * @package Xaraya eXtensible Management System
+ * @copyright (C) 2003 by the Xaraya Development Team.
+ * @link http://fr.xaraya.com
+ *
+ * @subpackage fr_FR.iso-8859-1
+*/
+
+1 - Licence
+2 - Crédits
+3 - Participer à la traduction
+4 - Installation
+5 - Historique des modifications
+
+===============================================
+Licence Pack Langage Français fr_FR.iso-8859-1
+===============================================
+Ce pack de traduction est distribué sous licence GNU GENERAL PUBLIC LICENCE Version 2 (GPL2)
+(le descriptif de cette licence peut-être trouvé dans le pack noyau dans le répertoire /docs/)
+
+===============================================
+Credits Pack Langage Français fr_FR.iso-8859-1
+===============================================
+
+Responsables :
+	Camille Perinel (kams@xaraya.com)
+
+Contributeurs :
+	Theo (net-assemblee@alterlinks.com)
+
+===============================================
+Participer à la traduction
+===============================================
+Vous pouvez participer à la traduction de plusieurs manières :
+- En réalisant des corrections/améliorations/modifications sur les traductions existantes
+- En créant une partie ou la totalité d'une traduction manquante
+
+Pour tous cela, prenez contact avec un des responsables à travers le newsgroup correspondant à votre langue.
+(news.xaraya.com ou http://www.xaraya.com/newsgroups/)
+
+===============================================
+Installation du langage français iso-8859-1
+===============================================
+Requis :
+	Noyau Xaraya 0.9.1.2 ou supérieur
+	Module Traduction (disponible dans les modules Xaraya ou dans le package complet)
+
+
+1) Installez et activez le module de traduction
+2) Copiez (ou créez un lien symbolique sous linux/unix/...) le répertoire fr/fr_FR.iso-8859-1/
+dans le répertoire var/locales/ de votre site.
+3) Connectez vous en administrateur à votre site
+4) Dans la configuration du module Traduction -> Modify config,
+Vous devez voir ceci :
+        Mode :  SINGLE
+        Default locale : en_US.iso-8859-1
+        Available locales : en_US.iso-8859-1
+        Translation Backend : XML ou PHP selon vos besoins
+
+Vous devez arriver à ceci :
+Mode :  BOXED
+        Default locale : fr_FR.iso-8859-1
+        Available locales : en_US.iso-8859-1,fr_FR.iso-8859-1
+        Translation Backend : XML ou PHP selon vos besoins
+
+
+Vous pouvez également configurer le bloc du module role language afin de
+pouvoir changer la langue depuis un bloc.
+
+===============================================
+Historique des modifications
+===============================================
+

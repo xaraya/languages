@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>Administration - Uploads</string>
+		<translation>Administration - Uploads</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Qu'est ce que c'est ?</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads is a Xaraya Utility Module.</string>
+		<translation>Uploads est un module utilitaire de Xaraya.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is currently responsible for accomplishing these tasks:</string>
+		<translation>Il est habituellement responsable de l'accomplissement de ces tâches :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows for the importing of files into the Xaraya system either locally or externally.</string>
+		<translation>Autorise l'importation de fichier dans le système Xaraya aussi bien localement que externalement.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows the managing of access to files via privileges.</string>
+		<translation>Autorise la gestion des accès aux fichiers via les privilèges.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Comment l'utiliser ?</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>External Imports and Uploads</string>
+		<translation>Imports externes et uploads</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files that are uploaded or imported from external locations can be saved in the database (DB) 
+                    or stored in the filesystem (FS). Use the options (FS/DB) under each form to select the 
+                    storage location for your file.</string>
+		<translation>Les fichiers qui sont uploadés ou importés depuis un emplacement externe peuvent être sauvegardés dans la base de données (DB) ou stockés dans le système de fichiers (FS). Utilisez les options (FS/DB) sous chaque formulaire pour choisir l'emplacement de stockage de vos fichiers.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>The import engine will try to make a best guess for the name of the file you are trying to import. 
+                    In the event that it cannot figure out what the file name is it will use the following methods:</string>
+		<translation>Le moteur d'importation essayera d'affecter un nom adéquat au fichier que vous tentez d'importer. Dans l'éventualité où il ne pourrait pas déterminer le nom du fichier, il utilisera la méthode suivante :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;HTTP and HTTPS&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;HTTP et HTTPS&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>In the event that the filename for an HTTP import can not be determined, the file will be 
+                                named based on the host name of the server the file was imported from. For example, importing
+                                http://www.xaraya.com/ would return a file with the name of www_xaraya_com.html</string>
+		<translation>Dans l'éventualité où le nom de fichier pour un import HTTP ne pourrait être déterminé, il sera alors nommé sur la base du nom d'hôte du serveur depuis lequel il est importé. Pas exemple, importer http://www.xaraya.com/ donnera comme nom de fichier www_xaray_com.html</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Due to the underlying nature of the FTP protocol, it is impossible to successfully access a file 
+                                on a system without providing a viable file name. In this case, no file name 'guessing' will be 
+                                attempted and the import will fail.</string>
+		<translation>A cause de la nature sous-jacente du protocole FTP, il est impossible d'accèder avec succès à un fichier sur un système sans fournir un nom de fichier viable. Dans ce cas, aucune tentative de nommage &quot;deviné&quot; du fichier ne sera faite et l'import échouera.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Local Imports Sandbox</string>
+		<translation>Répertoire local protègé d'imports</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files can be inserted into your local import sandbox and used immediately by users with sufficient access to 
+                    add files and attach them to hooked objects (articles, comments, etc). Files you place in your local import
+                    sandbox can be seen in the 'Import Local Files' form immediately upon adding them.</string>
+		<translation>Des fichiers peuvent être insérés dans votre répertoire local protègé d'imports et utilisés immédiatement par les utilisateurs ayant les droits d'accès suffisant pour ajouter des fichiers et les attacher aux objets accrochés (articles, commentaires,...). Les fichiers que vous placez dans votre répertoire local protègé d'imports peuvent être vu dans le formulaire &quot;Importer des fichiers locaux&quot; immédiatement après les avoir ajouté.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Blocks inclus</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks.</string>
+		<translation>Il n'y a aucun block inclu</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Crochets inclus</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="93" />
+		</references>
+	</entry>
+</translations>

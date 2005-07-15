@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>Qu'est-ce que c'est ?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Privileges module lets you manage &lt;b&gt;access rights&lt;/b&gt; on your site.  Privileges give roles access to certain resources of your choosing. They are the basic components of the security system.</string>
+		<translation>Le module Privilège vous permet de contrôler les &lt;b&gt;droits d'accès&lt;/b&gt; de votre site. Les privilèges donnent l'accès aux rôles à certaines ressources de votre choix. Ils sont les composants de base du système de sécurité.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here are some of the things you can do with privileges</string>
+		<translation>Voici certaines des choses que l'ont peut faire avec les privilèges</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
+		<translation>Les privilèges du système sont très flexible. Vous pouvez définir des privilièges au niveau du site, des modules, des classes de composant dans les modules ou d'une instance unique d'une de ces classes.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use privileges as building blocks. Assemble them into compound privileges tailored to any specific role on the site.</string>
+		<translation>Vous pouvez employer des privilèges comme constructeur de blocs. Assemblez-les dans des privilèges composés conçus pour n'importe quel rôle spécifique sur le site.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can assign privileges to roles which then pass them on to their children in the roles hierarchy through inheritance.</string>
+		<translation>Vous pouvez assigner des privilèges aux rôles qui les transmettent alors à leurs enfants dans la hiérarchie de rôles par l'héritage.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites sharing the same resources.</string>
+		<translation>En utilisant la fonctionnalité de domaine vous pouvez subdiviser un site en plusieurs sites &quot;virtuels&quot; partageant les mêmes ressources.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Comment l'utiliser ?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
+		<translation>Cliquer sur le lien 'Voir les privilèges' vous donne une vue d'ensemble de tous les privilèges sur votre système. Des privilèges composés sont réduits, mais vous pouvez cliquer dessus pour les ouvrir et pour regarder leurs composants.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges</string>
+		<translation>En ajoutant ou modifiant un privilège, vous pouvez définir s'il aura ses propres droits d'accès, ou s'il servira simplement de conteneur à d'autres privilèges.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are</string>
+		<translation>Xaraya est livré préconfiguré avec un jeu de privilèges minimal, chargés durant l'installation. Ceci variera en fonction de la configuration choisie. Exemples </translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administration&lt;/b&gt;: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
+		<translation>&lt;b&gt;Administration&lt;/b&gt; : un privilège qui donne l'accès complet à toutes les ressources sur le site. A l'installation, ce privilège est assigné au rôle Administrators et est hérité par l'utilisateur Admin.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;CasualAccess&lt;/b&gt;: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
+		<translation>&lt;b&gt;CasualAccess&lt;/b&gt; : Ce privilège est assigné aux visiteurs du site. Il est initialement défini pour permettre la visualisation de la page d'accueil ainsi que du bloc d'identification.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;GeneralLock&lt;/b&gt;: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
+		<translation>&lt;b&gt;GeneralLock&lt;/b&gt; : Ce privilège restreint l'accès à certain roles et privilèges dont le système a besoin, comme l'Admin par défaut. Ceci pour éviter une suppression par inadvertance.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock above this takes a bit more doing.) You can also combine privileges by using them as elements to create compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges you can create or their levels of nesting.</string>
+		<translation>Tous les privilèges du système peuvent être modifiés ou supprimés (pour ceux protègés par le GeneralLock ci-dessus cela demande un peu plus de travail...). Vous pouvez aussi combiner des privilèges en les utilisant comme des éléments pour créer des privilèges composés ou créer un privilège de votre choix. Il n'y a pas de limite au nombre de privilèges que vous pouvez créer ainsi qu'a leur imbrication.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Blocs inclus</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>Il n'y a pas de blocs inclus</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Crochets inclus</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks.</string>
+		<translation>Il n'y a pas de crochets inclus</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>Des informations supplémentaires à propos de ce module peuvent être trouvées sur la</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+</translations>
