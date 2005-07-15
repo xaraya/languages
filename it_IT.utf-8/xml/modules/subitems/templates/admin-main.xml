@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="it_IT.utf-8">
+	<entry>
+		<string>Administration - Example</string>
+		<translation>Amministrazione - esempio</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Sommario</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Che cos'e'?</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module allows you to create and display sub-items for any module item. In the words of the author :</string>
+		<translation>Questo modulo ti permette di creare e mostrare sottoelementi per ciascun elemento di un modulo.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;For example, if you want to have a pubtype &quot;cooking recipe&quot;. This
+pubtype could be to store the ingredients of the meal, thus there would
+be required a list of input fields: ingredient1, quantity1,
+pic1(extended info :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;
+&lt;p&gt;The disadvantage of this is the high number of fields to ensure, that
+there your users aren't going against the limit. Furthermore there are
+always displayed all input fields. And of course it's not a very nice
+way to do it.&lt;/p&gt;
+&lt;p&gt;As I didn't know how to do this better, I had a dream about a module,
+which can be hooked from any other module and which is able to display /
+provide editing / etc. for subitems to an item. I had a dream about a
+table, which saves the information, which DD-Object stores the subitems
+of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which
+DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object
+(1 to n Relation). I had the dream to share my module with the community.
+Now, the module is here, and all dreams got true. If you didn't get my
+technical information, don't worry. &lt;/p&gt;</string>
+		<translation>&lt;p&gt;Per esempio, se vuoi avere un tipo di pubblicazione &quot;ricette&quot;, devi avere una serie di campi input per gli ingredienti (ingrediente1, quantita'1, figura1, ingrediente2, quantita2, figura2, etc...)&lt;/p&gt;&lt;p&gt;Lo svantaggio e' che questo richiede un alto numero di campi, che vengono mostrati anche se rimarranno vuoti. Questo modulo invece ti permette di richiedere campi solo se necessari.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Come si usa?</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;ol&gt;
+&lt;li&gt; install module&lt;/li&gt;
+&lt;li&gt; goto dynamicdata admin area, new object, create a dynamic data object
+, which should hold the subitem information (you must have one field
+with the ItemID, default 0, display only) -&gt; remember the objectid, edit
+label (used for display) and name (used for custom default template)&lt;/li&gt;
+&lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from
+previsously created dd-object), module name, itemtype&lt;/li&gt;
+&lt;li&gt; goto module modules, hooks -&gt; subitems -&gt; enable the hook for the
+module /itemtype combination, you created the link for&lt;/li&gt;
+&lt;/ol&gt;
+-&gt; now it should work (tested with custom pubtype)</string>
+		<translation>&lt;ol&gt;&lt;li&gt;installa modulo&lt;/li&gt;&lt;li&gt;vai all'amministrazione dati dinamici, nuovo oggetto, crea un oggetto dati dinamici; questo oggetto conterra' le informazioni del sottoelemento; includi un campo con l'identificatore elemento (ItemID), predefinito 0, sola visualizzazione (display only); ricorda l'identificatore oggetto, etichetta e nome (per usarlo nel modello di visualizzaizone) &lt;/li&gt;&lt;li&gt;vai al modulo sottelementi, area dmin, aggiungi link, inserisci l'identificatore oggetto (dall'oggetto dati dinamici appena creato), il nome modulo, il tipo di elemento&lt;/li&gt;&lt;li&gt;vai al modulo moduli, agganci, sottoelementi, abilita l'aggancio per il modulo e tipo di elemento desiderato&lt;/li&gt;&lt;/ol&gt;</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Blocchi inclusi</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>none</string>
+		<translation>nessuno</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Agganci inclusi</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>new/create/modify/update/delete -- Allows you to create/update sub-items</string>
+		<translation>new/create/modify/update/delete -- Ti permette di creare e aggiornare i sottoelementi</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>display -- Allows you to display sub-items</string>
+		<translation>visualizza -- Ti permette di visualizzare i sottoelementi</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+</translations>

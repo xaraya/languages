@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="it_IT.utf-8">
+	<entry>
+		<string>Modify Configuration</string>
+		<translation>Configura</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Global Configuration</string>
+		<translation>Configurazione generale</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Short URLs :</string>
+		<translation>Abilita URL corti:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per Page :</string>
+		<translation>Elementi per pagina :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use Content's Title for EMail Subject:</string>
+		<translation>Usa come titolo della Mail  il titolo dei contenuti:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Include Child Categories in Subscriptions:</string>
+		<translation>Includi nella iscrizione ad una categoria anche le categorie dipendenti :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Configurazione dei moduli agganciati</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
+		<translation>Prima di tutto abilita gli agganci del Modulo Iscrizione aggiornamenti del sito, verso un particolare modulo+itemtype, quindi specifica qui quale modello deve essere utilizzato per la creazione, modifica o eliminazione di un elemento, per lo stesso modulo+itemtype. Se un modello viene configurato come &quot;non supportato&quot;, gli utenti non riceveranno notifiche per quel determinato evento.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Create Hook Calls</string>
+		<translation>Modello per le chiamate di tipo 'Crea'</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Update Hook Calls</string>
+		<translation>Modello per le chiamate di tipo 'Aggiorna'</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Delete Hook Calls</string>
+		<translation>Modello per le chiamate di tipo 'Elimina'</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Scheduled Processing</string>
+		<translation>Configurazione dell'analisi degli eventi programmati</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string>
+		<translation>Per analizzare la coda degli eventi, è necessario prima installare il modulo Scheduler. Successivamente è possibile definire in esso con quale frequenza analizzare la coda degli eventi.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Run Scheduler Job :</string>
+		<translation>Esegui l'analisi degli eventi programmati</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>disabled</string>
+		<translation>disabilitato</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, queued events will not be processed.</string>
+		<translation>Si ricorda che nel caso l'analisi venga interrotta o nel caso in cui non sia previsto per esso un meccanismo di innesco, gli eventi in coda non verranno analizzati.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="102" />
+		</references>
+	</entry>
+</translations>
