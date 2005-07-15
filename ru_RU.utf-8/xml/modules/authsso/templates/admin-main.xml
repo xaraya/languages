@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The AuthSSO module allows Xaraya to automatically log users authenticated by the web server into Xaraya. The original intent was to transparently log in users whose credentials could be passed by their browser to the web server for authentication. Additionally, this module can be used to leverage other authentication mechanisms via its ability to delegate authentication to the web server (say, by having the web server authenticate with mod_auth_pam and then using pam to plug into an external authentication system).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Warning: this module is useless if you do not have your web server set up to authenticate users. Refer to your web server's documentation on how to set this up.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Warning: this module is only as secure as your web server authentication mechanism. It completely trusts the web server to handle user credential processing.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Authentication by AuthSSO is automatically enabled/available once the AuthSSO module has been initialized. To disable AuthSSO authentication, you must remove the module (or disable the webserver authentication, which is a prerequisite of AuthSSO functionality).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the menu, you have one choice. &quot;Modify Config&quot;.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config -- You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>No blocks yet, but one is coming...</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>The AuthSSO module has no hooks included at this time.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>TODO List</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>The 0.02 version of the AuthSSO module is a skeleton proof of concept. There are many &quot;ToDo&quot;s.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Rework to make natively pluggable with external auth systems other than the web server (i.e. allow xaraya to trust the authentication of other external systems, or to validate a ticket issued by a third party SSO product).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Make integration with other external user information options easily configurable and extendable.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow site administrators to configure which modules or pages do not auto sign in the web server authenticated user.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+</translations>

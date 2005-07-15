@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Authinvision Module Overview</string>
+		<translation>Обзор модуля аутентификации в Invision</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Описание</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Authinvision module allows you to authenticate a user with your Invision Board database. The Authinvision module checks the username and password from the login screen against the Invision database and returns true for a match.</string>
+		<translation>Модуль Authinvision позволяет осуществлять аутентификацию пользователя с помощью БД скрипта Invision. Модуль Authinvision проверят имя пользователя и пароль из экрана аутентификации в БД Invision и возвращает значение 'истина' при совпадении.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>Authinvision &lt;strong&gt;does not&lt;/strong&gt; log users into both systems at once, nor does it allow users who register on xaraya to have their user information duplicated in the Invision database. &lt;strong&gt;It is highly suggested that you turn off xaraya registration and use your Invision board's registration/password retrieval process.&lt;/strong&gt;</string>
+		<translation>Authinvision &lt;strong&gt;не&lt;/strong&gt; логинит пользователей в обе системы одновременно и не позволяет пользователям, зарегистрированным в xaraya, копировать свою пользовательскую информацию в БД Invision. &lt;strong&gt;Мы крайне рекомендуем Вам отключить регистрацию в xaraya и использовать процесс регистрации/получения пароля из Вашего форума Invision.&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Использование</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Authentication by Authinvision is automatically set once the the Authinvision module has been initialized. You must configure Authinvision before a user will be able to login to Xaraya. To remove Authinvision authentication, you must remove the module.</string>
+		<translation>Аутентификация через Authinvision автоматически включится после инициализации модуля Authinvision. Вы должны сначала сконфигурировать Authinvision, чтобы пользователи смогли войти в  Xaraya. чтобы удалить аутентификацию через Authinvision, Вы должны удалить модуль.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the menu, you have one choice. &quot;Modify Config&quot;.</string>
+		<translation>В меню администрирования только один пункт - Конфигурация</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config -- From here, you can configure the authinvision server that will be used for authentication. A user that has account information in Invision to be automatically added to the Xaraya database and allowed to login.</string>
+		<translation>Конфигурация -- Вы можете сконфигурировать сервер Invision, который будет использоваться для аутентификации. Пользователь, имеющий учетную запись в Invision, будет автоматически добавлен в БД Xaraya и ему будет разрешен вход в систему.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Включенные блоки</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>usercp: a block that mimics the user links from Invision.</string>
+		<translation>usercp: блок, имитирующий пользовательские ссылки из Invision.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>whos_online.php: a who's online block that replaces the one in the roles module.</string>
+		<translation>whos_online.php: блок &quot;кто в онлайне&quot;, который заменит аналогичный в модуле ролей.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+</translations>

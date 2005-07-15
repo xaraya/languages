@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Preview</string>
+		<translation>Предпросмотр</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="14" />
+			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="41" />
+			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="13" />
+			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to provide your own presentation here, you can specify a
+different layout=&quot;...&quot; to use in the default template, or you can specify your
+own template=&quot;...&quot; here as well.</string>
+		<translation>Если Вы хотите использовать собственный стиль отображения, можете задать другой layout=&quot;...&quot; для использования в шаблоне по умолчанию, или определить собственный шаблон template=&quot;...&quot;.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="19" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="20" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 4 : getting the raw item values via API</string>
+		<translation>Вариант #4 : получение необработанных значений элементов через API</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="77" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="84" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here you'll have to handle the output format of the values yourself - in the module code and/or template...</string>
+		<translation>В этом случае Вы должны обрабатывать формат вывода значений самостоятельно - в  коде модуля и/или шаблона...</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="79" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="86" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Dynamic Examples</string>
+		<translation>Просмотр примера динамических данных</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="8" />
+			<reference file="modules/dyn_example/xaruser/view.php" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 2 : the &amp;lt;xar:data-getitems ...&amp;gt; tag</string>
+		<translation>Вариант # 2 : тег &amp;lt;xar:data-getitems ...&amp;gt;</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="34" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will retrieve the properties and values from DynamicData and
+make them available in the 'properties' and 'values' variables in your template.</string>
+		<translation>Этот тег возвращает свойства и значения из модуля Динамических данных делает их доступными в переменных 'properties' и 'values' вашего шаблона</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="37" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use those variables to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
+		<translation>Вы можете использовать эти переменные при создании вашей собственной схемы расположения. Теги &amp;lt;xar:data-label ...&amp;gt; и &amp;lt;xar:data-output ...&amp;gt; позволят Вам показать индивидуальные заголовки или значения в шаблоне.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="39" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 3 : getting the object list via API</string>
+		<translation>Вариант # 3 : получение списка объектов через API</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="48" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Options</string>
+		<translation>Настройки</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="39" />
+			<reference file="modules/dyn_example/xaradmin/view.php" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>Неверный  #(1) для #(2) в функции #(3)() модуля #(4)</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradmin/modify.php" line="19" />
+			<reference file="modules/dyn_example/xaradmin/delete.php" line="26" />
+			<reference file="modules/dyn_example/xaradmin/update.php" line="21" />
+			<reference file="modules/dyn_example/xaruser/display.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation>Отправить</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradmin/modifyconfig.php" line="46" />
+			<reference file="modules/dyn_example/xaruser/settings.php" line="9" />
+			<reference file="modules/dyn_example/xaruser/usermenu.php" line="42" />
+		</references>
+	</entry>
+</translations>

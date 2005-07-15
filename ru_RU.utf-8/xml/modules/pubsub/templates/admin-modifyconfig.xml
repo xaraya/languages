@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Modify Configuration</string>
+		<translation>Изменение конфигурации модуля</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Global Configuration</string>
+		<translation>Общая Конфигурация</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Short URLs :</string>
+		<translation>Разрешить &quot;короткие&quot; URL :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per Page :</string>
+		<translation>Элеменов на странице :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use Content's Title for EMail Subject:</string>
+		<translation>Использовать заголовки контента как тему письма:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Include Child Categories in Subscriptions:</string>
+		<translation>Включать дочерние категории в подписку:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Конфигурирование модулей, использующих хуки Рассылки</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
+		<translation>&lt;b&gt;Описание:&lt;/b&gt; сначала включите хуки для соответствующего модуля + тип элемента, после этого, укажите здесь какой шаблон должен использоваться для соответствующих событий в этом модуле (элементе модуля).</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Create Hook Calls</string>
+		<translation>Шаблон для вызовов хука Создание</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Update Hook Calls</string>
+		<translation>Шаблон для вызовов хука Обновление</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Delete Hook Calls</string>
+		<translation>Шаблон для вызовов хука Удаление</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Scheduled Processing</string>
+		<translation>Конфигурирование обработок Планировщика</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string>
+		<translation>&lt;b&gt;Описание:&lt;/b&gt; для обработки поставленных в очередь (запланированных) событий, необходимо установить модуль Планировщик ('scheduler'). После этого вы сможете указать здесь, с какой периодичность обрабатывать список событий.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Run Scheduler Job :</string>
+		<translation>Запуск запланированных действий :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>disabled</string>
+		<translation>отключен</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, queued events will not be processed.</string>
+		<translation>Имейте в виду, что если вы остановите Планировщик или он не запущен, список событий не будет обработан.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="102" />
+		</references>
+	</entry>
+</translations>

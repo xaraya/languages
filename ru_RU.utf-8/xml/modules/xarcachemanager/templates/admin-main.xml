@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Administration - xarCacheManager</string>
+		<translation>Администрация - xarCacheManager</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Краткий обзор модуля</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Что это такое?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides an administrator interface to control the settings of the xarCache system of Xaraya. It also provides hooks that allow the cache system to know when changes have happened to modules so that it can respond accordingly (event based cache expiration/invalidation).</string>
+		<translation>Модуль xarCacheManager предоставляет администратору интерфейс для управления системой кэширования Xaraya. Он также предоставляет хуки, позволяющие системе кэширования узнавать, где были произведены изменения и соответственно обновлять кэш (основываясь на указанном времени жизни кэша или изменениях в контенте).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The output cache system is designed to reduce the amount of work a server system has to do under heavy load conditions. It saves the output used by Xaraya so that it does not need to go through the entire process to reproduce the same output over and over again. At this point, only page level output caching for anonymous users and block level output caching for all users are available. In time, the output cache system will also support module level output caching for all users, as well as more efficient serving of cached pages for anonymous users. Page level output caching for certain user groups is also planed to be available to sites that can take advantage of this.</string>
+		<translation>Система кэширования вывода разработана для сокращения количества работы для сервера, особенно для посещаемых сайтов. Она сохраняет в файлы результаты вывода Xaraya, и системе уже нет необходимости каждый раз повторять генерацию одних и тех же элементов контента.
+В настоящее время доступно только кэширование страниц для анонимных пользователей и кэширование блоков для всех пользователей. Со временем, будет добавлено кэширование результатов вывода модулей для всех пользователей и более эффективная обработка кэша страниц для анонимных пользователей. Также планируется кэширование страниц для определенных групп пользователей.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please do not confuse output caching with Xaraya's variable or template caching systems. Each are different. In time, they will likely use the same caching infrastructure, but will still provide different caching for different purposes. General data caching is also planned for xarCache. For more on the different points of caching in Xaraya, please refer to:</string>
+		<translation>Пожалуйста, не путайте кэширование переменных в Xaraya и кэширование шаблонов. Каждое работает по разному. Со временем, скорее всего, они будут использовать единую инфраструктуру кэширования, продолжая использовать разный кэш для разных целей. Кэширование общих данных также запланировано в Xaraya. Подробности различных аспектов кэширования в Xaraya можно найти здесь:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Как это использовать?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module has several tools for managing the xarCache system and your cached output files. The tools are organized under the following menu links:</string>
+		<translation>Модуль xarCacheManager имеет несколько инструментов для управления системой кеширования и Вашими файлами в кэше. Эти инструменты организованны в соответствии со структурой меню администратора:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Query Caching - Queries in the certain functions could be quite expensive for large sites. You can use this tool to set query caching to save the results of some expensive queries for reuse. Please note that cached query results will only be invalidated based on expiration time.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cache - allows you to flush (delete) the output cache of specific Cache Keys. Page output Cache Keys are define by module, type, and function. Block output Cache Keys are define by module, block instance id, and block group.</string>
+		<translation>Очистка кэша -- предоставляет возможность очистки (удаления) результатов кэширования вывода в соответствии с Ключами кэша. Ключи кэша для страниц определены по модулям, типам и функциям. Ключи кэша блоков определены по модулю, ID блока и группам блоков.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page Caching - allows you to enable page caching for certain user groups, set up session-less page caching, and configure auto-cache settings. Session-less page caching allows cached pages to be served before loading xarCore to users who do not have a session (new/first-time visitors). Auto-cache allows you to configure your site to dynamically enable session-less page caching for pages that hit certain page view thresholds.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Caching - provides a single view and management point of the output caching settings of all block instances.</string>
+		<translation>Кэширование блоков -- предоставляет единое место для управления аспектами кэширования и настройками для всех блоков.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config - allows you to set the values for the output cache system. Mouse over the setting titles for more information.</string>
+		<translation>Конфигурация -- позволяет устанавливать настройки системы кэширования вывода. Проведите мышкой над заголовками для получения дополнительной информации.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Включенные блоки</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager Module has no blocks included at this time.</string>
+		<translation>В настоящее время нет включенных блоков.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Включенные хуки</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides create, update, delete and modify config API hooks and a modify GUI hook (currently only used for adding caching configuration administration to block instance modify pages). To activate these hooks, go to Admin panel -&gt; Modules -&gt; Configure Hooks and click on the xarcachemanager link. Select the modules you would like to enable the xarCacheManager hook functionality for (articles, categories, autolinks, blocks, html are likely candidates) and click the Save Changes button. Once hooked to xarCacheManager, when you create, update, or delete items of the module, or modify the configuration of a module, the call to the xarCacheManager hooks will flush the appropriate cache to insure that your changes will be instantly available on your site (not masked by cached output files).</string>
+		<translation>Модуль xarCacheManager предоставляет хуки типов create, update, delete и modify config, а также хук modify GUI (в настоящее время используется для доступа к настройкам кэширования при изменении настроек блока). Для активирования этих хуков, перейдите в Администрирование --&gt; Модули --&gt; Конфигурирование хуков и нажмите на ссылку xarcachemanager. Укажите модули, для которых вы хотите включить хуки? предоставляемые xarCacheManager (модули articles, categories, autolinks, blocks, html являются наиболее вероятными кандидатами) и нажмите &quot;Сохранить изменения&quot;. После включения хуков, как только вы создаете, изменяете или удаляете элементы модули ли изменяете его конфигурацию, хуки xarCacheManager инициируют очистку соответствующих файлов кэша для актуализации изменений в результатах вывода модуля.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Additional Information</string>
+		<translation>Дополнительная информация</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that page level output caching is not appropriate for sites that require the serving of dynamic content to anonymous users. Example: if each page contains data that changes every second and must be presented to the anonymous viewer in the latest state, you do not want to use page level output caching. However, if it is acceptable to present the data with changes no older than 1 minute, you can enable page level output caching and set the Cache Expiration Time to 60 seconds. If your site serves the same page 100 times per minute this will measurably reduce the load on your systems to do so.</string>
+		<translation>Имейте ввиду, что не подойдет для сайтов, использующих динимический контент для анонимных пользователей. Например: если каждая страница содержит данные, изменяющиеся каждую секунду, которые должны быть отображены анонимному пользователю в своем последнем состоянии, вам не подойдет использование кэширование на уровне страниц. Тем не менее, если вас устроит, чтобы изменяющиеся данные обновлялись для пользователей не чаще, чем раз в минуту, можно включить кэширование страниц и установить время жизни кэша в 60 секунд. Если ваш сайт показывает одну страницу раз 100 в минуту, это значительно снизит нагрузку на ваш сервер.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching may also affect the expected behavior of certain aspects of Xaraya as cached pages are served without loading the modules. Example: the stats and opentracker modules will not accurately reflect the total number of page views your site receives because they are not invoked when serving cached pages. If your site is under heavy load that needs to be reduced, you may want to consider doing your site statistic tracking via the web server log files or a javascript based solution like that implemented by Hitbox or WebTrends Live, anyway. Either of these methods will accurately work with page level caching enabled.</string>
+		<translation>Кэширование на уровне страниц может также оказать влияние на стандартное поведение разных систем Xaraya, так как кэшированные страницы обслуживаются без загрузки модулей. Например: модули статистики и opentracker будут показывать неверное значение показанных страниц, потому что они не будут загружаться при выводе страниц из кэша. Если ваш сайт сильно посещаемый, вы можете использовать кэширование на уровне страниц, а статистику вести с помощью других средств, как например, использование решений на базе javascript (например HitBox или WebTrends Live) или файлов логов вебсервера. Эти методы будут предоставлять вам более точную статистику при использовании кэширования на уровне страниц.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configure to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
+		<translation>Кэширование на уровне блоков не имеет подобных ограничений. В этом случае Xaraya каждый раз при загрузке страницы загружает ядро и активные модули. Кэширование вывода блоков может быть настроено для каждой инстанции блока в отдельности, вы можете настроить так, что некоторые блоки будут полностью динамическими (не кэшироваться никогда), а другие будут кэшироваться с различным сроком жизни кэша. Кэширование каждого блока может быть сконфигурировано таким образом, что результат кэша будет отображаться одинаково для всех пользователей, или для группы пользователей, или каждому пользователю - свой. Все это позволяет довольно гибко настраивать кэширование для сайтов, смешивая на одной странице динамические и статические элементы, но чем больше компромисс в сторону динамики, тем больше время формирования и загрузки страницы. Там, где кэширование на уровне страницы даст сокращение времени формирования страницы от 65 до 80% (в зависимости от конфигурации сайта, конечно), кэширование на уровне блоков при выводе страницы даст экономию в 20-30%.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level and block level output caching can be used in tandem to reduce loads and improve page generation times on sites that serve both anonymous and non-anonymous audience members, or on sites with varying page and block level output caching requirements.</string>
+		<translation>Кэширование на уровне страницы и на уровне блоков может быть использовано в тандеме для сокращения нагрузки на сервер и уменьшения времени генерации страницы для сайтов, посещаемых как анонимными, так и зарегистрированными пользователями, или для сайтов с разными требованиями к кэшированию страниц и блоков.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>TODO List</string>
+		<translation>TODO List</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>General caching related:</string>
+		<translation>Общее кэширование для:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support multisite configurations.</string>
+		<translation>Поддержки мультисайтов</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide data caching API.</string>
+		<translation>API кэширования данных</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide an output cache file browser, like the template cache file browser in SiteTools.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refactor, refactor, refactor.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching related:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support itemtype as a 'name' between cacheKey and page when available.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Scheduler, getfile/link integration for pre-population of output cache.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Analyze Slashdot and Google News use of 304 &amp; ETag HTTP headers and rework our use of these headers based on findings.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block/module level output caching related:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add module output caching functions, reutilizing xarBlock*Cached functions when appropriate.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add xarMod*Cached() calls in xarModFunc().</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Admin GUI hooks to modules beyond Blocks for the configuration of per module output cache settings.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="113" />
+		</references>
+	</entry>
+</translations>

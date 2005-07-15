@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Administration - Uploads</string>
+		<translation>Администрирование модуля Загрузок</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Что это такое?</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads is a Xaraya Utility Module.</string>
+		<translation>Модуль Загрузок является сервисным модулем Xaraya</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is currently responsible for accomplishing these tasks:</string>
+		<translation>В настоящее время предназначен для решения следующих задач:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows for the importing of files into the Xaraya system either locally or externally.</string>
+		<translation>Позволяет импортировать файлы в систему Xaraya как локально, так и удаленно.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows the managing of access to files via privileges.</string>
+		<translation>Позволяет управлять доступом к файлам через систему привилегий.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>каак это использовать?</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>External Imports and Uploads</string>
+		<translation>Импорт и Загрузка из внешних источников</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files that are uploaded or imported from external locations can be saved in the database (DB)
+or stored in the filesystem (FS). Use the options (FS/DB) under each form to select the
+storage location for your file.</string>
+		<translation>Файлы, загруженные или импортированные из внешних источников, могут быть сохранены как в Базе Данных (БД), так и в Файловой Системе (ФС). Используйте переключатель (БД/ФС) для выбора способа хранения файла.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>The import engine will try to make a best guess for the name of the file you are trying to import.
+In the event that it cannot figure out what the file name is it will use the following methods:</string>
+		<translation>Механизм импорта попытается предположить наиболее подходящее имя для файла, который вы импортируете. В случае, если система не смогла определить имя файла, она будет использовать следующие методы:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;HTTP and HTTPS&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;HTTP и HTTPS&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>In the event that the filename for an HTTP import can not be determined, the file will be
+named based on the host name of the server the file was imported from. For example, importing
+http://www.xaraya.com/ would return a file with the name of www_xaraya_com.html</string>
+		<translation>Если имя файла, импортируемого по протоколу HTTP не может быть определено, файл будет назван базируясь на имени хоста, с которого он импортируется. Например, импортируем файл с http://www.xaraya.com/ будет именован www_xaraya_com.html</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Due to the underlying nature of the FTP protocol, it is impossible to successfully access a file
+on a system without providing a viable file name. In this case, no file name 'guessing' will be
+attempted and the import will fail.</string>
+		<translation>Из-за самой природы протокола FTP, невозможно получить доступ к файлу без его имени. В этом случае система не будет делать никаких 'предположений' и импорт не будет произведен.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Local Imports Sandbox</string>
+		<translation>'Песочница' локального импорта</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files can be inserted into your local import sandbox and used immediately by users with sufficient access to
+add files and attach them to hooked objects (articles, comments, etc). Files you place in your local import
+sandbox can be seen in the 'Import Local Files' form immediately upon adding them.</string>
+		<translation>Файлы могут быть размещены в локальной 'песочнице' для использования их пользователями с соответствующими привилегиями. Эти файлы могут быть использованы в присоединенных (hooked) объектах (статьи, комментарии и т.п.). Файлы, размещенные в локальной 'песочнице', доступны в форме 'Импорт Локальных файлов' сразу же после их добавления на сервер.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Включенные блоки</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks.</string>
+		<translation>В настоящее время нет включенных блоков.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Включенные хуки</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="93" />
+		</references>
+	</entry>
+</translations>

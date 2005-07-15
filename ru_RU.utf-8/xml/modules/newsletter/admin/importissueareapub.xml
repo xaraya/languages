@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Error: The Newsletter module has not been activated. Please activate the module and run the import script again.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error: Could not move category .'.$category['name']);
+return $data;
+}
+}
+}
+// Set all modules variables
+xarModSetVar('newsletter</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Could not retrieve Issue Area Publiation tables</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapOwners.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="114" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapOwners.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Owner ID '.$uid.' already exists in '.$nwsltrOwners.' table - skipping.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrOwners.' table. Owner ID = '. $uid);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the disclaimers table
+$nwsltrDisclaimers = $nwsltrTables['nwsltrDisclaimers'];
+$iapDisclaimers = $iapTables['iapDisclaimers'];
+$data['output'][] = xarML('Importing the '.$iapDisclaimers.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapDisclaimers.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapDisclaimers.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="171" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrDisclaimers.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="189" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrDisclaimers.' table. Old ID = '.$id.' New ID = '.$disclaimerID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the publication data
+$nwsltrPublications = $nwsltrTables['nwsltrPublications'];
+$iapPublications = $iapTables['iapPublications'];
+$data['output'][] = xarML('Importing the '.$iapPublications.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapPublications.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapPublications.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="228" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrPublications.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="272" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrPublications.' table. Old ID = '.$id.' New ID = '.$pubID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the issues table
+$nwsltrIssues = $nwsltrTables['nwsltrIssues'];
+$iapIssues = $iapTables['iapIssues'];
+$data['output'][] = xarML('Importing the '.$iapIssues.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="287" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapIssues.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="287" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapIssues.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="304" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrIssues.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="330" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrIssues.' table. Old ID = '.$id.' New ID = '.$issueID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the stories table
+$nwsltrStories = $nwsltrTables['nwsltrStories'];
+$iapStories = $iapTables['iapStories'];
+$data['output'][] = xarML('Importing the '.$iapStories.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="345" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapStories.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="345" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapStories.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="370" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrStories.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="417" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrStories.' table. Old ID = '.$id.' New ID = '.$storyID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the topics table
+$nwsltrTopics = $nwsltrTables['nwsltrTopics'];
+$iapTopics = $iapTables['iapTopics'];
+$data['output'][] = xarML('Importing the '.$iapTopics.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="432" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapTopics.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="432" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapTopics.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="445" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrTopics.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="467" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrTopics.' table. Issue/Story IDs = '.$issueId.'-'.$storyId);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the subscriptions table
+$nwsltrSubscriptions = $nwsltrTables['nwsltrSubscriptions'];
+$iapSubscriptions = $iapTables['iapSubscriptions'];
+$data['output'][] = xarML('Importing the '.$iapSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="481" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="481" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="493" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="513" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrSubscriptions.' table. Subscription ID = '.$uid);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the alternative subscriptions table
+$nwsltrAltSubscriptions = $nwsltrTables['nwsltrAltSubscriptions'];
+$iapAltSubscriptions = $iapTables['iapAltSubscriptions'];
+$data['output'][] = xarML('Importing the '.$iapAltSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="526" />
+		</references>
+	</entry>
+	<entry>
+		<string>Importing the '.$iapAltSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="526" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error retrieving data from '.$iapAltSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="540" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error inserting data into '.$nwsltrAltSubscriptions.' table.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="563" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inserting data into '.$nwsltrAltSubscriptions.' table. Alt Subscription ID = '.$altID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Done!
+$data['output'][] = xarML('Finished importing data</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="574" />
+		</references>
+	</entry>
+	<entry>
+		<string>Finished importing data</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/importissueareapub.php" line="574" />
+		</references>
+	</entry>
+</translations>

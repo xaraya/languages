@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>Описание</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Что это такое?</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module allows you to schedule Xaraya jobs at certain times of the day/week/month (cron)</string>
+		<translation>Этот модуль позволяет планировать выполнение задач Xaraya на определенное время дня/недели/месяца (cron)</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Those jobs could be for instance :</string>
+		<translation>Например, это могут быть такие задачи, как:</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>sending a daily digest mail</string>
+		<translation>отправка писем с ежедневным дайджестом сайта</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>expiring temporary user passwords</string>
+		<translation>сообщения об окончании срока действия временного пароля пользователя</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>escalating a workflow process</string>
+		<translation>сообщения о ходе процесса совместной работы</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>doing a backup of the database</string>
+		<translation>создание копии базы данных</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>refreshing cache files</string>
+		<translation>обновление фалов кэша</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>...</string>
+		<translation>и многое другое...</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Как это использовать?</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;The scheduler module relies on other modules to actually execute whatever jobs are scheduled, so first you need to find out which &lt;b&gt;module functions&lt;/b&gt; can be scheduled.</string>
+		<translation>&lt;p&gt;Модуль Планировщик в своей работе зависит от задач, запланировных в других модулях, таким образом, необходимо сначала найти, какие &lt;b&gt;функции модуля&lt;/b&gt; могут быть запланированы.</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;Then you need some kind of &lt;b&gt;trigger&lt;/b&gt; to wake up the scheduler - this can be done e.g. by requesting a specific webpage automatically from your own system via a Unix cron entry or Windows AT command,
+or via a web-based scheduler service like &lt;a href=&quot;http://webcron.org/&quot;&gt;http://webcron.org/&lt;/a&gt;, or (if you really have no other choice) by relying on web hits from your visitors if your site is relatively busy.&lt;/p&gt;
+&lt;p&gt;The rest will be handled by the scheduler module :-)&lt;/p&gt;</string>
+		<translation>&lt;p&gt;Затем Вам понадобится некий &lt;b&gt;механизм запуска&lt;/b&gt; для выполнения запланированных задач - это может быть сделано, например, путем выполнения запроса к определенной странице сайта через cron OS Unix или команду Windows AT, или через специализированных веб-сервис вроде &lt;a href=&quot;http://webcron.org/&quot;&gt;http://webcron.org/&lt;/a&gt;, или (если у Вас совсем нет другого выбора) положиться на то, что пользователь обратится к соответствующей странице Вашего сайта, если Ваш сайт посещаем достаточно стабильно для этого.&lt;/p&gt; &lt;p&gt;Всю остальную работу сделает модуль Планировщик :-)&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Включенные блоки</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>trigger block</string>
+		<translation>блок запуска выполнения запланированных задач (trigger block)</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Включенные хуки</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>to be defined</string>
+		<translation>Содержимое появится позже...</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Расширенная информация об этом модуле может быть найдена здесь. [Модуль модулей]</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+</translations>

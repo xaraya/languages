@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Modify Uploads Configuration</string>
+		<translation>Изменить конфигурацию Загрузок</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads Directory</string>
+		<translation>Каталог хранения файлов</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the full path to the directory where uploaded and external import files will be placed.
+It is stronly recommended that this directory be located outside of your web directory.
+&lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
+		<translation>Это полный путь к каталогу, где будут храниться файлы. Настоятельно рекомендуется разместить этот каталог за пределами вашего веб-сервера.&lt;br /&gt;ВНИМАНИЕ: Этот каталог должен иметь права на запись для веб-сервера.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Trusted Directory:</string>
+		<translation>Доверенный каталог:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the full path to the local trusted directory. Files located in this directory will
+be immediately available for users to attach to other objects (ie: articles). Files in this directory
+are &lt;strong&gt;not&lt;/strong&gt; counted in the disk usage summary totals. It is strongly recommended
+that this directory be located outside of your web directory.
+&lt;br /&gt;NOTE: This directory MUST be readable and should also be writable by the webserver.</string>
+		<translation>Это полный путь к локальному доверенному каталогу. Файлы из этого каталога будут непосредственно доступны пользователям для присоединения к другим объектам (например публикациям). Файлы из этого каталога &lt;strog&gt;не&lt;/strong&gt; учитываются в общем объеме используемого пространства на диске. Настоятельно рекомендуется разместить этот каталог за пределами вашего веб-сервера.&lt;br /&gt;ВНИМАНИЕ: Этот каталог должен иметь права на чтение для всех и права на запись для веб-сервера.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Maximum Upload Size in bytes (commas are fine):</string>
+		<translation>Максимальный размер загружаемых файлов в байтах (запятые приветствуются):</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the maximum size an uploaded file may be.&lt;br /&gt;
+NOTE: The server wide PHP setting, if set to a lower value, &lt;em&gt;will&lt;/em&gt; override this setting.
+Please ask your web host provider for details on the settings that they use for uploaded files.</string>
+		<translation>Это максимальный размер файла для загрузки.&lt;br /&gt;ПРИМЕЧАНИЕ: Установки PHP для вашего сервера будут иметь больший вес. Если значения в php.ini  меньше устанавливаемого здесь, настройки сервера перекроют настройки конфигурации модуля. Детали уточняйте у вашего хостинг-провайдера.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto approve files added by:</string>
+		<translation>Автоматическое одобрение файлов, добавленных пользователями:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>No one</string>
+		<translation>Ни одним</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Everyone</string>
+		<translation>Любым</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="64" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="68" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option allows you to make all newly added files' status set to approved for Everyone (not recommended), Admins only, or No One.</string>
+		<translation>Эта настройка позволяет автоматически устанавливать статус вновь загруженного файла как &quot;Одобрен&quot; для &quot;Любого&quot; пользователя (не рекомендуется), только для Админа или ни для кого.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm deletion of files:</string>
+		<translation>Подтверждать удаление файла:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirmation must be provided before files are deleted.</string>
+		<translation>Перед удалением файла необходимо явное подтверждение</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto purge files marked as 'rejected':</string>
+		<translation>Автоматически удалять файлы со статусом 'отклоненные':</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Normally, when you reject files, you have to manually purge them by clicking on
+the 'Purge Rejected' button located on the &lt;em&gt;Admin-&gt;Uploads-&gt;View page&lt;/em&gt;. This
+option forces any file you set to 'rejected' status to be deleted right away.</string>
+		<translation>Обычно, когда вы отклоняете присланные файлы, необходимо затем вручную удалить их с диска, используя кнопку &quot;Удалить Отклоненные&quot; в интерфейсе администратора &lt;em&gt;Администрирование-&gt;Загрузка файлов-&gt;Просмотр страницы&lt;/em&gt;. Эта настройка позволяет автоматизировать этот процесс и удалять файлы в момент их отклонения.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>Obfuscate/Secure Imported Files:</string>
+		<translation>Шифровать/Защищить импортированные файлы:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>If Yes, imported files will be stored with their original names obfuscated for added security.</string>
+		<translation>Если выбрано Да, имена импортированных файлов для хранения на диске будут зашифрованы для большей безопасности.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>Obfuscate/Secure Uploaded Files:</string>
+		<translation>Шифровать/Защищить загруженные файлы:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>If Yes, uploaded files will be stored with their original names obfuscated for added security.
+&lt;br /&gt;
+&lt;strong style=&quot;color: red;&quot;&gt;NOTE:&lt;/strong&gt;Setting this option to 'No' can open a possible route for users
+to upload and run malicious scripts on your site. It is &lt;strong&gt;highly&lt;/strong&gt;
+recommended that you leave this option on unless you have a thorough understanding
+of the implications behind turning it off.</string>
+		<translation>Если выбрано Да, имена всех загруженных файлов для хранения на диске будут зашифрованы для большей безопасности.&lt;br /&gt; &lt;strong style=&quot;color: red;&quot;&gt;ВНИМАНИЕ:&lt;/strong&gt; Устанавливая значение &quot;Нет&quot;, вы открываете возможную дыру в безопасности. Это может позволить пользователю-злоумышленнику загрузить и выполнить зловредный скрипт на вашем сайте. &lt;strong&gt;Настоятельно&lt;/strong&gt; рекомендуется оставить эту настройку без изменения, если вы не до конца понимаете возможное влияние отключения этой настройки.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic File Upload Property Configuration</string>
+		<translation>Конфигурация динамических свойств FileUpload</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="163" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;
+These settings allow you to redefine certain characteristics of the FileUpload DynamicData Property.
+These settings only take effect if you have 'hooked' the uploads module to the module using the
+FileUpload property.
+&lt;/p&gt;</string>
+		<translation>&lt;p&gt;Эти настройки позволяют вам переопределить некоторые характеристики объекта FileUpload Динамических Данных. Эти настройки будут действовать только для модулей, к которым присоединен модуль Загрузок и если эти модули используют FileUpload&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="171" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select available file sources for the FileUpload Property:</string>
+		<translation>Выберите возможные источники файлов для свойства FileUpload:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="176" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;
+Note: be sure to choose at &lt;strong&gt;least&lt;/strong&gt; one!
+&lt;/p&gt;</string>
+		<translation>&lt;p&gt;Примечание: необходимо выбрать &lt;strong&gt;хотя бы&lt;/strong&gt; одно значение!&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="182" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files located in the Trusted directory</string>
+		<translation>Файлы, расположенные в Доверенном каталоге</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="192" />
+		</references>
+	</entry>
+	<entry>
+		<string>Externally located files (http / ftp / file)</string>
+		<translation>Файлы из внешних источников (http / ftp / file)</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>User uploaded files</string>
+		<translation>Файлы, загружаемые пользователем</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="216" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files previously stored</string>
+		<translation>Предварительно загруженные файлы</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="228" />
+		</references>
+	</entry>
+</translations>

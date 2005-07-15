@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>Краткий обзор модуля</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Общее описание модуля</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT module is a utility module that allows you to do XSL transformations via transform hooks.</string>
+		<translation>Модуль XSLT является вспомогательным и позволяет осуществлять XSL трансформации посредстом подключения хука.</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Использование</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>For each hooked module, specify the XSL file to be used in the transformation. This file should be located on the server, somewhere below the document root. Any DTD referenced by the original XML should also be available.
+&lt;br /&gt;&lt;br /&gt;In order to test this with articles, you should remove the call to xarVarPrepHTMLDisplay() on line 292 of modules/articles/xaruser/display.php (test only !), otherwise all XML tags in your content will be escaped before it gets passed to the transform hook...
+&lt;br /&gt;&lt;br /&gt;Note : this is a work in progress :)</string>
+		<translation>В каждом модуле с подключенным хуком, назначте XSL файл, который будет использоваться при трансформации.  Данный файл должен находиться на сервере, где-нибудь под основной веб-директорией. Любые DTD файлы, используемые в XML схеме, также должны присутсвовать.  &lt;br /&gt;&lt;br /&gt;Для использования с модулем articles, удалите все вызовы xarVarPrepHTMLDisplay() в строке 292 modules/articles/xaruser/display.php (только для тестирования !), иначе все XML тэги в вашем контенте будут искючены ещё до того, как он будет передан хуку трансформаций...  &lt;br /&gt;&lt;br /&gt;Заметка : данный модуль всё ещё находится в стадии разработки :)</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+</translations>
