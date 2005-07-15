@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>The Newsletter module allows an individual or organization to compile and distribute news and research updates to interested parties via email. This module gives writers, editors, and publishers a comprehensive process to easily assemble the stories for a newsletter and subsequently publish the information to a subscription base.</string>
+		<translation>Nyhetsbrevmodulen låter en individ eller organisation sammanställa och distrubuera nyheter och forskningsupdateringar till intresserade via e-post. Den här modulen ger författare, redigerare och utgivare ett omfattande verktyg att enkelt sammankalla artiklarna till ett nyhetsbrev och sedan ge ut informationen till prenumeranter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt; This overview is focused on the administrative tasks that must be performed before a publication can be created. For an overview of Newsletter, please refer to the overview in the main menu.</string>
+		<translation>&lt;b&gt;Notera:&lt;/b&gt; Denna översikt fokuserar på de administrativa uppgifterna som måste utföras innan en publikation kan skapas. För en översikt av Nyhetsbrev, vänligen läs översikten i huvudmenyn.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>As the module administrator, you will need to complete the following steps before you can start using the Newsletter module:</string>
+		<translation>Som moduladministratör, behöver slutföra följande steg innan du kan börja använda nyhetsbrevmodulen.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>1. Configure Roles and Privileges</string>
+		<translation>1. Konfigurera roller och behörigheter</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>As the module administrator, you must configure the necessary roles and privileges for the Newsletter publishers, editors and writers. You can create the groups and privileges manually or can you use the administration modify configuration menu to easily create the default groups and privileges. After these groups and privileges have been created, you can then add a user to the publisher, editor or writer group.</string>
+		<translation>Som modulens adminstratör måste du ställa in de nödvändiga rollerna eller rättigheterna för nyhetsbrevens utgivare, redigerare och skribenter. Du kan skapa grupperna och rättigheterna manuellt eller så kan du använda dig av administrationsmenyn modifiera konfigurationer för att enkelt skapa förinställda grupper och rättigheter. 
+Efter att dessa grupper eller rättigheter har skapats kan du lägga till användare till grupperna utgivare, redigerare eller skribenter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>To add the groups and privileges, select Modify Config from the Newsletter administration menu followed by the Modify Privileges tab. By default, the groups are assigned to the Everybody role. You can select the default groups and privileges to be created or you can set which role to assign these groups and change the default privilege for each group.</string>
+		<translation>För att lägga till grupperna och rättigheterna, välj Modifiera konfiguration från nyhetsbrevets administrationsmeny, följt av fliken Modifiera rättigheter. Som förinställning tilldelas grupperna rollen Alla. Du kan välja vilka förinställda grupper och rättigheter som ska skapas eller så kan du ställa in vilken roll som ska tilldelas dessa grupper och ändra de förinställda rättigheterna för varje grupp.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;NewsletterPublisher&lt;/b&gt; (AdminNewsletter privilege)</string>
+		<translation>&lt;b&gt;NyhetsbrevUtgivare&lt;/b&gt; (AdminNyhetsbrev behörighet)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;NewsletterEditor&lt;/b&gt; (DeleteNewsletter privilege)</string>
+		<translation>&lt;b&gt;NyhetsbrevRedaktör&lt;/b&gt; (TaBortNyhetsbrev behörighet)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;NewsletterWriter&lt;/b&gt; (AddNewsletter privilege)</string>
+		<translation>&lt;b&gt;NyhetsbrevFörfattare&lt;/b&gt; (LäggTillNyhetsbrev behörighet)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Once the groups and privileges are created, you do not need to modify the privileges again unless you want to change the privilege of a group.</string>
+		<translation>När väl grupperna och rättigheterna har skapats behöver du inte ändra deras rättigheter mer om du inte vill ändra en specifik grupps rättigheter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>2. Add a Newsletter user</string>
+		<translation>2. Lägg till en nyhetsbrevanvändare</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>After the Newsletter groups and privileges have been successfully created, you can add users to these groups. Select the Modify Users tab from the Modify Config administrative menu. This will display a list of currently assigned users and allow you to add a new user. Select the user to add and the group that the user will inherit privileges from. Once a user has been added to the appropriate group, that user will have writer, editor or publisher privileges and will be able to start creating content for a publication.</string>
+		<translation>Efter att nyhetsbrevens grupper och rättigheter har skapats kan du lägga till användare till dem. Välj fliken Modifiera användare från adminstrationsmenyn Modifiera konfiguration. Detta kommer att lista tilldelade användare och ge dig möjlighet att lägga till nya användare. Välj en användare att lägga till och vilken grupp användaren ska ärva rättigheterna från. När väl en användare har lagts till en passande grupp så kommer han/hon att ha skribent-, redigerare- eller utgivarrättigheter och kommer därefter att kunna skapa innehåll för en publikation.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt; You will not be able to create a publication until at least one user is added to the Newsletter Publisher group.</string>
+		<translation>&lt;b&gt;Observera:&lt;/b&gt; Du kommer inte att kunna skapa en publikation om inte minst en användare är tillagd i nyhetsbrevets utgivargrupp.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>3. Add publication and story categories</string>
+		<translation>3. Lägg till publikations- och artikelkategorier</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>When the module is first activated, a category named &quot;Newsletter&quot; is created. You must create sub-categories of this master category before a publication can be created. Each sub-category of &quot;Newsletter&quot; will be a publication category. Under each publication category, you will want to create another set of categories corresponding to the story categories for each publication.</string>
+		<translation>När modulen först aktiveras skapas en kategori benämnd &quot;Nyhetsbrev&quot;. Du måste skapa underkategorier till denna masterkategori innan en publikation kan skapas. Varje underkategori till &quot;Nyhetsbrev&quot; kommer att vara en publikationskategori. Under varje publikationskategori bör du skapa en annan uppsättning kategorier som motsvarar de artikelkategorier du använder för varje publikation.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>For example:</string>
+		<translation>Till exempel:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>master category</string>
+		<translation>huvudkategori</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Learning Differences</string>
+		<translation>Inlärningsskillnader</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>publication category</string>
+		<translation>publikationskategori</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="87" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>LD Experts in the News</string>
+		<translation>IS-experter i nyheterna</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>story category</string>
+		<translation>artikelkategori</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="93" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="99" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="105" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="111" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="122" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="128" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="134" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Education / Schools</string>
+		<translation>Utbildning / Skola</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Successful People</string>
+		<translation>Framsgångsrika människor</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>Controversial Treatment</string>
+		<translation>Kontroversiell behandling</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Internet Technology</string>
+		<translation>Internet teknolokgi</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="115" />
+		</references>
+	</entry>
+	<entry>
+		<string>Design and Architecture</string>
+		<translation>Formgivning och arkitektur</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Emerging Technologies</string>
+		<translation>Teknologier på frammarsch</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Networks and Infrastructure</string>
+		<translation>Nätverk och infrastruktur</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Standards and Practices</string>
+		<translation>Standarder och praktik</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt; The stories within a publication will ordered in the same order as the story categories, so place the story categories accordingly.</string>
+		<translation>&lt;b&gt;Observera:&lt;/b&gt; Artiklarna inom en publikation kommer att ordnas i samma ordning som artikelkategorierna är gjorda i, så placera artikelkategorierina enligt detta.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Medföljande block</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following blocks are included:</string>
+		<translation>Följande block medföljer</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;information&lt;/b&gt; - This block provides the following:</string>
+		<translation>&lt;b&gt;information&lt;/b&gt; - Det här blocket ger följande</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="156" />
+		</references>
+	</entry>
+	<entry>
+		<string>- General information about the publications that a user can subscribe to. This information is created in the Newsletter user modify configuration screen in the text fields &quot;Publisher or Company Name&quot; and &quot;Information about Newsletter&quot;</string>
+		<translation>- Allmän informatation om publikationer som en användare kan prenumerera på. Den här informationen skapas på nyhetsbrevanvändare ändra konfiguration sidan i textfältet &quot;Utgivare eller företagsnamn&quot; och &quot;Information om nyhetsbrevet&quot;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="157" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows non-registered users to view past issues.</string>
+		<translation>- Låter ickeregistrerade användare se gamla utgåvor.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows logged in users to modify their subscription(s) to the publications.</string>
+		<translation>- Låter inloggade användare ändra sin(a) prenumeration(er) till publikationen.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Medföljande kopplingar</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="165" />
+		</references>
+	</entry>
+	<entry>
+		<string>Newsletter provides all the necessary hooks to be present within other modules. But these hooks have not been thoroughly tested.</string>
+		<translation>Nyhetsbrevsmodulen förser dig med alla nödvändiga kopplingar att ingå i andra moduler. Men dessa kopplingar har inte helt och hållet testats.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="169" />
+		</references>
+	</entry>
+</translations>

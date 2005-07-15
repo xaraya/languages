@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>The xarCacheManager module upgrade has failed.
+Please make #(1) writable by the web server process
+owner to complete the upgrade. If #(1) does not exist,
+please make #(2) writable by the web server process and
+#(1) will be created for you.</string>
+		<translation>xarCacheManager-modul uppdateringen misslyckades. Vänligen gör #(1) skrivbar av webbserverprocessägaren för att slutföra uppdateringen. Om #(1) inte finns vänligen gör #(2) skrivbar av webbserverprocessen och #(1) kommer att skapas åt dig.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="122" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) directory must be writable by the web server
+for the install script to set up output caching for you.
+The xarCacheManager module has not been installed,
+please make the #(1) directory writable by the web server
+before re-trying to install this module.
+Alternatively, you can manually create the #(2) directory
+and copy the #(3) file to #(4) - the #(2) directory and
+the #(4) file must be writable by the web server for
+output caching to work.</string>
+		<translation>#(1)-katalogen måste vara skrivbar av webbservern för att installationsskriptet ska ställa in utdatacachning åt dig. xarCacheManager-modulen har inte installerats, vänligen gör #(1)-katalogen skrivbar av webbservern innan du försöker installera den här modulen igen. Alternativt, kan du manuellt skapa #(2) katalogen och kopiera #(3)-filen till #(4) - #(2) katalogen och #(4)-filen måste vara skrivbar av webbservern för att utdatacachning ska fungera</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="383" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) file must be writable by the web server for
+output caching to work.</string>
+		<translation>#(1)-filen måste vara skrivbar av webbservern för att utdatacachning ska fungera.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="397" />
+		</references>
+	</entry>
+</translations>

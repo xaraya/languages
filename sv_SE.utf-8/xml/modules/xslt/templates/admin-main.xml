@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>Översikt</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Vad är detta?</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT module is a utility module that allows you to do XSL transformations via transform hooks.</string>
+		<translation>XSLT-modulen är en verktygsmodul som låter dig göra XSL-förvandlingar via förvandlingskopplingar.</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hur man använder den?</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>For each hooked module, specify the XSL file to be used in the transformation. This file should be located on the server, somewhere below the document root. Any DTD referenced by the original XML should also be available.
+&lt;br /&gt;&lt;br /&gt;In order to test this with articles, you should remove the call to xarVarPrepHTMLDisplay() on line 292 of modules/articles/xaruser/display.php (test only !), otherwise all XML tags in your content will be escaped before it gets passed to the transform hook...
+&lt;br /&gt;&lt;br /&gt;Note : this is a work in progress :)</string>
+		<translation>För varje kopplad modulm ange XSL-filen som ska användas i förvandlingen. Denna filen borde vara placerad på servern, npgonstans under dokument-oten. Någon DTD som refereras till genom den ursprungliga XML borde också vara tillgänglig. &lt;br /&gt;&lt;br /&gt;För att kunna testa detta med artiklar, borde du ta bort anropet till xarVarPrepHTMLDisplay() på linje 292 i modules/articles/xaruser/display.php (endast på försök!), annars kommer samtliga XML-taggar i ditt innehåll att undkomma deninnan den går igenom förvandlingskopplingen... &lt;br /&gt;&lt;br /&gt;Notera detta är under uppbyggnad :)</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+</translations>

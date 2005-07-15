@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>APPROACH # 1a : the &amp;lt;xar:data-view ...&amp;gt; tag</string>
+		<translation>Infallsvinkel # 1a: &amp;lt;xar:data-view ...&amp;gt; taggen</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the list of items from DynamicData,
+and present them according to its user-objectview.xd template.</string>
+		<translation>Den här taggen kommer automatiskt hämta listan över poster från dynamiskdata och visa dem enligt enligt sin user-objectview.xd mall.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 1b : the &amp;lt;xar:data-view ...&amp;gt; tag with parameters</string>
+		<translation>Infallsvinkel # 1b: &amp;lt;xar:data-view ...&amp;gt; taggen med parametrar</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here's an example that uses the layout=&quot;list&quot;, and linkfield=&quot;name&quot;
+to tell DynamicData which field should be linked to a display of the item. It also
+uses fieldlist=&quot;name,age&quot; to show only a selected list of fields.</string>
+		<translation>Här är ett exempel som använder layout=&quot;list&quot;, och linkfield=&quot;name&quot; för att berätta för dynamiskdata vilket fält som ska länkas till att visa posten. Den använder även fieldlist=&quot;name,age&quot; för att visa endast en vald lista över fält.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>See the admin list for an example... We'll skip this one here, since we'll be retrieving 'properties' and 'values'
+via the module code instead, with the next approach.</string>
+		<translation>Se adminlistan för ett exempel... Vi hoppar över denna hör i och med att vi kommer hämta 'properties' och 'values' via modulkoden istället med nästa infallsvinkel.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object list via API, you can pass along the whole object list to the template and use &amp;lt;xar:data-view object=&quot;...&quot;&amp;gt; (see admin list),</string>
+		<translation>Efter hämtning av objektlistan via API kan du nu skicka vidare hela objektlistan till mallen och använda &amp;lt;xar:data-view object=&quot;...&quot;&amp;gt; (se adminlista),</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>or pass along the properties and values and work like in APPROACH # 2. We'll use that here...</string>
+		<translation>eller skicka vidare egenskaperna och värdena och arbeta som i infallsvinkel # 2. Vi kommer använda den här...</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Display</string>
+		<translation>Visa</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="69" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="101" />
+		</references>
+	</entry>
+</translations>

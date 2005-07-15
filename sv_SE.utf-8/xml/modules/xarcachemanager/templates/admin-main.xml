@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>Administration - xarCacheManager</string>
+		<translation>Administration - xarCacheManager</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Vad är detta?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides an administrator interface to control the settings of the xarCache system of Xaraya. It also provides hooks that allow the cache system to know when changes have happened to modules so that it can respond accordingly (event based cache expiration/invalidation).</string>
+		<translation>xarCacheManager-modulen ger ett administratörsgränsnitt som kontrollerar inställningarna för xarCache-systemet i Xaraya. Den ger även kopplingar som låter cachesystemet veta när ändringar har skett till moduler så att den kan reagera därefter (händelse baserad cachning förfall/ogiltighet.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The output cache system is designed to reduce the amount of work a server system has to do under heavy load conditions. It saves the output used by Xaraya so that it does not need to go through the entire process to reproduce the same output over and over again. At this point, only page level output caching for anonymous users and block level output caching for all users are available. In time, the output cache system will also support module level output caching for all users, as well as more efficient serving of cached pages for anonymous users. Page level output caching for certain user groups is also planed to be available to sites that can take advantage of this.</string>
+		<translation>Cachesystemet är designat för att reducera mängden arbete som ett serversystem har att göra under stora arbetsbördor. Det sparar utdata använt av Xaraya så att det inte behöver gå igenom hela återskapningsprocessen av samma utdata om och om igen. I det här läget är endast utdata cachad för anonyma användare och blocknivåer för alla användare tillgängligt. Med tiden kommer cachesystemet för utdata också att stödja cachad utdata för alla användare på modulnivå, likaväl som effektivare bjudning av cachade sidor för anonyma användare. Cachad utdata på sidnivå för speciella användargrupper är också planerat att bli tillgängligt för webbplatser som kan dra nytta av detta.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please do not confuse output caching with Xaraya's variable or template caching systems. Each are different. In time, they will likely use the same caching infrastructure, but will still provide different caching for different purposes. General data caching is also planned for xarCache. For more on the different points of caching in Xaraya, please refer to:</string>
+		<translation>Vänligen förväxla inte cachning av utdata med Xarayas variabel- eller mallcachningssystem. De är, var och en, annorlunda. Med tiden kommer de troligtvis använda sig av samma infrastruktur för cachning men kommer fortfarande att ge olika cachningar för olika ändamål. Allmän datacachning är också planerad för xarCache. För mer om de olika punkterna kring cachning inom Xaraya, vänligen referera till:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hur man använder den?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module has several tools for managing the xarCache system and your cached output files. The tools are organized under the following menu links:</string>
+		<translation>xarCacheManager-modulen har flera verktyg för att hantera xarCache-systemet och dina cachade utdata-filer. Verktygen är sorterade under följande menylänkar:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Query Caching - Queries in the certain functions could be quite expensive for large sites. You can use this tool to set query caching to save the results of some expensive queries for reuse. Please note that cached query results will only be invalidated based on expiration time.</string>
+		<translation>Cachning av förfrågningar –Förfrågningar i de olika funktionerna kan vara väldigt kostsamt för stora webbplatser. Du kan använda detta verktyg för att ställa in förfrågningscachning för att spara resultatet av speciellt kostsamma förfrågningar och återanvända dem. Vänligen notera att cachade förfrågningsresultat endast kommer att förklaras ogiltiga genom användning av utgångstid.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cache - allows you to flush (delete) the output cache of specific Cache Keys. Page output Cache Keys are define by module, type, and function. Block output Cache Keys are define by module, block instance id, and block group.</string>
+		<translation>Spolning av Cache –gör det möjligt att spola (ta bort) utdatacache för speciella cachenycklar. Utdatacache för sidor definieras per modul, typ och funktion.
+Utdatacachenycklar för block defineras per modul, blockförekomsts ID och blockgrupp.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page Caching - allows you to enable page caching for certain user groups, set up session-less page caching, and configure auto-cache settings. Session-less page caching allows cached pages to be served before loading xarCore to users who do not have a session (new/first-time visitors). Auto-cache allows you to configure your site to dynamically enable session-less page caching for pages that hit certain page view thresholds.</string>
+		<translation>Sidcachning –gör det möjligt att cacha sidor för speciella användargrupper, ställa in sessionslös sidcachning och konfigurera inställningar för autocache.
+Sessionslös sidcachning tillåter cachade sidor att bjudas ut innan laddning av xarCore till användare som inte har en session (nya/förstagångs-besökare). Autocachning tillåter dig att ställa in din webbplats att dynamiskt aktivera sessionslös sidcachning för sidor som når en viss tröskelnivå för sidvisning.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Caching - provides a single view and management point of the output caching settings of all block instances.</string>
+		<translation>Blockcachning –ger en enkelvisnings- och hanteringspunkt  av inställningarna för utdatacachningar av alla blockförekomster.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config - allows you to set the values for the output cache system. Mouse over the setting titles for more information.</string>
+		<translation>Ändra konfiguration –gör det möjligt att ställa in värden för utdatacachningsystemet. För muspekaren över de olika inställningstitlarna för mer information.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Medföljande block</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager Module has no blocks included at this time.</string>
+		<translation>xarCacheManager-modulen har för tillfället inga medföljande block.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Medföljande kopplingar</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides create, update, delete and modify config API hooks and a modify GUI hook (currently only used for adding caching configuration administration to block instance modify pages). To activate these hooks, go to Admin panel -&gt; Modules -&gt; Configure Hooks and click on the xarcachemanager link. Select the modules you would like to enable the xarCacheManager hook functionality for (articles, categories, autolinks, blocks, html are likely candidates) and click the Save Changes button. Once hooked to xarCacheManager, when you create, update, or delete items of the module, or modify the configuration of a module, the call to the xarCacheManager hooks will flush the appropriate cache to insure that your changes will be instantly available on your site (not masked by cached output files).</string>
+		<translation>XarCacheManager-modulen gör det möjligt att uppdatera, ta bort och modifiera konfigurationen för API-kopplingar och modifiera GUI-kopplingar (används för närvarande för att lägga till administration av cachningskonfigurationer för sidor med modifiering av blockförekomster). För att aktivera dessa kopplingar, gå till Adminstrationspanelen -&gt; Moduler -&gt; Konfigurera kopplingar och klicka på länken xarCacheManager. Välj de moduler du vill aktivera funktionen xarCacheManager-kopplingar för (artiklar, kategorier, autolänkar, block, html är lämpliga kandidater) och tryck på knappen Spara förändringar. Väl kopplad till xarCacheManager kommer anropet till kopplingarna spola tillämplig cache för att säkra att dina ändringar blir direkt tillgängliga på webbplatsen (inte maskade av cachade utdatafiler) efter att du skapat, uppdaterat eller tagit bort element i modulen. Detsamma gäller när du ändrar konfigurationen av en modul.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Additional Information</string>
+		<translation>Ytterligare information</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that page level output caching is not appropriate for sites that require the serving of dynamic content to anonymous users. Example: if each page contains data that changes every second and must be presented to the anonymous viewer in the latest state, you do not want to use page level output caching. However, if it is acceptable to present the data with changes no older than 1 minute, you can enable page level output caching and set the Cache Expiration Time to 60 seconds. If your site serves the same page 100 times per minute this will measurably reduce the load on your systems to do so.</string>
+		<translation>Vänligen observera att utdatacachningen på sidnivå inte är passande för webbplatser som kräver bjudning av dynamiskt innehåll till anonyma användare. Exempel: om varje sida innehåller data som ändras varje sekund eller måste presenteras till den anonymas läsare i det senare läget, vill du inte använda utdatacachning på sidnivå. Däremot, om det är acceptabelt att presentera data med ändringar som inte är äldre än 1 minut kan du aktivera utdatacachning på sidnivå och ställa in cachnings utgångstid till 60 sekunder. Om din webbplats bjuder ut samma sida 100 gånger per minut kommer detta att betydligt minska bördan på ditt system för att göra detta.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching may also affect the expected behavior of certain aspects of Xaraya as cached pages are served without loading the modules. Example: the stats and opentracker modules will not accurately reflect the total number of page views your site receives because they are not invoked when serving cached pages. If your site is under heavy load that needs to be reduced, you may want to consider doing your site statistic tracking via the web server log files or a javascript based solution like that implemented by Hitbox or WebTrends Live, anyway. Either of these methods will accurately work with page level caching enabled.</string>
+		<translation>Utdatacachning på sidnivå kan också påverka det förväntade beteendet hos vissa aspekter hos Xaraya eftersom cachade sidor bjuds ut utan laddning av modulerna.
+Exempel: statistik och opentracker modulerna kommer inte att korrekt återge totalt antal sidvyer som din webbplats tar emot därför att de inte dras igång vid bjudning av cachade sidor. Om din webbplats är under kraftig belastning som behöver reduceras bör du fundera på att göra spårande av din webbplatsstatistik via webbserverns loggfiler eller en javascriptbaserad lösning som den implementerad av Hitbox eller WebTrends Live. Båda dessa metoder kommer att fungera som det ska med cachningen på sidnivå aktiverad.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configure to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
+		<translation>Utdatacachning på blocknivå har inte samma dynamiska innehållsbegränsningar. Det är syfte-byggt för att tillåta Xaraya att helt och hållet ladda kärnan och aktiva moduler vid varje sidbegäran. Utdatacachning på blocknivå kan konfigureras på en per blockförekomst bas så du kan ha samma blockförekomst helt dynamiskt (aldrig cachad) samtidigt som andra förekomster cachas för varierade livslängder. Cachen för varje blockförekomst kan ställas in till att vara eller inte vara delad mellan användare (eller grupper av användare) och sidor. Detta möjliggör ett väldigt flexibelt utdatacachningsbeteende för webbplatser med mixade statiska och dynamiska sidor. Nackdelen är en mycket högre fast sidkostnad (tid för sidskapande). Vid de tillfällen då utdatacachning på sidnivå kan reducera en sidas skapandetid med 65-80% (YMMV beroende på webbplatsens konfiguration) kommer utdatacachningen på blocknivå allmänt endast reducera det med 20-30%.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level and block level output caching can be used in tandem to reduce loads and improve page generation times on sites that serve both anonymous and non-anonymous audience members, or on sites with varying page and block level output caching requirements.</string>
+		<translation>Utdatacachning på sid- och blocknivå kan användas i samkörning för att reducera belastning och förbättra tiderna för sidskapande på webbplatser som servar både anonyma och icke-anonyma medlemmar, eller på webbplatser med varierande krav för utdatacachning på sid- och blocknivå.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>TODO List</string>
+		<translation>ATT GÖRA lista</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>General caching related:</string>
+		<translation>Allmänt cachningsrelaterat:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support multisite configurations.</string>
+		<translation>Stöd för flersidors-konfigurationer.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide data caching API.</string>
+		<translation>Ge datacachning API.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide an output cache file browser, like the template cache file browser in SiteTools.</string>
+		<translation>Förse med en läsare för utdatacachefiler så som läsaren av cachade mallfiler i SiteTools</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refactor, refactor, refactor.</string>
+		<translation>Refactor, refactor, refactor</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching related:</string>
+		<translation>Utdatacachning på sidnivå relaterat:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support itemtype as a 'name' between cacheKey and page when available.</string>
+		<translation>Stöd posttyp som ett 'namn' mellan cacheKey och sida när så tillgänglig.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Scheduler, getfile/link integration for pre-population of output cache.</string>
+		<translation>Förse med planerar, getfile/länk integration för förifyllning av utdatacache.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Analyze Slashdot and Google News use of 304 &amp;amp; ETag HTTP headers and rework our use of these headers based on findings.</string>
+		<translation>Analysera Slashdot och Google News användning av 304 &amp;amp; ETag HTTP sidhuvuden och omarbeta vår användning av dessa sidhuvuden baserat på analysen.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block/module level output caching related:</string>
+		<translation>Utdatacachning på block/modulnivå relaterat:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add module output caching functions, reutilizing xarBlock*Cached functions when appropriate.</string>
+		<translation>Lägg till funktioner för modulers utdatacachning, återanvändande xarMod*Cached funktioner när så är lämpligt.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add xarMod*Cached() calls in xarModFunc().</string>
+		<translation>Lägg till xarMod*Cached() anrop i xarModFunc().</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Admin GUI hooks to modules beyond Blocks for the configuration of per module output cache settings.</string>
+		<translation>Förse admin GUI-kopplingar till moduler bakom blocken för konfiguration av inställningar för moduls utdatacachning.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Utökad information om denna modul finns här. [modules module]</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="113" />
+		</references>
+	</entry>
+</translations>
