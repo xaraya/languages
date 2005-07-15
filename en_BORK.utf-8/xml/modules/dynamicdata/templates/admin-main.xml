@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="en_BORK.utf-8">
+	<entry>
+		<string>Many modules are basically dealing with the equivalent of real-life objects, like news articles, projects, surveys, race tracks or whatever.</string>
+		<translation>Muny mudooles ere-a beseecelly deeleeng veet zee iqooeefelent ooff reel-leeffe-a oobjects, leeke-a noos erteecles, prujects, soorfeys, rece-a trecks oor vhetefer. Hurty flurty schnipp schnipp!</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Those &quot;objects&quot; each have a number of &quot;properties&quot;, like an item id, a title, an author, a deadline or a number of VIP places, and their data is generally stored in some dedicated module table.</string>
+		<translation>Thuse-a &quot;oobjects&quot; iech hefe-a a noomber ooff &quot;pruperteees&quot;, leeke-a un item id, a teetle-a, un oothur, a deedleene-a oor a noomber ooff FIP pleces, und zeeur deta is generelly stured in sume-a dedeeceted mudoole-a teble-a.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>The whole management of the object instances (creation, modification, display, deletion, ...) is typically hard-coded in the module, and tightly wired to the underlying data structure, which makes it difficult to e.g. add another property to your objects without rewriting half the module code (and templates).</string>
+		<translation>Zee vhule-a munegement ooff zee oobject instunces (creeshun, mudeefficeshun, deespley, deleshun, ...) is typeecelly herd-cuded in zee mudoole-a, und teeghtly vured tu zee underlyeeng deta strooctoore-a, vheech mekes it deefffficoolt tu i.g. edd unuzeer pruperty tu yuoor oobjects veethuoot rooreeting helff zee mudoole-a cude-a (und templetes).</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Dynamic Data module allows you to dynamically add properties to your module objects, and to integrate them with the rest of the site without much effort - regardless of whether you're the module developer, a third-party solution designer or the website admin.</string>
+		<translation>Zee Dynemeec Deta mudoole-a elloos yuoo tu dynemeecelly edd pruperteees tu yuoor mudoole-a oobjects, und tu integrete-a zeem veet zee rest ooff zee seete-a veethuoot mooch iffffurt - regerdless ooff vhezeer yuoo're-a zee mudoole-a defeluper, a thurd-perty sulooshun deseegner oor zee vebseete-a edmeen. Bork bork bork!</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>And no-one says you're limited to existing modules - you could just as easily create whole new objects by defining their properties and telling the Dynamic Data module where their data should be coming from : dedicated module tables, dynamic data fields (auto-generated), some utility module from Xaraya or a user function you'll specify.</string>
+		<translation>Und nu-oone-a seys yuoo're-a leemited tu ixeesting mudooles - yuoo cuoold joost es ieseely creete-a vhule-a noo oobjects by deffeening zeeur pruperteees und telleeng zee Dynemeec Deta mudoole-a vhere-a zeeur deta shuoold be-a cumeeng frum : dedeeceted mudoole-a tebles, dynemeec deta feeelds (ootu-genereted), sume-a uteelity mudoole-a frum Xereya oor a user fooncshun yuoo'll speceeffy</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>The starting point for all this is of course the admin interface...</string>
+		<translation>Zee sterteeng pueent fur ell thees is ooff cuoorse-a zee edmeen interffece-a...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>2. Admin interface of the Dynamic Data module</string>
+		<translation>2. Edmeen interffece-a ooff zee Dynemeec Deta mudoole</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Explain property types, data sources, validation, input &amp; output representation</string>
+		<translation>Expleeen pruperty types, deta suoorces, feleedeshun, inpoot &amp; ooootpoot representeshun</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>3. Using the &amp;lt;xar:data-* ...&amp;gt; tags in your templates</string>
+		<translation>3. Useeng zee &amp;lt;xar:data-* ...&amp;gt; tegs in yuoor templetes</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.a. User view and admin list (for several items)</string>
+		<translation>3.a. User feeoo und edmeen leest (fur seferel items)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>1) if you want to get the dynamic properties and values for your items, and include them somewhere in your own view/list</string>
+		<translation>1) iff yuoo vunt tu get zee dynemeec pruperteees und felooes fur yuoor items, und incloode-a zeem sumoohere-a in yuoor oovn feeoo/leest</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Available tags : (replace 'users', '&amp;#36;uidlist' and '&amp;#36;uid' with your own)</string>
+		<translation>Efeeeleble-a tegs : (replece-a 'users', '&amp;#36;uidlist' and '&amp;#36;uid' veet yuoor oovn)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>this retrieves the dynamic properties defined for the 'users' module,
+     and their value for all items listed in &amp;#36;uidlist. You'll need to build
+     that uid list in your module function and pass it along to the template</string>
+		<translation>thees retreeefes zee dynemeec pruperteees deffeened fur zee 'oosers' mudoole-a, und zeeur felooe-a fur ell items leested in $ooeedlist. Um de hur de hur de hur. Yuoo'll need tu booeeld thet ueed leest in yuoor mudoole-a fooncshun und pess it elung tu zee templete</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the label for dynamic property</string>
+		<translation>thees shoos zee lebel fur dynemeec pruperty</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid, i
+ formatted for output</string>
+		<translation>thees shoos zee felooe-a ooff dynemeec pruperty '&amp;#36;name' fur item &amp;#36;uid, i furmetted fur ooootpoot</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid, 
+ formatted for input</string>
+		<translation>thees shoos zee felooe-a ooff dynemeec pruperty '&amp;#36;name' fur item &amp;#36;uid, furmetted fur ooootpoot</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sample use :</string>
+		<translation>Semple-a use-a:</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (somewhere near the beginning of your template) ...</string>
+		<translation>... (sumoohere-a neer zee begeenning ooff yuoor templete-a) ...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>avoid errors when the dynamic data module isn't activated</string>
+		<translation>efueed irrurs vhee zee dynemeec deta mudoole-a isn't ecteefeted</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="108" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="120" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="135" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (when you're building some table headers, and you want to add labels for the dynamic properties) ...</string>
+		<translation>... (vhee yuoo're-a booeelding sume-a teble-a heeders, und yuoo vunt tu edd lebels fur zee dynemeec pruperteees) ...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (when you're looping over the individual items, and you want to add the dynamic values for item &amp;#36;uid) ...</string>
+		<translation>... (vhee yuoo're-a luupeeng oofer zee indeefidooel items, und yuoo vunt tu edd zee dynemeec felooes fur item &amp;#36;uid) ...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>avoid errors if the value isn't defined for this 
+ item (yet)</string>
+		<translation>efueed irrurs iff zee felooe-a isn't deffeened fur thees item (yet)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>2) if you want to show a standard list of items, with all the dynamic properties that are defined for that object</string>
+		<translation>2) iff yuoo vunt tu shoo a stunderd leest ooff items, veet ell zee dynemeec pruperteees thet ere-a deffeened fur thet oobject</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>Idem for</string>
+		<translation>Item fur</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="180" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="238" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="250" />
+		</references>
+	</entry>
+	<entry>
+		<string>(Todo : group, join ?)</string>
+		<translation>(Tudu : gruoop, jueen ?)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="186" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.b. User display and admin form (for one item)</string>
+		<translation>3.b. User deespley und edmeen furm (fur oone-a item)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>1) if you want to get the dynamic properties for this item, and include them manually in your own display</string>
+		<translation>1) iff yuoo vunt tu get zee dynemeec pruperteees fur thees item, und incloode-a zeem munooelly in yuoor oovn deespley</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="196" />
+		</references>
+	</entry>
+	<entry>
+		<string>this retrieves the dynamic properties defined for the 'users' module
+     and item &amp;#36;uid. Note that we don't use value=&quot;...&quot; here, since we only
+     have one item</string>
+		<translation>thees retreeefes zee dynemeec pruperteees deffeened fur zee 'oosers' mudoole-a und item &amp;#36;uid. Bork bork bork! Nute-a thet ve-a dun't use-a felooe-a=&quot;...&quot; here-a, seence-a ve-a oonly hefe-a oone-a item</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="201" />
+		</references>
+	</entry>
+	<entry>
+		<string>... (where you want to add the dynamic labels and values for this item) ...</string>
+		<translation>... (vhere-a yuoo vunt tu edd zee dynemeec lebels und felooes fur thees item) ...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="206" />
+		</references>
+	</entry>
+	<entry>
+		<string>Idem for input forms, where you'd use &amp;lt;xar:data-input ... /&amp;gt; to show input fields</string>
+		<translation>Item fur inpoot furms, vhere-a yuoo'd use-a &amp;lt;xar:data-input ... /&amp;gt; tu shoo inpoot feeelds</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="219" />
+		</references>
+	</entry>
+	<entry>
+		<string>2) if you simply want to display the dynamic properties for this item (= easier in most cases)</string>
+		<translation>2) iff yuoo seemply vunt tu deespley zee dynemeec pruperteees fur thees item (= ieseeer in must ceses)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="224" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use the default layout of user-objectdisplay.xd</string>
+		<translation>thees veell use-a zee deffoolt leyuoot ooff user-objectdisplay.xd</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="227" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use layout 'mylayout' of user-objectdisplay.xd</string>
+		<translation>thees veell use-a leyuoot 'myleyuoot' ooff user-objectdisplay.xd</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="230" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use the template user-objectdisplay-myusers.xd</string>
+		<translation>thees veell use-a zee templete-a user-objectdisplay-myusers.xd</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="233" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.c. User output and admin input (for one field of an item)</string>
+		<translation>3.c. User ooootpoot und edmeen inpoot (fur oone-a feeeld ooff un item)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="243" />
+		</references>
+	</entry>
+	<entry>
+		<string>4. Using hooks</string>
+		<translation>4. Useeng huuks</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="255" />
+		</references>
+	</entry>
+	<entry>
+		<string>deprecated</string>
+		<translation>depreceted</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="265" />
+		</references>
+	</entry>
+	<entry>
+		<string>5. Using API calls</string>
+		<translation>5. Useeng EPI cells</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="272" />
+		</references>
+	</entry>
+	<entry>
+		<string>property types</string>
+		<translation>pruperty types</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="278" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="305" />
+		</references>
+	</entry>
+	<entry>
+		<string>dynamic objects and object lists</string>
+		<translation>dynemeec oobjects und oobject leests</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="283" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="310" />
+		</references>
+	</entry>
+	<entry>
+		<string>dynamic properties</string>
+		<translation>dynemeec pruperteees</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="288" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="315" />
+		</references>
+	</entry>
+	<entry>
+		<string>items : getitems(), getitem(), getfield()</string>
+		<translation>items : getitems(), getitem(), getfield()</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="293" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="320" />
+		</references>
+	</entry>
+	<entry>
+		<string>6. Using OO programming</string>
+		<translation>6. Useeng OoO prugremmeeng</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="299" />
+		</references>
+	</entry>
+	<entry>
+		<string>7. Customising Dynamic Data</string>
+		<translation>7. Coostumeesing Dynemeec Deta</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="326" />
+		</references>
+	</entry>
+	<entry>
+		<string>templates, data sources, functions, validation, ...</string>
+		<translation>templetes, deta suoorces, fooncshuns, feleedeshun, ...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="331" />
+		</references>
+	</entry>
+	<entry>
+		<string>8. Integrate utility modules via hooks or dynamic data (or both) ?</string>
+		<translation>8. Integrete-a uteelity mudooles feea huuks oor dynemeec deta (oor but)?</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="336" />
+		</references>
+	</entry>
+	<entry>
+		<string>9. Import/export utilities</string>
+		<translation>9. Impurt/ixpurt uteelities</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="341" />
+		</references>
+	</entry>
+	<entry>
+		<string>Usage : Export object definitions and/or data - and import them elsewhere...</string>
+		<translation>Usege-a : Ixpurt oobject deffeenishuns und/oor deta - und impurt zeem ilsoohere-a...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="346" />
+		</references>
+	</entry>
+	<entry>
+		<string>[+ Easter Egg : util meta -&amp;gt; export to XML -&amp;gt; save to file -&amp;gt; util import -&amp;gt; access your whole database via DD]</string>
+		<translation>[+ Iester Igg : uteel meta -&amp;gt; ixpurt tu XML -&amp;gt; sefe-a tu feele-a -&amp;gt; uteel impurt -&amp;gt; eccess yuoor vhule-a detebese-a feea DD]</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="351" />
+		</references>
+	</entry>
+</translations>

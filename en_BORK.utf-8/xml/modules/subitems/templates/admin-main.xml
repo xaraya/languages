@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="en_BORK.utf-8">
+	<entry>
+		<string>Administration - Example</string>
+		<translation>Edmeenistreshun - Ixemple</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Oferfeeoo</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Vhet is it?</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module allows you to create and display sub-items for any module item. In the words of the author :</string>
+		<translation>Thees mudoole-a elloos yuoo tu creete-a und deespley soob-items fur uny mudoole-a item. In zee vurds ooff zee oothur :</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;For example, if you want to have a pubtype &quot;cooking recipe&quot;. This 
+pubtype could be to store the ingredients of the meal, thus there would 
+be required a list of input fields: ingredient1, quantity1, 
+pic1(extended info :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;
+&lt;p&gt;The disadvantage of this is the high number of fields to ensure, that 
+there your users aren't going against the limit. Furthermore there are 
+always displayed all input fields. And of  course it's not a very nice 
+way to do it.&lt;/p&gt;
+&lt;p&gt;As I didn't know how to do this better, I had a dream about a module, 
+which can be hooked from any other module and which is able to display / 
+provide editing / etc. for subitems to an item. I had a dream about a 
+table, which saves the information, which DD-Object stores the subitems 
+of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which 
+DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object 
+(1 to n Relation). I had the dream to share my module with the community.
+Now, the module is here, and all dreams got true. If you didn't get my 
+technical information, don't worry. &lt;/p&gt;</string>
+		<translation>&lt;p&gt;Fur ixemple-a, iff yuoo vunt tu hefe-a a poobtype-a &quot;cuukeeng receepe-a&quot;. Thees poobtype-a cuoold be-a tu sture-a zee ingredeeents ooff zee meel, thoos zeere-a vuoold be-a reqooured a leest ooff inpoot feeelds: ingredeeent1, qoounteety1, peec1(ixtended inffu :-) ) , ingredeeent2, qoounteety2, peec2,...&lt;/p&gt; &lt;p&gt;Zee deesedfuntege-a ooff thees is zee heegh noomber ooff feeelds tu insoore-a, thet zeere-a yuoor users eren't gueeng egeeenst zee leemit. Um de hur de hur de hur. Foorzeermure-a zeere-a ere-a elveys deespleyed ell inpoot feeelds. Um gesh dee bork, bork! Und ooff cuoorse-a it's nut a fery neece-a vey tu du it. Um de hur de hur de hur.&lt;/p&gt; &lt;p&gt;Es I deedn't knoo hoo tu du thees better, I hed a dreem ebuoot a mudoole-a, vheech cun be-a huuked frum uny oozeer mudoole-a und vheech is eble-a tu deespley / prufeede-a ideeting / itc. fur soobeetems tu un item. I hed a dreem ebuoot a teble-a, vheech sefes zee inffurmeshun, vheech DD-Oobject stures zee soobeetems ooff &quot;mudoole-a&quot; / &quot;eetemtype-a&quot; cumbeeneshun und unuzeer teble-a cunteeening vheech DD-Itemeeds belung tu &quot;mudoole-a&quot; / &quot;eetemtype-a&quot; / &quot;eetemid&quot; in thees DD-Oobject (1 tu n Releshun). I hed zee dreem tu shere-a my mudoole-a veet zee cummooneety. Bork bork bork! Noo, zee mudoole-a is here-a, und ell dreems gut trooe-a. Iff yuoo deedn't get my techneecel inffurmeshun, dun't vurry. Bork bork bork! &lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hoo tu use-a it?</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;ol&gt;
+&lt;li&gt; install module&lt;/li&gt;
+&lt;li&gt; goto dynamicdata admin area, new object, create a dynamic data object 
+, which should hold the subitem information (you must have one field 
+with the ItemID, default 0, display only) -&gt; remember the objectid, edit 
+label (used for display) and name (used for custom default template)&lt;/li&gt;
+&lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from 
+previsously created dd-object), module name, itemtype&lt;/li&gt;
+&lt;li&gt; goto module modules, hooks -&gt; subitems -&gt; enable the hook for the 
+module /itemtype combination, you created the link for&lt;/li&gt;
+&lt;/ol&gt;
+-&gt; now it should work (tested with custom pubtype)</string>
+		<translation>&lt;ol&gt; &lt;li&gt; instell mudoole-a&lt;/li&gt; &lt;li&gt; gutu dynemeecdeta edmeen erea, noo oobject, creete-a a dynemeec deta oobject , vheech shuoold huld zee soobeetem inffurmeshun (yuoo moost hefe-a oone-a feeeld veet zee ItemID, deffoolt 0, deespley oonly) -&gt; remeembur zee oobjecteed, ideet lebel (used fur deespley) und neme-a (used fur coostum deffoolt templete-a)&lt;/li&gt; &lt;li&gt; gutu soobeetems mudoole-a, edmeen erea -&gt; edd leenk -&gt; type-a in oobjecteed (frum prefeesuoosly creeted dd-oobject), mudoole-a neme-a, itemtype-a&lt;/li&gt; &lt;li&gt; gutu mudoole-a mudooles, huuks -&gt; soobeetems -&gt; ineble-a zee huuk fur zee mudoole-a /itemtype-a cumbeeneshun, yuoo creeted zee leenk fur&lt;/li&gt; &lt;/ol&gt; -&gt; noo it shuoold vurk (tested veet coostum poobtype-a)</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Inclooded Blucks</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>none</string>
+		<translation>nune</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Inclooded Huuks</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>new/create/modify/update/delete -- Allows you to create/update sub-items</string>
+		<translation>noo/creete-a/mudeeffy/updete-a/delete-a -- Elloos yuoo tu creete-a/updete-a soob-items</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>display -- Allows you to display sub-items</string>
+		<translation>deespley -- Elloos yuoo tu deespley soob-items</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Extended inffurmeshun ebuoot thees mudoole-a cun be-a fuoond here-a. [mudooles mudoole-a]</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+</translations>

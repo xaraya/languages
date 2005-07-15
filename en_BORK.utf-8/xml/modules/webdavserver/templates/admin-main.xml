@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="en_BORK.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>Vhet is it?</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The webdavserver module exposes the webdav protocol for a Xaraya site.
+        A traditional webdav implementation does this by pointing at a certain 
+        location on the webserver and serving up files from there over WebDAV.</string>
+		<translation>Zee vebdefserfer mudoole-a ixpuses zee vebdef prutucul fur a Xereya seete-a. A tredeeshunel vebdef implementeshun dues thees by pueenting et a certeeen luceshun oon zee vebserfer und serfeeng up feeles frum zeere-a oofer VebDEF.</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Xaraya WebDAV implementation exposes a virtual filesystem based on
+        the content of the site and (optionally) a location on the server.
+        The modules, their itemtypes and the items therein are elements in this
+        virtual filesystem which can then be accessed over WebDAV.</string>
+		<translation>Zee Xereya VebDEF implementeshun ixpuses a furtooel feelesystem besed oon zee cuntent ooff zee seete-a und (oopshunelly) a luceshun oon zee serfer. Hurty flurty schnipp schnipp! Zee mudooles, zeeur itemtypes und zee items zeereeen ere-a ilements in thees furtooel feelesystem vheech cun zeen be-a eccessed oofer VebDEF.</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>WebDAV runs as a webservice in Xaraya, like xmlrpc and soap, so it's entry
+        point is ws.php instead of index.php.</string>
+		<translation>VebDEF roons es a vebserfeece-a in Xereya, leeke-a xmlrpc und suep, su it's intry pueent is ws.php insteed ooff index.php.</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hoo tu use-a it?</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>After the usual install through the modules module the WebDAV server is operational
+        and doesn't need any configuration in Xaraya itself. However because we need a virtual
+        filesystem root, we need a mapping from the entrypoint (ws.php?type=webdav&amp;amp;path=/) to 
+        a directory like name where the virtual filesystem starts. To create such a mapping it
+        is necessary at this time to create a ReWrite rule in your webserver.</string>
+		<translation>Effter zee usooel instell thruoogh zee mudooles mudoole-a zee VebDEF serfer is oopereshunel und duesn't need uny cunffeegooreshun in Xereya itselff. Hooefer becoose-a ve-a need a furtooel feelesystem ruut, ve-a need a meppeeng frum zee intrypueent (ws.php?type=webdav&amp;amp;path=/) tu a durectury leeke-a neme-a vhere-a zee furtooel feelesystem sterts. Um gesh dee bork, bork! Tu creete-a sooch a meppeeng it is necessery et thees teeme-a tu creete-a a ReVreete-a roole-a in yuoor vebserfer. Hurty flurty schnipp schnipp!</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>The easiest way (i think) to create such a rewrite rule is to place a .htaccess file in
+        the webroot where xaraya is installed with similar contents as shown below:</string>
+		<translation>Zee ieseeest vey (i theenk) tu creete-a sooch a rooreete-a roole-a is tu plece-a a .hteccess feele-a in zee vebruut vhere-a xereya is instelled veet seemiler cuntents es shoon beloo:</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>The specific contents of this file may differ in your situation, but there are a number 
+        of elements in it which should be present. The actual rewrite rule is at line 5.</string>
+		<translation>Zee speceeffic cuntents ooff thees feele-a mey deeffffer in yuoor seetooeshun, boot zeere-a ere-a a noomber ooff ilements in it vheech shuoold be-a present. Um de hur de hur de hur. Zee ectooel rooreete-a roole-a is et leene-a 5.</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>Some remarks on the above:</string>
+		<translation>Sume-a remerks oon zee ebufe-a:</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Line 1 turns the ReWriteEngine on for Apache, this may not be 
+            necessary if you have this already enabled.</string>
+		<translation>Leene-a 1 toorns zee ReVreeteEngine-a oon fur Epeche-a, thees mey nut be-a necessery iff yuoo hefe-a thees elreedy inebled. Bork bork bork!</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>I needed line 2 because some things in my webroot are symbolic links to
+            somewhere else, Line 2 makes sure they are followed through</string>
+		<translation>I needed leene-a 2 becoose-a sume-a theengs in my vebruut ere-a symbuleec leenks tu sumoohere-a ilse-a, Leene-a 2 mekes soore-a zeey ere-a fullooed thruoogh</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>The rewriterule on line 4 says i forbid access to the .htaccess file itself</string>
+		<translation>Zee rooreeteroole-a oon leene-a 4 seys i furbeed eccess tu zee .hteccess feele-a itselff</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>The key line in the .htaccess file is line 5. You'll notice the word 'webdav' in there 
+            and the entrypoint for the webdavserver. What this line does is if a request comes in at host.com/content/ over webdav
+            Xaraya actually executes host.com/ws.php?type=webdav&amp;amp;path=/content/</string>
+		<translation>Zee key leene-a in zee .hteccess feele-a is leene-a 5. Yuoo'll nuteece-a zee vurd 'vebdef' in zeere-a und zee intrypueent fur zee vebdefserfer. Hurty flurty schnipp schnipp! Vhet thees leene-a dues is iff a reqooest cumes in et host.com/content/ oofer vebdef Xereya ectooelly ixecootes host.com/ws.php?type=webdav&amp;amp;path=/content/</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>After this the /content/ is the root of the virtual filesystem Xaraya will create and:</string>
+		<translation>Effter thees zee /content/ is zee ruut ooff zee furtooel feelesystem Xereya veell creete-a und:</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>will be the location to point your WebDAV to.</string>
+		<translation>veell be-a zee luceshun tu pueent yuoor VebDEF tu.</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Limitations</string>
+		<translation>Leemiteshuns</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Requires PHP version 4.3 later than August 2003</string>
+		<translation>Reqooures PHP ferseeun 4.3 leter thun Oogoost 2003</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Apache with mod_rewrite is needed</string>
+		<translation>Epeche-a veet mud_rooreete-a is needed</translation>
+		<references>
+			<reference file="modules/webdavserver/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+</translations>

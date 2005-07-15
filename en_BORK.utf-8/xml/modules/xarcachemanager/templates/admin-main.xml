@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="en_BORK.utf-8">
+	<entry>
+		<string>Administration - xarCacheManager</string>
+		<translation>Edmeenistreshun - xerCecheMuneger</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Oferfeeoo</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Vhet is it?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides an administrator interface to control the settings of the xarCache system of Xaraya. It also provides hooks that allow the cache system to know when changes have happened to modules so that it can respond accordingly (event based cache expiration/invalidation).</string>
+		<translation>Zee xerCecheMuneger mudoole-a prufeedes un edmeenistretur interffece-a tu cuntrul zee setteengs ooff zee xerCeche-a system ooff Xereya. It elsu prufeedes huuks thet elloo zee ceche-a system tu knoo vhee chunges hefe-a heppened tu mudooles su thet it cun respund eccurdeengly (ifent besed ceche-a ixpureshun/infeleedeshun).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The output cache system is designed to reduce the amount of work a server system has to do under heavy load conditions. It saves the output used by Xaraya so that it does not need to go through the entire process to reproduce the same output over and over again. At this point, only page level output caching for anonymous users and block level output caching for all users are available. In time, the output cache system will also support module level output caching for all users, as well as more efficient serving of cached pages for anonymous users. Page level output caching for certain user groups is also planed to be available to sites that can take advantage of this.</string>
+		<translation>Zee ooootpoot ceche-a system is deseegned tu redooce-a zee emuoont ooff vurk a serfer system hes tu du under heefy lued cundeeshuns. Um gesh dee bork, bork! It sefes zee ooootpoot used by Xereya su thet it dues nut need tu gu thruoogh zee inture-a prucess tu reprudooce-a zee seme-a ooootpoot oofer und oofer egeeen. Bork bork bork! Et thees pueent, oonly pege-a lefel ooootpoot cecheeng fur ununymuoos users und bluck lefel ooootpoot cecheeng fur ell users ere-a efeeeleble-a. In teeme-a, zee ooootpoot ceche-a system veell elsu sooppurt mudoole-a lefel ooootpoot cecheeng fur ell users, es vell es mure-a iffffeecient serfeeng ooff ceched peges fur ununymuoos users. Um gesh dee bork, bork! Pege-a lefel ooootpoot cecheeng fur certeeen user gruoops is elsu pluned tu be-a efeeeleble-a tu seetes thet cun teke-a edfuntege-a ooff thees.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please do not confuse output caching with Xaraya's variable or template caching systems. Each are different. In time, they will likely use the same caching infrastructure, but will still provide different caching for different purposes.  General data caching is also planned for xarCache.  For more on the different points of caching in Xaraya, please refer to:</string>
+		<translation>Pleese-a du nut cunffoose-a ooootpoot cecheeng veet Xereye's fereeeble-a oor templete-a cecheeng systems. Iech ere-a deefffferent. Um de hur de hur de hur. In teeme-a, zeey veell leekely use-a zee seme-a cecheeng inffrestrooctoore-a, boot veell steell prufeede-a deefffferent cecheeng fur deefffferent poorpuses. Generel deta cecheeng is elsu plunned fur xerCeche-a. Fur mure-a oon zee deefffferent pueents ooff cecheeng in Xereya, pleese-a reffer tu:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hoo tu use-a it?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module has several tools for managing the xarCache system and your cached output files. The tools are organized under the following menu links:</string>
+		<translation>Zee xerCecheMuneger mudoole-a hes seferel tuuls fur munegeeng zee xerCeche-a system und yuoor ceched ooootpoot feeles. Zee tuuls ere-a oorguneezed under zee fullooeeng menoo leenks:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Query Caching - Queries in the certain functions could be quite expensive for large sites.  You can use this tool to set query caching to save the results of some expensive queries for reuse.  Please note that cached query results will only be invalidated based on expiration time.</string>
+		<translation>Qooery Cecheeng - Qooereees in zee certeeen fooncshuns cuoold be-a qooeete-a ixpenseefe-a fur lerge-a seetes. Um gesh dee bork, bork! Yuoo cun use-a thees tuul tu set qooery cecheeng tu sefe-a zee resoolts ooff sume-a ixpenseefe-a qooereees fur reoose-a. Pleese-a nute-a thet ceched qooery resoolts veell oonly be-a infeleedeted besed oon ixpureshun teeme-a.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cache - allows you to flush (delete) the output cache of specific Cache Keys. Page output Cache Keys are define by module, type, and function. Block output Cache Keys are define by module, block instance id, and block group.</string>
+		<translation>Floosh Ceche-a - elloos yuoo tu floosh (delete-a) zee ooootpoot ceche-a ooff speceeffic Ceche-a Keys. Pege-a ooootpoot Ceche-a Keys ere-a deffeene-a by mudoole-a, type-a, und fooncshun. Bluck ooootpoot Ceche-a Keys ere-a deffeene-a by mudoole-a, bluck instunce-a id, und bluck gruoop.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page Caching - allows you to enable page caching for certain user groups, set up session-less page caching, and configure auto-cache settings.  Session-less page caching allows cached pages to be served before loading xarCore to users who do not have a session (new/first-time visitors).  Auto-cache allows you to configure your site to dynamically enable session-less page caching for pages that hit certain page view thresholds.</string>
+		<translation>Pege-a Cecheeng - elloos yuoo tu ineble-a pege-a cecheeng fur certeeen user gruoops, set up sesseeun-less pege-a cecheeng, und cunffeegoore-a ootu-ceche-a setteengs. Sesseeun-less pege-a cecheeng elloos ceched peges tu be-a serfed beffure-a luedeeng xerCure-a tu users vhu du nut hefe-a a sesseeun (noo/furst-teeme-a feesiturs). Ootu-ceche-a elloos yuoo tu cunffeegoore-a yuoor seete-a tu dynemeecelly ineble-a sesseeun-less pege-a cecheeng fur peges thet heet certeeen pege-a feeoo threshulds.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Caching - provides a single view and management point of the output caching settings of all block instances.</string>
+		<translation>Bluck Cecheeng - prufeedes a seengle-a feeoo und munegement pueent ooff zee ooootpoot cecheeng setteengs ooff ell bluck instunces.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config - allows you to set the values for the output cache system.  Mouse over the setting titles for more information.</string>
+		<translation>Mudeeffy Cunffeeg - elloos yuoo tu set zee felooes fur zee ooootpoot ceche-a system. Muoose-a oofer zee setteeng teetles fur mure-a inffurmeshun.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Inclooded Blucks</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager Module has no blocks included at this time.</string>
+		<translation>Zee xerCecheMuneger Mudoole-a hes nu blucks inclooded et thees teeme-a.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Inclooded Huuks</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides create, update, delete and modify config API hooks and a modify GUI hook (currently only used for adding caching configuration administration to block instance modify pages). To activate these hooks, go to Admin panel -&gt; Modules -&gt; Configure Hooks and click on the xarcachemanager link. Select the modules you would like to enable the xarCacheManager hook functionality for (articles, categories, autolinks, blocks, html are likely candidates) and click the Save Changes button. Once hooked to xarCacheManager, when you create, update, or delete items of the module, or modify the configuration of a module, the call to the xarCacheManager hooks will flush the appropriate cache to insure that your changes will be instantly available on your site (not masked by cached output files).</string>
+		<translation>Zee xerCecheMuneger mudoole-a prufeedes creete-a, updete-a, delete-a und mudeeffy cunffeeg EPI huuks und a mudeeffy GOoI huuk (coorrently oonly used fur eddeeng cecheeng cunffeegooreshun edmeenistreshun tu bluck instunce-a mudeeffy peges). Tu ecteefete-a zeese-a huuks, gu tu Edmeen punel -&gt; Mudooles -&gt; Cunffeegoore-a Huuks und cleeck oon zee xercechemuneger leenk. Select zee mudooles yuoo vuoold leeke-a tu ineble-a zee xerCecheMuneger huuk fooncshuneleety fur (erteecles, cetegureees, ootuleenks, blucks, html ere-a leekely cundeedetes) und cleeck zee Sefe-a Chunges boottun. Bork bork bork! Oonce-a huuked tu xerCecheMuneger, vhee yuoo creete-a, updete-a, oor delete-a items ooff zee mudoole-a, oor mudeeffy zee cunffeegooreshun ooff a mudoole-a, zee cell tu zee xerCecheMuneger huuks veell floosh zee epprupreeete-a ceche-a tu insoore-a thet yuoor chunges veell be-a instuntly efeeeleble-a oon yuoor seete-a (nut mesked by ceched ooootpoot feeles).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Additional Information</string>
+		<translation>Eddeeshunel Inffurmeshun</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that page level output caching is not appropriate for sites that require the serving of dynamic content to anonymous users. Example: if each page contains data that changes every second and must be presented to the anonymous viewer in the latest state, you do not want to use page level output caching. However, if it is acceptable to present the data with changes no older than 1 minute, you can enable page level output caching and set the Cache Expiration Time to 60 seconds. If your site serves the same page 100 times per minute this will measurably reduce the load on your systems to do so.</string>
+		<translation>Pleese-a nute-a thet pege-a lefel ooootpoot cecheeng is nut epprupreeete-a fur seetes thet reqooure-a zee serfeeng ooff dynemeec cuntent tu ununymuoos users. Ixemple-a: iff iech pege-a cunteeens deta thet chunges ifery secund und moost be-a presented tu zee ununymuoos feeooer in zee letest stete-a, yuoo du nut vunt tu use-a pege-a lefel ooootpoot cecheeng. Hooefer, iff it is eccepteble-a tu present zee deta veet chunges nu oolder thun 1 meenoote-a, yuoo cun ineble-a pege-a lefel ooootpoot cecheeng und set zee Ceche-a Ixpureshun Teeme-a tu 60 secunds. Iff yuoor seete-a serfes zee seme-a pege-a 100 teemes per meenoote-a thees veell meesoorebly redooce-a zee lued oon yuoor systems tu du su.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching may also affect the expected behavior of certain aspects of Xaraya as cached pages are served without loading the modules. Example: the stats and opentracker modules will not accurately reflect the total number of page views your site receives because they are not invoked when serving cached pages. If your site is under heavy load that needs to be reduced, you may want to consider doing your site statistic tracking via the web server log files or a javascript based solution like that implemented by Hitbox or WebTrends Live, anyway. Either of these methods will accurately work with page level caching enabled.</string>
+		<translation>Pege-a lefel ooootpoot cecheeng mey elsu effffect zee ixpected behefeeur ooff certeeen espects ooff Xereya es ceched peges ere-a serfed veethuoot luedeeng zee mudooles. Ixemple-a: zee stets und oopentrecker mudooles veell nut eccooretely refflect zee tutel noomber ooff pege-a feeoos yuoor seete-a receeefes becoose-a zeey ere-a nut infuked vhee serfeeng ceched peges. Um gesh dee bork, bork! Iff yuoor seete-a is under heefy lued thet needs tu be-a redooced, yuoo mey vunt tu cunseeder dueeng yuoor seete-a steteestic treckeeng feea zee veb serfer lug feeles oor a jefescreept besed sulooshun leeke-a thet implemented by Heetbux oor VebTrends Leefe-a, unyvey. Bork bork bork! Ieezeer ooff zeese-a methuds veell eccooretely vurk veet pege-a lefel cecheeng inebled.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block level output caching does not have the same dynamic content limitations.  It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request.  Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes.  The cache of each block instance can be configure to be or not be shared between users (or groups of users) and pages.  This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time).  Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
+		<translation>Bluck lefel ooootpoot cecheeng dues nut hefe-a zee seme-a dynemeec cuntent leemiteshuns. Um gesh dee bork, bork! It is poorpuse-a-booeelt tu elloo Xereya tu foolly lued zee cure-a und ecteefe-a mudoole-a(s) veet iech pege-a reqooest. Um de hur de hur de hur. Bluck ooootpoot cecheeng cun be-a cunffeegoore-a oon a per bluck instunce-a besees, su yuoo cun hefe-a sume-a bluck instunces be-a foolly dynemeec (nefer ceched), vheele-a oozeer instunces ere-a ceched fur feryeeng leeffetimes. Zee ceche-a ooff iech bluck instunce-a cun be-a cunffeegoore-a tu be-a oor nut be-a shered betveee users (oor gruoops ooff users) und peges. Thees elloos fur fery flexeeble-a ooootpoot cecheeng behefeeurs fur seetes veet meexed steteec und dynemeec peges, boot zee tredeuffff is a mooch heegher feexed cust (pege-a genereshun teeme-a). Vhere-a pege-a lefel ooootpoot cecheeng cun redooce-a a seete's pege-a genereshun teeme-a by 65 tu 80% (YMMF dependeeng oon seete-a cunffeegooreshun), bluck lefel ooootpoot cecheeng generel oonly redooced pege-a genereshun teeme-a by 20 tu 30%.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level and block level output caching can be used in tandem to reduce loads and improve page generation times on sites that serve both anonymous and non-anonymous audience members, or on sites with varying page and block level output caching requirements.</string>
+		<translation>Pege-a lefel und bluck lefel ooootpoot cecheeng cun be-a used in tundem tu redooce-a lueds und imprufe-a pege-a genereshun teemes oon seetes thet serfe-a but ununymuoos und nun-ununymuoos oodeeence-a meemburs, oor oon seetes veet feryeeng pege-a und bluck lefel ooootpoot cecheeng reqoourements.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>TODO List</string>
+		<translation>TODO Leest</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>General caching related:</string>
+		<translation>Generel cecheeng releted:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support multisite configurations.</string>
+		<translation>Sooppurt moolteesite-a cunffeegooreshuns. Um gesh dee bork, bork!</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide data caching API.</string>
+		<translation>Prufeede-a deta cecheeng EPI.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide an output cache file browser, like the template cache file browser in SiteTools.</string>
+		<translation>Prufeede-a un ooootpoot ceche-a feele-a brooser, leeke-a zee templete-a ceche-a feele-a brooser in SeeteTuuls.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refactor, refactor, refactor.</string>
+		<translation>Reffectur, reffectur, reffectur. Hurty flurty schnipp schnipp!</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching related:</string>
+		<translation>Pege-a lefel ooootpoot cecheeng releted:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support itemtype as a 'name' between cacheKey and page when available.</string>
+		<translation>Sooppurt itemtype-a es a 'neme' betveee cecheKey und pege-a vhee efeeeleble-a.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Scheduler, getfile/link integration for pre-population of output cache.</string>
+		<translation>Prufeede-a Schedooler, getffeele-a/leenk integreshun fur pre-a-pupooleshun ooff ooootpoot ceche-a.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide getfile/link regeneration of heavily requested files.</string>
+		<translation>Prufeede-a getffeele-a/leenk regenereshun ooff heefeely reqooested feeles.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Analyze Slashdot and Google News use of 304 &amp; ETag HTTP headers and rework our use of these headers based on findings.</string>
+		<translation>Unelyze-a Sleshdut und Guugle-a Noos use-a ooff 304 &amp; ITeg HTTP heeders und roourk oooor use-a ooff zeese-a heeders besed oon feendings.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block/module level output caching related:</string>
+		<translation>Bluck/mudoole-a lefel ooootpoot cecheeng releted:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add module output caching functions, reutilizing xarBlock*Cached functions when appropriate.</string>
+		<translation>Edd mudoole-a ooootpoot cecheeng fooncshuns, reooteelizing xerBluck*Ceched fooncshuns vhee epprupreeete-a.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add xarMod*Cached() calls in xarModFunc().</string>
+		<translation>Edd xarMod*Cached() cells in xarModFunc().</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Admin GUI hooks to modules beyond Blocks for the configuration of per module output cache settings.</string>
+		<translation>Prufeede-a Edmeen GOoI huuks tu mudooles beyund Blucks fur zee cunffeegooreshun ooff per mudoole-a ooootpoot ceche-a setteengs.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Extended inffurmeshun ebuoot thees mudoole-a cun be-a fuoond here-a. [mudooles mudoole-a]</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="114" />
+		</references>
+	</entry>
+</translations>
