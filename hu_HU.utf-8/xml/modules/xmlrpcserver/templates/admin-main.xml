@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Administration - XML-RPC</string>
+		<translation>XML-RPC adminisztrálása</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="1" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Áttekintés</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Mi ez?</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>XML-RPC is a Xaraya Utility Module.</string>
+		<translation>Az XML-RPC egy Xaraya segédmodul.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML-RPC server module is responsible for exposing certain procedure calls using XML as
+the transport format. Each command is send as an http request in a specified format. The XML-RPC
+server answers to that call with a properly formatted XML-RPC response.</string>
+		<translation>Az XML-RPC kiszolgáló modul bizonyos eljárások távoli meghívásának lehetőségét biztosítja, XML adatátviteli közeggel. Minden parancs HTTP kérésként kerül elküldésre egy meghatározott formában. Az XML-RPC kiszolgáló válaszol ezekre a kérésekre egy megfelelően formázott XML-RPC válasszal.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML-RPC server can be extended by defining API modules to extend the functionality offered
+by Xaraya over XML-RPC. The XML-RPC standard is defined at</string>
+		<translation>Az XML-RPC kiszolgáló más Xaraya API modulokkal bővíthető, melyek lehetőségeit a Xaraya XML-RPC-n keresztül teszi elérhetővé. Az XML-RPC szabvány leírása:</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>An XML-RPC enabled service can be used to</string>
+		<translation>Az XML-RPC szolgáltatás lehetőségei:</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>use Xaraya remotely</string>
+		<translation>A Xaraya távoli használata.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>let Xaraya interoperate with other applications or other Xaraya installations</string>
+		<translation>A Xaraya együttműködése más alkalmazásokkal vagy egy másik Xaraya telepítéssel.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>use desktop clients to manage or work with Xaraya</string>
+		<translation>Helyi programok használata a Xarayával való munkára.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>The most well known usage of XML-RPC are the API's used for blogging (see below). These API's are used in Xaraya to write
+articles on a Xaraya site, using a desktop client. Examples of blog clients include:</string>
+		<translation>Az XML-RPC legismertebb használata a bloggoláshoz használt API készlet (lásd lent). Ezen az API-n keresztül egy helyi kliens programmal adhatunk cikkeket a Xaraya oldalhoz. Néhány használható kliens:</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML-RPC server can be configured to serve multiple APIs The currently supported APIs are</string>
+		<translation>Az XML-RPC kiszolgáló akár több API kezelésére is beállítható. A jelenleg támogatott API-k a következők:</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>use Xaraya as a Blogging site installation.
+(Note: the blogger.setTemplate and blogger.getTemplate functions are currently not implemented)</string>
+		<translation>A Xaraya használata mint blog oldal. (Megjegyzés: a „blogger.setTemplate” és „blogger.getTempalte” metódusok még nincsenek megvalósítva.)</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>used to validate XML-RPC conformance</string>
+		<translation>XML-RPC megfelelősség vizsgálata.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Get information about the XML-RPC server and its methods</string>
+		<translation>Információk felfedezése az XML-RPC kiszolgálóról és metódusairól.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>An extension of the Blogger API which adds more rich support for the message content and the ability to upload media objects
+(Note: the categories support in this API is limited and the metaWeblog.newMediaObject method hasn't been implemented yet.</string>
+		<translation>A Blogger API egy bővített változata amely lehetőséget biztosít formázott tartalom és multimédia elemek kezelésére. (Megjegyzés: A kategória támogatás ebben az API-ban korlátozott képességű és a „metaWeblog.newMediaObject” metódus még nincs megvalósítva.)</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Rough to do list(in roughly this order)</string>
+		<translation>Tennivalók:</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Kapcsolódó blokkok</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>Nincsenek kapcsolódó blokkok.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Kapcsolódó hurkok</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks</string>
+		<translation>Nincsenek kapcsolódó hurkok.</translation>
+		<references>
+			<reference file="modules/xmlrpcserver/xartemplates/admin-main.xd" line="82" />
+		</references>
+	</entry>
+</translations>

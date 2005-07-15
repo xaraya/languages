@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>Mi ez?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Privileges module lets you manage &lt;b&gt;access rights&lt;/b&gt; on your site. Privileges give roles access to certain resources of your choosing. They are the basic components of the security system.</string>
+		<translation>A Jogosultságok modul a honlaphoz való &lt;b&gt;hozzáférési jogok&lt;/b&gt; szerkesztésére használható. A jogosultságok biztosítják a felhasználók és csoportok számára a különböző funkciók és elemek elérhetőségét, alapvető elemei a honlap biztonsági rendszerének.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here are some of the things you can do with privileges</string>
+		<translation>Néhány feladat amelyre a jogosultságok felhasználhatóak:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
+		<translation>A Xaraya jogosultsági rendszere nagyon rugalmas. Jogosultságok mind honlap, modul, modulon belüli elemtípusok vagy egyedi elemek szintjén is meghatározhatóak.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use privileges as building blocks. Assemble them into compound privileges tailored to any specific role on the site.</string>
+		<translation>A jogosultságok mint építőkockák használhatóak. Egy-egy feladatra specializált, több elemből álló, összetett jogosultságok építhetőek.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can assign privileges to roles which then pass them on to their children in the roles hierarchy through inheritance.</string>
+		<translation>A jogosultságok egyes szerepekhez rendelhetőek, amelyek öröklődnek a bennük elhelyezkedő további szerepekre.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites sharing the same resources.</string>
+		<translation>A tartomány lehetőség használatával egy honlap további &quot;virtuális&quot; honlapokra bontható, amelyek egymással erőforrásokat osztanak meg.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hogyan kell használni?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
+		<translation>A „Jogosultságok megjelenítése” menüben megtekinthetőek a portálon létrehozott jogosultságok. Az összetett jogosultságok tartalma fa struktúra szerűen kibontva látható.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges</string>
+		<translation>Jogosultság létrehozásakor vagy szerkesztésekor meghatározhatjuk, hogy konkrét jogosultsági definíciókat tartalmaz, vagy csak egy további jogosultságokat összefogó tároló.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are</string>
+		<translation>A Xaraya, telepítéskor egy egyszerűbb jogosultsági szerkezetet épít fel, amely függ a telepítéskor kiválasztott konfigurációtól. Példák:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administration&lt;/b&gt;: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
+		<translation>&lt;b&gt;Administration&lt;/b&gt;: egy jogosultság amely teljes hozzáférést enged a honlap minden eleméhez. Telepítéskor ez az Administrators szerephez kapcsolódik, és innen az Admin felhasználó örökli.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;CasualAccess&lt;/b&gt;: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
+		<translation>&lt;b&gt;CausalAccess&lt;/b&gt;: ez a jogosultság a honlapon nem regisztrált látogatókhoz tartozik. Általában a kezdőlap és a bejelentkezés blokk megjelenítésére jogosít.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;GeneralLock&lt;/b&gt;: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
+		<translation>&lt;b&gt;GeneralLock&lt;/b&gt;: ez a jogosultság hozzáférést tilt bizonyos olyan szerepkörökhöz és jogosultságokhoz amelyek szükségesek az oldal működéshez, mint például az adminisztrátor. Megvédi ezeket a beállításokat a véletlen törléstől.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock above this takes a bit more doing.) You can also combine privileges by using them as elements to create compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges you can create or their levels of nesting.</string>
+		<translation>Minden jogosultság szerkeszthető és törölhető. (A GenerealLock-kal védettek esetén ez kicsit körülményesebb.) A meglévő jogosultságokat felhasználhatjuk összetett jogosultságok felépítéséhez, de új, egyedi jogosultságokat is létrehozhatunk. A létrehozható jogosultságok számában vagy azok egymásba ágyazásának szintjeiben nincs korlátozás.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Kapcsolódó blokkok</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>Nincsenek kapcsolódó blokkok.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Kapcsolódó hurkok</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks.</string>
+		<translation>Nincsenek kapcsolódó blokkok.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>A modulról további információk:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+</translations>

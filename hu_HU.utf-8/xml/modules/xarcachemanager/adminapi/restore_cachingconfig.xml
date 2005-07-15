@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>The #(1) file is not writable by the web
+web server. The #(1) file must be writable by the web
+server process owner for output caching to be configured
+via the xarCacheManager module.
+Please change the permission on the #(1) file
+so that the web server can write to it.</string>
+		<translation>A „#(1)” fájl nem írható a webkiszolgáló által. A „#(1)” fájlnak a webkiszolgáló által írhatónak kell lennie a gyorstárazás beállításainak a modulból történő szerkesztéséhez. Változtassuk meg a „#(1)” fájl jogait, hogy a webkiszolgáló írhassa.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/restore_cachingconfig.php" line="42" />
+		</references>
+	</entry>
+</translations>

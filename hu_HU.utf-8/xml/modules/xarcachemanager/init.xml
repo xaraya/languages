@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>The xarCacheManager module upgrade has failed.
+Please make #(1) writable by the web server process
+owner to complete the upgrade. If #(1) does not exist,
+please make #(2) writable by the web server process and
+#(1) will be created for you.</string>
+		<translation>A Gyorstár kezelő modul frissítése sikertelen. A „#(1)” könyvtárat a webkiszolgáló által írhatóvá kell tenni a frissítés elvégzéséhez. Amennyiben a „#(1)” könyvtár nem létezik, a „#(2)” könyvtárat tegyük írhatóvá és a „#(1)” könyvtárat a program létrehozza.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="122" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) directory must be writable by the web server
+for the install script to set up output caching for you.
+The xarCacheManager module has not been installed,
+please make the #(1) directory writable by the web server
+before re-trying to install this module.
+Alternatively, you can manually create the #(2) directory
+and copy the #(3) file to #(4) - the #(2) directory and
+the #(4) file must be writable by the web server for
+output caching to work.</string>
+		<translation>A „#(1)” könyvtárnak a webkiszolgáló által írhatónak kell lennie, hogy a telepítő beállíthassa a kimenet gyorstárazását. A Gyorstár kezelő modul telepítése nem fejeződött be, tegyük írhatóvá a „#(1)” könyvtárat a majd ismételjük meg a telepítést. Esetleg manuálisan is létrehozhatjuk a „#(2)” könyvtárat, másoljuk be a „#(3)” fájlt a „#(4)” fájlra, a „#(2)” könyvtárnak és a #(4) fájlnak a webkiszolgáló által írhatónak kell lennie a kimenet gyorstárazás működéséhez.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="383" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) file must be writable by the web server for
+output caching to work.</string>
+		<translation>A „#(1)” fájlnak a webkiszolgáló által írhatónak kell lennie a kimeneti gyorstárazás működéséhez.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="397" />
+		</references>
+	</entry>
+</translations>

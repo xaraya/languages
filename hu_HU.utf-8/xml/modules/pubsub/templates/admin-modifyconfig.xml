@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Modify Configuration</string>
+		<translation>Beállítások szerkesztése</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Global Configuration</string>
+		<translation>Általános beállítások</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Short URLs :</string>
+		<translation>Rövid URL támogatás:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per Page :</string>
+		<translation>Elemek száma oldalanként:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use Content's Title for EMail Subject:</string>
+		<translation>Az elem címének használata az e-mail tárgyában:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Include Child Categories in Subscriptions:</string>
+		<translation>Alkategóriák felvétele feliratkozáskor:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Kapcsolódó modulok beállításai</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
+		<translation>&lt;b&gt;Leírás:&lt;/b&gt; Először kapcsoljuk a Feliratkozás modult más modulokhoz és elemtípusokhoz, majd itt határozzuk meg az elem felvételekor, szerkesztésekor és törlésekor használandó levélsablonokat. A sablon &quot;nem támogatott&quot;-ra történő állításával az adott esemény bekövetkeztéről a látogatók nem kapnak értesítést.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Create Hook Calls</string>
+		<translation>Sablon a létrehozás műveletekhez</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Update Hook Calls</string>
+		<translation>Sablon a szerkesztés műveletekhez</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Delete Hook Calls</string>
+		<translation>Sablon a törlés műveletekhez</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Scheduled Processing</string>
+		<translation>Az ütemezett feldolgozás beállításai</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string>
+		<translation>&lt;b&gt;Leírás:&lt;/b&gt; Az igényelt események feldolgozásához az Ütemező modult kell telepíteni. Ezután itt meghatározható hogy az események milyen sűrűn kerüljenek feldolgozásra.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Run Scheduler Job :</string>
+		<translation>Ütemező futtatása:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>disabled</string>
+		<translation>tiltott</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, queued events will not be processed.</string>
+		<translation>Megjegyzés: az ütemező tiltásakor vagy ha az nincs futtatva, az igényelt események nem kerülnek feldolgozásra.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="102" />
+		</references>
+	</entry>
+</translations>

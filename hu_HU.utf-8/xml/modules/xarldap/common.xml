@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
+		<translation>Ez a PHP telepítés nem tartalmazza a szükséges LDAP bővítményt. A telepítésről további információk: http://www.php.net/manual/en/ref.ldap.php.</translation>
+		<references>
+			<reference file="modules/xarldap/xarinit.php" line="24" />
+			<reference file="modules/xarldap/xarldap.php" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Connection to server #(1) port_number #(2) failed</string>
+		<translation>LDAP Hiba: A kapcsolódás a kiszolgálóhoz sikertelen. Kiszolgáló: „#(1)”, kapu: „#(2)”.</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to set LDAP Protocol version to 3</string>
+		<translation>LDAP Hiba: Az LDAP protokoll beállítása 3-ra sikertelen.</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to start TLS</string>
+		<translation>LDAP Hiba: A „TLS” indítása sikertelen.</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Search LDAP base_dn #(1) filter #(2) failed</string>
+		<translation>LDAP Hiba: LDAP „base_dn” keresése sikertelen. base_dn: „#(1)”, szűrő: „#(2)”.</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="278" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty password (#(1)).</string>
+		<translation>Üres jelszó (#(1)).</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="613" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty body (#(1)).</string>
+		<translation>Üres tartalom (#(1)).</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="649" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Search</string>
+		<translation>Felhasználó keresés</translation>
+		<references>
+			<reference file="modules/xarldap/xaradmin/search.php" line="51" />
+			<reference file="modules/xarldap/xaradminapi/getmenulinks.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>XarLDAP Administration</string>
+		<translation>XarLDAP adminisztrálása</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="1" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="1" />
+			<reference file="modules/xarldap/xartemplates/admin-main.xd" line="1" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="1" />
+			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="1" />
+			<reference file="modules/xarldap/xartemplates/admin-usersearch.xd" line="1" />
+		</references>
+	</entry>
+	<entry>
+		<string>Success!</string>
+		<translation>Sikeres!</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="11" />
+			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Failure!</string>
+		<translation>Sikertelen!</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="19" />
+			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Server Name or IP</string>
+		<translation>LDAP kiszolgáló neve vagy IP címe</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="14" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Server Port Number</string>
+		<translation>LDAP kiszolgáló kapu száma</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="22" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Anonymously Bind to Server</string>
+		<translation>Névtelen kapcsolódás a kiszolgálóhoz</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="30" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP bind DN</string>
+		<translation>LDAP kapcsolódási DN</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="38" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP UserID Field Name</string>
+		<translation>LDAP UserID mező neve</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="46" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search User DN</string>
+		<translation>Felhasználó DN keresése</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="54" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Admin ID</string>
+		<translation>LDAP Admin ID</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="62" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Admin Password</string>
+		<translation>LDAP Admin jelszó</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="70" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use TLS (LDAP Protocol 3 only)</string>
+		<translation>TLS használata (csak LDAP 3-as protokoll)</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="78" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="97" />
+		</references>
+	</entry>
+</translations>

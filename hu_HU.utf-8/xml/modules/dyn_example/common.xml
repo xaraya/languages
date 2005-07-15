@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>Érvénytelen #(1); függvény: #(2) #(3)(); modul: #(4).</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradmin/delete.php" line="26" />
+			<reference file="modules/dyn_example/xaradmin/modify.php" line="19" />
+			<reference file="modules/dyn_example/xaradmin/update.php" line="21" />
+			<reference file="modules/dyn_example/xaruser/display.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation>Felvétel</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradmin/modifyconfig.php" line="46" />
+			<reference file="modules/dyn_example/xaruser/settings.php" line="9" />
+			<reference file="modules/dyn_example/xaruser/usermenu.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Options</string>
+		<translation>Műveletek</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradmin/view.php" line="62" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Preview</string>
+		<translation>Előnézet</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="13" />
+			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="42" />
+			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="14" />
+			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to provide your own presentation here, you can specify a
+different layout=&quot;...&quot; to use in the default template, or you can specify your
+own template=&quot;...&quot; here as well.</string>
+		<translation>Egyedi megjelenés megadásához meghatározhatunk egy másik layout=&quot;...&quot; az alap sablonban való használathoz, illetve itt meghatározhatunk egy saját template=&quot;...&quot; értéket is.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="21" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="19" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 2 : the &amp;lt;xar:data-getitems ...&amp;gt; tag</string>
+		<translation>2. MEGKÖZELÍTÉS: a &amp;lt;xar:data-getitems ...&amp;gt; kulcsszó</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="25" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will retrieve the properties and values from DynamicData and
+make them available in the 'properties' and 'values' variables in your template.</string>
+		<translation>Ez a kulcsszó betölti a Dinamikus Adat mezőket és értékeket és elérhetővé teszi a „properties” és „values” változókban a sablonfájlban.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="28" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use those variables to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
+		<translation>Ezután a változókat felhasználhatjuk a saját elrendezésű megjelenítéshez. A &amp;lt;xar:data-label ...&amp;gt; és &amp;lt;xar:data-output ...&amp;gt; kulcsszavak lehetőséget biztosítanak az egyes címkék vagy értékek egyedi megjelenítésére a sablonfájlban.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="32" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 3 : getting the object list via API</string>
+		<translation>3. MEGKÖZELÍTÉS: objektumlista betöltése API hívással</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="67" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 4 : getting the raw item values via API</string>
+		<translation>4. MEGKÖZELÍTÉS: nyers adatok betöltése API hívással</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="77" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="77" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here you'll have to handle the output format of the values yourself - in the module code and/or template...</string>
+		<translation>Ebben az esetben az értékek kimeneti formátumát magunknak kell lekezelnünk - a modul kódjában és/vagy a sablonfájlban...</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="79" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="79" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Dynamic Examples</string>
+		<translation>Dinamikus Adat minták megjelenítése</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="8" />
+			<reference file="modules/dyn_example/xaruser/view.php" line="73" />
+		</references>
+	</entry>
+</translations>
