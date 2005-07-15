@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_CN.utf-8">
+	<entry>
+		<string>An error occurred while processing your request. The details are:</string>
+		<translation>处理你的请求时发生错误, 详细情况如下:</translation>
+		<references>
+			<reference file="index.php" line="167" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last updated on #(1)</string>
+		<translation>上次更新于 #(1)</translation>
+		<references>
+			<reference file="includes/caching/page.php" line="229" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
+		<translation>数据库执行错误: '#(1)'; 错误描述: '#(2)'.</translation>
+		<references>
+			<reference file="includes/xarException.php" line="457" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default message</string>
+		<translation>默认消息</translation>
+		<references>
+			<reference file="includes/exceptions/errorcollection.class.php" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>No further information available</string>
+		<translation>无法得到进一步的信息</translation>
+		<references>
+			<reference file="includes/exceptions/exceptionrendering.class.php" line="52" />
+			<reference file="includes/exceptions/exceptionrendering.class.php" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assertion in code failed</string>
+		<translation>代码中的声明失败</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>An assertion evaluated to false, which indicates a coding error.</string>
+		<translation>一个声明失败,导致代码错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string>
+		<translation>执行时, 声明条件失败. 这意味着一些代码中存在定义错误.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Bad Parameter</string>
+		<translation>错误的参数</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>A parameter encountered was bad.</string>
+		<translation>参数错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string>
+		<translation>操作中提供的一个参数可能不合法, 或者因为其他原因不能被接受.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Compiler error</string>
+		<translation>编译错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout compiler encountered an error.</string>
+		<translation>区块安排编译器遇到一个错误.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string>
+		<translation>区块安排编译器遇到一个无法恢复的错误。没有指定的信息。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya is not properly configured</string>
+		<translation>Xaraya 未被正确配置</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>The combination of configuration settings has led to a conflict</string>
+		<translation>配置的合并导致一个冲突</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string>
+		<translation>Xaraya 的某些配置有冲突。一些配置不能被同时使用。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Context does not exist</string>
+		<translation>相关组件不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>A context element was not found.</string>
+		<translation>一个相关组件无法找到.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string>
+		<translation>本错误表明一个需要的相关组件 (区块、模版、包含文件) 没有找到。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Error</string>
+		<translation>数据库错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>An error was encountered while attempting a database operation.</string>
+		<translation>尝试数据库操作时有错误发生</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>No further information is available.</string>
+		<translation>没有更多信息</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Query Error</string>
+		<translation>数据库请求错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>An error was encountered while trying to execute a database query.</string>
+		<translation>当尝试进行数据库查询时发生错误.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string>
+		<translation>数据库查询无法被执行, 可能是因为请求无法被理解或者得到错误的结果.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Deprecated API</string>
+		<translation>非法的API</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>A function call encountered belongs to a deprecated API.</string>
+		<translation>由于非法的API导致的函数问题.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>A function call encountered belongs to an old API and is therefore no longer supported.</string>
+		<translation>由于非法的API导致的函数问题, 且不在支持.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Deprecated Blocklayout Attribute</string>
+		<translation>非法的区块安排属性</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>A tag in a template contains a deprecated attribute.</string>
+		<translation>模板中的一个标签包含一个非法的属性</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string>
+		<translation>模板中的一个标签包含一个非法的属性，需要更新或者删除。正确语法请参照BL文档</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Fatal Error</string>
+		<translation>PHP: 致命错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>A system error was received from the PHP interpreter.</string>
+		<translation>PHP解析器收到一个系统错误。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="53" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="57" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="61" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="65" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="69" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="73" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="77" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="81" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="85" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="89" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is an error in the PHP code that is being processed.</string>
+		<translation>正在执行的PHP代码中有一个错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Warning</string>
+		<translation>PHP: 警告</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Parse Error</string>
+		<translation>PHP: 解析错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Error Notice</string>
+		<translation>PHP: 错误信息</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Core Error</string>
+		<translation>PHP: 内核错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Core Warning</string>
+		<translation>PHP: 内核警告</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Compile Error</string>
+		<translation>PHP: 编译错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: Compile Warning</string>
+		<translation>PHP: 编译警告</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: User Error</string>
+		<translation>PHP: 用户错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP: User Warning</string>
+		<translation>PHP: 用户警告</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Notice</string>
+		<translation>用户信息</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty Parameter</string>
+		<translation>空参数</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>A parameter value was not provided.</string>
+		<translation>一个参数值未提供.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>A parameter was expected during this operation, but none was found.</string>
+		<translation>此次操作中需要的参数值未被提供.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Event is not registered</string>
+		<translation>事件未注册</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unknown event was encountered.</string>
+		<translation>遇到未知的事件.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="101" />
+		</references>
+	</entry>
+	<entry>
+		<string>A reference to an event was encountered that is unknown to the system.</string>
+		<translation>一个事件的指针不为系统认识.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown system error</string>
+		<translation>未知系统错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unknown system error was encountered.</string>
+		<translation>遇到未知的系统错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string>
+		<translation>错误系统遇到一个无法指定的错误.请帮我们指出这个错误,通过点击 &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>Function failed</string>
+		<translation>函数失败</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>A call to a function returned a bad result.</string>
+		<translation>函数调用返回错误的结果.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>The function executed correctly, but the result was a failure.</string>
+		<translation>函数执行正确, 但是结果是失败的.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown ID</string>
+		<translation>未知ID</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>An expected ID was not found.</string>
+		<translation>未找到需要的ID</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string>
+		<translation>通过ID请求的一个项目不被系统认识. 这可能是由于这个项目被删除, 改变或者不存在.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid attribute</string>
+		<translation>非法属性</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered an invalid attribute.</string>
+		<translation>区块安排编译器遇到一个非法属性.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid entity</string>
+		<translation>非法的项目</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered an invalid entity.</string>
+		<translation>区块安排编译器遇到一个非法的项目.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid file</string>
+		<translation>非法文件</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered an invalid file.</string>
+		<translation>区块安排编译器遇到一个非法的文件.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file was either not found, or could not be read properly.</string>
+		<translation>文件不能被找到, 或者不能正确读取.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid instruction</string>
+		<translation>非法的建议</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered an invalid instruction.</string>
+		<translation>区块编译器遇到一个非法的建议</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="129" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid special variable</string>
+		<translation>非法特殊变量</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered a problem with a special variable.</string>
+		<translation>区块编译器遇到一个特殊变量的错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid syntax</string>
+		<translation>非法语法</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered a syntax error.</string>
+		<translation>区块安排编译器遇到一个语法错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="137" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid tag</string>
+		<translation>非法标签</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser encountered an invalid tag.</string>
+		<translation>区块编译器遇到一个非法标签.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="141" />
+		</references>
+	</entry>
+	<entry>
+		<string>The tag encountered does not conform to XML syntax.</string>
+		<translation>标签不符合XML语法</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>Locale not available</string>
+		<translation>编码不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Locale does not exist</string>
+		<translation>编码不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unknown locale was encountered.</string>
+		<translation>遇到一个未知的编码.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="147" />
+		</references>
+	</entry>
+	<entry>
+		<string>A reference to a locale was encountered that is unknown to the system.</string>
+		<translation>指到一个编码的指针不被系统所认识.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing attribute</string>
+		<translation>属性丢失</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser could not find a tag attribute.</string>
+		<translation>区块安排编译器不能找到一个标签属性.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>A tag attribute required by syntax was not found.</string>
+		<translation>语法要求的标签属性不能找到.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing parameter</string>
+		<translation>参数丢失</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocklayout parser could not resolve a tag parameter.</string>
+		<translation>区块编译器不能解决标签参数.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="155" />
+		</references>
+	</entry>
+	<entry>
+		<string>A tag parameter could not be resolved because of bad syntax.</string>
+		<translation>由于错误的语法，某个标签的参数无法被解析。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module Dependency</string>
+		<translation>模组依赖性</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module call failed because of an unsatisifed dependency.</string>
+		<translation>由于不满足依赖关系，某个模块调用失败。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>The current module cannot execute because another module that must first be installed is not present.</string>
+		<translation>由于某个必须的模块没有被正确安装，当前模块不能被执行。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module file does not exist</string>
+		<translation>模组文件不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a module file that cannot be found.</string>
+		<translation>某个操作需要一个模块文件，但 Xaraya 找不到它。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="163" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
+		<translation>文件可能丢失，或者它的名称被修改了。注意: 该错误有时也可能由于某个文件由于 PHP 错误不能被解析造成的。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module function does not exist</string>
+		<translation>模块函数不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
+		</references>
+	</entry>
+	<entry>
+		<string>A call has been made to a module function that cannot be found.</string>
+		<translation>调用的函数无法找到。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="167" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
+		<translation>函数需要的文件丢失。如果没有，那么产生该错误的原因可能是由于该函数有一个不同的名称，或不存在。注意: 该错误有时也可能由于某个文件由于 PHP 错误不能被解析造成的。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module is not active</string>
+		<translation>模组未激活</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
+		</references>
+	</entry>
+	<entry>
+		<string>A call has been made to a module that is not active.</string>
+		<translation>调用了一个未被激活的模组。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="171" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string>
+		<translation>一个没有被激活/安装的模块被调用。使用 modules 模块激活连接安装/激活该模块 (模块-&gt;查看全部)。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module does not exist</string>
+		<translation>模组不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
+		</references>
+	</entry>
+	<entry>
+		<string>A call has been made to a module that cannot be found</string>
+		<translation>调用了一个未知的模组</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="175" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
+		<translation>一个没有被安装或不存在的模块被调用。使用 modules 模块激活连接安装/激活该模块 (模块-&gt;查看全部)。注意: 该错误有时也可能由于某个文件由于 PHP 错误不能被解析造成的。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
+		</references>
+	</entry>
+	<entry>
+		<string>No Privilege</string>
+		<translation>没有权限</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>You do not have the privileges for this operation.</string>
+		<translation>你没有执行这个操作的权限。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="179" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string>
+		<translation>您没有权限执行该操作。权限必须系统管理员指定。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not implemented</string>
+		<translation>无法执行</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
+		</references>
+	</entry>
+	<entry>
+		<string>The requested feature is not available.</string>
+		<translation>该请求无效</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="183" />
+		</references>
+	</entry>
+	<entry>
+		<string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string>
+		<translation>请求访问一个在该系统中没有安装的功能。该功能不是丢失，就是在 Xaraya 本版本中无效。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
+		</references>
+	</entry>
+	<entry>
+		<string>System error</string>
+		<translation>系统错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
+		</references>
+	</entry>
+	<entry>
+		<string>A system error was encountered.</string>
+		<translation>遇到未知系统错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="187" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template does not exist</string>
+		<translation>模板不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unknown template name was encountered.</string>
+		<translation>遇到未知模板名称</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string>
+		<translation>尝试渲染一个不存在的模版。该模版可能被删除或不存在，或其名称可能被修改。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
+		</references>
+	</entry>
+	<entry>
+		<string>Theme does not exist</string>
+		<translation>布景不存在</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unknown theme name was encountered.</string>
+		<translation>未知的布景名。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="195" />
+		</references>
+	</entry>
+	<entry>
+		<string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string>
+		<translation>尝试显示的主题无法找到。改组它可能被删除或不存在，或其名称可能被修改。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to load</string>
+		<translation>不能载入</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
+		</references>
+	</entry>
+	<entry>
+		<string>An error was encountered during a load operation.</string>
+		<translation>操作时发生了一个错误。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="199" />
+		</references>
+	</entry>
+	<entry>
+		<string>The system was unable to successfully load a component, such as a module or theme.</string>
+		<translation>系统无法成功装载某个组件，例如模块或布景。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown Error</string>
+		<translation>未知错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unknown error was encountered.</string>
+		<translation>遇到未知错误.</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="203" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable is not registered</string>
+		<translation>变量未注册</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are attempting to call a variable that the system does not recognize.</string>
+		<translation>您尝试调用一个系统不认识的变量。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="207" />
+		</references>
+	</entry>
+	<entry>
+		<string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string>
+		<translation>调用某个变量时发生错误。该变量可能被删除，或其名称被修改。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
+		</references>
+	</entry>
+	<entry>
+		<string>XML Parser Error</string>
+		<translation>XML 解析错误</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML parser has encountered an error.</string>
+		<translation>XML 解析器遇到错误。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="211" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML parser tried to execute a line that was not well formed.</string>
+		<translation>XML 解析器尝试执行的 XML 一行格式有误。</translation>
+		<references>
+			<reference file="includes/exceptions/systemexception.defaults.php" line="212" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block type already exists</string>
+		<translation>区块类型不存在</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>An attempt was made to register a block type in a module that already exists.</string>
+		<translation>尝试注册一个已经存在的模块类型。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Bad Data</string>
+		<translation>错误数据</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was bad.</string>
+		<translation>提供的数据是错误的</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
+		<translation>该操作提供的值不能被确认，或由于某些原因不能被接受。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>File does not exist</string>
+		<translation>文件不存在</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a file that cannot be found.</string>
+		<translation>操作需要的文件不能找到。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed.</string>
+		<translation>文件可能丢失，或其名称被修改。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Operation Halted</string>
+		<translation>操作挂起</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation cannot be completed under the present circumstances.</string>
+		<translation>该操作在当前情况下不能被完成。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
+		<translation>虽然没有被禁止，但因为它在此处不能被完成，该操作终止。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Duplicate Data</string>
+		<translation>重复数据</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was a duplicate.</string>
+		<translation>提供的数据是重复的.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
+		<translation>在此操作过程中需要一唯一的值，但是提供了重复的值。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Forbidden Operation</string>
+		<translation>禁止的操作</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting is not allowed in the current circumstances.</string>
+		<translation>您尝试执行的操作在当前情况下不允许执行。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
+		<translation>您可能已经点击浏览器的后退或刷新按钮并重试了一个不能被重复执行的操作，或者您的浏览器没有启用 cookies。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login error</string>
+		<translation>登录错误</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>A problem was encountered during the login process.</string>
+		<translation>在登录过程中发生了一个错误。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing Data</string>
+		<translation>数据丢失</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data is incomplete.</string>
+		<translation>数据不完全。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>A value was expected during this operation, but none was found.</string>
+		<translation>在此操作执行的过程中需要一个值，但是没有找到。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Multiple instances</string>
+		<translation>多重实例</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module contains more than one instance of the same block type.</string>
+		<translation>某个模块区块类型包含了多个示例。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Error</string>
+		<translation>权限错误</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>You do not have privileges for this operation.</string>
+		<translation>您没有权限执行该操作。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
+		<translation>您没有权限执行尝试执行的操作。联系系统/网站管理员以获得访问权限。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not logged in</string>
+		<translation>未登录</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
+		<translation>您尝试执行了一个不允许游客执行的操作。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
+		<translation>该操作是一个需要用户登录的操作。如果您当前已经登录，请报告此 Bug。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Item not found</string>
+		<translation>项目没有找到</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unexpected empty result occurred.</string>
+		<translation>不期望的空结果。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation that should have returned a result instead came up empty.</string>
+		<translation>该操作需要返回一个结果，但却返回了空值。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong version</string>
+		<translation>错误的版本</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>The application version supplied is wrong.</string>
+		<translation>提供的应用程序版本有误。</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>The site is locked</string>
+		<translation>网站已锁定</translation>
+		<references>
+			<reference file="includes/exceptions/systemmessage.defaults.php" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>No access at this time</string>
+		<translation>此时没有访问</translation>
+		<references>
+			<reference file="includes/exceptions/systemmessage.defaults.php" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>No validation type present.</string>
+		<translation>没有有效的类型。</translation>
+		<references>
+			<reference file="includes/xarVar.php" line="327" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) type '#(2)' could not be found.</string>
+		<translation>#(1) 的类型 '#(2)' 不能找到。</translation>
+		<references>
+			<reference file="includes/xarVar.php" line="1050" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) is not an array: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是一个数组: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/array.php" line="20" />
+			<reference file="includes/validations/list.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not an array: &quot;#(1)&quot;</string>
+		<translation>不是一个数组: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/array.php" line="22" />
+			<reference file="includes/validations/list.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string>
+		<translation>数组变量有 &quot;#(1)&quot; 个元素，少于指定的最小值 &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/array.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string>
+		<translation>数组变量有 &quot;#(1)&quot; 个元素，多于指定的最大值 &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/array.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是一个布尔型: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/bool.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not a boolean: &quot;#(1)&quot;</string>
+		<translation>不是一个布尔型: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/bool.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是复选框类型: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/checkbox.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not a scheckbox: &quot;#(1)&quot;</string>
+		<translation>不是复选框: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/checkbox.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是 Email 类型: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/email.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not an e-mail type: &quot;#(1)&quot;</string>
+		<translation>不是 Email 类型: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/email.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string>
+		<translation>输入 &quot;#(1)&quot; 不是 #(2) 的一种可能性: &quot;</translation>
+		<references>
+			<reference file="includes/validations/enum.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Input &quot;#(1)&quot; was not one of the possibilities.</string>
+		<translation>输入 &quot;#(1)&quot; 不是一种可能性。</translation>
+		<references>
+			<reference file="includes/validations/enum.php" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) is not a float type: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是浮点类型: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/float.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not a float type: &quot;#(1)&quot;</string>
+		<translation>不是浮点类型: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/float.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
+		<translation>浮点值 &quot;#(1)&quot; 比指定的最小值 &quot;#(2)&quot; 小</translation>
+		<references>
+			<reference file="includes/validations/float.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
+		<translation>浮点值 &quot;#(1)&quot; 比指定的最大值 &quot;#(2)&quot; 大</translation>
+		<references>
+			<reference file="includes/validations/float.php" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 包含一不允许的标签: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/html.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not an allowed tag: &quot;#(1)&quot;</string>
+		<translation>不允许的标签: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/html.php" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string>
+		<translation>该标签变量  #(1) 中的属性不允许: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/html.php" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) is not an integer: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是一个整数: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/int.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not an integer: &quot;#(1)&quot;</string>
+		<translation>不是一个整数: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/int.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
+		<translation>整数值 &quot;#(1)&quot; 比指定的最小值 &quot;#(2)&quot; 小</translation>
+		<references>
+			<reference file="includes/validations/int.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
+		<translation>整数值 &quot;#(1)&quot; 比指定的最大值 &quot;#(2)&quot; 大</translation>
+		<references>
+			<reference file="includes/validations/int.php" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable not set!</string>
+		<translation>变量没有被设置!</translation>
+		<references>
+			<reference file="includes/validations/isset.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid e-mail #(1), the mail server doesnt recognize it.</string>
+		<translation>无效的 Email #(1)，邮件服务器不认识它。</translation>
+		<references>
+			<reference file="includes/validations/mxcheck.php" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to connect to the mail server #(1) for e-mail #(2).</string>
+		<translation>无法连接到 Email #(2) 的邮件服务器 #(1)。</translation>
+		<references>
+			<reference file="includes/validations/mxcheck.php" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) should not be empty: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不应该为空: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/notempty.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Should not be empty: &quot;#(1)&quot;</string>
+		<translation>不应该为空: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/notempty.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is no parameter to check against in the Regexp validation of #(1)</string>
+		<translation>没有参数检查 #(1) 的正则表达 (Regexp)</translation>
+		<references>
+			<reference file="includes/validations/regexp.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is no parameter to check against in the Regexp validation</string>
+		<translation>没有参数检查正则表达 (Regexp)</translation>
+		<references>
+			<reference file="includes/validations/regexp.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string>
+		<translation>变量 #(1): &quot;#(2)&quot; 不符合表达式 &quot;#(3)&quot;</translation>
+		<references>
+			<reference file="includes/validations/regexp.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Variable #(1) is not a string: &quot;#(2)&quot;</string>
+		<translation>变量 #(1) 不是一个字符串: &quot;#(2)&quot;</translation>
+		<references>
+			<reference file="includes/validations/str.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not a string: &quot;#(1)&quot;</string>
+		<translation>不是一个字符串: &quot;#(1)&quot;</translation>
+		<references>
+			<reference file="includes/validations/str.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
+		<translation>字符串的尺寸 &quot;#(1)&quot; 比指定的最小值 &quot;#(2)&quot; 小</translation>
+		<references>
+			<reference file="includes/validations/str.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
+		<translation>字符串的尺寸 &quot;#(1)&quot; 比指定的最大值 &quot;#(2)&quot; 大</translation>
+		<references>
+			<reference file="includes/validations/str.php" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>This call needs to be removed</string>
+		<translation>该调用需要被删除</translation>
+		<references>
+			<reference file="includes/xarLegacy.php" line="1035" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm</string>
+		<translation>确认</translation>
+		<references>
+			<reference file="includes/pnHTML.php" line="475" />
+		</references>
+	</entry>
+	<entry>
+		<string>The directories under #(1) must be writeable by PHP.</string>
+		<translation>#(1) 下的目录必须可被 PHP 写。</translation>
+		<references>
+			<reference file="includes/xarMLS.php" line="871" />
+		</references>
+	</entry>
+	<entry>
+		<string>Context type: #(1) and file name: #(2)</string>
+		<translation>关联类型: #(1) 和文件名: #(2)</translation>
+		<references>
+			<reference file="includes/xarMLSPHPBackend.php" line="95" />
+			<reference file="includes/xarMLSXML2PHPBackend.php" line="187" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module or Theme Name #(1) is empty.</string>
+		<translation>模块或布景名 #(1) 为空。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="452" />
+			<reference file="includes/xarMod.php" line="1779" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
+		<translation>空的 RegId (#(1)) 或 RegId 等于 0.</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="486" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown</string>
+		<translation>未知</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="587" />
+			<reference file="includes/xarMod.php" line="589" />
+			<reference file="includes/xarMod.php" line="590" />
+			<reference file="includes/xarMod.php" line="591" />
+			<reference file="includes/xarMod.php" line="592" />
+			<reference file="includes/xarMod.php" line="593" />
+			<reference file="includes/xarMod.php" line="594" />
+			<reference file="includes/xarMod.php" line="595" />
+			<reference file="includes/xarMod.php" line="599" />
+			<reference file="includes/xarMod.php" line="600" />
+			<reference file="includes/xarMod.php" line="601" />
+			<reference file="includes/xarMod.php" line="602" />
+			<reference file="includes/xarMod.php" line="603" />
+			<reference file="includes/xarMod.php" line="604" />
+			<reference file="includes/xarMod.php" line="605" />
+			<reference file="includes/xarMod.php" line="606" />
+			<reference file="includes/xarMod.php" line="607" />
+			<reference file="includes/xarMod.php" line="608" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module is not installed properly. Not all info could be retrieved</string>
+		<translation>该模块没有被正确安装。没有获得所有必须的信息</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="588" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to find Base Info for Module: #(1)</string>
+		<translation>无法找到模块的基本信息: #(1)</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="656" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module Name #(1) is empty.</string>
+		<translation>模块名 #(1) 为空。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="764" />
+		</references>
+	</entry>
+	<entry>
+		<string>Could not load function file: [#(1)].</string>
+		<translation>无法装载函数文件: [#(1)]。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="851" />
+		</references>
+	</entry>
+	<entry>
+		<string>Error Caught:</string>
+		<translation>发生错误:</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="852" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module function #(1) does not exist.</string>
+		<translation>模块函数 #(1) 不存在。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="872" />
+		</references>
+	</entry>
+	<entry>
+		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
+		<translation>无法装载函数文件: [#(1)].\n\n 发生错误:\n #(2)</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="958" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module API function #(1) does not exist or could not be loaded.</string>
+		<translation>模块 API 函数 #(1) 不存在或没有被装载。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="978" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty Module or Theme Name (#(1)).</string>
+		<translation>空模块或主题的名称 (#(1))。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="1334" />
+		</references>
+	</entry>
+	<entry>
+		<string>Directory information #(1) is empty.</string>
+		<translation>目录信息 #(1) 为空。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="1653" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cannot open file #(1).</string>
+		<translation>无法打开文件 #(1)。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="1673" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
+		<translation>错误的类型，必须为 'module' 或 'theme': #(1)。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="1787" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty theme or module name (#(1)).</string>
+		<translation>空的主题或模块名 (#(1))。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="1893" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty Theme or Module variable name (#(1)).</string>
+		<translation>空的主题或模块变量名 (#(1))。</translation>
+		<references>
+			<reference file="includes/xarMod.php" line="1984" />
+		</references>
+	</entry>
+	<entry>
+		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
+		<translation>非法的属性名 ('#(1)'): 属性名可能包含字母、数字、_ 和 -，并且必须以字母开头。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1450" />
+		</references>
+	</entry>
+	<entry>
+		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
+		<translation>非法的属性标记 ('#(1)'): 标记必须为整型。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1457" />
+		</references>
+	</entry>
+	<entry>
+		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
+		<translation>非法的标签定义: ('#(1)') 是一个无效的标签名。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1536" />
+		</references>
+	</entry>
+	<entry>
+		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
+		<translation>非法的标签定义: ('#(1)') 是一个无效的处理器。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1545" />
+			<reference file="includes/xarTemplate.php" line="1643" />
+		</references>
+	</entry>
+	<entry>
+		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
+		<translation>非法的标签注册标记 ('#(1)'): 标记必须为整型。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1551" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
+		<translation>&lt;xar:#(1)&gt; 标签已经被定义。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1681" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
+		<translation>&lt;xar:#(1)&gt; 标签没有被定义。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1761" />
+		</references>
+	</entry>
+	<entry>
+		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
+		<translation>在 &lt;xar:#(2)&gt; 标签的 '#(1)' 属性没有正确的类型。请阅读标签文档。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1789" />
+		</references>
+	</entry>
+	<entry>
+		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
+		<translation>必须的 '#(1)' 属性丢失了 &lt;xar:#(2)&gt; 标签。请阅读标签文档。</translation>
+		<references>
+			<reference file="includes/xarTemplate.php" line="1795" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty themeName (#(1)).</string>
+		<translation>空的布景名称(#(1)).</translation>
+		<references>
+			<reference file="includes/xarTheme.php" line="34" />
+			<reference file="includes/xarTheme.php" line="55" />
+			<reference file="includes/xarTheme.php" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation>#(1) css 样式表文件不能在该路径下找到:</translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="165" />
+		</references>
+	</entry>
+	<entry>
+		<string>Anonymous</string>
+		<translation>匿名</translation>
+		<references>
+			<reference file="includes/xarUser.php" line="378" />
+		</references>
+	</entry>
+	<entry>
+		<string>User identified by uid #(1) does not exist.</string>
+		<translation>uid 为 #(1) 的用户不存在。</translation>
+		<references>
+			<reference file="includes/xarUser.php" line="406" />
+			<reference file="includes/xarUser.php" line="430" />
+			<reference file="includes/xarUser.php" line="569" />
+		</references>
+	</entry>
+	<entry>
+		<string>User variable #(1) was not correctly registered</string>
+		<translation>用户变量 #(1) 当前没有被注册</translation>
+		<references>
+			<reference file="includes/xarUser.php" line="421" />
+			<reference file="includes/xarUser.php" line="560" />
+		</references>
+	</entry>
+	<entry>
+		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
+		<translation>安全领域 #(1) - 组件 #(2) - 实例 #(3) - 级别 #(4) : 该调用需要被转换到 Xaraya 安全系统</translation>
+		<references>
+			<reference file="includes/xarSecurity.php" line="574" />
+		</references>
+	</entry>
+	<entry>
+		<string>Parameters to winnow need to be arrays</string>
+		<translation>winnow 参数需要为数组</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="264" />
+		</references>
+	</entry>
+	<entry>
+		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
+		<translation>模块 #(2) 中没有找到为一未指定的组件注册的掩码 #(1)</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="380" />
+		</references>
+	</entry>
+	<entry>
+		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
+		<translation>模块 #(3) 总没有找到注册组件 #(2) 的掩码 #(1)</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="383" />
+		</references>
+	</entry>
+	<entry>
+		<string>No privilege for #(1)</string>
+		<translation>#(1)没有权限</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="444" />
+		</references>
+	</entry>
+	<entry>
+		<string>A query is missing in component #(1) of module #(2)</string>
+		<translation>模块 #(2) 的组件 #(1) 的一个查询丢失</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="1223" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
+		<translation>#(1) 和 #(2) 没有相同的实例。#(3) | #(4) | #(5)</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="1771" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must enter a name.</string>
+		<translation>你必须输入一个名字</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="1968" />
+			<reference file="modules/roles/xarroles.php" line="500" />
+		</references>
+	</entry>
+	<entry>
+		<string>This entry already exists.</string>
+		<translation>此项目已存在</translation>
+		<references>
+			<reference file="modules/privileges/xarprivileges.php" line="1988" />
+			<reference file="modules/roles/xarroles.php" line="329" />
+			<reference file="modules/roles/xarroles.php" line="383" />
+			<reference file="modules/roles/xarroles.php" line="529" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must enter a user name and a valid email address.</string>
+		<translation>你必须输入一个用户名和一个合法的Email地址</translation>
+		<references>
+			<reference file="modules/roles/xarroles.php" line="315" />
+			<reference file="modules/roles/xarroles.php" line="510" />
+		</references>
+	</entry>
+	<entry>
+		<string>deleted</string>
+		<translation>已删除</translation>
+		<references>
+			<reference file="modules/roles/xarroles.php" line="721" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation #(1) is not supported</string>
+		<translation>操作#(1)不被支持</translation>
+		<references>
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>SELECT with total of columns different from the number retrieved.</string>
+		<translation>选择列的总数与收到的数字不同。</translation>
+		<references>
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="114" />
+		</references>
+	</entry>
+	<entry>
+		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
+		<translation>您尝试添加到数据表 #(1) 的数据需要字符串或数组的数据表。</translation>
+		<references>
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="193" />
+		</references>
+	</entry>
+	<entry>
+		<string>This function can only take 1 or 2 parameters</string>
+		<translation>该函数只能调用 1 或 2 个参数</translation>
+		<references>
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="212" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="264" />
+		</references>
+	</entry>
+	<entry>
+		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
+		<translation>您尝试添加到字段 #(1) 的数据需要字符串或数组的数据表。</translation>
+		<references>
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="241" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your query has no fields.</string>
+		<translation>你的请求没有域.</translation>
+		<references>
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="728" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the Users in this Group</string>
+		<translation>显示此群组的所有用户</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="272" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete this Group</string>
+		<translation>删除此群组</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="286" />
+		</references>
+	</entry>
+	<entry>
+		<string>Email the Users in this Group</string>
+		<translation>给此群组的所有用户发送电子邮件</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="300" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the Privileges assigned to this Group</string>
+		<translation>显示指定给此群组的权限</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="314" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test this Groups's Privileges</string>
+		<translation>测试此群组的权限</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="328" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify this Group</string>
+		<translation>修改此群组</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="339" />
+			<reference file="modules/roles/xartreerenderer.php" line="355" />
+		</references>
+	</entry>
+	<entry>
+		<string>subgroup</string>
+		<translation>子群组</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="357" />
+		</references>
+	</entry>
+	<entry>
+		<string>subgroups</string>
+		<translation>子群组</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="357" />
+		</references>
+	</entry>
+	<entry>
+		<string>user</string>
+		<translation>用户</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="359" />
+		</references>
+	</entry>
+	<entry>
+		<string>users</string>
+		<translation>用户</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="359" />
+		</references>
+	</entry>
+</translations>

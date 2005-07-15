@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_TW.utf-8">
+	<entry>
+		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authldap/xarinit.php" line="23" />
+			<reference file="modules/xarldap/xarldap.php" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Connection to server #(1) port_number #(2) failed</string>
+		<translation>LDAP 錯誤:  連到主機 #(1) port 號碼 #(2) 失敗</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to set LDAP Protocol version to 3</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to start TLS</string>
+		<translation>LDAP 錯誤: 無法開始 TLS</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Search LDAP base_dn #(1) filter #(2) failed</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="268" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty password (#(1)).</string>
+		<translation>空的密碼 (#(1)).</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="595" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty body (#(1)).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="631" />
+		</references>
+	</entry>
+	<entry>
+		<string>AuthLDAP Administration</string>
+		<translation>LDAP認證管理</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="1" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="3" />
+		</references>
+	</entry>
+</translations>

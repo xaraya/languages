@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_CN.utf-8">
+	<entry>
+		<string>Database Settings Collection</string>
+		<translation>数据库设置</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>请输入你的数据库配置选项。在主机名输入框内你可以用'主机名:端口号'这样的格式用非标准端口连接数据库(例如:'localhost:12345')</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
+		<translation>如果你没有数据库的root权限(比方说由于租赁虚拟主机等原因),在你安装之前需先配置你的数据库权限。</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
+		<translation>升级注意事项：如果你打算在当前Xaraya版本基础上升级，安装时请选择正常模式，然后再运行官方提供的升级程序。</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Information</string>
+		<translation>数据库信息</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Host</string>
+		<translation>主机</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Name</string>
+		<translation>数据库名称</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Table Prefix</string>
+		<translation>数据表前缀</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>(for Table Sharing)</string>
+		<translation>(用于表共享)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Database Type</string>
+		<translation>数据库类型</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>[not available]</string>
+		<translation>[不可用]</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create the database</string>
+		<translation>新建一个数据库</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
+		<translation>该选项表示在安装过程中你是否需要新建数据库，如果不选择则表示覆盖已存在的数据库。如果你因为虚拟主机或是MySQL安全配置的原因不能创建数据库，那么安装程序也不可能为你创建数据库，但能覆盖已存在的数据库。</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="88" />
+		</references>
+	</entry>
+</translations>

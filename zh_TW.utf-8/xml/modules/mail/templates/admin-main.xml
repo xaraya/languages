@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_TW.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>概要</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>這是什麼?</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The mail module controls the ways that your Xaraya system sends mail to users or groups of users. This module is a utility module and takes information from other modules installed on your Xaraya system and formats the mail for them. This module at its heart is using the</string>
+		<translation>寄信模組控制你的 Xaraya 系統寄信給使用者或群組使用者的方式. 這個模組是個工具模組, 從其它安裝在你的 Xaraya 上的模組來取得資訊, 並幫它們編排郵件. 這個模組的核心是使用</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>phpmailer</string>
+		<translation>phpmailer</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>classes for processing. These classes extend Xaraya to allow you to use SMTP, SendMail or the normal PHP Mail functions.</string>
+		<translation>類別來處理. 這個類別讓 Xaraya 能讓你使用 SMTP, SendMail 或者 PHP 的內建函式.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>如何使用?</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the menu, you have two choices.</string>
+		<translation>從選單你有兩個選擇.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>&quot;Modify Configuration&quot;. From this menu option, you can update the necessary configuration options, such as the email address that you want to send from, reply to address, type of mail system to use, etc.</string>
+		<translation>&quot;修改設置&quot;. 從這個選單選項, 你可以更新必要的設置選項, 如發信地址, 回信地址, 郵寄系統類型, 等等.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>&quot;Test Configuration&quot;. From this menu option you can test your mail system configuration.</string>
+		<translation>&quot;測試設置&quot;. 利用這個選單選項你可以測試你的郵寄系統設置.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Scheduling mail</string>
+		<translation>郵件排程</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Other modules can request that a certain mail be sent no earlier than a specific time.</string>
+		<translation>其它模組可以要求在特定時間後才寄出某封信.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>This will have no effect unless you install the 'scheduler' module first.</string>
+		<translation>你要安裝 '排程' 模組才有作用.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>In order to support that, you can configure the mail module to use the 'scheduler' and check if any mails need to be sent e.g. every x hours. Otherwise, those mails will be sent immediately.</string>
+		<translation>要支援這個功能, 你可以設置郵寄模組使用'排程'來每 x 個小時檢查有沒有需要寄出的信件. 不然的話, 郵件會立即寄出.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>包含的區塊</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Mail Module has no blocks included at this time.</string>
+		<translation>郵寄模組沒有包含的區塊</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>包含的掛鉤</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>The mail hook allows you to send an email to the site admin when something (content, users, etc) is created or deleted. This can be configured in the modules module.</string>
+		<translation>郵寄掛鉤當某些東西(內容, 使用者, 等等)會寄信給網站管理者. 這能在'模組'模組設置.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>延伸的資訊能在這裡找到. ['模組'模組]</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+</translations>

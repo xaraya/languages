@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_TW.utf-8">
+	<entry>
+		<string>Modify Configuration</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Global Configuration</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Short URLs :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per Page :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; first enable workflow hooks for a particular module+itemtype,
+then specify here which workflow process should be started when a particular hook is called by that module+itemtype. Only non-interactive start activities can be used here...</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Start Activity for Create Hook Calls</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Start Activity for Update Hook Calls</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Start Activity for Delete Hook Calls</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: at the moment, only one activity can be started in each hook call from each module+itemtype.
+If necessary, this can be modified but perhaps you might rethink your processes instead :-)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Scheduled Activities</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; in order to execute time-based activities (e.g. escalation in the workflow process, status change after a certain time, ...), you need to install the 'scheduler' module first.
+Then you can specify here which workflow activities should be executed, and how often. Only non-interactive stand-alone activities can be used here...</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Interval</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last Run</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>Result</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>The scheduler module will run one job to execute all the scheduled workflow activities.
+You should therefore choose an interval for it that is at least as small as the ones you specify for your activities, so that each scheduled workflow activity can be executed on time.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>Run Scheduler Job :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>disabled</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="128" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, scheduled workflow activities will not be executed.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/workflow/xartemplates/admin-modifyconfig.xd" line="137" />
+		</references>
+	</entry>
+</translations>

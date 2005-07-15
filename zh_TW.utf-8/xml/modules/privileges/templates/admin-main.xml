@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_TW.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>這是什麼?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Privileges module lets you manage &lt;b&gt;access rights&lt;/b&gt; on your site. Privileges give roles access to certain resources of your choosing. They are the basic components of the security system.</string>
+		<translation>權限模組讓你管理網站的 &lt;b&gt;存取權&lt;/b&gt;. 權限讓角色能存取某些你選擇的資源. 這是安全系統的基本要素.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here are some of the things you can do with privileges</string>
+		<translation>以下是你能利用權限模組作的事</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
+		<translation>Xaraya 的權限設定十分彈性. 你能定義權限於網站, 模組, 模組所含的類別, 或者那些類別的單一實體.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use privileges as building blocks. Assemble them into compound privileges tailored to any specific role on the site.</string>
+		<translation>使用權限就跟建置區塊一樣. 組合它們成合適的複合權限給網站上任何特定角色.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can assign privileges to roles which then pass them on to their children in the roles hierarchy through inheritance.</string>
+		<translation>當你分派權限給角色, 他們也會藉由繼承傳遞權限給角色階層的下層角色.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites sharing the same resources.</string>
+		<translation>使用'領域'功能你可以把網站細分為很多分享同樣資源的'虛擬'網站.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>如何使用?</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
+		<translation>點選檢視權限的連結, 你可以看到所有在你系統上的權限概觀. 複合權限會展開, 但是你可以點選它們來開啟並檢視它們的組成.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges</string>
+		<translation>當新增或修改一項權限時, 你可以定義它自己的存取等級, 或者包含其它權限.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are</string>
+		<translation>Xaraya 預先設定了權限最小集合在執行安裝程式時. 這些會根據你所選的設置而不同. 例如</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administration&lt;/b&gt;: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
+		<translation>&lt;b&gt;Administration&lt;/b&gt;: 一個能給予角色完整存取網站上所有資源的權限. 在安裝時, 這項權限分派給管理員角色,  並被使用者 Admin 繼承.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;CasualAccess&lt;/b&gt;: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
+		<translation>&lt;b&gt;CasualAccess&lt;/b&gt;: 分派給網站上未註冊使用者的權限. 初始定義為允許瀏覽所有頭版, 還有登入區塊.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;GeneralLock&lt;/b&gt;: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
+		<translation>&lt;b&gt;GeneralLock&lt;/b&gt;: 限制存取某些系統必需的基本角色及權限的權限, 如預設管理員. 避免粗心的移除.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock above this takes a bit more doing.) You can also combine privileges by using them as elements to create compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges you can create or their levels of nesting.</string>
+		<translation>所有系統裡的權限都可以改變或移除. (被 GeneralLock 保護的需要多點功夫.) 你把權限當成分, 組合權限來創造複合權限, 或者建立你自己選的新權限. 權限的數目及層數並沒有限制.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>包含的區塊</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks</string>
+		<translation>沒有包含的區塊</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>包含的掛鉤</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included hooks.</string>
+		<translation>沒有包含的掛鉤</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>關於這個模組延伸的資訊可以在這裡找到</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+</translations>
