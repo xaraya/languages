@@ -3,8 +3,24 @@
 # "locale, TOTAL, TRANSLATED, UNTRANSLATED" > ../totals.csv
 # update the languages repos
 RESULTDIR=/var/www/ddf/common/downloads/languages
-bk pull
-bk -r get
+LANGDB=/var/mt/xar/languages.db
+MT="monotone --quiet --db=$LANGDB "
+
+# Make sure the repository is up to date
+echo "Pulling lates changes for languages..."
+$MT pull mt.xaraya.com:17000 '*'
+for branch in `$MT ls branches`; do 
+  WORKDIR=${branch:21:2}
+  if [ X$WORKDIR != X ]; then
+    echo "Updating working dir $WORKDIR for branch $branch"
+    (
+      cd $WORKDIR
+      $MT update
+    )  
+  fi
+done
+
+# Clean out result area
 rm -f $RESULTDIR/*.csv
 # Count by Locale
 touch $RESULTDIR/totals.csv
@@ -22,6 +38,7 @@ do
    echo "$LANGNAME,$TOTAL,$TRANSCOUNT,$UNTRANSCOUNT" >> $RESULTDIR/totals.csv
  fi
 done
+
 # Count By Module
 touch $RESULTDIR/core.csv
 touch $RESULTDIR/modules.csv
