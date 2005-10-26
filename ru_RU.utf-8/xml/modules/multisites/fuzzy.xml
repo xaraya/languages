@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>&lt;span style=&quot;color: red&quot;&gt;THIS SITE IS ALREADY CONFIGURED AS THE MASTER MULTISITE SITE.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;
+You should only make changes to this configuration, if</string>
+		<translation>&lt;span style=&quot;color: red&quot;&gt;ЭТОТ САЙТ УЖЕ СКОНФИГУРИРОВАН КАК ГЛАВНЫ САЙТ.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt; Вы не должны менять настройки этой конфигурации, кроме как если</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>If the HTTP_HOST value above displays your correct domain
+name, you should make sure HTTP_HOST is selected from the drop down
+box. &lt;br /&gt;
+If the domain name for HTTP_HOST is incorrect, only then, change the
+value in the drop down box to SERVER_NAME.</string>
+		<translation>Если значение HTTP_HOST, эказанное выше, выводит правильное доменное имя, убедитесь, что значение HTTP_HOST выбрано в выпадающем списке. &lt;br /&gt; Если доменное имя не правильное, только тогда, измените значение в выпадающем списке на SERVER_NAME.</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>Multisites must be configured first before you can Add a site! &lt;br /&gt;&lt;br /&gt;
+Please configure the master site from the menu option Multisites - Master Config.
+&lt;p&gt;The Master site can then return here to Add Sites.&lt;/p&gt;</string>
+		<translation>Сначала сконфигурируйте модуль Мультисайтов для добавления нового сайта!&lt;br /&gt;&lt;br /&gt;Пожалуйста, сконфигурируйте Главный сайт через пункт меню -- Мастер Конфиг.&lt;p&gt;После этого можете вернуться сюда для добавления нового сайта.&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-addsite.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Master Multisite has not yet been configured!
+&lt;p&gt;Please configure the Master Site from the menu option Multisites - Master Config.&lt;/p&gt;
+&lt;p&gt;You can then add new sites through the menu option Multisites - Add Sites.&lt;/p&gt;
+&lt;p&gt;Return here to View Sites once your have added sites to view!&lt;/p&gt;</string>
+		<translation>Главный Мультисайт еще не отконфигурирован! &lt;p&gt;Пожайлуста, сконфигерируйте Главный сайт, перейдя по ссылке в меню Multisites - Мстер Конфиг.&lt;/p&gt; &lt;p&gt;После этого вы сможете добавить новые сайты, перейдя по ссылке меню Multisites - Добавить сайт.&lt;/p&gt; &lt;p&gt;Возвращайтесь сюда, когда у Вас появятся сайты для просмотра!&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="12" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Site Data Directory #(1) is not writeable!nPlease chmod 777 and try again.</string>
+		<translation>Каталог с данными сайта #(1) не имеет прав на запись в него!nДайте ему права (chmod 777) и попробуйте еще раз.</translation>
+		<references>
+			<reference file="modules/multisites/xaradmin/setconfig.php" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>The master config.system.php file /var/config.system.php is not writeable!n
+Please chmod 666 and try again.</string>
+		<translation>Главный файл конфигурации /var/config.system.php не имеет прав на запись!nДайте ему права (chmod 666) и побробуйте еще раз.</translation>
+		<references>
+			<reference file="modules/multisites/xaradmin/setconfig.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>You master site directory &quot;&quot;.$masterfolder.&quot;&quot; does not exist! Please create it first and make sure it is writeable chmod 777!.</string>
+		<translation>Каталог Главного сайта &quot;&quot;.$masterfolder.&quot;&quot; не существует! Создайте его установите для него права на запись (chmod 777).</translation>
+		<references>
+			<reference file="modules/multisites/xaradmin/updateconfig.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>The subsite folder #(1)/#(2) already exists!nRemove this subsite and recreate, or edit the exising subsite.</string>
+		<translation>Каталог суб-сайта #(1)/#(2) уже существует!nУдалите и пересоздайте суб-сайт или отредактируйте существующий суб-сайт.</translation>
+		<references>
+			<reference file="modules/multisites/xaradmin/createsite.php" line="160" />
+		</references>
+	</entry>
+</translations>

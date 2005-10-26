@@ -16,8 +16,8 @@
 	</entry>
 	<entry>
 		<string>This tag will automatically retrieve the item from DynamicData,
-and present it according to its user-objectdisplay.xd template.</string>
-		<translation>Этот тег автоматически извлечет элемент из примера динамических данных и представит его в соответствии с шаблоном user-objectdisplay.xd.</translation>
+and present it according to its standard objects/showdisplay.xd template.</string>
+		<translation>Этот тэг автоматически получает элементы из ДД и представляет их согласно стандартам в шаблоне objects/showdisplay.xd</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
 		</references>
@@ -61,15 +61,15 @@ make them available in the 'properties' variable in your template.</string>
 		</references>
 	</entry>
 	<entry>
-		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;,</string>
-		<translation>После извлечения объекта через API, вы можете передать весь объект в шаблон и использовать &amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;,</translation>
+		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt; to let DynamicData handle the display. Or you can use &amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; if you want to provide your own display template in this module :</string>
+		<translation>После получения объекта через API, вы можете предать весь объект в шаблон, используя &amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt;, отдав обработку отображения на откуп ДД. Или можно использовать &amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; определения порядка отображения для этого модуля через собственный шаблон:</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
-		<string>or pass along the properties and work like in APPROACH # 2.</string>
-		<translation>или передать свойства и работать с ними, как в Варианте #2.</translation>
+		<string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string>
+		<translation>В противном случае вы можете передать свойства и действовать по варианту # 2.</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="57" />
 		</references>

@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
 	<entry>
-		<string>Administration - Keywords</string>
-		<translation>Администрирование -- ключевые слова</translation>
-		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
 		<string>Overview</string>
 		<translation>Краткий обзор модуля</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="4" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
 		<string>What is it?</string>
 		<translation>Описание</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="10" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="11" />
 		</references>
 	</entry>
 	<entry>
 		<string>Keywords is a Xaraya Utility Module.</string>
 		<translation>Keywords (ключевые слова) - сервисный модуль Xaraya</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
 		<string>that allows you to assign keywords to module items (taxonomy) and to look up items by keyword. Enable its hooks for any module where you want to use it...</string>
 		<translation>и позволяет назначать ключевые слова для элементов модуля (систематизировать) и искать элементы по ключевым словам. Разрешите хук этого модуля для тех модулей, где хотите использовать эту функциональность.</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="15" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Использование</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="18" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
@@ -47,13 +40,20 @@
 Afterwards, when viewing an item, you can retrieve a list of other items having the same keyword(s).</string>
 		<translation>После разрешения хуков для определенного модуля, вы сможете видеть поле ввода, где необходимо заполнить соответствующие ключевые слова, когда создаете или редактируете элемент модуля. Далее, во время просмотра этого элемента, ы сможете получить список всех элементов, имеющих такие же ключевые слова.</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="22" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>This module, now, may also restrict keywords to a predefined set of words, tipical for each hooked module.&lt;/p&gt;&lt;p&gt;In the future thi module may try to extract keywords
+		<string>This module, now, may also restrict keywords to a predefined set of words, tipical for each hooked module.</string>
+		<translation>Сейчас этот модуль также может ограничивать ключевые слова предварительно заданным набором слов, типичных для каждого прихученного модуля.</translation>
+		<references>
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>In the future thi module may try to extract keywords
 automatically from other fields on create/update. Contributions in that or other directions are welcome :-)</string>
-		<translation>Сейчас этот модуль также может использовать предварительно заданный набор слов, как ключевые.&lt;/p&lt;p&gt;В будущем, этот модуль сможет также пытаться 'вытягивать' ключевые слова из других полей при создании/редактированиии элемента. Любая помощь в этом направлении -- приветствуется :-)</translation>
+		<translation>В будущем этот модуль сможет также пытаться 'вытягивать' ключевые слова из других полей при создании/редактированиии. Приветствуется любая помощь в этом направлении :-)</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-main.xd" line="24" />
 		</references>
@@ -62,35 +62,42 @@ automatically from other fields on create/update. Contributions in that or other
 		<string>Included Blocks</string>
 		<translation>Включенные блоки</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included blocks at this time</string>
 		<translation>В настоящее время нет включенных блоков</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="30" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Включенные хуки</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="33" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>new/create/modify/update/delete -- Allows you to create/update keywords</string>
 		<translation>new/create/modify/update/delete -- позволяет Вам создавать/править ключевые слова</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>display/search -- Allows you to display/search keywords</string>
 		<translation>display/search -- позволяет Вам отображать/искать ключевые слова</translation>
 		<references>
-			<reference file="modules/keywords/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Расширенная информация по этому модулю может быть найдена здесь. [модуль modules]</translation>
+		<references>
+			<reference file="modules/keywords/xartemplates/admin-main.xd" line="43" />
 		</references>
 	</entry>
 </translations>

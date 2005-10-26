@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
+	<entry>
+		<string>The xarCacheManager module upgrade has failed.
+The #(1) directory is missing, and the #(2) is not
+writable by the web server process owner. Please
+make #(2) writable by the web server process owner
+to complete the upgrade. Alternatively, the #(1)
+directory can be manually created. #(1) must be
+writable by the web service process owner for
+output caching to work.</string>
+		<translation>Обновление модуля xarCacheManager не прошло. Каталога #(1) не существует и нет прав на запись в #(2) для хозяина процесса веб-сервера. Пожалуйста, дайте права на запись в #(2) для хозяина процесса веб-сервера, чтобы завершить обновление. Иначе, создайте каталог #(1) вручную. Для работы кеширования вывода требуется, чтобы хозяин процесса веб-сервера имел права на запись в каталог #(1).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="365" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) directory is not writable by the web
+web server. The #(1) must be writable by the web
+server process owner for output caching to work.
+Please change the permission on the #(1) directory
+so that the web server can write to it.</string>
+		<translation>Каталог #(1) не имеет прав на запись для хозяина процесса веб-сервера. #(1) должен иметь права на запись для веб-сервера для нормальной работы кэширования. Пожалуйста, назначьте права на запись в каталог #(1) так, чтобы веб-сервер мог туда писать.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="563" />
+		</references>
+	</entry>
+	<entry>
+		<string>Analyze Slashdot and Google News use of 304 &amp; ETag HTTP headers and rework our use of these headers based on findings.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cache Key</string>
+		<translation>Ключ Кэша</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Output Cache size is currently:</string>
+		<translation>Текущий размер кеша вывода:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Directory</string>
+		<translation>Каталог</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Anonymous</string>
+		<translation>Аноним</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>That is strange. The #(1) file seems to be
+missing.</string>
+		<translation>Странно.. Похоже, файл #(1) отсутствует.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/get_cachingconfig.php" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please add the following line to your config.caching.php file :n#(1)</string>
+		<translation>Пожалуйста, добавьте следующую строку в Ваш файл config.caching.php :n#(1)</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradmin/pages.php" line="170" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cached #(1) files have been successfully flushed.</string>
+		<translation>Файлы #(1) кеша были успешно очищены.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradmin/flushcache.php" line="67" />
+		</references>
+	</entry>
+</translations>

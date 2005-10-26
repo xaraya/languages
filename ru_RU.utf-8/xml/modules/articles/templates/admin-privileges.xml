@@ -4,107 +4,104 @@
 		<string>Select Articles for Privilege '#(1)'</string>
 		<translation>Выберите публикации для привилегии '#(1)'</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="2" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
 		<string>All / Other --&amp;gt;</string>
 		<translation>Все / Другие --&amp;gt;</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="42" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Article</string>
 		<translation>Публикация</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="58" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enter article number</string>
 		<translation>Введите номер публикации</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="60" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="79" />
 		</references>
 	</entry>
 	<entry>
 		<string>Access Level</string>
 		<translation>Уровень доступа</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="66" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="88" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Access</string>
 		<translation>Нет доступа</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="70" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="72" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="94" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>Read</string>
 		<translation>Чтение</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="80" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="82" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="112" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="116" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit (Comment)</string>
 		<translation>Предложение (Комментирование)</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="85" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="87" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="121" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="125" />
 		</references>
 	</entry>
 	<entry>
 		<string>Edit / Approve</string>
 		<translation>Редактирование / Одобрение</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="90" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="92" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="130" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>Admin</string>
 		<translation>Администрирование</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="100" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="102" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="148" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are #(1) articles matching these selection criteria at the moment</string>
 		<translation>Количество публикаций, соответствующих заданным критериям выбора: #(1)</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="113" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="166" />
 		</references>
 	</entry>
 	<entry>
-		<string>Some examples : (assuming your users have read access by default)&lt;br /&gt;&lt;br /&gt;
-- In order to allow 'Friends' to submit News Articles (and only that), define a privilege 'SubmitNews'
-(or whatever name you prefer), and choose the publication type &quot;News Articles&quot; (instance 1:All:All:All) and
-access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
-&lt;br /&gt;&lt;br /&gt;
-- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type
-&quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.
-&lt;br /&gt;&lt;br /&gt;
-- ...
-&lt;br /&gt;&lt;br /&gt;</string>
-		<translation>Некоторые примеры: (если по умолчанию для Ваших пользователей установлен доступ по чтению) &lt;br /&gt;&lt;br /&gt; - Чтобы разрешить 'Друзьям' присылать новости (но не более этого), определите привилегию 'Представление Новостей' (можете назвать по-другому - как Вам больше понравится), выберите тип публикации &quot;Статьи Новостей&quot; (вариант 1:All:All:All) и уровень доступа &quot;Отправка (Комментирование)&quot;, как указано выше. Нажмите &quot;Завершить и принять привилегии&quot;, затем назначьте эту привилегию на роль &quot;Друзей&quot;. &lt;br /&gt;&lt;br /&gt; - Чтобы запретить анонимным пользователям (&quot;Незнакомцам&quot;) рассмотрение документов, определите некоторую привилегию 'Нет Документов' с типом публикации &quot;Документы&quot; (вариант 2:All:All:All) и уровень доступа &quot;Нет Доступа&quot;. После этого назначьте эту привилегию на роль &quot;Незнакомцев&quot;. &lt;br /&gt;&lt;br /&gt; - ... &lt;br /&gt;&lt;br /&gt;</translation>
+		<string>Some examples : (assuming your users have read access by default)
+&lt;br /&gt;
+&lt;br /&gt;- In order to allow 'Friends' to submit News Articles (and only that), define a privilege 'SubmitNews' (or whatever name you prefer), and choose the publication type &quot;News Articles&quot; (instance 1:All:All:All) and access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
+&lt;br /&gt;
+&lt;br /&gt;- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type &quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.
+&lt;br /&gt;
+&lt;br /&gt;- ...
+&lt;br /&gt;
+&lt;br /&gt;</string>
+		<translation>Некоторые примеры: (подразумевается, что пользователи имеет доступ на чтение)&lt;br /&gt; &lt;br /&gt;- Для того, чтобы разрешить группе 'Friends' создавать Новости (и только их), создайте привилегию  'SubmitNews' (или с любым другим названием) и выбирите тип публикации &quot;Новости&quot; (экземпляр 1:All:All:All) с уровнем доступа &quot;Submit (Comment)&quot;. Нажмите &quot;Закончить и применить привилегию&quot; и затем назначте привилегию роли  'Friends'. &lt;br /&gt; &lt;br /&gt;- Для того, чтобы запретить группе 'Strangers' просмотр Документов, создайте привилегию 'NoDocuments' с типом публикации &quot;Документы&quot; (экземпляр 2:All:All:All) и уровнем доступа &quot;No Access&quot;. Затем назначте эту привилегию роли 'Strangers'. &lt;br /&gt; &lt;br /&gt;- ... &lt;br /&gt; &lt;br /&gt;</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="133" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="185" />
 		</references>
 	</entry>
 	<entry>
-		<string>Note: if you want to deny access to all articles in a particular category with ID 123, you can also define a privilege
-for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category
-from the articles map and categories navigation as well.</string>
-		<translation>Замечание: если Вы желаете запретить доступ ко всем статьям в категории с ID 123, Вы можете также определить привилегию для модуля 'categories', компонент 'Category', названия категории 'All' и категории с ID '123'. Это также удалит категорию из карты публикаций и навигации по категориям.</translation>
+		<string>Note: if you want to deny access to all articles in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the articles map and categories navigation as well.</string>
+		<translation>Замечание: Если вы хотите запретить доступ ко всем публикациям в определенной категории с ID 123, вы можете создать привилегию для модуля Категории, компонет Категория, Имя - Все и ID категории '123'. Это действие также исключит категорию из карты публикаций и навигации.</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="139" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="186" />
 		</references>
 	</entry>
 </translations>

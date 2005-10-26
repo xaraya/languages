@@ -29,93 +29,136 @@
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;p&gt;For example, if you want to have a pubtype &quot;cooking recipe&quot;. This
-pubtype could be to store the ingredients of the meal, thus there would
-be required a list of input fields: ingredient1, quantity1,
-pic1(extended info :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;
-&lt;p&gt;The disadvantage of this is the high number of fields to ensure, that
-there your users aren't going against the limit. Furthermore there are
-always displayed all input fields. And of course it's not a very nice
-way to do it.&lt;/p&gt;
-&lt;p&gt;As I didn't know how to do this better, I had a dream about a module,
-which can be hooked from any other module and which is able to display /
-provide editing / etc. for subitems to an item. I had a dream about a
-table, which saves the information, which DD-Object stores the subitems
-of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which
-DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object
-(1 to n Relation). I had the dream to share my module with the community.
-Now, the module is here, and all dreams got true. If you didn't get my
-technical information, don't worry. &lt;/p&gt;</string>
-		<translation>&lt;p&gt;Например, вым нужен тип публикации &quot;рецепты&quot;. Этот тип публикации мог бы хранит ингридиенты блюда, которым необходим список полей ввода: ingredient1, quantity1, pic1(подробное описание :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;&lt;p&gt;Недостаток здесь то, что необходимо иметь большое количесто полей, чтобы не выпускать пользователя за рамки лимитов описания. Более того, приходится всегда отображать все поля. Конечно, это не лучший способ реализации.&lt;/p&gt; &lt;p&gt; Я не придумал ничего лучше, как сделать модуль, который бы вызывался хуками из любого другого модуля и позволял бы отображать / редактировать суб-элементы для элемента. Я думал о таблице, которая хранила бы информацию о том, какой объект ДД содержит суб-элементы для комбинации &quot;модуль/тип элемента&quot;, и о другой таблице, содержащей информацию о том, какой ID элемента ДД принадлежит &quot;&quot;модуль/тип элемента/ID элемента&quot; в этом объекте ДД (в отношении 1 к N). Я решил поделиться моим модлем с сообществом. Если вы не поняли эту техническую информацию, ничего страшного.&lt;/p&gt;</translation>
+		<string>For example, if you want to have a publication type (pubtype) &quot;cooking recipe&quot;. This pubtype could be to store the ingredients of the meal, thus there would be required a list of input fields: ingredient1, quantity1,
+pic1(extended info :-) ) , ingredient2, quantity2, pic2,...</string>
+		<translation>Например, вам нужен тип публикации &quot;рецепты&quot;. Этот тип публикации мог бы хранить ингредиенты блюда, которым необходим список полей ввода: ingredient1, quantity1, pic1(расширенная информация :-) ) , ingredient2, quantity2, pic2,...</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The disadvantage of this is the high number of fields. To ensure that your users aren't going against the limit there... Furthermore all input fields would always be displayed. That is of course not a very nice
+way to accomplish this.</string>
+		<translation>Недостаток в том, что Вам необходимо иметь большое количесто полей, чтобы не выпускать пользователя за рамки лимитов описания. Более того, приходится всегда отображать все поля. Конечно, это не лучший способ реализации.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>As I didn't know how to do this better, I had a dream about a module, which can be hooked from any other module and which is able to display /
+provide editing / etc. subitems to an item. I had a dream about a table, which saves the information, which DD-Object stores the subitems
+of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object
+(1 to n Relation). I had the dream to share my module with the community. Now, the module is here, and all dreams got true. If you didn't get my
+technical information, don't worry.</string>
+		<translation>Я не придумал ничего лучше, как сделать модуль, который можно прихучить из любого другого модуля и который позволял бы отображать / редактировать суб-элементы для элемента. Я думал о таблице, которая хранила бы информацию о том, какой объект ДД содержит суб-элементы для комбинации &quot;модуль/тип элемента&quot;, и о другой таблице, содержащей информацию о том, какой ID элемента ДД принадлежит &quot;модуль/тип элемента/ID элемента&quot; в этом объекте ДД (отношение один ко многим). Я мечтал поделиться моим модулем с сообществом. Сейчас модуль готов и все мечты сбылись. Если вы не поняли эту техническую информацию, ничего страшного.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Как это использовать?</translation>
 		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Install the module (done by now, as you are seeing this page)</string>
+		<translation>Установите модуль (уже должно быть сделано, так как Вы видите эту страницу)</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to Admin &gt; DynamicData &gt; View Objects &gt;</string>
+		<translation>Перейдите в администрирование модуля ДД,, затем в просмотр объектов</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create New</string>
+		<translation>Создать новый</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>There, create a new dynamic data object
+, which should hold the subitem information.</string>
+		<translation>Здесь создайте новый объект ДД, который будет содержать информацию суб-элемента.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to Dynamic Data &gt; View Objects &gt; Edit [YOUR OBJECT] &gt; Modify Dynamic Properties and add properties (fields). You must have at least one field with a chosen label, Property Type of ItemID, default of 0 and Status of Display Only.</string>
+		<translation>Перейдите в администрирование модуля ДД, затем в просмотр объектов, затем вызовите Править [Ваш объект], затем Изменить динамические свойства и начинайте добавлять свойства (поля). Вам надо сделать как минимум одно поле с выбранной меткой, типом свойства для ItemID, 0 по умолчанию и статусом Только для отображения.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to Admin &gt; Subitems module (admin area) &gt; Add link. There, choose the object you have just created, the module and the itemtype that you will attach this property to.</string>
+		<translation>Перейдите в администрирование модуля суб-элементов, затем вызовите Добавить ссылку. Затем выберите только что созданный объект, модуль и тип элемента, которые вы присоедините к этому свойству.</translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to the module Modules &gt; Configure Hooks. Choose the Subitems module and enable the hook for the module /itemtype combination, that you just created the link for</string>
+		<translation>Перейдите в модуль Модулей и конфигурацию хуков. Выберите модуль Суб-элементов и разрешите хук для необходимой комбинации &quot;модуль / тип элемента&quot;, для которого вы создали ссылку на суб-элемент.</translation>
+		<references>
 			<reference file="modules/subitems/xartemplates/admin-main.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;ol&gt;
-&lt;li&gt; install module&lt;/li&gt;
-&lt;li&gt; goto dynamicdata admin area, new object, create a dynamic data object
-, which should hold the subitem information (you must have one field
-with the ItemID, default 0, display only) -&gt; remember the objectid, edit
-label (used for display) and name (used for custom default template)&lt;/li&gt;
-&lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from
-previsously created dd-object), module name, itemtype&lt;/li&gt;
-&lt;li&gt; goto module modules, hooks -&gt; subitems -&gt; enable the hook for the
-module /itemtype combination, you created the link for&lt;/li&gt;
-&lt;/ol&gt;
--&gt; now it should work (tested with custom pubtype)</string>
-		<translation>&lt;ol&gt; &lt;li&gt; установите модуль&lt;/li&gt; &lt;li&gt; перейдите к администрированию модуля ДД и создайте новый объект ДД, который будет содержать информацию суб-элемента (надо сделать одно поле с параметрами ItemID, default 0, display only) -&gt; запомните ID объекта, отображаемое имя и название (используется для перекрывающего шаблона)&lt;/li&gt; &lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from previsously created dd-object), module name, itemtype&lt;/li&gt; &lt;li&gt; перейдите в модуль Модулей и разрешите хук модуля Суб-элементов для необходимой комбинации &quot;модуль / тип элемента&quot;, для которого вы создали ссылку на суб-элемент.&lt;/li&gt; &lt;/ol&gt; -&gt; Теперь это должно работать (протестированно с некторыми типами публикаций)</translation>
+		<string>Now it should work (It has been tested with custom pubtypes)</string>
+		<translation>Теперь это должно работать (протестированно с некоторыми типами публикаций)</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Включенные блоки</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="59" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>none</string>
 		<translation>нет</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Включенные хуки</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="67" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>new/create/modify/update/delete -- Allows you to create/update sub-items</string>
 		<translation>new/create/modify/update/delete -- Позволяют создавать/редактировать суб-элементы</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="72" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
 		<string>display -- Allows you to display sub-items</string>
 		<translation>display -- Позволяет отображать суб-элементы</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="73" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Extended information about this module can be found here. [modules module]</string>
 		<translation>Более подробную информацию по этому модулю можно найти здесь. [modules module]</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="78" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
 		</references>
 	</entry>
 </translations>
