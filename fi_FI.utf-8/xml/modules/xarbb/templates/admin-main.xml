@@ -2,88 +2,221 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
 	<entry>
 		<string>Administration - xarBB</string>
-		<translation></translation>
+		<translation>xarBB ylläpito</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="2" />
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
 		<string>What is it?</string>
-		<translation></translation>
+		<translation>Mikä tämä on?</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
-		<string>xarbb provides basic forum functions provided mainly from Xaraya utility modules.  The forum itself is very light weight, but designed to handle large volume postings.</string>
-		<translation></translation>
+		<string>xarBB provides basic forum functions provided mainly from Xaraya utility modules (topics are provided by xarBB and reply posts by the comments module, for example). The forum itself is very light weight, but designed to handle large volume postings.</string>
+		<translation>xarBB sisältää foorumien perusominaisuudet, jotka pohjautuvat suurimmaksi osaksi Xarayan työkalumoduuleihin (esimerkiksi aiheet ovat xarBB:n ominaisuus, mutta vastausviestit käyttävät Kommentit-moduulia). Moduuli on hyvin kevyt, mutta suunniteltu käsittelemään suuriakin viestimääriä.</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
-		<translation></translation>
+		<translation>Miten tätä käytetään?</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="18" />
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have three choices.  &quot;Modify Configuration&quot;, &quot;Add Forums&quot;, and &quot;View Forums&quot;.</string>
-		<translation></translation>
+		<string>xarBB allows users to post Topics and reply posts to those topics. There are a number of options available from the administration menu.</string>
+		<translation>xarBB antaa käyttäjille mahdollisuuden kirjoittaa Aiheita ja vastata niihin. Ylläpitäjät voivat muokata useita eri asetuksia tarpeidensa mukaan.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Forums -- Allows you to add new forums to your system. Each forum has a number of configuration options.</string>
+		<translation>Lisää foorumeita -- Mahdollistaa uusien foorumien lisäämisen järjestelmääsi. Jokaisen foorumin asetuksia voidaan muokata erikseen.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Forums -- Allows you to view the forums that you have configured on your system.</string>
+		<translation>Katsele foorumeita -- Mahdollistaa asettamiesi foorumeiden katselemisen.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Configuration -- Allows you to set certain master configuration routines for forums.</string>
+		<translation>Muokkaa asetuksia -- Mahdollistaa foorumeiden pääasetusten muokkaamisen.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Reorder Forums -- Allows you to reorder your existing forums</string>
+		<translation>Järjestele foorumeita -- Mahdollistaa käytössä olevien foorumeiden uudelleenjärjestelyn.</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Configuration -- Allows you to set certain configuration routines for forums.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Forums -- Allows you to view the forums that you have configured on your system.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add Forums -- Allows you to add new forums to your system.</string>
-		<translation></translation>
+		<string>You can add additional functionality to xarBB forums as you require it.</string>
+		<translation>Voit tarvittaessa lisätä xarBB foorumeille uusia ominaisuuksia.</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
-		<string>Included Blocks</string>
-		<translation></translation>
+		<string>Hook BBCode or HTML to allow formatted user input and also the option to supply linebreaks for plain text.</string>
+		<translation>Jos haluat sallia käyttäjille viestien muotoilun, aseta BBCode- ja HTML-koukut päälle.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Turn off modify 'stamps' in topics and posts and hook Changelog module to allow enhanced changelog management of posts and topics</string>
+		<translation>Poista 'muokattujen aiheiden leima' käytöstä ja aseta Muutosloki-koukut päälle. Näin saat käyttöösi laajemmat tiedot kaikkien aiheiden ja vastausten muutoksista.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you have imported the extra default User dynamic data such as avatars, msn, irc and so on, to your user roles, then these attributes will automatically be displayed in xarbb topics and posts.</string>
+		<translation>Jos olet tuonut järjestelmäsi Rooleihin toisesta foorumiohjelmasta käyttäjien dynaamista dataa, kuten avataria sekä msn- ja irc-tunnuksia, näkyvät ne automaattisesti xarBB:n aiheissa ja vastauksissa.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Set privilges for Comments module and xarBB to allow or disallow viewing, posting of topics and replies, editing of their own posts by users, and setup of moderator groups.</string>
+		<translation>Asettamalla oikeuksia Kommentit- ja xarBB-moduuleille, voit sallia käyttäjille tai kieltää heiltä viestiensä lukemisen, vastaamisen ja muokkaamisen, sekä asettaa moderaattoriryhmiä.</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
-		<string>There is currently one block provided called Latest Posts. If the block is not 
-            showing as an option when adding a Block instance it may not have been registered. In this case 
-            please add the block type through Admin Blocks-Add Block Type</string>
+		<string>Administrators and moderators have additional functionality including deleting posts, marking posts as announcements or sticky topics, moving posts, and locking topics from further postings.</string>
+		<translation>Ylläpitäjät ja moderaattorit voivat lisäksi poistaa, siirtää ja lukita viestejä sekä merkitä ne tiedotteiksi tai kiinnitetyiksi aiheiksi.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can build the functionality you would like into xarBB and use override templates to customize every aspect of the xarBB templates.</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
-		<string>Included Hooks</string>
-		<translation></translation>
+		<string>Included Blocks</string>
+		<translation>Sisältyvät blokit</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="43" />
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="41" />
 		</references>
 	</entry>
 	<entry>
-		<string>There are no included hooks</string>
+		<string>There is currently one block provided called Latest Posts. If the block is not
+showing as an option when adding a Block instance it may not have been registered. In this case
+please add the block type through Admin Blocks-Add Block Type</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="47" />
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Sisältyvät koukut</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is currently a Search hook. If you hook xarBB to the Search module, users will be able to search through topics and posts, and more specifically for topic and post authors.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Lisätietoja</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the XarBB module can be found at</string>
+		<translation>Lisätietoja xarBB-moduulista löydät</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xarbb Extension page at</string>
+		<translation>xarBB Laajennuksen sivulta</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarBB Module - Xaraya Extension 300</string>
+		<translation>xarBB-moduuli - Xaraya Laajennus 300</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Lue uusimmat tiedot Version History -välilehdeltä sivun alaosasta.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on XarBB found at</string>
+		<translation>Aiheeseen liittyvistä tutoriaaleista ja dokumentaatiosta </translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on xarBB</string>
+		<translation>xarBB:hen liittyvää dokumentaatiota</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xarayan Dokumentaatio -sivuilta.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarBB Module - Overview</string>
+		<translation>Yleiskatsaus moduulille xarBB</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Versio</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Lisää tietoa moduulista löydät täältä. [modules module]</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="71" />
 		</references>
 	</entry>
 </translations>

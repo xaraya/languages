@@ -2,7 +2,7 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
 	<entry>
 		<string>Categories</string>
-		<translation></translation>
+		<translation>Kategoriat</translation>
 		<references>
 			<reference file="modules/categories/xarversion.php" line="17" />
 			<reference file="modules/categories/xaradmin/modifyhook.php" line="141" />
@@ -13,7 +13,7 @@
 	</entry>
 	<entry>
 		<string>No</string>
-		<translation></translation>
+		<translation>Ei</translation>
 		<references>
 			<reference file="modules/categories/xaradmin/deletecat.php" line="28" />
 			<reference file="modules/categories/xartemplates/admin-config.xd" line="57" />
@@ -22,7 +22,7 @@
 	</entry>
 	<entry>
 		<string>Yes</string>
-		<translation></translation>
+		<translation>Kyllä</translation>
 		<references>
 			<reference file="modules/categories/xaradmin/deletecat.php" line="29" />
 			<reference file="modules/categories/xartemplates/admin-config.xd" line="56" />
@@ -31,18 +31,19 @@
 	</entry>
 	<entry>
 		<string>Add</string>
-		<translation></translation>
+		<translation>Lisää</translation>
 		<references>
-			<reference file="modules/categories/xaradmin/modifycat.php" line="29" />
-			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="12" />
+			<reference file="modules/categories/xaradmin/modifycat.php" line="30" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="73" />
+			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="11" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify</string>
-		<translation></translation>
+		<translation>Muokkaa</translation>
 		<references>
-			<reference file="modules/categories/xaradmin/modifycat.php" line="30" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="104" />
+			<reference file="modules/categories/xaradmin/modifycat.php" line="31" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="103" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="23" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="41" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="22" />
@@ -50,18 +51,26 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Submit</string>
+		<string>Reassign</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/categories/xaradmin/modifyconfig.php" line="39" />
-			<reference file="modules/categories/xartemplates/admin-config.xd" line="105" />
+			<reference file="modules/categories/xaradmin/modifycat.php" line="32" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation>Lähetä</translation>
+		<references>
+			<reference file="modules/categories/xaradmin/modifyconfig.php" line="37" />
+			<reference file="modules/categories/xartemplates/admin-config.xd" line="107" />
 			<reference file="modules/categories/xartemplates/admin-delete.xd" line="40" />
 			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="65" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation></translation>
+		<translation>Laiton #(1) #(2) funktiolle #(3) moduulissa #(4)</translation>
 		<references>
 			<reference file="modules/categories/xaradmin/modifyconfighook.php" line="30" />
 			<reference file="modules/categories/xaradmin/modifyhook.php" line="21" />
@@ -82,28 +91,29 @@
 	</entry>
 	<entry>
 		<string>Category</string>
-		<translation></translation>
+		<translation>Kategoria</translation>
 		<references>
 			<reference file="modules/categories/xaradmin/modifyhook.php" line="143" />
 			<reference file="modules/categories/xaradmin/newhook.php" line="126" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="44" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="51" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="21" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="60" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid Parameter Count</string>
-		<translation></translation>
+		<translation>Laiton parametrimäärä</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/createcat.php" line="35" />
 			<reference file="modules/categories/xaradminapi/createcat.php" line="51" />
 			<reference file="modules/categories/xaradminapi/createcatdirectly.php" line="13" />
 			<reference file="modules/categories/xaradminapi/linkcat.php" line="32" />
 			<reference file="modules/categories/xaradminapi/unlink.php" line="22" />
+			<reference file="modules/categories/xaradminapi/unlinkcids.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>That category does not exist</string>
-		<translation></translation>
+		<translation>Kategoriaa ei ole</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/createcat.php" line="91" />
 			<reference file="modules/categories/xaradminapi/updatecat.php" line="59" />
@@ -113,7 +123,7 @@
 	</entry>
 	<entry>
 		<string>Add Category</string>
-		<translation></translation>
+		<translation>Lisää kategoria</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/getmenulinks.php" line="21" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="4" />
@@ -122,7 +132,7 @@
 	</entry>
 	<entry>
 		<string>View Categories</string>
-		<translation></translation>
+		<translation>Näytä kategoriat</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/getmenulinks.php" line="31" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="2" />
@@ -133,7 +143,7 @@
 	</entry>
 	<entry>
 		<string>View Statistics</string>
-		<translation></translation>
+		<translation>Näytä tilastot</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/getmenulinks.php" line="37" />
 			<reference file="modules/categories/xartemplates/admin-stats.xd" line="2" />
@@ -141,7 +151,7 @@
 	</entry>
 	<entry>
 		<string>Unknown Category</string>
-		<translation></translation>
+		<translation>Tuntematon kategoria</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/linkcat.php" line="57" />
 			<reference file="modules/categories/xaruserapi/getcatinfo.php" line="46" />
@@ -150,65 +160,67 @@
 	</entry>
 	<entry>
 		<string>Browse in</string>
-		<translation></translation>
+		<translation>Selaa</translation>
 		<references>
 			<reference file="modules/categories/xarblocks/navigation.php" line="377" />
 			<reference file="modules/categories/xarblocks/navigation.php" line="402" />
 			<reference file="modules/categories/xarblocks/navigation.php" line="404" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="358" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="392" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="394" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="384" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="419" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="421" />
 		</references>
 	</entry>
 	<entry>
 		<string>All</string>
-		<translation></translation>
+		<translation>Kaikki</translation>
 		<references>
 			<reference file="modules/categories/xarblocks/navigation.php" line="420" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="17" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="32" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="442" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="24" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="39" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="469" />
 		</references>
 	</entry>
 	<entry>
 		<string>Any of these categories</string>
-		<translation></translation>
+		<translation>Jokin näistä kategorioista</translation>
 		<references>
 			<reference file="modules/categories/xarblocks/navigation.php" line="467" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="572" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="599" />
 		</references>
 	</entry>
 	<entry>
 		<string>All of these categories</string>
-		<translation></translation>
+		<translation>Kaikki nämä kategoriat</translation>
 		<references>
 			<reference file="modules/categories/xarblocks/navigation.php" line="478" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="587" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="615" />
 		</references>
 	</entry>
 	<entry>
 		<string>and</string>
-		<translation></translation>
+		<translation>ja</translation>
 		<references>
 			<reference file="modules/categories/xarblocks/navigation.php" line="502" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="634" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="660" />
 		</references>
 	</entry>
 	<entry>
 		<string>or</string>
-		<translation></translation>
+		<translation>tai</translation>
 		<references>
 			<reference file="modules/categories/xarblocks/navigation.php" line="504" />
-			<reference file="modules/categories/xaruserapi/navigation.php" line="636" />
+			<reference file="modules/categories/xaruserapi/navigation.php" line="662" />
 		</references>
 	</entry>
 	<entry>
 		<string>Categories Administration</string>
-		<translation></translation>
+		<translation>Kategorioiden ylläpito</translation>
 		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-config.xd" line="16" />
 			<reference file="modules/categories/xartemplates/admin-delete.xd" line="7" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="7" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="4" />
+			<reference file="modules/categories/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="3" />
 			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-stats.xd" line="1" />
@@ -222,90 +234,172 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Hooks</string>
-		<translation></translation>
+		<string>Check Orphan Links</string>
+		<translation>Tarkista orvot linkit</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-config.xd" line="94" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="94" />
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="2" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="107" />
 		</references>
 	</entry>
 	<entry>
-		<string>Reset</string>
-		<translation></translation>
+		<string>Module Name</string>
+		<translation>Moduulin nimi</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-config.xd" line="106" />
-			<reference file="modules/categories/xartemplates/admin-delete.xd" line="41" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="113" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="136" />
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="8" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module&lt;br /&gt;Items</string>
+		<translation>Moduulin&lt;br /&gt;alkiot</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="11" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Distinct&lt;br /&gt;Categories</string>
+		<translation>Erilliset&lt;br /&gt;kategoriat</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="14" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Total&lt;br /&gt;Links</string>
+		<translation>Kaikki&lt;br /&gt;linkit</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="17" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are currently no category links in the database...</string>
+		<translation>Tietokannassa ei ole tällä hetkellä ainoatakaan kategoriaa...</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="33" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Grand Total</string>
+		<translation>Kaikkiaan</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="67" />
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="168" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="73" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="192" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module #(1)</string>
+		<translation>Moduuli #(1)</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="83" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>Item Id</string>
+		<translation>Alkion id</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="99" />
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="101" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="117" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>Category&lt;br/&gt;Links</string>
+		<translation>Kategorialinkit</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="105" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>Hooks</string>
+		<translation>Koukut</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-config.xd" line="95" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name</string>
-		<translation></translation>
+		<translation>Nimi</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="54" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="47" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="26" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="46" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="7" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="6" />
 		</references>
 	</entry>
 	<entry>
 		<string>Description</string>
-		<translation></translation>
+		<translation>Kuvaus</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="64" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="32" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="8" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="7" />
 		</references>
 	</entry>
 	<entry>
 		<string>Overview</string>
-		<translation></translation>
+		<translation>Yleiskatsaus</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-main.xd" line="3" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="68" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="70" />
+			<reference file="modules/categories/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="82" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base category</string>
+		<translation>Peruskategoria</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="27" />
+			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select the categories for this item.</string>
-		<translation></translation>
+		<translation>Valitse kategoriat tälle alkiolle.</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-modifyhook.xd" line="3" />
-			<reference file="modules/categories/xartemplates/admin-newhook.xd" line="3" />
+			<reference file="modules/categories/xartemplates/admin-modifyhook.xd" line="2" />
+			<reference file="modules/categories/xartemplates/admin-newhook.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
 		<string>Item Type</string>
-		<translation></translation>
+		<translation>Tyyppi</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="29" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="52" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="36" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete All</string>
-		<translation></translation>
+		<translation>Poista kaikki</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="83" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="85" />
-			<reference file="modules/categories/xartemplates/admin-stats.xd" line="191" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="97" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="99" />
+			<reference file="modules/categories/xartemplates/admin-stats.xd" line="198" />
 		</references>
 	</entry>
 	<entry>
 		<string>Options</string>
-		<translation></translation>
+		<translation>Valinnat</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="55" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="54" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="10" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete</string>
-		<translation></translation>
+		<translation>Poista</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="108" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="107" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="27" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="45" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="26" />
@@ -314,7 +408,7 @@
 	</entry>
 	<entry>
 		<string>Categories per page:</string>
-		<translation></translation>
+		<translation>Kategorioita sivulla:</translation>
 		<references>
 			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="47" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="91" />
@@ -323,7 +417,7 @@
 	</entry>
 	<entry>
 		<string>Categories Total:</string>
-		<translation></translation>
+		<translation>Kategorioita yhteensä:</translation>
 		<references>
 			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="52" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="96" />
@@ -332,7 +426,7 @@
 	</entry>
 	<entry>
 		<string>Bad arguments for API function</string>
-		<translation></translation>
+		<translation>Väärät argumentit API-funktiolle</translation>
 		<references>
 			<reference file="modules/categories/xaruserapi/getancestors.php" line="47" />
 			<reference file="modules/categories/xaruserapi/getcatinfo.php" line="15" />
@@ -344,7 +438,7 @@
 	</entry>
 	<entry>
 		<string>Error obtaining category.</string>
-		<translation></translation>
+		<translation>Virhe hakiessa kategoriaa.</translation>
 		<references>
 			<reference file="modules/categories/xarvisualapi/makeselect.php" line="46" />
 			<reference file="modules/categories/xarvisualapi/treearray.php" line="44" />
@@ -352,9 +446,9 @@
 	</entry>
 	<entry>
 		<string>Position</string>
-		<translation></translation>
+		<translation>Sijainti</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/includes/localization.xd" line="48" />
+			<reference file="modules/categories/xartemplates/includes/localization.xd" line="38" />
 			<reference file="modules/categories/xartemplates/includes/localization_old.xd" line="46" />
 		</references>
 	</entry>

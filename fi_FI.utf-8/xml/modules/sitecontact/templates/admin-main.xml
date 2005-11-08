@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
 	<entry>
-		<string>Administration
-- SiteContact</string>
-		<translation>Ylläpito - Yhteydenotot</translation>
+		<string>Administration - SiteContact</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Yleiskatsaus</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="7" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
@@ -28,38 +20,178 @@ is a simple module that allows visitors to easily contact the Site
 Administrator by email.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="15" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Miten käyttää sitä?</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="19" />
 		</references>
 	</entry>
 	<entry>
-		<string>Install
-from the administration module listing. There are no tables involved.
-Once installed, setup the module configuration in Modify Config option.</string>
+		<string>Install SiteContact
+as usual from the administration Module listing. There are no tables involved. Then, setup the module configuration in Modify Config option.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="20" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
-		<string>Included Blocks</string>
+		<string>There are a number of variables you can set in the Modify Config
+option. If any are left blank, a default is provided.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Check the Short URL checkbox to use short urls</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use HTML in your emails or in the configurable text that
+displays in SiteContact pages. But, please, if you do, make sure
+you have HTML allowed in your site by configuring the
+HTML module to use the HTML tags you wish to use.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note that you &lt;strong&gt;can&lt;/strong&gt; use HTML email in Sitecontact by checking the &lt;code&gt;Use HTML Email&lt;/code&gt;
+option in the SiteContact configuration. This will allow HTML mail just for Sitecontact module,
+even if your default mail setup is text.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>By default, all emails are sent to the administrator email address
+specified in the Mail module. You can override this for each of
+the Subject options of your feedback form. Just add the subject
+option and alternative email in the form:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>The line &lt;strong&gt;must end with a comma&lt;/strong&gt;. The semi-colon
+and optional email can be omitted. Don't forget to test your setup
+by sending yourself an email through SiteContact!</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found
-at &lt;a href=&quot;http://xaraya.athomeandabout.com&quot; title=&quot;http://xaraya.athomeandabout.com&quot; target=&quot;_blank&quot;&gt;http://xaraya.athomeandabout.com&lt;/a&gt;</string>
+		<string>The HTML and text emails that are sent to the website contact (admin or other) and the user are based on
+templates in the module's xartemplate directory. There is a text and an HTML version for both the
+Admin notification email (user-adminmail-text.xd and user-adminmail-html.xd) and the user (user-
+usermail-text.xd and user-usermail-html.xd).</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Hook Dynamic Data to Site Contact&lt;/strong&gt; and setup your custom dynamic data property fields.
+These currently assume the output of the dynamic data is string type.
+Your Dynamic Data fields will be included in outgoing emails by default, but you can further template the dynamic data output in the respective templates.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Sitecontact module can be found at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sitecontact Extension page at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sitecontact Module - Xaraya Extension 890</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on the Sitecontact found at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Sitecontact</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sitecontact Module - Overview</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found at&amp;nbsp;</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="88" />
 		</references>
 	</entry>
 </translations>
