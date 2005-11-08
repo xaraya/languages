@@ -13,16 +13,8 @@
 		<translation>Hibás függvény-paraméterek a mail_adminapi() részére.</translation>
 		<references>
 			<reference file="modules/mail/xaradminapi/_sendmail.php" line="61" />
-			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="60" />
 			<reference file="modules/mail/xaradminapi/sendmail.php" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>Test Configuration</string>
-		<translation>Beállítások ellenőrzése</translation>
-		<references>
-			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="31" />
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
+			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="60" />
 		</references>
 	</entry>
 	<entry>
@@ -38,37 +30,62 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Test Configuration</string>
+		<translation>Beállítások ellenőrzése</translation>
+		<references>
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="31" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
 		<string>Mail Administration</string>
 		<translation>Levélküldés adminisztrálása</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="10" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="10" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="6" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="11" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
-		<string>Subject</string>
-		<translation>Az üzenet tárgya</translation>
+		<string>Name:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="36" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="75" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="25" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
-		<string>Message</string>
-		<translation>Szöveg</translation>
+		<string>Subject:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="45" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="85" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="41" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>Message:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="49" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Reset Form</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="71" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="369" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="221" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails will not be sent.</string>
 		<translation>Figyelem! Ha az ütemezőt leállítjuk vagy nincs elindítva, a korábban beütemezett levelek nem kerülnek elküldésre.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="36" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="344" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="88" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="335" />
 		</references>
 	</entry>
 </translations>

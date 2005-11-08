@@ -8,13 +8,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Mi ez?</translation>
 		<references>
@@ -112,17 +105,17 @@ Module Configuration area &lt;strong&gt;or&lt;/strong&gt;:</string>
 		</references>
 	</entry>
 	<entry>
-		<string>Once installed and set as the default editor XarTinyMCE module is automatically enabled for WYSIWYG. However, you have two basic ways (with variations on these) to customize which templates are used and how to activate the WYSIWYG areas:</string>
-		<translation>Telepítés és alapértelmezett szövegszerkesztőként való beállítás után a XarTinyMCE modul automatikusan átveszi a WYSIWYG szerkesztő szerepét. Egyszerű lehetőség nyílik a szerkesztő megjelenésének testreszabására, illetve az aktiválás módjának kiválasztására.</translation>
+		<string>Once installed and set as the default editor, XarTinyMCE module is automatically enabled for WYSIWYG. However, you have two basic ways (with variations on these) to customize which templates are used for WYSIWYG areas:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="49" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose the &lt;strong&gt;All Text Areas Mode&lt;/strong&gt; and every textarea will be WYSIWYG enabled. Best used with a Prompt for WYSIWYG usage.</string>
 		<translation>Választhatjuk a &lt;strong&gt;Minden szövegmező&lt;/strong&gt; módot, ekkor minden „textarea” mezőn megjelenik a szövegszerkesztő. Célszerű ilyenkor az aktiválást kérdéssel megerősíttetni, amely szintén egy beállítás.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="54" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
@@ -134,45 +127,76 @@ You can set row height and column width in the DD validation field. eg 20:80 for
 If you can't see the xarTinyMCE GUI DD property in your DD list</string>
 		<translation>Választhatjuk a &lt;strong&gt;Speciálisan megjelölt szövegmezők&lt;/strong&gt; módot, majd adjunk a modulok beviteli mezőihez &lt;strong&gt;xarTinyMCE GUI Dinamikus adatmezőket&lt;/strong&gt;, például a Cikkek modulban a cikktípusokhoz vagy a xarPages modulban oldaltípushoz. Ez a DA mező automatikusan megjelöli a bekerülő „div” vagy „textarea” mezőt a &lt;code&gt;mce_editable=&quot;true&quot;&lt;/code&gt; attribútummal, amely aktiválja a szövegszerkesztőt. Ezt az attribútumot manuálisan is hozzárakhatjuk tetszőleges „div” vagy „textarea” mezőkhöz, mint például a Fórumm sablonjához. A szerkesztő szélességét és magasságát a Dinamikus Adat „Ellenőrzés” mezőjében adhatjuk meg „20:80” formátumban, amely 20 sor magasságot és 80 oszlop szélességet jelent. Amennyiben a xarTinyMCE GUI adatmező nem látható a Dinamikus Adattípusok között:</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="61" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>You also have two basic ways to activate xartinymce - automatically or by using manual configuration in the templates.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose &lt;strong&gt;Automatic&lt;/strong&gt; to have xarTinyMce automatically activated when mode is set to &quot;All Textareas&quot;. You do not have to add any template snippets. This is also true when you use the TinyMCE DD property instead of a textarea. It is automatically activated. You do not need extra snippets in your templates.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose &lt;strong&gt;Manual Override&lt;/strong&gt; if you wish to turn off automatic activation (xarTinyMCE DD properties are still auto activated).
+You can then manually override the loading of the WYSIWYG by adding your specific template snippet code below to your page or other specific templates.
+All textareas contained or included in the template where you have the XarTinymce tags are converted to WYSIWYG according to the &quot;All Text Area&quot; or &quot;Special Labelled Only&quot; setting above.
+Alternatively, replace the variable &quot;jstring&quot; in an override template for the &lt;code&gt;tinymce_insert.xd&lt;/code&gt; template with your own tinymce variables.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>About the Dynamic Data Property</string>
 		<translation>A Dinamikus Adatmezőről</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="86" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
-		<string>The xarTinyMCE Dynamic Data WYSIWYG textarea is available and works automatically with All Textareas or
-Special Labelled text area mode. To use this, add a XarTinyMCE GUI Dynamic Data field to your publication type (or other module) in the usual way. You &lt;em&gt;&lt;strong&gt;do not add &lt;/strong&gt;&lt;/em&gt;a template snippet
-to your template to activate it.</string>
-		<translation>A XarTinyMCE Dinamikus Adat WYSIWYG szerkesztő automatikusan működik az „Összes szövegmező” vagy a „Speciálisan megjelölt szövegmezők” módban is. Használatához adjunk XarTinyMCE GUI DA mezőt a kívánt cikktípushoz (vagy bármely más modulhoz) a szokásos módon. &lt;em&gt;&lt;strong&gt;NE&lt;/strong&gt;&lt;/em&gt; adjunk sablon kódrészletet a sablonfájlokhoz az aktiváláshoz.</translation>
-		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="92" />
-		</references>
-	</entry>
-	<entry>
-		<string>Set row height and column width in the validation field. eg 20:80 for 20 rows high, 80 columns wide.
-If you can't see the xarTinyMCE GUI DD property in your DD list then</string>
-		<translation>Állítsuk be a szerkesztő méretét az „Ellenőrzés” mezőben a következő formában: 20:80, amely egy 20 sor magas és 80 karakter széles mezőt fog megjeleníteni. Amennyiben nem található a XarTinyMCE GUI típusú mező a DA listában:</translation>
+		<string>The xarTinyMCE Dynamic Data WYSIWYG textarea is available and works automatically with mode set to All Textareas or
+Special Labelled Textareas. If you are only using the TinyMCE wysiwyg properties then set your mode to Special Labelled to ensure the javascript only loads when it is needed.</string>
+		<translation></translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="96" />
 		</references>
 	</entry>
 	<entry>
-		<string>This causes a re-read of all DD properties available to Xaraya</string>
-		<translation>Amely a Xaraya számára elérhető DA mezőtípusok újraolvasását végzi</translation>
+		<string>Add a XarTinyMCE GUI Dynamic Data field to your publication type (or other module) in the usual way. For example, choose the TinyMCE property to replace your Textarea properties in your Article Publication types or xarPages page types. You &lt;em&gt;&lt;strong&gt;do not add &lt;/strong&gt;&lt;/em&gt;a template snippet
+to your template to activate it. If you can't see the xarTinyMCE GUI DD property in your DD list then</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="97" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="101" />
+		</references>
+	</entry>
+	<entry>
+		<string>The prompt for the Wysiwyg editor is a popup dialog box, by default. From the configuration area you can set this to an On/Off button to activate the wysiwyg area.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>The size of the xarTinyMCE wysiwyg field automatically takes on the size of the existing textarea. However you can adjust this in a number of ways. You can set row height and column width in the validation field. eg 20:80 for 20 rows high, 80 columns wide.
+You can also allow resizing of the tinyMCE wysiwyg from the config settings of the TinyMCE module, or add the &lt;strong&gt;FullScreen&lt;/strong&gt; toggle plugin to your tinymce plugin and button layout.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="110" />
 		</references>
 	</entry>
 	<entry>
 		<string>Plug Ins</string>
 		<translation>Bővítmények</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="102" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="116" />
 		</references>
 	</entry>
 	<entry>
@@ -181,7 +205,7 @@ Plug in list in the Modify Configuration settings. Some plugins require an extra
 whereas others (like advimage and advlink) do not but require allowed element string added to appropriate configuration area. These include:</string>
 		<translation>A XarTinyMCE-hez számos bővítmény érhető el. A bővítmény nevét adjuk hozzá a bővítmények listájához a Beállítások oldalon. Némelyik bővítmény egyedi gomb hozzáadását igényli a „Haladó” megjelenési beállításoknál, míg másoknak erre nincs szüksége, de az engedélyezett elemek listájára fel kell vennünk bizonyos kulcsszavakat. Ilyenek a következők:</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="108" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="122" />
 		</references>
 	</entry>
 	<entry>
@@ -189,49 +213,49 @@ whereas others (like advimage and advlink) do not but require allowed element st
 your textarea. Upload a file if you have allowed uploads in the configuration. See the configuration area for more detail</string>
 		<translation>Képböngésző (ibrowser) - Képtár tallózása és képek beszúrása a szövegmezőkbe. Fájlok feltöltése, amennyiben ezt a beállításoknál engedélyezzük. További információk a beállítások oldalon.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="111" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="125" />
 		</references>
 	</entry>
 	<entry>
 		<string>Emotions - click to add fancy emoticons</string>
 		<translation>Mosolykarakterek - Vicces mosolykarakterek beszúrása a szövegbe.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="112" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="126" />
 		</references>
 	</entry>
 	<entry>
 		<string>ISpell spell checker - only available for IE</string>
 		<translation>ISpell helyesírás ellenőrző - Csak Internet Explorerben.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="113" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="127" />
 		</references>
 	</entry>
 	<entry>
 		<string>Preview and Zoom - zoom is only available in IE</string>
 		<translation>Előnézet és nagyítás - A nagyítás csak Internet Exploreren érhető el.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="114" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="128" />
 		</references>
 	</entry>
 	<entry>
 		<string>Time - click to add time in configured format</string>
 		<translation>Idő - Az idő beírása a beállított formátumban.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="115" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="129" />
 		</references>
 	</entry>
 	<entry>
 		<string>Date - click to add date in configured format</string>
 		<translation>Dátum - A dátum beírása a beállított formátumban.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="116" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="130" />
 		</references>
 	</entry>
 	<entry>
 		<string>Flash - allows you to add flash files</string>
 		<translation>Flash - Flash fájlok beillesztését teszi lehetővé.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="117" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="131" />
 		</references>
 	</entry>
 	<entry>
@@ -240,147 +264,246 @@ and &lt;strong&gt;img[class|style|src|border=0|alt|title|hspace|vspace|width|hei
 to the Additional Tags configuration</string>
 		<translation>Bővített képtár - Egér fölémozgatásra reagáló képek beszúrását teszi lehetővé. Adjuk az &lt;strong&gt;advimg&lt;/strong&gt; szót a bővítményekhez és az &lt;strong&gt;img[class|style|src|border=0|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout]&lt;/strong&gt; beállítást az engedélyezett kulcsszavakhoz.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="120" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>Advanced Link - allows insert of extended link tags, plus popup windows. Add &lt;strong&gt;advlink&lt;/strong&gt; to Plugins, and &lt;strong&gt;a[id|name|href|style|title|onclick]&lt;/strong&gt; to Additional Tags configuration.</string>
 		<translation>Bővített hivatkozások - Felugró ablakok és más különleges hivatkozások beszúrását teszi lehetővé. Adjuk az &lt;strong&gt;advlink&lt;/strong&gt; kulcsszót a bővítményekhez és az &lt;strong&gt;a[id|name|href|style|title|onclick]&lt;/strong&gt; beállítást az engedélyezett kulcsszavakhoz.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="121" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="135" />
 		</references>
 	</entry>
 	<entry>
 		<string>Save - allows insert of a Save button. Add &lt;strong&gt;save&lt;/strong&gt; to Plugins, and &lt;strong&gt;save&lt;/strong&gt; to Additional Tags configuration.</string>
 		<translation>Mentés - Mentés gomb beszúrását teszi lehetővé. Adjuk a &lt;strong&gt;save&lt;/strong&gt; kulcsszót a bővítményekhez és a &lt;strong&gt;save&lt;/strong&gt; beállítást az engedélyezett kulcsszavakhoz.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="122" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="136" />
 		</references>
 	</entry>
 	<entry>
 		<string>Print - displays a Print function button. Add &lt;strong&gt;print&lt;/strong&gt; to Plugins, and &lt;strong&gt;print&lt;/strong&gt; to Additional Tags configuration.</string>
 		<translation>Nyomtatás - Megjeleníti a nyomtatás lehetőséget. Adjuk a &lt;strong&gt;print&lt;/strong&gt; kulcsszót a bővítményekhez és a &lt;strong&gt;print&lt;/strong&gt; beállítást az engedélyezett kulcsszavakhoz.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="123" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="137" />
 		</references>
 	</entry>
 	<entry>
 		<string>Search and Replace - Search, Search Next and Replace function. Add &lt;strong&gt;searchreplace&lt;/strong&gt; to Plugins, and &lt;strong&gt;search&lt;/strong&gt; and/or &lt;strong&gt;replace&lt;/strong&gt; to Additional Tags configuration.</string>
 		<translation>Keresés és csere - Keresés, következő keresése és csere lehetőségek. Adjuk a &lt;strong&gt;searchreplace&lt;/strong&gt; kulcsszót a bővítményekhez és a &lt;strong&gt;search&lt;/strong&gt; és/vagy &lt;strong&gt;replace&lt;/strong&gt; beállítást az engedélyezett kulcsszavakhoz.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="124" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="138" />
 		</references>
 	</entry>
 	<entry>
 		<string>Table - plug in to add table controls. Add &lt;strong&gt;table&lt;/strong&gt; to Plugins, and either &lt;strong&gt;tablecontrols&lt;/strong&gt; for all table controls, or the specific controls such as &lt;strong&gt;table, rowprops&lt;/strong&gt; and so on, as per plugin documentation, to Additional Tags configuration.</string>
 		<translation>Táblázat - Táblázat szerkesztési lehetőségek. Adjuk a &lt;strong&gt;table&lt;/strong&gt; kulcsszót a bővítményekhez és a &lt;strong&gt;tablecontrols&lt;/strong&gt; beállítást minden táblázat funkció eléréséhez vagy &lt;strong&gt;table, rowprops&lt;/strong&gt; stb. kulcsszavakat az engedélyezett kulcsszavakhoz, a bővítmény dokumentációja alapján.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="125" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>Contextmenu - plug in to add context menu for tables, images and flash.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Lorem - adds text for fill in documents.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="141" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dictionary - lookup word in Merriam-Webster Online dictionary.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>Fullscreen - toggle to edit in full screen.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="143" />
+		</references>
+	</entry>
+	<entry>
+		<string>Paste - test only paste plugin.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Directionality - plug in for better support of right to left languages.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="145" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Page Break - icon click to add a Xaraya new page break to any of your publication type articles. Add &lt;strong&gt;xarpagebreak&lt;/strong&gt; to Plugins, and &lt;strong&gt;xarpagebreak&lt;/strong&gt; to Additional Tags configuration. Make sure you also allow images and appropriate attributes to view the pagebreak icon in your articles.</string>
 		<translation>Xaraya oldaltörés - A Xaraya cikkek oldalakra tördeléséhez biztosít egy ikont. Adjuk a &lt;strong&gt;xarpagebreak&lt;/strong&gt; kulcsszót a bővítményekhez és a &lt;strong&gt;xarpagebreak&lt;/strong&gt; beállítást az engedélyezett kulcsszavakhoz. Engedélyezzük a képeket is a megfelelő attribútumokkal az oldaltörés ikon megjelenítéséhez.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="126" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>Custom and Multiple Configurations</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="153" />
+		</references>
+	</entry>
+	<entry>
+		<string>Starting with Version 5.0 there is an additional Advanced Options tab in the configuration screen. This screen allows you to adjust two features:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="157" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Multiple Configurations&lt;/strong&gt; can now be setup allowing you to use more than one configuration on a a page.
+Please make sure you add each new configuration with a &lt;strong&gt;unique&lt;/strong&gt; text area trigger name, and specify the mode. Each configuration should be in the form:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="160" />
+		</references>
+	</entry>
+	<entry>
+		<string>To activate your custom configuration, add the textarea trigger attribute and value to a textarea eg</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="168" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;DO NOT&lt;/strong&gt; use &lt;strong&gt;mce_editable&lt;/strong&gt; as a trigger as it is reserved.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="169" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Custom Configuration&lt;/strong&gt; now allows you to add your own custom configuration values to the &lt;strong&gt;existing&lt;/strong&gt; default tinymce configuration. Make sure you check your resulting tinymce code in the displayed final configuration code on this page before using.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="171" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="133" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="178" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included blocks</string>
 		<translation>Nincsenek kapcsolódó blokkok.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="137" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="182" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="141" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="186" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included hooks</string>
 		<translation>Nincsenek kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="144" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="189" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further Information</string>
 		<translation>További információk</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="149" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="194" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further information on xarTinyMCE can be found at</string>
 		<translation>További információk a XarTinyMCE szerkesztőről:</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="152" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="197" />
 		</references>
 	</entry>
 	<entry>
 		<string>xarTinyMCE Extension page at</string>
 		<translation>XarTinyMCE bővítmény oldal:</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="156" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="201" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarTinyMCE Xaraya Extension 63</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="201" />
 		</references>
 	</entry>
 	<entry>
 		<string>Click on Version History tab at the bottom to get the latest release information.</string>
 		<translation>Az oldal alján található „Version History” fülre kattintva kaphatunk információt a legfrissebb kiadásokról.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="157" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="202" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on xarTinyMCE found</string>
 		<translation>A XarTinyMCE szerkesztőhöz</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="159" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on XarTinyMCE</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>HERE</string>
 		<translation>oktatóanyagok és dokumentáció.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="159" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>xarTinyMCE WYSIWYG Editor - Overview</string>
 		<translation>XarTinyMCE szövegszerkesztő - Áttekintés</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="164" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="209" />
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
 		<translation>Változat</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="164" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="209" />
 		</references>
 	</entry>
 	<entry>
 		<string>And more.. [for module developers]</string>
 		<translation>További információk... [modul fejlesztőknek]</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="170" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="215" />
 		</references>
 	</entry>
 	<entry>
 		<string>Extended information about this module can be found here.</string>
 		<translation>További információk a modulról elérhetőek itt.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="176" />
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="221" />
 		</references>
 	</entry>
 </translations>

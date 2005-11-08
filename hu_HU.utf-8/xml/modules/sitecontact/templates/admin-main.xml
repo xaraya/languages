@@ -9,17 +9,10 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Mi ez?</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="12" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
@@ -28,30 +21,101 @@ is a simple module that allows visitors to easily contact the Site
 Administrator by email.</string>
 		<translation>A Kapcsolatfelvétel egy egyszerű modul amely lehetőséget biztosít a látogatóknak a weblap adminisztrátorával való, e-mailen keresztüli kapcsolatfelvételére.</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="15" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hogyan kell használni?</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>Install
-from the administration module listing. There are no tables involved.
-Once installed, setup the module configuration in Modify Config option.</string>
-		<translation>A modul telepítése a Modulok adminisztrálása menüből történik. Telepítés utána  modul beállításait a Kapcsolatfelvétel - Beállítások menüjében kell elvégezni. A telepítés adatbázistáblákat nem érint.</translation>
+		<string>Install SiteContact
+as usual from the administration Module listing. There are no tables involved. Then, setup the module configuration in Modify Config option.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="20" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are a number of variables you can set in the Modify Config
+option. If any are left blank, a default is provided.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Check the Short URL checkbox to use short urls</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can use HTML in your emails or in the configurable text that
+displays in SiteContact pages. But, please, if you do, make sure
+you have HTML allowed in your site by configuring the
+HTML module to use the HTML tags you wish to use.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note that you &lt;strong&gt;can&lt;/strong&gt; use HTML email in Sitecontact by checking the &lt;code&gt;Use HTML Email&lt;/code&gt;
+option in the SiteContact configuration. This will allow HTML mail just for Sitecontact module,
+even if your default mail setup is text.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>By default, all emails are sent to the administrator email address
+specified in the Mail module. You can override this for each of
+the Subject options of your feedback form. Just add the subject
+option and alternative email in the form:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>The line &lt;strong&gt;must end with a comma&lt;/strong&gt;. The semi-colon
+and optional email can be omitted. Don't forget to test your setup
+by sending yourself an email through SiteContact!</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>The HTML and text emails that are sent to the website contact (admin or other) and the user are based on
+templates in the module's xartemplate directory. There is a text and an HTML version for both the
+Admin notification email (user-adminmail-text.xd and user-adminmail-html.xd) and the user (user-
+usermail-text.xd and user-usermail-html.xd).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Hook Dynamic Data to Site Contact&lt;/strong&gt; and setup your custom dynamic data property fields.
+These currently assume the output of the dynamic data is string type.
+Your Dynamic Data fields will be included in outgoing emails by default, but you can further template the dynamic data output in the respective templates.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="62" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="51" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="65" />
 		</references>
 	</entry>
 	<entry>
@@ -59,7 +123,7 @@ Once installed, setup the module configuration in Modify Config option.</string>
 at &lt;a href=&quot;http://xaraya.athomeandabout.com&quot; title=&quot;http://xaraya.athomeandabout.com&quot; target=&quot;_blank&quot;&gt;http://xaraya.athomeandabout.com&lt;/a&gt;</string>
 		<translation>A modulról további információk találhatók a &lt;a href=&quot;http://xaraya.athomeandabout.com&quot; title=&quot;http://xaraya.athomeandabout.com&quot; target=&quot;_blank&quot;&gt;http://xaraya.athomeandabout.com&lt;/a&gt; oldalon.</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="72" />
 		</references>
 	</entry>
 </translations>

@@ -30,7 +30,8 @@
 		<translation>Szavazás szerkesztése</translation>
 		<references>
 			<reference file="modules/polls/xaradmin/modify.php" line="44" />
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="15" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="14" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="108" />
 		</references>
 	</entry>
 	<entry>
@@ -58,11 +59,11 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Option</string>
-		<translation>Válaszlehetőségek szerkesztése</translation>
+		<string>Create Option</string>
+		<translation>Válaszlehetőség felvétele</translation>
 		<references>
-			<reference file="modules/polls/xaradmin/modifyopt.php" line="55" />
-			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="15" />
+			<reference file="modules/polls/xaradmin/newopt.php" line="43" />
+			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
@@ -82,7 +83,7 @@
 			<reference file="modules/polls/xaradminapi/delete.php" line="28" />
 			<reference file="modules/polls/xaradminapi/resequence.php" line="25" />
 			<reference file="modules/polls/xaradminapi/reset.php" line="28" />
-			<reference file="modules/polls/xaruser/results.php" line="28" />
+			<reference file="modules/polls/xaruser/results.php" line="32" />
 			<reference file="modules/polls/xaruser/resultshook.php" line="29" />
 		</references>
 	</entry>
@@ -99,7 +100,7 @@
 		<translation>Új szavazás</translation>
 		<references>
 			<reference file="modules/polls/xaradminapi/getmenulinks.php" line="31" />
-			<reference file="modules/polls/xartemplates/admin-main.xd" line="68" />
+			<reference file="modules/polls/xartemplates/admin-main.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
@@ -107,7 +108,7 @@
 		<translation>Szavazások megjelenítése</translation>
 		<references>
 			<reference file="modules/polls/xaradminapi/getmenulinks.php" line="38" />
-			<reference file="modules/polls/xartemplates/admin-main.xd" line="77" />
+			<reference file="modules/polls/xartemplates/admin-main.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
@@ -115,7 +116,7 @@
 		<translation>Beállítások szerkesztése</translation>
 		<references>
 			<reference file="modules/polls/xaradminapi/getmenulinks.php" line="45" />
-			<reference file="modules/polls/xartemplates/admin-main.xd" line="86" />
+			<reference file="modules/polls/xartemplates/admin-main.xd" line="70" />
 		</references>
 	</entry>
 	<entry>
@@ -125,8 +126,8 @@
 			<reference file="modules/polls/xarblocks/poll.php" line="72" />
 			<reference file="modules/polls/xartemplates/user-display.xd" line="8" />
 			<reference file="modules/polls/xartemplates/user-list.xd" line="80" />
-			<reference file="modules/polls/xartemplates/user-results.xd" line="74" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="58" />
+			<reference file="modules/polls/xartemplates/user-results.xd" line="78" />
+			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="62" />
 			<reference file="modules/polls/xaruser/display.php" line="95" />
 			<reference file="modules/polls/xaruser/displayhook.php" line="101" />
 		</references>
@@ -144,24 +145,36 @@
 		<string>Polls Administration</string>
 		<translation>Szavazások adminisztrálása</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-delete.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="8" />
+			<reference file="modules/polls/xartemplates/admin-delete.xd" line="6" />
+			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="7" />
 			<reference file="modules/polls/xartemplates/admin-display.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-modifyconfig.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="8" />
-			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="8" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="7" />
+			<reference file="modules/polls/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="7" />
+			<reference file="modules/polls/xartemplates/admin-modifyconfig.xd" line="7" />
+			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="7" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="7" />
+			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="7" />
 			<reference file="modules/polls/xartemplates/admin-reset.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
-		<string>Cancel Delete</string>
-		<translation>Mégsem</translation>
+		<string>Cancel</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-delete.xd" line="37" />
-			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="36" />
+			<reference file="modules/polls/xartemplates/admin-delete.xd" line="30" />
+			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="43" />
+			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="42" />
+			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Option Text</string>
+		<translation>Válasz szövege</translation>
+		<references>
+			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="35" />
+			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="34" />
+			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
@@ -169,7 +182,7 @@
 		<translation>Válaszlehetőségek</translation>
 		<references>
 			<reference file="modules/polls/xartemplates/admin-display.xd" line="26" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="155" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="153" />
 		</references>
 	</entry>
 	<entry>
@@ -177,7 +190,7 @@
 		<translation>Műveletek</translation>
 		<references>
 			<reference file="modules/polls/xartemplates/admin-display.xd" line="36" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="122" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="119" />
 			<reference file="modules/polls/xartemplates/user-list.xd" line="32" />
 		</references>
 	</entry>
@@ -186,7 +199,7 @@
 		<translation>Szerkesztés</translation>
 		<references>
 			<reference file="modules/polls/xartemplates/admin-display.xd" line="70" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="170" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="168" />
 		</references>
 	</entry>
 	<entry>
@@ -194,14 +207,14 @@
 		<translation>Törlés</translation>
 		<references>
 			<reference file="modules/polls/xartemplates/admin-display.xd" line="78" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="185" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="183" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no polls available</string>
 		<translation>Nincsenek szavazások</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="77" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="86" />
 			<reference file="modules/polls/xartemplates/user-list.xd" line="17" />
 		</references>
 	</entry>
@@ -209,7 +222,7 @@
 		<string>Title</string>
 		<translation>Cím</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="87" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="94" />
 			<reference file="modules/polls/xartemplates/user-list.xd" line="27" />
 		</references>
 	</entry>
@@ -217,7 +230,7 @@
 		<string>Votes</string>
 		<translation>Szavazatok</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="115" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="114" />
 			<reference file="modules/polls/xartemplates/user-list.xd" line="52" />
 		</references>
 	</entry>
@@ -225,29 +238,45 @@
 		<string>Private</string>
 		<translation>Zártkörű</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="135" />
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="65" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="56" />
+			<reference file="modules/polls/xartemplates/admin-list.xd" line="131" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="69" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="60" />
 			<reference file="modules/polls/xartemplates/user-list.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>The name of the new poll</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="29" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Poll title</string>
 		<translation>Szavazás címe</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="26" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="32" />
 			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="9" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="25" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="31" />
 			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>The type of the new poll</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="39" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>Poll type</string>
 		<translation>Szavazás típusa</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="37" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="42" />
 			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="21" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="36" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="41" />
 			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="21" />
 		</references>
 	</entry>
@@ -255,9 +284,9 @@
 		<string>Single Choice</string>
 		<translation>Egyszeres választás</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="48" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="53" />
 			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="33" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="43" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="48" />
 			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="33" />
 		</references>
 	</entry>
@@ -265,10 +294,26 @@
 		<string>Multiple Choice</string>
 		<translation>Többszörös választás</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="57" />
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="62" />
 			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="44" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="48" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="53" />
 			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>who can view the new poll</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="66" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configure hooks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/polls/xartemplates/admin-modify.xd" line="99" />
+			<reference file="modules/polls/xartemplates/admin-new.xd" line="92" />
 		</references>
 	</entry>
 	<entry>
@@ -285,14 +330,6 @@
 		<references>
 			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="72" />
 			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="72" />
-		</references>
-	</entry>
-	<entry>
-		<string>Option Text</string>
-		<translation>Válasz szövege</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="30" />
-			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
@@ -324,7 +361,7 @@
 		<translation>Szavazások megjelenítése</translation>
 		<references>
 			<reference file="modules/polls/xartemplates/user-display.xd" line="71" />
-			<reference file="modules/polls/xartemplates/user-results.xd" line="86" />
+			<reference file="modules/polls/xartemplates/user-results.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
@@ -339,16 +376,16 @@
 		<string>Total votes</string>
 		<translation>Összes szavazat</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/user-results.xd" line="56" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="41" />
+			<reference file="modules/polls/xartemplates/user-results.xd" line="60" />
+			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="45" />
 		</references>
 	</entry>
 	<entry>
 		<string>We allow just one vote</string>
 		<translation>Csak egy szavazat engedélyezett</translation>
 		<references>
-			<reference file="modules/polls/xartemplates/user-results.xd" line="64" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="49" />
+			<reference file="modules/polls/xartemplates/user-results.xd" line="68" />
+			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
@@ -356,7 +393,7 @@
 		<translation>Hiba történt a szavazás adatainak behívásakor</translation>
 		<references>
 			<reference file="modules/polls/xaruser/display.php" line="42" />
-			<reference file="modules/polls/xaruser/results.php" line="50" />
+			<reference file="modules/polls/xaruser/results.php" line="54" />
 			<reference file="modules/polls/xaruser/resultshook.php" line="46" />
 			<reference file="modules/polls/xaruser/vote.php" line="58" />
 			<reference file="modules/polls/xaruserapi/vote.php" line="52" />
@@ -366,7 +403,7 @@
 		<string>per day</string>
 		<translation>naponta</translation>
 		<references>
-			<reference file="modules/polls/xaruser/results.php" line="81" />
+			<reference file="modules/polls/xaruser/results.php" line="85" />
 			<reference file="modules/polls/xaruser/resultshook.php" line="90" />
 		</references>
 	</entry>
@@ -374,7 +411,7 @@
 		<string>per week</string>
 		<translation>hetente</translation>
 		<references>
-			<reference file="modules/polls/xaruser/results.php" line="84" />
+			<reference file="modules/polls/xaruser/results.php" line="88" />
 			<reference file="modules/polls/xaruser/resultshook.php" line="93" />
 		</references>
 	</entry>
@@ -382,7 +419,7 @@
 		<string>per month</string>
 		<translation>havonta</translation>
 		<references>
-			<reference file="modules/polls/xaruser/results.php" line="87" />
+			<reference file="modules/polls/xaruser/results.php" line="91" />
 			<reference file="modules/polls/xaruser/resultshook.php" line="96" />
 		</references>
 	</entry>
@@ -390,7 +427,7 @@
 		<string>per user</string>
 		<translation>felhasználónként</translation>
 		<references>
-			<reference file="modules/polls/xaruser/results.php" line="90" />
+			<reference file="modules/polls/xaruser/results.php" line="94" />
 			<reference file="modules/polls/xaruser/resultshook.php" line="99" />
 		</references>
 	</entry>

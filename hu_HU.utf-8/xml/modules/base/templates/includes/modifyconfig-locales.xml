@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
 	<entry>
-		<string>Mode of operation</string>
-		<translation>Működési mód</translation>
+		<string>Mode of Operation</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="11" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>The multilanguage system (MLS) works in three different modes.</string>
 		<translation>A többnyelvű rendszer (MLS) három különböző módon működhet.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="12" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
@@ -19,14 +19,14 @@
 with the mbstring extension compiled in.</string>
 		<translation>Megjegyzés: A többnyelvű rendszer UNBOXED lehetősége csak PHP 4.3.0 esetén és csak az mbstring bővítmény hozzáadásával használható.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="14" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>Single language mode (SINGLE)</string>
-		<translation>Egy nyelvű mód (SINGLE)</translation>
+		<string>Single Language Mode (SINGLE)</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="26" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
@@ -35,14 +35,14 @@ built in. All information is stored coherently with the chosen character set (at
 and also user data is meaningful in the chosen character set.</string>
 		<translation>Az MLS egyetlen karakterkészletet használ, általában egy egy bájtosat bár javasolt egy több bájtosat amennyiben az mb_string függvények elérhetőek. Minden információ a kiválasztott karakter készlettel tárolódik, beleértve a felhasználók által bevitt adatokat.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="32" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
-		<string>Per page mode (BOXED)</string>
-		<translation>Oldalankénti mód (BOXED)</translation>
+		<string>Per Page Mode (BOXED)</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="41" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
@@ -55,28 +55,28 @@ Another point is that every operation involves only a single language. This mode
 unexpected results if mb_string is not installed.</string>
 		<translation>Az MLS képes több karakterkészlet használatára az weblapon (a fenti egy ill. több bájtos megjegyzés itt is érvényes), de egy oldalon egyszerre csak egy készlet jelenhet meg (ez egyértelmű koncepció, de fontos a megértése). Emiatt a tartalom nem osztható meg a különböző nyelvű oldalak között (például egy arab hozzászólás nem jelenik meg egy angol nyelvű részen, akkor sem ha ezek ugyanazon cikk angol és arab változatához tartoznak). Másik fontos tudnivaló, hogy minden művelet egyszerre csak egy nyelvi tartalmat érinthet. Ez a mód hibásan működhet, ha az mb_string funkciók nem érhetőek el.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="50" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>It is installed on this server, so you can give this mode a try</string>
 		<translation>Telepítve van a kiszolgálón, tehát ez a mód kipróbálható.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="52" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="63" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
 		<translation>Figyelmeztetés: az mb_string nincs telepítve ezen a kiszolgálón, a mód működési hibákhoz vezethet.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="54" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="65" />
 		</references>
 	</entry>
 	<entry>
-		<string>Full multilanguage (UNBOXED) (experimental!)</string>
-		<translation>Teljes többnyelvű támogatás (UNBOXED) (kísérleti!)</translation>
+		<string>Full Multilanguage (UNBOXED) (experimental!)</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="64" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
@@ -86,98 +86,90 @@ the user chosen language, but the page can contain texts in other languages
 (for example a French article and comments inside an English page).</string>
 		<translation>Az MLS egy univerzális karakterkészletet használ minden adat kezeléséhez (UTF-8), ez biztosítja, hogy ne legyen szükség konvertálásra. Minden oldal a felhasználó által kiválasztott nyelven jelenik meg, de tartalmazhat megjelenítendő elemeket más nyelvekből is (például japán hozzászólásokat egy angol oldalon).</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="71" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="85" />
 		</references>
 	</entry>
 	<entry>
 		<string>Language/Locale Configuration</string>
 		<translation>Nyelvi és Területi beállítások</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="79" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="92" />
 		</references>
 	</entry>
 	<entry>
 		<string>The following locales are available to this site:</string>
 		<translation>A jelenleg elérhető területi beállítások:</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Locale</string>
-		<translation>Területi beállítás</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>Active</string>
-		<translation>Aktív</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="89" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="96" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default locale to load</string>
 		<translation>Alapértelmezetten betöltött területi beállítás</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="115" />
 		</references>
 	</entry>
 	<entry>
-		<string>Default Locale</string>
-		<translation>Alapértelmezett területi beállítás</translation>
+		<string>Default Locale:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="116" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations backend</string>
 		<translation>Fordítási háttér</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="127" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="136" />
 		</references>
 	</entry>
 	<entry>
-		<string>The translated information for xaraya and her modules can be stored in different back-ends. The following back-ends are supported:</string>
-		<translation>A Xaraya lefordított szövegei különböző módokon tárolhatók. A következő tárolási módok lehetségesek:</translation>
+		<string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="128" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="140" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations Backend</string>
 		<translation>Fordítási háttér</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="133" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="133" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Translations Backend:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="145" />
 		</references>
 	</entry>
 	<entry>
 		<string>XML (good for interoperability)</string>
 		<translation>XML (előnye a hordozhatóság)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="138" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="142" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="146" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="149" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="153" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="157" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP (good for programmed access)</string>
 		<translation>PHP (előnye a programozott elérés)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="139" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="143" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="147" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="150" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="154" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="158" />
 		</references>
 	</entry>
 	<entry>
 		<string>XML with caching in PHP (new experimental)</string>
 		<translation>XML, PHP-ben gyorstárazva (új, kísérleti)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="140" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="144" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="148" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="159" />
 		</references>
 	</entry>
 </translations>

@@ -5,26 +5,11 @@
 		<translation>Változtatások mentése</translation>
 		<references>
 			<reference file="modules/modules/xaradmin/hooks.php" line="33" />
-			<reference file="modules/modules/xaradmin/modify.php" line="45" />
+			<reference file="modules/modules/xaradmin/modify.php" line="44" />
 			<reference file="modules/modules/xaradmin/modifyproperties.php" line="51" />
-		</references>
-	</entry>
-	<entry>
-		<string>Hide Details</string>
-		<translation>Részletek elrejtése</translation>
-		<references>
-			<reference file="modules/modules/xaradmin/hooks.php" line="91" />
-			<reference file="modules/modules/xaradmin/modify.php" line="47" />
-			<reference file="modules/modules/xaradmin/modifyproperties.php" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show Details</string>
-		<translation>Részletek megjelenítése</translation>
-		<references>
-			<reference file="modules/modules/xaradmin/hooks.php" line="99" />
-			<reference file="modules/modules/xaradmin/modify.php" line="51" />
-			<reference file="modules/modules/xaradmin/modifyproperties.php" line="57" />
+			<reference file="modules/modules/xartemplates/admin-modify.xd" line="129" />
+			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="68" />
+			<reference file="modules/modules/xartemplates/includes/hooks-mainpart.xd" line="177" />
 		</references>
 	</entry>
 	<entry>
@@ -32,53 +17,53 @@
 		<translation>Info</translation>
 		<references>
 			<reference file="modules/modules/xaradmin/list.php" line="29" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="118" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="156" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="158" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="115" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="157" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="159" />
 		</references>
 	</entry>
 	<entry>
 		<string>Install</string>
 		<translation>Telepítés</translation>
 		<references>
-			<reference file="modules/modules/xaradmin/list.php" line="189" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="255" />
+			<reference file="modules/modules/xaradmin/list.php" line="191" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="259" />
 		</references>
 	</entry>
 	<entry>
 		<string>Remove</string>
 		<translation>Eltávolítás</translation>
 		<references>
-			<reference file="modules/modules/xaradmin/list.php" line="202" />
-			<reference file="modules/modules/xaradmin/list.php" line="206" />
-			<reference file="modules/modules/xaradmin/list.php" line="240" />
-			<reference file="modules/modules/xaradmin/list.php" line="241" />
-			<reference file="modules/modules/xaradmin/list.php" line="279" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="256" />
+			<reference file="modules/modules/xaradmin/list.php" line="204" />
+			<reference file="modules/modules/xaradmin/list.php" line="208" />
+			<reference file="modules/modules/xaradmin/list.php" line="242" />
+			<reference file="modules/modules/xaradmin/list.php" line="243" />
+			<reference file="modules/modules/xaradmin/list.php" line="281" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="260" />
 		</references>
 	</entry>
 	<entry>
 		<string>Activate</string>
 		<translation>Bekapcsolás</translation>
 		<references>
-			<reference file="modules/modules/xaradmin/list.php" line="205" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="252" />
+			<reference file="modules/modules/xaradmin/list.php" line="207" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="256" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deactivate</string>
 		<translation>Kikapcsolás</translation>
 		<references>
-			<reference file="modules/modules/xaradmin/list.php" line="218" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="253" />
+			<reference file="modules/modules/xaradmin/list.php" line="220" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="257" />
 		</references>
 	</entry>
 	<entry>
 		<string>Upgrade</string>
 		<translation>Frissítés</translation>
 		<references>
-			<reference file="modules/modules/xaradmin/list.php" line="267" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="254" />
+			<reference file="modules/modules/xaradmin/list.php" line="269" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="258" />
 		</references>
 	</entry>
 	<entry>
@@ -132,8 +117,8 @@ please ask this module developer to provide one in accordance with MDG]</string>
 		<references>
 			<reference file="modules/modules/xaradminapi/activate.php" line="30" />
 			<reference file="modules/modules/xaradminapi/deactivate.php" line="28" />
-			<reference file="modules/modules/xaradminapi/update.php" line="29" />
 			<reference file="modules/modules/xaradminapi/updatehooks.php" line="28" />
+			<reference file="modules/modules/xaradminapi/update.php" line="29" />
 			<reference file="modules/modules/xaradminapi/upgrade.php" line="29" />
 			<reference file="modules/modules/xaradminapi/updateproperties.php" line="30" />
 		</references>
@@ -185,11 +170,19 @@ please ask this module developer to provide one in accordance with MDG]</string>
 		</references>
 	</entry>
 	<entry>
+		<string>Configure Hooks</string>
+		<translation>Hurkok beállítása</translation>
+		<references>
+			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="43" />
+			<reference file="modules/modules/xartemplates/admin-hooks.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
 		<string>Toolbox</string>
 		<translation>Eszköztár</translation>
 		<references>
 			<reference file="modules/modules/xaradminapi/getmenulinks.php" line="47" />
-			<reference file="modules/modules/xartemplates/admin-tools.xd" line="5" />
+			<reference file="modules/modules/xartemplates/admin-tools.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
@@ -201,175 +194,93 @@ please ask this module developer to provide one in accordance with MDG]</string>
 		</references>
 	</entry>
 	<entry>
-		<string>Administration - Modules System</string>
-		<translation>Modulok adminisztrálása</translation>
+		<string>Modules Administration</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-deactivate.xd" line="6" />
-			<reference file="modules/modules/xartemplates/admin-errorupdate.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-hooks.xd" line="31" />
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="3" />
-			<reference file="modules/modules/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-modify.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="2" />
+			<reference file="modules/modules/xartemplates/admin-deactivate.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="8" />
+			<reference file="modules/modules/xartemplates/admin-hooks.xd" line="9" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-modify.xd" line="9" />
 			<reference file="modules/modules/xartemplates/admin-pref.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="8" />
 			<reference file="modules/modules/xartemplates/admin-prefs.xd" line="3" />
-			<reference file="modules/modules/xartemplates/admin-release.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-remove.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-tools.xd" line="3" />
-			<reference file="modules/modules/xartemplates/admin-upgrade.xd" line="2" />
-			<reference file="modules/modules/xartemplates/blanktpl.xd" line="2" />
-			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="2" />
+			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-errorupdate.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-release.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-remove.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-tools.xd" line="4" />
+			<reference file="modules/modules/xartemplates/admin-upgrade.xd" line="3" />
+			<reference file="modules/modules/xartemplates/blanktpl.xd" line="3" />
+			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dependents still Active</string>
 		<translation>A függő modulok továbbra is be vannak kapcsolva</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-deactivate.xd" line="26" />
-			<reference file="modules/modules/xartemplates/admin-remove.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Go back to the modules list.</string>
-		<translation>Visszatérés a modul listához.</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-deactivate.xd" line="45" />
-			<reference file="modules/modules/xartemplates/admin-remove.xd" line="46" />
+			<reference file="modules/modules/xartemplates/admin-deactivate.xd" line="11" />
+			<reference file="modules/modules/xartemplates/admin-remove.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
 		<string>Go back to the modules list</string>
 		<translation>Visszatérés a modul listához</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="98" />
-			<reference file="modules/modules/xartemplates/admin-upgrade.xd" line="13" />
+			<reference file="modules/modules/xartemplates/admin-deactivate.xd" line="27" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="91" />
+			<reference file="modules/modules/xartemplates/admin-remove.xd" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>View</string>
 		<translation>Megjelenítés</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="28" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="29" />
+			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="189" />
 			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="123" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="123" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name</string>
 		<translation>Név</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="112" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="109" />
 			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="21" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
 		<translation>Változat</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-list.xd" line="115" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="112" />
 			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="84" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="84" />
 		</references>
 	</entry>
 	<entry>
-		<string>Detailed Module Information</string>
-		<translation>Részletes modul információk</translation>
+		<string>Properties</string>
+		<translation>Tulajdonságok</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="4" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="4" />
+			<reference file="modules/modules/xartemplates/admin-list.xd" line="124" />
+			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>Icon</string>
-		<translation>Ikon</translation>
+		<string>The name which will be shown to identify this module.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="9" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display Name</string>
-		<translation>Megjelenítési név</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="30" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Description</string>
-		<translation>Leírás</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="39" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Directory</string>
-		<translation>Könyvtár</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="48" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module ID</string>
-		<translation>Modul azonosító</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="57" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>Class</string>
-		<translation>Osztály</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="66" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="66" />
-		</references>
-	</entry>
-	<entry>
-		<string>Category</string>
-		<translation>Kategória</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="75" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="75" />
-		</references>
-	</entry>
-	<entry>
-		<string>Author(s)</string>
-		<translation>Szerző(k)</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="93" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Contact(s)</string>
-		<translation>Elérhetőség</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="102" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="102" />
-		</references>
-	</entry>
-	<entry>
-		<string>Dependency</string>
-		<translation>Függőség</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="111" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="111" />
+			<reference file="modules/modules/xartemplates/admin-modify.xd" line="33" />
+			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modules List</string>
 		<translation>Modul lista</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="120" />
-			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="120" />
 			<reference file="modules/modules/xartemplates/admin-pref.xd" line="8" />
 			<reference file="modules/modules/xartemplates/admin-prefs.xd" line="8" />
+			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="120" />
 		</references>
 	</entry>
 	<entry>
@@ -421,11 +332,27 @@ please ask this module developer to provide one in accordance with MDG]</string>
 		</references>
 	</entry>
 	<entry>
-		<string>Footer</string>
-		<translation>Lábléc</translation>
+		<string>Module</string>
+		<translation>Modul</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-tools.xd" line="21" />
-			<reference file="modules/modules/xartemplates/blanktpl.xd" line="13" />
+			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="13" />
+			<reference file="modules/modules/xartemplates/admin-errorupdate.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Display Name:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-modifyproperties.xd" line="26" />
+			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Detailed Module Information</string>
+		<translation>Részletes modul információk</translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-modinfonew.xd" line="7" />
+			<reference file="modules/modules/xartemplates/admin-modinfo.xd" line="4" />
 		</references>
 	</entry>
 </translations>

@@ -1,42 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
 	<entry>
-		<string>On a locked site only the following users and groups will have access. &lt;br/&gt;
-Entering a group name allows access to the users of that group. &lt;br/&gt;
-Unknown names will be ignored.</string>
-		<translation>Egy zárolt weblapon csak a következő felhasználók és csoportok rendelkeznek eléréssel.&lt;br/&gt;Csoportnév megadása esetén a jogosultság a csoport tagjaira vonatkozik.&lt;br/&gt;A nem létező neveket a rendszer figyelmen kívül hagyja.</translation>
+		<string>Configuration</string>
+		<translation>Beállítások</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>On a locked site only the following users and groups will have access.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Entering a group name allows access to the users of that group. Unknown names will be ignored.</string>
+		<translation></translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
-		<string>Role</string>
-		<translation>Szerep</translation>
+		<string>Toggle notifications sent to this Group</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="46" />
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
-		<string>Notify</string>
-		<translation>Értesítés</translation>
+		<string>notify</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="49" />
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
-		<string>The following message will be emailed to members in the above list when the site is locked or unlocked.
-&lt;br /&gt;
-It is prefaced by a short: &quot;Site &amp;lt;sitename&amp;gt; has been locked/unlocked&quot;.</string>
-		<translation>A weblap zárolásakor vagy a zárolás feloldásakor, a következő üzenet kerül elküldésre a felsorolt csoportoknak vagy felhasználóknak.&lt;br /&gt;Az üzenet elé a „A &amp;gt;sitename&amp;lt; honlap zárolva/zárolás feloldva”.</translation>
+		<string>Add a Group to the lock notification list</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="110" />
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Group:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following message will be emailed to members in the above list when the site is locked or unlocked.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is prefaced by a short: &quot;Site &amp;lt;sitename&amp;gt; has been locked/unlocked&quot;.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Message sent when site lock status changes</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Site Lock Email:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>The following message will be displayed to members who are locked out when they try to login:</string>
 		<translation>A következő üzenet jelenik meg a kizárt felhasználóknak, amikor megpróbálnak bejelentkezni:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="124" />
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Text shown to users attempting to log in to a locked site</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Site Lock Message:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>Save Site Lock Settings</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="125" />
 		</references>
 	</entry>
 </translations>

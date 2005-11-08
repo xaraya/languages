@@ -4,7 +4,7 @@
 		<string>An error occurred while processing your request. The details are:</string>
 		<translation>Hiba történt a kérés feldolgozása közben. Részletek:</translation>
 		<references>
-			<reference file="index.php" line="169" />
+			<reference file="index.php" line="167" />
 		</references>
 	</entry>
 	<entry>
@@ -167,7 +167,7 @@
 			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
 			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
 			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
 		</references>
 	</entry>
 	<entry>
@@ -947,192 +947,213 @@
 		</references>
 	</entry>
 	<entry>
+		<string>File does not exist</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a file that cannot be found.</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed.</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+		</references>
+	</entry>
+	<entry>
 		<string>Operation Halted</string>
 		<translation>Művelet leállítva</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>This operation cannot be completed under the present circumstances.</string>
 		<translation>A művelet nem fejezhető be a jelenlegi körülmények között.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
 		<translation>A művelet leállításra került mert, ugyan nem tiltott, de nem fejezhető be a jelenlegi környezetben.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Duplicate Data</string>
 		<translation>Ismétlődő adat</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>The data provided was a duplicate.</string>
 		<translation>A megadott adat nem szerepelhet kétszer.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
 		<translation>A művelethez egyedi adatra van szükség, de a megadott érték már foglalt.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Forbidden Operation</string>
 		<translation>Tiltott művelet</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>The operation you are attempting is not allowed in the current circumstances.</string>
 		<translation>A megkísérelt művelet végrehajtása, a jelenlegi beállítások mellett, nem engedélyezett.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
 		<translation>A problémát okozhatja a böngésző vissza gombjának megnyomása, a frissítés gomb megnyomása egy nem ismételhető műveleten, vagy a böngészőkben letiltott süti-kezelés.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>Login error</string>
 		<translation>Bejelentkezési hiba</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>A problem was encountered during the login process.</string>
 		<translation>Hiba történt a belépés közben.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Missing Data</string>
 		<translation>Hiányzó adat</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>The data is incomplete.</string>
 		<translation>A megadott adatok nem teljesek.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>A value was expected during this operation, but none was found.</string>
 		<translation>A művelethez egy kötelező érték megadása elmaradt.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
 		</references>
 	</entry>
 	<entry>
 		<string>Multiple instances</string>
 		<translation>Többszörös példányok</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module contains more than one instance of the same block type.</string>
 		<translation>Egy modul ugyanabból a blokk típusból több mint egy példányt tartalmaz.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Privileges Error</string>
 		<translation>Jogosultsági hiba</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
 		</references>
 	</entry>
 	<entry>
 		<string>You do not have privileges for this operation.</string>
 		<translation>Nincs elegendő jogosultság a művelet elvégzéséhez.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
 		<translation>A kívánt művelet elvégzéséhez nincsen elegendő jogosultság. Az adminisztrátor határozhat meg további elérést.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not logged in</string>
 		<translation>Nincs bejelentkezve</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
 		<translation>A program olyan művelet végrehajtását próbálta meg, amelyhez bejelentkezés nélkül nincs hozzáférés.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
 		</references>
 	</entry>
 	<entry>
 		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
 		<translation>A művelet végrehajtásához be kell jelentkezni. Amennyiben ez már megtörtént, a program hibára futott.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
 		</references>
 	</entry>
 	<entry>
 		<string>Item not found</string>
 		<translation>Elem nem található</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unexpected empty result occurred.</string>
 		<translation>Váratlan üres visszatérési érték.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>An operation that should have returned a result instead came up empty.</string>
 		<translation>Egy művelet amelynek valamilyen eredményt kellett volna szolgáltatnia, üres értékkel tért vissza.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong version</string>
 		<translation>Hibás verzió</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="62" />
 		</references>
 	</entry>
 	<entry>
 		<string>The application version supplied is wrong.</string>
 		<translation>A megadott programverzió hibás.</translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="63" />
 		</references>
 	</entry>
 	<entry>
@@ -1428,7 +1449,7 @@
 		<string>The directories under #(1) must be writeable by PHP.</string>
 		<translation>A(z) „#(1)” alatti könyvtáraknak a PHP által írhatónak kell lennie.</translation>
 		<references>
-			<reference file="includes/xarMLS.php" line="860" />
+			<reference file="includes/xarMLS.php" line="871" />
 		</references>
 	</entry>
 	<entry>
@@ -1444,7 +1465,7 @@
 		<translation>Modul vagy Grafika neve üres. #(1)</translation>
 		<references>
 			<reference file="includes/xarMod.php" line="452" />
-			<reference file="includes/xarMod.php" line="1776" />
+			<reference file="includes/xarMod.php" line="1779" />
 		</references>
 	</entry>
 	<entry>
@@ -1458,16 +1479,14 @@
 		<string>Unknown</string>
 		<translation>Ismeretlen</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="585" />
 			<reference file="includes/xarMod.php" line="587" />
-			<reference file="includes/xarMod.php" line="588" />
 			<reference file="includes/xarMod.php" line="589" />
 			<reference file="includes/xarMod.php" line="590" />
 			<reference file="includes/xarMod.php" line="591" />
 			<reference file="includes/xarMod.php" line="592" />
 			<reference file="includes/xarMod.php" line="593" />
-			<reference file="includes/xarMod.php" line="597" />
-			<reference file="includes/xarMod.php" line="598" />
+			<reference file="includes/xarMod.php" line="594" />
+			<reference file="includes/xarMod.php" line="595" />
 			<reference file="includes/xarMod.php" line="599" />
 			<reference file="includes/xarMod.php" line="600" />
 			<reference file="includes/xarMod.php" line="601" />
@@ -1476,168 +1495,170 @@
 			<reference file="includes/xarMod.php" line="604" />
 			<reference file="includes/xarMod.php" line="605" />
 			<reference file="includes/xarMod.php" line="606" />
+			<reference file="includes/xarMod.php" line="607" />
+			<reference file="includes/xarMod.php" line="608" />
 		</references>
 	</entry>
 	<entry>
 		<string>This module is not installed properly. Not all info could be retrieved</string>
 		<translation>Ez a modul nincs helyesen telepítve. Nem sikerült az összes információ betöltése.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="586" />
+			<reference file="includes/xarMod.php" line="588" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to find Base Info for Module: #(1)</string>
 		<translation>Alapvető információ hiányzik a „#(1)” modulhoz.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="654" />
+			<reference file="includes/xarMod.php" line="656" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Name #(1) is empty.</string>
 		<translation>Üres modul név #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="762" />
+			<reference file="includes/xarMod.php" line="764" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].</string>
 		<translation>A függvény fájl betöltése nem sikerült: „#(1)”.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="849" />
+			<reference file="includes/xarMod.php" line="851" />
 		</references>
 	</entry>
 	<entry>
 		<string>Error Caught:</string>
 		<translation>Hiba:</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="850" />
+			<reference file="includes/xarMod.php" line="852" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function #(1) does not exist.</string>
 		<translation>Modul függvény: „#(1)” nem létezik.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="870" />
+			<reference file="includes/xarMod.php" line="872" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
 		<translation>A függvény fájl betöltése nem sikerült: „#(1)”.\n\nHiba:\n#(2)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="956" />
+			<reference file="includes/xarMod.php" line="958" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module API function #(1) does not exist or could not be loaded.</string>
 		<translation>Modul API függvény: #(1) nem létezik, vagy a betöltés sikertelen.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="976" />
+			<reference file="includes/xarMod.php" line="978" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Module or Theme Name (#(1)).</string>
 		<translation>Üres modul vagy grafika név. #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1331" />
+			<reference file="includes/xarMod.php" line="1334" />
 		</references>
 	</entry>
 	<entry>
 		<string>Directory information #(1) is empty.</string>
 		<translation>Üres könyvtárnév. #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1650" />
+			<reference file="includes/xarMod.php" line="1653" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot open file #(1).</string>
 		<translation>Fájl megnyitása sikertelen: „#(1)”.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1670" />
+			<reference file="includes/xarMod.php" line="1673" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
 		<translation>Hibás típus. Csak „module” és „theme” lehetséges: „#(1)”.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1784" />
+			<reference file="includes/xarMod.php" line="1787" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty theme or module name (#(1)).</string>
 		<translation>Üres modul vagy grafika név. #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1890" />
+			<reference file="includes/xarMod.php" line="1893" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Theme or Module variable name (#(1)).</string>
 		<translation>Üres Grafika vagy Modul név változó. #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1981" />
+			<reference file="includes/xarMod.php" line="1984" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
 		<translation>Helytelen attribútum név („#(1)”): Az attribútum név angol betűkből, számokból, aláhúzás és mínusz karakterekből állhat és betűvel kell kezdődnie.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1428" />
+			<reference file="includes/xarTemplate.php" line="1450" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Helytelen attribútum kapcsolók („#(1)”): a kapcsolók csak egész típusúak lehetnek.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1435" />
+			<reference file="includes/xarTemplate.php" line="1457" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
 		<translation>Helytelen kulcsszó definíció. Hibás kulcsszó név: „#(1)”.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1514" />
+			<reference file="includes/xarTemplate.php" line="1536" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
 		<translation>Helytelen kulcsszó definíció. Hibás feldolgozó: „#(1)”.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1523" />
-			<reference file="includes/xarTemplate.php" line="1621" />
+			<reference file="includes/xarTemplate.php" line="1545" />
+			<reference file="includes/xarTemplate.php" line="1643" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Érvénytelen kulcsszó regisztrálási kapcsoló („#(1)”): a kapcsolók csak egész típusúak lehetnek.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1529" />
+			<reference file="includes/xarTemplate.php" line="1551" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
 		<translation>A „&lt;xar:#(1)&gt;” tag már korábban definiált.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1659" />
+			<reference file="includes/xarTemplate.php" line="1681" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
 		<translation>A „&lt;xar:#(1)&gt;” nincs definiálva.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1739" />
+			<reference file="includes/xarTemplate.php" line="1761" />
 		</references>
 	</entry>
 	<entry>
 		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
 		<translation>A „#(1)” attribútum a „&lt;xar:#(2)&gt;” elemben nem megfelelő típusú. Lásd a kulcsszó dokumentációját.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1767" />
+			<reference file="includes/xarTemplate.php" line="1789" />
 		</references>
 	</entry>
 	<entry>
 		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
 		<translation>A „#(1)” kötelező attribútum hiányzik a „&lt;xar:#(2)&gt;” elemből. Lásd a kulcsszó dokumentációját.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1773" />
+			<reference file="includes/xarTemplate.php" line="1795" />
 		</references>
 	</entry>
 	<entry>
@@ -1647,6 +1668,13 @@
 			<reference file="includes/xarTheme.php" line="34" />
 			<reference file="includes/xarTheme.php" line="55" />
 			<reference file="includes/xarTheme.php" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="165" />
 		</references>
 	</entry>
 	<entry>

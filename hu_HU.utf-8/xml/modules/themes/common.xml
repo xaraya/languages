@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
 	<entry>
+		<string>Themes</string>
+		<translation>Grafikák</translation>
+		<references>
+			<reference file="modules/themes/xarversion.php" line="25" />
+			<reference file="modules/themes/xartemplates/includes/navtabs.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
 		<string>Info</string>
 		<translation>Info</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="44" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="104" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="135" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="137" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="187" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="228" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="234" />
 		</references>
 	</entry>
 	<entry>
@@ -15,7 +23,23 @@
 		<translation>Műveletek</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="45" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="34" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refresh</string>
+		<translation>Frissítés</translation>
+		<references>
+			<reference file="modules/themes/xaradmin/list.php" line="47" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>All</string>
+		<translation>Mind</translation>
+		<references>
+			<reference file="modules/themes/xaradmin/list.php" line="63" />
+			<reference file="modules/themes/xartemplates/includes/navtabs.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
@@ -23,7 +47,7 @@
 		<translation>Szerkesztés</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="180" />
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="22" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
@@ -32,7 +56,7 @@
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="207" />
 			<reference file="modules/themes/xaradmin/list.php" line="244" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="203" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
@@ -40,7 +64,7 @@
 		<translation>Bekapcsolás</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="210" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="199" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
@@ -48,7 +72,7 @@
 		<translation>Kikapcsolás</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="222" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="200" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
@@ -56,7 +80,16 @@
 		<translation>Frissítés</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="256" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="201" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation>Felvétel</translation>
+		<references>
+			<reference file="modules/themes/xaradmin/modifyconfig.php" line="31" />
+			<reference file="modules/themes/xaradmin/cssconfig.php" line="40" />
+			<reference file="modules/themes/xartemplates/admin-cssconfig.xd" line="82" />
 		</references>
 	</entry>
 	<entry>
@@ -72,8 +105,10 @@
 		<translation>Egyik sem</translation>
 		<references>
 			<reference file="modules/themes/xaradmin/themesinfo.php" line="51" />
-			<reference file="modules/themes/xartemplates/blocks/metaAdmin.xd" line="61" />
-			<reference file="modules/themes/xartemplates/blocks/metaAdmin.xd" line="63" />
+			<reference file="modules/themes/xartemplates/includes/corecss.xd" line="37" />
+			<reference file="modules/themes/xartemplates/includes/corecss.xd" line="49" />
+			<reference file="modules/themes/xartemplates/includes/corecss.xd" line="61" />
+			<reference file="modules/themes/xartemplates/blocks/metaAdmin.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
@@ -102,11 +137,19 @@
 		</references>
 	</entry>
 	<entry>
+		<string>View Themes</string>
+		<translation>Grafikák megjelenítése</translation>
+		<references>
+			<reference file="modules/themes/xaradminapi/getmenulinks.php" line="34" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
 		<string>Template Tags</string>
 		<translation>Sablon kulcsszavak</translation>
 		<references>
-			<reference file="modules/themes/xaradminapi/getmenulinks.php" line="48" />
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="4" />
+			<reference file="modules/themes/xaradminapi/getmenulinks.php" line="42" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="7" />
 		</references>
 	</entry>
 	<entry>
@@ -126,63 +169,65 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Name</string>
-		<translation>Név</translation>
+		<string>Themes Administration</string>
+		<translation>Grafikák adminisztrálása</translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="98" />
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="13" />
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="14" />
+			<reference file="modules/themes/xartemplates/admin-cssconfig.xd" line="12" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="46" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-modify.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-modifyconfig.xd" line="8" />
+			<reference file="modules/themes/xartemplates/admin-modifytpltag.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-release.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
+		<string>Name</string>
+		<translation>Név</translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="101" />
-			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="71" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="177" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>Actions</string>
 		<translation>Műveletek</translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="110" />
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="17" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="197" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
-		<string>Themes Administration</string>
-		<translation>Grafikák adminisztrálása</translation>
+		<string>Delete</string>
+		<translation>Törlés</translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-modifyconfig.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-modifytpltag.xd" line="2" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="34" />
+			<reference file="modules/themes/xartemplates/admin-modify.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
-		<string>Module</string>
-		<translation>Modul</translation>
+		<string>Description:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="16" />
-			<reference file="modules/themes/xartemplates/admin-modifytpltag.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Description</string>
-		<translation>Leírás</translation>
-		<references>
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="16" />
-			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="31" />
+			<reference file="modules/themes/xartemplates/admin-modify.xd" line="80" />
+			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select Theme</string>
 		<translation>Grafika kiválasztása</translation>
 		<references>
-			<reference file="modules/themes/xartemplates/user-usermenu_form.xd" line="12" />
 			<reference file="modules/themes/xartemplates/user-usermenu_icon.xd" line="12" />
+			<reference file="modules/themes/xartemplates/user-usermenu_form.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="165" />
 		</references>
 	</entry>
 </translations>

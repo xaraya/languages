@@ -106,11 +106,11 @@
 			<reference file="modules/dynamicdata/class/objects.php" line="1803" />
 			<reference file="modules/dynamicdata/class/objects.php" line="1818" />
 			<reference file="modules/dynamicdata/class/objects.php" line="1822" />
-			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="228" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="15" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="44" />
-			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="6" />
-			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="13" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="48" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="73" />
+			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="9" />
+			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="17" />
+			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="350" />
 		</references>
 	</entry>
 	<entry>
@@ -128,9 +128,11 @@
 		<translation>Törlés</translation>
 		<references>
 			<reference file="modules/dynamicdata/class/objects.php" line="1791" />
+			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="36" />
 			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="140" />
 			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="142" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="165" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="396" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="579" />
 			<reference file="modules/dynamicdata/xartemplates/includes/objectlist-subform.xd" line="31" />
 		</references>
 	</entry>
@@ -205,46 +207,53 @@
 		<translation>#(1) megjelenítése</translation>
 		<references>
 			<reference file="modules/dynamicdata/class/interface.php" line="399" />
+			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="8" />
 			<reference file="modules/dynamicdata/xaruserapi/getitemtypes.php" line="35" />
 			<reference file="modules/dynamicdata/xaruserapi/getmenulinks.php" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic Data</string>
+		<translation>Dinamikus Adatok</translation>
+		<references>
+			<reference file="modules/dynamicdata/xarversion.php" line="23" />
+			<reference file="modules/dynamicdata/xartemplates/user-display.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/user-main.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refresh</string>
+		<translation>Frissítés</translation>
+		<references>
+			<reference file="modules/dynamicdata/xaradmin/privileges.php" line="190" />
+			<reference file="modules/dynamicdata/xartemplates/admin-form.xd" line="18" />
+			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>ID</string>
 		<translation>ID</translation>
 		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="46" />
 			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="69" />
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="131" />
+			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name</string>
 		<translation>Név</translation>
 		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="47" />
 			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="70" />
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="132" />
+			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="47" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="33" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="98" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="34" />
 			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Validation</string>
-		<translation>Ellenőrzés</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="51" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="75" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>New</string>
-		<translation>Új</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="53" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="139" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="29" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="70" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="179" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="265" />
 		</references>
 	</entry>
 	<entry>
@@ -253,6 +262,10 @@
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="71" />
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="133" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="101" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="39" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="184" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="268" />
 		</references>
 	</entry>
 	<entry>
@@ -261,6 +274,10 @@
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="73" />
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="135" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="107" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="49" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="194" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="274" />
 		</references>
 	</entry>
 	<entry>
@@ -269,6 +286,47 @@
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="74" />
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="136" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="277" />
+		</references>
+	</entry>
+	<entry>
+		<string>Validation</string>
+		<translation>Ellenőrzés</translation>
+		<references>
+			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="75" />
+			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="138" />
+			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="51" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="113" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="59" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="204" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="280" />
+		</references>
+	</entry>
+	<entry>
+		<string>Property Type</string>
+		<translation>Mezőtípus</translation>
+		<references>
+			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="134" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="189" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="271" />
+		</references>
+	</entry>
+	<entry>
+		<string>New</string>
+		<translation>Új</translation>
+		<references>
+			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="139" />
+			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="53" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="29" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Properties</string>
+		<translation>Frissítés</translation>
+		<references>
+			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="143" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="225" />
 		</references>
 	</entry>
 	<entry>
@@ -277,9 +335,7 @@
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="200" />
 			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="80" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="49" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="15" />
-			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="90" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
@@ -287,7 +343,7 @@
 		<translation>Kapcsolat típusa</translation>
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="201" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="16" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
@@ -295,8 +351,8 @@
 		<translation>Honnan</translation>
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="202" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="17" />
-			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="79" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="49" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="307" />
 		</references>
 	</entry>
 	<entry>
@@ -304,17 +360,18 @@
 		<translation>Hová</translation>
 		<references>
 			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="203" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="18" />
-			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="82" />
+			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="93" />
+			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="134" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="54" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="345" />
 		</references>
 	</entry>
 	<entry>
-		<string>Refresh</string>
-		<translation>Frissítés</translation>
+		<string>Update Property Types</string>
+		<translation>Mezőtípusok frissítése</translation>
 		<references>
-			<reference file="modules/dynamicdata/xaradmin/privileges.php" line="190" />
-			<reference file="modules/dynamicdata/xartemplates/admin-form.xd" line="11" />
-			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="39" />
+			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="57" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyconfig.xd" line="112" />
 		</references>
 	</entry>
 	<entry>
@@ -326,11 +383,20 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Property Types</string>
+		<translation>Mezőtípusok</translation>
+		<references>
+			<reference file="modules/dynamicdata/xaradminapi/getmenulinks.php" line="38" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="246" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="264" />
+		</references>
+	</entry>
+	<entry>
 		<string>Utilities</string>
 		<translation>Segédeszközök</translation>
 		<references>
 			<reference file="modules/dynamicdata/xaradminapi/getmenulinks.php" line="45" />
-			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="15" />
+			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="7" />
 		</references>
 	</entry>
 	<entry>
@@ -338,75 +404,50 @@
 		<translation>Dinamikus Adatok Adminisztrálása</translation>
 		<references>
 			<reference file="modules/dynamicdata/xaradminapi/menu.php" line="23" />
-			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-form.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="8" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyconfig.xd" line="13" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="13" />
-			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-form.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="4" />
+			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="8" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyconfig.xd" line="3" />
 			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="1" />
-			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="8" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="13" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="9" />
+			<reference file="modules/dynamicdata/xartemplates/util-export.xd" line="9" />
+			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="9" />
 			<reference file="modules/dynamicdata/xartemplates/admin-showpropval.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="8" />
-			<reference file="modules/dynamicdata/xartemplates/util-export.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="13" />
-			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="13" />
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="4" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="8" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="5" />
+			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
-		<string>Yes</string>
-		<translation>Igen</translation>
+		<string>Options:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="25" />
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-checkbox.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>No</string>
-		<translation>Nem</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="27" />
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-checkbox.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="15" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="120" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="122" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Dynamic Properties</string>
-		<translation>Dinamikus adatmezők szerkesztése</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="20" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="19" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Export Object Definition to XML</string>
 		<translation>Objektum-definíció exportálása XML-be</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="11" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="56" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="28" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Preview</string>
 		<translation>Előnézet</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="20" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="66" />
-			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="45" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="35" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="77" />
+			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="15" />
+			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="48" />
 			<reference file="modules/dynamicdata/xartemplates/admin-showpropval.xd" line="28" />
 		</references>
 	</entry>
@@ -414,52 +455,174 @@
 		<string>Update</string>
 		<translation>Frissítés</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="68" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="78" />
 			<reference file="modules/dynamicdata/xartemplates/admin-showpropval.xd" line="30" />
 		</references>
 	</entry>
 	<entry>
-		<string>Import table</string>
-		<translation>Tábla importálása</translation>
+		<string>Meta Table Definitions</string>
+		<translation>Meta tábla definíciók</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="290" />
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="38" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="8" />
+			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
-		<string>not found</string>
-		<translation>nincs találat</translation>
+		<string>Query</string>
+		<translation>Lekérdezés</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="350" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="366" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="34" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="36" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="52" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="79" />
+			<reference file="modules/dynamicdata/xartemplates/admin-utilities.xd" line="34" />
+			<reference file="modules/dynamicdata/xartemplates/admin-utilities.xd" line="42" />
+			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
-		<string>Specify your own layout here...</string>
-		<translation>Az elrendezés meghatározása...</translation>
+		<string>Add Relation</string>
+		<translation>Kapcsolat hozzáadása</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-objectform.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showform.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/user-showview.xd" line="136" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="93" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectdisplay.xd" line="15" />
-			<reference file="modules/dynamicdata/xartemplates/user-showdisplay.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="211" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="60" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="91" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="26" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="300" />
 		</references>
 	</entry>
 	<entry>
-		<string>You can also specify a separate template, e.g. if you want to handle individual fields differently for a particular module / itemtype</string>
-		<translation>Külön sablonok is meghatározhatóak, például az egyes mezők különféleképp történő kezeléséhez egy modulban vagy elemtípusban</translation>
+		<string>Type</string>
+		<translation>Típus</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-objectform.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showform.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/user-showview.xd" line="138" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="95" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectdisplay.xd" line="17" />
-			<reference file="modules/dynamicdata/xartemplates/user-showdisplay.xd" line="14" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="213" />
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="104" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="44" />
+			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Source</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="110" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="54" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="199" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Table Definitions</string>
+		<translation>Tábla definíciók megjelenítése</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="195" />
+			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="130" />
+		</references>
+	</entry>
+	<entry>
+		<string>check</string>
+		<translation>ellenőrzés</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-url.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-msn.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urltitle.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-affero.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-aim.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-icq.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urlicon.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-yahoo.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>preview</string>
+		<translation>előnézet</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-url.xd" line="4" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-msn.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urltitle.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-affero.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-aim.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-icq.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urlicon.xd" line="3" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showinput-yahoo.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Minimum value</string>
+		<translation>Minimális érték</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-numberbox.xd" line="5" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-floatbox.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Maximum value</string>
+		<translation>Maximális érték</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-numberbox.xd" line="13" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-floatbox.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Other rule</string>
+		<translation>Más szabály</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-numberbox.xd" line="21" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="34" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-subform.xd" line="163" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="39" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-floatbox.xd" line="21" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="94" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="72" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-textarea.xd" line="23" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-textbox.xd" line="21" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-urlicon.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: the uploads module is not hooked</string>
+		<translation>Megjegyzés: a Feltöltések modul nincs hurkolva</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="6" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Methods</string>
+		<translation>Metódusok</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="12" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="23" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: the uploads module is hooked</string>
+		<translation>Megjegyzés: a Feltöltések modul nincs hurkolva</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="28" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Icon</string>
+		<translation>Ikon</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/user-showoutput-icq.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/user-showoutput-urlicon.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-urlicon.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Welcome to Dynamic Data</string>
+		<translation>Dinamikus Adatok modul</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/user-main.xd" line="7" />
+			<reference file="modules/dynamicdata/xaruserapi/menu.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Áttekintés</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="120" />
+			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="122" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
@@ -473,188 +636,111 @@
 		</references>
 	</entry>
 	<entry>
-		<string>check</string>
-		<translation>ellenőrzés</translation>
+		<string>Specify your own layout here...</string>
+		<translation>Az elrendezés meghatározása...</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-affero.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-aim.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-icq.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-msn.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-url.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-yahoo.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urlicon.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urltitle.xd" line="2" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showform.xd" line="10" />
+			<reference file="modules/dynamicdata/xartemplates/user-showview.xd" line="136" />
+			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="221" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="93" />
+			<reference file="modules/dynamicdata/xartemplates/admin-objectform.xd" line="10" />
+			<reference file="modules/dynamicdata/xartemplates/user-showdisplay.xd" line="12" />
+			<reference file="modules/dynamicdata/xartemplates/user-objectdisplay.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
-		<string>preview</string>
-		<translation>előnézet</translation>
+		<string>You can also specify a separate template, e.g. if you want to handle individual fields differently for a particular module / itemtype</string>
+		<translation>Külön sablonok is meghatározhatóak, például az egyes mezők különféleképp történő kezeléséhez egy modulban vagy elemtípusban</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-affero.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-aim.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-icq.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-msn.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-url.xd" line="4" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-yahoo.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urlicon.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urltitle.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Query</string>
-		<translation>Lekérdezés</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="30" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="50" />
-			<reference file="modules/dynamicdata/xartemplates/admin-utilities.xd" line="35" />
-			<reference file="modules/dynamicdata/xartemplates/admin-utilities.xd" line="43" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showform.xd" line="12" />
+			<reference file="modules/dynamicdata/xartemplates/user-showview.xd" line="138" />
+			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="223" />
+			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="95" />
+			<reference file="modules/dynamicdata/xartemplates/admin-objectform.xd" line="12" />
+			<reference file="modules/dynamicdata/xartemplates/user-showdisplay.xd" line="14" />
+			<reference file="modules/dynamicdata/xartemplates/user-objectdisplay.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Options</string>
 		<translation>Műveletek</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="54" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="44" />
+			<reference file="modules/dynamicdata/xartemplates/admin-utilities.xd" line="26" />
 			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="8" />
-			<reference file="modules/dynamicdata/xartemplates/admin-utilities.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>no</string>
-		<translation>nem</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="84" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="40" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="43" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="13" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>yes</string>
-		<translation>igen</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="86" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="39" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="42" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Other rule</string>
-		<translation>Más szabály</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="94" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-subform.xd" line="163" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="72" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-floatbox.xd" line="21" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-numberbox.xd" line="21" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-textarea.xd" line="23" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-textbox.xd" line="21" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="34" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="39" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-urlicon.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Welcome to Dynamic Data</string>
-		<translation>Dinamikus Adatok modul</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/user-main.xd" line="2" />
-			<reference file="modules/dynamicdata/xaruserapi/menu.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Meta Table Definitions</string>
-		<translation>Meta tábla definíciók</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="17" />
-			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add Relation</string>
-		<translation>Kapcsolat hozzáadása</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="62" />
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show Table Definitions</string>
-		<translation>Tábla definíciók megjelenítése</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="141" />
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Icon</string>
-		<translation>Ikon</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-icq.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-urlicon.xd" line="5" />
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-urlicon.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Base directory</string>
-		<translation>Alapkönyvtár</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="6" />
-			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Note: the uploads module is not hooked</string>
-		<translation>Megjegyzés: a Feltöltések modul nincs hurkolva</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="26" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="6" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Multiple</string>
 		<translation>Többszörös</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="33" />
 			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="6" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
-		<string>Methods</string>
-		<translation>Metódusok</translation>
+		<string>yes</string>
+		<translation>igen</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="50" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="23" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="12" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="15" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="86" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="39" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
-		<string>Note: the uploads module is hooked</string>
-		<translation>Megjegyzés: a Feltöltések modul nincs hurkolva</translation>
+		<string>no</string>
+		<translation>nem</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="66" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-textupload.xd" line="28" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="13" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-upload.xd" line="16" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-dropdown.xd" line="84" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="40" />
+			<reference file="modules/dynamicdata/xartemplates/admin-validation-fileupload.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
-		<string>Minimum value</string>
-		<translation>Minimális érték</translation>
+		<string>Object:</string>
+		<translation>Objektum:</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-floatbox.xd" line="5" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-numberbox.xd" line="5" />
+			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="29" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="120" />
 		</references>
 	</entry>
 	<entry>
-		<string>Maximum value</string>
-		<translation>Maximális érték</translation>
+		<string>Items:</string>
+		<translation>Elemek:</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-floatbox.xd" line="13" />
-			<reference file="modules/dynamicdata/xartemplates/admin-validation-numberbox.xd" line="13" />
+			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="79" />
+			<reference file="modules/dynamicdata/xartemplates/util-migrate.xd" line="155" />
+		</references>
+	</entry>
+	<entry>
+		<string>Table:</string>
+		<translation>Tábla:</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="137" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>not found</string>
+		<translation>nincs találat</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="84" />
+			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="94" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="383" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="399" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not Applicable</string>
+		<translation>Egyéb</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="49" />
+			<reference file="modules/dynamicdata/xarutilapi/demolist.php" line="37" />
+			<reference file="modules/dynamicdata/xarutilapi/demolist.php" line="50" />
 		</references>
 	</entry>
 	<entry>
@@ -662,16 +748,16 @@
 		<translation>Dinamikus Adat segédeszközök</translation>
 		<references>
 			<reference file="modules/dynamicdata/xarutil/export.php" line="40" />
-			<reference file="modules/dynamicdata/xarutil/main.php" line="24" />
 			<reference file="modules/dynamicdata/xarutil/static.php" line="37" />
+			<reference file="modules/dynamicdata/xarutil/main.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Create New</string>
 		<translation>Új felvétele</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/includes/objectlist-list.xd" line="11" />
 			<reference file="modules/dynamicdata/xartemplates/includes/objectlist-table.xd" line="15" />
+			<reference file="modules/dynamicdata/xartemplates/includes/objectlist-list.xd" line="11" />
 		</references>
 	</entry>
 </translations>
