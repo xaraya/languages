@@ -4,7 +4,7 @@
 		<string>untitled</string>
 		<translation>titellös</translation>
 		<references>
-			<reference file="modules/bkview/xaradmin/new.php" line="29" />
+			<reference file="modules/bkview/xaradmin/new.php" line="27" />
 			<reference file="modules/bkview/xartemplates/admin-detectrepos.xd" line="17" />
 		</references>
 	</entry>
@@ -12,7 +12,7 @@
 		<string>Add repository</string>
 		<translation>Lägg till förvaringsplats</translation>
 		<references>
-			<reference file="modules/bkview/xaradmin/new.php" line="34" />
+			<reference file="modules/bkview/xaradmin/new.php" line="73" />
 			<reference file="modules/bkview/xaradminapi/getmenulinks.php" line="41" />
 		</references>
 	</entry>
@@ -20,7 +20,7 @@
 		<string>Register a new repository</string>
 		<translation>Registrera en ny förvaringsplats</translation>
 		<references>
-			<reference file="modules/bkview/xaradmin/new.php" line="47" />
+			<reference file="modules/bkview/xaradmin/new.php" line="81" />
 			<reference file="modules/bkview/xaradminapi/getmenulinks.php" line="40" />
 		</references>
 	</entry>
@@ -44,19 +44,13 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Repository name</string>
-		<translation>Namn på förvaringsplats</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-delete.xd" line="14" />
-			<reference file="modules/bkview/xartemplates/includes/repo-form.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
 		<string>Name</string>
 		<translation>Namn</translation>
 		<references>
 			<reference file="modules/bkview/xartemplates/admin-detectrepos.xd" line="6" />
 			<reference file="modules/bkview/xartemplates/admin-view.xd" line="6" />
+			<reference file="modules/bkview/xartemplates/includes/bk-form.xd" line="9" />
+			<reference file="modules/bkview/xartemplates/includes/mt-form.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
@@ -65,31 +59,32 @@
 		<references>
 			<reference file="modules/bkview/xartemplates/admin-detectrepos.xd" line="7" />
 			<reference file="modules/bkview/xartemplates/admin-view.xd" line="7" />
-			<reference file="modules/bkview/xartemplates/includes/repo-form.xd" line="19" />
 		</references>
 	</entry>
 	<entry>
-		<string>Maybe you want me to try to</string>
-		<translation>Vill du att jag ska försöka</translation>
+		<string>Branch</string>
+		<translation>Gren</translation>
 		<references>
-			<reference file="modules/bkview/xartemplates/admin-new.xd" line="9" />
-			<reference file="modules/bkview/xartemplates/admin-view.xd" line="38" />
+			<reference file="modules/bkview/xartemplates/admin-view.xd" line="8" />
+			<reference file="modules/bkview/xartemplates/includes/mt-form.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
-		<string>detect</string>
-		<translation>spåra</translation>
+		<string>BitKeeper</string>
+		<translation>BitKeeper</translation>
 		<references>
-			<reference file="modules/bkview/xartemplates/admin-new.xd" line="10" />
-			<reference file="modules/bkview/xartemplates/admin-view.xd" line="39" />
+			<reference file="modules/bkview/xartemplates/admin-view.xd" line="21" />
+			<reference file="modules/bkview/xartemplates/includes/repotype-form.xd" line="23" />
+			<reference file="modules/bkview/xartemplates/includes/user-view.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
-		<string>the repositories installed on this server?</string>
-		<translation>de installerade förvaringsplatserna på denna server?</translation>
+		<string>Monotone</string>
+		<translation>Monotone</translation>
 		<references>
-			<reference file="modules/bkview/xartemplates/admin-new.xd" line="11" />
-			<reference file="modules/bkview/xartemplates/admin-view.xd" line="40" />
+			<reference file="modules/bkview/xartemplates/admin-view.xd" line="23" />
+			<reference file="modules/bkview/xartemplates/includes/repotype-form.xd" line="31" />
+			<reference file="modules/bkview/xartemplates/includes/user-view.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
@@ -97,17 +92,17 @@
 		<translation>Ändringsuppsättnings aktivitet</translation>
 		<references>
 			<reference file="modules/bkview/xaruser/display.php" line="96" />
-			<reference file="modules/bkview/xartemplates/includes/user-menu.xd" line="47" />
 			<reference file="modules/bkview/xartemplates/includes/user-menu.xd" line="48" />
+			<reference file="modules/bkview/xartemplates/includes/user-menu.xd" line="49" />
 		</references>
 	</entry>
 	<entry>
 		<string>User statistics</string>
 		<translation>Användarstatistik</translation>
 		<references>
-			<reference file="modules/bkview/xaruser/statsview.php" line="63" />
-			<reference file="modules/bkview/xartemplates/includes/user-menu.xd" line="91" />
+			<reference file="modules/bkview/xaruser/statsview.php" line="62" />
 			<reference file="modules/bkview/xartemplates/includes/user-menu.xd" line="92" />
+			<reference file="modules/bkview/xartemplates/includes/user-menu.xd" line="93" />
 		</references>
 	</entry>
 </translations>

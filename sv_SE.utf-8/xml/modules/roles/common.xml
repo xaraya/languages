@@ -4,11 +4,10 @@
 		<string>Roles</string>
 		<translation>Roller</translation>
 		<references>
-			<reference file="modules/roles/xarversion.php" line="24" />
+			<reference file="modules/roles/xarversion.php" line="23" />
 			<reference file="modules/roles/xartemplates/user-choices.xd" line="2" />
 			<reference file="modules/roles/xartemplates/user-requestpw.xd" line="2" />
 			<reference file="modules/roles/xartemplates/user-requestpwconfirm.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="2" />
 			<reference file="modules/roles/xartemplates/user-view.xd" line="3" />
 			<reference file="modules/roles/xartemplates/user-viewtree.xd" line="2" />
 		</references>
@@ -17,112 +16,140 @@
 		<string>There is an error in the username</string>
 		<translation>Det är ett fel i användarnamnet</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="43" />
-			<reference file="modules/roles/xaradmin/updaterole.php" line="61" />
+			<reference file="modules/roles/xaradmin/addrole.php" line="41" />
+			<reference file="modules/roles/xaradmin/updaterole.php" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>That username is already taken.</string>
 		<translation>Användarnamnet är upptaget.</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="55" />
-			<reference file="modules/roles/xaradmin/updaterole.php" line="55" />
-			<reference file="modules/roles/xaruser/register.php" line="164" />
+			<reference file="modules/roles/xaradmin/addrole.php" line="53" />
+			<reference file="modules/roles/xaradmin/updaterole.php" line="53" />
+			<reference file="modules/roles/xaruser/register.php" line="162" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is a space in the username</string>
 		<translation>Det är ett blanksteg i användarnamnet</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="61" />
-			<reference file="modules/roles/xaradmin/updaterole.php" line="67" />
-			<reference file="modules/roles/xaruser/register.php" line="146" />
+			<reference file="modules/roles/xaradmin/addrole.php" line="59" />
+			<reference file="modules/roles/xaradmin/updaterole.php" line="65" />
+			<reference file="modules/roles/xaruser/register.php" line="144" />
 		</references>
 	</entry>
 	<entry>
 		<string>That email address is already registered.</string>
 		<translation>Den angivna e-postadressen är redan registrerad.</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="78" />
-			<reference file="modules/roles/xaruser/register.php" line="211" />
-			<reference file="modules/roles/xaruser/usermenu.php" line="154" />
+			<reference file="modules/roles/xaradmin/addrole.php" line="76" />
+			<reference file="modules/roles/xaruser/register.php" line="209" />
+			<reference file="modules/roles/xaruser/usermenu.php" line="156" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is an error in the email address</string>
 		<translation>Det är ett fel i e-postadressen</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="87" />
-			<reference file="modules/roles/xaradmin/updaterole.php" line="75" />
+			<reference file="modules/roles/xaradmin/addrole.php" line="85" />
+			<reference file="modules/roles/xaradmin/updaterole.php" line="73" />
 		</references>
 	</entry>
 	<entry>
 		<string>The two password entries are not the same</string>
 		<translation>De två inskrivna lösenorden överensstämmer inte</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="93" />
-			<reference file="modules/roles/xaradmin/updaterole.php" line="81" />
+			<reference file="modules/roles/xaradmin/addrole.php" line="91" />
+			<reference file="modules/roles/xaradmin/updaterole.php" line="79" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty</string>
 		<translation>Tom</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/createmail.php" line="151" />
-			<reference file="modules/roles/xaradmin/modifyemail.php" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Ta bort</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/deleterole.php" line="74" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="54" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="108" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="57" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="58" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="241" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="243" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="49" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="55" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="53" />
+			<reference file="modules/roles/xaradmin/createmail.php" line="148" />
+			<reference file="modules/roles/xaradmin/modifyemail.php" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Ogiltig #(1) för #(2) funktionen #(3)() i modulen #(4)</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/createpassword.php" line="26" />
-			<reference file="modules/roles/xaradmin/updatestate.php" line="64" />
+			<reference file="modules/roles/xaradmin/createpassword.php" line="23" />
+			<reference file="modules/roles/xaradmin/updatestate.php" line="61" />
+			<reference file="modules/roles/xaradminapi/create.php" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Problem generating new password</string>
 		<translation>Ett problem uppstod vid generering av nytt lösenord</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/createpassword.php" line="35" />
-			<reference file="modules/roles/xaruser/lostpassword.php" line="78" />
+			<reference file="modules/roles/xaradmin/createpassword.php" line="32" />
+			<reference file="modules/roles/xaruser/lostpassword.php" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete</string>
+		<translation>Ta bort</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/deleterole.php" line="71" />
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="54" />
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="108" />
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="241" />
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="243" />
+			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="49" />
+			<reference file="modules/roles/xartemplates/includes/tablist.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Update Roles Configuration</string>
 		<translation>Uppdatera roller konfigurationen</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/modifyconfig.php" line="100" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="259" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="430" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="497" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="532" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="567" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="612" />
+			<reference file="modules/roles/xaradmin/modifyconfig.php" line="98" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="254" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="423" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="490" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="519" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="548" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="593" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Notification Configuration</string>
+		<translation>Uppdatera meddelandekonfiguration</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifynotice.php" line="26" />
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update</string>
+		<translation>Uppdatera</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifyrole.php" line="100" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="121" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="182" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add</string>
+		<translation>Lägg till</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifyrole.php" line="101" />
+			<reference file="modules/roles/xaradmin/newrole.php" line="92" />
+			<reference file="modules/roles/xaradmin/showprivileges.php" line="210" />
+			<reference file="modules/roles/xaradminapi/getgroupmenulinks.php" line="29" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="242" />
+			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="203" />
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="71" />
 		</references>
 	</entry>
 	<entry>
 		<string>Recall</string>
 		<translation>Ta tillbaka</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/purge.php" line="49" />
-			<reference file="modules/roles/xaradmin/purge.php" line="147" />
+			<reference file="modules/roles/xaradmin/purge.php" line="47" />
+			<reference file="modules/roles/xaradmin/purge.php" line="145" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="145" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="182" />
 		</references>
@@ -131,113 +158,81 @@
 		<string>Purge</string>
 		<translation>Rensa</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/purge.php" line="165" />
-			<reference file="modules/roles/xaradmin/purge.php" line="301" />
+			<reference file="modules/roles/xaradmin/purge.php" line="163" />
+			<reference file="modules/roles/xaradmin/purge.php" line="299" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="340" />
-		</references>
-	</entry>
-	<entry>
-		<string>Update Notification Configuration</string>
-		<translation>Uppdatera meddelandekonfiguration</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/modifynotice.php" line="28" />
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>Update</string>
-		<translation>Uppdatera</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/modifyrole.php" line="102" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="122" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="210" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add</string>
-		<translation>Lägg till</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/modifyrole.php" line="103" />
-			<reference file="modules/roles/xaradmin/newrole.php" line="94" />
-			<reference file="modules/roles/xaradmin/showprivileges.php" line="212" />
-			<reference file="modules/roles/xaradminapi/getgroupmenulinks.php" line="31" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="255" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="203" />
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="71" />
 		</references>
 	</entry>
 	<entry>
 		<string>Remove</string>
 		<translation>Ta bort</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/removeprivilege.php" line="64" />
-			<reference file="modules/roles/xaradmin/sitelock.php" line="170" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="267" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="283" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="254" />
+			<reference file="modules/roles/xaradmin/removeprivilege.php" line="62" />
+			<reference file="modules/roles/xaradmin/sitelock.php" line="173" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="194" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="210" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="168" />
 		</references>
 	</entry>
 	<entry>
 		<string>All</string>
 		<translation>Samtliga</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/showusers.php" line="73" />
+			<reference file="modules/roles/xaradmin/showusers.php" line="71" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="209" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="215" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="176" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="180" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="19" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="25" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="69" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="75" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="170" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="174" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="18" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="24" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="68" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>Users</string>
 		<translation>Användare</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/showusers.php" line="134" />
+			<reference file="modules/roles/xaradmin/showusers.php" line="131" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="313" />
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="65" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="68" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="69" />
 			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="60" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="66" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="64" />
-			<reference file="modules/roles/xaruserapi/getitemtypes.php" line="16" />
-			<reference file="modules/roles/xartemplates/blocks/online.xd" line="5" />
+			<reference file="modules/roles/xaruserapi/getitemtypes.php" line="26" />
+			<reference file="modules/roles/xartemplates/includes/tablist.xd" line="41" />
+			<reference file="modules/roles/xartemplates/blocks/online.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
 		<string>Change Status</string>
 		<translation>Ändra status</translation>
 		<references>
-			<reference file="modules/roles/xaradmin/showusers.php" line="169" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="262" />
+			<reference file="modules/roles/xaradmin/showusers.php" line="166" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="250" />
 		</references>
 	</entry>
 	<entry>
 		<string>No such user</string>
 		<translation>Ingen sådan användare</translation>
 		<references>
-			<reference file="modules/roles/xaradminapi/delete.php" line="41" />
-			<reference file="modules/roles/xaradminapi/stateupdate.php" line="45" />
-			<reference file="modules/roles/xaradminapi/update.php" line="49" />
+			<reference file="modules/roles/xaradminapi/delete.php" line="40" />
+			<reference file="modules/roles/xaradminapi/stateupdate.php" line="44" />
+			<reference file="modules/roles/xaradminapi/update.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find a group</string>
 		<translation>Kunde inte finna en grupp</translation>
 		<references>
-			<reference file="modules/roles/xaradminapi/deleteuser.php" line="35" />
-			<reference file="modules/roles/xaruserapi/addmember.php" line="35" />
-			<reference file="modules/roles/xaruserapi/removemember.php" line="35" />
+			<reference file="modules/roles/xaradminapi/deleteuser.php" line="34" />
+			<reference file="modules/roles/xaruserapi/addmember.php" line="34" />
+			<reference file="modules/roles/xaruserapi/removemember.php" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>Site Lock</string>
 		<translation>Webbplatslås</translation>
 		<references>
-			<reference file="modules/roles/xaradminapi/getmenulinks.php" line="71" />
+			<reference file="modules/roles/xaradminapi/getmenulinks.php" line="69" />
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="7" />
 		</references>
 	</entry>
@@ -245,12 +240,12 @@
 		<string>Roles Administration</string>
 		<translation>Roller Administration</translation>
 		<references>
-			<reference file="modules/roles/xaradminapi/menu.php" line="23" />
+			<reference file="modules/roles/xaradminapi/menu.php" line="22" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="30" />
 			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="3" />
 			<reference file="modules/roles/xartemplates/admin-createuser.xd" line="3" />
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="4" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="9" />
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="9" />
 			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="4" />
@@ -262,7 +257,7 @@
 			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="13" />
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="3" />
 			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="2" />
+			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="4" />
 			<reference file="modules/roles/xartemplates/admin-viewroles.xd" line="21" />
 			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="2" />
 		</references>
@@ -271,9 +266,106 @@
 		<string>Invalid Parameter Count</string>
 		<translation>Ogiltigt antal parametrar</translation>
 		<references>
-			<reference file="modules/roles/xaradminapi/stateupdate.php" line="33" />
-			<reference file="modules/roles/xaradminapi/update.php" line="37" />
-			<reference file="modules/roles/xaruserapi/updatestatus.php" line="26" />
+			<reference file="modules/roles/xaradminapi/stateupdate.php" line="32" />
+			<reference file="modules/roles/xaradminapi/update.php" line="36" />
+			<reference file="modules/roles/xaruserapi/updatestatus.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1)</string>
+		<translation>Ogiltig #(1)</translation>
+		<references>
+			<reference file="modules/roles/xarproperties/Dynamic_AIM_Property.php" line="72" />
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="80" />
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="86" />
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="163" />
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="94" />
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="100" />
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="196" />
+			<reference file="modules/dynamicdata/class/properties.php" line="520" />
+			<reference file="modules/dynamicdata/class/properties.php" line="636" />
+			<reference file="modules/roles/xarproperties/Dynamic_Affero_Property.php" line="68" />
+			<reference file="modules/roles/xarproperties/Dynamic_Email_Property.php" line="68" />
+			<reference file="modules/roles/xarproperties/Dynamic_GroupList_Property.php" line="153" />
+			<reference file="modules/roles/xarproperties/Dynamic_GroupList_Property.php" line="160" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="95" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="332" />
+			<reference file="modules/roles/xarproperties/Dynamic_ICQ_Property.php" line="65" />
+			<reference file="modules/roles/xarproperties/Dynamic_MSN_Property.php" line="68" />
+			<reference file="modules/roles/xarproperties/Dynamic_PassBox_Property.php" line="88" />
+			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="147" />
+			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="168" />
+			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="285" />
+			<reference file="modules/roles/xarproperties/Dynamic_Username_Property.php" line="80" />
+			<reference file="modules/roles/xarproperties/Dynamic_Yahoo_Property.php" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please specify the icon to use in the validation field</string>
+		<translation>Vänligen ange ikonen som ska användas i valideringsfältet</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>check</string>
+		<translation>markera</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>text : must be less than #(1) characters long</string>
+		<translation>text: måste vara färre än #(1) tecken långt</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="50" />
+			<reference file="modules/roles/xarproperties/Dynamic_PassBox_Property.php" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>text : must be at least #(1) characters long</string>
+		<translation>text: måste vara åtminstone #(1) tecken långt</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="54" />
+			<reference file="modules/roles/xarproperties/Dynamic_PassBox_Property.php" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>text : does not match regular expression</string>
+		<translation>text: överensstämmer inte med reguljärt uttryck</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>unknown property</string>
+		<translation>okänd egenskap</translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="408" />
+		</references>
+	</entry>
+	<entry>
+		<string>This property is unknown...</string>
+		<translation>Den här egenskapen är okänd...</translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="442" />
+		</references>
+	</entry>
+	<entry>
+		<string>E-Mail</string>
+		<translation>E-post</translation>
+		<references>
+			<reference file="modules/roles/xarproperties/Dynamic_Email_Property.php" line="36" />
+			<reference file="modules/roles/xartemplates/user-new.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>selection</string>
+		<translation>urval</translation>
+		<references>
+			<reference file="modules/roles/xarproperties/Dynamic_GroupList_Property.php" line="90" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="49" />
+			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="79" />
 		</references>
 	</entry>
 	<entry>
@@ -290,7 +382,7 @@
 		<translation>Skicka underrättelse</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="4" />
+			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
@@ -317,9 +409,9 @@
 		<translation>Ämne:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="44" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="443" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="447" />
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="102" />
-			<reference file="modules/roles/xartemplates/user-email.xd" line="25" />
+			<reference file="modules/roles/xartemplates/user-email.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
@@ -335,9 +427,9 @@
 		<translation>Meddelande:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="51" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="451" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="455" />
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="109" />
-			<reference file="modules/roles/xartemplates/user-email.xd" line="29" />
+			<reference file="modules/roles/xartemplates/user-email.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
@@ -345,9 +437,9 @@
 		<translation>Skicka</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="66" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="466" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="468" />
-			<reference file="modules/roles/xartemplates/user-email.xd" line="32" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="470" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="472" />
+			<reference file="modules/roles/xartemplates/user-email.xd" line="31" />
 		</references>
 	</entry>
 	<entry>
@@ -355,7 +447,7 @@
 		<translation>Avbryt</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="67" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="470" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="474" />
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="109" />
 		</references>
 	</entry>
@@ -364,18 +456,8 @@
 		<translation>Följande variabler kommer att ersättas i texten med den specifika informationen</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="72" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="127" />
-			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>$password</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="78" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="116" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="133" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="170" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="126" />
+			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
@@ -384,16 +466,8 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="81" />
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="119" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="136" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>$validationlink</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="87" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="142" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="135" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="172" />
 		</references>
 	</entry>
 	<entry>
@@ -401,15 +475,7 @@
 		<translation>Användar valideringslänk</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="90" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="145" />
-		</references>
-	</entry>
-	<entry>
-		<string>$valcode</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="151" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="144" />
 		</references>
 	</entry>
 	<entry>
@@ -417,15 +483,7 @@
 		<translation>Användar valideringskod</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="99" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="154" />
-		</references>
-	</entry>
-	<entry>
-		<string>$ipaddress</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="105" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="160" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="153" />
 		</references>
 	</entry>
 	<entry>
@@ -433,15 +491,7 @@
 		<translation>Användarens IP-adress</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="108" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="163" />
-		</references>
-	</entry>
-	<entry>
-		<string>$sitename</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="127" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="180" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="162" />
 		</references>
 	</entry>
 	<entry>
@@ -449,15 +499,7 @@
 		<translation>Webbplatsnamn</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="130" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="183" />
-		</references>
-	</entry>
-	<entry>
-		<string>$siteadmin</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="136" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="189" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="182" />
 		</references>
 	</entry>
 	<entry>
@@ -465,15 +507,7 @@
 		<translation>Adminsitratörsdnamn</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="139" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="192" />
-		</references>
-	</entry>
-	<entry>
-		<string>$adminmail</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="145" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="198" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="191" />
 		</references>
 	</entry>
 	<entry>
@@ -481,15 +515,7 @@
 		<translation>Adminsitratörs e-postadress</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="148" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="201" />
-		</references>
-	</entry>
-	<entry>
-		<string>$siteurl</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="154" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="207" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="200" />
 		</references>
 	</entry>
 	<entry>
@@ -497,16 +523,8 @@
 		<translation>Webbplatsen webbadress</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="157" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="210" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="251" />
-		</references>
-	</entry>
-	<entry>
-		<string>$myname</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="163" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="216" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="209" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="250" />
 		</references>
 	</entry>
 	<entry>
@@ -514,15 +532,7 @@
 		<translation>Namnet på användaren</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="166" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="219" />
-		</references>
-	</entry>
-	<entry>
-		<string>$username</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="172" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="225" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="218" />
 		</references>
 	</entry>
 	<entry>
@@ -530,15 +540,7 @@
 		<translation>Användarnamn för användaren</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="175" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="228" />
-		</references>
-	</entry>
-	<entry>
-		<string>$useremail</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="181" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="234" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="227" />
 		</references>
 	</entry>
 	<entry>
@@ -546,20 +548,20 @@
 		<translation>E-postadress för användaren</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="184" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="237" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="236" />
 		</references>
 	</entry>
 	<entry>
 		<string>(Dynamic property)</string>
-		<translation></translation>
+		<translation>(Dynamisk egenskap)</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="196" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="248" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="247" />
 		</references>
 	</entry>
 	<entry>
 		<string>Messaging System:</string>
-		<translation></translation>
+		<translation>Meddelandesystem:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="38" />
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="14" />
@@ -607,7 +609,7 @@
 		<translation>Välj visningstyp</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="82" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="109" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="103" />
 		</references>
 	</entry>
 	<entry>
@@ -615,10 +617,10 @@
 		<translation>Grupper</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="92" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="67" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="115" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="61" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="109" />
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="42" />
-			<reference file="modules/roles/xaruserapi/getitemtypes.php" line="21" />
+			<reference file="modules/roles/xaruserapi/getitemtypes.php" line="31" />
 		</references>
 	</entry>
 	<entry>
@@ -626,7 +628,7 @@
 		<translation>Välj status för användarna</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="119" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="113" />
 		</references>
 	</entry>
 	<entry>
@@ -634,9 +636,9 @@
 		<translation>Status</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="99" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="375" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="120" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="295" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="378" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="114" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="283" />
 		</references>
 	</entry>
 	<entry>
@@ -644,8 +646,8 @@
 		<translation>Åtgärd</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="122" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="129" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="299" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="123" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="287" />
 		</references>
 	</entry>
 	<entry>
@@ -654,10 +656,10 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="162" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="168" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="73" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="78" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="149" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="153" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="67" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="72" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="143" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="147" />
 		</references>
 	</entry>
 	<entry>
@@ -666,20 +668,20 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="222" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="228" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="399" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="402" />
 			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="77" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="165" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="167" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="135" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="137" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="129" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="135" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="94" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="96" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="246" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="248" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="185" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="189" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="252" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="326" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="179" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="183" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="240" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="314" />
 		</references>
 	</entry>
 	<entry>
@@ -688,20 +690,20 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="235" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="241" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="403" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="406" />
 			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="88" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="170" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="172" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="140" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="142" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="142" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="148" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="99" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="101" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="251" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="253" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="194" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="198" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="253" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="328" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="188" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="192" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="241" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="316" />
 		</references>
 	</entry>
 	<entry>
@@ -710,20 +712,20 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="248" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="254" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="407" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="410" />
 			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="66" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="175" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="177" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="145" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="147" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="155" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="161" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="104" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="106" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="256" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="258" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="203" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="207" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="254" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="330" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="197" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="201" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="242" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="318" />
 		</references>
 	</entry>
 	<entry>
@@ -732,87 +734,87 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="261" />
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="267" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="411" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="414" />
 			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="55" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="180" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="182" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="150" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="152" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="168" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="174" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="109" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="111" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="261" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="263" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="212" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="216" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="255" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="332" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="206" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="210" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="243" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="320" />
 		</references>
 	</entry>
 	<entry>
 		<string>Reload</string>
-		<translation></translation>
+		<translation>Uppdatera</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="298" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="225" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="219" />
 		</references>
 	</entry>
 	<entry>
 		<string>Real name</string>
 		<translation>Verkligt namn</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="347" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="350" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="130" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="287" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="275" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="263" />
 		</references>
 	</entry>
 	<entry>
 		<string>Login</string>
 		<translation>Logga in</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="354" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="280" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="357" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="268" />
 		</references>
 	</entry>
 	<entry>
 		<string>Email</string>
 		<translation>E-post</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="361" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="364" />
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="98" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="136" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="293" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="285" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="273" />
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="87" />
 			<reference file="modules/roles/xartemplates/user-display.xd" line="18" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="123" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="163" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="165" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="122" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="162" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="164" />
 		</references>
 	</entry>
 	<entry>
 		<string>Date Registered</string>
 		<translation>Registreringsdatum</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="368" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="371" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="139" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="296" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="290" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="278" />
 		</references>
 	</entry>
 	<entry>
 		<string>Email this user</string>
 		<translation>E-posta denna användare</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="388" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="316" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="391" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="304" />
 		</references>
 	</entry>
 	<entry>
 		<string>Message</string>
 		<translation>Meddelande</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="437" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="436" />
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="107" />
 		</references>
 	</entry>
@@ -829,20 +831,20 @@
 		<translation>Lösenord:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="15" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="189" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="159" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="183" />
 			<reference file="modules/roles/xartemplates/blocks/login.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>Parent Groups:</string>
-		<translation></translation>
+		<translation>Föräldragrupper:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="20" />
 			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="23" />
 			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="24" />
 			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="21" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="21" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
@@ -854,22 +856,19 @@
 			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="30" />
 			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="18" />
 			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="27" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="27" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>Actions:</string>
-		<translation></translation>
+		<translation>Åtgärder:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="40" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="43" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="23" />
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="23" />
 			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="17" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="44" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="22" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="41" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="39" />
+			<reference file="modules/roles/xartemplates/includes/tablist.xd" line="7" />
 		</references>
 	</entry>
 	<entry>
@@ -877,11 +876,8 @@
 		<translation>Visning</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="44" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="47" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="48" />
 			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="39" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="45" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="43" />
+			<reference file="modules/roles/xartemplates/includes/tablist.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
@@ -889,11 +885,8 @@
 		<translation>Ändra</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="49" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="52" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="53" />
 			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="44" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="50" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="48" />
+			<reference file="modules/roles/xartemplates/includes/tablist.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
@@ -901,11 +894,8 @@
 		<translation>Behörigheter</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="59" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="62" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="63" />
 			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="54" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="60" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="58" />
+			<reference file="modules/roles/xartemplates/includes/tablist.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
@@ -914,12 +904,12 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="4" />
 			<reference file="modules/roles/xartemplates/user-display.xd" line="8" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="29" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>Manage User:</string>
-		<translation></translation>
+		<translation>Hantera användare:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="9" />
 			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="13" />
@@ -927,7 +917,7 @@
 	</entry>
 	<entry>
 		<string>Manage Group:</string>
-		<translation></translation>
+		<translation>Hantera grupp:</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="11" />
 			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="15" />
@@ -935,10 +925,10 @@
 	</entry>
 	<entry>
 		<string>Email:</string>
-		<translation></translation>
+		<translation>E-post:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="92" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="154" />
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="64" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="124" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="114" />
 		</references>
 	</entry>
@@ -948,7 +938,7 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="47" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="55" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="3" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="7" />
 		</references>
 	</entry>
 	<entry>
@@ -956,106 +946,106 @@
 		<translation>Detta e-brev kommer att skickas till användare för att välkomna dem</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="75" />
-			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="5" />
+			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>Common name</string>
-		<translation></translation>
+		<translation>Allmänt namn</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="88" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="103" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="58" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="73" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>Display Name:</string>
-		<translation></translation>
+		<translation>Visningsnamn</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="89" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="104" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="59" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="74" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="45" />
 		</references>
 	</entry>
 	<entry>
 		<string>Type of Role</string>
-		<translation></translation>
+		<translation>Rolltyp</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="111" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="122" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="81" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="92" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="50" />
 		</references>
 	</entry>
 	<entry>
 		<string>Type:</string>
-		<translation></translation>
+		<translation>Typ:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="112" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="123" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="82" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="93" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name used for user log on</string>
-		<translation></translation>
+		<translation>Namn att använda för att logga in</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="146" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="116" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="103" />
 		</references>
 	</entry>
 	<entry>
 		<string>User Name:</string>
-		<translation></translation>
+		<translation>Användarnamn:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="147" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="117" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="106" />
 		</references>
 	</entry>
 	<entry>
 		<string>Email address for this user</string>
-		<translation></translation>
+		<translation>E-postadress för den här användaren</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="153" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="123" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="111" />
 		</references>
 	</entry>
 	<entry>
 		<string>Status of this user</string>
-		<translation></translation>
+		<translation>Statusen för den här användare</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="160" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="130" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="119" />
 		</references>
 	</entry>
 	<entry>
 		<string>Status:</string>
-		<translation></translation>
+		<translation>Status:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="161" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="131" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="122" />
 		</references>
 	</entry>
 	<entry>
 		<string>Password for this user</string>
-		<translation></translation>
+		<translation>Lösenord för den här användaren</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="188" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="158" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="180" />
 		</references>
 	</entry>
 	<entry>
 		<string>Confirm password for this user</string>
-		<translation></translation>
+		<translation>Bekräfta lösenordet för den här användaren</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="195" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="165" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="188" />
 		</references>
 	</entry>
 	<entry>
 		<string>Confirm Password:</string>
-		<translation></translation>
+		<translation>Bekräfta lösenord:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="196" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="166" />
 			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="191" />
 		</references>
 	</entry>
@@ -1063,10 +1053,10 @@
 		<string>Group</string>
 		<translation>Grupp</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="266" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="76" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="270" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="81" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="193" />
+			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="74" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="183" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="215" />
 		</references>
 	</entry>
 	<entry>
@@ -1075,7 +1065,7 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="60" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="218" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="124" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="118" />
 		</references>
 	</entry>
 	<entry>
@@ -1086,7 +1076,7 @@
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="78" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="231" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="266" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="125" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="119" />
 		</references>
 	</entry>
 	<entry>
@@ -1096,7 +1086,7 @@
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="122" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="275" />
 			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="21" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="242" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="230" />
 		</references>
 	</entry>
 	<entry>
@@ -1105,7 +1095,7 @@
 		<references>
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="133" />
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="290" />
-			<reference file="modules/roles/xartemplates/user-new.xd" line="21" />
+			<reference file="modules/roles/xartemplates/user-new.xd" line="46" />
 			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="31" />
 		</references>
 	</entry>
@@ -1130,7 +1120,7 @@
 		<translation>Markera samtliga</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="332" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="360" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="348" />
 		</references>
 	</entry>
 	<entry>
@@ -1138,104 +1128,96 @@
 		<translation>Avmarkera samtliga</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-purge.xd" line="335" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="363" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="351" />
 		</references>
 	</entry>
 	<entry>
 		<string>User</string>
 		<translation>Användare</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="77" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="274" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="84" />
-		</references>
-	</entry>
-	<entry>
-		<string>Test Privileges</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="75" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="222" />
+			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="75" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="187" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="218" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name</string>
 		<translation>Namn</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="104" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="193" />
-			<reference file="modules/roles/xartemplates/user-display.xd" line="36" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="61" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="128" />
+			<reference file="modules/roles/xartemplates/user-display.xd" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>Realm</string>
 		<translation>Domän</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="108" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="197" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="106" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="160" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="246" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="63" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="130" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="75" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="113" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="166" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module</string>
 		<translation>Modul</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="112" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="201" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="110" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="164" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="250" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="65" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="132" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="77" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="117" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="170" />
 		</references>
 	</entry>
 	<entry>
 		<string>Component</string>
 		<translation>Komponent</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="115" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="204" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="113" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="167" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="253" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="66" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="133" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="78" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="120" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>Instance</string>
 		<translation>Instans</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="118" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="207" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="116" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="170" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="256" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="67" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="134" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="79" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="123" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="176" />
 		</references>
 	</entry>
 	<entry>
 		<string>Level</string>
 		<translation>Nivå</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="121" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="210" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="119" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="173" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="259" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="68" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="135" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="80" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="126" />
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="179" />
 		</references>
 	</entry>
 	<entry>
 		<string>None</string>
 		<translation>Ingen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="158" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="247" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="318" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="92" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="161" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="306" />
 		</references>
 	</entry>
 	<entry>
 		<string>TITLE</string>
-		<translation></translation>
+		<translation>TITEL</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="248" />
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="236" />
 			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="19" />
 		</references>
 	</entry>
@@ -1253,77 +1235,51 @@
 		<references>
 			<reference file="modules/roles/xartemplates/user-checkage.xd" line="2" />
 			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-new.xd" line="13" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="2" />
+			<reference file="modules/roles/xartemplates/user-new.xd" line="35" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="3" />
 			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Registration / Login</string>
-		<translation>Registrering / Inloggning</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="3" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
 		<string>Username</string>
 		<translation>Användarnamn</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="10" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="16" />
-			<reference file="modules/roles/xartemplates/user-requestpw.xd" line="11" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="10" />
-			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="16" />
-			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="40" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="130" />
-			<reference file="modules/roles/xaruser/register.php" line="342" />
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="11" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="19" />
+			<reference file="modules/roles/xartemplates/user-requestpw.xd" line="8" />
+			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="15" />
+			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="39" />
+			<reference file="modules/roles/xaruser/getvalidation.php" line="129" />
+			<reference file="modules/roles/xaruser/register.php" line="340" />
 		</references>
 	</entry>
 	<entry>
 		<string>Password</string>
 		<translation>Lösenord</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="25" />
-			<reference file="modules/roles/xartemplates/user-new.xd" line="46" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="41" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="21" />
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="20" />
+			<reference file="modules/roles/xartemplates/user-new.xd" line="83" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="47" />
 			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="80" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forget your password?</string>
-		<translation>Glömt lösenordet?</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="31" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Remember me</string>
-		<translation>Kom ihåg mig</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="36" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Display Name</string>
 		<translation>Visningsnamn</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="13" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="24" />
+			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="12" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="28" />
 			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="53" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="106" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="117" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="105" />
+			<reference file="modules/roles/xartemplates/user-view.xd" line="116" />
 		</references>
 	</entry>
 	<entry>
 		<string>E-mail Address</string>
 		<translation>E-postadress</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="17" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="32" />
+			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="16" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="37" />
 		</references>
 	</entry>
 	<entry>
@@ -1338,7 +1294,7 @@
 		<string>Confirm Password</string>
 		<translation>Bekräfta lösenord</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-new.xd" line="54" />
+			<reference file="modules/roles/xartemplates/user-new.xd" line="95" />
 			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="89" />
 		</references>
 	</entry>
@@ -1523,40 +1479,49 @@
 		<translation>Integritetspolicy</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/user-privacy.xd" line="33" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="63" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="90" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="71" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="97" />
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="41" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="62" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="63" />
-			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="39" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="66" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="67" />
+			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>Terms of Use</string>
 		<translation>Användarvillkor</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="40" />
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="88" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="77" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="90" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="31" />
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="39" />
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="87" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="84" />
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="97" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="25" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="32" />
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="38" />
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="39" />
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="41" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="58" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="99" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="125" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="62" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="103" />
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="129" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="130" />
-			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="46" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="133" />
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="134" />
+			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please see our</string>
 		<translation>Var god se vår</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="88" />
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="87" />
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Details</string>
+		<translation>Användardetaljer</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="110" />
+			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
@@ -1565,24 +1530,24 @@
 		<references>
 			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="42" />
 			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="62" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="131" />
-			<reference file="modules/roles/xaruser/register.php" line="343" />
+			<reference file="modules/roles/xaruser/getvalidation.php" line="130" />
+			<reference file="modules/roles/xaruser/register.php" line="341" />
 		</references>
 	</entry>
 	<entry>
 		<string>Problem sending welcome email</string>
 		<translation>Ett problem uppstod när välkomstbrevet skickades</translation>
 		<references>
-			<reference file="modules/roles/xaruser/getvalidation.php" line="114" />
-			<reference file="modules/roles/xaruser/register.php" line="385" />
+			<reference file="modules/roles/xaruser/getvalidation.php" line="113" />
+			<reference file="modules/roles/xaruser/register.php" line="383" />
 		</references>
 	</entry>
 	<entry>
 		<string>Log In</string>
 		<translation>Logga in</translation>
 		<references>
-			<reference file="modules/roles/xaruser/register.php" line="53" />
-			<reference file="modules/roles/xaruser/showloginform.php" line="29" />
+			<reference file="modules/roles/xaruser/register.php" line="51" />
+			<reference file="modules/roles/xaruser/showloginform.php" line="28" />
 			<reference file="modules/roles/xartemplates/blocks/login.xd" line="27" />
 		</references>
 	</entry>
@@ -1590,67 +1555,44 @@
 		<string>That email address is either reserved or not allowed on this website</string>
 		<translation>Den e-postadressen är antingen reserverad eller inte tillåten på den här webbplatsen</translation>
 		<references>
-			<reference file="modules/roles/xaruser/register.php" line="221" />
-			<reference file="modules/roles/xaruser/usermenu.php" line="166" />
+			<reference file="modules/roles/xaruser/register.php" line="219" />
+			<reference file="modules/roles/xaruser/usermenu.php" line="168" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your password must be #(1) characters long.</string>
 		<translation>Ditt lösenord måste vara #(1) tecken långt</translation>
 		<references>
-			<reference file="modules/roles/xaruser/register.php" line="235" />
-			<reference file="modules/roles/xaruser/register.php" line="236" />
-			<reference file="modules/roles/xaruser/usermenu.php" line="102" />
+			<reference file="modules/roles/xaruser/register.php" line="233" />
+			<reference file="modules/roles/xaruser/register.php" line="234" />
+			<reference file="modules/roles/xaruser/usermenu.php" line="104" />
 		</references>
 	</entry>
 	<entry>
 		<string>The passwords do not match</string>
 		<translation>Lösenorden överensstämmer inte</translation>
 		<references>
-			<reference file="modules/roles/xaruser/register.php" line="242" />
-			<reference file="modules/roles/xaruser/usermenu.php" line="110" />
+			<reference file="modules/roles/xaruser/register.php" line="240" />
+			<reference file="modules/roles/xaruser/usermenu.php" line="112" />
 		</references>
 	</entry>
 	<entry>
 		<string>Problem sending confirmation email</string>
 		<translation>Ett problem uppstod när bekräftelsebrevet skickades</translation>
 		<references>
-			<reference file="modules/roles/xaruser/register.php" line="429" />
-			<reference file="modules/roles/xaruser/usermenu.php" line="209" />
+			<reference file="modules/roles/xaruser/register.php" line="427" />
+			<reference file="modules/roles/xaruser/usermenu.php" line="211" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong arguments to roles_userapi_get.</string>
 		<translation>Felaktiga argument till roles_userapi_get.</translation>
 		<references>
-			<reference file="modules/roles/xaruserapi/get.php" line="31" />
-			<reference file="modules/roles/xaruserapi/get.php" line="37" />
-			<reference file="modules/roles/xaruserapi/getactive.php" line="25" />
-			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="32" />
-			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>selection</string>
-		<translation>urval</translation>
-		<references>
-			<reference file="modules/roles/xarproperties/Dynamic_GroupList_Property.php" line="97" />
-			<reference file="includes/properties/Dynamic_Select_Property.php" line="54" />
-			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1)</string>
-		<translation>Ogiltig #(1)</translation>
-		<references>
-			<reference file="modules/roles/xarproperties/Dynamic_GroupList_Property.php" line="160" />
-			<reference file="modules/roles/xarproperties/Dynamic_GroupList_Property.php" line="167" />
-			<reference file="includes/properties/Dynamic_Select_Property.php" line="100" />
-			<reference file="includes/properties/Dynamic_Select_Property.php" line="329" />
-			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="154" />
-			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="175" />
-			<reference file="modules/roles/xarproperties/Dynamic_UserList_Property.php" line="292" />
-			<reference file="modules/roles/xarproperties/Dynamic_Username_Property.php" line="84" />
+			<reference file="modules/roles/xaruserapi/get.php" line="30" />
+			<reference file="modules/roles/xaruserapi/get.php" line="36" />
+			<reference file="modules/roles/xaruserapi/getactive.php" line="24" />
+			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="30" />
+			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="36" />
 		</references>
 	</entry>
 </translations>

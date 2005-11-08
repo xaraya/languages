@@ -29,93 +29,136 @@
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;p&gt;For example, if you want to have a pubtype &quot;cooking recipe&quot;. This
-pubtype could be to store the ingredients of the meal, thus there would
-be required a list of input fields: ingredient1, quantity1,
-pic1(extended info :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;
-&lt;p&gt;The disadvantage of this is the high number of fields to ensure, that
-there your users aren't going against the limit. Furthermore there are
-always displayed all input fields. And of course it's not a very nice
-way to do it.&lt;/p&gt;
-&lt;p&gt;As I didn't know how to do this better, I had a dream about a module,
-which can be hooked from any other module and which is able to display /
-provide editing / etc. for subitems to an item. I had a dream about a
-table, which saves the information, which DD-Object stores the subitems
-of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which
-DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object
-(1 to n Relation). I had the dream to share my module with the community.
-Now, the module is here, and all dreams got true. If you didn't get my
-technical information, don't worry. &lt;/p&gt;</string>
-		<translation>&lt;p&gt;Till exempel: om du vill ha publiceringstypen &quot;matlagningsrecept&quot;. Den publiceringstypen skulle då användas för att lagra måltidens ingredienser genom att kräva en lista med textfält för ingrediens 1, kvantitet 1, bild 1 (utökad info :-) ), ingrediens 2, kvantitet 2,....&lt;/p&gt;&lt;p&gt;Nackdelen med det är det stora antal fält som krävs för att användaren inte passerar maxgränsen. Dessutom visas alla textfälten på en gång och det är förstås, inte så bra sätt att göra det på.&lt;/p&gt;&lt;p&gt;Eftersom jag inte visste hur man skulle kunna göra det bättre så drömde jag upp en modul som kan kopplas från vilken annan modul som helst och som kan visa, ge möjlighet till redigering, o s v , för underposter till en post. Jag hade en dröm om en tabell som sparar informationen, vilket DD-objekt som sparar modulens &quot;underposter&quot; / &quot;posttyp&quot; –kombination och en annan tabell som innehåller vilka DD-postID som tillhör &quot;modul&quot;/&quot;posttyp&quot;/&quot;postID&quot; i detta DD-objekt (i relationen 1 till n). Jag hade drömmen om att delge min modul med er andra. Nu är modulen här och alla mina drömmar besannades. Om du inte förstod min tekniska information, så ta det lugnt.&lt;/p&gt;</translation>
+		<string>For example, if you want to have a publication type (pubtype) &quot;cooking recipe&quot;. This pubtype could be to store the ingredients of the meal, thus there would be required a list of input fields: ingredient1, quantity1,
+pic1(extended info :-) ) , ingredient2, quantity2, pic2,...</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The disadvantage of this is the high number of fields. To ensure that your users aren't going against the limit there... Furthermore all input fields would always be displayed. That is of course not a very nice
+way to accomplish this.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>As I didn't know how to do this better, I had a dream about a module, which can be hooked from any other module and which is able to display /
+provide editing / etc. subitems to an item. I had a dream about a table, which saves the information, which DD-Object stores the subitems
+of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object
+(1 to n Relation). I had the dream to share my module with the community. Now, the module is here, and all dreams got true. If you didn't get my
+technical information, don't worry.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hur fungerar det?</translation>
 		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Install the module (done by now, as you are seeing this page)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to Admin &gt; DynamicData &gt; View Objects &gt;</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create New</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>There, create a new dynamic data object
+, which should hold the subitem information.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to Dynamic Data &gt; View Objects &gt; Edit [YOUR OBJECT] &gt; Modify Dynamic Properties and add properties (fields). You must have at least one field with a chosen label, Property Type of ItemID, default of 0 and Status of Display Only.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to Admin &gt; Subitems module (admin area) &gt; Add link. There, choose the object you have just created, the module and the itemtype that you will attach this property to.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Go to the module Modules &gt; Configure Hooks. Choose the Subitems module and enable the hook for the module /itemtype combination, that you just created the link for</string>
+		<translation></translation>
+		<references>
 			<reference file="modules/subitems/xartemplates/admin-main.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;ol&gt;
-&lt;li&gt; install module&lt;/li&gt;
-&lt;li&gt; goto dynamicdata admin area, new object, create a dynamic data object
-, which should hold the subitem information (you must have one field
-with the ItemID, default 0, display only) -&gt; remember the objectid, edit
-label (used for display) and name (used for custom default template)&lt;/li&gt;
-&lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from
-previsously created dd-object), module name, itemtype&lt;/li&gt;
-&lt;li&gt; goto module modules, hooks -&gt; subitems -&gt; enable the hook for the
-module /itemtype combination, you created the link for&lt;/li&gt;
-&lt;/ol&gt;
--&gt; now it should work (tested with custom pubtype)</string>
-		<translation>&lt;ol&gt;&lt;li&gt;installera modulen&lt;li&gt;gå till administrationsområdet för dynamiska data, nytt objekt, och skapa ett dynamiskt dataobjekt som bör innehålla underpostens information (du måste ha ett fält med postID, förinställt 0, endast visning) -&gt; kom ihåg objektID, redigera etikett (används för visning) och namn (används för anpassad förinställd mall)&lt;li&gt;gå till underpostmodulen, adminområdet -&gt; lägg till länk -&gt;skriv in objektID (från föregående skapat DD-objekt), modulnamnet, posttyp&lt;li&gt;gå till modul-modulen, kopplingar -&gt; underposter -&gt; aktivera koppling för den modul/posttyp -kombination som du skapade länken för&lt;/ol&gt;-&gt; nu borde det fungera (testad med anpassad publikationstyp)</translation>
+		<string>Now it should work (It has been tested with custom pubtypes)</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Inkluderade block</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="59" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>none</string>
 		<translation>inga</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Inkluderade kopplingar</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="67" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>new/create/modify/update/delete -- Allows you to create/update sub-items</string>
 		<translation>ny/skapa/modifiera/uppdatera/ta bort -- gör det möjligt för dig att skapa/uppdatera underpostere</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="72" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
 		<string>display -- Allows you to display sub-items</string>
 		<translation>visning --gör det möjligt för dig att visa underposter</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="73" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Extended information about this module can be found here. [modules module]</string>
 		<translation>Utökad information om denna modul kan hittas här. [moduler-modulen]</translation>
 		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="78" />
+			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
 		</references>
 	</entry>
 </translations>

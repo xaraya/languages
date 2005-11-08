@@ -16,8 +16,8 @@
 	</entry>
 	<entry>
 		<string>This tag will automatically retrieve the item from DynamicData,
-and present it according to its user-objectdisplay.xd template.</string>
-		<translation>Den här taggen kommer automatiskt att hämta posten från dynamiskdata och presentera den enligt sin user-objectdisplay.xd mall.</translation>
+and present it according to its standard objects/showdisplay.xd template.</string>
+		<translation>Den här taggen kommer automatiskt att hämta posten från Dynamiskdata, och visa den enligt dess standard objects/showdisplay.xd mall.</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
 		</references>
@@ -46,7 +46,7 @@ make them available in the 'properties' variable in your template.</string>
 	</entry>
 	<entry>
 		<string>let's be bold now</string>
-		<translation>Våga vara djärva nu</translation>
+		<translation>var modig nu</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="40" />
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="67" />
@@ -61,15 +61,15 @@ make them available in the 'properties' variable in your template.</string>
 		</references>
 	</entry>
 	<entry>
-		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;,</string>
-		<translation>Efter hämtning av objekten via API kan du skicka vidare hela objektet till mallen och använda &amp;lt;xar:data-display object=&quot;$object&quot;&amp;gt;,</translation>
+		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt; to let DynamicData handle the display. Or you can use &amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; if you want to provide your own display template in this module :</string>
+		<translation>Efter att ha hämtat objektet via API, kan du skicka vidrae hela objektet till mallen och använda &amp;lt;xar:data-display object=&quot;$object&quot; /gt; för att låta Dynamiskdata hantera visningen. Eller så kan du använda &amp;lt;xar-data-display object&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; om du vill ha din egen visningsmall i den här modulen:</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
-		<string>or pass along the properties and work like in APPROACH # 2.</string>
-		<translation>eller skicka vidare egenspaerna och arbeta som i infallsvinkel # 2.</translation>
+		<string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string>
+		<translation>Annars kan du skicka vidare egenskaperna och jobba som i Infallsvinkel # 2.</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="57" />
 		</references>

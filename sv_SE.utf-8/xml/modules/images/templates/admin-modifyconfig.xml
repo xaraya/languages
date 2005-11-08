@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
-		<string>Images Administration</string>
-		<translation>Bilder administration</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
 		<string>Modify Images Configuration</string>
-		<translation>Ändra konfiguration för Bilder</translation>
+		<translation>Ändra bildkonfiguration</translation>
 		<references>
 			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
-		<string>Derivatives Storage Directory</string>
-		<translation>Sökväg till bildkatalog</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
 		<string>This is the full path to the directory where Derivative images will be stored.
-It is stronly recommended that this directory be located outside of your web directory.
+It is strongly recommended that this directory be located outside of your web directory.
 &lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
-		<translation>Detta är den fullständiga sökvägen till katalogen där de härledda bilderna kommer att lagras. Det är starkt rekommenderat att katalogen ligger utanför din webb-katalog. &lt;br /&gt;Notera: Katalogen MÅSTE vara skrivbar för webbservern.</translation>
+		<translation>Det här är den kompletta sökvägen till katalogen där derivatbilder kommer sparas. Det är varmt rekommenderat att den här katalogen är placerad utanför din webbkatalog. &lt;br /&gt;Notera: Den här katalogen måste vara skrivbar av webbservern.</translation>
 		<references>
 			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="23" />
 		</references>
@@ -47,24 +33,68 @@ It is stronly recommended that this directory be located outside of your web dir
 		</references>
 	</entry>
 	<entry>
+		<string>ImageMagick 'convert' program:</string>
+		<translation>ImageMagick 'konverterings' program:</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;
+&lt;strong&gt;Example:&lt;/strong&gt; /usr/local/bin/convert (Unix) or C:\Program Files\ImageMagick-6.0.6-Q16\convert.exe (Windows)
+&lt;/em&gt;</string>
+		<translation>&lt;em&gt; &lt;strong&gt;Exempel:&lt;/strong&gt; /usr/local/bin/convert (Unix) eller C:\Program FIles\ImageMagick-6.0.6-Q16\convert.exe (Windows) &lt;/em&gt;</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
 		<string>Support Short URLs</string>
 		<translation>Stöd för korta webbadresser</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="55" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="69" />
 		</references>
 	</entry>
 	<entry>
 		<string>This will cause urls to be displayed in a condescenced format.</string>
 		<translation>Detta medför att webbadresser kommer visas i ett avkortat format.</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="64" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cache server file information:</string>
+		<translation>Cacheserver filinformation:</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>seconds</string>
+		<translation>sekunder</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per page in admin view:</string>
+		<translation>Poster per sida i adminvyn:</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base directories for browsing server images:</string>
+		<translation>Baskataloger för sökning av serverbilder:</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="103" />
 		</references>
 	</entry>
 	<entry>
 		<string>Update Configuration</string>
 		<translation>Uppdatera konfiguration</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="68" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="144" />
 		</references>
 	</entry>
 </translations>

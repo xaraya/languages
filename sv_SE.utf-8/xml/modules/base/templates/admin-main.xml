@@ -9,13 +9,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Overview</string>
-		<translation>Översikt</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="14" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Vad är det?</translation>
 		<references>
@@ -23,8 +16,8 @@
 		</references>
 	</entry>
 	<entry>
-		<string>The Base Module controls the behind the scenes processing for your Xaraya installation.</string>
-		<translation>Bas-modulen kontrollerar den bakomliggande behandlingen av din Xaraya-installation</translation>
+		<string>The base module provides you with configuration and informational options in the Administration menu, as well as additional functionality through use of its templates and blocks.</string>
+		<translation>Basmodulen ger dig konfigurations- och informationalternativ i administrationsmenyn, men även andra funktioner genom användandet av mallar och block.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="19" />
 		</references>
@@ -37,136 +30,347 @@
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have three choices.</string>
-		<translation>Från menyn har du tre alternativ.</translation>
+		<string>The Administration menu allows you to have control over various global aspects on your site and includes:</string>
+		<translation>Administrationsmenyn ger dig kontroll över vissa almmänna inställningar för din webbplats och inkluderar:</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
-		<string>View System Information: Allows you to print your server and php set-up for trouble shooting.</string>
-		<translation>Visa systeminformation: Låter dig skriva ut din server och PHP-inställning för felsökning.</translation>
+		<string>The Administration menu is key to controlling global functionality on your site and includes:</string>
+		<translation>Administrationsmenyn är nyckeln till att kontrollera allmänna funktioner på din webbplats och inkluderar:</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>System Information: Allows you to view your server and php set-up for trouble shooting.</string>
+		<translation>Systeminformation: Låter dig se dina server- och PHP-inställningar för felsökning.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="26" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extension Releases: Allows you to view recently released extensions.</string>
-		<translation>Tilläggsutgåvor: Låter dig se nyligen utgivna tillägg.</translation>
+		<string>Extension Releases: View recently releasedextensions from the xaraya.com Extension and Release RSS feed.</string>
+		<translation>Tilläggsutgävor: Se nyligen utgivna tillägg från Xaraya.com:s Extension och Release RSS-matning.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Config: Allows you to change some of the settings controlling the core behaviour of the site.</string>
-		<translation>Ändra konfiguration: Låter dig ändra vissa inställningar som kontrollerar webbplatsens beteende.</translation>
+		<string>Modify Config: Allows you to change some of the key settings controlling the core behaviour of the site.</string>
+		<translation>Ändra konfiguration: Låter dig ändra vissa viktiga inställningar som kontrollerar grundbeteendet för webbplatsen.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default module providing display on your site's front page</string>
+		<translation>Standardmodul för visning som din förstasida</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Short URL Master switch</string>
+		<translation>Korta webbadresser huvudväljare</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Languages, Locales and Security</string>
+		<translation>Språk, språkområden cosh Säkerhet</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cookie settings, and other defaults such as WYWIWYG editor</string>
+		<translation>Kakinställningar och andra standardinställningar som WYSIWYG-regigerare</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="31" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>finclude: Include a file as block content.</string>
 		<translation>finclude: Inkludera en fil som blockinnehåll.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>html: Enter HTML as block content.</string>
 		<translation>html: Skriva in HTML som blockinnehåll.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="35" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>menu: Construct menus.</string>
 		<translation>meny: Skapa menyer.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="36" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>php: Execute PHP code in a block.</string>
 		<translation>php: Kör PHP-kod i ett block.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>text: Include plain text in a block.</string>
 		<translation>text: Inkludera text i ett block.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Medföljande kopplingar</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Base Module has no hooks included at this time.</string>
-		<translation>Bas-modulen har inga medföljande kopplingar just nu.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Other Information</string>
-		<translation>Annan information</translation>
-		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="45" />
 		</references>
 	</entry>
 	<entry>
-		<string>RSS Class</string>
-		<translation>RSS-klass</translation>
+		<string>&lt;strong&gt;Expire a Block&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Blockupphörning&lt;/strong&gt;</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>The RSS capabilities in Xaraya use &lt;a href=&quot;http://freshmeat.net/projects/phpfeedparser/?topic_id=914&quot;&gt;PHP feedParser&lt;/a&gt; as their backend. The notes for the feedParser by Reverend Jim are as follows:</string>
-		<translation>RSS-möjligheterna i Xaraya använder &lt;a href=&quot;http://freshmeat.net/projects/phpfeedparser/?topic_id=914&quot;&gt;PHP feedParser&lt;/a&gt; som backend. Anteckningarna för feedParser av Reverend Jim är som följer:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>feedParser was created due to the lack of a good, flexible, class-based RSS feed parser for PHP. It has been built as a class, and currently handles RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, and RSS 2.0 feeds. For channels it grabs the title, description, link, and creator. For items it grabs the title, description, link, and date. It also provides a form of the date converted into the local timezone to facilitate chronological sorting of items. The dates are provided in UNIX timestamp format for easy manipulation by other PHP functions.</string>
-		<translation>feedParser utvecklades på grund av bristen på en bra, flexibel, klassbaserad RSS matningstolk till PHP. Den är byggd som en klass och kan i nuläget hantera RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0 och RSS 2.0 matningar. För kanalerna tar den titel, beskrivning, länk och skapare. För poster tar den titel, beskrivning, länk och datum. Den tillhandahåller även datum i en form som är konverterad till den lokala tidszonen för att förenkla kronologisk sortering av posterna. Datumen tillhandahålls i UNIX-tidsmärkt format för enkel manipulering av andra PHP-funktioner.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>Expire a Block</string>
-		<translation>Låt ett block upphöra</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="56" />
 		</references>
 	</entry>
 	<entry>
 		<string>Currently, the HTML and Text blocks can both expire content if you wish. If you have a message that you would like to only have visible for a certain period of time, you can expire the block. This functionality can be used in conjunction with any placement or block group that you assign the block.</string>
 		<translation>För närvarande kan både HTML och Text-block låta innehåll upphöra om du så önskar. Om du har ett meddelande som du bara vill ha synligt under en viss tidsperiod kan du låta blocket upphöra. Den här funktionaliteten kan användas i tillsammans med vilken placering eller blockgrupp som helst som du tilldelar blocket.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="59" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="50" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation>Utökad information om den här modulen finner du här. [modules module]</translation>
+		<string>Included Hooks</string>
+		<translation>Medföljande kopplingar</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Base Module has no hooks included at this time.</string>
+		<translation>Bas-modulen har för tillfället inga medföljande kopplingar.</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic Data Properties</string>
+		<translation>Dynamisk data-egenskaper</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Base Module provides a number of Dynamic Data properties that you can use to extend existing Xaraya functionality by hooking Dynamic Data to your modules, or for developers, for use in your own module development.</string>
+		<translation>Basmodulen ger ett antal dynamiska data-egenskaper som du kan använda för att utöka befintliga Xaraya funktioner genom att koppla Dynamisk data till dina moduler, eller för utvecklare, för användning i din egen modulutveckling.</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Custom Templates</string>
+		<translation>Anpassade mallar</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>As well as providing a means to provide a custom template for your front page by creating an override for the base user-main.xd template,
+you can also create further custom 'static' pages using base module templates. See the documentation for further information.</string>
+		<translation>Likväl som den kan användas för att använda en anpassad mall för din förstasida genom att skapa en åtsidosättande mall för user-main.xd basmallen, kan du även skapa ytterligare anpassade 'statiska' sidor genom att använda basmodulmallar. Se dokumentationen för mer information.</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Custom Tags</string>
+		<translation>Anpassade taggar</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Base Module provides a number of custom tags that can be used by theme creators and module developers to incorporate javascript into templates. These include the &lt;code&gt;&amp;lt;xar:base-render-javascript ... /&amp;gt;, &amp;lt;xar:base-include-javascript ... /&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:base-trigger-javascript ... /&amp;gt;&lt;/code&gt; tags. See the documentation for more information.</string>
+		<translation>Basmodulen tillhandahåller ett antal anpassade taggar som kan användas av temaskapare och modulutvecklare för att infoga javakript i mallar. Dessa inkluderar &lt;code&gt;&amp;lt;xar:base-render-javascript ... /&amp;gt;, &amp;lt;xar:base-include-javascript ... /&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:base-trigger-javascript ... /&amp;gt;&lt;/code&gt; taggarna. Se dokumentationen för mer information.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privilege Masks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can set privileges for this module based on the following included masks:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>ViewBase</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>ReadBase</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>AdminBase</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>ViewBaseBlocks, ReadBaseBlocks, EditBaseBlocks, AddBaseBlocks, DeleteBaseBlocks, AdminBaseBlocks.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>See the documentation for further information on privileges, masks and configuring them in your system.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>For Developers</string>
+		<translation>För utvecklare</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Base module contains a number of useful classes and miscellaneous functions including:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>RSS Class</string>
+		<translation>RSS-klass</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>The RSS capabilities in Xaraya use &lt;a href=&quot;http://freshmeat.net/projects/phpfeedparser/?topic_id=914&quot;&gt;PHP feedParser&lt;/a&gt; as their backend. The notes for the feedParser by Reverend Jim are as follows:</string>
+		<translation>RSS-möjligheterna i Xaraya använder &lt;a href=&quot;http://freshmeat.net/projects/phpfeedparser/?topic_id=914&quot;&gt;PHP feedParser&lt;/a&gt; som backend. Anteckningarna för feedParser av Reverend Jim är som följer:</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>feedParser was created due to the lack of a good, flexible, class-based RSS feed parser for PHP. It has been built as a class, and currently handles RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, and RSS 2.0 feeds. For channels it grabs the title, description, link, and creator. For items it grabs the title, description, link, and date. It also provides a form of the date converted into the local timezone to facilitate chronological sorting of items. The dates are provided in UNIX timestamp format for easy manipulation by other PHP functions.</string>
+		<translation>feedParser utvecklades på grund av bristen på en bra, flexibel, klassbaserad RSS matningstolk till PHP. Den är byggd som en klass och kan i nuläget hantera RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0 och RSS 2.0 matningar. För kanalerna tar den titel, beskrivning, länk och skapare. För poster tar den titel, beskrivning, länk och datum. Den tillhandahåller även datum i en form som är konverterad till den lokala tidszonen för att förenkla kronologisk sortering av posterna. Datumen tillhandahålls i UNIX-tidsmärkt format för enkel manipulering av andra PHP-funktioner.</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>Curl Class</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>XML Parser Class</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Ytterligare informatione</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Base module can be found at</string>
+		<translation>Mer information om basmodulen finns </translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base Module Extension page at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base Module - Xaraya Extension 68</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på Version historia-fliken nederst för att få senaste information om utgåvan.</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="101" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Base Module found at</string>
+		<translation>Relaterade guider och dokumentation om Basmodulen finns</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Base</string>
+		<translation>Relaterad dokumenation om Bas</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya-dokumentation.</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base Module - Overview</string>
+		<translation>Basmodul - Översikt</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/base/xartemplates/admin-main.xd" line="107" />
 		</references>
 	</entry>
 </translations>

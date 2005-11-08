@@ -1,246 +1,279 @@
 <?xml version="1.0" encoding="utf-8"?>
-<translations xmlns="http://xaraya.com/2002/ns/translations" locale="se_SE.utf-8">
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>Modify Multisites Configuration</string>
-		<translation></translation>
+		<translation>Ändra Multisites konfiguration</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="2" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
 		<string>Set Multisite Configuration</string>
-		<translation></translation>
+		<translation>Ställ in Multisites konfiguration</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="5" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="11" />
 		</references>
 	</entry>
 	<entry>
 		<string>This option will gather some server configuration data and then modify your main config.system.php file.
-        Once this is complete, this site will become the Master site from which you can create other (sub)sites. Usually this operation is only carried out once. If there is a change in your server configuration, you may need to reconfigure this Master site using this option.&lt;br /&gt;&lt;br /&gt;
-        Before you continue, please make sure that you</string>
-		<translation></translation>
+Once this is complete, this site will become the Master site from which you can create other (sub)sites. Usually this operation is only carried out once. If there is a change in your server configuration, you may need to reconfigure this Master site using this option.&lt;br /&gt;&lt;br /&gt;
+Before you continue, please make sure that you</string>
+		<translation>Det här alternativet kommer samla in viss serverkonfigurationsdata och sen ändra din huvud config.system.php. När detta är avklarat, kommer den här webbplatsen bli huvudwebbplatsen från vilken du kan skapa andra (under)webbplatser. Vanligtvis sker denna operation en gång. Om det sker en förändring i din serverkonfiguration, kanske du blir tvungen att återkonfigurera huvudwebbplatsen med det här alternativet. &lt;br /&gt;&lt;br /&gt;  Innan du fortsätter, vänligen säkerställ att du</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="9" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
-		<string>Create the Master Data folder '$masterfolder' in your main Xaraya install directory. This is where your(sub)site configuration information is stored.  If you wish to change the name of the Master Data Folder, make sure you update the name in the form below to your Master Data folder name.
-                    Important: Make sure your Master Data folder is writable chmod777 before you continue.</string>
-		<translation></translation>
+		<string>Create the Master Data folder '$masterfolder' in your main Xaraya install directory. This is where your(sub)site configuration information is stored. If you wish to change the name of the Master Data Folder, make sure you update the name in the form below to your Master Data folder name.
+Important: Make sure your Master Data folder is writable chmod777 before you continue.</string>
+		<translation>Skapa huvuddata-katalogen '$masterfolder' i din huvud Xaraya installationskatalog. Det är här din (under)webbplatskonfigurations information är sparad. Om du önskar byta namn på huvuddata-katalogen, se till att du uppdaterar namnet i formuläret nedan till ditt huvuddata-katalognamn. Viktigt: Säkerställ att din huvuddata-katalog är skrivbar CHMOD 777 innan du fortsätter.</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="14" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Chmod 666 your main config.system.php file so this module can write to it.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Change Multisite Configuration</string>
-		<translation></translation>
+		<translation>Chmod 666 din huvud config.system.php-fil så att den här modulen kan skriva till den.</translation>
 		<references>
 			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;span style=&quot;color: red&quot;&gt;THIS SITE IS ALREADY CONFIGURED AS THE MASTER MULTISITE SITE.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;
-        You should only make changes to this configuration, if</string>
-		<translation></translation>
+		<string>Change Multisite Configuration</string>
+		<translation>Ändra Multisite-konfiguration</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="26" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
-		<string>You need to add or change the domains or subdomains 
-          extensions that you wish to use with multisites.</string>
+		<string>THIS SITE IS ALREADY CONFIGURED AS THE MASTER MULTISITE SITE.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="30" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>You should only make changes to this configuration, if</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>You need to add or change the domains or subdomains
+extensions that you wish to use with multisites.</string>
+		<translation>Du måste lägga till eller ändra domänernas eller underdomänernas tillägg som du önskar använda med flerwebbplaster-</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>You want to change the Master Data directory where subsite information is held. Note that if you do this, you must move any existing site data from your old Master Data Directory to your new one manually. This module will not move it for you.</string>
-		<translation></translation>
+		<translation>Dy vill byta plats på var huvuddata-informationen sparas. Notera att om du gör detta, måste du flytta all webbplatsdata från din gamla huvuddata-katalog till den nya manuellt. Den här modulen kommer inte flytta de åt dig.</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="34" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>You need to change the server configuration to HTTP_HOST or SERVER_NAME. This should only be required if you chose the wrong setup the first time round, or in some instances, if there has been changes to the server configuration where you host your
-                    site.</string>
-		<translation></translation>
+site.</string>
+		<translation>Du behöver ändra serverkonfigurationen till HTTP_HOST ellrt SERVER_NAME. Det borde endast behövas om du valde fel inställning vid första tillfället eller om det har skett förändringar i serverkonfigurationen där din webbplats ligger.</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="38" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you wish to continue with modifying your Multisites Configuration then</string>
-		<translation></translation>
+		<translation>Om du vill fortsätta ändra din Multisite-konfiguration så</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="41" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you are changing your Master SubSite Data folder, create this directory first, and make sure it is writable chmod 777.</string>
-		<translation></translation>
+		<translation>Om du ändrar din huvudunderwebbplats-katalog, skapa först den nya katalogen och säkerställ att den är skrivbara chmod 777.</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="45" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Chmod 666 your main config.system.php file (in the main var directory) so this module can write to it.
-                     When the Master Multisite Configuration is finished, make sure you chmod 444 your master config.system.php!</string>
-		<translation></translation>
+When the Master Multisite Configuration is finished, make sure you chmod 444 your master config.system.php!</string>
+		<translation>Chmod 666 din huvud config.system.php-fil (i huvud var-katalogen) så att den här modulen kan skriva till den. När huvud Multisite-konfigurationen är avslutad, säkerställ att du chmod 444 din huvud config.system.php!</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="49" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you wish to remove Multisites totally from this site</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>Chmod 666 /var/config.system.php. Deactivate and Remove the Multisites module in Administration - Modules - View All. Once deactivated, remember to chmod
-                    your config.system.php file back to 444.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Master Data Folder and subsite subdirectories are not removed by this action, and must be removed manually if required.</string>
-		<translation></translation>
+		<translation>Om du helt vill ta bort Multisites från den här webbplatsen</translation>
 		<references>
 			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
-		<string>Server Configuration</string>
-		<translation></translation>
+		<string>Chmod 666 /var/config.system.php. Deactivate and Remove the Multisites module in Administration - Modules - View All. Once deactivated, remember to chmod
+your config.system.php file back to 444.</string>
+		<translation>Chmod 666 /var/config.system.php. Inaktiverad och ta bort Multisites-modulen i Adminsitration - Moduler - Visa samtliga. När den är inaktiverad, kom ihåg att chmod din config.system.php-fil tillbaka till 444.</translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="68" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="63" />
 		</references>
 	</entry>
 	<entry>
-		<string>Multisites 
-          can use one of 2 possible variables, HTTP_HOST, or SERVER_NAME.&lt;br /&gt;
-          One or the other may not always work on your system, depending on the 
-          way your server is configured.</string>
+		<string>The Master Data Folder and subsite subdirectories are not removed by this action, and must be removed manually if required.</string>
+		<translation>Huvud datakatalogen och underwebbplats underkataloger tas inte bort av den här åtgärden utan måste tas bort manuelt om så behövs.</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Server Configuration</string>
+		<translation>Serverkonfiguration</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Multisites
+can use one of 2 possible variables, HTTP_HOST, or SERVER_NAME.&lt;br /&gt;
+One or the other may not always work on your system, depending on the
+way your server is configured.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="74" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>SERVER_NAME or HTTP_HOST</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="85" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your SERVER_NAME value&amp;nbsp;=&amp;nbsp;&amp;nbsp;</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="77" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="87" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your HTTP_HOST value&amp;nbsp;&amp;nbsp;=&amp;nbsp;</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="78" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>HTTP_HOST</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="82" />
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="85" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="97" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="100" />
 		</references>
 	</entry>
 	<entry>
 		<string>SERVER_NAME</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="83" />
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>If the HTTP_HOST value above displays your correct domain 
-          name, you should make sure HTTP_HOST is selected from the drop down 
-          box. &lt;br /&gt;
-          If the domain name for HTTP_HOST is incorrect, only then, change the 
-          value in the drop down box to SERVER_NAME.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="95" />
-		</references>
-	</entry>
-	<entry>
-		<string>File Paths &amp;amp; Domain Types</string>
-		<translation></translation>
-		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="98" />
 			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="101" />
 		</references>
 	</entry>
 	<entry>
-		<string>All path names are relative to the directory where Xaraya is installed.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="104" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Theme Path</string>
+		<string>If the HTTP_HOST value above displays your correct domain
+name, you should make sure HTTP_HOST is selected from the drop down
+box.</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="109" />
 		</references>
 	</entry>
 	<entry>
+		<string>If the domain name for HTTP_HOST is incorrect, only then, change the
+value in the drop down box to SERVER_NAME.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>File Paths &amp;amp; Domain Types</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>All path names are relative to the directory where Xaraya is installed.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Theme Path</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="129" />
+		</references>
+	</entry>
+	<entry>
 		<string>Default Var Path</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="117" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="137" />
+		</references>
+	</entry>
+	<entry>
+		<string>Master directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="146" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default Master Data Directory Path</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="126" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="147" />
 		</references>
 	</entry>
 	<entry>
 		<string>NOTE: Do not enter trailing slashes.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="130" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>Domain and subdomain extensions that you are using</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="156" />
 		</references>
 	</entry>
 	<entry>
 		<string>Domain &amp;amp; subdomain extensions</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="140" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="157" />
 		</references>
 	</entry>
 	<entry>
 		<string>Separate each by a comma (,)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="144" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="161" />
 		</references>
 	</entry>
 	<entry>
 		<string>The common extensions are .com, .net, .org.
-          However, if for example you use a subdomain or domain such as www.domain.biz
-          as a site, you will need to add the .biz extension to the list.</string>
+However, if for example you use a subdomain or domain such as www.domain.biz
+as a site, you will need to add the .biz extension to the list.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="151" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="167" />
 		</references>
 	</entry>
 </translations>

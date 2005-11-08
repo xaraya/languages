@@ -4,7 +4,7 @@
 		<string>Overview</string>
 		<translation>Översikt</translation>
 		<references>
-			<reference file="modules/workflow/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/workflow/xartemplates/admin-main.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
@@ -32,14 +32,14 @@ The description given here will be reflected in the Xaraya interface for the wor
 &lt;/p&gt;</string>
 		<translation>&lt;p&gt; Se &lt;a href=&quot;http://tikiwiki.org/tiki-index.php?page=GalaxiaWorkflow&quot;&gt;Galaxia introduktion och användarmanual&lt;/a&gt; för mer information om vad den här modulen gör och hur man använder den. &lt;/p&gt; &lt;p&gt; Dock så ska vi strax förklara dess definitioner. I workflow-modulen kan en distinktions göras mellan: &lt;ol&gt; &lt;li&gt; Definitionsdelen: processer och aktiviteter&lt;/li&gt; &lt;li&gt; Den körande delen: instancer och arbetsposter&lt;/li&gt; &lt;/ol&gt; &lt;/p&gt; &lt;p&gt; Så du &lt;em&gt;definierar&lt;/em&gt; processer med aktiviteter och du &lt;em&gt;kör&lt;/em&gt; instancer för att avklara arbetsposter. När du använder modulen kan du &lt;em&gt;hantera&lt;/em&gt; processer och aktiviteter. Det finns en tillgänglig funktion som &lt;em&gt;övervakar&lt;/em&gt; samtliga processer, aktiviteter, instanser och arbetsposter. Varje arbetspost kan avslutas av en eller flera processroller. I Xaraya, mappar du användare eller grupper i roll-modulen till dessa prcessroller. Beskrivningen här kommer visas i Xaraya-gränssnittet för workflow-modulen. &lt;/p&gt;</translation>
 		<references>
-			<reference file="modules/workflow/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/workflow/xartemplates/admin-main.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>Getting started</string>
 		<translation>Att komma igång</translation>
 		<references>
-			<reference file="modules/workflow/xartemplates/admin-main.xd" line="35" />
+			<reference file="modules/workflow/xartemplates/admin-main.xd" line="37" />
 		</references>
 	</entry>
 	<entry>
@@ -86,7 +86,7 @@ create your own fancy processes and submit them back to the open source communit
 &lt;/ol&gt;</string>
 		<translation>&lt;ol&gt; &lt;li&gt; säkerställ att webbservern kan skriva till katalogen &lt;code&gt;var/processes&lt;/code&gt; (chmod 777 eller mostvarande)&lt;/li&gt; &lt;li&gt; installera &lt;a href=&quot;http://www.research.att.com/sw/tools/graphviz/&quot;&gt;GraphViz&lt;/a&gt; om du vill kunna skapa trevliga processgrafer, och anpassa GRAPHVIZ_DIR i &lt;code&gt;modules/workflow/tiki-setup.php&lt;/code&gt; om nödvändigt; &lt;/li&gt; &lt;li&gt; gå till den Dynamiska data-modulen &lt;a href=&quot;index-php?module=dynamicdata&amp;amp;type=util&amp;amp;func=import&quot;&gt;Importera Objekt Definition&lt;/a&gt;-sidan och klistra in innehållet från filen &lt;ahref=&quot;modules/workflow/cdcollection3_dd.xml&quot;&gt;cdcollection3_dd.xml&lt;/a&gt; i textrutan för att skapa en  exempel databastabell; &lt;/li&gt; &lt;li&gt; gå till &lt;a href=&quot;index.php?module=workflow&amp;amp;type=admin&amp;amp;func=processes&quot;&gt;Adminprocesser&lt;/a&gt; och ladda upp filen &lt;a href=&quot;modules/workflow/cdcollection3.xml&quot;&gt;cdcollection3.xml&lt;/a&gt; för att skapa en exempelprocess; &lt;/a&gt; &lt;li&gt; mappa några Xaraya användare till 'admin' och 'user' workflowrollerna för den processerna, eller lägg till samtliga användare från en Xaraya grupp till en av workflow rollerna [ATTGÖRA: Galaxia stödjer för tilfället inte en permanent mappning mellan Xaraya grupper och workflow roller] &lt;/li&gt; &lt;li&gt;märk processen som &lt;i&gt;aktiv&lt;/i&gt; när du inte längre får felmeddelandet &quot;Roll: ... är inte mappad&quot; &lt;/li&gt; &lt;li&gt; gå till &lt;a href=&quot;index.php?module=workflow&quot;&gt;Workflow användargränssnitt&lt;/a&gt; och klicka dig runt :-) &lt;/li&gt; &lt;li&gt; kom tillbaka hit och prova på några av övervaknings- och administrationsalternativen &lt;/li&gt; &lt;li&gt; skapa dina egna tjusiga processer och gör dem tillgängliga för Open Source-anhängarna &lt;/li&gt; &lt;/ol&gt;</translation>
 		<references>
-			<reference file="modules/workflow/xartemplates/admin-main.xd" line="79" />
+			<reference file="modules/workflow/xartemplates/admin-main.xd" line="81" />
 		</references>
 	</entry>
 	<entry>
@@ -116,7 +116,7 @@ To try that out, you should :
 		<translation>&lt;p&gt; Not: det här är i stort sett en 1-till-1 konvertering av de aktuella Galaxia gränssnittskripten från TikiWiki och en snabb &amp;amp; smutsig konvertering av mallarna som medföljer dem. Exempel CD loan processen har modifierats en smula för att vara mer representativ för aktuella processer men är annars oförändrad-&lt;/p&gt; &lt;p&gt;Med version 1.1 kan du automatiskt starat workflow-processer efter några modulposter har skapats, uppdaterade eller borttagna. För att prova på detta kan du:
 &lt;ol&gt; &lt;li&gt;ladda upp &lt;a href=&quot;modules/workflow/review_articles.xml&quot;&gt;review_articles.xml&lt;/a&gt;-filen för att skapa Recensera artiklar processen&lt;/li&gt; &lt;li&gt;tilldela några användare till 'redaktör' workflowrollen och märk processen som aktiv&lt;/li&gt; &lt;li&gt; aktivera workflow-kopplingar för artiklar&lt;/li&gt; &lt;li&gt;konfigurera workflow-modulen så att Review Articles -start aktiviteten startas när skapa kopplingar anropas från artiklar-modulen&lt;/li&gt; &lt;li&gt;skapa en ny artikel och ha det så roligt...,&lt;/li&gt; &lt;/ol&gt; &lt;/p&gt; &lt;p&gt;Version 1.3 lägger till stöd för två BL-taggar: &amp;lt;xar:workflow-activity activityId=&quot;123&quot; ... /&amp;gt; och &amp;lt;xar:workflow-status ... /&amp;gt;. Dessa kan användas i mallar för att köra vissa workflow-aktiviteter och vissa dess utdata respektive att visa dig statusen för samtliga instanser *du* startat.  För att prova på detta, ska du: &lt;ol&gt; &lt;li&gt;ta bort dina gamla &quot;Music Loan 3&quot; process, importera den nya versionen, tilldela användare och märka processen som aktiv&lt;/li&gt; &lt;li&gt;hitta activityId för aktiviteten &quot;Request CD&quot; är i den nya processen&lt;/li&gt; &lt;li&gt;i vissa mallar, lägg till följande BL-taggar: &amp;lt;xar:workflow-activity activityId=&quot;123&quot;/&amp;gt; (med 123 activityId) och &amp;lt;xar:workflow-status/&amp;gt;&lt;/li&gt; &lt;li&gt;gå till den sidan och njut...&lt;/li&gt; &gt;/ol&gt; &lt;/p&gt; &lt;p&gt;Version 1.4 lägger även till BL-taggen &amp;lt;xar:workflow-instances .../&amp;gt; för att visa instanser som är tilldelade/tillgängliga för dig (t.ex. din uppgiftslista).&lt;/p&gt; &lt;p&gt;&lt;b&gt;Patchar och bidrag är varmt välkomna&lt;/b&gt;&lt;/p&gt;</translation>
 		<references>
-			<reference file="modules/workflow/xartemplates/admin-main.xd" line="110" />
+			<reference file="modules/workflow/xartemplates/admin-main.xd" line="112" />
 		</references>
 	</entry>
 	<entry>
@@ -125,7 +125,7 @@ To try that out, you should :
 // Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See &lt;a href=&quot;modules/workflow/lib/license.txt&quot;&gt;license.txt&lt;/a&gt; for details.</string>
 		<translation>// Upphovsrätt (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al // Samtliga rättigheter reseverade. Se &lt;a href=&quot;modules/workflow/lib/copyright.txt&quot;&gt;copyright.txt&lt;/a&gt; för detaljer och en komplett författarlista. // Licenserad under GNU LESSER GENERAL PUBLIC LICENSE. Se &lt;a href=&quot;modules/workflow/lib/license.txt&quot;&gt;license.txt&lt;/a&gt; för detaljer.</translation>
 		<references>
-			<reference file="modules/workflow/xartemplates/admin-main.xd" line="117" />
+			<reference file="modules/workflow/xartemplates/admin-main.xd" line="119" />
 		</references>
 	</entry>
 </translations>

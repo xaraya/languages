@@ -9,7 +9,7 @@
 	</entry>
 	<entry>
 		<string>The LDAP server settings are also configurable from the</string>
-		<translation>LDAP-server inställningar är också konfigurationsbara från</translation>
+		<translation>LDAP-serverinställningar är också konfigurationsbara från</translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="16" />
 		</references>
@@ -37,7 +37,7 @@
 	</entry>
 	<entry>
 		<string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string>
-		<translation>Om servernamnet innehåller &quot;ldap://&quot; eller &quot;ldaps://&quot;, så kommer portnumret att ignoreras. Istället lägg till portnumret till servernamnet så här &quot;ldaps://server:port&quot;.</translation>
+		<translation>Om servernamnet innehåller &quot;ldap://&quot; eller &quot;ldaps://&quot;, så kommer portnumret att ignoreras. Lägg istället till portnumret till servernamnet så här &quot;ldaps://server:port&quot;.</translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
 		</references>
@@ -51,21 +51,21 @@
 	</entry>
 	<entry>
 		<string>LDAP Bind DN</string>
-		<translation>LDAP anslut DN</translation>
+		<translation></translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP UserID Field Name</string>
-		<translation>LDAP användar ID fältnamn</translation>
+		<translation>LDAP användar-ID fältnamn</translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="63" />
 		</references>
 	</entry>
 	<entry>
 		<string>Search User DN</string>
-		<translation>Sök användare DN</translation>
+		<translation></translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="71" />
 		</references>
@@ -169,17 +169,80 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Group Configuration</string>
+		<translation>Gruppkonfiguration</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="220" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Group for Groups</string>
+		<translation>Standardgrupp för grupper</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="226" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP base for group search</string>
+		<translation>LDAP-bas för gruppsökning</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="241" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP groups to import (separated by comma &lt;kdb&gt;','&lt;/kdb&gt;)</string>
+		<translation>LDAP-grupper att importera (separerade med komma &lt;kdb&gt;','&lt;/kdb&gt;)</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="245" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP attribute name: group name</string>
+		<translation>LDAP-attributnamn: gruppnamn</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="249" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP attribute name: children group reference</string>
+		<translation>LDAP-attributnamn: barngruppreferens</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="253" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP attribute type: children group reference</string>
+		<translation>LDAP-attributtyp: barngruppreferens</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="257" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP attribute name: user member reference</string>
+		<translation>LDAP-attributnamn: användarmedlemreferens</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="261" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP attribute type: user member reference</string>
+		<translation>LDAP-attributtyp: användarmedlemreferens</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="265" />
+		</references>
+	</entry>
+	<entry>
 		<string>Click &quot;Submit&quot; to change configuration:</string>
 		<translation>Klicka på &quot;Skicka&quot; för att ändra konfigurationen:</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="220" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="271" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Skicka</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="224" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="272" />
 		</references>
 	</entry>
 </translations>

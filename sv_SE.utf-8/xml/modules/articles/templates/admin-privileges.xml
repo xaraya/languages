@@ -2,109 +2,106 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>Select Articles for Privilege '#(1)'</string>
-		<translation>Välj artiklar för rättighet '#(1)'</translation>
+		<translation>Välj artiklar för behörighet '#(1)'</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="2" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
 		<string>All / Other --&amp;gt;</string>
 		<translation>Samtliga/Övriga --&amp;gt;</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="42" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Article</string>
 		<translation>Artikel</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="58" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enter article number</string>
 		<translation>Ange artikelnummer</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="60" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="79" />
 		</references>
 	</entry>
 	<entry>
 		<string>Access Level</string>
-		<translation>Åtkomstbehörighet</translation>
+		<translation>Åtkomstnivå</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="66" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="88" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Access</string>
 		<translation>Ingen åtkomst</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="70" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="72" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="94" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>Read</string>
 		<translation>Läs</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="80" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="82" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="112" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="116" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit (Comment)</string>
 		<translation>Skicka in (kommentera)</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="85" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="87" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="121" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="125" />
 		</references>
 	</entry>
 	<entry>
 		<string>Edit / Approve</string>
-		<translation>Redigera / Godkänna</translation>
+		<translation>Redigera / Godkänn</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="90" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="92" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="130" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>Admin</string>
-		<translation>Admin</translation>
+		<translation>Administratör</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="100" />
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="102" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="148" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are #(1) articles matching these selection criteria at the moment</string>
 		<translation>Det finns #(1) artiklar som matchar dina val just nu</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="113" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="166" />
 		</references>
 	</entry>
 	<entry>
-		<string>Some examples : (assuming your users have read access by default)&lt;br /&gt;&lt;br /&gt;
-- In order to allow 'Friends' to submit News Articles (and only that), define a privilege 'SubmitNews'
-(or whatever name you prefer), and choose the publication type &quot;News Articles&quot; (instance 1:All:All:All) and
-access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
-&lt;br /&gt;&lt;br /&gt;
-- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type
-&quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.
-&lt;br /&gt;&lt;br /&gt;
-- ...
-&lt;br /&gt;&lt;br /&gt;</string>
-		<translation>Några exempel: (förutsatt att dina användare har läsrättigheter som standard)&lt;br /&gt;&lt;br /&gt;–För att ge 'Vänner' möjlighet att skicka in nyhetsartiklar (och endast det), definiera en rättighet av typen 'SkickaInNyheter' (eller vad du nu föredrar att kalla det) och välj publikationstypen &quot;Nyhetsartiklar&quot; (instans 1:Alla:Alla:Alla) och åtkomstnivå &quot;Skicka in (kommentera)&quot; här ovan. Klicka på &quot;Avsluta och applicera på rättighet&quot;. Därefter delar du ut denna rättighet till rollen 'Vänner'. &lt;br /&gt;&lt;br /&gt;–För att hindra 'Främlingar' från att se dokument, definiera någon rättighet som 'IngaDokument' eller liknande, med publikationstypen &quot;Dokument&quot; (instans 1:Alla:Alla:Alla) och åtkomstnivån &quot;Ingen åtkomst&quot;. Därefter delar du ut den rättigheten till rollen 'Främlingar'.&lt;br /&gt;&lt;br /&gt;–,,,&lt;br /&gt;&lt;br /&gt;</translation>
+		<string>Some examples : (assuming your users have read access by default)
+&lt;br /&gt;
+&lt;br /&gt;- In order to allow 'Friends' to submit News Articles (and only that), define a privilege 'SubmitNews' (or whatever name you prefer), and choose the publication type &quot;News Articles&quot; (instance 1:All:All:All) and access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
+&lt;br /&gt;
+&lt;br /&gt;- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type &quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.
+&lt;br /&gt;
+&lt;br /&gt;- ...
+&lt;br /&gt;
+&lt;br /&gt;</string>
+		<translation>Några exempel: (förutsätter att dina användare har läsbehörighet som standard) &lt;br /&gt; &lt;br /&gt;- För att låta 'Vänner' skicka in Nyhetsartiklar (och endast det), definiera en behörighet 'SkickaInNyheter' (eller vad du vill kalla den), och välj publikationstypen &quot;Nyhetsartiklar&quot; (instans 1:All:All:All) och åtkomstnivå &quot;Skicka in (Kommentera)&quot; ovan. Tryck på &quot;Avsluta och genomför till behörighet&quot;, och tilldela sen den behörigheten till 'Vänner'-rollen. &lt;br /&gt; &lt;br /&gt;- För att förhindra 'Främlingar från att se Dokument, definiera en behörighet 'Inga Dokument' med publikationstypen &quot;Dokument&quot;)instans 2:All:All:All) och åtkomstnivå &quot;Ingen åtkomst&quot;. Tilldela sen behörigheten till 'Främlingar' rollen. &lt;br /&gt; &lt;br /&gt;-... &lt;br /&gt; &lt;br /&gt;</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="133" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="185" />
 		</references>
 	</entry>
 	<entry>
-		<string>Note: if you want to deny access to all articles in a particular category with ID 123, you can also define a privilege
-for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category
-from the articles map and categories navigation as well.</string>
-		<translation>Observera: Om du vill hindra åtkomst till ALLA artiklar i en speciell kategori med exempelvis ID 123 kan du också definiera en rättighet för kategorimodulen, komponenten 'Kategori, kategorinamnet 'Alla' och kategori-ID '123'. Detta kommer att ta bort kategorin från artikelkartan och från kategorinavigeringen.</translation>
+		<string>Note: if you want to deny access to all articles in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the articles map and categories navigation as well.</string>
+		<translation>Notera: om du villa neka åtkomst till samtliga artiklar i en särskild kategori med id 123, kan du även skapa en behörighet för modul 'kategorier', komponent 'Kategori', kategorinamn 'All' och kategori-id'123'. Det här kommer ta bort kategorin från artikelkartan och kategorinavigationen.</translation>
 		<references>
-			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="139" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="186" />
 		</references>
 	</entry>
 </translations>
