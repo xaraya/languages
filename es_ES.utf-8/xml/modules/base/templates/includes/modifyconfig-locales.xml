@@ -4,14 +4,14 @@
 		<string>Mode of Operation</string>
 		<translation>Modo de operación</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="14" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
 		<string>The multilanguage system (MLS) works in three different modes.</string>
 		<translation>El sistema multilenguaje (MLS) trabaja de tres modos diferentes.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="17" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
@@ -19,14 +19,14 @@
 with the mbstring extension compiled in.</string>
 		<translation>Por favor, tenga en cuenta que no puede usar el modo UNBOXED del sistema multilenguaje a menos que tenga php 4.3.0 con el módulo mbstring complilado.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="20" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Single Language Mode (SINGLE)</string>
 		<translation>Modo de lenguaje único (SINGLE)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="29" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
@@ -35,14 +35,14 @@ built in. All information is stored coherently with the chosen character set (at
 and also user data is meaningful in the chosen character set.</string>
 		<translation>MLS usa solo un conjunto de caracteres, típicamente de un solo byte, pero potencialmente múltiple si php está instalado con la opción mb_string.  Toda la información es almacenada coherentemente en el conjunto d ecaracteres escogido (durante la instalación), y los datos de usuario también usan el mismo conjunto.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="38" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>Per Page Mode (BOXED)</string>
 		<translation>Modo por mágina (BOXED)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="48" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
@@ -55,28 +55,28 @@ Another point is that every operation involves only a single language. This mode
 unexpected results if mb_string is not installed.</string>
 		<translation>MLS puede usar más d eun conjunto d ecaracteres en el sitio (teniendo las mismas consideraciones para los requisitos de byte simple o múltiple), pero solo se puede usar un conjunto por página. Debido a esto el contenido no puede compartirse a través de áreas con diferentes lenguajes (por ejemplo, un comentario en árabe no puede mostrarse con un artículo en inglés). Otro punto es que cada operación implica solo a un conjunto. Este modo puede producir resultados inesperados si mb_string no está instalado.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="59" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
 		<string>It is installed on this server, so you can give this mode a try</string>
 		<translation>Está instalado en este servidor, así que puede usar este modo</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="63" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
 		<translation>ATENCIÖN: mb_string NO está instalado en este servidor, proceda con precaución.</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="65" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="63" />
 		</references>
 	</entry>
 	<entry>
 		<string>Full Multilanguage (UNBOXED) (experimental!)</string>
 		<translation>Multilenguaje completo (UNBOXED) (¡Experimental!)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="76" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
@@ -86,90 +86,90 @@ the user chosen language, but the page can contain texts in other languages
 (for example a French article and comments inside an English page).</string>
 		<translation>MLS usa un conjunto d ecaracteres universal (UTF-8). Esto garantiza  que no se necesita conversión para la representación de contenido. Cada página es siempre mostrada de acuerdo con el lenguaje escogido por el usuario, pero la página puede contener textos en otro lenguaje (por ejemplo, un artículo en francés puede tener comentarios en inglés)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="85" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="83" />
 		</references>
 	</entry>
 	<entry>
 		<string>Language/Locale Configuration</string>
 		<translation>Configuración de las localizaciones</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="92" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
 		<string>The following locales are available to this site:</string>
 		<translation>Las siguentes localizaciones están disponibles en este sitio:</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="96" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="94" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default locale to load</string>
 		<translation>Localización a cargar por defecto</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="115" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="113" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default Locale:</string>
 		<translation>Localización por defecto:</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="116" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="114" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations backend</string>
 		<translation>Subsistema de traducción</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="136" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string>
 		<translation>La información de la traducción de Xaraya y sus módulos puede almacenarse de diferentes formas. Actualmente se soportan las siguientes:</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="140" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="138" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations Backend</string>
 		<translation>Subsistemas de traducción</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="144" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="142" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations Backend:</string>
 		<translation>Subsistemas de traducción:</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="145" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="143" />
 		</references>
 	</entry>
 	<entry>
 		<string>XML (good for interoperability)</string>
 		<translation>XML (buena para interoperatibilidad)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="149" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="153" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="157" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="147" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP (good for programmed access)</string>
 		<translation>PHP (buena para el acceso programático)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="150" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="154" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="158" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="148" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="152" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="156" />
 		</references>
 	</entry>
 	<entry>
 		<string>XML with caching in PHP (new experimental)</string>
 		<translation>XML con cacheado en PHP (experimental)</translation>
 		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="159" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="149" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="153" />
+			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="157" />
 		</references>
 	</entry>
 </translations>

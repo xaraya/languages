@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_ES.utf-8">
 	<entry>
+		<string>Themes</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xarversion.php" line="25" />
+			<reference file="modules/themes/xartemplates/includes/navtabs.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
 		<string>Info</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="44" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="104" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="132" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="134" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="187" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="228" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="234" />
 		</references>
 	</entry>
 	<entry>
@@ -15,48 +23,73 @@
 		<translation></translation>
 		<references>
 			<reference file="modules/themes/xaradmin/list.php" line="45" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="34" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refresh</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xaradmin/list.php" line="47" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>All</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xaradmin/list.php" line="63" />
+			<reference file="modules/themes/xartemplates/includes/navtabs.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
 		<string>Edit</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradmin/list.php" line="171" />
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="22" />
+			<reference file="modules/themes/xaradmin/list.php" line="180" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Remove</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradmin/list.php" line="196" />
-			<reference file="modules/themes/xaradmin/list.php" line="233" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="187" />
+			<reference file="modules/themes/xaradmin/list.php" line="207" />
+			<reference file="modules/themes/xaradmin/list.php" line="244" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Activate</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradmin/list.php" line="199" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="183" />
+			<reference file="modules/themes/xaradmin/list.php" line="210" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deactivate</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradmin/list.php" line="211" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="184" />
+			<reference file="modules/themes/xaradmin/list.php" line="222" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Upgrade</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradmin/list.php" line="245" />
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="185" />
+			<reference file="modules/themes/xaradmin/list.php" line="256" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xaradmin/modifyconfig.php" line="31" />
+			<reference file="modules/themes/xaradmin/cssconfig.php" line="40" />
+			<reference file="modules/themes/xartemplates/admin-cssconfig.xd" line="82" />
 		</references>
 	</entry>
 	<entry>
@@ -71,9 +104,11 @@
 		<string>None</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradmin/themesinfo.php" line="50" />
-			<reference file="modules/themes/xartemplates/blocks/metaAdmin.xd" line="59" />
-			<reference file="modules/themes/xartemplates/blocks/metaAdmin.xd" line="61" />
+			<reference file="modules/themes/xaradmin/themesinfo.php" line="51" />
+			<reference file="modules/themes/xartemplates/includes/corecss.xd" line="37" />
+			<reference file="modules/themes/xartemplates/includes/corecss.xd" line="49" />
+			<reference file="modules/themes/xartemplates/includes/corecss.xd" line="61" />
+			<reference file="modules/themes/xartemplates/blocks/metaAdmin.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
@@ -102,11 +137,19 @@
 		</references>
 	</entry>
 	<entry>
+		<string>View Themes</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xaradminapi/getmenulinks.php" line="34" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
 		<string>Template Tags</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xaradminapi/getmenulinks.php" line="48" />
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="4" />
+			<reference file="modules/themes/xaradminapi/getmenulinks.php" line="42" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="7" />
 		</references>
 	</entry>
 	<entry>
@@ -126,64 +169,58 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Name</string>
+		<string>Themes Administration</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="98" />
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="13" />
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="14" />
+			<reference file="modules/themes/xartemplates/admin-cssconfig.xd" line="12" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="46" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-modify.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-modifyconfig.xd" line="8" />
+			<reference file="modules/themes/xartemplates/admin-modifytpltag.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-release.xd" line="3" />
+			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
-		<string>Version</string>
+		<string>Name</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="101" />
-			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="71" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="177" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>Actions</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-list.xd" line="110" />
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="17" />
+			<reference file="modules/themes/xartemplates/admin-list.xd" line="197" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
-		<string>Themes Administration</string>
+		<string>Delete</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-modifyconfig.xd" line="2" />
-			<reference file="modules/themes/xartemplates/admin-modifytpltag.xd" line="2" />
+			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="34" />
+			<reference file="modules/themes/xartemplates/admin-modify.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
-		<string>Module</string>
+		<string>Description:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/admin-listtpltags.xd" line="16" />
-			<reference file="modules/themes/xartemplates/admin-modifytpltag.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Description</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/themes/xartemplates/admin-modify.xd" line="16" />
-			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="31" />
+			<reference file="modules/themes/xartemplates/admin-modify.xd" line="80" />
+			<reference file="modules/themes/xartemplates/admin-themesinfo.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select Theme</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xartemplates/user-usermenu_form.xd" line="12" />
-			<reference file="modules/themes/xartemplates/user-usermenu_icon.xd" line="9" />
-			<reference file="modules/themes/xartemplates/user-usermenu_icon.xd" line="17" />
+			<reference file="modules/themes/xartemplates/user-usermenu_icon.xd" line="12" />
+			<reference file="modules/themes/xartemplates/user-usermenu_form.xd" line="5" />
 		</references>
 	</entry>
 </translations>

@@ -1,102 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_ES.utf-8">
 	<entry>
-		<string>Send mail to users/groups</string>
-		<translation>Enviar un email a usuarios/grupos</translation>
+		<string>Send Mail To Users/Groups</string>
+		<translation>Enviar correo a Usuarios/Grupos</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="18" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show Users</string>
 		<translation>Mostrar usuarios</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="55" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="85" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select a group</string>
 		<translation>Selecciona un grupo</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="58" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>Includes subgroups</string>
 		<translation>Subgrupos incluidos</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="65" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="104" />
 		</references>
 	</entry>
 	<entry>
 		<string>Include Subgroups</string>
 		<translation>Subgrupo incluido</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="65" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select template for the message</string>
 		<translation>Seleccione una plantilla para el mensaje</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="69" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="112" />
 		</references>
 	</entry>
 	<entry>
 		<string>Single user</string>
 		<translation>Un solo usuario</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="91" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="148" />
 		</references>
 	</entry>
 	<entry>
 		<string>-- choose --</string>
 		<translation>-- escoger --</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="129" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="155" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="202" />
 		</references>
 	</entry>
 	<entry>
 		<string>No users selected</string>
 		<translation>No hay usuarios seleccionados</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="222" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="318" />
 		</references>
 	</entry>
 	<entry>
-		<string>user(s) selected</string>
-		<translation>usuario(s) seleccionados</translation>
+		<string>#(1) user(s) selected.</string>
+		<translation>#(1) usuario(s) seleccionados.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="230" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="330" />
 		</references>
 	</entry>
 	<entry>
 		<string>No users match</string>
 		<translation>El usuario no coincide</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="269" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="341" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose a message template from the Templates dropdown above, or type in your message directly :</string>
 		<translation>Escoja una plantilla de la lista desplegable anterior, o escriba el mensaje directamente:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="325" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="441" />
+		</references>
+	</entry>
+	<entry>
+		<string>Subject line of the email</string>
+		<translation>Linea de tema del email</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="444" />
+		</references>
+	</entry>
+	<entry>
+		<string>Body of the email</string>
+		<translation>Cuerpo del email</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="452" />
 		</references>
 	</entry>
 	<entry>
 		<string>Look in the file var/messaging/roles/includes/message-vars.xd to see how the different variables used in the templates are defined.</string>
 		<translation>Revise el archivo var/messaging/roles/includes/message-vars.xd para ver cómo pueden usarse las distintas variables en la plantilla.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="361" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="481" />
 		</references>
 	</entry>
 	<entry>
 		<string>Note that some variables (e.g. $myusername in the confirmation template) are defined dynamically during Xaraya processes, such as registration. You cannot use those variables, nor can you send messages that contain them from here.</string>
 		<translation>Tenga en cuenta que algunas variables (por ejemplo, $myusername en la plantilla de confirmación) se definen dinámicamente durante un proceso de Xaraya, como el registro. No se puede usar tal variable en este caso.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="366" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="486" />
 		</references>
 	</entry>
 </translations>
