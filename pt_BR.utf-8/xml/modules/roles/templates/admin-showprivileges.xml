@@ -1,66 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="pt_BR.utf-8">
 	<entry>
-		<string>Test the privileges of</string>
-		<translation>Testar os privilégios de</translation>
+		<string>Show Privileges of User:</string>
+		<translation>Exibir Privilégios do Usuário:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="83" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
-		<string>Privileges inherited by</string>
-		<translation>Privilégios herdados por</translation>
+		<string>Show Privileges of Group:</string>
+		<translation>Exibir Privilégios do Grupo:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="86" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
-		<string>Overridden privileges: light gray (partial), dark gray (full)</string>
-		<translation></translation>
+		<string>Test this User's Privileges</string>
+		<translation>Testar os Privilégios deste Usuário</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="90" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="74" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="78" />
 		</references>
 	</entry>
 	<entry>
-		<string>From Group</string>
-		<translation>Do Grupo</translation>
+		<string>Test the privileges of #(1)</string>
+		<translation>Testar os privilégios de #(1)</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="115" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges inherited by #(1):</string>
+		<translation>Privilégios herdados por #(1):</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>No privileges inherited.</string>
 		<translation>Não há privilégios herdados.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="121" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="97" />
 		</references>
 	</entry>
 	<entry>
-		<string>Privileges assigned to</string>
-		<translation>Privilégios designados para</translation>
+		<string>Override</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="164" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="124" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="213" />
 		</references>
 	</entry>
 	<entry>
-		<string>only relevant privileges are shown</string>
-		<translation>somente privilégios relevantes são exibidos</translation>
+		<string>From Group</string>
+		<translation>Do Grupo</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="168" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Full</string>
+		<translation>Completo</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="154" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="243" />
+		</references>
+	</entry>
+	<entry>
+		<string>Partial</string>
+		<translation>Parcial</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="156" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="245" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges assigned to #(1):</string>
+		<translation>Privilégios designados para #(1):</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="174" />
 		</references>
 	</entry>
 	<entry>
 		<string>No privileges assigned.</string>
 		<translation>Não há privilégios designados.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="199" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="183" />
 		</references>
 	</entry>
 	<entry>
-		<string>Assign a Privilege to</string>
-		<translation>Designar um privilégio ao</translation>
+		<string>Note: only relevant privileges are shown.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="250" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="187" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cannot Be Removed</string>
+		<translation>Não Pode Ser Removido</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="257" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not Directly Assigned</string>
+		<translation>Designado Indiretamente</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="260" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign a Privilege to #(1) '#(2)':</string>
+		<translation>Designar um Privilégio para #(1) '#(2)':</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="279" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select the Privilege to add</string>
+		<translation>Selecione o privilégio a ser adicionado</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="292" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privilege:</string>
+		<translation>Privilégio:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="295" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Privilege</string>
+		<translation>Adicionar Privilégio</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="310" />
 		</references>
 	</entry>
 </translations>

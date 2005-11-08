@@ -4,7 +4,7 @@
 		<string>An error occurred while processing your request. The details are:</string>
 		<translation>Ocorreu um erro ao processar o seu pedido. Os detalhes do erro são:</translation>
 		<references>
-			<reference file="index.php" line="169" />
+			<reference file="index.php" line="167" />
 		</references>
 	</entry>
 	<entry>
@@ -18,7 +18,7 @@
 		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
 		<translation>Erro no banco de dados ao executar: '#(1)';. Descrição do erro: '#(2)'.</translation>
 		<references>
-			<reference file="includes/xarException.php" line="457" />
+			<reference file="includes/xarException.php" line="461" />
 		</references>
 	</entry>
 	<entry>
@@ -26,6 +26,266 @@
 		<translation>Mensagem padrão</translation>
 		<references>
 			<reference file="includes/exceptions/errorcollection.class.php" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block type already exists</string>
+		<translation>Tipo de bloco já existente.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>An attempt was made to register a block type in a module that already exists.</string>
+		<translation>Foi feita uma tentativa  para registrar em um módulo um tipo de bloco que já existe.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Bad Data</string>
+		<translation>Dados inválidos</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was bad.</string>
+		<translation>Os dados fornecidos não são válidos.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
+		<translation>O valor fornecido durante esta operação não pôde ser validado ou não foi aceito por outros motivos.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>File does not exist</string>
+		<translation>Arquivo não existe</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a file that cannot be found.</string>
+		<translation>Uma operação requer um arquivo que não foi encontrado.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed.</string>
+		<translation>O arquivo pode não ter sido encontrado, ou seu nome pode ter sido modificado.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Operation Halted</string>
+		<translation>Operação Interrompida</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation cannot be completed under the present circumstances.</string>
+		<translation>Esta operação não pode ser completada sob as circuntâncias atuais.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
+		<translation>Esta operação foi interrompida porque embora não seja uma operação inválida, ela não pode ser completada neste contexto.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Duplicate Data</string>
+		<translation>Dados Duplicados</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was a duplicate.</string>
+		<translation>Os dados fornecidos são duplicados.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
+		<translation>Foi previsto um valor único para esta operação, mas o valor fornecido é uma cópia de um valor já existente.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Forbidden Operation</string>
+		<translation>Operação proibida</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting is not allowed in the current circumstances.</string>
+		<translation>A operação que você tentou executar não é permitida nas condições atuais.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
+		<translation>Você pode ter clicado no botão &quot;voltar&quot; ou &quot;atualizar&quot; de seu navegador e, portanto, ter tentado executar novamente uma operação que não pode ser repetida. Se este não é o caso, talvez o seu navegador não tenha habilitada a opção de aceitar &quot;cookies&quot;.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login error</string>
+		<translation>Erro de conexão</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>A problem was encountered during the login process.</string>
+		<translation>Foi encontrado um problema durante o processo de conexão.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>No further information is available.</string>
+		<translation>Não há informações adicionais disponíveis.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing Data</string>
+		<translation>Dados não encontrados</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data is incomplete.</string>
+		<translation>Os dados estão incompletos.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>A value was expected during this operation, but none was found.</string>
+		<translation>Foi previsto um valor  para esta operação, mas nenhum foi encontrado.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Multiple instances</string>
+		<translation>Múltiplas ocorrências</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module contains more than one instance of the same block type.</string>
+		<translation>Um módulo contém mais de uma ocorrência do mesmo tipo de bloco.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Error</string>
+		<translation>Erro de Privilégios</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>You do not have privileges for this operation.</string>
+		<translation>Você não tem os privilégios necessários para realizar esta operação.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
+		<translation>A operação que você tentou realizar requer privilégios que você não tem. Contate o administrador do site/sistema para solicitar o acesso.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not logged in</string>
+		<translation>Não conectado</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
+		<translation>Você tentou efetuar uma operação que não é permitida a usuários anônimos.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
+		<translation>Um operação que requer que o usuário esteja conectado ao sistema foi encontrada. Se você já está conectado ao sistema como um usuário registrado, por favor informe-nos sobre este erro como uma falha de programação (bug).</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Item not found</string>
+		<translation>Item não pôde ser encontrado</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unexpected empty result occurred.</string>
+		<translation>Ocorreu um resultado vazio que não era esperado.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation that should have returned a result instead came up empty.</string>
+		<translation>Uma operação que deveria haver retornado um valor retornou vazia.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong version</string>
+		<translation>Versão incorreta</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>The application version supplied is wrong.</string>
+		<translation>A versão fornecida da aplicação é incorreta.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="63" />
 		</references>
 	</entry>
 	<entry>
@@ -153,21 +413,6 @@
 		<translation>Ocorreu um erro ao tentar processar uma operação de banco de dados.</translation>
 		<references>
 			<reference file="includes/exceptions/systemexception.defaults.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information is available.</string>
-		<translation>Não há informações adicionais disponíveis.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
 		</references>
 	</entry>
 	<entry>
@@ -912,230 +1157,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Block type already exists</string>
-		<translation>Tipo de bloco já existente.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to register a block type in a module that already exists.</string>
-		<translation>Foi feita uma tentativa  para registrar em um módulo um tipo de bloco que já existe.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Data</string>
-		<translation>Dados inválidos</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was bad.</string>
-		<translation>Os dados fornecidos não são válidos.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>O valor fornecido durante esta operação não pôde ser validado ou não foi aceito por outros motivos.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Operation Halted</string>
-		<translation>Operação Interrompida</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation cannot be completed under the present circumstances.</string>
-		<translation>Esta operação não pode ser completada sob as circuntâncias atuais.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
-		<translation>Esta operação foi interrompida porque embora não seja uma operação inválida, ela não pode ser completada neste contexto.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Duplicate Data</string>
-		<translation>Dados Duplicados</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was a duplicate.</string>
-		<translation>Os dados fornecidos são duplicados.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
-		<translation>Foi previsto um valor único para esta operação, mas o valor fornecido é uma cópia de um valor já existente.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forbidden Operation</string>
-		<translation>Operação proibida</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting is not allowed in the current circumstances.</string>
-		<translation>A operação que você tentou executar não é permitida nas condições atuais.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
-		<translation>Você pode ter clicado no botão &quot;voltar&quot; ou &quot;atualizar&quot; de seu navegador e, portanto, ter tentado executar novamente uma operação que não pode ser repetida. Se este não é o caso, talvez o seu navegador não tenha habilitada a opção de aceitar &quot;cookies&quot;.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Login error</string>
-		<translation>Erro de conexão</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>A problem was encountered during the login process.</string>
-		<translation>Foi encontrado um problema durante o processo de conexão.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing Data</string>
-		<translation>Dados não encontrados</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data is incomplete.</string>
-		<translation>Os dados estão incompletos.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>A value was expected during this operation, but none was found.</string>
-		<translation>Foi previsto um valor  para esta operação, mas nenhum foi encontrado.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple instances</string>
-		<translation>Múltiplas ocorrências</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module contains more than one instance of the same block type.</string>
-		<translation>Um módulo contém mais de uma ocorrência do mesmo tipo de bloco.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Error</string>
-		<translation>Erro de Privilégios</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have privileges for this operation.</string>
-		<translation>Você não tem os privilégios necessários para realizar esta operação.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
-		<translation>A operação que você tentou realizar requer privilégios que você não tem. Contate o administrador do site/sistema para solicitar o acesso.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not logged in</string>
-		<translation>Não conectado</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>Você tentou efetuar uma operação que não é permitida a usuários anônimos.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
-		<translation>Um operação que requer que o usuário esteja conectado ao sistema foi encontrada. Se você já está conectado ao sistema como um usuário registrado, por favor informe-nos sobre este erro como uma falha de programação (bug).</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>Item not found</string>
-		<translation>Item não pôde ser encontrado</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unexpected empty result occurred.</string>
-		<translation>Ocorreu um resultado vazio que não era esperado.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation that should have returned a result instead came up empty.</string>
-		<translation>Uma operação que deveria haver retornado um valor retornou vazia.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong version</string>
-		<translation>Versão incorreta</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>The application version supplied is wrong.</string>
-		<translation>A versão fornecida da aplicação é incorreta.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
-		</references>
-	</entry>
-	<entry>
 		<string>The site is locked</string>
 		<translation>O site está bloqueado</translation>
 		<references>
@@ -1153,14 +1174,14 @@
 		<string>No validation type present.</string>
 		<translation>Não há um tipo de validação presente.</translation>
 		<references>
-			<reference file="includes/xarVar.php" line="327" />
+			<reference file="includes/xarVar.php" line="328" />
 		</references>
 	</entry>
 	<entry>
 		<string>The #(1) type '#(2)' could not be found.</string>
 		<translation>O #(1) tipo '#(2)' não pôde ser encontrado.</translation>
 		<references>
-			<reference file="includes/xarVar.php" line="1050" />
+			<reference file="includes/xarVar.php" line="1051" />
 		</references>
 	</entry>
 	<entry>
@@ -1428,7 +1449,7 @@
 		<string>The directories under #(1) must be writeable by PHP.</string>
 		<translation>Os diretórios sob #(1) devem poder ser escritos pelo PHP.</translation>
 		<references>
-			<reference file="includes/xarMLS.php" line="860" />
+			<reference file="includes/xarMLS.php" line="871" />
 		</references>
 	</entry>
 	<entry>
@@ -1444,7 +1465,7 @@
 		<translation>O Nome do Tema ou Módulo #(1) é vazio.</translation>
 		<references>
 			<reference file="includes/xarMod.php" line="452" />
-			<reference file="includes/xarMod.php" line="1776" />
+			<reference file="includes/xarMod.php" line="1789" />
 		</references>
 	</entry>
 	<entry>
@@ -1458,16 +1479,14 @@
 		<string>Unknown</string>
 		<translation>Desconhecido</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="585" />
 			<reference file="includes/xarMod.php" line="587" />
-			<reference file="includes/xarMod.php" line="588" />
 			<reference file="includes/xarMod.php" line="589" />
 			<reference file="includes/xarMod.php" line="590" />
 			<reference file="includes/xarMod.php" line="591" />
 			<reference file="includes/xarMod.php" line="592" />
 			<reference file="includes/xarMod.php" line="593" />
-			<reference file="includes/xarMod.php" line="597" />
-			<reference file="includes/xarMod.php" line="598" />
+			<reference file="includes/xarMod.php" line="594" />
+			<reference file="includes/xarMod.php" line="595" />
 			<reference file="includes/xarMod.php" line="599" />
 			<reference file="includes/xarMod.php" line="600" />
 			<reference file="includes/xarMod.php" line="601" />
@@ -1476,168 +1495,170 @@
 			<reference file="includes/xarMod.php" line="604" />
 			<reference file="includes/xarMod.php" line="605" />
 			<reference file="includes/xarMod.php" line="606" />
+			<reference file="includes/xarMod.php" line="607" />
+			<reference file="includes/xarMod.php" line="608" />
 		</references>
 	</entry>
 	<entry>
 		<string>This module is not installed properly. Not all info could be retrieved</string>
 		<translation>Este módulo não está instalado corretamente. Não foi possível obter todas as informações</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="586" />
+			<reference file="includes/xarMod.php" line="588" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to find Base Info for Module: #(1)</string>
 		<translation>Não foi possível encontrar as Informações Básicas para o Módulo: #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="654" />
+			<reference file="includes/xarMod.php" line="659" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Name #(1) is empty.</string>
 		<translation>Nome do Módulo #(1) é vazio.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="762" />
+			<reference file="includes/xarMod.php" line="772" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].</string>
 		<translation>Não foi possível carregar o arquivo de função [#(1)].</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="849" />
+			<reference file="includes/xarMod.php" line="859" />
 		</references>
 	</entry>
 	<entry>
 		<string>Error Caught:</string>
 		<translation>Erro Interceptado:</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="850" />
+			<reference file="includes/xarMod.php" line="860" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function #(1) does not exist.</string>
 		<translation>A função de Módulo #(1) não foi encontrada.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="870" />
+			<reference file="includes/xarMod.php" line="880" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
 		<translation>Não foi possível carregar o arquivo de função: [#(1)].\n\n Erro Interceptado:\n #(2)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="956" />
+			<reference file="includes/xarMod.php" line="966" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module API function #(1) does not exist or could not be loaded.</string>
 		<translation>A função da API de Módulo #(1) não existe ou não pode ser carregada.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="976" />
+			<reference file="includes/xarMod.php" line="986" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Module or Theme Name (#(1)).</string>
 		<translation>Nome de Módulo ou Tema  (#(1)) vazio.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1331" />
+			<reference file="includes/xarMod.php" line="1342" />
 		</references>
 	</entry>
 	<entry>
 		<string>Directory information #(1) is empty.</string>
 		<translation>A informação de diretório #(1) é vazia.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1650" />
+			<reference file="includes/xarMod.php" line="1663" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot open file #(1).</string>
 		<translation>Impossível abrir arquivo #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1670" />
+			<reference file="includes/xarMod.php" line="1683" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
 		<translation>Tipo incorreto. É necessário que seja 'module' ou 'theme': #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1784" />
+			<reference file="includes/xarMod.php" line="1797" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty theme or module name (#(1)).</string>
 		<translation>Nome de tema ou módulo (#(1)) vazio.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1890" />
+			<reference file="includes/xarMod.php" line="1903" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Theme or Module variable name (#(1)).</string>
 		<translation>Variável para nome de Tema ou Módulo  (#(1)) vazia.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1981" />
+			<reference file="includes/xarMod.php" line="1994" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
 		<translation>Nome inválido de atributo ('#(1)'): Nome de atributos podem conter letras, números, &quot;_&quot; e &quot;-&quot;, e devem começar com uma letra.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1428" />
+			<reference file="includes/xarTemplate.php" line="1485" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Atributo inválido para o sinalizador ('#(1)'): Sinalizadores precisam ser do tipo inteiro (integer).</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1435" />
+			<reference file="includes/xarTemplate.php" line="1492" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
 		<translation>Definição inválida de comando: '#(1)' é um nome de comando inválido.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1514" />
+			<reference file="includes/xarTemplate.php" line="1571" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
 		<translation>Definição inválida de comando:  '#(1)' é um manipulador inválido.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1523" />
-			<reference file="includes/xarTemplate.php" line="1621" />
+			<reference file="includes/xarTemplate.php" line="1580" />
+			<reference file="includes/xarTemplate.php" line="1678" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
 		<translation>('#(1)')  é um sinalizador de registro de comando inválido: sinalizadores devem ser do tipo inteiro (integer).</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1529" />
+			<reference file="includes/xarTemplate.php" line="1586" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
 		<translation>O comando &lt;xar:#(1)&gt; já foi definido.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1659" />
+			<reference file="includes/xarTemplate.php" line="1716" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
 		<translation>O comando &lt;xar:#(1)&gt; não foi definido.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1739" />
+			<reference file="includes/xarTemplate.php" line="1796" />
 		</references>
 	</entry>
 	<entry>
 		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
 		<translation>Atributo '#(1)' no comando &lt;xar:#(2)&gt; não é do tipo correto. Consulte a documentação de comandos.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1767" />
+			<reference file="includes/xarTemplate.php" line="1824" />
 		</references>
 	</entry>
 	<entry>
 		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
 		<translation>O atributo requerido '#(1)' não foi encontrado no comando &lt;xar:#(2)&gt;. Consulte a documentação de comandos.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1773" />
+			<reference file="includes/xarTemplate.php" line="1830" />
 		</references>
 	</entry>
 	<entry>
@@ -1647,6 +1668,13 @@
 			<reference file="includes/xarTheme.php" line="34" />
 			<reference file="includes/xarTheme.php" line="55" />
 			<reference file="includes/xarTheme.php" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation>O arquivo css #(1) não pôde ser encontrado em:</translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="169" />
 		</references>
 	</entry>
 	<entry>
@@ -1677,7 +1705,7 @@
 		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
 		<translation>Território de Segurança #(1) - Componente #(2) - Ocorrência #(3) - Nível #(4): Esta chamada precisa ser convertida para o sistema de segurança do Xaraya.</translation>
 		<references>
-			<reference file="includes/xarSecurity.php" line="574" />
+			<reference file="includes/xarSecurity.php" line="577" />
 		</references>
 	</entry>
 	<entry>
@@ -1719,14 +1747,14 @@
 		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
 		<translation>#(1) e #(2) não têm as mesmas ocorrências. #(3) | #(4) | #(5)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1771" />
+			<reference file="modules/privileges/xarprivileges.php" line="1760" />
 		</references>
 	</entry>
 	<entry>
 		<string>You must enter a name.</string>
 		<translation>Você precisa fornecer um nome.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1968" />
+			<reference file="modules/privileges/xarprivileges.php" line="1957" />
 			<reference file="modules/roles/xarroles.php" line="500" />
 		</references>
 	</entry>
@@ -1734,7 +1762,7 @@
 		<string>This entry already exists.</string>
 		<translation>Este item já existe.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1988" />
+			<reference file="modules/privileges/xarprivileges.php" line="1977" />
 			<reference file="modules/roles/xarroles.php" line="329" />
 			<reference file="modules/roles/xarroles.php" line="383" />
 			<reference file="modules/roles/xarroles.php" line="529" />
@@ -1752,7 +1780,7 @@
 		<string>deleted</string>
 		<translation>removido</translation>
 		<references>
-			<reference file="modules/roles/xarroles.php" line="721" />
+			<reference file="modules/roles/xarroles.php" line="722" />
 		</references>
 	</entry>
 	<entry>
@@ -1766,36 +1794,36 @@
 		<string>SELECT with total of columns different from the number retrieved.</string>
 		<translation>SELECT contém um total de colunas diferente do número obtido.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="114" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="118" />
 		</references>
 	</entry>
 	<entry>
 		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
 		<translation>A tabela #(1) que você está tentando adicionar deve ser do tipo seqüência ou arranjo.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="193" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="197" />
 		</references>
 	</entry>
 	<entry>
 		<string>This function can only take 1 or 2 parameters</string>
 		<translation>Esta função aceita somente 1 ou 2 parâmetros</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="212" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="264" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="216" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="268" />
 		</references>
 	</entry>
 	<entry>
 		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
 		<translation>O campo #(1) que você esta tentando adicionar deve ser do tipo seqüência ou arranjo.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="241" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="245" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your query has no fields.</string>
 		<translation>Sua consulta não contém nenhum campo.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="728" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="752" />
 		</references>
 	</entry>
 	<entry>

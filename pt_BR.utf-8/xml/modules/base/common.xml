@@ -1,28 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="pt_BR.utf-8">
 	<entry>
-		<string>Update Base Configuration</string>
-		<translation>Atualizar Configuração do Módulo Base</translation>
+		<string>Overview</string>
+		<translation>Introdução</translation>
 		<references>
-			<reference file="modules/base/xaradmin/modifyconfig.php" line="71" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="253" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="387" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="402" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="498" />
+			<reference file="modules/base/xaradminapi/getmenulinks.php" line="26" />
+			<reference file="modules/base/xartemplates/admin-main.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
-		<string>Unknown document format: #(1)</string>
-		<translation>Formato de documento desconhecido: #(1)</translation>
+		<string>Invalid #(1)</string>
+		<translation>#(1) Inválido</translation>
 		<references>
-			<reference file="modules/base/xarclass/feedParser.php" line="195" />
+			<reference file="modules/base/xarproperties/Dynamic_Array_Property.php" line="91" />
+			<reference file="modules/dynamicdata/class/properties.php" line="520" />
+			<reference file="modules/dynamicdata/class/properties.php" line="636" />
+			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="113" />
+			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="182" />
+			<reference file="modules/base/xarproperties/Dynamic_CheckboxList_Property.php" line="109" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="95" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="332" />
+			<reference file="modules/base/xarproperties/Dynamic_CheckboxMask_Property.php" line="108" />
+			<reference file="modules/base/xarproperties/Dynamic_Checkbox_Property.php" line="60" />
+			<reference file="modules/base/xarproperties/Dynamic_Combo_Property.php" line="95" />
+			<reference file="modules/base/xarproperties/Dynamic_CountryList_Property.php" line="73" />
+			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="154" />
+			<reference file="modules/base/xarproperties/Dynamic_FileUpload_Property.php" line="309" />
+			<reference file="modules/base/xarproperties/Dynamic_FileUpload_Property.php" line="416" />
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="94" />
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="100" />
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="196" />
+			<reference file="modules/base/xarproperties/Dynamic_HTMLPage_Property.php" line="107" />
+			<reference file="modules/base/xarproperties/Dynamic_Hidden_Property.php" line="41" />
+			<reference file="modules/base/xarproperties/Dynamic_Hidden_Property.php" line="46" />
+			<reference file="modules/base/xarproperties/Dynamic_ImageList_Property.php" line="108" />
+			<reference file="modules/base/xarproperties/Dynamic_ImageList_Property.php" line="200" />
+			<reference file="modules/base/xarproperties/Dynamic_Image_Property.php" line="64" />
+			<reference file="modules/base/xarproperties/Dynamic_MultiSelect_Property.php" line="88" />
+			<reference file="modules/base/xarproperties/Dynamic_RadioButtons_Property.php" line="49" />
+			<reference file="modules/base/xarproperties/Dynamic_StateList_Property.php" line="160" />
+			<reference file="modules/base/xarproperties/Dynamic_StateList_Property.php" line="164" />
+			<reference file="modules/base/xarproperties/Dynamic_StaticText_Property.php" line="33" />
+			<reference file="modules/base/xarproperties/Dynamic_StaticText_Property.php" line="47" />
+			<reference file="modules/base/xarproperties/Dynamic_TColorPicker_Property.php" line="80" />
+			<reference file="modules/base/xarproperties/Dynamic_TColorPicker_Property.php" line="89" />
+			<reference file="modules/base/xarproperties/Dynamic_TextArea_Property.php" line="58" />
+			<reference file="modules/base/xarproperties/Dynamic_TextArea_Property.php" line="64" />
+			<reference file="modules/base/xarproperties/Dynamic_TextArea_Property.php" line="176" />
+			<reference file="modules/base/xarproperties/Dynamic_TextUpload_Property.php" line="250" />
+			<reference file="modules/base/xarproperties/Dynamic_TextUpload_Property.php" line="333" />
+			<reference file="modules/base/xarproperties/Dynamic_TimeZone_Property.php" line="148" />
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="80" />
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="86" />
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="163" />
+			<reference file="modules/base/xarproperties/Dynamic_URLTitle_Property.php" line="138" />
+			<reference file="modules/base/xarproperties/Dynamic_URLTitle_Property.php" line="145" />
+			<reference file="modules/base/xarproperties/Dynamic_URL_Property.php" line="77" />
+			<reference file="modules/base/xarproperties/Dynamic_URL_Property.php" line="83" />
 		</references>
 	</entry>
 	<entry>
-		<string>Invalid XML data</string>
-		<translation>Dados XML inválidos</translation>
+		<string>unknown property</string>
+		<translation>propriedade desconhecida</translation>
 		<references>
-			<reference file="modules/base/xarclass/feedParser.php" line="201" />
+			<reference file="modules/dynamicdata/class/properties.php" line="408" />
+		</references>
+	</entry>
+	<entry>
+		<string>This property is unknown...</string>
+		<translation>Esta propriedade é desconhecida...</translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="442" />
+		</references>
+	</entry>
+	<entry>
+		<string>date</string>
+		<translation>data</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="49" />
+			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="59" />
+			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="65" />
+			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>selection</string>
+		<translation>seleção</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="49" />
+			<reference file="modules/base/xarproperties/Dynamic_HTMLPage_Property.php" line="63" />
+			<reference file="modules/base/xarproperties/Dynamic_ImageList_Property.php" line="62" />
+			<reference file="modules/base/xarproperties/Dynamic_MultiSelect_Property.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>value</string>
+		<translation>valor</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_FileUpload_Property.php" line="174" />
+			<reference file="modules/base/xarproperties/Dynamic_TextUpload_Property.php" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>text : must be less than #(1) characters long</string>
+		<translation>texto: deve conter menos de #(1) caracteres</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>text : must be at least #(1) characters long</string>
+		<translation>texto: deve conter ao menos #(1) caracteres</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>text : does not match regular expression</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>integer</string>
+		<translation>inteiro</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_NumberBox_Property.php" line="57" />
+			<reference file="modules/base/xarproperties/Dynamic_NumberList_Property.php" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>check</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_URLIcon_Property.php" line="79" />
+			<reference file="modules/base/xarproperties/Dynamic_URLTitle_Property.php" line="137" />
+			<reference file="modules/base/xarproperties/Dynamic_URL_Property.php" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>URL</string>
+		<translation>URL</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_URLTitle_Property.php" line="67" />
+			<reference file="modules/base/xarproperties/Dynamic_URL_Property.php" line="38" />
+			<reference file="modules/base/xartemplates/blocks/modify-menu.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
@@ -30,25 +153,16 @@
 		<translation>Administração do Módulo Base</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="3" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="22" />
+			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="18" />
 			<reference file="modules/base/xartemplates/admin-release.xd" line="3" />
 			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Languages and Locales</string>
-		<translation>Idiomas e Localizações</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="76" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="84" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modules</string>
 		<translation>Módulos</translation>
 		<references>
-			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="43" />
+			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="47" />
 			<reference file="modules/base/xartemplates/blocks/menu.xd" line="62" />
 		</references>
 	</entry>
@@ -174,8 +288,7 @@
 			<reference file="modules/base/xartemplates/pager-default.xd" line="96" />
 			<reference file="modules/base/xartemplates/pager-multipage.xd" line="63" />
 			<reference file="modules/base/xartemplates/pager-multipage.xd" line="65" />
-			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="14" />
-			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="16" />
+			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
@@ -195,7 +308,6 @@
 			<reference file="modules/base/xartemplates/pager-multipage.xd" line="44" />
 			<reference file="modules/base/xartemplates/pager-multipage.xd" line="46" />
 			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="7" />
-			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="9" />
 			<reference file="modules/base/xartemplates/pager-openended.xd" line="57" />
 		</references>
 	</entry>
@@ -203,46 +315,33 @@
 		<string>Invalid URL [#(1)]</string>
 		<translation>URL (#(1))Inválida</translation>
 		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="58" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="76" />
+			<reference file="modules/base/xaruserapi/checklink.php" line="60" />
+			<reference file="modules/base/xaruserapi/getfile.php" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>Socket error #(1) : #(2) while retrieving URL #(3)</string>
 		<translation>Erro de Soquete #(1) : #(2) ao recuperar a URL #(3)</translation>
 		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="71" />
-			<reference file="modules/base/xaruserapi/checklink.php" line="86" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="152" />
+			<reference file="modules/base/xaruserapi/checklink.php" line="73" />
+			<reference file="modules/base/xaruserapi/checklink.php" line="88" />
+			<reference file="modules/base/xaruserapi/getfile.php" line="154" />
 		</references>
 	</entry>
 	<entry>
 		<string>Error sending request for URL #(1)</string>
 		<translation>Erro ao enviar solicitação para URL #(1)</translation>
 		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="97" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="163" />
+			<reference file="modules/base/xaruserapi/checklink.php" line="99" />
+			<reference file="modules/base/xaruserapi/getfile.php" line="165" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid response headers for URL #(1) : #(2)</string>
 		<translation>Cabeçalhos de resposta inválidos para a URL #(1): #(2)</translation>
 		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="109" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="177" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1)</string>
-		<translation>#(1) Inválido</translation>
-		<references>
-			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="109" />
-			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="178" />
-			<reference file="modules/base/xarproperties/Dynamic_TColorPicker_Property.php" line="86" />
-			<reference file="modules/base/xarproperties/Dynamic_TColorPicker_Property.php" line="95" />
-			<reference file="modules/base/xarproperties/Dynamic_TimeZone_Property.php" line="149" />
-			<reference file="includes/properties/Dynamic_Select_Property.php" line="100" />
-			<reference file="includes/properties/Dynamic_Select_Property.php" line="329" />
+			<reference file="modules/base/xaruserapi/checklink.php" line="111" />
+			<reference file="modules/base/xaruserapi/getfile.php" line="179" />
 		</references>
 	</entry>
 	<entry>
@@ -255,7 +354,7 @@
 	</entry>
 	<entry>
 		<string>Block Expiration:</string>
-		<translation></translation>
+		<translation>Expiração do Bloco:</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="5" />
 			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="5" />
@@ -323,7 +422,7 @@
 	</entry>
 	<entry>
 		<string>This Block Will Expire:</string>
-		<translation>Este bloco vai expirar daqui a:</translation>
+		<translation>Este bloco irá expirar daqui a:</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="45" />
 			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="46" />
