@@ -1,66 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
-		<string>Your account has been locked for '.$lockouttime.' minutes.</string>
-		<translation></translation>
+		<string>You must enable cookies on your browser to run Xaraya. Check the browser configuration options to make sure cookies are enabled, click on the &quot;Back&quot; button of the browser and try again.</string>
+		<translation>Sie müssen in Ihrem Brower Cookies zulassen, um sich auf dieser Website anmelden zu können. Prüfen Sie bitte die entsprechenden Browserkinigurationsoptionen, um sicher zu sein, dass Cookies zugelassen sind, klicken Sie dann auf den &quot;Zurück&quot;-Button und versuchen es erneut.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="38" />
+			<reference file="modules/roles/xaruser/login.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been locked for #(1) minutes.</string>
+		<translation>Ihr Account wurde für  #(1) Minuten geschlossen.</translation>
+		<references>
+			<reference file="modules/roles/xaruser/login.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>You must provide a username.</string>
-		<translation>Ein Benutzername muss eungegeben werden.</translation>
+		<translation>Ein Nutzername muss eingegeben werden.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="45" />
+			<reference file="modules/roles/xaruser/login.php" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>You must provide a password.</string>
 		<translation>Ein Passwort muss eingegeben werden.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="51" />
+			<reference file="modules/roles/xaruser/login.php" line="57" />
 		</references>
 	</entry>
 	<entry>
 		<string>Problem logging in: Invalid username or password.</string>
-		<translation>Problem beim Anmelden: Ungültiger Benutzername oder Passwort.</translation>
+		<translation>Problem beim Anmelden: Ungültiger Nutzername oder Passwort.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="108" />
+			<reference file="modules/roles/xaruser/login.php" line="114" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your account has been terminated by your request or at the adminstrator's discression.</string>
-		<translation>Ihr Account wurde auf Ihren Wunsch hin beendet oder aber aufgrund der Entscheidung des Website-Administrators.</translation>
+		<translation>Ihr Account wurde auf Ihren Wunsch hin geschlossen oder aber aufgrund der Entscheidung des Website-Administrators.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="152" />
+			<reference file="modules/roles/xaruser/login.php" line="163" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your account has been marked as inactive. Contact the adminstrator with further questions.</string>
 		<translation>Der Account wurde als inaktiv gekennzeichnet. Für weitere Fragen bitte den Administrator der Website kontakten.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="161" />
+			<reference file="modules/roles/xaruser/login.php" line="172" />
 		</references>
 	</entry>
 	<entry>
-		<string>Problem logging in: Invalid username or password. Your account has been locked for '.$lockouttime .' minutes.</string>
-		<translation></translation>
+		<string>Problem logging in: Invalid username or password. Your account has been locked for #(1) minutes.</string>
+		<translation>Problem beim Einloggen: Ungültiger Nutzername oder Passwort. Ihr Account wurde für  #(1) Minuten geschlossen.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="234" />
+			<reference file="modules/roles/xaruser/login.php" line="245" />
 		</references>
 	</entry>
 	<entry>
 		<string>Problem logging in: Invalid username or password. You have tried to log in #(1) times.</string>
-		<translation></translation>
+		<translation>Problem beim Einloggen: Ungültiger Nutzername oder Passwort. Sie haben #(1) Mal versucht einzuloggen.</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="240" />
+			<reference file="modules/roles/xaruser/login.php" line="251" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your account has not yet been activated by the site administrator</string>
 		<translation>Der Account wurde vom Administrator der Website noch nicht aktiviert</translation>
 		<references>
-			<reference file="modules/roles/xaruser/login.php" line="251" />
+			<reference file="modules/roles/xaruser/login.php" line="262" />
 		</references>
 	</entry>
 </translations>

@@ -1,19 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
-		<string>BBCode Administration</string>
-		<translation>BBCode-Administration</translation>
-		<references>
-			<reference file="modules/bbcode/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="1" />
-		</references>
-	</entry>
-	<entry>
 		<string>Submit</string>
 		<translation>Einreichen</translation>
 		<references>
+			<reference file="modules/bbcode/xaradmin/delete.php" line="21" />
+			<reference file="modules/bbcode/xaradmin/modify.php" line="19" />
 			<reference file="modules/bbcode/xaradmin/modifyconfig.php" line="32" />
+			<reference file="modules/bbcode/xaradmin/new.php" line="10" />
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="58" />
+			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="56" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="57" />
 			<reference file="modules/bbcode/xaruser/main.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete BBCode</string>
+		<translation>BBCode löschen</translation>
+		<references>
+			<reference file="modules/bbcode/xaradmin/view.php" line="40" />
+			<reference file="modules/bbcode/xartemplates/admin-delete.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid Parameter Count</string>
+		<translation>Ungültige Paramaterzahl</translation>
+		<references>
+			<reference file="modules/bbcode/xaradminapi/delete.php" line="14" />
+			<reference file="modules/bbcode/xaradminapi/update.php" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>BBCode Administration</string>
+		<translation>BBCode-Administration</translation>
+		<references>
+			<reference file="modules/bbcode/xartemplates/admin-delete.xd" line="1" />
+			<reference file="modules/bbcode/xartemplates/admin-main.xd" line="2" />
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="16" />
+			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="7" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="16" />
+			<reference file="modules/bbcode/xartemplates/admin-view.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Settings</string>
+		<translation>Einstellungen</translation>
+		<references>
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="31" />
+			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="22" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>The long name for the bbcode.</string>
+		<translation>Der lange Name für BBCode.</translation>
+		<references>
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="39" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name</string>
+		<translation>Name</translation>
+		<references>
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="42" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>The tag for the bbcode.</string>
+		<translation>Der Tag für den BBCode.</translation>
+		<references>
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="49" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Tag</string>
+		<translation>Tag</translation>
+		<references>
+			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="52" />
+			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="51" />
 		</references>
 	</entry>
 </translations>

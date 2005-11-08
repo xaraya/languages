@@ -9,42 +9,28 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Mail Administration</string>
-		<translation>Mail-Administration</translation>
+		<string>Wrong arguments to mail_adminapi</string>
+		<translation>Falsche Argumente für die mail_adminapi</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="10" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="10" />
+			<reference file="modules/mail/xaradminapi/_sendmail.php" line="61" />
+			<reference file="modules/mail/xaradminapi/sendmail.php" line="61" />
+			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="60" />
 		</references>
 	</entry>
 	<entry>
 		<string>Test Configuration</string>
 		<translation>Test-Konfiguration</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
-			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails will not be sent.</string>
-		<translation>Bitte berücksichtigen, dass vorher geplante Mails nicht gesendet werden, wenn der Scheduler gestoppt bzw. nicht ausgelöst wird.</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="36" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="249" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong arguments to mail_adminapi</string>
-		<translation>Falsche Argumente für die mail_adminapi</translation>
-		<references>
-			<reference file="modules/mail/xaradminapi/_sendmail.php" line="51" />
-			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="59" />
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="31" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Ungültiges #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
 		<references>
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="48" />
 			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="26" />
 			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="48" />
 			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="26" />
@@ -52,43 +38,55 @@
 		</references>
 	</entry>
 	<entry>
-		<string>module</string>
-		<translation>Modul</translation>
+		<string>Mail Administration</string>
+		<translation>Mail-Administration</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="83" />
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="87" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="83" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="87" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="11" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="14" />
+			<reference file="modules/mail/xartemplates/admin-viewq.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
-		<string>is the new id for the item</string>
-		<translation>ist die neue ID für das Element</translation>
+		<string>Name:</string>
+		<translation>Name:</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="83" />
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="87" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="83" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="87" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="25" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
-		<string>Site Name</string>
-		<translation>Name der Website</translation>
+		<string>Subject:</string>
+		<translation>Betreff:</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="84" />
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="88" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="84" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="88" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="41" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="132" />
 		</references>
 	</entry>
 	<entry>
-		<string>Site URL</string>
-		<translation>URL der Website</translation>
+		<string>Message:</string>
+		<translation>Mitteilung:</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="85" />
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="89" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="85" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="89" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="49" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Reset Form</string>
+		<translation>Formular zurücksetzen</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="71" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="369" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="221" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails will not be sent.</string>
+		<translation>Bitte berücksichtigen, dass vorher geplante Mails nicht gesendet werden, wenn der Scheduler gestoppt bzw. nicht ausgelöst wird.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="88" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="335" />
 		</references>
 	</entry>
 </translations>
