@@ -4,28 +4,288 @@
 		<string>An error occurred while processing your request. The details are:</string>
 		<translation>Une erreur est survenue pendant le traitement de votre requête. Les détails sont :</translation>
 		<references>
-			<reference file="index.php" line="169" />
+			<reference file="index.php" line="165" />
 		</references>
 	</entry>
 	<entry>
 		<string>Last updated on #(1)</string>
 		<translation>Dernière mise à jour le #(1)</translation>
 		<references>
-			<reference file="includes/caching/page.php" line="229" />
+			<reference file="includes/caching/page.php" line="227" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
 		<translation>Erreur de base de données durant l'exécution : '#(1)'; Description de l'erreur : '#(2)'.</translation>
 		<references>
-			<reference file="includes/xarException.php" line="457" />
+			<reference file="includes/xarException.php" line="459" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default message</string>
 		<translation>Message par défaut</translation>
 		<references>
-			<reference file="includes/exceptions/errorcollection.class.php" line="32" />
+			<reference file="includes/exceptions/errorcollection.class.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block type already exists</string>
+		<translation>Ce type de bloc existe déjà</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>An attempt was made to register a block type in a module that already exists.</string>
+		<translation>Une tentative a été faite pour enregistrer dans un module un type de bloc qui existe déjà.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Bad Data</string>
+		<translation>Mauvaise donnée</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was bad.</string>
+		<translation>Les données fournies étaient mauvaises.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
+		<translation>Les valeurs fournies pendant l'opération ne peuvent être validées, où n'ont pas été acceptées pour d'autres raisons.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>File does not exist</string>
+		<translation>Le fichier n'existe pas</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a file that cannot be found.</string>
+		<translation>Une opération requiert un fichier qui ne peut être trouvé.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed.</string>
+		<translation>Le fichier est peut être manquant, ou son nom a peut être changé.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Operation Halted</string>
+		<translation>Opération stopper</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation cannot be completed under the present circumstances.</string>
+		<translation>Cette opération n'a pas pu être complété dans les circonstances présentes.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
+		<translation>Cette opération a été stoppé car, bien que ce ne soit pas interdit, elle ne peut être complété dans ce contexte.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Duplicate Data</string>
+		<translation>Données dupliquées</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was a duplicate.</string>
+		<translation>Les données fournies étaient dupliquées.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
+		<translation>Une valeur unique était attendue pendant l'opération, mais la valeur fournie était un doublon d'une valeur existante.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Forbidden Operation</string>
+		<translation>Opération interdite</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting is not allowed in the current circumstances.</string>
+		<translation>L'opération que vous avez tentée n'est pas autorisée dans les circonstances actuelles.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
+		<translation>Il semble que vous ayez utilisé le bouton &quot;retour&quot; ou &quot;rafraichir&quot; de votre navigateur et retenté une opération qui ne peut être répétée, ou votre navigateur n'accepte pas les cookies.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login error</string>
+		<translation>Erreur d'identification</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>A problem was encountered during the login process.</string>
+		<translation>Il y a eu un problème pendant le processus d'identification.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>No further information is available.</string>
+		<translation>Aucune autre information disponible.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing Data</string>
+		<translation>Donnée manquante</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data is incomplete.</string>
+		<translation>Les données sont incomplètes.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>A value was expected during this operation, but none was found.</string>
+		<translation>Une valeur était attendue pendant l'opération, mais aucune n'a été trouvée.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Multiple instances</string>
+		<translation>Instances multiples</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module contains more than one instance of the same block type.</string>
+		<translation>Un module contient plus d'une instance du même type de bloc.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Error</string>
+		<translation>Erreur de droits d'accès</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>You do not have privileges for this operation.</string>
+		<translation>Vous n'avez pas les droits d'accès pour cette opération.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
+		<translation>L'opération que vous avez tenté nécessite des droits d'accès que vous n'avez pas. Contactez l'administrateur du site/système pour demander un accès.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not logged in</string>
+		<translation>Non identifié</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
+		<translation>Vous essayez d'effectuer une opération qui n'est pas autorisée pour les utilisateurs anonymes.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
+		<translation>Une opération a été rencontrée qui nécessite que l'utilisateur soit identifié. Si vous êtes actuellement identifié, merci de faire un rapport de problèmes sur &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Item not found</string>
+		<translation>Objet non trouvé</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unexpected empty result occurred.</string>
+		<translation>Un résultat vide inattendu est apparu.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation that should have returned a result instead came up empty.</string>
+		<translation>Une opération qui aurait du retourner un résultat, a renvoyé un résultat vide.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong version</string>
+		<translation>Mauvaise version</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>The application version supplied is wrong.</string>
+		<translation>Mauvaise version d'application fournie.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="61" />
 		</references>
 	</entry>
 	<entry>
@@ -40,1120 +300,1004 @@
 		<string>Assertion in code failed</string>
 		<translation>Echec d'une affirmation dans le code</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>An assertion evaluated to false, which indicates a coding error.</string>
 		<translation>Une affirmation a été évalué à faux, ce qui indique une erreur dans le code</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="17" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string>
 		<translation>Une condition affirmative a échoué pendant l'execution. Cela signifie qu'une erreur définie existe dans le code.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>Bad Parameter</string>
 		<translation>Mauvais paramètre</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter encountered was bad.</string>
 		<translation>Un mauvais paramètre a été rencontré.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="21" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string>
 		<translation>Un paramètre fourni pendant cette opération n'a pas pu être validé, ou n'a pas été accepté pour d'autres raisons.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Compiler error</string>
 		<translation>Erreur de compilation</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout compiler encountered an error.</string>
 		<translation>Le compilateur Blocklayout a rencontré une erreur.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="25" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string>
 		<translation>Le compilateur Blocklayout a rencontré une erreur dont il n'a pu se remettre. Aucune information spécifique disponible.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya is not properly configured</string>
 		<translation>Xaraya n'est pas configuré correctement</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>The combination of configuration settings has led to a conflict</string>
 		<translation>La conbinaison des paramètres de configuration a conduit à un conflit</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="29" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string>
 		<translation>Xaraya est configuré avec des paramètres qui ont conduit à une situation de conflit. Certains paramètres de configuration ne peuvent pas être utilisés simultanément.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Context does not exist</string>
 		<translation>Le contexte n'existe pas</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>A context element was not found.</string>
 		<translation>Un élément de contexte n'a pas été trouvé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="33" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string>
 		<translation>Cette erreur est faite pour décrire les situations où un élément de contexte (bloc, modèle, inclusion) était attendu mais n'a pas été trouvé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Error</string>
 		<translation>Erreur de base de données</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered while attempting a database operation.</string>
 		<translation>Une erreur s'est produite durant une tentative d'opération sur la base de données.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information is available.</string>
-		<translation>Aucune autre information disponible.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Query Error</string>
 		<translation>Erreur de requête sur la base de données</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered while trying to execute a database query.</string>
 		<translation>Une erreur s'est produite durant l'exécution d'une requête sur la base de données.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="41" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string>
 		<translation>Une requête sur la base de données n'a pu être éxécutée, soit car la requête n'a pu être comprise soit car elle a renvoyé un résultat inattendu.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deprecated API</string>
 		<translation>API obsolète</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>A function call encountered belongs to a deprecated API.</string>
 		<translation>Un appel de fonction rencontré appartient à une API obsolète.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="45" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>A function call encountered belongs to an old API and is therefore no longer supported.</string>
 		<translation>Un appel de fonction rencontré appartient à une vieille API et n'est plus supporté.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deprecated Blocklayout Attribute</string>
 		<translation>Attribut de Blocklayout obsolète</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag in a template contains a deprecated attribute.</string>
 		<translation>Un tag dans un modèle contient un attribut obsolète.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="49" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string>
 		<translation>Un tag dans un modèle contient un attribut obsolète et a besoin d'être remplacé par un nouveau tag, ou sera laissé de coté, voir la documentation de Blocklayout pour la bonne syntaxe.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Fatal Error</string>
 		<translation>PHP: Erreur Fatale</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
 		</references>
 	</entry>
 	<entry>
 		<string>A system error was received from the PHP interpreter.</string>
 		<translation>Une erreur système a été reçue de l'interpreteur PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="53" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="57" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="61" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="65" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="69" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="73" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="77" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="81" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="85" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="89" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="93" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="51" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="55" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="59" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="63" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="67" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="71" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="75" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="79" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="83" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="87" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is an error in the PHP code that is being processed.</string>
 		<translation>Il y a une erreur dans le code php qui a été executé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Warning</string>
 		<translation>PHP: Avertissement</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Parse Error</string>
 		<translation>PHP: Erreur de syntaxe</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Error Notice</string>
 		<translation>PHP: Avis d'erreur</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Core Error</string>
 		<translation>PHP: Erreur Fondamentale</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Core Warning</string>
 		<translation>PHP: Avertissement Fondamental</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Compile Error</string>
 		<translation>PHP: Erreur de compilation</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Compile Warning</string>
 		<translation>PHP: Avertissement de compilation</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: User Error</string>
 		<translation>PHP: Erreur Utilisateur</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: User Warning</string>
 		<translation>PHP: Avertissement Utilisateur</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
 		</references>
 	</entry>
 	<entry>
 		<string>User Notice</string>
 		<translation>Avertissement Utilisateur</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Parameter</string>
 		<translation>Paramètre vide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter value was not provided.</string>
 		<translation>Une valeur de paramètre n'a pas été fournie.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="97" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="95" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter was expected during this operation, but none was found.</string>
 		<translation>Un paramètre était attendu pendant cette opération, mais aucun n'a été trouvé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
 		</references>
 	</entry>
 	<entry>
 		<string>Event is not registered</string>
 		<translation>Evénement non enregistré</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown event was encountered.</string>
 		<translation>Un événement inconnu a été rencontré.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="101" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="99" />
 		</references>
 	</entry>
 	<entry>
 		<string>A reference to an event was encountered that is unknown to the system.</string>
 		<translation>Une référence à un événement a été rencontrée qui est inconnue du système.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown system error</string>
 		<translation>Erreur système inconnue.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown system error was encountered.</string>
 		<translation>Une erreur système inconnue a été rencontrée.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="105" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="103" />
 		</references>
 	</entry>
 	<entry>
 		<string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string>
 		<translation>Le système d'erreur a rencontré une erreur qui ne peut être identifiée. Merci de nous aider à la corriger en remplissant le formulaire de rapport de bug sur &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
 		</references>
 	</entry>
 	<entry>
 		<string>Function failed</string>
 		<translation>La fonction a échouée</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call to a function returned a bad result.</string>
 		<translation>Un appel à une fonction a renvoyé un mauvais résultat.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="109" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>The function executed correctly, but the result was a failure.</string>
 		<translation>La fonction s'est éxecutée correctement, mais le résultat est une erreur.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown ID</string>
 		<translation>ID inconnu</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
 		</references>
 	</entry>
 	<entry>
 		<string>An expected ID was not found.</string>
 		<translation>Un ID attendu n'a pas été trouvé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="113" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="111" />
 		</references>
 	</entry>
 	<entry>
 		<string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string>
 		<translation>Un objet a été appelé par un ID qui n'est pas reconnu. Cela peut vouloir dire que l'objet a été déplacé, changé ou n'existe pas.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid attribute</string>
 		<translation>Attribut invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid attribute.</string>
 		<translation>Le parseur Blocklayout a rencontré un attribut invalide.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="117" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="115" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid entity</string>
 		<translation>Entité invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid entity.</string>
 		<translation>Le parseur Blocklayout a rencontré un attribut entité.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="121" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="119" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid file</string>
 		<translation>Fichier invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid file.</string>
 		<translation>Le parseur Blocklayout a rencontré un fichier invalide.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="125" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="123" />
 		</references>
 	</entry>
 	<entry>
 		<string>The file was either not found, or could not be read properly.</string>
 		<translation>Le fichier n'a soit pas été trouvé, soit ne peut être lu correctement.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid instruction</string>
 		<translation>Instruction invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid instruction.</string>
 		<translation>Le parseur Blocklayout a rencontré une instruction invalide.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="129" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="127" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid special variable</string>
 		<translation>Variable spéciale invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered a problem with a special variable.</string>
 		<translation>Le parseur Blocklayout a eu un problème avec une variable spéciale.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="133" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="131" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid syntax</string>
 		<translation>Syntaxe invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered a syntax error.</string>
 		<translation>Le parseur Blocklayout a rencontré une erreur de syntaxe.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="137" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="135" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid tag</string>
 		<translation>Tag invalide</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid tag.</string>
 		<translation>Le parseur Blocklayout a rencontré un tag invalide.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="141" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="139" />
 		</references>
 	</entry>
 	<entry>
 		<string>The tag encountered does not conform to XML syntax.</string>
 		<translation>Le tag rencontré ne se conforme pas à la syntaxe XML.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
 		</references>
 	</entry>
 	<entry>
 		<string>Locale not available</string>
 		<translation>Langue non disponible</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
 		</references>
 	</entry>
 	<entry>
 		<string>Locale does not exist</string>
 		<translation>Cette langue n'existe pas</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown locale was encountered.</string>
 		<translation>Une langue inconnue a été rencontrée.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="147" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="145" />
 		</references>
 	</entry>
 	<entry>
 		<string>A reference to a locale was encountered that is unknown to the system.</string>
 		<translation>Une référence à une langue a été rencontrée qui est inconnue du système.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
 		</references>
 	</entry>
 	<entry>
 		<string>Missing attribute</string>
 		<translation>Attribut manquant</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser could not find a tag attribute.</string>
 		<translation>Le parseur Blocklayout n'a pas pu trouver un attribut de tag.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="151" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="149" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag attribute required by syntax was not found.</string>
 		<translation>Un attribut de tag indispensable à la syntaxe n'a pas été trouvé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
 		</references>
 	</entry>
 	<entry>
 		<string>Missing parameter</string>
 		<translation>Paramètre manquant</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser could not resolve a tag parameter.</string>
 		<translation>Le parseur Blocklayout n'a pas pu resoudre un paramètre de tag.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="155" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="153" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag parameter could not be resolved because of bad syntax.</string>
 		<translation>Un paramètre de tag n'a pas pu être résolu à cause d'une erreur de syntaxe.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Dependency</string>
 		<translation>Dépendance du module</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module call failed because of an unsatisifed dependency.</string>
 		<translation>Un appel de module a échoué à cause d'une dépendance insatisfaite.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="159" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="157" />
 		</references>
 	</entry>
 	<entry>
 		<string>The current module cannot execute because another module that must first be installed is not present.</string>
 		<translation>Le module actuel ne peut être éxecuté car un autre module qui doit d'abord être installé est absent.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module file does not exist</string>
 		<translation>Fichier de module absent</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
 		</references>
 	</entry>
 	<entry>
 		<string>An operation requires a module file that cannot be found.</string>
 		<translation>Une opération a besoin d'un fichier de module qui ne peut être trouvé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="163" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="161" />
 		</references>
 	</entry>
 	<entry>
 		<string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
 		<translation>Le fichier est peut-être absent, ou il a été renommé. Note : cette erreur arrive aussi quand un fichier ne peut être lu à cause d'erreurs PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function does not exist</string>
 		<translation>La fonction du module n'existe pas</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call has been made to a module function that cannot be found.</string>
 		<translation>Un appel a été fait à une fonction de module qui ne peut être trouvée.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="167" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="165" />
 		</references>
 	</entry>
 	<entry>
 		<string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
 		<translation>Le fichier dans lequel la fonction était sensée être est peut-être manquant. Sinon, l'erreur vient peut-être du fait que la fonction actuelle a un nom différent, ou n'existe pas. Note : cette erreur arrive aussi quand un fichier ne peut être lu à cause d'erreurs PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module is not active</string>
 		<translation>Le module n'est pas actif</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call has been made to a module that is not active.</string>
 		<translation>Un appel a été fait à un module qui n'est pas actif.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="171" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="169" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string>
 		<translation>Un appel à été fait à un module qui n'a pas encore été activé/installé. Utilisez le lien d'activation dans le module &quot;Modules&quot; (Modules-&gt;Voir tous) pour l'installer.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module does not exist</string>
 		<translation>Le module n'existe pas</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call has been made to a module that cannot be found</string>
 		<translation>Un appel a été fait à un module qui ne peut être trouvé</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="175" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
 		<translation>Un appel à été fait à un module qui n'a pas encore été installé ou qui est absent. Utilisez le lien d'activation dans le module &quot;Modules&quot; (Modules-&gt;Voir tous) pour l'installer. Note : cette erreur arrive aussi quand un fichier ne peut être lu à cause d'erreurs PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Privilege</string>
-		<translation>Pas de privilège</translation>
+		<translation>Pas de droit d'accès</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
 		</references>
 	</entry>
 	<entry>
 		<string>You do not have the privileges for this operation.</string>
 		<translation>Vous n'avez pas les privilèges pour cette opération.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="179" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string>
 		<translation>Une opération a été tentée par des utilisateurs à qui on n'a pas assigné de privilège. Les privilèges doivent être assignés par l'administrateur(s) du système.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not implemented</string>
 		<translation>Non implémenté</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
 		</references>
 	</entry>
 	<entry>
 		<string>The requested feature is not available.</string>
 		<translation>La fonctionnalité demandée n'est pas disponible.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="183" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="181" />
 		</references>
 	</entry>
 	<entry>
 		<string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string>
 		<translation>Une requête a été faite pour accéder à une fonctionnalité qui n'est pas disponible dans cette installation. La fonctionnalité est soit manquante, soit indisponible dans la version actuelle de Xaraya.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
 		</references>
 	</entry>
 	<entry>
 		<string>System error</string>
 		<translation>Erreur système</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
 		</references>
 	</entry>
 	<entry>
 		<string>A system error was encountered.</string>
 		<translation>Une erreur système est survenue.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="187" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="185" />
 		</references>
 	</entry>
 	<entry>
 		<string>Template does not exist</string>
 		<translation>Le modèle n'existe pas</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown template name was encountered.</string>
 		<translation>Un nom inconnu de modèle à été rencontré.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="191" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="189" />
 		</references>
 	</entry>
 	<entry>
 		<string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string>
 		<translation>Une tentative a été faite pour executer un modèle qui n'a pas été trouvé. Le modèle a peut-être été effacé, n'existe pas ou a été renommé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
 		</references>
 	</entry>
 	<entry>
 		<string>Theme does not exist</string>
 		<translation>Le thème n'existe pas</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown theme name was encountered.</string>
 		<translation>Un nom inconnu de thème a été rencontré.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="195" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="193" />
 		</references>
 	</entry>
 	<entry>
 		<string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string>
 		<translation>Une tentative a été faite pour afficher un thème qui n'a pas été trouvé. Le thème a été effacé ou n'existe pas ou a été renommé.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to load</string>
 		<translation>Impossible de charger</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered during a load operation.</string>
 		<translation>Une erreur est survenue pendant une opération de chargement.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="199" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="197" />
 		</references>
 	</entry>
 	<entry>
 		<string>The system was unable to successfully load a component, such as a module or theme.</string>
 		<translation>Le système a été incapable de charger correctement un composant, comme un module ou un thème.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown Error</string>
 		<translation>Erreur inconnue</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown error was encountered.</string>
 		<translation>Une erreur inconnue est survenue.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="203" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="201" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable is not registered</string>
 		<translation>La variable n'est pas enregistrée</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>You are attempting to call a variable that the system does not recognize.</string>
 		<translation>Vous tentez d'appeler une variable que le système ne reconnait pas.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="207" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="205" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string>
 		<translation>Une erreur est survenue pendant l'appel d'une variable. La variable a peut-être été effacée ou renommée.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
 		</references>
 	</entry>
 	<entry>
 		<string>XML Parser Error</string>
 		<translation>Erreur du parseur XML</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
 		</references>
 	</entry>
 	<entry>
 		<string>The XML parser has encountered an error.</string>
 		<translation>Le parseur XML a rencontré une erreur.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="211" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="209" />
 		</references>
 	</entry>
 	<entry>
 		<string>The XML parser tried to execute a line that was not well formed.</string>
 		<translation>Le parseur XML essai d'exécuter une ligne qui n'est pas bien formée.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="212" />
-		</references>
-	</entry>
-	<entry>
-		<string>Block type already exists</string>
-		<translation>Ce type de bloc existe déjà</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to register a block type in a module that already exists.</string>
-		<translation>Une tentative a été faite pour enregistrer dans un module un type de bloc qui existe déjà.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Data</string>
-		<translation>Mauvaise donnée</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was bad.</string>
-		<translation>Les données fournies étaient mauvaises.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>Les valeurs fournies pendant l'opération ne peuvent être validées, où n'ont pas été acceptées pour d'autres raisons.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Operation Halted</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation cannot be completed under the present circumstances.</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Duplicate Data</string>
-		<translation>Données dupliquées</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was a duplicate.</string>
-		<translation>Les données fournies étaient dupliquées.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
-		<translation>Une valeur unique était attendue pendant l'opération, mais la valeur fournie était un doublon d'une valeur existante.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forbidden Operation</string>
-		<translation>Opération interdite</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting is not allowed in the current circumstances.</string>
-		<translation>L'opération que vous avez tentée n'est pas autorisée dans les circonstances actuelles.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
-		<translation>Il semble que vous ayez utilisé le bouton &quot;retour&quot; ou &quot;rafraichir&quot; de votre navigateur et retenté une opération qui ne peut être répétée, ou votre navigateur n'accepte pas les cookies.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Login error</string>
-		<translation>Erreur d'identification</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>A problem was encountered during the login process.</string>
-		<translation>Il y a eu un problème pendant le processus d'identification.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing Data</string>
-		<translation>Donnée manquante</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data is incomplete.</string>
-		<translation>Les données sont incomplètes.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>A value was expected during this operation, but none was found.</string>
-		<translation>Une valeur était attendue pendant l'opération, mais aucune n'a été trouvée.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple instances</string>
-		<translation>Instances multiples</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module contains more than one instance of the same block type.</string>
-		<translation>Un module contient plus d'une instance du même type de bloc.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Error</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have privileges for this operation.</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not logged in</string>
-		<translation>Non identifié</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>Vous essayez d'effectuer une opération qui n'est pas autorisée pour les utilisateurs anonymes.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
-		<translation>Une opération a été rencontrée qui nécessite que l'utilisateur soit identifié. Si vous êtes actuellement identifié, merci de faire un rapport de problèmes sur &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>Item not found</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unexpected empty result occurred.</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation that should have returned a result instead came up empty.</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong version</string>
-		<translation>Mauvaise version</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>The application version supplied is wrong.</string>
-		<translation>Mauvaise version d'application fournie.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
 		</references>
 	</entry>
 	<entry>
 		<string>The site is locked</string>
 		<translation>Le site est vérouillé</translation>
 		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="16" />
+			<reference file="includes/exceptions/systemmessage.defaults.php" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>No access at this time</string>
 		<translation>Aucun accès pour le moment</translation>
 		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="19" />
+			<reference file="includes/exceptions/systemmessage.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty database_name.</string>
+		<translation>Nom de la base de données vide.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown database type: '#(1)'.</string>
+		<translation>Type de base de données inconnu : '#(1)'.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="77" />
+			<reference file="includes/xarTableDDL.php" line="174" />
+			<reference file="includes/xarTableDDL.php" line="289" />
+			<reference file="includes/xarTableDDL.php" line="343" />
+			<reference file="includes/xarTableDDL.php" line="416" />
+			<reference file="includes/xarTableDDL.php" line="471" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty tableName.</string>
+		<translation>Nom de la table vide.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="99" />
+			<reference file="includes/xarTableDDL.php" line="204" />
+			<reference file="includes/xarTableDDL.php" line="310" />
+			<reference file="includes/xarTableDDL.php" line="366" />
+			<reference file="includes/xarTableDDL.php" line="438" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not array fields.</string>
+		<translation>Pas un tableau de champs.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (must be an array, command key must be set).</string>
+		<translation>Arguments invalides (doit être un tableau, les clés de commandes doivent être données).</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="210" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
+		<translation>Index invalide (doit être un tableau, les champs doivent être un tableau, les clés des noms doivent être données).</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="372" />
+			<reference file="includes/xarTableDDL.php" line="444" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (field key must be set).</string>
+		<translation>Argument invalide (la clé du champs doit être donnés)</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="79" />
+			<reference file="includes/tableddl/datadict.php" line="121" />
+			<reference file="includes/tableddl/mysql.php" line="102" />
+			<reference file="includes/tableddl/mysql.php" line="163" />
+			<reference file="includes/tableddl/postgres.php" line="123" />
+			<reference file="includes/tableddl/postgres.php" line="167" />
+			<reference file="includes/tableddl/oracle.php" line="97" />
+			<reference file="includes/tableddl/oracle.php" line="143" />
+			<reference file="includes/tableddl/sqlite.php" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
+		<translation>Argument invalide (type,taille,defaut,null, non signé, incremente, ou clé primaire doivent être données)</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="86" />
+			<reference file="includes/tableddl/datadict.php" line="128" />
+			<reference file="includes/tableddl/mysql.php" line="178" />
+			<reference file="includes/tableddl/postgres.php" line="182" />
+			<reference file="includes/tableddl/oracle.php" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (new_name key must be set.)</string>
+		<translation>Argument invalide (la clé nouveau_nom doit être donnée).</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="107" />
+			<reference file="includes/tableddl/mysql.php" line="136" />
+			<reference file="includes/tableddl/postgres.php" line="140" />
+			<reference file="includes/tableddl/oracle.php" line="116" />
+			<reference file="includes/tableddl/sqlite.php" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown command: '#(1)'.</string>
+		<translation>Commande inconnue : '#(1)'.</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="148" />
+			<reference file="includes/tableddl/mysql.php" line="209" />
+			<reference file="includes/tableddl/postgres.php" line="202" />
+			<reference file="includes/tableddl/oracle.php" line="195" />
+			<reference file="includes/tableddl/sqlite.php" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
+		<translation>Modifier ne supporte pas actuellement : type , taille, defaut, non signé, incrémente, ou clé primaire)</translation>
+		<references>
+			<reference file="includes/tableddl/mysql.php" line="170" />
+			<reference file="includes/tableddl/postgres.php" line="174" />
+			<reference file="includes/tableddl/oracle.php" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for function #(2)() in #(3)</string>
+		<translation>#(1) invalide pour la fonction #(2)() dans #(3)</translation>
+		<references>
+			<reference file="includes/xarDataDict.php" line="74" />
+			<reference file="includes/xarDataDict.php" line="116" />
+			<reference file="includes/xarDataDict.php" line="228" />
+			<reference file="includes/xarDataDict.php" line="379" />
+			<reference file="includes/xarDataDict.php" line="421" />
+			<reference file="includes/xarDataDict.php" line="459" />
+			<reference file="includes/xarDataDict.php" line="519" />
+			<reference file="includes/xarDataDict.php" line="550" />
 		</references>
 	</entry>
 	<entry>
 		<string>No validation type present.</string>
 		<translation>Pas de type de validation présent.</translation>
 		<references>
-			<reference file="includes/xarVar.php" line="327" />
+			<reference file="includes/xarVar.php" line="326" />
 		</references>
 	</entry>
 	<entry>
@@ -1165,270 +1309,270 @@
 	</entry>
 	<entry>
 		<string>Variable #(1) is not an array: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) n'est pas un tableau : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="20" />
-			<reference file="includes/validations/list.php" line="21" />
+			<reference file="includes/validations/array.php" line="17" />
+			<reference file="includes/validations/list.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an array: &quot;#(1)&quot;</string>
 		<translation>Pas un tableau : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="22" />
-			<reference file="includes/validations/list.php" line="23" />
+			<reference file="includes/validations/array.php" line="19" />
+			<reference file="includes/validations/list.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string>
 		<translation>La variable de tableau a moins d'éléments &quot;#(1)&quot; que le minimum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="33" />
+			<reference file="includes/validations/array.php" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string>
 		<translation>La variable de tableau a plus d'éléments &quot;#(1)&quot; que le maximum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="45" />
+			<reference file="includes/validations/array.php" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) n'est pas un booléen : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/bool.php" line="25" />
+			<reference file="includes/validations/bool.php" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a boolean: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Pas un booléen : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/bool.php" line="27" />
+			<reference file="includes/validations/bool.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) n'est pas une case à cocher : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/checkbox.php" line="24" />
+			<reference file="includes/validations/checkbox.php" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a scheckbox: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Pas une case à cocher : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/checkbox.php" line="26" />
+			<reference file="includes/validations/checkbox.php" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) ne correspond pas a un type d'email : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/email.php" line="20" />
+			<reference file="includes/validations/email.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an e-mail type: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Pas un type d'email : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/email.php" line="22" />
+			<reference file="includes/validations/email.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string>
-		<translation></translation>
+		<translation>La donnée #(1) n'etait pas une des possibilités pour &quot;#(2):&quot;</translation>
 		<references>
-			<reference file="includes/validations/enum.php" line="30" />
+			<reference file="includes/validations/enum.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Input &quot;#(1)&quot; was not one of the possibilities.</string>
-		<translation></translation>
+		<translation>La donnée #(1) n'etait pas une des possibilités.</translation>
 		<references>
-			<reference file="includes/validations/enum.php" line="32" />
+			<reference file="includes/validations/enum.php" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a float type: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) n'est pas un entier à virgule : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="21" />
+			<reference file="includes/validations/float.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a float type: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Pas un entier à virgule : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="23" />
+			<reference file="includes/validations/float.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>La valeur du Float &quot;#(1)&quot; est plus petite que le minimum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="34" />
+			<reference file="includes/validations/float.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>La valeur du Float &quot;#(1)&quot; est plus grande que le maximum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="46" />
+			<reference file="includes/validations/float.php" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) contient un tag non permis : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/html.php" line="34" />
+			<reference file="includes/validations/html.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an allowed tag: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Tag non permis : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/html.php" line="36" />
+			<reference file="includes/validations/html.php" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>Les attributs ne sont pas permis pour ce tag dans la variable #(1): &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/html.php" line="43" />
+			<reference file="includes/validations/html.php" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not an integer: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) n'est pas un entier : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="22" />
+			<reference file="includes/validations/int.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an integer: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Pas un entier : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="24" />
+			<reference file="includes/validations/int.php" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>La valeur Entière &quot;#(1)&quot; est plus petite que le minimum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="35" />
+			<reference file="includes/validations/int.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>La valeur Entière &quot;#(1)&quot; est plus grande que le maximum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="47" />
+			<reference file="includes/validations/int.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable not set!</string>
 		<translation>Variable non défini !</translation>
 		<references>
-			<reference file="includes/validations/isset.php" line="20" />
+			<reference file="includes/validations/isset.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid e-mail #(1), the mail server doesnt recognize it.</string>
 		<translation>Email invalide #(1), le serveur de mail ne le reconnait pas.</translation>
 		<references>
-			<reference file="includes/validations/mxcheck.php" line="102" />
+			<reference file="includes/validations/mxcheck.php" line="99" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to connect to the mail server #(1) for e-mail #(2).</string>
 		<translation>Impossible de se connecter au serveur de mail #(1) pour l'email #(2).</translation>
 		<references>
-			<reference file="includes/validations/mxcheck.php" line="110" />
+			<reference file="includes/validations/mxcheck.php" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) should not be empty: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) ne doit pas être vide : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/notempty.php" line="21" />
+			<reference file="includes/validations/notempty.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Should not be empty: &quot;#(1)&quot;</string>
-		<translation></translation>
+		<translation>Ne doit pas être vide : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/notempty.php" line="23" />
+			<reference file="includes/validations/notempty.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is no parameter to check against in the Regexp validation of #(1)</string>
-		<translation></translation>
+		<translation>Il n'y a pas de paramêtre a vérifier dans la validation par expression régulière de #(1)</translation>
 		<references>
-			<reference file="includes/validations/regexp.php" line="21" />
+			<reference file="includes/validations/regexp.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is no parameter to check against in the Regexp validation</string>
-		<translation></translation>
+		<translation>Il n'y a pas de paramêtre a vérifier dans la validation par expression régulière</translation>
 		<references>
-			<reference file="includes/validations/regexp.php" line="23" />
+			<reference file="includes/validations/regexp.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) : &quot;#(2)&quot; ne correspond pas à l'expression régulière : &quot;#(3)&quot;</translation>
 		<references>
-			<reference file="includes/validations/regexp.php" line="30" />
+			<reference file="includes/validations/regexp.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a string: &quot;#(2)&quot;</string>
-		<translation></translation>
+		<translation>La variable #(1) n'est pas une chaine : &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="20" />
+			<reference file="includes/validations/str.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a string: &quot;#(1)&quot;</string>
 		<translation>Pas une chaine : &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="22" />
+			<reference file="includes/validations/str.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>La taille de la chaine &quot;#(1)&quot; est plus petite que le minimum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="35" />
+			<reference file="includes/validations/str.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>La taille de la chaine &quot;#(1)&quot; est plus grande que le maximum spécifié &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="47" />
+			<reference file="includes/validations/str.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>This call needs to be removed</string>
 		<translation>Cet appel doit être effacé</translation>
 		<references>
-			<reference file="includes/xarLegacy.php" line="1035" />
+			<reference file="includes/xarLegacy.php" line="1033" />
 		</references>
 	</entry>
 	<entry>
 		<string>Confirm</string>
 		<translation>Confirmer</translation>
 		<references>
-			<reference file="includes/pnHTML.php" line="475" />
+			<reference file="includes/pnHTML.php" line="473" />
 		</references>
 	</entry>
 	<entry>
 		<string>The directories under #(1) must be writeable by PHP.</string>
-		<translation></translation>
+		<translation>Les répertoires sous #(1) doivent permettre l'écriture par PHP.</translation>
 		<references>
-			<reference file="includes/xarMLS.php" line="860" />
+			<reference file="includes/xarMLS.php" line="870" />
 		</references>
 	</entry>
 	<entry>
@@ -1436,22 +1580,22 @@
 		<translation>Type de contexte : #(1) et nom de fichier : #(2)</translation>
 		<references>
 			<reference file="includes/xarMLSPHPBackend.php" line="95" />
-			<reference file="includes/xarMLSXML2PHPBackend.php" line="187" />
+			<reference file="includes/xarMLSXML2PHPBackend.php" line="185" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module or Theme Name #(1) is empty.</string>
 		<translation>Le nom de module ou de thème #(1) est vide.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="452" />
-			<reference file="includes/xarMod.php" line="1776" />
+			<reference file="includes/xarMod.php" line="450" />
+			<reference file="includes/xarMod.php" line="1787" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
 		<translation>RegId est vide (#(1)) ou RegId est égale à 0.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="486" />
+			<reference file="includes/xarMod.php" line="484" />
 		</references>
 	</entry>
 	<entry>
@@ -1489,188 +1633,202 @@
 		<string>Unable to find Base Info for Module: #(1)</string>
 		<translation>Impossible de trouver les infos de base pour le module : #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="654" />
+			<reference file="includes/xarMod.php" line="657" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Name #(1) is empty.</string>
 		<translation>Le nom de module #(1) est vide.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="762" />
+			<reference file="includes/xarMod.php" line="770" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].</string>
-		<translation></translation>
+		<translation>Impossible de charger le fichier de fonction : [#(1)].</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="849" />
+			<reference file="includes/xarMod.php" line="857" />
 		</references>
 	</entry>
 	<entry>
 		<string>Error Caught:</string>
-		<translation></translation>
+		<translation>Erreur trouvé :</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="850" />
+			<reference file="includes/xarMod.php" line="858" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function #(1) does not exist.</string>
 		<translation>Fonction de module #(1) inexistante.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="870" />
+			<reference file="includes/xarMod.php" line="878" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
-		<translation></translation>
+		<translation>Impossible de charger le fichier de fonction : [#(1)].\n\n Erreur trouvé :\n #(2)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="956" />
+			<reference file="includes/xarMod.php" line="964" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module API function #(1) does not exist or could not be loaded.</string>
 		<translation>Fonction de module API #(1) inexistante ou impossible à charger.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="976" />
+			<reference file="includes/xarMod.php" line="984" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Module or Theme Name (#(1)).</string>
 		<translation>Nom de module ou de thème vide (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1331" />
+			<reference file="includes/xarMod.php" line="1340" />
 		</references>
 	</entry>
 	<entry>
 		<string>Directory information #(1) is empty.</string>
 		<translation>Information du répertoire #(1) vide.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1650" />
+			<reference file="includes/xarMod.php" line="1661" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot open file #(1).</string>
 		<translation>Impossible d'ouvrir le fichier #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1670" />
+			<reference file="includes/xarMod.php" line="1681" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
 		<translation>Mauvais type, ça doit être 'module' ou 'theme': #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1784" />
+			<reference file="includes/xarMod.php" line="1795" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty theme or module name (#(1)).</string>
 		<translation>Nom de module ou de thème vide (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1890" />
+			<reference file="includes/xarMod.php" line="1901" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Theme or Module variable name (#(1)).</string>
 		<translation>Nom de variable de module ou de thème vide (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1981" />
+			<reference file="includes/xarMod.php" line="1992" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
 		<translation>Nom d'attribut illégal ('#(1)') : le nom d'attribut peut contenir des lettres, des chiffres, _ et -, et doit commencer avec une lettre.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1428" />
+			<reference file="includes/xarTemplate.php" line="1507" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Attribut de drapeau ('#(1)') : un drapeau doit être de type entier.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1435" />
+			<reference file="includes/xarTemplate.php" line="1514" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
 		<translation>Définition de tag illégale : '#(1)' est un nom de tag invalide.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1514" />
+			<reference file="includes/xarTemplate.php" line="1593" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
 		<translation>Définition de tag illégale : '#(1)' est un 'handler' invalide.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1523" />
-			<reference file="includes/xarTemplate.php" line="1621" />
+			<reference file="includes/xarTemplate.php" line="1602" />
+			<reference file="includes/xarTemplate.php" line="1700" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Drapeaux illégaux d'enregistrement de tag ('#(1)') : les drapeaux doivent être des entiers.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1529" />
+			<reference file="includes/xarTemplate.php" line="1608" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
 		<translation>Le tag &lt;xar:#(1)&gt; est déjà défini.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1659" />
+			<reference file="includes/xarTemplate.php" line="1738" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
 		<translation>Le tag &lt;xar:#(1)&gt; n'est pas défini.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1739" />
+			<reference file="includes/xarTemplate.php" line="1818" />
 		</references>
 	</entry>
 	<entry>
 		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
 		<translation>L'attribut '#(1)' du tag &lt;xar:#(2)&gt; n'a pas le bon type. Voir la documentation des tags.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1767" />
+			<reference file="includes/xarTemplate.php" line="1846" />
 		</references>
 	</entry>
 	<entry>
 		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
 		<translation>L'attribut indispensable '#(1)' du tag &lt;xar:#(2)&gt; est manquant. Voir la documentation des tags.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1773" />
+			<reference file="includes/xarTemplate.php" line="1852" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty themeName (#(1)).</string>
 		<translation>Nom de thème vide (#(1)).</translation>
 		<references>
-			<reference file="includes/xarTheme.php" line="34" />
-			<reference file="includes/xarTheme.php" line="55" />
-			<reference file="includes/xarTheme.php" line="76" />
+			<reference file="includes/xarTheme.php" line="32" />
+			<reference file="includes/xarTheme.php" line="53" />
+			<reference file="includes/xarTheme.php" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation>La feuille de style #(1) n'a pu être trouvé à cette emplacement :</translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="183" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string>
+		<translation>#(1) (aucun attribut valide n'a pu être trouvé dans ce tag xar:style)</translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="227" />
 		</references>
 	</entry>
 	<entry>
 		<string>Anonymous</string>
-		<translation></translation>
+		<translation>Anonyme</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="378" />
+			<reference file="includes/xarUser.php" line="380" />
 		</references>
 	</entry>
 	<entry>
 		<string>User identified by uid #(1) does not exist.</string>
 		<translation>L'utilisateur identifié par l'uid #(1) n'existe pas.</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="406" />
-			<reference file="includes/xarUser.php" line="430" />
-			<reference file="includes/xarUser.php" line="569" />
+			<reference file="includes/xarUser.php" line="408" />
+			<reference file="includes/xarUser.php" line="432" />
+			<reference file="includes/xarUser.php" line="571" />
 		</references>
 	</entry>
 	<entry>
 		<string>User variable #(1) was not correctly registered</string>
 		<translation>La variable d'utilisateur #(1) n'a pas été correctement enregistrée</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="421" />
-			<reference file="includes/xarUser.php" line="560" />
+			<reference file="includes/xarUser.php" line="423" />
+			<reference file="includes/xarUser.php" line="562" />
 		</references>
 	</entry>
 	<entry>
@@ -1684,49 +1842,49 @@
 		<string>Parameters to winnow need to be arrays</string>
 		<translation>Les paramètres pour winnow doivent être des tableaux.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="264" />
+			<reference file="modules/privileges/xarprivileges.php" line="266" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
-		<translation></translation>
+		<translation>Impossible de trouver le masque #(1) enregistré pour un composant non spécifié dans le module #(2)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="380" />
+			<reference file="modules/privileges/xarprivileges.php" line="382" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
-		<translation></translation>
+		<translation>Impossible de trouver le masque #(1) enregistré pour le composant #(2) dans le module #(3)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="383" />
+			<reference file="modules/privileges/xarprivileges.php" line="385" />
 		</references>
 	</entry>
 	<entry>
 		<string>No privilege for #(1)</string>
-		<translation>Pas de privilège pour #(1).</translation>
+		<translation>Pas de droit d'accès pour #(1).</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="444" />
+			<reference file="modules/privileges/xarprivileges.php" line="446" />
 		</references>
 	</entry>
 	<entry>
 		<string>A query is missing in component #(1) of module #(2)</string>
 		<translation>Une requête est manquante dans le composant #(1) du module #(2)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1223" />
+			<reference file="modules/privileges/xarprivileges.php" line="1225" />
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
 		<translation>#(1) et #(2) n'ont pas les mêmes instances. #(3) | #(4) | #(5)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1771" />
+			<reference file="modules/privileges/xarprivileges.php" line="1762" />
 		</references>
 	</entry>
 	<entry>
 		<string>You must enter a name.</string>
 		<translation>Vous devez entrer un nom.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1968" />
+			<reference file="modules/privileges/xarprivileges.php" line="1959" />
 			<reference file="modules/roles/xarroles.php" line="500" />
 		</references>
 	</entry>
@@ -1734,7 +1892,7 @@
 		<string>This entry already exists.</string>
 		<translation>Cette entrée existe déjà.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1988" />
+			<reference file="modules/privileges/xarprivileges.php" line="1979" />
 			<reference file="modules/roles/xarroles.php" line="329" />
 			<reference file="modules/roles/xarroles.php" line="383" />
 			<reference file="modules/roles/xarroles.php" line="529" />
@@ -1752,121 +1910,121 @@
 		<string>deleted</string>
 		<translation>effacer</translation>
 		<references>
-			<reference file="modules/roles/xarroles.php" line="721" />
+			<reference file="modules/roles/xarroles.php" line="722" />
 		</references>
 	</entry>
 	<entry>
 		<string>The operation #(1) is not supported</string>
 		<translation>L'opération #(1) n'est pas supportée</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="50" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>SELECT with total of columns different from the number retrieved.</string>
 		<translation>SELECT avec un total de colonnes différent du nombre récupéré.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="114" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="129" />
 		</references>
 	</entry>
 	<entry>
 		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
 		<translation>La table #(1) que vous essayez d'ajouter doit être un tableau ou une chaîne.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="193" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="208" />
 		</references>
 	</entry>
 	<entry>
 		<string>This function can only take 1 or 2 parameters</string>
 		<translation>Cette fonction ne peut prendre qu'un ou deux paramètres</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="212" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="264" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="227" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="279" />
 		</references>
 	</entry>
 	<entry>
 		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
 		<translation>Le champ #(1) que vous essayez d'ajouter doit être un tableau ou une chaîne.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="241" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="256" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your query has no fields.</string>
 		<translation>Votre requête n'a pas de champs.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="728" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="763" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show the Users in this Group</string>
 		<translation>Afficher les utilisateurs de ce groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="272" />
+			<reference file="modules/roles/xartreerenderer.php" line="274" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete this Group</string>
 		<translation>Effacer ce groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="286" />
+			<reference file="modules/roles/xartreerenderer.php" line="288" />
 		</references>
 	</entry>
 	<entry>
 		<string>Email the Users in this Group</string>
 		<translation>Envoyer un email aux utilisateurs de ce groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="300" />
+			<reference file="modules/roles/xartreerenderer.php" line="302" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show the Privileges assigned to this Group</string>
 		<translation>Afficher les privilèges assignés a ce groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="314" />
+			<reference file="modules/roles/xartreerenderer.php" line="316" />
 		</references>
 	</entry>
 	<entry>
 		<string>Test this Groups's Privileges</string>
-		<translation>Tester les privilèges de ce groupe</translation>
+		<translation>Tester les droits d'accès de ce groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="328" />
+			<reference file="modules/roles/xartreerenderer.php" line="330" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify this Group</string>
 		<translation>Modifier ce groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="339" />
-			<reference file="modules/roles/xartreerenderer.php" line="355" />
+			<reference file="modules/roles/xartreerenderer.php" line="341" />
+			<reference file="modules/roles/xartreerenderer.php" line="357" />
 		</references>
 	</entry>
 	<entry>
 		<string>subgroup</string>
 		<translation>Sous groupe</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="357" />
+			<reference file="modules/roles/xartreerenderer.php" line="359" />
 		</references>
 	</entry>
 	<entry>
 		<string>subgroups</string>
 		<translation>Sous groupes</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="357" />
+			<reference file="modules/roles/xartreerenderer.php" line="359" />
 		</references>
 	</entry>
 	<entry>
 		<string>user</string>
 		<translation>utilisateur</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="359" />
+			<reference file="modules/roles/xartreerenderer.php" line="361" />
 		</references>
 	</entry>
 	<entry>
 		<string>users</string>
 		<translation>utilisateurs</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="359" />
+			<reference file="modules/roles/xartreerenderer.php" line="361" />
 		</references>
 	</entry>
 </translations>
