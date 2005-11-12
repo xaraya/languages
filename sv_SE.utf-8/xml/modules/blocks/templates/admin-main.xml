@@ -8,13 +8,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Overview</string>
-		<translation>Översikt</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Vad är detta?</translation>
 		<references>
@@ -22,94 +15,265 @@
 		</references>
 	</entry>
 	<entry>
-		<string>The Blocks Module controls the configuration, display position and grouping of each &quot;block&quot; on your website. The Blocks module is a core module within Xaraya, and cannot be removed.</string>
-		<translation>Blockmodulen kontroller inställningarna, visnings läget och grupperingen av varje block på din webbsida. Blockmodulen är en kärnmodul i Xaraya och kan inte tas bort.</translation>
+		<string>The Blocks Module controls the configuration, display position and grouping of &quot;blocks&quot;
+on your website. Blocks provide a way to display content or functionality on your site
+in addition to the usual content provided by a module such as article or forum display.
+Blocks can be placed anywhere in your site's page displays. The Blocks module is a core module within
+Xaraya, and cannot be removed.</string>
+		<translation>Blockmodulen kontroller knfigurationen, visningspositionen och gruppering av blcok på din webbplats. Block tillhandahåller ett sätta att visa innehåller eller funktionalitet på din webbplats utöver det vanliga innehållet från en modul såsom en artikel eller forumvisning. Block kan placeras var som helst på din webbplats sida. Blockmodulen är en Xaraya kärnmodul och kan inte tas bort.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hur man använder den?</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have six choices.</string>
-		<translation>Från menyn, har du sex alternativ.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Instances: View the current instances that are actively in use by your Xaraya System.</string>
-		<translation>Visa instanser: Visar den aktuella instansen som är i aktiv användning av ditt Xaraya system.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add instance: Add a new block instance to be displayed on your site.</string>
-		<translation>Lägg til instans: Lägg till en ny blockinstans som ska visas på din webbplats.</translation>
-		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
-		<string>View Groups: View the defined Block Groups.</string>
-		<translation>Visa grupper: Visar definierade blockgrupper.</translation>
+		<string>Blocks and blockgroups</string>
+		<translation>Block och blockgrupper</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
-		<string>Add Group: Add a new block group for template positioning.</string>
-		<translation>Lägg till grupp: Lägg till ny blockgrupp för mallpositionering.</translation>
+		<string>You can use blocks alone, or create a containing 'blockgroup' in which to place your blocks.
+Xaraya has pre-configured blockgroups created at installation time. These blockgroups include right,
+left, center, topnav and header blockgroups. They are used in the default Xaraya theme and have blocks already assigned
+to them. In the case of these default blockgroups, the name reflects the position that the blockgroups have
+been placed in the default theme although you could rename them.</string>
+		<translation>Du kan använda block på egen hand, eller skapa en sammanhållande 'blockgrupp' i vilken du kan placera dina block. Xaraya har för konfigurerade blockgrupper som skapas vid installations tillfället. Dessa blockgrupper inkluderar right, left, center, topnav och header blockgrupperna. De används i Xaraya standard temat och har redan tilldelade block. För dessa standard blockgrupper så speglar deras namn dess position som blockgruppen har placerats i standard temat, fast du kan alltid döpa om dem.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="23" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
-		<string>View Block Types: List of all available Block types.</string>
-		<translation>Visa blocktyper: Lista över samtliga tillgängliga blocktyper.</translation>
+		<string>You must tell Xaraya where you want to place your blockgroups in your site page by using the 'blockgroup' tag and placing it in your template page or module template. eg
+&lt;code&gt;&amp;lt;xar:blockgroup name=&quot;right&quot; id=&quot;right&quot; /&amp;gt;&lt;/code&gt;. The default blockgroups have already been
+placed in the default theme template.</string>
+		<translation>Du måste instruera Xaraya var du vill placera dina blockgrupper på din webbplats genom att använda 'blockgroup'-taggen och placera den i din mallsida eller modulmall, t.ex. &lt;code&gt;&amp;lt;xar:blockgroup name=&quot;right&quot; id=&quot;right&quot; /&amp;gt;&lt;/code&gt;. Standard blockgrupperna har redan placerats i standard temamallen.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="24" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
-		<string>Add Block Type: Register a block that was not included in a module's installation.</string>
-		<translation>Lägg till blocktyp: Registrera ett block som inte medföljde modulinstallationen.</translation>
+		<string>The Blocks module has two menu options which allow you to view and create new blockgroups.</string>
+		<translation>Blockmodulen har två menyalternativ som låter dig visa och skapa nya blockgrupper.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="25" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Groups&lt;/strong&gt;: View the defined Block Groups.</string>
+		<translation>&lt;strong&gt;Visa grupper&lt;/strong&gt;: Visa definierade blockgrupper.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add Group&lt;/strong&gt;: Add a new block group for template positioning.</string>
+		<translation>&lt;strong&gt;Lägg till grupp&lt;/strong&gt;: Lägg till en ny blockgrupp för mallpositionering.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Creating new instances of blocks</string>
+		<translation>Skapa nya instanser av block</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each module may provide the code and templates for one or more types of blocks.
+For example the Articles module provides a 'featured article' block, and a 'top items' block.
+The Base module provides a 'menu' block among others. You can create one or more instances of a block
+and place them in one or more blockgroups using the options provided in the Blocks module menu:</string>
+		<translation>Varje modul kan tillhandahålla koden och mallarna för en eller flera typer av block. Till exempel tillhandahåller ARtikelmodulen en 'featured article' block, och en 'top items' block.. Basmodulen tillhandahåller bland annat ett 'menu' block. Du kan skapa en eller flera instanser för ett block och placera dem i en eller flera blockgrupper genom att använda alternativen som finns i blockmodul menyn:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Instances&lt;/strong&gt;: View the current instances that are actively in use by your Xaraya System.</string>
+		<translation>&lt;strong&gt;Visa instanser&lt;/strong&gt;: Visa de aktuella instanserna som är i aktiv användning på ditt Xaraya system.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add instance&lt;/strong&gt;: Add a new block instance to be displayed on your site.</string>
+		<translation>&lt;strong&gt;Lägg till instans&lt;/strong&gt;: Lägg till en ny blockinstans att visas på din webbplats.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block types are defined by a module, and installed when you install the module.
+You can create a new block instance from any of your installed block types using the Add instance option.</string>
+		<translation>Blocktyper definieras av enmodul och installeras när du installerar modulen. Du kan skapa nya blockinstanser från vilka installerade blocktyper som helst genom att använda Lägg till instans alternativet.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>A site admin or a developer may provide a new block type after a module is installed.
+This new block type can be installed with an upgrade process, or alternatively if no upgrade is provided
+to load the block type, you can add it with the options provided by the Blocks module. You should not
+normally have to add a block in this manner. In addition the Block Types options allow you to view all block types that
+are installed and their associated module.</string>
+		<translation>En webbplatsadministratör eller en utvecklare kan tillhandahålla enny blocktyp efter en modul är installerad. Den nya blocktypen kan installeras med en uppdateringsprocess eller alternativt om ingen uppdatering är tillgänglig för att ladda blocktypen, kan du lägga till den med de medföljande alternativen i blcokmodulen. Du ska dock inte normalt behöva lägga till ett block på det här sättet. Därtill tillåter blocktyp alternativen dig att se samtlig installerade blocktyper och deras associerade moduler.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add Block Type&lt;/strong&gt;: scan a module for a new block type. This specific function is probably best left to the advanced user.
+Be certain to learn more about it before using it.</string>
+		<translation>&lt;strong&gt;Lägg till blocktyp&lt;/strong&gt;: skummar igenom en modul efter nya blocktyper. Den specifika funktionen lämnas rimligtvis till den avancerade användaren. Se till att lära dig mer om den innan du använder den.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Block Types&lt;/strong&gt;: lists all the registered block types, and references which module they belong to.</string>
+		<translation>&lt;strong&gt;Visa blovktyper&lt;/strong&gt;: listar samtliga registrerade blocktyper och referenser om vilka moduler de hör till.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using and templating blocks and blockgroups</string>
+		<translation>Använda och skapa mallar för block och blockgrupper</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each block and blockgroup container has it's own template or uses a supplied default.</string>
+		<translation>Varje block och blockgruppsbehållare har sin egen mall eller använder den medföljande standard mallen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>The blockgroup templates (outer container templates) are kept in your
+&lt;code&gt;theme/yourthemes/blocks&lt;/code&gt; directory. If there is no specific blockgroup template it will use the
+preloaded default blockgroup template.</string>
+		<translation>Blockgruppmallen (yttre behållaremall) sparas i din &lt;code&gt;theme/dittema/blocks&lt;/code&gt;-katalog. Om det inte finns någon specifik blockgruppmall, kommer den använda den medföljande standard blockgruppmallen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>The templates provided for each block come with the module that provides the block.
+You can override these templates if you want, and so produce your own layouts for the block content.
+If you do wish to create your own overrides for block templates (inner templates) then they should be placed in
+&lt;code&gt;themes/yourtheme/modules/themodule/blocks&lt;/code&gt; where 'themodule' is the module providing the block.</string>
+		<translation>Mallarna som medföljer för varje block kommer med modulen som tillhandahåller blocket. Du kan åtsidosätta dessa mallar om du vill och på så sätt skapa din egen formgivning flr block innehållet. Im du önskar skapa dina egna åsidosättare för blockmallarna (inre mallar) så ska de sparas i &lt;code&gt;themes/dittema/modules/modulen/blocks&lt;/code&gt; där 'modulen' är modulen som tillhandahåller blocket.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="84" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="28" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="87" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocks Module has no blocks included at this time.</string>
 		<translation>Blockmodulen har för tillfället inga medföljande block.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="30" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocks Module has no hooks included at this time.</string>
 		<translation>Blockmodulen har för tillfället inga medföljande kopplingar.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Ytterligare information</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Blocks module can be found at</string>
+		<translation>Ytterligare information om blockmodulen finns på</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Blocks Module Extension page at</string>
+		<translation>Blockmodulen tilläggs sida på</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Blocks Module - Xaraya Extension 13</string>
+		<translation>Blockmodul - Xaraya tillägg 13</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version History'-fliken längs ner för att få den senaste utgåvo informationen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="101" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Blocks found at</string>
+		<translation>Relaterade guider och dokumentation om Block finns på</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Blocks</string>
+		<translation>Relaterad dokumentation om Block</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumentation</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>BlocksModule - Overview</string>
+		<translation>Blockmodul - Översikt</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="107" />
 		</references>
 	</entry>
 </translations>
