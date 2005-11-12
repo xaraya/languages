@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Update Roles Configuration</string>
+		<translation>Változtatások mentése</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifyconfig.php" line="100" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="259" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="430" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="497" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="532" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="567" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="612" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Notification Configuration</string>
+		<translation>Értesítési beállítások frissítése</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifynotice.php" line="28" />
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong arguments to roles_adminapi_create.</string>
+		<translation>Hibás paraméterek a „roles_adminapi_create()” hívásakor.</translation>
+		<references>
+			<reference file="modules/roles/xaradminapi/create.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or the set of classes at a university. A role can be a member of as many other roles as you like (as long as the parents are groups).</string>
+		<translation>A Szerepek tetszőlegesen más szerepek tagjaiként is megjelenhetnek. Kifejezhetik például egy cég felépítését, vagy osztályokat egy iskolában. A szerepek tetszőleges más szerepek tagjai lehetnek, de csak akkor, ha a szülő szerepek csoportok.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be assigned privileges. By doing so, you define what a given role may or may not do on the site. You can use the test functionality of the Roles module to see what parts of the site a role with a given set of privileges has access to.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles have inheritance. A role inherits all the privileges of all of its parents, but can override them. If you give a group editing privileges, for instance, any other role that is a member of that group inherits the editing privileges. If you want to restrict the privileges of some of the members, simply assign them a different set of privileges (say reading), and the privileges of the parent will be overridden.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Everybody&lt;/b&gt;: the role containing all other roles. This role has no access privileges.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Anonymous&lt;/b&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
+		<translation>&lt;b&gt;Anonymous&lt;/b&gt;:  a honlapot látogató, regisztrált tagok ebbe a felhasználói szerepbe tartoznak. Ez a szerep, a telepítéstől függően, általban csak a bejelentkezési blokkot és a kezdőlapot láthatja (Intranet telepítés).</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administrators&lt;/b&gt;: a group that has administration privileges.</string>
+		<translation>&lt;b&gt;Administrators&lt;/b&gt;: a csoport amely adminisztrálási jogosultságokkal rendelkezik.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Admin&lt;/b&gt;: a member of Administrators. This is the Admin role you create with the Xaraya installer.</string>
+		<translation>&lt;b&gt;Admin&lt;/b&gt;: az Administrators csoport tagja, ez az Admin felhasználó amelyet a telepítővel létrehozunk.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Users&lt;/b&gt;: a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges. &lt;em&gt;Its members will not have access to the site until you assign some privileges.&lt;/em&gt;</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module allows the use of the User Menu hook which will allow users to set values to further enhance their visit.</string>
+		<translation>A szerepek modul lehetővé teszi a Felhasználói Menü hurok használatát, amely lehetőséget biztosít a felhasználóknak bizonyos kényelmi beállítások elvégzésére.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>További információk a modulról:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC-30</string>
+		<translation>RFC-30</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>General Options</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="137" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Kapcsolódó modulok beállításai</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="516" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="551" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Hooks For Users:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="522" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Hooks For Groups:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="557" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add User #(1) to a Group</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="220" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Group #(1) to another Group</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="225" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group:</string>
+		<translation>Csoport:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="243" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign recelled users to this status</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test this User's Privileges</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="74" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test the privileges of #(1)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign a Privilege to #(1) '#(2)':</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="279" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privilege:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="295" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Privileges Assigned To This Group</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test This Groups's Privileges</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Privileges Of</string>
+		<translation>Jogosultságok tesztelése:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the privileges of</string>
+		<translation>Jogosultságok megjelenítése:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Result:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>For more information, please contact our webmaster.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>for more information.</string>
+		<translation>további információkért.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must also be at least the age of</string>
+		<translation>A honlap használatához legalább</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>older.</string>
+		<translation>idősebbnek kell lennie a Látogatónak.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="56" />
+		</references>
+	</entry>
+</translations>

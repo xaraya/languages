@@ -1,164 +1,335 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
 	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Mi ez?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="12" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Roles module lets you manage users and groups on your site. Roles are representations of users and the different groups they can belong to.</string>
-		<translation></translation>
+		<translation>A Szerepek modulban a honlap felhasználói és csoportjai kezelhetőek. A szerepek a csoportokat és a hozzájuk rendelhető felhasználókat jelenti.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-main.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
-		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or the set of classes at a university. A role can be a member of as many other roles as you like (as long as the parents are groups).</string>
-		<translation>A Szerepek tetszőlegesen más szerepek tagjaiként is megjelenhetnek. Kifejezhetik például egy cég felépítését, vagy osztályokat egy iskolában. A szerepek tetszőleges más szerepek tagjai lehetnek, de csak akkor, ha a szülő szerepek csoportok.</translation>
+		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to
+represent a company's organization chart, or the set of classes at a university. A role can be a member
+of as many other roles as you like (as long as the parents are groups).</string>
+		<translation>A Szerepek tetszőlegesen más szerepek tagjaiként is megjelenhetnek. Kifejezhetik például egy cég felépítését vagy osztályokat egy iskolában. A szerepek tetszőleges más szerepek tagjai lehetnek, de csak akkor, ha a szülő szerepek csoportok.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="20" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
-		<string>Roles can be assigned privileges. By doing so, you define what a given role may or may not do on the site. You can use the test functionality of the Roles module to see what parts of the site a role with a given set of privileges has access to.</string>
-		<translation></translation>
+		<string>Roles can be assigned privileges. By doing so, you define what a given role may or may not
+do on the site. You can use the test functionality of the Roles module to see what parts of the site a
+role with a given set of privileges has access to.</string>
+		<translation>A Szerepekhez jogosultságok rendelhetőek. Ezzel meghatározható, hogy egy adott szerepkör mit tehet és mit nem tehet a honlapon. Az, hogy egy adott szerep a honlap mely részeihez kapott jogosultságot, a Szerepek modul tesztelési lehetőségeivel megvizsgálható.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="24" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
-		<string>Roles have inheritance. A role inherits all the privileges of all of its parents, but can override them. If you give a group editing privileges, for instance, any other role that is a member of that group inherits the editing privileges. If you want to restrict the privileges of some of the members, simply assign them a different set of privileges (say reading), and the privileges of the parent will be overridden.</string>
-		<translation></translation>
+		<string>Roles have inheritance. A role inherits all the privileges of all of its parents, but can
+override them. If you give a group editing privileges, for instance, any other role that is a member of
+that group inherits the editing privileges. If you want to restrict the privileges of some of the members,
+simply assign them a different set of privileges (say reading), and the privileges of the parent will be
+overridden.</string>
+		<translation>A Szerepek örökletes tulajdonságokkal rendelkeznek. Egy szerep minden olyan jogosultságot örököl amelyet valamelyik szülő eleméhez rendeltek, de ez felülbírálható. Például, ha egy csoport szerkesztési jogosultságot kap, minden más szerep amely tagja ennek a csoportnak, örökli ezt a jogot. Ha ezt a jogosultságot bizonyos tagokon meg szeretnénk változtatni, hozzárendelhetünk egy másik jogosultságot (pl.: csak olvasás), felülbírálva ezzel az örökölt értékeket.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="28" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hogyan kell használni?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>The roles on your site are arranged in a tree. At the top of the tree is a role called Everybody, which represents the &quot;group of all groups&quot; on your site. Every user and every group is a member or descendent of Everybody.</string>
-		<translation></translation>
+		<translation>A szerepek a honlapon fa struktúrába rendezettek. A fa csúcsán az Everybody szerep áll, amely „minden csoport befoglaló csoportját” jelenti. Minden további csoport vagy felhasználó ebből a csoportból származtatott.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="36" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya also comes preconfigured with a minimal set of roles that are loaded when you run the installer. This configuration is shown below:</string>
 		<translation>A Xaraya telepítéskor létrehoz egy alap szerepkör összeállítást. Ez a következőket tartalmazza:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;b&gt;Everybody&lt;/b&gt;: the role containing all other roles. This role has no access privileges.</string>
-		<translation></translation>
+		<string>At installation time you are asked to choose a configuration that affects preinstalled
+privileges assigned to the above roles. The privileges can be changed after installation. The default
+roles and minimum privileges at installation time are.</string>
+		<translation>A Xaraya telepítéskor, a telepítőben megadható választások alapján, létrehoz egy alap szerepkör összeállítást. Ezek a jogosultságok a későbbiekben tetszőlegesen átszerkeszthetőek. Az alapértelmezett szerepek és jogosultságok a telepítéskor a következőket tartalmazzák:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="57" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;b&gt;Anonymous&lt;/b&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
-		<translation>&lt;b&gt;Anonymous&lt;/b&gt;:  a honlapot látogató, regisztrált tagok ebbe a felhasználói szerepbe tartoznak. Ez a szerep, a telepítéstől függően, általban csak a bejelentkezési blokkot és a kezdőlapot láthatja (Intranet telepítés).</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;b&gt;Administrators&lt;/b&gt;: a group that has administration privileges.</string>
-		<translation>&lt;b&gt;Administrators&lt;/b&gt;: a csoport amely adminisztrálási jogosultságokkal rendelkezik.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;b&gt;Admin&lt;/b&gt;: a member of Administrators. This is the Admin role you create with the Xaraya installer.</string>
-		<translation>&lt;b&gt;Admin&lt;/b&gt;: az Administrators csoport tagja, ez az Admin felhasználó amelyet a telepítővel létrehozunk.</translation>
+		<string>&lt;strong&gt;Everybody&lt;/strong&gt;: the role containing all other roles. This role has no access privileges.</string>
+		<translation>&lt;strong&gt;Everybody&lt;/strong&gt;: a szerep amely minden más szerepet magába foglal. Nem tartoznak hozzá jogosultságok.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-main.xd" line="66" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;b&gt;Users&lt;/b&gt;: a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges. &lt;em&gt;Its members will not have access to the site until you assign some privileges.&lt;/em&gt;</string>
-		<translation></translation>
+		<string>&lt;strong&gt;Anonymous&lt;/strong&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
+		<translation>&lt;strong&gt;Anonymous&lt;/strong&gt;:  a honlapot látogató, nem regisztrált tagok ebbe a felhasználói szerepbe tartoznak. Ez a szerep, a telepítéstől függően, általban csak a bejelentkezési blokkot és a kezdőlapot láthatja (Intranet telepítés).</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="69" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Administrators&lt;/strong&gt;: a group that has administration privileges.</string>
+		<translation>&lt;strong&gt;Administrators&lt;/strong&gt;: a csoport amely adminisztrálási jogosultságokkal rendelkezik.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Admin&lt;/strong&gt;: a member of Administrators. This is the Admin role you create with the Xaraya installer.</string>
+		<translation>&lt;strong&gt;Admin&lt;/strong&gt;: az Administrators csoport tagja, ez az Admin felhasználó amelyet a telepítővel létrehozunk.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Users&lt;/strong&gt;: a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges.
+&lt;em&gt;Its members will not have access to the site until you assign some privileges.&lt;/em&gt;</string>
+		<translation>&lt;strong&gt;Users&lt;/strong&gt;: csoport, amely általában a honlap regisztrált tagjait tartalmazza. Megjegyzés: Ez a szerep telepítéskor nem kap jogosultságokat és &lt;em&gt; nem fér hozzá a honlap elemeihez amíg külön nem rendelünk hozzá jogokat.&lt;/em&gt;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Myself&lt;/strong&gt;: this is a special role that enables you to assign privileges that will be applied
+to the current user's content. For example if you assign edit privileges for articles to the Myself role,
+then users will be able to edit only their own articles.</string>
+		<translation>&lt;strong&gt;Myself&lt;/strong&gt;: Speciális jogosultság, amely lehetőséget biztosít arra, hogy a bejeletnkezett felhasználó által létrehozott elemekhez biztsítsunk jogosultságokat. Például ha a cikkekhez a Myself szerepkörnek szerkesztési jogosultságot adunk, a felhasználók szerkeszthetik a saját maguk által felvett cikkeiket.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>The preconfigured roles cannot be changed or removed. You can, however, add members to them. You can also define as many more roles in the tree as you wish in whatever configuration you choose.</string>
 		<translation>Ez előre definiált szerepek nem szerkeszthetőek vagy törölhetőek, viszont hozzájuk további szerepek rendelhetőek, illetve ezektől függetlenül is tetszőlegesen definiálhatunk szerepeket.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="74" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="94" />
 		</references>
 	</entry>
 	<entry>
 		<string>Always keep in mind: When you create a role, until you've assigned it some privileges, it will only have those privileges it inherits from its parents.</string>
 		<translation>Fontos megjegyezni, hogy egy szerep létrehozásakor annak nincsenek jogosultságai, csak azok amelyek a szülő szerepektől öröklődnek.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="78" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Menu Options</string>
+		<translation>Menü lehetőségek</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module provides key functions to manage the users and groups on your site:</string>
+		<translation>A Szerepek modul a weboldal felhasználóinak és csoportjainak a kezelésére biztosít lehetőséget.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Groups/users&lt;/strong&gt; : a tabbed interface to user and roles listings with a variety of display options. You can also add users from this view, delete or modify users, email groups of users, test their privileges, and view users by various sorting and selection criteria.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add Group/User&lt;/strong&gt; : A form for creation of a new user or group. If you have hooked Dynamic Data to Roles and created extra properties for your users, these will also be displayed here.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Email Messaging&lt;/strong&gt; : Configure email notifications to users on registration, change of passwords, and account activation including template customization. You can also email groups of users from this view.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Recall/Purge&lt;/strong&gt; : Users or groups that have been deleted can be recalled from this screen or purged for good from the system.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Site Lock&lt;/strong&gt; : Lock your site to registration or login during maintenance or updates.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Modify Config&lt;/strong&gt; : Set general site options such as lockout times, designated Administrator, site terms and privacy policy, as well as setting user site registration options, and managing filtering and dynamic data.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="114" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="82" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="117" />
 		</references>
 	</entry>
 	<entry>
 		<string>Login Block allows users to login</string>
 		<translation>Bejelentkezés Blokk: a felhasználók belépését teszi lehetővé</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="87" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="121" />
 		</references>
 	</entry>
 	<entry>
 		<string>Online Block shows the number visiting your site right now.</string>
 		<translation>Online Blokk: megjeleníti a honlap aktuális látogatóinak a számát</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="90" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="124" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="95" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="128" />
 		</references>
 	</entry>
 	<entry>
-		<string>The roles module allows the use of the User Menu hook which will allow users to set values to further enhance their visit.</string>
-		<translation>A szerepek modul lehetővé teszi a Felhasználói Menü hurok használatát, amely lehetőséget biztosít a felhasználóknak bizonyos kényelmi beállítások elvégzésére.</translation>
+		<string>The roles module does not provide any hooks. It does allows other modules to provide a
+User Menu hook that when activated can enhance a user's visit. If a module providing a User Menu hook
+is hooked to Roles, content from the module will be displayed in the User's account page.
+Examples of modules that provide User Menu hooks are Themes, and Comments.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="99" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found in</string>
-		<translation>További információk a modulról:</translation>
+		<string>Included Dynamic Data Properties</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="104" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="137" />
 		</references>
 	</entry>
 	<entry>
-		<string>RFC-30</string>
-		<translation>RFC-30</translation>
+		<string>Roles provides a number of Dynamic Data properties that you can use either in Roles or
+other module on your site.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="104" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="141" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="143" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Roles module can be found at:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="145" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles Module Extension page at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="148" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles Module - Xaraya Extension 27</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="148" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="149" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Roles module at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Roles</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information for Developers at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="153" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC 30</string>
+		<translation>RCF 30</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="153" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya RFC-30</string>
+		<translation>Xaraya RFC-30</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="153" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles Module - Overview</string>
+		<translation>Szerepek - Áttekintés</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Változat</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="158" />
 		</references>
 	</entry>
 </translations>
