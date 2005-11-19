@@ -1,77 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
 	<entry>
+		<string>XarLinkMe Administration</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
 		<string>What is it?</string>
 		<translation>Описание модуля</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
-		<string>is a simple script to display your site's banners, and allow others to link to
-your site with them.</string>
-		<translation>это простой скрипт для отображения банеров и кнопок вашего сайта, для размещения ссылок на ваш сайт другими сайтами.</translation>
+		<string>is a script to display your site's banners, and allow others to link to
+your site with them. Currently the implementation is rudimentary but useful for those that want a page with links to 'official' site banners.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
-		<string>Displays the image of each of your site's banners.</string>
-		<translation>Отображает изображения всех кнопок и банеров вашего сайта.</translation>
+		<string>Displays each of your site's 'official' banners with optional display of banner and link HTML code for users (optional config).</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="16" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="19" />
 		</references>
 	</entry>
 	<entry>
-		<string>Provides a text box containing the HTML to display the banner and link to your site.</string>
-		<translation>Выводит текстовую область с HTML кодом отображения кнопок и банеров со ссылкой на ваш сайт.</translation>
-		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Provides instructions to users for linking to your site with one of your banners</string>
-		<translation>Отображает инструкции для пользователя по размещению кнопок и банеров и добавлению ссылок на ваш сайт.</translation>
-		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>NOTE:</string>
-		<translation>Примечание:</translation>
+		<string>Simple client banner management options are currently in progress/TODO.</string>
+		<translation></translation>
 		<references>
 			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>This module currently serves the banners directly from your web server.</string>
-		<translation>Этот модуль в настоящее время поддерживает &quot;затягивание&quot; банеров прямо с вашего сайта.</translation>
-		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Как это использовать?</translation>
 		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the existing Admin menu options, only &lt;strong&gt;Modify Config&lt;/strong&gt; menu option provides two working areas:</string>
+		<translation></translation>
+		<references>
 			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
-		<string>There is one main option for administration - Modify Configuration. Prior to configuration, prepare your banner files and
-directory:</string>
-		<translation>В административном меню модуля можно только изменить конфигурацию. До этого, необходимо загрузить файлы с изображениями в заранее созданый каталог:</translation>
+		<string>General Options - where you can set short URL and general module options</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Site Linking Config - where you can set specific features for your LinkMe page</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>The additional Site Banner Link and Client Banners management links are in progress/todo.</string>
+		<translation></translation>
 		<references>
 			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="30" />
 		</references>
 	</entry>
 	<entry>
+		<string>To use the existing functionality for site linking:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
 		<string>Copy all of your site's banners into a directory which is in your web site path. This is the banner image directory
 that you can specify in the configuration setup. By default it is set to a subdirectory of the xarimages directory in the xarLinkMe
-directory.</string>
-		<translation>Скопируйте банеры и кнопки вашего сайта в любой каталог вашего сайта.  Этот каталог потомы нужно указать в настройках модуля. о умолчанию это -- modules/xarlinkme/xarimages/linkads.</translation>
+directory. Change as required.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
@@ -79,77 +92,140 @@ directory.</string>
 as well.</string>
 		<translation>Убедитесь, что все файлы в этом каталоге являются файлами изображений. Для большей безопасности разместите там пустой файл index.html</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="36" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>When naming your banner image files, give them a descriptive name, usually including the dimensions of the banner eg</string>
 		<translation>Давая имена файлам с изображениями, рекомендуется использовать описательные названия, обычно включающие размеры изображения, например</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Fill in the required information in the Modify Configuration Option</string>
 		<translation>Заполните все поля в Конфигурации модуля.</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="39" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>Go to the&amp;nbsp;</string>
 		<translation>Перейти к&amp;nbsp;</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>user view of xarLinkMe</string>
 		<translation>вид xarLinkMe для пользователей</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>&amp;nbsp;to see the resulting banner list.</string>
 		<translation>&amp;nbsp;для просмотра списка банеров и кнопок вашего сайта.</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="41" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Включенные блоки</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="48" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
-		<string>There are no blocks included.</string>
-		<translation>Нет включенных блоков.</translation>
+		<string>There are no blocks included. A client banner block is in progress</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="52" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Включенные хуки</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>This module has no hooks provided.</string>
 		<translation>Нет включенных хуков.</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="62" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation>Дополнительную информацию об этом модуле можно найти здесь. [modules module]</translation>
+		<string>Further Information</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="68" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the xarLinkMe module can be found at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarLinkMe Extension page at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarLinkMe Module - Xaraya Extension 889</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on xarLinkMe found at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on xarLinkMe</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarLinkMe Module - Overview</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="67" />
 		</references>
 	</entry>
 </translations>

@@ -9,8 +9,8 @@
 	</entry>
 	<entry>
 		<string>This tag will automatically retrieve the list of items from DynamicData,
-and present them according to its user-objectview.xd template.</string>
-		<translation>Этот тег автоматически извлечет список элементов примера диначических данных и отобразит их в соответствии с шаблоном user-objectview.xd.</translation>
+and present them according to its standard objects/showview.xd template.</string>
+		<translation>Этот тэг автоматически получает список элементов из ДД и выводит их по стандартам шаблона objects/showview.xd.</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="14" />
 		</references>
@@ -40,15 +40,15 @@ via the module code instead, with the next approach.</string>
 		</references>
 	</entry>
 	<entry>
-		<string>After retrieving the object list via API, you can pass along the whole object list to the template and use &amp;lt;xar:data-view object=&quot;...&quot;&amp;gt; (see admin list),</string>
-		<translation>После извлечения списка объектов через API вы можете передать весь список объектов в шаблон и использовать &amp;lt;xar:data-view object=&quot;...&quot;&amp;gt; (см. администраторский список),</translation>
+		<string>After retrieving the object list via API, you can pass along the whole object list to the template and use &amp;lt;xar:data-view object=&quot;$mylist&quot; /&amp;gt; to let DynamicData handle the view. Or you can use &amp;lt;xar:data-view object=&quot;$mylist&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; if you want to provide your own view template in this module :</string>
+		<translation>После получения списка объектов через API вы можете передать весь список объектов в шаблон и использовать &amp;lt;xar:data-view object=&quot;$mylist&quot; /&amp;gt; для обработки вывода модулем ДД. Или вы можете использовать &amp;lt;xar:data-view object=&quot;$mylist&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; для задания собственно шаблона вывода в этом модуле:</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="50" />
 		</references>
 	</entry>
 	<entry>
-		<string>or pass along the properties and values and work like in APPROACH # 2. We'll use that here...</string>
-		<translation>или передать свойства и значения и действовать как описано в Варианте #2. Мы будем использовать это здесь...</translation>
+		<string>or you can pass along the properties and values and work like in APPROACH # 2.</string>
+		<translation>или вы можете передавать свойства и значения и действовать как в варианте # 2.</translation>
 		<references>
 			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="54" />
 		</references>

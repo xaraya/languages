@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
 	<entry>
+		<string>Your entry has triggered comments moderation due to suspicious URL entry</string>
+		<translation>Вы ввели подозрительный URL. Ваш комментарий будет показан после модерации.</translation>
+		<references>
+			<reference file="modules/comments/xaruserapi/add.php" line="86" />
+		</references>
+	</entry>
+	<entry>
 		<string>Unable to create gap in tree for comment insertion! Comments table has possibly been corrupted.</string>
 		<translation>Ошибка создания промежутка в дереве для вставки комментария! Таблица комментариев возможно была испорчена.</translation>
 		<references>
-			<reference file="modules/comments/xaruserapi/add.php" line="126" />
+			<reference file="modules/comments/xaruserapi/add.php" line="141" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please seek help on the public-developer list xaraya_public-dev@xaraya.com, or in the #support channel on Xaraya's IRC network.</string>
 		<translation>Пожалуйста, ищите справку в списке рассылок  xaraya_public-dev@xaraya.com, или на #support канале Xaraya's IRC сети.</translation>
 		<references>
-			<reference file="modules/comments/xaruserapi/add.php" line="127" />
+			<reference file="modules/comments/xaruserapi/add.php" line="142" />
 		</references>
 	</entry>
 </translations>

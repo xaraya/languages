@@ -4,7 +4,7 @@
 		<string>Smilies</string>
 		<translation>Смайлики</translation>
 		<references>
-			<reference file="modules/smilies/xarversion.php" line="20" />
+			<reference file="modules/smilies/xarversion.php" line="17" />
 			<reference file="modules/smilies/xartemplates/admin-delete.xd" line="1" />
 		</references>
 	</entry>
@@ -13,8 +13,6 @@
 		<translation>Модуль Смайликов</translation>
 		<references>
 			<reference file="modules/smilies/xartemplates/user-main.xd" line="1" />
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="1" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="1" />
 			<reference file="modules/smilies/xartemplates/admin-view.xd" line="1" />
 		</references>
 	</entry>
@@ -23,6 +21,8 @@
 		<translation>Код Смайла</translation>
 		<references>
 			<reference file="modules/smilies/xartemplates/user-main.xd" line="9" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="31" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="31" />
 			<reference file="modules/smilies/xartemplates/admin-view.xd" line="9" />
 		</references>
 	</entry>
@@ -43,78 +43,88 @@
 		</references>
 	</entry>
 	<entry>
-		<string>The code used to present a smiley</string>
-		<translation>Код, используемый для смайла</translation>
+		<string>Smilies Administration</string>
+		<translation>Администрирование смайликов</translation>
 		<references>
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="10" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="11" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="16" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>Code required to trigger a smiley</string>
+		<translation>Код необходимиый для включения смайлика</translation>
+		<references>
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="37" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>Code</string>
 		<translation>Код</translation>
 		<references>
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="10" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="11" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="40" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>Icon to use</string>
 		<translation>Используемая иконка</translation>
 		<references>
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="19" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="20" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="47" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Icon</string>
 		<translation>Иконка</translation>
 		<references>
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="19" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="20" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="50" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Emotion that is expressed</string>
 		<translation>Выражаемая эмоция</translation>
 		<references>
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="28" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="29" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="57" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Emotion</string>
 		<translation>Эмоция</translation>
 		<references>
-			<reference file="modules/smilies/xartemplates/admin-new.xd" line="28" />
-			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid Parameter Count</string>
-		<translation>Неверный параметр</translation>
-		<references>
-			<reference file="modules/smilies/xaradminapi/create.php" line="20" />
-			<reference file="modules/smilies/xaradminapi/delete.php" line="14" />
-			<reference file="modules/smilies/xaradminapi/update.php" line="18" />
-			<reference file="modules/smilies/xaruserapi/get.php" line="14" />
-			<reference file="modules/smilies/xaruserapi/transform.php" line="16" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="60" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Отправить</translation>
 		<references>
-			<reference file="modules/smilies/xaradmin/modify.php" line="19" />
-			<reference file="modules/smilies/xaradmin/new.php" line="10" />
+			<reference file="modules/smilies/xartemplates/admin-new.xd" line="71" />
+			<reference file="modules/smilies/xartemplates/admin-modify.xd" line="72" />
+			<reference file="modules/smilies/xaradmin/modify.php" line="30" />
+			<reference file="modules/smilies/xaradmin/new.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid Parameter Count</string>
+		<translation>Неверный параметр</translation>
+		<references>
+			<reference file="modules/smilies/xaradminapi/create.php" line="31" />
+			<reference file="modules/smilies/xaradminapi/delete.php" line="25" />
+			<reference file="modules/smilies/xaradminapi/update.php" line="29" />
+			<reference file="modules/smilies/xaruserapi/get.php" line="24" />
+			<reference file="modules/smilies/xaruserapi/transform.php" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no smilies registered</string>
 		<translation>Нет зарегистрированных смайликов</translation>
 		<references>
-			<reference file="modules/smilies/xaradmin/view.php" line="23" />
-			<reference file="modules/smilies/xaruser/main.php" line="57" />
+			<reference file="modules/smilies/xaradmin/view.php" line="34" />
+			<reference file="modules/smilies/xaruser/main.php" line="54" />
 		</references>
 	</entry>
 </translations>

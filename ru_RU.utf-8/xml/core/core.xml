@@ -4,28 +4,288 @@
 		<string>An error occurred while processing your request. The details are:</string>
 		<translation>При выполнении запроса произошла ошибка. Подробности:</translation>
 		<references>
-			<reference file="index.php" line="169" />
+			<reference file="index.php" line="165" />
 		</references>
 	</entry>
 	<entry>
 		<string>Last updated on #(1)</string>
 		<translation>Последнее обновление #(1)</translation>
 		<references>
-			<reference file="includes/caching/page.php" line="229" />
+			<reference file="includes/caching/page.php" line="227" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
 		<translation>Ошибка базы данных при выполнении:  '#(1)'; описание ошибки: '#(2)'.</translation>
 		<references>
-			<reference file="includes/xarException.php" line="457" />
+			<reference file="includes/xarException.php" line="459" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default message</string>
 		<translation>Сообщение по умолчанию</translation>
 		<references>
-			<reference file="includes/exceptions/errorcollection.class.php" line="32" />
+			<reference file="includes/exceptions/errorcollection.class.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block type already exists</string>
+		<translation>Тип блока уже существует</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>An attempt was made to register a block type in a module that already exists.</string>
+		<translation>Предпринята попытка регистрации уже существующего типа блока для этого модуля.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Bad Data</string>
+		<translation>Ошибочные данные.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was bad.</string>
+		<translation>Используемые данные - ошибочны.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
+		<translation>Значение, использованное при выполнении данной операции, либо ошибочно, либо не может быть принято по иным причинам.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>File does not exist</string>
+		<translation>Файл не существует</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a file that cannot be found.</string>
+		<translation>Для выполнения действия требуется файл, который не может быть найден.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed.</string>
+		<translation>Файл отсутствует или его имя было изменено.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Operation Halted</string>
+		<translation>Действие прервано</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation cannot be completed under the present circumstances.</string>
+		<translation>Это действие не может быть завершено в данной ситуации.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
+		<translation>Это действие было остановлено потому что, хотя оно не запрещено, оно не может быть завершено в данном контексте.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Duplicate Data</string>
+		<translation>Дублирование данных</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data provided was a duplicate.</string>
+		<translation>Используемое значение - не уникально.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
+		<translation>При выполнении данной операции ожидалось уникальное значение, но использованное значение оказалось дубликатом существующего.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Forbidden Operation</string>
+		<translation>Запрещенная операция</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting is not allowed in the current circumstances.</string>
+		<translation>Была предпринята попытка выполнить запрещенную для данной ситуации операцию.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
+		<translation>Возможно Вы нажали на кнопку &quot;Назад&quot; или &quot;Обновить&quot; Вашего браузера и пытаетесь повторно выполнить операцию, которая не может быть повторена. Либо в Вашем браузере не разрешены cookies.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login error</string>
+		<translation>Ошибка входа в систему</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>A problem was encountered during the login process.</string>
+		<translation>Во время входа в систему возникла ошибка.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>No further information is available.</string>
+		<translation>Дополнительная информация отсутствует.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing Data</string>
+		<translation>Отсутствуют данные</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>The data is incomplete.</string>
+		<translation>Недостаточно данных.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>A value was expected during this operation, but none was found.</string>
+		<translation>При выполнении операции ожидалось некоторое значение, но оно не было найдено.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Multiple instances</string>
+		<translation>Множественные экземпляры</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>A module contains more than one instance of the same block type.</string>
+		<translation>Модуль содержит более одного экземпляра одного и того же типа блока.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Error</string>
+		<translation>Ошибка привилегий</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>You do not have privileges for this operation.</string>
+		<translation>У Вас нет прав для этой операции.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
+		<translation>Операция, которую Вы пытались выполнить, требует привилегий, которых у вас нет. Свяжитесь с администратором системы/сайта для получения доступа.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not logged in</string>
+		<translation>Не выполнен вход</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
+		<translation>Попытка выполнения операции, недопустимой для Анонимного пользователя.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
+		<translation>Обнаружена попытка выполнения операции, требуемой обязательного входа в систему. Если Вы уже вошли в систему, сообщите, пожалуйста, нам об этой ошибке.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Item not found</string>
+		<translation>Элемент не найден</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>An unexpected empty result occurred.</string>
+		<translation>Получился неожиданный пустой результат.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>An operation that should have returned a result instead came up empty.</string>
+		<translation>Операция, которая должна была вернуть результат, вернула пустое значение.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong version</string>
+		<translation>Ошибочная версия</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>The application version supplied is wrong.</string>
+		<translation>Версия данного приложения ошибочна.</translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="61" />
 		</references>
 	</entry>
 	<entry>
@@ -40,1120 +300,1004 @@
 		<string>Assertion in code failed</string>
 		<translation>При проверке в коде возникла ошибка</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>An assertion evaluated to false, which indicates a coding error.</string>
 		<translation>Условие проверки (assert) возвратило значение ЛОЖЬ. Это свидетельствует о том, что существует ошибка в коде.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="17" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string>
 		<translation>Условие проверки (assert) завершилось неудачей. Это свидетельствует о том, что существует ошибка в коде.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>Bad Parameter</string>
 		<translation>Ошибка в параметре</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter encountered was bad.</string>
 		<translation>Обнаружен ошибочный параметр.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="21" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string>
 		<translation>Параметр, использованный при выполнении данной операции, либо ошибочен, либо не может быть принят по иным причинам.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Compiler error</string>
 		<translation>Ошибка компилятора.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout compiler encountered an error.</string>
 		<translation>Blocklayout-компилятор обнаружил ошибку.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="25" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string>
 		<translation>Blocklayout-компилятор обнаружил ошибку, которая не может быть исправлена. Дополнительная информация отсутствует.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya is not properly configured</string>
 		<translation>Xaraya сконфигурирована неправильно</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>The combination of configuration settings has led to a conflict</string>
 		<translation>Комбинация параметров настройки конфигурации привела к конфликту</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="29" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string>
 		<translation>Xaraya сконфигурирована с некоторыми параметрами настройки, которые приводят к противоречивой ситуации. Некоторые параметры настройки конфигурации не могут использоваться одновременно</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Context does not exist</string>
 		<translation>Контекст не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>A context element was not found.</string>
 		<translation>Элемент контекста не найден.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="33" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string>
 		<translation>Это общая ошибка, описывающая ситуацию, при которой элемент контекста (блок, шаблон, включаемый файл) ожидался, но не найден.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Error</string>
 		<translation>Ошибка базы данных</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered while attempting a database operation.</string>
 		<translation>Обнаружена ошибка при выполнении операции обращения к базе данных.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information is available.</string>
-		<translation>Дополнительная информация отсутствует.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Query Error</string>
 		<translation>Ошибка запроса к базе данных</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered while trying to execute a database query.</string>
 		<translation>Обнаружена ошибка при выполнении запроса к базе данных.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="41" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string>
 		<translation>Запрос к базе данных не может быть выполнен, потому что содержит ошибки, либо возвращает неожиданные результаты.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deprecated API</string>
 		<translation>Устаревший вызов API</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>A function call encountered belongs to a deprecated API.</string>
 		<translation>Обнаружен вызов функции,  связанной с устаревшим вызовом API.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="45" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>A function call encountered belongs to an old API and is therefore no longer supported.</string>
 		<translation>Обнаружен вызов функции,  связанной с устаревшим вызовом API, который в настоящее время не поддерживается.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deprecated Blocklayout Attribute</string>
 		<translation>Устаревший атрибут Blocklayout</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag in a template contains a deprecated attribute.</string>
 		<translation>Тэг в шаблоне содержит устаревший атрибут</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="49" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string>
-		<translation>Тэг в шаблоне содержит устаревший атрибут и должен быть заменен новым (либо игнорирован) --  см. документацию по синтаксису Blocklayout.</translation>
+		<translation>Тэг в шаблоне содержит устаревший атрибут и должен быть заменен новым (либо проигнорирован) --  см. документацию по синтаксису Blocklayout.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Fatal Error</string>
 		<translation>PHP: фатальная ошибка</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
 		</references>
 	</entry>
 	<entry>
 		<string>A system error was received from the PHP interpreter.</string>
 		<translation>Произошла системная ошибка в PHP-интерпретаторе.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="53" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="57" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="61" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="65" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="69" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="73" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="77" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="81" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="85" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="89" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="93" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="51" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="55" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="59" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="63" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="67" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="71" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="75" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="79" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="83" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="87" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is an error in the PHP code that is being processed.</string>
 		<translation>Произошла системная ошибка при обработке кода PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Warning</string>
 		<translation>PHP: Предупреждение</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Parse Error</string>
 		<translation>PHP: Синтаксическая ошибка</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Error Notice</string>
 		<translation>PHP: Уведомление</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Core Error</string>
 		<translation>PHP: Фатальная ошибка ядра</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Core Warning</string>
 		<translation>PHP: Предупреждение ядра</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Compile Error</string>
 		<translation>PHP: Фатальная ошибка компилятора</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: Compile Warning</string>
 		<translation>PHP: Предупреждение компилятора</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: User Error</string>
 		<translation>PHP: Ошибка генерируемая пользователем</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP: User Warning</string>
-		<translation>PHP: Предупрждение генерируемое пользователем</translation>
+		<translation>PHP: Предупреждение генерируемое пользователем</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
 		</references>
 	</entry>
 	<entry>
 		<string>User Notice</string>
 		<translation>Уведомление генерируемое пользователем</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Parameter</string>
 		<translation>Пустой параметр</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter value was not provided.</string>
 		<translation>Значение параметра - пустое.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="97" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="95" />
 		</references>
 	</entry>
 	<entry>
 		<string>A parameter was expected during this operation, but none was found.</string>
 		<translation>При выполнении операции ожидался параметр, но не был найден.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
 		</references>
 	</entry>
 	<entry>
 		<string>Event is not registered</string>
 		<translation>Событие не зарегистрировано</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown event was encountered.</string>
 		<translation>Обнаружено неизвестное событие.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="101" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="99" />
 		</references>
 	</entry>
 	<entry>
 		<string>A reference to an event was encountered that is unknown to the system.</string>
 		<translation>Обнаружена ссылка на неизвестное системе событие.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown system error</string>
 		<translation>Неизвестная ошибка системы</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown system error was encountered.</string>
 		<translation>Обнаружена неизвестная ошибка системы.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="105" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="103" />
 		</references>
 	</entry>
 	<entry>
 		<string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string>
 		<translation>Произошла системная ошибка, которая не может быть идентифицирована.  Пожалуйста помогите нам исправить ее, регистрируя ошибку в &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
 		</references>
 	</entry>
 	<entry>
 		<string>Function failed</string>
 		<translation>Ошибка выполнения функции</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call to a function returned a bad result.</string>
 		<translation>Вызов функции возвратил ошибочный результат.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="109" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>The function executed correctly, but the result was a failure.</string>
 		<translation>Функция выполнена корректно, но результат выполнения - ошибочен.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown ID</string>
 		<translation>Неизвестный ID</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
 		</references>
 	</entry>
 	<entry>
 		<string>An expected ID was not found.</string>
 		<translation>Ожидаемый ID не найден.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="113" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="111" />
 		</references>
 	</entry>
 	<entry>
 		<string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string>
 		<translation>Элемент запрошен с помощью ID, который не был распознан. Это может свидетельствовать о том, что элемент был перемещен, удален или не существует.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid attribute</string>
 		<translation>Недопустимый атрибут</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid attribute.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил недопустимый атрибут.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="117" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="115" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid entity</string>
 		<translation>Недопустимый объект</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid entity.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил недопустимый объект.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="121" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="119" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid file</string>
 		<translation>Недопустимый файл</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid file.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил недопустимый файл.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="125" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="123" />
 		</references>
 	</entry>
 	<entry>
 		<string>The file was either not found, or could not be read properly.</string>
-		<translation>Файл не найден, либо не может быть крректно прочитан.</translation>
+		<translation>Файл не найден, либо не может быть корректно прочитан.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid instruction</string>
 		<translation>Недопустимая инструкция</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid instruction.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил недопустимую инструкцию.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="129" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="127" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid special variable</string>
 		<translation>Недопустимая специальная переменная</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered a problem with a special variable.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил недопустимую специальную переменную.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="133" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="131" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid syntax</string>
 		<translation>Недопустимый синтаксис</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered a syntax error.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил синтаксическую ошибку.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="137" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="135" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid tag</string>
 		<translation>Недопустимый тэг</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser encountered an invalid tag.</string>
 		<translation>Синтаксический анализатор Bloklayout обнаружил недопустимый тэг.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="141" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="139" />
 		</references>
 	</entry>
 	<entry>
 		<string>The tag encountered does not conform to XML syntax.</string>
 		<translation>Обнаружен тэг, недопустимый для XML-синтаксиса.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
 		</references>
 	</entry>
 	<entry>
 		<string>Locale not available</string>
 		<translation>Локализация недоступна</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
 		</references>
 	</entry>
 	<entry>
 		<string>Locale does not exist</string>
 		<translation>Локализация не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown locale was encountered.</string>
 		<translation>Обнаружена неизвестная локализация</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="147" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="145" />
 		</references>
 	</entry>
 	<entry>
 		<string>A reference to a locale was encountered that is unknown to the system.</string>
 		<translation>Обнаружена ссылка на  неизвестную системе локализацию.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
 		</references>
 	</entry>
 	<entry>
 		<string>Missing attribute</string>
 		<translation>Отсутствует атрибут</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser could not find a tag attribute.</string>
 		<translation>Синтаксический анализатор Bloklayout не нашел у тэга атрибут.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="151" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="149" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag attribute required by syntax was not found.</string>
 		<translation>Необходимый по правилам синтаксиса атрибут тэга не найден.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
 		</references>
 	</entry>
 	<entry>
 		<string>Missing parameter</string>
 		<translation>Отсутствует параметр</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Blocklayout parser could not resolve a tag parameter.</string>
 		<translation>Синтаксический анализатор Bloklayout не смог распознать параметр тэга.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="155" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="153" />
 		</references>
 	</entry>
 	<entry>
 		<string>A tag parameter could not be resolved because of bad syntax.</string>
 		<translation>Параметр тэга не распознан из-за синтаксической ошибки.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Dependency</string>
 		<translation>Зависимость модуля</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module call failed because of an unsatisifed dependency.</string>
 		<translation>Вызов модуля завершен неудачно, потому что существуют неудовлетворенные зависимости.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="159" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="157" />
 		</references>
 	</entry>
 	<entry>
 		<string>The current module cannot execute because another module that must first be installed is not present.</string>
 		<translation>Данный модуль не может быть выполнен, поскольку зависит от выполнения другого модуля, который к настоящему моменту не был установлен.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module file does not exist</string>
 		<translation>Файл модуля не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
 		</references>
 	</entry>
 	<entry>
 		<string>An operation requires a module file that cannot be found.</string>
 		<translation>Для выполнения операции необходим файл модуля, который не может быть найден.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="163" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="161" />
 		</references>
 	</entry>
 	<entry>
 		<string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
 		<translation>Файла нет или у него поменялось имя. Замечание: эта ошибка иногда случается из-за того, что файл не может пройти синтаксический анализ из-за ошибок в коде PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function does not exist</string>
 		<translation>Функция модуля не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call has been made to a module function that cannot be found.</string>
 		<translation>Для выполнения операции необходима функция модуля, которая не может быть найдена.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="167" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="165" />
 		</references>
 	</entry>
 	<entry>
 		<string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
 		<translation>Файл, в котором ожидалась эта функция, может отсутствовать. Если это не так, тогда эта ошибка могла случиться из-за того, что фактическая функция имеет другое имя или не существует. Замечание: эта ошибка иногда случается из-за того, что файл не может пройти синтаксический анализ из-за ошибок в коде PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module is not active</string>
 		<translation>Модуль не активирован</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call has been made to a module that is not active.</string>
 		<translation>Запрос был сделан к модулю, который не активирован.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="171" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="169" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string>
 		<translation>Вызываемый модуль к настоящему моменту не активирован/инсталлирован. Для активирования/инсталляции модуля воспользуйтесь пунктом меню (Модули -&gt; Просмотр всех).</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module does not exist</string>
 		<translation>Модуль не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
 		</references>
 	</entry>
 	<entry>
 		<string>A call has been made to a module that cannot be found</string>
 		<translation>Запрос был сделан к модулю, который не существует.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="175" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
 		<translation>Вызываемый модуль или еще не установлен, или вообще отсутствует. Используйте ссылку активации в модуле модулей (Modules-&gt;Показать все) для установки модуля. Замечание: эта ошибка иногда случается из-за того, что файл не может пройти синтаксический анализ из-за ошибок в коде PHP.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Privilege</string>
 		<translation>Нет прав доступа</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
 		</references>
 	</entry>
 	<entry>
 		<string>You do not have the privileges for this operation.</string>
 		<translation>У Вас недостаточно прав доступа для выполнения данной операции.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="179" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string>
 		<translation>Была предпринята попытка выполнения операции пользователем с недостаточным объемом прав доступа. Для назначения необходимых прав доступа обратитесь к системному администратору.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not implemented</string>
 		<translation>Не реализовано</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
 		</references>
 	</entry>
 	<entry>
 		<string>The requested feature is not available.</string>
 		<translation>Данная особенность пока недоступна (не реализована).</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="183" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="181" />
 		</references>
 	</entry>
 	<entry>
 		<string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string>
 		<translation>Был выполнен запрос на обращение к свойствам системы, которые не доступны в этой инсталляции. Данное свойство или отсутствует или недоступно в текущей версии Xaraya.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
 		</references>
 	</entry>
 	<entry>
 		<string>System error</string>
 		<translation>Системная ошибка</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
 		</references>
 	</entry>
 	<entry>
 		<string>A system error was encountered.</string>
 		<translation>Обнаружена системная ошибка.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="187" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="185" />
 		</references>
 	</entry>
 	<entry>
 		<string>Template does not exist</string>
 		<translation>Шаблон не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown template name was encountered.</string>
 		<translation>Обнаружено неизвестное имя шаблона.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="191" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="189" />
 		</references>
 	</entry>
 	<entry>
 		<string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string>
 		<translation>Была выполнена попытка обработки несуществующего шаблона. Шаблон, возможно, был удален или не существует, или его название изменилось.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
 		</references>
 	</entry>
 	<entry>
 		<string>Theme does not exist</string>
 		<translation>Дизайн-тема не существует</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown theme name was encountered.</string>
 		<translation>Обнаружена неизвестная дизайн-тема</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="195" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="193" />
 		</references>
 	</entry>
 	<entry>
 		<string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string>
 		<translation>Была выполнена попытка отображения не существующей дизайн-темы. Возможно данная дизайн-тема была удалена или не существует или ее имя изменилось.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to load</string>
 		<translation>Ошибка загрузки</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered during a load operation.</string>
 		<translation>Обнаружена ошибка в процессе загрузки.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="199" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="197" />
 		</references>
 	</entry>
 	<entry>
 		<string>The system was unable to successfully load a component, such as a module or theme.</string>
 		<translation>Системе не удалось загрузить требуемый компонент, такой как дизайн-тема или модуль.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown Error</string>
 		<translation>Неизвестная ошибка</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
 		</references>
 	</entry>
 	<entry>
 		<string>An unknown error was encountered.</string>
 		<translation>Обнаружена неизвестная ошибка.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="203" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="201" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable is not registered</string>
 		<translation>Переменная не зарегистрирована</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>You are attempting to call a variable that the system does not recognize.</string>
 		<translation>Была попытка обратиться к переменной, которую система не смогла распознать.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="207" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="205" />
 		</references>
 	</entry>
 	<entry>
 		<string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string>
-		<translation>Обраружена ошибка обращения к переменной. Воможно она была удалена или ее имя изменилось.</translation>
+		<translation>Обнаружена ошибка обращения к переменной. Возможно она была удалена или ее имя изменилось.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
 		</references>
 	</entry>
 	<entry>
 		<string>XML Parser Error</string>
 		<translation>Ошибка синтаксиса XML</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
 		</references>
 	</entry>
 	<entry>
 		<string>The XML parser has encountered an error.</string>
 		<translation>XML-анализатор обнаружил ошибку.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="211" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="209" />
 		</references>
 	</entry>
 	<entry>
 		<string>The XML parser tried to execute a line that was not well formed.</string>
 		<translation>XML-анализатор выполнил попытку обработки неправильно оформленной (not well formed) строки.</translation>
 		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="212" />
-		</references>
-	</entry>
-	<entry>
-		<string>Block type already exists</string>
-		<translation>Тип блока уже существует</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to register a block type in a module that already exists.</string>
-		<translation>Предпринята попытка регистрации уже существующего типа блока для этого модуля.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Data</string>
-		<translation>Ошибочные данные.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was bad.</string>
-		<translation>Используемые данные - ошибочны.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>Значение, использованное при выполнении данной операции, либо ошибочно, либо не может быть принято по иным причинам.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Operation Halted</string>
-		<translation>Действие прервано</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation cannot be completed under the present circumstances.</string>
-		<translation>Это действие не может быть завершено в данной ситуации.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
-		<translation>Это действие было остановлено потому что, хлтя оно не запрещено, оно не может быть завершено в данном контексте.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Duplicate Data</string>
-		<translation>Дублирование данных</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was a duplicate.</string>
-		<translation>Испольуемое значение - не уникально.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
-		<translation>При выполнении данной операции ожидалось уникальное значение, но использованное значение оказалось дубликатом существующего.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forbidden Operation</string>
-		<translation>Запрещенная операция</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting is not allowed in the current circumstances.</string>
-		<translation>Была предпринята попытка выполнить запрещенную для данной ситуации операцию.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
-		<translation>Возможно Вы нажали на кнопку &quot;Назад&quot; или &quot;Обновить&quot; Вашего браузера и пытаетесь повторно выполнить операцию, которая не может быть повторена. Либо в Вашем браузере не разрешены cookies.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Login error</string>
-		<translation>Ошибка входа в систему</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>A problem was encountered during the login process.</string>
-		<translation>Во время входа в систему возникла ошибка.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing Data</string>
-		<translation>Отсутствуют данные</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data is incomplete.</string>
-		<translation>Недостаточно данных.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>A value was expected during this operation, but none was found.</string>
-		<translation>При выполнении операции ожидалось некоторое значение, но оно не было найдено.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple instances</string>
-		<translation>Множественные экземпляры</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module contains more than one instance of the same block type.</string>
-		<translation>Модуль содержит более одного экземпляра одного и того же типа блока.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Error</string>
-		<translation>Ошибка привилегий</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have privileges for this operation.</string>
-		<translation>У Вас нет прав для этой операции.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
-		<translation>Операция, которую Вы пытались выполнить, требует привилегий, которых у вас нет. Свяжитесь с администратором системы/сайта для получения доступа.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not logged in</string>
-		<translation>Не выполнен вход</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>Попытка выполнения операции, недопустимой для Анонимного пользователя.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="51" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
-		<translation>Обнаружена попытка выполнения операции, требуемой обязательного входа в систему. Если Вы уже вошли в систему, сообщите, пожалйста, нам об этой ошибке.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>Item not found</string>
-		<translation>Элемент не найден</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unexpected empty result occurred.</string>
-		<translation>Получился неожиданный пустой результат.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation that should have returned a result instead came up empty.</string>
-		<translation>Операция, которая должна была вернуть результат, вернула пустое значение.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong version</string>
-		<translation>Ошибочная версия</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>The application version supplied is wrong.</string>
-		<translation>Версия данного приложения ошибочна.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="59" />
+			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
 		</references>
 	</entry>
 	<entry>
 		<string>The site is locked</string>
 		<translation>Данный сайт заблокирован</translation>
 		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="16" />
+			<reference file="includes/exceptions/systemmessage.defaults.php" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>No access at this time</string>
 		<translation>Нет доступа в текущий момент</translation>
 		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="19" />
+			<reference file="includes/exceptions/systemmessage.defaults.php" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty database_name.</string>
+		<translation>Пустое имя БД.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown database type: '#(1)'.</string>
+		<translation>Неизвестный тип БД: '#(1)'.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="77" />
+			<reference file="includes/xarTableDDL.php" line="174" />
+			<reference file="includes/xarTableDDL.php" line="289" />
+			<reference file="includes/xarTableDDL.php" line="343" />
+			<reference file="includes/xarTableDDL.php" line="416" />
+			<reference file="includes/xarTableDDL.php" line="471" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty tableName.</string>
+		<translation>Пустое имя таблицы.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="99" />
+			<reference file="includes/xarTableDDL.php" line="204" />
+			<reference file="includes/xarTableDDL.php" line="310" />
+			<reference file="includes/xarTableDDL.php" line="366" />
+			<reference file="includes/xarTableDDL.php" line="438" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not array fields.</string>
+		<translation>Не поля массива.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (must be an array, command key must be set).</string>
+		<translation>Ошибочные аргументы (должен быть массив, ключ команды должен быть установлен).</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="210" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
+		<translation>Ошибочный индекс (должен быть массив, ключ полей должен быть массив, ключ имени должен быть установлен).</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="372" />
+			<reference file="includes/xarTableDDL.php" line="444" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (field key must be set).</string>
+		<translation>Ошибочные аргументы (ключ поля должен быть установлен).</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="79" />
+			<reference file="includes/tableddl/datadict.php" line="121" />
+			<reference file="includes/tableddl/mysql.php" line="102" />
+			<reference file="includes/tableddl/mysql.php" line="163" />
+			<reference file="includes/tableddl/postgres.php" line="123" />
+			<reference file="includes/tableddl/postgres.php" line="167" />
+			<reference file="includes/tableddl/oracle.php" line="97" />
+			<reference file="includes/tableddl/oracle.php" line="143" />
+			<reference file="includes/tableddl/sqlite.php" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
+		<translation>Ошибочные аргументы (тип, размер, значение по умолчанию, нулевое значение, инкремент или первичный ключ должны быть установлены).</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="86" />
+			<reference file="includes/tableddl/datadict.php" line="128" />
+			<reference file="includes/tableddl/mysql.php" line="178" />
+			<reference file="includes/tableddl/postgres.php" line="182" />
+			<reference file="includes/tableddl/oracle.php" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (new_name key must be set.)</string>
+		<translation>Ошибочные аргументы (ключ new_name должен быть установлен).</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="107" />
+			<reference file="includes/tableddl/mysql.php" line="136" />
+			<reference file="includes/tableddl/postgres.php" line="140" />
+			<reference file="includes/tableddl/oracle.php" line="116" />
+			<reference file="includes/tableddl/sqlite.php" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown command: '#(1)'.</string>
+		<translation>Неизвестная команда: '#(1)'.</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="148" />
+			<reference file="includes/tableddl/mysql.php" line="209" />
+			<reference file="includes/tableddl/postgres.php" line="202" />
+			<reference file="includes/tableddl/oracle.php" line="195" />
+			<reference file="includes/tableddl/sqlite.php" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
+		<translation>При изменениях сейчас не поддерживается: тип, размер, значение по умолчанию, инкремент или первичный ключ)</translation>
+		<references>
+			<reference file="includes/tableddl/mysql.php" line="170" />
+			<reference file="includes/tableddl/postgres.php" line="174" />
+			<reference file="includes/tableddl/oracle.php" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for function #(2)() in #(3)</string>
+		<translation>Ошибочный #(1) для функции #(2)() в #(3)</translation>
+		<references>
+			<reference file="includes/xarDataDict.php" line="74" />
+			<reference file="includes/xarDataDict.php" line="116" />
+			<reference file="includes/xarDataDict.php" line="228" />
+			<reference file="includes/xarDataDict.php" line="379" />
+			<reference file="includes/xarDataDict.php" line="421" />
+			<reference file="includes/xarDataDict.php" line="459" />
+			<reference file="includes/xarDataDict.php" line="519" />
+			<reference file="includes/xarDataDict.php" line="550" />
 		</references>
 	</entry>
 	<entry>
 		<string>No validation type present.</string>
 		<translation>Проверка правильности типа отсутствует</translation>
 		<references>
-			<reference file="includes/xarVar.php" line="327" />
+			<reference file="includes/xarVar.php" line="326" />
 		</references>
 	</entry>
 	<entry>
@@ -1167,268 +1311,268 @@
 		<string>Variable #(1) is not an array: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не является массивом: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="20" />
-			<reference file="includes/validations/list.php" line="21" />
+			<reference file="includes/validations/array.php" line="17" />
+			<reference file="includes/validations/list.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an array: &quot;#(1)&quot;</string>
 		<translation>Это не массив: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="22" />
-			<reference file="includes/validations/list.php" line="23" />
+			<reference file="includes/validations/array.php" line="19" />
+			<reference file="includes/validations/list.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Массив содержит меньшее количество элементов &quot;#(1)&quot;, чем необходимый минимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="33" />
+			<reference file="includes/validations/array.php" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Массив содержит большее количество элементов &quot;#(1)&quot;, чем необходимый максимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="45" />
+			<reference file="includes/validations/array.php" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не является булевой: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/bool.php" line="25" />
+			<reference file="includes/validations/bool.php" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a boolean: &quot;#(1)&quot;</string>
 		<translation>Это не булевая переменная: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/bool.php" line="27" />
+			<reference file="includes/validations/bool.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не является чекбоксом: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/checkbox.php" line="24" />
+			<reference file="includes/validations/checkbox.php" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a scheckbox: &quot;#(1)&quot;</string>
 		<translation>Это не чекбокс: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/checkbox.php" line="26" />
+			<reference file="includes/validations/checkbox.php" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не соответствует типу e-mail: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/email.php" line="20" />
+			<reference file="includes/validations/email.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an e-mail type: &quot;#(1)&quot;</string>
 		<translation>Не тип e-mail: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/email.php" line="22" />
+			<reference file="includes/validations/email.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string>
 		<translation>Введено &quot;#(1)&quot; что не совпадает ни с одной из возможностей для #(2): &quot;</translation>
 		<references>
-			<reference file="includes/validations/enum.php" line="30" />
+			<reference file="includes/validations/enum.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Input &quot;#(1)&quot; was not one of the possibilities.</string>
 		<translation>Введенное &quot;#(1)&quot; не было ни одной из разрешенных возможностей.</translation>
 		<references>
-			<reference file="includes/validations/enum.php" line="32" />
+			<reference file="includes/validations/enum.php" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a float type: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не плавающего типа: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="21" />
+			<reference file="includes/validations/float.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a float type: &quot;#(1)&quot;</string>
 		<translation>Не плавающий тип: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="23" />
+			<reference file="includes/validations/float.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Вещественное значение &quot;#(1)&quot; меньше, чем необходимый минимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="34" />
+			<reference file="includes/validations/float.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Вещественное значение &quot;#(1)&quot; больше, чем необходимый максимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="46" />
+			<reference file="includes/validations/float.php" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) содержит не разрешенный тег: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/html.php" line="34" />
+			<reference file="includes/validations/html.php" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an allowed tag: &quot;#(1)&quot;</string>
 		<translation>Не разрешен тег: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/html.php" line="36" />
+			<reference file="includes/validations/html.php" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string>
-		<translation>Аттрибуты для этого тега в переменной #(1): &quot;#(2)&quot; не разрешены</translation>
+		<translation>Атрибуты для этого тега в переменной #(1): &quot;#(2)&quot; не разрешены</translation>
 		<references>
-			<reference file="includes/validations/html.php" line="43" />
+			<reference file="includes/validations/html.php" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not an integer: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не целое число: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="22" />
+			<reference file="includes/validations/int.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an integer: &quot;#(1)&quot;</string>
 		<translation>Не целое число: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="24" />
+			<reference file="includes/validations/int.php" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Целочисленное значение &quot;#(1)&quot; меньше, чем необходимый минимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="35" />
+			<reference file="includes/validations/int.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Целочисленное значение &quot;#(1)&quot; больше, чем необходимый максимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="47" />
+			<reference file="includes/validations/int.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable not set!</string>
 		<translation>Переменная не задана!</translation>
 		<references>
-			<reference file="includes/validations/isset.php" line="20" />
+			<reference file="includes/validations/isset.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid e-mail #(1), the mail server doesnt recognize it.</string>
 		<translation>Ошибка адреса e-mail #(1), либо почтовый сервер не смог его распознать.</translation>
 		<references>
-			<reference file="includes/validations/mxcheck.php" line="102" />
+			<reference file="includes/validations/mxcheck.php" line="99" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to connect to the mail server #(1) for e-mail #(2).</string>
 		<translation>Невозможно подключиться к почтовому серверу #(1) для e-mail адреса #(2)</translation>
 		<references>
-			<reference file="includes/validations/mxcheck.php" line="110" />
+			<reference file="includes/validations/mxcheck.php" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) should not be empty: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не должна быть пустой: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/notempty.php" line="21" />
+			<reference file="includes/validations/notempty.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Should not be empty: &quot;#(1)&quot;</string>
 		<translation>Не должна быть пустой: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/notempty.php" line="23" />
+			<reference file="includes/validations/notempty.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is no parameter to check against in the Regexp validation of #(1)</string>
 		<translation>Нет параметров для проверки на соответствие Regexp проверке для #(1)</translation>
 		<references>
-			<reference file="includes/validations/regexp.php" line="21" />
+			<reference file="includes/validations/regexp.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is no parameter to check against in the Regexp validation</string>
 		<translation>Нет параметров для проверки на соответствие Regexp проверке</translation>
 		<references>
-			<reference file="includes/validations/regexp.php" line="23" />
+			<reference file="includes/validations/regexp.php" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string>
 		<translation>переменная #(1): &quot;#(2)&quot; не совпадает с шаблоном &quot;#(3)&quot;</translation>
 		<references>
-			<reference file="includes/validations/regexp.php" line="30" />
+			<reference file="includes/validations/regexp.php" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not a string: &quot;#(2)&quot;</string>
 		<translation>Переменная #(1) не является строкой: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="20" />
+			<reference file="includes/validations/str.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a string: &quot;#(1)&quot;</string>
 		<translation>Это не строка: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="22" />
+			<reference file="includes/validations/str.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Размер строки &quot;#(1)&quot; меньше, чем необходимый минимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="35" />
+			<reference file="includes/validations/str.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Размер строки &quot;#(1)&quot; больше, чем необходимый максимум &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/str.php" line="47" />
+			<reference file="includes/validations/str.php" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>This call needs to be removed</string>
 		<translation>Этот запрос должен быть удален</translation>
 		<references>
-			<reference file="includes/xarLegacy.php" line="1035" />
+			<reference file="includes/xarLegacy.php" line="1033" />
 		</references>
 	</entry>
 	<entry>
 		<string>Confirm</string>
 		<translation>Подтвердить</translation>
 		<references>
-			<reference file="includes/pnHTML.php" line="475" />
+			<reference file="includes/pnHTML.php" line="473" />
 		</references>
 	</entry>
 	<entry>
 		<string>The directories under #(1) must be writeable by PHP.</string>
 		<translation>Каталоги ниже #(1) должны разрешать запись от имени PHP.</translation>
 		<references>
-			<reference file="includes/xarMLS.php" line="864" />
+			<reference file="includes/xarMLS.php" line="870" />
 		</references>
 	</entry>
 	<entry>
@@ -1436,36 +1580,38 @@
 		<translation>Тип контекста: #(1) и имя файла: #(2)</translation>
 		<references>
 			<reference file="includes/xarMLSPHPBackend.php" line="95" />
-			<reference file="includes/xarMLSXML2PHPBackend.php" line="187" />
+			<reference file="includes/xarMLSXML2PHPBackend.php" line="185" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module or Theme Name #(1) is empty.</string>
 		<translation>Пустое имя #(1) модуля или дизайн-темы.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="452" />
-			<reference file="includes/xarMod.php" line="1779" />
+			<reference file="includes/xarMod.php" line="450" />
+			<reference file="includes/xarMod.php" line="1787" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
 		<translation>Пустой (или равный 0) регистрационный номер/RegId (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="486" />
+			<reference file="includes/xarMod.php" line="484" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown</string>
-		<translation>Неизвестный(ая)</translation>
+		<translation>Неизвестный(-ая)</translation>
 		<references>
+			<reference file="includes/xarMod.php" line="585" />
 			<reference file="includes/xarMod.php" line="587" />
+			<reference file="includes/xarMod.php" line="588" />
 			<reference file="includes/xarMod.php" line="589" />
 			<reference file="includes/xarMod.php" line="590" />
 			<reference file="includes/xarMod.php" line="591" />
 			<reference file="includes/xarMod.php" line="592" />
 			<reference file="includes/xarMod.php" line="593" />
-			<reference file="includes/xarMod.php" line="594" />
-			<reference file="includes/xarMod.php" line="595" />
+			<reference file="includes/xarMod.php" line="597" />
+			<reference file="includes/xarMod.php" line="598" />
 			<reference file="includes/xarMod.php" line="599" />
 			<reference file="includes/xarMod.php" line="600" />
 			<reference file="includes/xarMod.php" line="601" />
@@ -1474,208 +1620,220 @@
 			<reference file="includes/xarMod.php" line="604" />
 			<reference file="includes/xarMod.php" line="605" />
 			<reference file="includes/xarMod.php" line="606" />
-			<reference file="includes/xarMod.php" line="607" />
-			<reference file="includes/xarMod.php" line="608" />
 		</references>
 	</entry>
 	<entry>
 		<string>This module is not installed properly. Not all info could be retrieved</string>
 		<translation>Данный модуль не установлен корректно. Не вся информация может быть получена</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="588" />
+			<reference file="includes/xarMod.php" line="586" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to find Base Info for Module: #(1)</string>
 		<translation>Не найдена основная информация для модуля: #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="656" />
+			<reference file="includes/xarMod.php" line="657" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Name #(1) is empty.</string>
 		<translation>Пустое имя #(1) модуля.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="764" />
+			<reference file="includes/xarMod.php" line="770" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].</string>
 		<translation>Ошибка загрузки файла функции: [#(1)].</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="851" />
+			<reference file="includes/xarMod.php" line="857" />
 		</references>
 	</entry>
 	<entry>
 		<string>Error Caught:</string>
 		<translation>Обнаружена ошибка:</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="852" />
+			<reference file="includes/xarMod.php" line="858" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function #(1) does not exist.</string>
 		<translation>Функция  #(1) модуля не существует.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="872" />
+			<reference file="includes/xarMod.php" line="878" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
 		<translation>Невозможно загрузить файл функции: [#(1)].\n\n Обнаружена ошибка:\n #(2)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="958" />
+			<reference file="includes/xarMod.php" line="964" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module API function #(1) does not exist or could not be loaded.</string>
 		<translation>Функция API #(1) модуля не существует или не может быть загружена.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="978" />
+			<reference file="includes/xarMod.php" line="984" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Module or Theme Name (#(1)).</string>
 		<translation>Пустое имя #(1) модуля или дизайн-темы.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1334" />
+			<reference file="includes/xarMod.php" line="1340" />
 		</references>
 	</entry>
 	<entry>
 		<string>Directory information #(1) is empty.</string>
 		<translation>Пустое имя каталога #(1) модуля.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1653" />
+			<reference file="includes/xarMod.php" line="1661" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot open file #(1).</string>
 		<translation>Невозможно открыть файл #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1673" />
+			<reference file="includes/xarMod.php" line="1681" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
 		<translation>Недопустимый тип, он может быть только 'module' или 'theme': #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1787" />
+			<reference file="includes/xarMod.php" line="1795" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty theme or module name (#(1)).</string>
 		<translation>Пустое имя модуля или дизайн-темы #(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1893" />
+			<reference file="includes/xarMod.php" line="1901" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Theme or Module variable name (#(1)).</string>
 		<translation>Пустая переменная модуля или дизайн-темы #(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1984" />
+			<reference file="includes/xarMod.php" line="1992" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
 		<translation>Недопустимое имя атрибута ('#(1)'): Имя атрибута может содержать буквы, цифры, знаки подчеркивания (_) и тире (-) и должно начинаться с буквы.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1428" />
+			<reference file="includes/xarTemplate.php" line="1507" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Недопустимые флаги атрибута ('#(1)'): флаги атрибута должны быть целочисленного типа.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1435" />
+			<reference file="includes/xarTemplate.php" line="1514" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
 		<translation>Недопустимое определение тэга: '#(1)' - ошибочное имя тэга.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1514" />
+			<reference file="includes/xarTemplate.php" line="1593" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
 		<translation>Недопустимое определение тэга: '#(1)' - ошибочный дескриптор.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1523" />
-			<reference file="includes/xarTemplate.php" line="1621" />
+			<reference file="includes/xarTemplate.php" line="1602" />
+			<reference file="includes/xarTemplate.php" line="1700" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
 		<translation>Недопустимые флаги регистрации тэга ('#(1)'): флаги должны быть целочисленного типа.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1529" />
+			<reference file="includes/xarTemplate.php" line="1608" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
 		<translation>Тэг &lt;xar:#(1)&gt; уже определен.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1659" />
+			<reference file="includes/xarTemplate.php" line="1738" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
 		<translation>Тэг &lt;xar:#(1)&gt; не определен.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1739" />
+			<reference file="includes/xarTemplate.php" line="1818" />
 		</references>
 	</entry>
 	<entry>
 		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
 		<translation>Атрибут '#(1)' в тэге &lt;xar:#(2)&gt; - некорректного типа. См. документацию по тэгам.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1767" />
+			<reference file="includes/xarTemplate.php" line="1846" />
 		</references>
 	</entry>
 	<entry>
 		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
 		<translation>Обязательный атрибут '#(1)' отсутствует в тэге &lt;xar:#(2)&gt;. См. документацию по тэгам.</translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1773" />
+			<reference file="includes/xarTemplate.php" line="1852" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty themeName (#(1)).</string>
 		<translation>Пустой параметр themeName (#(1))</translation>
 		<references>
-			<reference file="includes/xarTheme.php" line="34" />
-			<reference file="includes/xarTheme.php" line="55" />
-			<reference file="includes/xarTheme.php" line="76" />
+			<reference file="includes/xarTheme.php" line="32" />
+			<reference file="includes/xarTheme.php" line="53" />
+			<reference file="includes/xarTheme.php" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation>#(1) файл таблицы стилей css не может быть найден в этом месте:</translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="183" />
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string>
+		<translation>#(1) (из этого xar:style тага нельзя вывести корректных атрибутов области действия)</translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="227" />
 		</references>
 	</entry>
 	<entry>
 		<string>Anonymous</string>
 		<translation>Anonymous</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="378" />
+			<reference file="includes/xarUser.php" line="380" />
 		</references>
 	</entry>
 	<entry>
 		<string>User identified by uid #(1) does not exist.</string>
 		<translation>Пользователь с идентификатором  #(1) не существует.</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="406" />
-			<reference file="includes/xarUser.php" line="430" />
-			<reference file="includes/xarUser.php" line="569" />
+			<reference file="includes/xarUser.php" line="408" />
+			<reference file="includes/xarUser.php" line="432" />
+			<reference file="includes/xarUser.php" line="571" />
 		</references>
 	</entry>
 	<entry>
 		<string>User variable #(1) was not correctly registered</string>
-		<translation>Пользвательская переменная #(1) не была корректно зарегистрирована</translation>
+		<translation>Пользовательская переменная #(1) не была корректно зарегистрирована</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="421" />
-			<reference file="includes/xarUser.php" line="560" />
+			<reference file="includes/xarUser.php" line="423" />
+			<reference file="includes/xarUser.php" line="562" />
 		</references>
 	</entry>
 	<entry>
 		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
-		<translation>Область безопасности #(1) - Компонента #(2) - Экземпляр #(3) - Уровень #(4) : Этот запрос должен быть онвертирован к  системе безопасности Xaraya</translation>
+		<translation>Область безопасности #(1) - Компонента #(2) - Экземпляр #(3) - Уровень #(4) : Этот запрос должен быть преобразован к системе безопасности Xaraya</translation>
 		<references>
 			<reference file="includes/xarSecurity.php" line="574" />
 		</references>
@@ -1684,49 +1842,49 @@
 		<string>Parameters to winnow need to be arrays</string>
 		<translation>Параметры для функции winnow должны быть массивами.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="264" />
+			<reference file="modules/privileges/xarprivileges.php" line="266" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
 		<translation>Не найдена маска #(1) зарегистрированная для неопределенного компонента в модуле #(2)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="380" />
+			<reference file="modules/privileges/xarprivileges.php" line="382" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
 		<translation>Не найдена маска #(1) зарегистрированная для компонента #(2) в модуле #(3)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="383" />
+			<reference file="modules/privileges/xarprivileges.php" line="385" />
 		</references>
 	</entry>
 	<entry>
 		<string>No privilege for #(1)</string>
 		<translation>Нет прав доступа для #(1)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="444" />
+			<reference file="modules/privileges/xarprivileges.php" line="446" />
 		</references>
 	</entry>
 	<entry>
 		<string>A query is missing in component #(1) of module #(2)</string>
 		<translation>Ошибка запроса в компоненте #(1) модуля #(2)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1223" />
+			<reference file="modules/privileges/xarprivileges.php" line="1225" />
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
 		<translation>#(1) и #(2) не имеют одинаковые экземпляры. #(3) | #(4) | #(5)</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1771" />
+			<reference file="modules/privileges/xarprivileges.php" line="1762" />
 		</references>
 	</entry>
 	<entry>
 		<string>You must enter a name.</string>
 		<translation>Вы должны ввести имя.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1968" />
+			<reference file="modules/privileges/xarprivileges.php" line="1959" />
 			<reference file="modules/roles/xarroles.php" line="500" />
 		</references>
 	</entry>
@@ -1734,7 +1892,7 @@
 		<string>This entry already exists.</string>
 		<translation>Такой вход уже существует.</translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1988" />
+			<reference file="modules/privileges/xarprivileges.php" line="1979" />
 			<reference file="modules/roles/xarroles.php" line="329" />
 			<reference file="modules/roles/xarroles.php" line="383" />
 			<reference file="modules/roles/xarroles.php" line="529" />
@@ -1752,121 +1910,121 @@
 		<string>deleted</string>
 		<translation>удален</translation>
 		<references>
-			<reference file="modules/roles/xarroles.php" line="721" />
+			<reference file="modules/roles/xarroles.php" line="722" />
 		</references>
 	</entry>
 	<entry>
 		<string>The operation #(1) is not supported</string>
 		<translation>Действие #(1) не поддерживается</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="50" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>SELECT with total of columns different from the number retrieved.</string>
 		<translation>Общее число колонок в результате SELECT отличается от полученного числа полей.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="114" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="129" />
 		</references>
 	</entry>
 	<entry>
 		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
 		<translation>Таблица #(1), которую Вы пробуете добавить, должна быть строкой или массивом.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="193" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="208" />
 		</references>
 	</entry>
 	<entry>
 		<string>This function can only take 1 or 2 parameters</string>
 		<translation>Эта функция может иметь только 1 или 2 параметра</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="212" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="264" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="227" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="279" />
 		</references>
 	</entry>
 	<entry>
 		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
 		<translation>Поле #(1), которое Вы пробуете добавить, должно быть строкой или массивом.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="241" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="256" />
 		</references>
 	</entry>
 	<entry>
 		<string>Your query has no fields.</string>
 		<translation>Ваш запрос не содержит полей.</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="728" />
+			<reference file="modules/roles/xarincludes/xarQuery.php" line="763" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show the Users in this Group</string>
 		<translation>Показывать пользователей этой группы</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="272" />
+			<reference file="modules/roles/xartreerenderer.php" line="274" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete this Group</string>
 		<translation>Удалить эту группу</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="286" />
+			<reference file="modules/roles/xartreerenderer.php" line="288" />
 		</references>
 	</entry>
 	<entry>
 		<string>Email the Users in this Group</string>
 		<translation>Адреса пользователей этой группы</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="300" />
+			<reference file="modules/roles/xartreerenderer.php" line="302" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show the Privileges assigned to this Group</string>
 		<translation>Показывать привилегии присвоенные этой группе</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="314" />
+			<reference file="modules/roles/xartreerenderer.php" line="316" />
 		</references>
 	</entry>
 	<entry>
 		<string>Test this Groups's Privileges</string>
 		<translation>Тестировать привилегии этой группы</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="328" />
+			<reference file="modules/roles/xartreerenderer.php" line="330" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify this Group</string>
 		<translation>Изменить эту группу</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="339" />
-			<reference file="modules/roles/xartreerenderer.php" line="355" />
+			<reference file="modules/roles/xartreerenderer.php" line="341" />
+			<reference file="modules/roles/xartreerenderer.php" line="357" />
 		</references>
 	</entry>
 	<entry>
 		<string>subgroup</string>
 		<translation>подгруппа</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="357" />
+			<reference file="modules/roles/xartreerenderer.php" line="359" />
 		</references>
 	</entry>
 	<entry>
 		<string>subgroups</string>
 		<translation>подгрупп</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="357" />
+			<reference file="modules/roles/xartreerenderer.php" line="359" />
 		</references>
 	</entry>
 	<entry>
 		<string>user</string>
 		<translation>пользователь</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="359" />
+			<reference file="modules/roles/xartreerenderer.php" line="361" />
 		</references>
 	</entry>
 	<entry>
 		<string>users</string>
 		<translation>пользователей</translation>
 		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="359" />
+			<reference file="modules/roles/xartreerenderer.php" line="361" />
 		</references>
 	</entry>
 </translations>
