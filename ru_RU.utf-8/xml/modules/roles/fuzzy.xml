@@ -742,4 +742,181 @@ of the same name already exists (or same email, if the admin restricted emails t
 			<reference file="modules/roles/xartemplates/blocks/modify-login.xd" line="18" />
 		</references>
 	</entry>
+	<entry>
+		<string>for more information.</string>
+		<translation>для дополнительной информации.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>General Options</string>
+		<translation>Основные настройки</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="137" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Конфигурация связанных модулей (хуков)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="516" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="551" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Hooks For Users:</string>
+		<translation>Хуки для Пользователей по умолчанию:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="522" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Hooks For Groups:</string>
+		<translation>Хуки для Групп по умолчанию:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="557" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add User #(1) to a Group</string>
+		<translation>Добавить Пользователя  #(1) в Группу</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="221" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Group #(1) to another Group</string>
+		<translation>Добавить Группу  #(1) в другую группу</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="226" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group:</string>
+		<translation>Группа:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="244" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or the set of classes at a university. A role can be a member of as many other roles as you like (as long as the parents are groups).</string>
+		<translation>Роли могут быть членами других Ролей, в любом соотношении. Например, Вы можете использовать Роли для представления структуры организации фирмы или университета. Роли могут быть включены в другие Роли как угодно, при условии, что родительские Роли являются группами.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be assigned privileges. By doing so, you define what a given role may or may not do on the site. You can use the test functionality of the Roles module to see what parts of the site a role with a given set of privileges has access to.</string>
+		<translation>Ролям могут быть назначены привилегии. Делая это, вы определяете, что та или иная роль может, а чего не может делать на сайте. Можно использовать функцию тестирования модуля Ролей для просмотра назначеных привилегий и уровней доступа к  тем или иным частям сайта.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles have inheritance. A role inherits all the privileges of all of its parents, but can override them. If you give a group editing privileges, for instance, any other role that is a member of that group inherits the editing privileges. If you want to restrict the privileges of some of the members, simply assign them a different set of privileges (say reading), and the privileges of the parent will be overridden.</string>
+		<translation>Роли имееют наследование. Каждая роль наследует привилегии, назначеные родительской роли, но может и перекрывать их. К примеру, если вы назначили роли привилегию редактирования, то все потомки этой роли унаследуют данную привилегию. Если вы захотите запретить редактирование для кого-то из потомков (членов) этой роли, просто назначьте дочерней роли новый набор привилегий (например, чтение), и унаследжованные от родителя привилегии будут перекрыты.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module allows the use of the User Menu hook which will allow users to set values to further enhance their visit.</string>
+		<translation>Модуль ролей обеспечивает использование хука Меню Пользователя, который позволит пользователям устанавливать значения для продления времени посещения (активной сессии).</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>Более подробную информацию можно найти в</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC-30</string>
+		<translation>RFC-30</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test this User's Privileges</string>
+		<translation>Тестировать привилегии Пользователя</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="74" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test the privileges of #(1)</string>
+		<translation>Тест привилегий #(1)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign a Privilege to #(1) '#(2)':</string>
+		<translation>Назначение Привилегии для #(1) '#(2)':</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="279" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privilege:</string>
+		<translation>Привилегия:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="295" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Privileges Assigned To This Group</string>
+		<translation>Показать привилегии, назначенные этой группе</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test This Groups's Privileges</string>
+		<translation>Тестпривилегий этой группы</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Privileges Of</string>
+		<translation>Проверка привилегий для</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the privileges of</string>
+		<translation>Показать привилегии для</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Result:</string>
+		<translation>Результат Теста:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign recelled users to this status</string>
+		<translation>Назначить восстановленным пользователям этот статус</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>by reference.</string>
+		<translation>в качестве приложения.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="41" />
+		</references>
+	</entry>
 </translations>
