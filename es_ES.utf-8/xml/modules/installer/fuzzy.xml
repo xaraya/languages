@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_ES.utf-8">
+	<entry>
+		<string>Empty database_name.</string>
+		<translation>database_name vacío.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown database type: '#(1)'.</string>
+		<translation>Tipo de base de datos desconocido: '#(1)'.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="79" />
+			<reference file="includes/xarTableDDL.php" line="176" />
+			<reference file="includes/xarTableDDL.php" line="291" />
+			<reference file="includes/xarTableDDL.php" line="345" />
+			<reference file="includes/xarTableDDL.php" line="418" />
+			<reference file="includes/xarTableDDL.php" line="473" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty tableName.</string>
+		<translation>tableName vacío.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="101" />
+			<reference file="includes/xarTableDDL.php" line="206" />
+			<reference file="includes/xarTableDDL.php" line="312" />
+			<reference file="includes/xarTableDDL.php" line="368" />
+			<reference file="includes/xarTableDDL.php" line="440" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not array fields.</string>
+		<translation>No hay campor en el vector.</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (must be an array, command key must be set).</string>
+		<translation>Argumentos no válidos (debe ser un vector y establecer una clave)</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="212" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
+		<translation>Índice no válido (debe ser un vector, la clave del campo debe ser un vector, debe establecerse el nombre de la clave).</translation>
+		<references>
+			<reference file="includes/xarTableDDL.php" line="374" />
+			<reference file="includes/xarTableDDL.php" line="446" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (field key must be set).</string>
+		<translation>Argumentos no válidos (se debe establecer el campo clave).</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="81" />
+			<reference file="includes/tableddl/datadict.php" line="123" />
+			<reference file="includes/tableddl/mysql.php" line="104" />
+			<reference file="includes/tableddl/mysql.php" line="165" />
+			<reference file="includes/tableddl/postgres.php" line="125" />
+			<reference file="includes/tableddl/postgres.php" line="169" />
+			<reference file="includes/tableddl/oracle.php" line="99" />
+			<reference file="includes/tableddl/oracle.php" line="145" />
+			<reference file="includes/tableddl/sqlite.php" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
+		<translation>Argumentos no válidos (se debe establecer del tipo, tamaño,valor por defecto, vacío, signo, incremental o clave primaria)</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="88" />
+			<reference file="includes/tableddl/datadict.php" line="130" />
+			<reference file="includes/tableddl/mysql.php" line="180" />
+			<reference file="includes/tableddl/postgres.php" line="184" />
+			<reference file="includes/tableddl/oracle.php" line="160" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid args (new_name key must be set.)</string>
+		<translation>Argumentos no válidos (se debe establecer la clave new_name)</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="109" />
+			<reference file="includes/tableddl/mysql.php" line="138" />
+			<reference file="includes/tableddl/postgres.php" line="142" />
+			<reference file="includes/tableddl/oracle.php" line="118" />
+			<reference file="includes/tableddl/sqlite.php" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unknown command: '#(1)'.</string>
+		<translation>Comando desconocido: '#(1)'</translation>
+		<references>
+			<reference file="includes/tableddl/datadict.php" line="150" />
+			<reference file="includes/tableddl/mysql.php" line="211" />
+			<reference file="includes/tableddl/postgres.php" line="204" />
+			<reference file="includes/tableddl/oracle.php" line="197" />
+			<reference file="includes/tableddl/sqlite.php" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
+		<translation>Actualmente no se soporta la modificación de: tipo, tamaño, signo, incremental o clave primaria)</translation>
+		<references>
+			<reference file="includes/tableddl/mysql.php" line="172" />
+			<reference file="includes/tableddl/postgres.php" line="176" />
+			<reference file="includes/tableddl/oracle.php" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>For Xaraya to function properly, the installer must write your database information to the file</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>If your settings are not correct, this script will not be able to do so. The installer needs write access for steps 3 and 4 only.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP Version is greater than or equal to 4.1.2. Your PHP Version is</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP Version is less than 4.1.2. Your PHP Version is</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>please upgrade PHP.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer cannot write to the configuration file. Please verify that your webserver has write access to the file</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer can write to the directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="89" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="105" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="121" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="137" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer cannot write to the directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="95" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="111" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="143" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please verify that your webserver has write access to the directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="97" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="113" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="129" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="145" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer cannot write to the</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>For translation to function properly, the Xaraya must have write access to files in the locales directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya can write to the directory #(1) and all it's files and subdirectories.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="167" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="201" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya cannot write to the directory #(1) and all it's files and subdirectories.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="180" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="214" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please verify that your webserver has write access to the files under the directory:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="187" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="221" />
+		</references>
+	</entry>
+	<entry>
+		<string>Write access is required to cache language text for locales other than en. If you're not sure, ignore this warning.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>These extensions may be required for some modules to work; however the Xaraya is not dependant on these extensions for installation. Refer to &lt;a href=&quot;http://www.php.net&quot;&gt;PHP.net&lt;/a&gt; for further information on these extensions.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="237" />
+		</references>
+	</entry>
+	<entry>
+		<string>The MySQL Extension is not loaded. Xaraya will need either the PGSQL or MySQL extension to be loaded to proceed.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="270" />
+		</references>
+	</entry>
+	<entry>
+		<string>The PGSQL Extension is not loaded. Xaraya will need either the PGSQL or MySQL extension to be loaded to proceed.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="287" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT Extension is not loaded. This extension is only needed for the XSLT transform module at this time.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="304" />
+		</references>
+	</entry>
+	<entry>
+		<string>The LDAP Extension is not loaded. This extension is only needed if you intend on using LDAP authentication with the Xaraya LDAP Modules.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="321" />
+		</references>
+	</entry>
+	<entry>
+		<string>The GD Extension is not loaded. This extension is only needed for the images module at this time for resizing of thumbnails.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="338" />
+		</references>
+	</entry>
+</translations>
