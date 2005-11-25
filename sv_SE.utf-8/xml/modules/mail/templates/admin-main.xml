@@ -8,129 +8,257 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Overview</string>
-		<translation>Översikt</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Vad är detta?</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="21" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
-		<string>The mail module controls the ways that your Xaraya system sends mail to users or groups of users. This module is a utility module and takes information from other modules installed on your Xaraya system and formats the mail for them. This module at its heart is using the</string>
+		<string>The mail module controls the ways that your site sends mail to users or groups of users.
+This is a utility module that takes information from other modules installed on your site and formats
+the mail for them. At its heart, this module is using the</string>
 		<translation>E-postmodulen kontroller hur ditt Xaraya-system skickar e-post till användare eller grupper av användare. Denna modul är en verktygsmodul och tar information från andra installerade moduler på ditt Xaraya-system och formaterar e-brevet för dem. Denna moduls hjärta använder</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="26" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>phpmailer</string>
 		<translation>phpmailer</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="30" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>classes for processing. These classes extend Xaraya to allow you to use SMTP, SendMail or the normal PHP Mail functions.</string>
+		<string>classes for processing. These classes extend Xaraya to
+allow you to use SMTP, SendMail or the normal PHP Mail functions.</string>
 		<translation>klasser för behandling. Dessa klasser utökar Xaraya till att använda SMTP, SendMail eller de normala PHP Mail funktionerna.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hur man använder den?</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="39" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have three choices.</string>
-		<translation>Från menyn har du rea alternativ.</translation>
+		<string>A number of choices are available in the menu:</string>
+		<translation>Ett antal alternativ är tillgängliga i menyn:</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Test Configuration&lt;/strong&gt;: Test your current mail system configuration
+settings by sending an email</string>
+		<translation>&lt;strong&gt;Testa konfiguration&lt;/strong&gt;: Testa din aktuella e-postsystem konfiguration genom att skicka ett e-brev.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Mail Queue&lt;/strong&gt;: This option is only available when you have the
+Scheduler module installed</string>
+		<translation>&lt;strong&gt;Visa e-postkö&lt;/stronG&gt;: Det här alternativet är endast tillgängligt när du har Schemaläggar-modulen installerad</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Notification Template&lt;/strong&gt;: Allows you to customize the notification
+templates that are available.</string>
+		<translation>&lt;strong&gt;Meddelandeall&lt;/strong&gt; Tillåter dig att anpassa de tillgängliga meddelandemallarna.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: From this menu option, you can update the
+necessary configuration options</string>
+		<translation>&lt;strong&gt;Ändra konfiguration&lt;/strong&gt;: Från det här alternativet kan dy uppdatera nödvändiga konfigurations alternativ</translation>
 		<references>
 			<reference file="modules/mail/xartemplates/admin-main.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
-		<string>Test Configuration: From this menu option you can test your mail system configuration.</string>
-		<translation>Testa konfiguration: Från det här menyalternativet kan du testa ditt e-postsystems konfiguration.</translation>
+		<string>View Mail Queue - Scheduling mail</string>
+		<translation>Visa e-postkö - Scemalägga e-post</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="50" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
-		<string>Notification Template: From this menu option you can edit the templates of mail messages sent for notifications.</string>
-		<translation>Meddelandemall: Från det här menyalternativet kan du redigera mallarna för e-postmeddelanden som skickas som meddelanden.</translation>
+		<string>This option allows you to view mail scheduled for sending. Other modules can request
+that a certain mail be sent no earlier than a specific time. In order to support that, you must
+install Scheduler. You then need to configure the Mail module to use the 'scheduler' and check
+if any mails need to be sent e.g. every x hours. Otherwise, those mails will be sent immediately.
+Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails
+will not be sent.</string>
+		<translation>Det här alternativet tillåter dig att se schemlagd e-post för senare sändning. Vissa moduler kan begära att ett visst e-brev inte ska skicka förrän en given tidpunkt. För att stödja detta måste du installera Schemaläggaren. Du behöver sen konfigurera E-postmodulen för att använda schemaläggaren och kontrollera om några e-brev behöver skickas t.ex var x:e timme. Annars kommer dessa e-brev att skickas omedelbart. Vänligen notera att om du stoppar schemaläggaren eller om den inte utlöses, kommer tidigare schemalagd e-post inte att skickas.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Configuration: From this menu option, you can update the necessary configuration options, such as the email address that you want to send from, reply to address, type of mail system to use, etc.</string>
-		<translation>Ändra konfiguration: Från det här menyalternativet kan du uppdatera nödvändiga konfigurationsalternativ, som t.ex. e-postadresser som du vill skicka från, svars-adress, vilken typ av e-postsystem att använda osv.</translation>
+		<string>The Mail module can be hooked to other modules (See Included Hooks) to provide notification
+of changes, updates or deletion of content on your site. The Notification Template provides you with the
+means to change those templates to suit. There is a separate template for the 'changehook', 'createhook'
+and 'deletehook' notification.</string>
+		<translation>E-postmodulen kan kopplas till andra moduler (se medföljande kopplingar) för att ge ändringsmeddelanden, uppdateringar eller borttagning av innehåll på din webbplats. Meddelandemallen tillhandahåller ett sätt att ändra dessa mallar. Det finns en särskild mall för 'changehook', 'createhook' och 'deletehook' meddelanden.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="60" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="62" />
 		</references>
 	</entry>
 	<entry>
-		<string>Scheduling Mail</string>
-		<translation>Schemlägga e-post</translation>
+		<string>There is also a list of variables provided that you can easily add to your templates for
+further customization.</string>
+		<translation>Det finns även en lista över tillgängliga variabler som du enkelt kan lägga till till dina mallar för ytterligare anpassning.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="66" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="67" />
 		</references>
 	</entry>
 	<entry>
-		<string>Other modules can request that a certain mail be sent no earlier than a specific time.</string>
-		<translation>Andra moduler kan begära att ett visst e-brev inte skickas tidigare än en given tidpunkt.</translation>
+		<string>There are four sections in the Modify Configuration option.</string>
+		<translation>Det finns fyra sektioner i Ändra konfigurations alternativet</translation>
 		<references>
 			<reference file="modules/mail/xartemplates/admin-main.xd" line="71" />
 		</references>
 	</entry>
 	<entry>
-		<string>This will have no effect unless you install the 'scheduler' module first.</string>
-		<translation>Detta kommer inte ha någon effekt om du inte installerar 'schemaläggare' modulen först.</translation>
+		<string>&lt;strong&gt;Mail Configuration&lt;/strong&gt; : default options for email address, email format,
+reply to and template debug option</string>
+		<translation>&lt;strong&gt;E-postkonfiguration&lt;/strong&gt;: standard alternativ för e-postadresser, e-postformat, svara-till adress och mall-felsökningsalternativ</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="77" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
-		<string>In order to support that, you can configure the mail module to use the 'scheduler' and check if any mails need to be sent e.g. every x hours. Otherwise, those mails will be sent immediately.</string>
-		<translation>För att stödja detta, kan du ställa in e-postmodulen att använda schemläggaren och kontrollera om några e-brev behöver skickas t.ex. varje X timme. Annars kommer dessa e-brev att skickas omedelbart.</translation>
+		<string>&lt;strong&gt;HTML Options&lt;/strong&gt; : option to use and set html headers and footers for your
+emails</string>
+		<translation>&lt;strong&gt;HTML-alternativ&lt;/strong&gt;: alternativ för att använda och ställa in html sidhuvuden och sidfötter i dina e-brev</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="83" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Text Options&lt;/strong&gt; : various options to specify encoding and mail sending method.
+Depending on your choice of SMTP, Sendmail, Mail or QMail you may get further options to specify.
+You must ensure your SMTP or Sendmail is configured for use if you choose these options SMTP also
+has an option for scheduled email.</string>
+		<translation>&lt;strong&gt;Testa alaternativ&lt;/strong: diverse alternativ för att ange kodning och metod att skicka e-post. Beroende på ditt val av SMTP, Sendmailm Mail eller QMail kan du få fler alternativ att ange. Du måste säkerställa att din SMTP eller Sendmail är konfigurerat för användning om du väljer dessa alternativ. SMTP har även ett alternativ för schemalagd e-post.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Filtering&lt;/strong&gt; : allows you to specify strings for search and replacement</string>
+		<translation>&lt;strong&gt;Filtrering&lt;/strong&gt; tillåter dig att ange strängar för sökning och ersättning</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="92" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="94" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Mail Module has no blocks included at this time.</string>
-		<translation>E-postmodulen har inga medföljande block för tillfället.</translation>
+		<translation>E-postmodulen har för tillfället inga medföljande block.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="99" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="103" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="104" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="108" />
 		</references>
 	</entry>
 	<entry>
-		<string>The mail hook allows you to send an email to the site admin when something (content, users, etc) is created or deleted. This can be configured in the modules module.</string>
-		<translation>E-postkopplingen tillåter dig att skicka e-post till webbplatsadministratören när något (innehåll, användare, osv) skapas ell tas bort. Detta kan konfigureras i modul-modulen.</translation>
+		<string>The mail hook allows you to send an email to the site admin when something (content, users, etc)
+is created, changed or deleted. This can be configured by going to &lt;code&gt;Modules -&gt; Configure Hooks&lt;/code&gt; and
+clicking on Mail module. Check the modules where you want the hook activated for mail notification.</string>
+		<translation>E-postkopplingen tillåter dig att skicka e-post till webbplatsadministratören när något (innehåll, användare osv) skapas, ändras eller tas bort. Detta kan konfigureras genom att gå till &lt;code&gt; Moduler -&gt; Konfigurera kopplingar&lt;/code&gt; och klicka på E-postmodulen. Kryssa för de moduler som du önskar aktivera kopplingen för e-postmeddelanden.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="109" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="115" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Ytterligare information</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Mail module can be found at</string>
+		<translation>Ytterligare information om E-postmodulen finns på</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Module Extension page at</string>
+		<translation>E-postmodul tilläggssida på</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Module - Xaraya Extension 771</string>
+		<translation>E-postmodul - Xaraya tillägg 771</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version History'-flicken längst ner för att få senaste utgåvoinformationen.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Mail module found at</string>
+		<translation>Relaterade guider och dokumenation om e-postmodulen finns på</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Mail</string>
+		<translation>Relaterad dokumenation om E-post</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumenatation,</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Module - Overview</string>
+		<translation>E-postmodul - Översikt</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="130" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="130" />
 		</references>
 	</entry>
 </translations>

@@ -25,119 +25,294 @@
 		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
 		<translation>Xarayas behörigheter är extremt flexibla. Du kan definiera behörigheter för sajten, moduler, komponentklasser inom moduler eller enstaka instanser av dessa klasser.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="26" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
 		<string>You can use privileges as building blocks. Assemble them into compound privileges tailored to any specific role on the site.</string>
 		<translation>Du kan använda behörigheter som byggblock. Lägg ihop dem till sammansatta behörigheter skräddarsydda till en viss roll på sajten.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="29" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>You can assign privileges to roles which then pass them on to their children in the roles hierarchy through inheritance.</string>
 		<translation>Du kan tilldela behörighet till roller som du sedan genom arv kan skicka vidare till deras barn i roll-hierarkin.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites sharing the same resources.</string>
 		<translation>Genom att använda domän-funktionaliteten kan du indela en sajt i flera &quot;virtuella&quot; webbplatser som delar samma resurser.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="35" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hur används den?</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
 		<translation>Klickar du på länken Visa Behörigheter får du en översikt över alla behörigheter i ditt system. Sammansatta behörigheter är minimerade men du kan klicka på dem för att öppna upp dem och se deras komponenter.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="44" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges.</string>
 		<translation>När du lägger till eller ändrar en behörighet, kan du definiera den att ha egna åtkomsträttigheter eller helt enkelt vara en behållare för andra behörigheter.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="48" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are:</string>
 		<translation>Xaraya kommer fördefinierat med en minimal uppsättning behörigheter som laddas när du kör installationsprogrammet. Dessa varierar beroende på vilken konfiguration du valde. Exempel är:</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="52" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Administration: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
 		<translation>Administration: en behörighet som ger en roll total tillgång till samtliga resurser på webbplatsen. Vid installation tilldelas den här behörigheten till rollen Administrators och ärvs av användaren Admin.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="57" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="56" />
 		</references>
 	</entry>
 	<entry>
 		<string>CasualAccess: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
 		<translation>CasualAccess: den här behörigheten tilldelas oregistrerade användare på webbplatsen. Den är initialt definierad för att tillåta visning av framsida och tillgång till inloggningsblocket.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="60" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>GeneralLock: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
 		<translation>GeneralLock: en behörighet som begränsar tillgång till vissa grundläggande roller och behörigheter som systemet kräver, t.ex standard admin. Detta för att undvika oavsiktlig borttagning.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="63" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="62" />
 		</references>
 	</entry>
 	<entry>
-		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock above this takes a bit more doing.) You can also combine privileges by using them as elements to create compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges you can create or their levels of nesting.</string>
-		<translation>Alla behörigheter i systemet kan ändras eller tas bort. (För dem som är skyddade med GeneralLock ovan krävs det lite mer.) Du kan även kombinera behörigheter genom att använda dem som element för att att skapa sammansatta behörigheter, eller göra nya behörigheter efter ditt eget val. Det finns ingen begränsning av antalet behörigheter du kan skapa eller hur djupt du kan nästla dem.</translation>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock
+above this takes a bit more doing.) You can also combine privileges by using them as elements to create
+compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges
+you can create or their levels of nesting.</string>
+		<translation>Samtliga behörigheter i system kan ändras eller tas bort. (För de som skyddas av GeneralLock krävs det lite mer insats.) Du kan även kombinera behörigheter genom att använda dem som element för att skapa sammansatta behörigheter, eller skapa nya behörigheter efter ditt tycke. Det finns ingen begränsning i antal behörigheter dom dukanskapa eller deras nivåer av blandning</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="68" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Level of Access</string>
+		<translation>Behörighetsnivå</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>When you create a privilege you can assign one of a number of predefined levels of
+access for that privilege to a module, a component of that module, or an instance (eg an itemtype).
+A module author will determine how those levels are applied in their module. Generally they are:</string>
+		<translation>När du skapa ett behörighet kan du tilldela en av ett felrtal fördefinierade behörighetsnivåer för den behörigheten till en modul, kompnent för den modulen eller en instans (ex. en posttyp). En moduleförfattare avgör hur dessa nivåer används i sin modul. Generellt är de:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;None&lt;/em&gt; : no access</string>
+		<translation>&lt;em&gt;Ingen&lt;/em&gt;: ingen åtkomst</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Overview&lt;/em&gt; : access to some part of the content, but not full content. For example, in Articles module the overview access will allow viewing of article summaries but not full article display.</string>
+		<translation>&lt;em&gt;Översikt&lt;/em&gt;: tillgång till vissa delar av innehållet, men inte hela innehållet. T.ex i artikelmodulen, tillåter översiktstillång visning av artikelsammanfattningar men inte hela artikeln.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Read&lt;/em&gt; : full read access</string>
+		<translation>&lt;em&gt;Läs&lt;/em&gt;: full läsbehörighet</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Comment&lt;/em&gt; : allows a user to submit content eg Submit a document, submit a comment</string>
+		<translation>&lt;em&gt;Kommentera&lt;/em&gt;: tillåter en användare att skicka in innehåll t.ex. skicka in ett dokument, skicka in en kommentar</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Moderate&lt;/em&gt; : may vary from module to module but usually allows editing of other users' content</string>
+		<translation>&lt;em&gt;Moderera&lt;/em&gt;: varierar mellan modul till modul men vanligtvis tillåter redigering av annan användares innehåll</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Edit&lt;/em&gt; : can edit content but not add or delete</string>
+		<translation>&lt;em&gt;Redigera&lt;/em&gt;: kan redigera innehåll men inte lägga till eller ta bort</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Add&lt;/em&gt; : can add and edit but not delete</string>
+		<translation>&lt;em&gt;Lägga till&lt;/em&gt;: kan lägga till och redigera men inte ta bort</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Delete&lt;/em&gt; : can delete content as well as add and edit</string>
+		<translation>&lt;em&gt;Ta bort&lt;/em&gt;: kan ta bort likväl som lägga till och redigera</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;Admin&lt;/em&gt; : full administration access</string>
+		<translation>&lt;em&gt;Administratör&lt;/em&gt;: full administrationbehörighet</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Remember that you can assign privileges to the Myself role, and those privileges will
+only apply to a specific user and the content owned or authored by that specific eg they could edit
+their own articles, or comments but not articles or comments created by others.</string>
+		<translation>Kom ihåg att du kan tilldela behörigheter till Myself-rollen och dessa behörigheter kommer bara gälla för en specifik användare och innehållet som ägs eller författats av personen. T.ex kan de redigera eller kommentera sina egna artiklar men inte artiklar skapade av andra.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="95" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="72" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included blocks.</string>
 		<translation>Det finns inga medföljande block.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="76" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="102" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="80" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="106" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included hooks.</string>
 		<translation>Det finns inga medföljande kopplingar.</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="84" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="110" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found in</string>
-		<translation>Ytterligare information om den här modulen finner du i</translation>
+		<string>Further Information</string>
+		<translation>Ytterligare information</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="90" />
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Privileges module can be found at:</string>
+		<translation>Ytterligare information om Behörighetsmodulen finns på:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="114" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Module Extension page at</string>
+		<translation>Behörighetsmodultilläggssidan på</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Module - Xaraya Extension 1098</string>
+		<translation>Behörighetsmodulen - Xaraya tillägg 1098</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="117" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version History'-fliken längt ner för att få senaste utgåvo information.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Privileges module at</string>
+		<translation>Relaterade guider och dokumentation om Behörighetsmodulen på</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Privileges</string>
+		<translation>Relaterad dokumentation om Behörigheter</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumentation</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information for Developers at</string>
+		<translation>Utökad information för utvecklar på</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="122" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC 30</string>
+		<translation>RFC 30</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="122" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya RFC-30</string>
+		<translation>Xaraya RFC-30</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="122" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Module - Overview</string>
+		<translation>Behörighetsmodulen - Översikt</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="127" />
 		</references>
 	</entry>
 </translations>

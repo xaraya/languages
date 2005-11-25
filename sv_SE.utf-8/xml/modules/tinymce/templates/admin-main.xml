@@ -106,14 +106,14 @@ Module Configuration area &lt;strong&gt;or&lt;/strong&gt;:</string>
 	</entry>
 	<entry>
 		<string>Once installed and set as the default editor, XarTinyMCE module is automatically enabled for WYSIWYG. However, you have two basic ways (with variations on these) to customize which templates are used for WYSIWYG areas:</string>
-		<translation></translation>
+		<translation>Väl installerad och inställd som standard editor, aktiveras XarTinyMCE automatiskt  för WYSIWYG. Det finns dock två sätt (med variationer av dessa) att anpassa vilka mallar som ska användas med WYSIWYG:</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose the &lt;strong&gt;All Text Areas Mode&lt;/strong&gt; and every textarea will be WYSIWYG enabled. Best used with a Prompt for WYSIWYG usage. Alternatively turn off WYSIWYG in a specific textarea by adding the special reserved class &lt;strong&gt;&lt;code&gt;class=&quot;mceNoEditor&quot;&lt;/code&gt;&lt;/strong&gt; to the textarea. This acts as a marker that tells xartinymce NOT to activate WYSIWYG for this textarea.</string>
-		<translation></translation>
+		<translation>Välj &lt;strong&gt;Samtliga textrutor läge&lt;/strong&gt; och varje textruta kommer bli WYSIWYG aktiverad. Används bäst med en fråga om WYSIWYG användning. Alternativt stänga av WYSIWYG i en specifik textruta genom att lägga till den speciella reseverade klassen &lt;strong&gt;&lt;code&gt;class=&quot;mceNoEditor&quot;&lt;/code&gt;&lt;/strong&gt; till dessa textrutor. Detta agerar som en markör som instruerar xarTinyMCE att INTE aktivera WYSIWYG för denna textruta.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="46" />
 		</references>
@@ -125,21 +125,21 @@ This DD Property automatically marks the div or textarea of the field with a spe
 You can also do this manually by adding the class as &lt;strong&gt;&lt;code&gt;class=&quot;mceEditor&quot;&lt;/code&gt;&lt;/strong&gt; to any textarea or div such as the textareas in xarbb templates.
 You can set row height and column width in the DD validation field. eg 20:80 for 20 rows high, 80 columns wide.
 If you can't see the xarTinyMCE GUI DD property in your DD list then</string>
-		<translation></translation>
+		<translation>Välj läget &lt;strong&gt;Endast speciellt märkta&lt;/strong&gt; i konfigurationsalternativen. Lägg därefter till ett &lt;strong&gt;xarTinyMCE GUI dynamiskt dataegenskapsfält&lt;/strong&gt; till dina artikel publikationstyper eller xarPages sidtyp, eller någon annanstans där du behöver ett WYSIWYG-indatafält. Denna DD-egenskap märker automatiskt upp div- eller textområdet i fältet med attributet &lt;strong&gt;&lt;code&gt;class=&quot;mceEditor&quot;&lt;/code&gt;&lt;/strong&gt; och detta fungerar som en markör för WYSIWYG-konverteringen. Du kan också göra detta manuellt genom att lägga till &lt;strong&gt;&lt;code&gt;class=&quot;mceEditor&quot;&lt;/code&gt;&lt;/strong&gt; till valfritt textområde eller div så som textområden i xarbb-mallar. Du kan ställa in radhöjd och kolumnbredd i DD-valideringsfältet, ex 20:80 för 20 rader högt och 80 kolumner brett. Om du inte kan se DD-egenskapen för xarTinyMCE GUI i din DD-lista</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
 		<string>You also have two basic ways to activate xartinymce - automatically or by using manual configuration in the templates.</string>
-		<translation></translation>
+		<translation>Du har även två grundläggande sätt att aktivera xarTinyMCE - automatiskt eller genom att använda manuell konfiguration i mallarna.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose &lt;strong&gt;Automatic&lt;/strong&gt; to have xarTinyMce automatically activated. This is required when mode is set to &quot;All Textareas&quot; or you are using multiple custom configurations. You &lt;strong&gt;do not&lt;/strong&gt; have to add any template snippets to your Xaraya templates as the WYSIWYG areas are automatically activated with this setting.</string>
-		<translation></translation>
+		<translation>Välj &lt;strong&gt;Automatisk&lt;/strong&gt; för att automatiskt aktivera xarTinyMCE. Detta är nödvändigt när läget är instäält på&quot;Samtliga textrutor&quot; eller du använder flera anpassade konfigurationer. Du &lt;strong&gt;behöver inte&lt;/strong&gt; lägga till nmågra mallurklipp till dina Xaraya mallar i och med att WYSIWYG-rutor automatiskt aktiveras med den här inställningen</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="62" />
 		</references>
@@ -149,7 +149,7 @@ If you can't see the xarTinyMCE GUI DD property in your DD list then</string>
 In this instance either use a tinymce Dynamic Data Property to replace your textareas, or add the following specific template snippet code to your page or other specific templates.
 When you add the template snippet, all textareas contained or included in the template where you have the XarTinymce tags are converted to WYSIWYG according to the &quot;All Text Area&quot; or &quot;Special Labelled Only&quot; setting above.
 Alternatively, replace the variable &quot;jstring&quot; in an override template for the &lt;code&gt;tinymce_insert.xd&lt;/code&gt; template with your own tinymce variables.</string>
-		<translation></translation>
+		<translation>Välj &lt;strong&gt;Manuell åsidosättning&lt;/strong&gt; om du ösnkar stänga av automatisk aktivering ELLER du använder en xarTinyMCE DD-egenskap som fortfarande aktiveras automatiskt. I detta fall använd antingen en tinymce dynamisk data egenskap till att ersätta dina textrutor eller lägg till följande specifika mallurklippkod till din sida ller andra specifika mallar. När du lägger till mallurklippet, samtliga textrutor som innefattas eller medföljer mallen där du har xarTinyMCE-taggarnakonverteras till WYSIWYG enligt &quot;Samtliga textrutor&quot; eller &quot;Endast special märkta&quot; inställningarna ovan. Alternativt ersätt variabeln &quot;jstring&quot; i en åsidosättande mall för koden &lt;code&gt;tinymce_insert.xd&lt;/code&gt;-mall med dina egna tinyMCE-variabler.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="68" />
 		</references>
@@ -164,7 +164,7 @@ Alternatively, replace the variable &quot;jstring&quot; in an override template 
 	<entry>
 		<string>The xarTinyMCE Dynamic Data WYSIWYG textarea is available and works automatically with mode set to All Textareas or
 Special Labelled Textareas. If you are only using the TinyMCE wysiwyg properties then set your mode to Special Labelled to ensure the javascript only loads when it is needed.</string>
-		<translation></translation>
+		<translation>xarTinyMCE dynamisk data WYSIWYG testruta är tillgänglig och fungerar automatiskt när läget är inställd på 'Samtliga textrutor' eller 'Endast speciellt märkta' textrutor. Om du endast använder TinyMCE WYSIWYG egenskaper ställ då in ditt läge till 'Endast speciellt märkta' för att se till att javaskript bbara laddas när det behövs.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="88" />
 		</references>
@@ -172,14 +172,14 @@ Special Labelled Textareas. If you are only using the TinyMCE wysiwyg properties
 	<entry>
 		<string>Add a XarTinyMCE GUI Dynamic Data field to your publication type (or other module) in the usual way. For example, choose the TinyMCE property to replace your Textarea properties in your Article Publication types or xarPages page types. You &lt;em&gt;&lt;strong&gt;do not add &lt;/strong&gt;&lt;/em&gt;a template snippet
 to your template to activate it. If you can't see the xarTinyMCE GUI DD property in your DD list then</string>
-		<translation></translation>
+		<translation>Lägg till ett xarTinyMCE GUI dynamiskt datafält till din publikationstyp (eller annan modul) på vanligt sätt. Till exempel, välj TinyMCE-egenskapsen för att ersätta dina textrute-egenskaper i din artikel publikationstyp eller xarSidor-typer. DU &lt;em&gt;&lt;strong&gt;behöver inte lägga till&lt;/strong&gt;&lt;/em&gt; en mallurklipp till din mall för att aktivera den. Om du då inte kan se xarTinyMCE GUI DD-egenskapen i din DD lista</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="93" />
 		</references>
 	</entry>
 	<entry>
 		<string>The prompt for the Wysiwyg editor is a popup dialog box, by default. From the configuration area you can set this to an On/Off button to activate the wysiwyg area.</string>
-		<translation></translation>
+		<translation>Frågan om WYSIWYG-editoren är som standard ett poppupp dialogruta. Från konfigurations delen kan du ställa in detta till en Av/På knapp för att aktivera WYSIWYG-rutan.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="97" />
 		</references>
@@ -187,7 +187,7 @@ to your template to activate it. If you can't see the xarTinyMCE GUI DD property
 	<entry>
 		<string>The size of the xarTinyMCE wysiwyg field automatically takes on the size of the existing textarea. However you can adjust this in a number of ways. You can set row height and column width in the validation field. eg 20:80 for 20 rows high, 80 columns wide.
 You can also allow resizing of the tinyMCE wysiwyg from the config settings of the TinyMCE module, or add the &lt;strong&gt;FullScreen&lt;/strong&gt; toggle plugin to your tinymce plugin and button layout.</string>
-		<translation></translation>
+		<translation>Storleken på xarTinyMCE WYSIWYG-fältet tar automatiskt samma storlek som den befintliga textrutan. Du kan dock justera detta på ett flertal sätt. Du kan ställa in radhöjd och kolumnbredd i valideringsfältet. T.ex 20:80 för 20rader hög och 80 kolmner bred. Du kan även tillåta ändring av storlek av TinyMCE WYSIWYG från konfigurationsinställningarna av TinyMCE-modulen, eller lägga till &lt;strong&gt;Helskärm&lt;/strong&gt; växlings insticksmodulen till din TinyMCE insticks och knapp formgivning.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="102" />
 		</references>
@@ -283,7 +283,7 @@ to the Additional Tags configuration</string>
 	</entry>
 	<entry>
 		<string>Print - displays a Print function button. Add &lt;strong&gt;print&lt;/strong&gt; to Plugins, and &lt;strong&gt;print&lt;/strong&gt; to Additional Tags configuration.</string>
-		<translation>Skriv ut - visar en skriv ut funktionsknapp. Lägg till &lt;strong&gt;print&lt;/strong&gt; &lt;strong&gt;print&lt;/strong&gt; till ytterliggare tagg-konfiguration.</translation>
+		<translation>Skriv ut - visar en skriv ut funktionsknapp. Lägg till &lt;strong&gt;print&lt;/strong&gt; &lt;strong&gt;print&lt;/strong&gt; till ytterliggare taggar-konfiguration.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="125" />
 		</references>
@@ -304,42 +304,42 @@ to the Additional Tags configuration</string>
 	</entry>
 	<entry>
 		<string>Contextmenu - plug in to add context menu for tables, images and flash.</string>
-		<translation></translation>
+		<translation>Sammanhangmeny . insticksmodul för att lägga till sammanhangmeny för tabeller, bilder och flash.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="128" />
 		</references>
 	</entry>
 	<entry>
 		<string>Lorem - adds text for fill in documents.</string>
-		<translation></translation>
+		<translation>Lorem - lägger till text som fyllnad i dokument.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="129" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dictionary - lookup word in Merriam-Webster Online dictionary.</string>
-		<translation></translation>
+		<translation>Ordbok - slå upp ord i Meraiam-Webster Online Dictionary.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="130" />
 		</references>
 	</entry>
 	<entry>
 		<string>Fullscreen - toggle to edit in full screen.</string>
-		<translation></translation>
+		<translation>Helskärm - växla till helskärmsredigering.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="131" />
 		</references>
 	</entry>
 	<entry>
 		<string>Paste - text and MS Word paste plugin.</string>
-		<translation></translation>
+		<translation>Klistra - text och MS Word klistra tillägg.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="132" />
 		</references>
 	</entry>
 	<entry>
 		<string>Directionality - plug in for better support of right to left languages.</string>
-		<translation></translation>
+		<translation>Skrivriktning - insticksmodul för bättre stöd för höger till vänster språk.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="133" />
 		</references>
@@ -353,14 +353,14 @@ to the Additional Tags configuration</string>
 	</entry>
 	<entry>
 		<string>Custom and Multiple Configurations</string>
-		<translation></translation>
+		<translation>Egen och Multipla konfigurationer</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="138" />
 		</references>
 	</entry>
 	<entry>
 		<string>Starting with Version 5.0 there is an additional Advanced Options tab in the configuration screen. This screen allows you to adjust two features:</string>
-		<translation></translation>
+		<translation>Med börjani version 5.0 finns det en ytterligare avancerat alternativ-flik på konfigurationsvyn. Den här vyn låter dig ställa in två funktioner:</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="140" />
 		</references>
@@ -368,28 +368,28 @@ to the Additional Tags configuration</string>
 	<entry>
 		<string>&lt;strong&gt;Multiple Configurations&lt;/strong&gt; can now be setup allowing you to use more than one configuration on a a page.
 Please make sure you add each new configuration with a &lt;strong&gt;unique&lt;/strong&gt; text area trigger name, and specify the mode. Each configuration should be in the form:</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Multipel konfiguration&lt;/strong&gt; kan nu ställas in att tillåta dig använda mer än en konfiguration på en sida. Vänligen se till att du lägger till varje ny konfiguration med ett &lt;strong&gt;unikt&lt;/strong&gt; textruteutlösarnamn, och ange läget. Varje konfiguration ska vara i formen:</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="143" />
 		</references>
 	</entry>
 	<entry>
 		<string>To activate your custom configuration, add the textarea trigger class to a textarea eg</string>
-		<translation></translation>
+		<translation>Att aktivera din anpassade konfiguration, lägg till textruteutlösareklassen till en textruta t.ex.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="151" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;DO NOT&lt;/strong&gt; use &lt;strong&gt;mceEditor&lt;/strong&gt; as the class attribute trigger as it is reserved.</string>
-		<translation></translation>
+		<translation>&lt;strong ANVÄND INTE&lt;/strong&gt; &lt;strong&gt;mceEditor&lt;/strong som klassattribut-utlösare då den är reserverad.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Custom Configuration&lt;/strong&gt; now allows you to add your own custom configuration values to the &lt;strong&gt;existing&lt;/strong&gt; default tinymce configuration. Make sure you check your resulting tinymce code in the displayed final configuration code on this page before using.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Anpassad konfiguration&lt;/strong&gt; tillåter dig nu att lägga till dina egna anpassade konfigurationsvärden till &lt;strong&gt;befinliga&lt;/strong&gt; standard tinymce konfigurationen. Se till att du kontrollerar din resulterande tinymce-kod i den visade avslutande konfigurationskoden på den här sidan innan användning.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="154" />
 		</references>
@@ -424,14 +424,14 @@ Please make sure you add each new configuration with a &lt;strong&gt;unique&lt;/
 	</entry>
 	<entry>
 		<string>Special Notes</string>
-		<translation></translation>
+		<translation>Speciella noteringar</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="166" />
 		</references>
 	</entry>
 	<entry>
 		<string>The text_area trigger &lt;strong&gt;mce_editable=[true|false]&lt;/strong&gt; is deprecated from Version 0.9.0. Please use the trigger classes to activate or deactivate wysiwyg textareas. eg class=&quot;mceEditor&quot; to activate a textarea, or class=&quot;mceNoEditor&quot; to deactivate a textarea.</string>
-		<translation></translation>
+		<translation>Textruto utlösaren &lt;strong&gt;mce_editable=[true|false]&lt;/strong&gt; är borttaget från version 0.9.0. Vänligen använd utlösarklasser för att aktivera eller inaktivera WYSIWYG-textrutor. T.ex class=&quot;mceEditor&quot; för att aktivera en textruta eller class=&quot;mceNoEditor&quot; för att inaktivera en textruta.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="168" />
 		</references>
@@ -459,7 +459,7 @@ Please make sure you add each new configuration with a &lt;strong&gt;unique&lt;/
 	</entry>
 	<entry>
 		<string>xarTinyMCE Xaraya Extension 63</string>
-		<translation></translation>
+		<translation>xarTinyMCE Xaraya tillägg 63</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="174" />
 		</references>
@@ -473,28 +473,28 @@ Please make sure you add each new configuration with a &lt;strong&gt;unique&lt;/
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on xarTinyMCE found at</string>
-		<translation></translation>
+		<translation>Relaterade guider och dokumentatin om xarTinyMCE finns på</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related documentation on XarTinyMCE</string>
-		<translation></translation>
+		<translation>Relaterad dokumentation om xarTinyMCE</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Documentation</string>
-		<translation></translation>
+		<translation>Xaraya dokumentation</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>xarTinyMCE WYSIWYG Editor - Overview</string>
-		<translation>xarTinyMCE WYSIWYG redigerare- Översikt</translation>
+		<translation>xarTinyMCE WYSIWYG redigerare - Översikt</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="180" />
 		</references>
@@ -515,7 +515,7 @@ Please make sure you add each new configuration with a &lt;strong&gt;unique&lt;/
 	</entry>
 	<entry>
 		<string>This is a work in progress. Any bugs reports and feature requests are most appreciated.</string>
-		<translation></translation>
+		<translation>Detta är ett projekt under utveckling. Programfelsrapporter och funktionsönskningar uppskattas.</translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="186" />
 		</references>
