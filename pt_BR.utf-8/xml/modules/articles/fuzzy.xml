@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="pt_BR.utf-8">
+	<entry>
+		<string>Name &lt;e-mail&gt;</string>
+		<translation>Nome &lt;email&gt;</translation>
+		<references>
+			<reference file="modules/articles/xarsetup.php" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allowed HTML tags</string>
+		<translation>Comandos HTML permitidos</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-modify.xd" line="92" />
+			<reference file="modules/articles/xartemplates/admin-new.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>If this is your first visit to this part of your Xaraya site,
+please take a minute to read through the following introduction,
+in order to explore the different possibilities offered by the
+articles module.</string>
+		<translation>Se esta é sua primeira visita a esta parte do Xaraya, por favor, leia as instruções a seguir para explorar as diferentes possibilidades do módulo Artigos.</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>The articles module can manage 'articles' of different types at
+the same time, for instance news articles, longer documents in
+different sections, frequently asked questions, and so on.</string>
+		<translation>O módulo Artigos por gerenciar &quot;artigos&quot; de diferentes tipos ao mesmo tempo, por exemplo: notícias, documentos longos em diferentes seções, dúvidas freqüentes e assim por diante.</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>These types are called 'publication types', and each type of article
+can make use of a different set of data fields, with a different
+meaning for each data field. For example, the 'summary' field
+could be used for an Introduction in news articles, for providing
+some details about a question in FAQs, or not be used at all for
+section documents.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is a specific menu where you can manage those &lt;strong&gt;publication types&lt;/strong&gt;,
+change the description that will appear in navigation menus, enable and
+disable data fields or change their meaning for a particular type, or
+even create or delete publication types according to your needs.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each publication type also has its own templates, so that you can
+customize the look &amp;amp; feel of how each article will appear to your
+visitors.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>A default set of publication types and templates (corresponding
+to the old News, Sections and FAQs modules, if you're familiar with
+earlier versions of PostNuke or PHP-Nuke) is included as part of the
+installation.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Articles (of any type) can be organised into categories. You could use
+one or more common categories across different publication types, or
+use specific categories for each type of article, or any combination
+that you might prefer for your site.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Before you start specifying which article types will be using what categories,
+you should create the categorization you want via the
+&lt;a href=&quot;index.php?module=categories&amp;amp;type=admin&quot;&gt;Categories&lt;/a&gt;
+administration menu. A default set of categories has been defined for
+articles when you installed this module, as an example to get you started.
+(You can adapt the categories later on, of course.)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Once you have a set of categories you would like to use for your articles,
+you can go to &lt;strong&gt;Articles Configuration&lt;/strong&gt;, and specify the number
+of categories that can be used for each publication type, and the 'base
+categories' to be used.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>A 'base category' is any starting point somewhere in your tree of categories,
+below which you will have the actual list (or subtree) of categories people
+can choose from when they submit or view articles. For example, you could have
+a 'base category' called Topics, with a list of different topics relevant to
+your site below it, and another 'base category' called Cities, with a
+list of cities or places that you would provide regional news for.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>One topic might be 'Good Restaurants', and one city might 'Brussels', so people
+would be able to browse through any articles about good restaurants in Brussels,
+for instance.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>status = submitted, rejected, approved or on frontpage
+(for those pubtypes that use it !)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>In &lt;strong&gt;Articles Configuration&lt;/strong&gt;, set start view (list/browse), # of
+columns and items, show category links + # of comments (+ performance impact)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>overall enable/disable in 'base' admin + specific enable/disable in 'articles'
+admin + use of module aliases</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module aliases seem to be disabled at the moment - uncomment the line in
+includes/xarServer.php if you want to try it out</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-main.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Publication Type for the Articles &quot;Front Page&quot;</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-modifyconfig.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Some examples : (assuming your users have read access by default)&lt;br /&gt;&lt;br /&gt;
+- In order to allow 'Friends' to submit News Articles (and only that), define a privilege 'SubmitNews'
+(or whatever name you prefer), and choose the publication type &quot;News Articles&quot; (instance 1:All:All:All) and
+access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
+&lt;br /&gt;&lt;br /&gt;
+- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type
+&quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.
+&lt;br /&gt;&lt;br /&gt;
+- ...
+&lt;br /&gt;&lt;br /&gt;</string>
+		<translation>Alguns exemplos (assumindo que seus usuários tenham acesso a leitura por padrão) &lt;br /&gt; - Para permitir que &quot;Amigos&quot; enviem Notícias (e apenas isso), defina um privilégio 'EnviarNotícia' (use o nome que preferir), e escolha a publicação &quot;Notícias&quot; (ocorência 1:Todos:Todos:Todos) e nível de acesso &quot;Enviar / Comentar&quot; acima. Pressione &quot;Concluir e Aplicar ao Privilégio&quot;, e então designe esse privilégio para o papel &quot;Amigos&quot;. &lt;br /&gt;&lt;br /&gt; - Para impedir que &quot;Estranhos&quot; vejam Documentos, defina um privilério 'SemDocumentos' para a publicação &quot;Documentos&quot; (ocorrência 2:Todos:Todos:Todos) e nível de acesso &quot;Sem Acesso&quot;. Então designe esse privilégio ao papel &quot;Estranhos&quot;.&lt;br /&gt;&lt;br /&gt; - ...&lt;br /&gt;&lt;br /&gt;</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: if you want to deny access to all articles in a particular category with ID 123, you can also define a privilege
+for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category
+from the articles map and categories navigation as well.</string>
+		<translation>Atenção: se quiser negar acesso a todos os artigos em uma categoria específica com ID 123, você pode definir um privilégio para o módulo 'categorias', componente 'Categoria', nome da categoria 'Todos' e ID da categoria '123'. Isso também vai remover a categoria do mapa do site e da navegação por categorias.</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt; articles of this publication type will use the templates &lt;i&gt;user-display-[publicationtype].xd&lt;/i&gt; and &lt;i&gt;user-summary-[publicationtype].xd&lt;/i&gt; by default.&lt;br /&gt;Don't forget to provide those templates before trying to add new articles...</string>
+		<translation>&lt;strong&gt;Atenção:&lt;/strong&gt; artigos desta publicação usam os modelos &lt;em&gt;user-display-[tipodepublicacao].xd&lt;/em&gt; e &lt;em&gt;user-summary-[tipodepublicacao].xd&lt;/em&gt; por padrão. &lt;br /&gt;Não se esqueça de fornecer esses modelos antes de tentar adicionar novos artigos.</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-pubtypes.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Alternate Title:</string>
+		<translation>Título Alternativo</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Alternate Summary:</string>
+		<translation>Resumo Alternativo:</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="100" />
+		</references>
+	</entry>
+</translations>
