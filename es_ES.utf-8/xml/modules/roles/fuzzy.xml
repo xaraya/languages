@@ -163,4 +163,244 @@
 			<reference file="modules/roles/xartemplates/user-terms.xd" line="55" />
 		</references>
 	</entry>
+	<entry>
+		<string>Update Roles Configuration</string>
+		<translation>Actualizar la configuración</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifyconfig.php" line="98" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="254" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="423" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="490" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="519" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="548" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="593" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Notification Configuration</string>
+		<translation>Actualizar la configuración de notificaciones</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifynotice.php" line="26" />
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong arguments to roles_adminapi_create.</string>
+		<translation>Argumentos no válidos para roles_adminapi_create</translation>
+		<references>
+			<reference file="modules/roles/xaradminapi/create.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>$password</string>
+		<translation>$password</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="78" />
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>$validationlink</string>
+		<translation>$validationlink</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>$valcode</string>
+		<translation>$valcode</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>$ipaddress</string>
+		<translation>$ipaddress</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>$sitename</string>
+		<translation>$sitename</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>$siteadmin</string>
+		<translation>$siteadmin</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>$adminmail</string>
+		<translation>$adminmail</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="145" />
+		</references>
+	</entry>
+	<entry>
+		<string>$siteurl</string>
+		<translation>$siteurl</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>$myname</string>
+		<translation>$myname</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="163" />
+		</references>
+	</entry>
+	<entry>
+		<string>$username</string>
+		<translation>$username</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="172" />
+		</references>
+	</entry>
+	<entry>
+		<string>$useremail</string>
+		<translation>$useremail</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="181" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or the set of classes at a university. A role can be a member of as many other roles as you like (as long as the parents are groups).</string>
+		<translation>Los roles pueden ser miembros de otros roles, hasta cualquier profundidad. Puede, por ejemplo, usarlo para representar la organización de su compañía, o las clases de una universidad. Un rol puede ser miembro de tantos roles como desee (siempre que los roles padre sean grupos).</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be assigned privileges. By doing so, you define what a given role may or may not do on the site. You can use the test functionality of the Roles module to see what parts of the site a role with a given set of privileges has access to.</string>
+		<translation>Pueden tener privilegios asignados. Al hacer esto, define lo que un rol puede hacer o no en su sitio. Puede usar la función de prueba del módulo para ver qué partes del sitio tiene acceso con los permisos suministrados.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles have inheritance. A role inherits all the privileges of all of its parents, but can override them. If you give a group editing privileges, for instance, any other role that is a member of that group inherits the editing privileges. If you want to restrict the privileges of some of the members, simply assign them a different set of privileges (say reading), and the privileges of the parent will be overridden.</string>
+		<translation>Los roles tienen herencia. Un rol hereda todos los privilegios de sus padres, pero puede ignorarlo. Si da privilegios de edición a un grupo, por ejemplo, cualquier otro rol que sea miembro del mismo hereda este privilegio. Si desea restringirlos para algún miembro en concreto, simplemente asígnele un conjunto diferente de privilegios (por ejemplo, lectura), y los del padre serán ignorados.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module allows the use of the User Menu hook which will allow users to set values to further enhance their visit.</string>
+		<translation>El módulo Roles permite el uso del enganche &quot;Menu de usuario&quot; que permite al usuario mejorar su visita.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>Puede encontrar más información sobre este módulo en</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC-30</string>
+		<translation>RFC-30</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$password##</string>
+		<translation>##$password##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="132" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="169" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$validationlink##</string>
+		<translation>##$validationlink##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="141" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$valcode##</string>
+		<translation>##$valcode##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$ipaddress##</string>
+		<translation>##$ipaddress##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$sitename##</string>
+		<translation>##$sitename##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="179" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$siteadmin##</string>
+		<translation>##$siteadmin##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="188" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$adminmail##</string>
+		<translation>##$adminmail##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="197" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$siteurl##</string>
+		<translation>##$siteurl##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="206" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$myname##</string>
+		<translation>##$myname##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="215" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$username##</string>
+		<translation>##$username##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="224" />
+		</references>
+	</entry>
+	<entry>
+		<string>##$useremail##</string>
+		<translation>##$useremail##</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="233" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign recelled users to this status</string>
+		<translation>Asigna los usuarios recuperados con este estado</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>for more information.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="87" />
+		</references>
+	</entry>
 </translations>
