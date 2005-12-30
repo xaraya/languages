@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Welcome to the administration part of this TinyMCE module...</string>
+		<translation>TinyMCE adminisztrálása</translation>
+		<references>
+			<reference file="modules/tinymce/xaradmin/main.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose the &lt;strong&gt;All Text Areas Mode&lt;/strong&gt; and every textarea will be WYSIWYG enabled. Best used with a Prompt for WYSIWYG usage.</string>
+		<translation>Választhatjuk a &lt;strong&gt;Minden szövegmező&lt;/strong&gt; módot, ekkor minden „textarea” mezőn megjelenik a szövegszerkesztő. Célszerű ilyenkor az aktiválást kérdéssel megerősíttetni, amely szintén egy beállítás.</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose the Mode of &lt;strong&gt;Special Labelled Only&lt;/strong&gt; in the configuration options.
+Then add a &lt;strong&gt;xarTinyMCE GUI Dynamic Data Property field&lt;/strong&gt; to your Article pubtypes or xarPages Page Type, or anywhere else you need a WYSIWYG input area.
+This DD Property automatically marks the div or textarea of the field with the attribute &lt;code&gt;mce_editable=&quot;true&quot;&lt;/code&gt; and this acts as a marker for the WYSIWYG conversion.
+You can also do this manually by adding the &lt;code&gt;mce_editable=&quot;true&quot;&lt;/code&gt; attribute to any textarea or div such as the textareas in xarbb templates.
+You can set row height and column width in the DD validation field. eg 20:80 for 20 rows high, 80 columns wide.
+If you can't see the xarTinyMCE GUI DD property in your DD list</string>
+		<translation>Választhatjuk a &lt;strong&gt;Speciálisan megjelölt szövegmezők&lt;/strong&gt; módot, majd adjunk a modulok beviteli mezőihez &lt;strong&gt;xarTinyMCE GUI Dinamikus adatmezőket&lt;/strong&gt;, például a Cikkek modulban a cikktípusokhoz vagy a xarPages modulban oldaltípushoz. Ez a DA mező automatikusan megjelöli a bekerülő „div” vagy „textarea” mezőt a &lt;code&gt;mce_editable=&quot;true&quot;&lt;/code&gt; attribútummal, amely aktiválja a szövegszerkesztőt. Ezt az attribútumot manuálisan is hozzárakhatjuk tetszőleges „div” vagy „textarea” mezőkhöz, mint például a Fórumm sablonjához. A szerkesztő szélességét és magasságát a Dinamikus Adat „Ellenőrzés” mezőjében adhatjuk meg „20:80” formátumban, amely 20 sor magasságot és 80 oszlop szélességet jelent. Amennyiben a xarTinyMCE GUI adatmező nem látható a Dinamikus Adattípusok között:</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose &lt;strong&gt;Automatic&lt;/strong&gt; to have xarTinyMce automatically activated when mode is set to &quot;All Textareas&quot;. You do not have to add any template snippets. This is also true when you use the TinyMCE DD property instead of a textarea. It is automatically activated. You do not need extra snippets in your templates.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose &lt;strong&gt;Manual Override&lt;/strong&gt; if you wish to turn off automatic activation (xarTinyMCE DD properties are still auto activated).
+You can then manually override the loading of the WYSIWYG by adding your specific template snippet code below to your page or other specific templates.
+All textareas contained or included in the template where you have the XarTinymce tags are converted to WYSIWYG according to the &quot;All Text Area&quot; or &quot;Special Labelled Only&quot; setting above.
+Alternatively, replace the variable &quot;jstring&quot; in an override template for the &lt;code&gt;tinymce_insert.xd&lt;/code&gt; template with your own tinymce variables.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Paste - test only paste plugin.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>To activate your custom configuration, add the textarea trigger attribute and value to a textarea eg</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="168" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;DO NOT&lt;/strong&gt; use &lt;strong&gt;mce_editable&lt;/strong&gt; as a trigger as it is reserved.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="169" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on xarTinyMCE found</string>
+		<translation>A XarTinyMCE szerkesztőhöz</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>HERE</string>
+		<translation>oktatóanyagok és dokumentáció.</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>And more.. [for module developers]</string>
+		<translation>További információk... [modul fejlesztőknek]</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="215" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here.</string>
+		<translation>További információk a modulról elérhetőek itt.</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-main.xd" line="221" />
+		</references>
+	</entry>
+	<entry>
+		<string>2. Set default editor</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="101" />
+		</references>
+	</entry>
+	<entry>
+		<string>(You can also set installed editors in &lt;a href=&quot;index.php?module=base&amp;amp;type=admin&amp;amp;func=modifyconfig&amp;amp;tab=other&quot; rel=&quot;ext&quot;&gt;Base Module - Modify Config - Other Tab&lt;/a&gt;)</string>
+		<translation>(A telepített szerkesztők közül az &lt;a href=&quot;index.php?module=base&amp;amp;type=admin&amp;amp;func=modifyconfig&amp;amp;tab=other&quot;&gt;Alaprendszer&lt;/a&gt; modulban is választhatunk, a „Beállítások” oldal „Egyéb” fülén.</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;All Text Areas Mode&lt;/strong&gt;: every textarea will be WYSIWYG enabled. Best used with a Prompt for WYSIWYG usage, or turn off WYSIWYG in a specific textarea by adding the attribute &lt;code&gt;mce_editable=&quot;false&quot;&lt;/code&gt; to the textarea. This acts as a marker that tells xartinymce NOT to activate WYSIWYG for this textarea.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Special Labelled Only&lt;/strong&gt;: Only textareas that are specially labelled with the &lt;code&gt;mce_editable=&quot;true&quot;&lt;/code&gt; are activated. You can do this manually by adding the attribute to any textarea in your templates, or add a &lt;strong&gt;xarTinyMCE GUI Dynamic Data Property field&lt;/strong&gt; to your Article pubtypes or xarPages Page Type, or anywhere else you need a WYSIWYG input area.
+This DD Property automatically marks the div or textarea of the field with the attribute &lt;code&gt;mce_editable=&quot;true&quot;&lt;/code&gt; and acts as the marker for the WYSIWYG conversion.
+You can set row height and column width in the DD validation field. eg 20:80 for 20 rows high, 80 columns wide.
+If you can't see the xarTinyMCE GUI DD property in your DD list</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="155" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Automatic&lt;/strong&gt;: xarTinyMce is automatically activated when mode is set to All TextAreas without the need to add any template snippets.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="182" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Manual Override&lt;/strong&gt;: turns off automatic activation (xarTinyMCE DD properties are still active). You can then manually override the loading of the WYSIWYG by adding your specific template snippet code, as below, to your page or other specific templates.
+All textareas contained or included in the template where you have the XarTinymce tags are converted to WYSIWYG according to the &quot;All Text Area&quot; or &quot;Special Labelled Only&quot; setting above.
+Alternatively, replace the variable &quot;jstring&quot; in an override template for the &lt;code&gt;tinymce_insert.xd&lt;/code&gt; template with your own tinymce variables.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="186" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select which browsers to use WYSIWYG - msie,gecko,safari</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="214" />
+		</references>
+	</entry>
+	<entry>
+		<string>Make sure you have 'style' and 'class' as allowed attributes in img or a tags if you need them.
+*[*] allows all tags and attributes. Use with disallowed tags below. Your HTML module settings will
+finally filter all tags (but not attributes).</string>
+		<translation>A „style” és a „class” legyen engedélyezve az „img” vagy más kulcsszavakon amennyiben szükséges. „*[*]” minden kulcsszót engedélyez, a nem engedélyezett kulcsszavak megadásával együtt célszerű használni. A HTML modul a megjelenítéskor tovább szűrheti a kulcsszavakat (de attribútumokat nem).</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="464" />
+		</references>
+	</entry>
+	<entry>
+		<string>Names of plugins to load:</string>
+		<translation>Betöltendő bővítmények:</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="504" />
+		</references>
+	</entry>
+	<entry>
+		<string>Automatically add the image browser to use with xarTinyMCE</string>
+		<translation>A képböngésző automatikus telepítése a szövegszerkesztővel való használathoz.</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="544" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto add Image Browser?</string>
+		<translation>Képböngésző telepítése?</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="545" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manual set</string>
+		<translation>Kézi beállítás</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="550" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="554" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="558" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto add</string>
+		<translation>Automatikus beállítás</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="551" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="555" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="559" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto remove</string>
+		<translation>Automatikus eltávolítás</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="552" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="556" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="560" />
+		</references>
+	</entry>
+	<entry>
+		<string>Adds the plugin, changes theme to Advanced, adds the Ibrowser button, and removes
+the Image button.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="566" />
+		</references>
+	</entry>
+	<entry>
+		<string>for the IBrowser Plugin - then chmod 444
+for added security.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="577" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can define your own Custom Editor Layout from here using existing buttons.</string>
+		<translation>A meglévő gombokból teljesen egyedi elrendezést is létrehozhatunk.</translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="750" />
+		</references>
+	</entry>
+	<entry>
+		<string>The text_area trigger can be any name but &lt;strong&gt;do not&lt;/strong&gt; use the default &lt;strong&gt;mce_editable&lt;/strong&gt;. You can set multiple instances, but code will only take effect when the checkbox above is checked. To use a specific configuration add the trigger attribute name and value to your textarea eg</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="811" />
+		</references>
+	</entry>
+</translations>
