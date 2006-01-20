@@ -7,8 +7,8 @@
 			<reference file="modules/categories/xarversion.php" line="17" />
 			<reference file="modules/categories/xaradmin/modifyhook.php" line="141" />
 			<reference file="modules/categories/xaradmin/newhook.php" line="124" />
-			<reference file="modules/categories/xartemplates/admin-newhook.xd" line="3" />
 			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="6" />
+			<reference file="modules/categories/xartemplates/admin-newhook.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
@@ -30,11 +30,40 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Add</string>
+		<translation>Toevoegen</translation>
+		<references>
+			<reference file="modules/categories/xaradmin/modifycat.php" line="30" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="73" />
+			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify</string>
+		<translation>Wijzigen</translation>
+		<references>
+			<reference file="modules/categories/xaradmin/modifycat.php" line="31" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="103" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="23" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="41" />
+			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="22" />
+			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>Reassign</string>
+		<translation>Bijwerken</translation>
+		<references>
+			<reference file="modules/categories/xaradmin/modifycat.php" line="32" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
 		<string>Submit</string>
 		<translation>Versturen</translation>
 		<references>
-			<reference file="modules/categories/xaradmin/modifyconfig.php" line="39" />
-			<reference file="modules/categories/xartemplates/admin-config.xd" line="105" />
+			<reference file="modules/categories/xaradmin/modifyconfig.php" line="37" />
+			<reference file="modules/categories/xartemplates/admin-config.xd" line="107" />
 			<reference file="modules/categories/xartemplates/admin-delete.xd" line="40" />
 			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="65" />
 		</references>
@@ -66,37 +95,8 @@
 		<references>
 			<reference file="modules/categories/xaradmin/modifyhook.php" line="143" />
 			<reference file="modules/categories/xaradmin/newhook.php" line="126" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="44" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="21" />
 			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add</string>
-		<translation>Toevoegen</translation>
-		<references>
-			<reference file="modules/categories/xaradmin/modifycat.php" line="30" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="111" />
-			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify</string>
-		<translation>Wijzigen</translation>
-		<references>
-			<reference file="modules/categories/xaradmin/modifycat.php" line="31" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="23" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="41" />
-			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="22" />
-			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="44" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="103" />
-		</references>
-	</entry>
-	<entry>
-		<string>Reassign</string>
-		<translation>Bijwerken</translation>
-		<references>
-			<reference file="modules/categories/xaradmin/modifycat.php" line="32" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="136" />
 		</references>
 	</entry>
 	<entry>
@@ -126,8 +126,8 @@
 		<translation>Categorie toevoegen</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/getmenulinks.php" line="21" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="4" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="4" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
@@ -135,10 +135,10 @@
 		<translation>Toon categorieën</translation>
 		<references>
 			<reference file="modules/categories/xaradminapi/getmenulinks.php" line="31" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="2" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-nocats.xd" line="2" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="2" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="2" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
@@ -216,75 +216,21 @@
 		<string>Categories Administration</string>
 		<translation>Categorieën beheer</translation>
 		<references>
+			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-config.xd" line="16" />
 			<reference file="modules/categories/xartemplates/admin-delete.xd" line="7" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="7" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="4" />
 			<reference file="modules/categories/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="3" />
-			<reference file="modules/categories/xartemplates/admin-checklinks.xd" line="1" />
-			<reference file="modules/categories/xartemplates/admin-unlink.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-stats.xd" line="1" />
+			<reference file="modules/categories/xartemplates/admin-unlink.xd" line="1" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="1" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-nocats.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="1" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="1" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="1" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="1" />
 			<reference file="modules/categories/xartemplates/includes/admin-menu.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Hooks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-config.xd" line="94" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="95" />
-		</references>
-	</entry>
-	<entry>
-		<string>Reset</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-config.xd" line="106" />
-			<reference file="modules/categories/xartemplates/admin-delete.xd" line="41" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="114" />
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="137" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name</string>
-		<translation>Naam</translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="54" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="7" />
-			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="6" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Description</string>
-		<translation>Omschrijving</translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="64" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="8" />
-			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Overzicht</translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-main.xd" line="8" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="82" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="84" />
-		</references>
-	</entry>
-	<entry>
-		<string>Base category</string>
-		<translation>Basiscategorie</translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="27" />
-			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="31" />
 		</references>
 	</entry>
 	<entry>
@@ -372,11 +318,55 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Hooks</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-config.xd" line="95" />
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name</string>
+		<translation>Naam</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="26" />
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="46" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="7" />
+			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="6" />
+		</references>
+	</entry>
+	<entry>
+		<string>Description</string>
+		<translation>Omschrijving</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-editcat.xd" line="32" />
+			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="8" />
+			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Overzicht</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="82" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base category</string>
+		<translation>Basiscategorie</translation>
+		<references>
+			<reference file="modules/categories/xartemplates/admin-modifycatbase.xd" line="27" />
+			<reference file="modules/categories/xartemplates/admin-modifyconfighook.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
 		<string>Select the categories for this item.</string>
 		<translation>Selecteer de categorieën voor dit item</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-modifyhook.xd" line="3" />
-			<reference file="modules/categories/xartemplates/admin-newhook.xd" line="3" />
+			<reference file="modules/categories/xartemplates/admin-modifyhook.xd" line="2" />
+			<reference file="modules/categories/xartemplates/admin-newhook.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
@@ -400,38 +390,38 @@
 		<string>Options</string>
 		<translation>Opties</translation>
 		<references>
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="54" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="10" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="9" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete</string>
 		<translation>Verwijderen</translation>
 		<references>
+			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="107" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="27" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="45" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="26" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="48" />
-			<reference file="modules/categories/xartemplates/admin-viewcatbases.xd" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>Categories per page:</string>
 		<translation>Aantal categorieën per pagina</translation>
 		<references>
+			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="47" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="91" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="94" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>Categories Total:</string>
 		<translation>Totaal aantal categorieën</translation>
 		<references>
+			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="52" />
 			<reference file="modules/categories/xartemplates/admin-viewcats-render.xd" line="96" />
 			<reference file="modules/categories/xartemplates/admin-viewcats.xd" line="99" />
-			<reference file="modules/categories/xartemplates/admin-viewcats-jscript.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
@@ -458,7 +448,7 @@
 		<string>Position</string>
 		<translation>Positie</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/includes/localization.xd" line="48" />
+			<reference file="modules/categories/xartemplates/includes/localization.xd" line="38" />
 			<reference file="modules/categories/xartemplates/includes/localization_old.xd" line="46" />
 		</references>
 	</entry>
