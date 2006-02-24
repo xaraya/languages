@@ -1,3 +1,381 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>How To Use It?</string>
+		<translation>Hur använder man den?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="31" />
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a subscription.</string>
+		<translation>Du håller på att ta bort en prenumeration.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletealtsubscription.xd" line="14" />
+			<reference file="modules/newsletter/xartemplates/admin-deletesubscription.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>(overrides publication default)</string>
+		<translation>(åtsidosätter standardvärdet för publicering)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifystory.xd" line="184" />
+			<reference file="modules/newsletter/xartemplates/admin-newstory.xd" line="205" />
+		</references>
+	</entry>
+	<entry>
+		<string>master category</string>
+		<translation>huvudkategori</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>- General information about the publications that a user can subscribe to. This information is created in the Newsletter user modify configuration screen in the text fields &quot;Publisher or Company Name&quot; and &quot;Information about Newsletter&quot;</string>
+		<translation>- Allmän informatation om publikationer som en användare kan prenumerera på. Den här informationen skapas på nyhetsbrevanvändare ändra konfiguration sidan i textfältet &quot;Utgivare eller företagsnamn&quot; och &quot;Information om nyhetsbrevet&quot;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="157" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows non-registered users to view past issues.</string>
+		<translation>- Låter ickeregistrerade användare se gamla utgåvor.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows logged in users to modify their subscription(s) to the publications.</string>
+		<translation>- Låter inloggade användare ändra sin(a) prenumeration(er) till publikationen.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a disclaimer.</string>
+		<translation>Du är på väg att ta bort en friskrivning.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletedisclaimer.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete an issue.</string>
+		<translation>Du är på väg att ta bort ett nummer.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deleteissue.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete an Newsletter user.</string>
+		<translation>Du är på väg att ta bort en nyhetsbrevanvändare.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deleteowner.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm removal of Newsletter user:</string>
+		<translation>Bekräfta borttagning av nyhetsbreanvändare:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deleteowner.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a publication.</string>
+		<translation>Du är på väg att at bort en publikation.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletepublication.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a story.</string>
+		<translation>Du är på väg att ta bort en artikel.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletestory.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Newsletter module allows an individual or organization to compile and distribute news and research updates to interested parties via email. This module gives writers, editors and publishers a comprehensive process to easily assemble the stories for an newsletter and subsequently publish the information to a subscription base.</string>
+		<translation>Nyhetsbrevsmodulen låter individer eller en organisation sammanställa och distribuera nyheter och forskningsuppdateringar till intresserade via e-post. Denna modul ger författare, redaktörer och utgivare en omfattande verktyg att enkelt sammanställa artiklar för ett nyhetsbrev och sedan ge ut informationen till prenumeranter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;&amp;nbsp;If you have not yet configured the module, please do so.</string>
+		<translation>&lt;b&gt;Notera:&lt;/b&gt;&amp;nbsp;&amp;nbsp;Om du inte redan har konfigurerat modulen, vänligen gör detta.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Default Groups&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Standardgrupper&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>As a user of the Newsletter module, you will be added to either the publisher, editor or writer group. Once the module administrator has added you to one of these groups, you will be able to create content for a publication.</string>
+		<translation>En användare av nyhetsmodulen kommer antingen att läggas till utgivar-, redaktör eller författargruppen¨. Så fort moduladministratören har lagt till dig i en av dessa grupper, kommer du kunna skapa innehåll för en publikation.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Publication Items&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Publikationsposter&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>A publication is the top-level wrapper for each issue and sets default information for each issue and story within the issue.</string>
+		<translation>En publikation är högsta höljet runt varje nummer och bestämmer grundinformationen för varje nummer och artikel inom numret.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each publication should have a disclaimer or confidentiality clause. Once a disclaimer is created, it can be used by multiple publications.</string>
+		<translation>Varje publikation bör ha en klausul om konfidentialitet eller avsägande av ansvar. När en klausul väl har skapats kan den användas av flera publikationer.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>An issue contains the news and research updates that have been compiled as stories. Once the issue is ready to be published, the issue will be sent to the subscription base. After an issue has been published, it can be view by non-registered users from the Newsletter information block.</string>
+		<translation>En utgåva innehåller nyheter och forskningsuppdateringar som har kompilerats till artiklar. När en utgåva väl är klar att publiceras kommer den att sändas till prenumerationsbasen. Efter publicering kan den ses av ickeregistrerade användare via nyhetsbrevets informationsblock.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each issue will have multiple stories relating to the news and research updates that will be presented to the subscription base.</string>
+		<translation>Varje utgåva kommer att ha flera artiklar som relaterar till nyhets- och forskningsuppdateringar vilka kommer att presenteras till prenumerationsbasen.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>publication</string>
+		<translation>publikation</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>The admin or publisher should first update the module's configuration within the Newsletter &lt;i&gt;modify configuration&lt;/i&gt; before publishing an issue. If the Newsletter information block has been added, then the &lt;i&gt;Publisher or Company Name&lt;/i&gt; and &lt;i&gt;Information&lt;/i&gt; fields will be displayed within the information block. &lt;i&gt;Information&lt;/i&gt; should contain a general description about the publications that are available to the subscription base.</string>
+		<translation>Administratören eller publicisten bör först uppdatera modulens inställningar inom nyhetsbrevets &lt;i&gt;modifiera inställningar&lt;/i&gt; innan publicering av en utgåva. Om nyhetsbrevets informationsblock har lagts till ska &lt;i&gt;Utgivare eller företagsnamn&lt;/i&gt; och &lt;i&gt;informations&lt;/i&gt; fälten visas inom informationsblocket. &lt;i&gt;Information&lt;/i&gt; bör innehålla en allmän beskrivning om de publikationer som finns tillgängliga i prenumerationsbasen.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add a signature block if you wish to include a signature in each issue. Do not include a user name in your signature block as this will be automatically included in the template. By default, the signature block will be displayed after your user name.</string>
+		<translation>Lägg till ett signaturblock om du vill inkludera en signatur i varje utgåva. Inkludera INTE ett användarnamn i ditt signaturblock eftersom detta automatiskt kommer att ingå i mallen. Förinställt är att signaturblocket visas efter ditt användarnamn.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each publication can have it's own HTML and text email template. To create a new template, you will need to copy one of the existing templates and modify the template for the desired appearance. A README file is included in the templates directory with the necessary information on creating a new template.</string>
+		<translation>Varje publikation kan ha sin egna HTML- och textbrevsmall. För att skapa en ny mall behöver du kopiera en av de existerande mallarna och därefter modifiera mallen till önskat utseende. En LÄS MIG-fil finns inkluderad i mallkatalogen med den information du behöver för att skapa en ny mall.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>The default templates are located the directory &lt;i&gt;&quot;modules/newsletter/templates&quot;&lt;/i&gt;</string>
+		<translation>De nödvändiga mallarna hittar du i katalogen &lt;i&gt;&quot;modules/newsletter/templates&quot;&lt;/i&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Either create a new publication or choose a publication that already exists. (publisher)</string>
+		<translation>Antingen skapa en ny publikation eller välj en redan existerande. (utgivare)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="145" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can continue adding stories to the issue until you have finished and are ready to publish the issue.</string>
+		<translation>Du kan fortsätta lägga till artiklar i utgåvan tills du är klar och redo att publicera den.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select an issue to preview. The publication's HTML template will be used to display the issue.</string>
+		<translation>Välj en utgåva att förhandsgranska. Publikationens HTML-mall kommer att användas för att visa utgåvan.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="156" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Subscriptions&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Prenumerationer&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="165" />
+		</references>
+	</entry>
+	<entry>
+		<string>Normally, a user cannot subscribe to a publication unless they are a registered user on your site. If the Newsletter information block has been added, then a registered user will be able to subscribe to a publication and modify their subscriptions.</string>
+		<translation>I normala fall kan en användare inte prenumerera på en publikation om han/hon inte är en registrerad användare på din webbplats. Om nyhetsbrevets informationsblock har lagts till kan en registrerad användare prenumerera på en publikation och ändra sin prenumeration.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="167" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you wish to add a subscription that is not a registered user, then you can add a subscription from the &lt;i&gt;add subscription&lt;/i&gt; menu. You will need to provide a user name and email address. This provides an alternative way of adding subscriptions to a publication for users that are not registered.</string>
+		<translation>Om du vill lägga till en prenumerant som inte är en registrerad användare kan du göra det från menyn &lt;i&gt;Lägg till prenumeration&lt;/i&gt;. Du behöver förse systemet med ett användarnamn och en e-postadress. Detta skapar ett alternativt sätt att lägga till prenumerationer på en publikation för användare som inte är registrerade.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="169" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the main menu, you have the following choices based on your privileges:</string>
+		<translation>Från huvudmenyn kan du välja att göra följande baserat på dina rättigheter:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="176" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Publication&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Publikation&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="190" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Field&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Fält&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="195" />
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="336" />
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="413" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Beskrivning&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="198" />
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="339" />
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="416" />
+		</references>
+	</entry>
+	<entry>
+		<string>Active Users</string>
+		<translation>Aktiva användare</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send newsletter only to active users. This does not include alternative subscriptions.</string>
+		<translation>SKicka endast nyhetsbrevet till aktiva användare. Detta inkluderar inte alternativa prenumerationer.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send to active users:</string>
+		<translation>Skicka till aktiva användare:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Short URL Support</string>
+		<translation>Stöd för korta webbadresser</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify the following for display in the information block.</string>
+		<translation>Ändra följande för visning i informationsblocket.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>(turn off to display by order of category id)</string>
+		<translation>(stäng av för att visa efter kategori-id)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to use the default groups and privileges for Newsletter, set the groups accordingly.</string>
+		<translation>Om du vill använda standardgrupper och behörigheter för nyhetsbrev, ställ in grupperna enligt detta.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyprivileges.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>&amp;nbsp;&amp;nbsp;firstname,lastname,email</string>
+		<translation>&amp;nbsp;&amp;nbsp;förnamn,efternamn,e-post</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-newimportaltsubscription.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to publish an issue.</string>
+		<translation>Du är på väg att publicera ett nummer.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-publishissue.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm publication of issue:</string>
+		<translation>Bekräfta publicering av nummer:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-publishissue.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show all subscriptions for a publication:</string>
+		<translation>Visa samtliga prenumerationer för en publikation:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-searchsubscription.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search by name:</string>
+		<translation>Sök genom namn:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-searchsubscription.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search by email address:</string>
+		<translation>Sök genom e-postadress:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-searchsubscription.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose Publication:</string>
+		<translation>Välj publikation:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-selectpublication.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select if you would like a publication received in HTML format.</string>
+		<translation>Välj om du vill mottaga en publikation i HTML-format.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/user-modifysubscription.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select if you would like the Newsletter received in HTML format.</string>
+		<translation>Välj om du vill mottaga nyhetsbrevet i HTML-format.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/user-newsubscription.xd" line="61" />
+		</references>
+	</entry>
 </translations>

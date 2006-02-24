@@ -15,8 +15,8 @@
 		</references>
 	</entry>
 	<entry>
-		<string>SiteTools is a utility module that provides a number of related site 'housekeeping' utilities</string>
-		<translation>Sitetools är en verktygsmodul som ger ett antal 'hushållsskötsel' relaterade verktyg för din webbplats.</translation>
+		<string>SiteTools is a utility module that provides a number of related database and site 'housekeeping' utilities</string>
+		<translation>Webbplatsverktyg är en verktygsmodul som tillhandahåller ett antal databas och webbplats relaterade underhållsverktyg</translation>
 		<references>
 			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="14" />
 		</references>
@@ -36,36 +36,29 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Delete Template, RSS or ADOdb cache files</string>
-		<translation>Ta bort mall-, RSS eller ADOdb-cachefiler</translation>
+		<string>Backup your MySQL database tables (MySQL 3.22 or higher required)</string>
+		<translation>Säkerhetskopioera dina MySQL databastabeller (kräver MySQL 3.22 eller senare)</translation>
 		<references>
 			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="19" />
 		</references>
 	</entry>
 	<entry>
-		<string>Browse template cache files</string>
-		<translation>Sök mall-cachefiler</translation>
+		<string>Simple SQL Terminal - to issue SQL commands</string>
+		<translation>Enkel SQL-terminal - för att utfärda SQL-kommandon</translation>
 		<references>
 			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>Backup your MySQL database tables (MySQL 3.22 or higher required) Testing feedback appreciated.</string>
-		<translation>Säkerhetskopiera din MySQL-databstabeller (krav MySQL 3.22 eller högre) Testrespons uppskattas.</translation>
-		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Web Link Checker - check web links, image links and so on.</string>
-		<translation>Webblänkkontroll - kontroller webblänkar, bildlänkar och så vidare.</translation>
+		<string>Delete Template, RSS or ADOdb cache files</string>
+		<translation>Ta bort mall-, RSS eller ADOdb-cachefiler</translation>
 		<references>
 			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
-		<string>Simple SQL Terminal - to issue SQL commands</string>
-		<translation>Enkel SQL-terminal - för att utfärda SQL-kommandon</translation>
+		<string>Web Link Checker - check web links, image links and so on.</string>
+		<translation>Webblänkkontroll - kontroller webblänkar, bildlänkar och så vidare.</translation>
 		<references>
 			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="23" />
 		</references>
@@ -74,134 +67,173 @@
 		<string>How to use it?</string>
 		<translation>Hur använder man den?</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="29" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
-		<string>SiteTools only provides Administration options requiring administration priviledges.</string>
-		<translation>Webbplatsverktyg ger endast administrationsalternativ för de som har administratörsbehörigheter.</translation>
+		<string>SiteTools optimize and backup functions currently only work with MySQL. Further classes are in the making for Postgres, and SQLite.</string>
+		<translation>Webbplatsverktyg optimerings- och säkerhetskopieringsfunktioner fungerar för tillfället endast med MySQL. Ytterligare klasser är under arbete för Postgres och SQLite.</translation>
 		<references>
 			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>SiteTools only provides Administration, options and thus requires administration priviledges.</string>
+		<translation>Webbplatsverktyg tillhandahåller endast administratörsalternativ och kräver derför administratörsrättigheter.</translation>
+		<references>
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Start by checking settings in the SiteTools configuration options.</string>
 		<translation>Börja med att kontrollera inställningarna i Sitetools konfigurationsalternativ.</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Warning: Default cache and backup directory paths should only be changed if alternative cache or backup paths have already been created
-and are writeable - chmod 777. At this time, backup paths are configurable, but cache paths are not configurable from within Xaraya administration.</string>
-		<translation>Varning: Standard sökvägen för cache och säkerhetskopior ska bara ändras om alternativa sökvägar för cache eller säkerkopior har skapats och är skrivbara - chmod 777. Vid denna tidpunkt, är sökvägar för säkerhetskopior konfigurerbara men sökvägar för cache är inte konfigurerbara innefrån Xaraya administrationen.</translation>
+and are writeable - chmod 777. At this time, backup paths are configurable, but cache paths are not
+configurable from within Xaraya administration.</string>
+		<translation>Varning: Standard cache och säkerhetskopie katalog sökvägar ska bara ändras om alternativa cache och säkerhetskopie sökvägar redan har skapats och är skrivbara - chmod777. För tillfället är säkerhetskopie sökvägar konfigurerbara, men cache sökvägar är inte konfigurerbara från Xaraya administrationen.</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using Scheduler with Sitetools</string>
+		<translation>Använda schemaläggaren med Webbplatsverktyg</translation>
+		<references>
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>A number of SiteTool functions also work in conjunction with the Scheduler module to schedule
+regular maintenance activies. At the present time the following functions are supported with Scheduler:</string>
+		<translation>Ett antal av Webbplatsverktyg funktionerna fungerar även med Schemaläggare-modulen till att schemalägga regelbundna underhållsaktiviteter. I skrivande stund är fungerar följande funktionertillsammans med Schemaläggaren:</translation>
+		<references>
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Backup Database</string>
+		<translation>Säkerhetskopiera databas</translation>
+		<references>
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Optimize Database</string>
+		<translation>Optimera databas</translation>
+		<references>
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must have the Scheduler module installed and active to see further scheduler options
+in your Sitetools Module. Once Scheduler is installed, you can choose to set the interval for these
+functions. See the Scheduler Module for more details.</string>
+		<translation>Du måste ha Schemaläggare-modulen installerad och aktiv för att se ytterligare schemaläggaralternativ i sin Webbplatsverktygs modul. När Schemaläggaren är installerad, kan du ställa in intervallen för dessa funktioner. Se Schemaläggaren för mer information.</translation>
+		<references>
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included blocks at this time.</string>
 		<translation>Det finns inga medföljande block</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="43" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included hooks at this time.</string>
 		<translation>Det finns inga medföljande kopplingar för tillfället.</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="46" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="64" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further Information</string>
 		<translation>Ytterligare information</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="49" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="67" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further information on the Sitetools module can be found at</string>
 		<translation>Ytterligare information om Webbplatsverktyg-modulen finns på</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="52" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="70" />
 		</references>
 	</entry>
 	<entry>
 		<string>Sitetools Extension page at</string>
 		<translation>Webbplatsverktyg-tilläggets sida på</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="73" />
 		</references>
 	</entry>
 	<entry>
 		<string>Sitetools Module - Xaraya Extension 887</string>
 		<translation>Webbplatsverktyg-modul - Xaraya tillägg 887</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="73" />
 		</references>
 	</entry>
 	<entry>
 		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>Klicka på *Version History'-fliken längst ner för att få senaste utgåvoinformation.</translation>
+		<translation>Klicka på 'Version History'-fliken längst ner för att få senaste utgåvoinformation.</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="56" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on the Sitetools found at</string>
 		<translation>Relaterade guider och dokumentation om Webbplatsverktyg finns på</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related documentation on Sitetools</string>
 		<translation>Relaterade dokumentation om Webbplatsverktyg</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Documentation.</string>
 		<translation>Xaraya dokumentation.</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
 		<string>Sitetools Module - Overview</string>
 		<translation>Webbplatsverktyg-modul - Översikt</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="62" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="80" />
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
 		<translation>Version</translation>
 		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="62" />
-		</references>
-	</entry>
-	<entry>
-		<string>Extended information about this module can be found at&amp;nbsp;</string>
-		<translation>Utökad information om den här modulen finns på&amp;nbsp;</translation>
-		<references>
-			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="67" />
+			<reference file="modules/sitetools/xartemplates/admin-main.xd" line="80" />
 		</references>
 	</entry>
 </translations>

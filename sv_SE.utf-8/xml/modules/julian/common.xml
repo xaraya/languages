@@ -1,58 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
-		<string>None</string>
-		<translation>Ingen</translation>
+		<string>Events</string>
+		<translation>Händelser</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="67" />
-			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="99" />
-			<reference file="modules/julian/xartemplates/blocks/calevent.xd" line="30" />
-			<reference file="modules/julian/xartemplates/blocks/calevent.xd" line="65" />
+			<reference file="modules/julian/xarblocks/calevent.php" line="119" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="49" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>Ogiltig #(1) för (2) funktion #(3)() i modul #(4)</translation>
+		<references>
+			<reference file="modules/julian/xaruserapi/createhook.php" line="28" />
+			<reference file="modules/julian/xaruserapi/createhook.php" line="43" />
+			<reference file="modules/julian/xaruserapi/deletehook.php" line="37" />
+			<reference file="modules/julian/xaruserapi/deletehook.php" line="52" />
+			<reference file="modules/julian/xaruserapi/get.php" line="35" />
+			<reference file="modules/julian/xaruserapi/geteventinfo.php" line="30" />
+			<reference file="modules/julian/xaruserapi/getevents.php" line="73" />
+			<reference file="modules/julian/xaruserapi/gethooked.php" line="38" />
+			<reference file="modules/julian/xaruserapi/gethooked.php" line="46" />
+			<reference file="modules/julian/xaruser/displayhook.php" line="38" />
+			<reference file="modules/julian/xaruser/displayhook.php" line="53" />
+			<reference file="modules/julian/xaruser/modifyhook.php" line="27" />
+			<reference file="modules/julian/xaruser/modifyhook.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Event Alert</string>
+		<translation>Händelselarm</translation>
+		<references>
+			<reference file="modules/julian/xaruserapi/email_alerts.php" line="96" />
+			<reference file="modules/julian/xarschedulerapi/email_alerts.php" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Day</string>
+		<translation>Dag</translation>
+		<references>
+			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="32" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="29" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="31" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>Week</string>
+		<translation>Vecka</translation>
+		<references>
+			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="39" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="34" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="36" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>Month</string>
+		<translation>Månad</translation>
+		<references>
+			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="46" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="39" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="41" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>Year</string>
+		<translation>År</translation>
+		<references>
+			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="53" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="44" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="46" />
+			<reference file="modules/julian/xartemplates/includes/header.xd" line="114" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify Categories</string>
 		<translation>Ändra kategorier</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/admin-modifycategories.xd" line="13" />
 			<reference file="modules/julian/xaradminapi/getmenulinks.php" line="48" />
 			<reference file="modules/julian/xaradminapi/getmenulinks.php" line="49" />
+			<reference file="modules/julian/xartemplates/admin-modifycategories.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
-		<string>Edit</string>
-		<translation>Redigera</translation>
+		<string>Day(s)</string>
+		<translation>Dag</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/admin-modifycategories.xd" line="30" />
-			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="12" />
+			<reference file="modules/julian/xaruser/viewevent.php" line="144" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="299" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="297" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="211" />
 		</references>
 	</entry>
 	<entry>
-		<string>Export Event</string>
-		<translation>Exportera händelse</translation>
+		<string>Week(s)</string>
+		<translation>Vecka</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="46" />
-			<reference file="modules/julian/xartemplates/user-day.xd" line="58" />
-			<reference file="modules/julian/xartemplates/user-month.xd" line="76" />
-			<reference file="modules/julian/xartemplates/user-week.xd" line="66" />
-			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="29" />
+			<reference file="modules/julian/xaruser/viewevent.php" line="144" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="300" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="298" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="212" />
 		</references>
 	</entry>
 	<entry>
-		<string>Export event to desktop calendar</string>
-		<translation>Exportera händelse till lokal dators kalender</translation>
+		<string>Month(s)</string>
+		<translation>Månad</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="46" />
-			<reference file="modules/julian/xartemplates/user-day.xd" line="58" />
-			<reference file="modules/julian/xartemplates/user-month.xd" line="76" />
-			<reference file="modules/julian/xartemplates/user-week.xd" line="66" />
-			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="29" />
+			<reference file="modules/julian/xaruser/viewevent.php" line="144" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="301" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="299" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="213" />
+		</references>
+	</entry>
+	<entry>
+		<string>Year(s)</string>
+		<translation>År</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="144" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="302" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="300" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="214" />
 		</references>
 	</entry>
 	<entry>
 		<string>Sunday</string>
 		<translation>Söndag</translation>
 		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
 			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="65" />
 			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="68" />
 			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="34" />
@@ -62,18 +139,176 @@
 		<string>Monday</string>
 		<translation>Måndag</translation>
 		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
 			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="66" />
 			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="69" />
 			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
+		<string>Tuesday</string>
+		<translation>Tisdag</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
+			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wednesday</string>
+		<translation>Onsdag</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
+			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Thursday</string>
+		<translation>Torsdag</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
+			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Friday</string>
+		<translation>Fredag</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
+			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Saturday</string>
+		<translation>Lördag</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="145" />
+			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>every</string>
+		<translation>varje</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="153" />
+			<reference file="modules/julian/xaruser/viewevent.php" line="158" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="330" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="327" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="238" />
+		</references>
+	</entry>
+	<entry>
+		<string>on</string>
+		<translation>den</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="153" />
+			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>First</string>
+		<translation>Första</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="156" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="312" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="309" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="222" />
+		</references>
+	</entry>
+	<entry>
+		<string>Second</string>
+		<translation>Andra</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="156" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="313" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="310" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="223" />
+		</references>
+	</entry>
+	<entry>
+		<string>Third</string>
+		<translation>Tredje</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="156" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="314" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="311" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="224" />
+		</references>
+	</entry>
+	<entry>
+		<string>Fourth</string>
+		<translation>Fjärde</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="156" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="315" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="312" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="225" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last</string>
+		<translation>Sista</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="156" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="316" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="313" />
+			<reference file="modules/julian/xartemplates/user-edithook.xd" line="226" />
+		</references>
+	</entry>
+	<entry>
+		<string>until</string>
+		<translation>till</translation>
+		<references>
+			<reference file="modules/julian/xaruser/viewevent.php" line="164" />
+			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>None</string>
+		<translation>Ingen</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-main.xd" line="67" />
+			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="97" />
+			<reference file="modules/julian/xartemplates/blocks/calevent.xd" line="30" />
+			<reference file="modules/julian/xartemplates/blocks/calevent.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Edit</string>
+		<translation>Redigera</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-modifycategories.xd" line="29" />
+			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Export Event</string>
+		<translation>Exportera händelse</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="46" />
+			<reference file="modules/julian/xartemplates/user-day.xd" line="59" />
+			<reference file="modules/julian/xartemplates/user-month.xd" line="77" />
+			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="27" />
+			<reference file="modules/julian/xartemplates/user-week.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>Export event to desktop calendar</string>
+		<translation>Exportera händelse till lokal dators kalender</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="46" />
+			<reference file="modules/julian/xartemplates/user-day.xd" line="59" />
+			<reference file="modules/julian/xartemplates/user-month.xd" line="77" />
+			<reference file="modules/julian/xartemplates/user-viewevent.xd" line="27" />
+			<reference file="modules/julian/xartemplates/user-week.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
 		<string>Update</string>
 		<translation>Uppdatera</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="221" />
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="519" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="554" />
+			<reference file="modules/julian/xartemplates/admin-modifyconfig.xd" line="308" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="514" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="528" />
 		</references>
 	</entry>
 	<entry>
@@ -81,9 +316,9 @@
 		<translation>Lägg till händelse</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="126" />
-			<reference file="modules/julian/xartemplates/user-day.xd" line="37" />
-			<reference file="modules/julian/xartemplates/user-month.xd" line="63" />
-			<reference file="modules/julian/xartemplates/user-week.xd" line="53" />
+			<reference file="modules/julian/xartemplates/user-day.xd" line="38" />
+			<reference file="modules/julian/xartemplates/user-month.xd" line="64" />
+			<reference file="modules/julian/xartemplates/user-week.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
@@ -91,7 +326,7 @@
 		<translation>Varje händelse måste ha en titel.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="130" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="162" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="161" />
 		</references>
 	</entry>
 	<entry>
@@ -99,7 +334,7 @@
 		<translation>Händelsetitel:</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="131" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="163" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="162" />
 		</references>
 	</entry>
 	<entry>
@@ -107,7 +342,7 @@
 		<translation>Händelsebeskrivning.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="138" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="170" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="169" />
 		</references>
 	</entry>
 	<entry>
@@ -115,7 +350,7 @@
 		<translation>Händelsebeskrivning:</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="139" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="171" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="170" />
 		</references>
 	</entry>
 	<entry>
@@ -123,7 +358,7 @@
 		<translation>Datum när händelsen börjar.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="149" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="181" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="180" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="60" />
 		</references>
 	</entry>
@@ -132,7 +367,7 @@
 		<translation>Startdatum:</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="150" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="182" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="181" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="61" />
 		</references>
 	</entry>
@@ -141,7 +376,7 @@
 		<translation>Händelse Datum:Månad</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="153" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="185" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="184" />
 		</references>
 	</entry>
 	<entry>
@@ -149,7 +384,7 @@
 		<translation>Händelse Datum:Dag</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="169" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="201" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="200" />
 		</references>
 	</entry>
 	<entry>
@@ -157,7 +392,7 @@
 		<translation>Händelse Datum:År</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="184" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="216" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="215" />
 		</references>
 	</entry>
 	<entry>
@@ -165,7 +400,7 @@
 		<translation>Tid och plats</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="198" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="230" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="229" />
 		</references>
 	</entry>
 	<entry>
@@ -173,7 +408,7 @@
 		<translation>Händelsens varaktighet: hela dagen eller del av dag.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="202" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="234" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="233" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="115" />
 		</references>
 	</entry>
@@ -182,7 +417,7 @@
 		<translation>Händelsens varaktighet</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="203" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="235" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="234" />
 		</references>
 	</entry>
 	<entry>
@@ -190,7 +425,7 @@
 		<translation>Hela dagen</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="206" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="237" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="236" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="125" />
 		</references>
 	</entry>
@@ -199,7 +434,7 @@
 		<translation>Tidsbegränsad händelse</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="209" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="239" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="238" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="128" />
 		</references>
 	</entry>
@@ -208,7 +443,7 @@
 		<translation>Tid då händelsen börjar.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="217" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="245" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="244" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="140" />
 		</references>
 	</entry>
@@ -217,7 +452,7 @@
 		<translation>Starttid:</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="218" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="246" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="245" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="141" />
 		</references>
 	</entry>
@@ -225,8 +460,8 @@
 		<string>Duration.</string>
 		<translation>Varaktighet.</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="248" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="276" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="245" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="266" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="168" />
 		</references>
 	</entry>
@@ -234,8 +469,8 @@
 		<string>Duration:</string>
 		<translation>Varaktighet:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="249" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="277" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="246" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="267" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="169" />
 		</references>
 	</entry>
@@ -243,8 +478,8 @@
 		<string>Hours</string>
 		<translation>Timmar</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="279" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="307" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="276" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="273" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="177" />
 		</references>
 	</entry>
@@ -252,8 +487,8 @@
 		<string>Minutes</string>
 		<translation>Minuter</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="286" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="314" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="280" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="277" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="181" />
 		</references>
 	</entry>
@@ -261,8 +496,8 @@
 		<string>Event Recurs.</string>
 		<translation>Händelsen återkommer.</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="291" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="319" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="285" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="282" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="193" />
 		</references>
 	</entry>
@@ -270,8 +505,8 @@
 		<string>Event Recurs:</string>
 		<translation>Händelsen återkommer:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="292" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="320" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="286" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="283" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="194" />
 		</references>
 	</entry>
@@ -279,122 +514,41 @@
 		<string>Takes places once</string>
 		<translation>Upprepas inte</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="296" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="323" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="290" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="286" />
 		</references>
 	</entry>
 	<entry>
 		<string>Every (period)</string>
 		<translation>Varje (period)</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="300" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="325" />
-		</references>
-	</entry>
-	<entry>
-		<string>Day(s)</string>
-		<translation>Dag</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="305" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="330" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="211" />
-		</references>
-	</entry>
-	<entry>
-		<string>Week(s)</string>
-		<translation>Vecka</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="306" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="331" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="212" />
-		</references>
-	</entry>
-	<entry>
-		<string>Month(s)</string>
-		<translation>Månad</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="307" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="332" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="213" />
-		</references>
-	</entry>
-	<entry>
-		<string>Year(s)</string>
-		<translation>År</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="308" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="333" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="214" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="294" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="288" />
 		</references>
 	</entry>
 	<entry>
 		<string>or every</string>
 		<translation>eller varje</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="310" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="335" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="304" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="302" />
 		</references>
 	</entry>
 	<entry>
 		<string>On</string>
 		<translation>den</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="314" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="339" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="308" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="305" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="219" />
-		</references>
-	</entry>
-	<entry>
-		<string>First</string>
-		<translation>Första</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="318" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="343" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="222" />
-		</references>
-	</entry>
-	<entry>
-		<string>Second</string>
-		<translation>Andra</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="319" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="344" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="223" />
-		</references>
-	</entry>
-	<entry>
-		<string>Third</string>
-		<translation>Tredje</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="320" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="345" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="224" />
-		</references>
-	</entry>
-	<entry>
-		<string>Fourth</string>
-		<translation>Fjärde</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="321" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="346" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="225" />
-		</references>
-	</entry>
-	<entry>
-		<string>Last</string>
-		<translation>Sista</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="322" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="347" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="226" />
 		</references>
 	</entry>
 	<entry>
 		<string>Sun</string>
 		<translation>Sön</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="327" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="352" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="321" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="318" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="230" />
 		</references>
 	</entry>
@@ -402,8 +556,8 @@
 		<string>Mon</string>
 		<translation>Mån</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="328" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="353" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="322" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="319" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="231" />
 		</references>
 	</entry>
@@ -411,8 +565,8 @@
 		<string>Tue</string>
 		<translation>Tis</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="329" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="354" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="323" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="320" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="232" />
 		</references>
 	</entry>
@@ -420,8 +574,8 @@
 		<string>Wed</string>
 		<translation>Ons</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="330" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="355" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="324" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="321" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="233" />
 		</references>
 	</entry>
@@ -429,8 +583,8 @@
 		<string>Thu</string>
 		<translation>Tor</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="331" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="356" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="325" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="322" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="234" />
 		</references>
 	</entry>
@@ -438,8 +592,8 @@
 		<string>Fri</string>
 		<translation>Fre</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="332" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="357" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="326" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="323" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="235" />
 		</references>
 	</entry>
@@ -447,27 +601,18 @@
 		<string>Sat</string>
 		<translation>Lör</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="333" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="358" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="327" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="324" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="236" />
-		</references>
-	</entry>
-	<entry>
-		<string>every</string>
-		<translation>varje</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="336" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="361" />
-			<reference file="modules/julian/xartemplates/user-edithook.xd" line="238" />
 		</references>
 	</entry>
 	<entry>
 		<string>month(s)</string>
 		<translation>månad</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="339" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="333" />
 			<reference file="modules/julian/xartemplates/user-displayhook.xd" line="22" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="364" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="329" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="242" />
 		</references>
 	</entry>
@@ -475,8 +620,8 @@
 		<string>Recurring End Date.</string>
 		<translation>Återkommande slutdatum.</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="344" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="369" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="338" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="334" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="253" />
 		</references>
 	</entry>
@@ -484,8 +629,8 @@
 		<string>Recurring End Date:</string>
 		<translation>Återkommande slutdatum:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="345" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="370" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="339" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="335" />
 			<reference file="modules/julian/xartemplates/user-edithook.xd" line="254" />
 		</references>
 	</entry>
@@ -493,323 +638,193 @@
 		<string>Has no Recurrence End Date.</string>
 		<translation>Har inget återkommande slutdatum.</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="382" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="411" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="376" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="384" />
 		</references>
 	</entry>
 	<entry>
 		<string>No End Date:</string>
 		<translation>Inget slutdatum:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="383" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="412" />
-		</references>
-	</entry>
-	<entry>
-		<string>Share you event (only) with:</string>
-		<translation>Dela (endast) din händelse med:</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="389" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="418" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="377" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="385" />
 		</references>
 	</entry>
 	<entry>
 		<string>Access:</string>
 		<translation>tillgång:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="390" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="419" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="384" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="393" />
 		</references>
 	</entry>
 	<entry>
 		<string>Public</string>
 		<translation>Allmän</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="395" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="424" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="389" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="398" />
 		</references>
 	</entry>
 	<entry>
 		<string>Private</string>
 		<translation>Privat</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="400" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="429" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="394" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="403" />
 		</references>
 	</entry>
 	<entry>
 		<string>Extra Event Information</string>
 		<translation>Extra händelseinformation</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="416" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="451" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="410" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="425" />
 		</references>
 	</entry>
 	<entry>
-		<string>Event Location.</string>
-		<translation>Plats.</translation>
+		<string>Event Location</string>
+		<translation>Plats</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="420" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="455" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="414" />
+			<reference file="modules/julian/xartemplates/user-viewevents.xd" line="150" />
+			<reference file="modules/julian/xartemplates/user-viewevents.xd" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>Event Location:</string>
 		<translation>Plats:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="421" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="456" />
-		</references>
-	</entry>
-	<entry>
-		<string>Street.</string>
-		<translation>Gata.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="428" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="463" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="415" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="430" />
 		</references>
 	</entry>
 	<entry>
 		<string>Street:</string>
 		<translation>Gata:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="429" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="464" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="423" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="438" />
 		</references>
 	</entry>
 	<entry>
 		<string>City.</string>
 		<translation>Stad.</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="439" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="474" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="433" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="448" />
 		</references>
 	</entry>
 	<entry>
 		<string>City:</string>
 		<translation>Stad:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="440" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="475" />
-		</references>
-	</entry>
-	<entry>
-		<string>State.</string>
-		<translation>Stat.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="447" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="482" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="434" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="449" />
 		</references>
 	</entry>
 	<entry>
 		<string>State:</string>
 		<translation>Stat:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="448" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="483" />
-		</references>
-	</entry>
-	<entry>
-		<string>Postal/Providence.</string>
-		<translation>Postnummer.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="455" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="490" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="442" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="457" />
 		</references>
 	</entry>
 	<entry>
 		<string>Postal/Providence:</string>
 		<translation>Postnummer:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="456" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="491" />
-		</references>
-	</entry>
-	<entry>
-		<string>Contact.</string>
-		<translation>Kontakt:</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="463" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="498" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="450" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="465" />
 		</references>
 	</entry>
 	<entry>
 		<string>Contact:</string>
 		<translation>Kontakt:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="464" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="499" />
-		</references>
-	</entry>
-	<entry>
-		<string>Phone.</string>
-		<translation>Telefon.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="471" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="506" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="458" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="473" />
 		</references>
 	</entry>
 	<entry>
 		<string>Phone:</string>
 		<translation>Telefon:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="472" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="507" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email.</string>
-		<translation>E-postadress.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="492" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="527" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="466" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="481" />
 		</references>
 	</entry>
 	<entry>
 		<string>Email:</string>
 		<translation>E-post</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="493" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="528" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event Website.</string>
-		<translation>Händelsen webbplats.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="500" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="535" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="487" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="502" />
 		</references>
 	</entry>
 	<entry>
 		<string>Event Website:</string>
 		<translation>Händelsens webbplats:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="501" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="536" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event Fee.</string>
-		<translation>Avgift.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="508" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="543" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="495" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="510" />
 		</references>
 	</entry>
 	<entry>
 		<string>Event Fee:</string>
 		<translation>Avgift:</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="509" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="544" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="504" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="518" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cancel</string>
 		<translation>Avbryt</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="520" />
-			<reference file="modules/julian/xartemplates/user-edit.xd" line="555" />
+			<reference file="modules/julian/xartemplates/user-addevent.xd" line="515" />
+			<reference file="modules/julian/xartemplates/user-edit.xd" line="529" />
 		</references>
 	</entry>
 	<entry>
 		<string>Previous Year</string>
 		<translation>Föregående år</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-month.xd" line="9" />
-			<reference file="modules/julian/xartemplates/user-year.xd" line="10" />
+			<reference file="modules/julian/xartemplates/user-month.xd" line="10" />
+			<reference file="modules/julian/xartemplates/user-year.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
 		<string>Next Year</string>
 		<translation>Nästa år</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-month.xd" line="17" />
-			<reference file="modules/julian/xartemplates/user-year.xd" line="14" />
+			<reference file="modules/julian/xartemplates/user-month.xd" line="18" />
+			<reference file="modules/julian/xartemplates/user-year.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
 		<string>Go to week</string>
 		<translation>Gå till vecka</translation>
 		<references>
-			<reference file="modules/julian/xartemplates/user-month.xd" line="38" />
-			<reference file="modules/julian/xartemplates/user-year.xd" line="65" />
+			<reference file="modules/julian/xartemplates/user-month.xd" line="39" />
+			<reference file="modules/julian/xartemplates/user-year.xd" line="62" />
 		</references>
 	</entry>
 	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ogiltig #(1) för (2) funktion #(3)() i modul #(4)</translation>
+		<string>Make this block category aware?</string>
+		<translation>Gör detta block kategorimedvetet?</translation>
 		<references>
-			<reference file="modules/julian/xaruserapi/createhook.php" line="26" />
-			<reference file="modules/julian/xaruserapi/createhook.php" line="41" />
-			<reference file="modules/julian/xaruserapi/deletehook.php" line="37" />
-			<reference file="modules/julian/xaruserapi/deletehook.php" line="52" />
-			<reference file="modules/julian/xaruserapi/get.php" line="35" />
-			<reference file="modules/julian/xaruserapi/getevents.php" line="71" />
-			<reference file="modules/julian/xaruserapi/gethooked.php" line="37" />
-			<reference file="modules/julian/xaruserapi/gethooked.php" line="45" />
-			<reference file="modules/julian/xaruser/displayhook.php" line="37" />
-			<reference file="modules/julian/xaruser/displayhook.php" line="52" />
-			<reference file="modules/julian/xaruser/modifyhook.php" line="17" />
-			<reference file="modules/julian/xaruser/modifyhook.php" line="32" />
+			<reference file="modules/julian/xartemplates/blocks/modify-calevent.xd" line="12" />
+			<reference file="modules/julian/xartemplates/blocks/modify-calmonth.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
-		<string>Event Alert</string>
-		<translation>Händelselarm</translation>
+		<string>Use Categories:</string>
+		<translation>Använd kategorier:</translation>
 		<references>
-			<reference file="modules/julian/xaruserapi/email_alerts.php" line="96" />
-			<reference file="modules/julian/xarschedulerapi/email_alerts.php" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>Day</string>
-		<translation>Dag</translation>
-		<references>
-			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="34" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="30" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="32" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>Week</string>
-		<translation>Vecka</translation>
-		<references>
-			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="41" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="35" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="37" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>Month</string>
-		<translation>Månad</translation>
-		<references>
-			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="48" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="40" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="42" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>Year</string>
-		<translation>År</translation>
-		<references>
-			<reference file="modules/julian/xaruserapi/getmenulinks.php" line="55" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="45" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="47" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="115" />
-		</references>
-	</entry>
-	<entry>
-		<string>Events</string>
-		<translation>Händelser</translation>
-		<references>
-			<reference file="modules/julian/xarblocks/calevent.php" line="95" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="50" />
-			<reference file="modules/julian/xartemplates/includes/header.xd" line="52" />
+			<reference file="modules/julian/xartemplates/blocks/modify-calevent.xd" line="13" />
+			<reference file="modules/julian/xartemplates/blocks/modify-calmonth.xd" line="4" />
 		</references>
 	</entry>
 </translations>
