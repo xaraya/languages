@@ -37,9 +37,9 @@
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="270" />
 			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="251" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="228" />
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="216" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="215" />
 			<reference file="modules/xarbb/xartemplates/user-quickreply.xd" line="41" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="667" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="650" />
 			<reference file="modules/xarbb/xaruser/main.php" line="51" />
 			<reference file="modules/xarbb/xaruser/movetopic.php" line="43" />
 			<reference file="modules/xarbb/xaruser/newtopic.php" line="144" />
@@ -48,7 +48,7 @@
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation></translation>
+		<translation>#(1) inválido para #(2) função #(3)() no módulo #(4)</translation>
 		<references>
 			<reference file="modules/xarbb/xaradmin/newhook.php" line="25" />
 			<reference file="modules/xarbb/xaradmin/newhook.php" line="31" />
@@ -85,7 +85,16 @@
 		<translation>Exibir</translation>
 		<references>
 			<reference file="modules/xarbb/xaradminapi/getmenulinks.php" line="46" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="114" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>Check IP</string>
+		<translation>Verificar Endereço IP</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-checkip.xd" line="12" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="240" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="455" />
 		</references>
 	</entry>
 	<entry>
@@ -93,8 +102,8 @@
 		<translation>Perfil</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-checkip.xd" line="81" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="312" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="517" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="309" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="509" />
 			<reference file="modules/xarbb/xaruser/newreply.php" line="130" />
 		</references>
 	</entry>
@@ -157,7 +166,7 @@
 	</entry>
 	<entry>
 		<string>Forum Status</string>
-		<translation>Estado do Forum</translation>
+		<translation>Estado do Fórum</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="64" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="59" />
@@ -179,12 +188,12 @@
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="76" />
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="87" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="63" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="229" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="253" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="274" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="295" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="316" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="363" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="228" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="252" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="273" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="294" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="315" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="362" />
 		</references>
 	</entry>
 	<entry>
@@ -197,7 +206,7 @@
 	</entry>
 	<entry>
 		<string>Forum Configuration</string>
-		<translation></translation>
+		<translation>Configuração do Fórum</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="124" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="82" />
@@ -213,7 +222,7 @@
 	</entry>
 	<entry>
 		<string>Topics per page</string>
-		<translation>Tópicos por página</translation>
+		<translation>Tópicos por Página</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="131" />
 			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="106" />
@@ -232,7 +241,7 @@
 	</entry>
 	<entry>
 		<string>Sort topics by</string>
-		<translation>Ordenar tópicos por</translation>
+		<translation>Ordenar Tópicos por</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="139" />
 			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="114" />
@@ -250,7 +259,7 @@
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="101" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="104" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="47" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="119" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="118" />
 		</references>
 	</entry>
 	<entry>
@@ -265,13 +274,13 @@
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="105" />
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="91" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="75" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="134" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="133" />
 			<reference file="modules/xarbb/xaruserapi/getitemfields.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Topic sort order</string>
-		<translation></translation>
+		<translation>Ordem</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="155" />
 			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="130" />
@@ -316,7 +325,7 @@
 	</entry>
 	<entry>
 		<string>Threshhold for individual topics to be considered hot.</string>
-		<translation>Limiar para  um tópico ser considerado popular.</translation>
+		<translation>Limiar para um tópico ser considerado popular.</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="168" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="126" />
@@ -331,8 +340,8 @@
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="129" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="82" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="88" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="143" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="157" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="142" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="156" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="110" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="118" />
 		</references>
@@ -424,7 +433,7 @@
 	</entry>
 	<entry>
 		<string>Use Topic Edit Stamp?</string>
-		<translation></translation>
+		<translation>Incluir Estampa de Edição de Tópicos?</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="231" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="189" />
@@ -477,7 +486,7 @@
 	</entry>
 	<entry>
 		<string>Associate with which Newsgroup</string>
-		<translation></translation>
+		<translation>Associar este fórum com um grupo de discussão NNTP</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="251" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="209" />
@@ -485,7 +494,7 @@
 	</entry>
 	<entry>
 		<string>NNTP Association</string>
-		<translation></translation>
+		<translation>Associação NNTP</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="254" />
 			<reference file="modules/xarbb/xartemplates/admin-new.xd" line="212" />
@@ -515,7 +524,11 @@
 		<references>
 			<reference file="modules/xarbb/xartemplates/admin-privileges.xd" line="71" />
 			<reference file="modules/xarbb/xartemplates/admin-privileges.xd" line="73" />
-			<reference file="modules/xarbb/xaruser/viewtopic.php" line="295" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="236" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="237" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="451" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="452" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="628" />
 			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="22" />
 			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="51" />
 		</references>
@@ -535,12 +548,12 @@
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="67" />
 			<reference file="modules/xarbb/xartemplates/user-movetopic.xd" line="10" />
 			<reference file="modules/xarbb/xartemplates/user-movetopic.xd" line="97" />
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="30" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="24" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="29" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="23" />
 			<reference file="modules/xarbb/xartemplates/user-return.xd" line="19" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="27" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="95" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="286" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="94" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="285" />
 			<reference file="modules/xarbb/xaruser/main.php" line="148" />
 			<reference file="modules/xarbb/xartemplates/includes/topiccontrols.xd" line="34" />
 		</references>
@@ -550,9 +563,9 @@
 		<translation>Mensagens</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="86" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="129" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="185" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="402" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="128" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="187" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="399" />
 		</references>
 	</entry>
 	<entry>
@@ -578,8 +591,8 @@
 		<translation>Nova mensagem</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="154" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="308" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="311" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="307" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="310" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="121" />
 		</references>
 	</entry>
@@ -597,8 +610,8 @@
 		<translation>Todos os fusos horários tem como base a hora UTC/GMT</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="233" />
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="227" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="353" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="226" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="352" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="176" />
 		</references>
 	</entry>
@@ -607,7 +620,7 @@
 		<translation>Entrar no site</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="241" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="371" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="370" />
 		</references>
 	</entry>
 	<entry>
@@ -615,7 +628,7 @@
 		<translation>Usuário</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="248" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="378" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="377" />
 		</references>
 	</entry>
 	<entry>
@@ -623,7 +636,7 @@
 		<translation>Senha</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="255" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="385" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="384" />
 		</references>
 	</entry>
 	<entry>
@@ -631,7 +644,7 @@
 		<translation>Lembre-se de mim</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="263" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="393" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="392" />
 		</references>
 	</entry>
 	<entry>
@@ -639,7 +652,7 @@
 		<translation>Nenhuma mensagem nova</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-main.xd" line="284" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="317" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="316" />
 		</references>
 	</entry>
 	<entry>
@@ -648,14 +661,14 @@
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-movetopic.xd" line="15" />
 			<reference file="modules/xarbb/xartemplates/user-movetopic.xd" line="102" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="646" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="630" />
 		</references>
 	</entry>
 	<entry>
 		<string>Reply to</string>
 		<translation>Responder em</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="45" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="44" />
 			<reference file="modules/xarbb/xaruser/newreply.php" line="141" />
 		</references>
 	</entry>
@@ -663,8 +676,8 @@
 		<string>Name</string>
 		<translation>Nome</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="53" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="101" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="52" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="100" />
 			<reference file="modules/xarbb/xaruserapi/getitemfields.php" line="60" />
 		</references>
 	</entry>
@@ -672,12 +685,12 @@
 		<string>Subject</string>
 		<translation>Assunto</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="90" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="125" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="89" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="124" />
 			<reference file="modules/xarbb/xartemplates/user-printtopic.xd" line="55" />
 			<reference file="modules/xarbb/xartemplates/user-printtopic.xd" line="115" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="255" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="472" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="252" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="464" />
 			<reference file="modules/xarbb/xaruserapi/getitemfields.php" line="38" />
 		</references>
 	</entry>
@@ -685,16 +698,16 @@
 		<string>Form Controls</string>
 		<translation>Controles</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="108" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="137" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="107" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="136" />
 		</references>
 	</entry>
 	<entry>
 		<string>Body</string>
 		<translation>Corpo da Mensagem</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="120" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="149" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="119" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="148" />
 			<reference file="modules/xarbb/xaruserapi/getitemfields.php" line="41" />
 		</references>
 	</entry>
@@ -702,28 +715,28 @@
 		<string>Options</string>
 		<translation>Opção</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="137" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="162" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="61" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="114" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="136" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="161" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="60" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="116" />
 		</references>
 	</entry>
 	<entry>
 		<string>HTML is</string>
 		<translation>HTML está</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="144" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="167" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="143" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="166" />
 		</references>
 	</entry>
 	<entry>
 		<string>On</string>
 		<translation>Ligado</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="149" />
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="166" />
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="183" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="198" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="148" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="165" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="182" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="197" />
 			<reference file="modules/xarbb/xartemplates/user-search.xd" line="40" />
 			<reference file="modules/xarbb/xartemplates/user-search.xd" line="72" />
 		</references>
@@ -732,24 +745,24 @@
 		<string>BBCode is</string>
 		<translation>BBCode está</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="161" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="180" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="160" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="179" />
 		</references>
 	</entry>
 	<entry>
 		<string>Smilies are</string>
 		<translation>Smilies está</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="178" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="193" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="177" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="192" />
 		</references>
 	</entry>
 	<entry>
 		<string>Preview</string>
 		<translation>Visualizar</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="214" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="39" />
+			<reference file="modules/xarbb/xartemplates/user-newreply.xd" line="213" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="38" />
 			<reference file="modules/xarbb/xaruser/newtopic.php" line="145" />
 		</references>
 	</entry>
@@ -757,26 +770,26 @@
 		<string>Posted</string>
 		<translation>Publicado</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="47" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="46" />
 			<reference file="modules/xarbb/xartemplates/user-printtopic.xd" line="49" />
 			<reference file="modules/xarbb/xartemplates/user-printtopic.xd" line="109" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="209" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="429" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="211" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="426" />
 		</references>
 	</entry>
 	<entry>
 		<string>Announcement</string>
 		<translation>Pronunciamento</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="219" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="243" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="264" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="285" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="306" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="218" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="242" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="263" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="284" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="305" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="91" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="164" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="320" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="323" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="163" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="319" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="322" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="129" />
 		</references>
 	</entry>
@@ -784,14 +797,14 @@
 		<string>Sticky</string>
 		<translation>Tópico Fixo</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="224" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="248" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="269" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="290" />
-			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="311" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="223" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="247" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="268" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="289" />
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="310" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="97" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="178" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="351" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="177" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="350" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="138" />
 		</references>
 	</entry>
@@ -802,8 +815,8 @@
 			<reference file="modules/xarbb/xartemplates/user-printtopic.xd" line="23" />
 			<reference file="modules/xarbb/xartemplates/user-search.xd" line="114" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="54" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="124" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="152" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="123" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="154" />
 			<reference file="modules/xarbb/xaruserapi/getitemfields.php" line="44" />
 		</references>
 	</entry>
@@ -812,7 +825,7 @@
 		<translation>Mensagem</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-printtopic.xd" line="28" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="157" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="159" />
 		</references>
 	</entry>
 	<entry>
@@ -820,7 +833,7 @@
 		<translation>Resposta Rápida</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-quickreply.xd" line="28" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="659" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="642" />
 		</references>
 	</entry>
 	<entry>
@@ -838,9 +851,9 @@
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="85" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="103" />
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="106" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="150" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="192" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="199" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="149" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="191" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="198" />
 		</references>
 	</entry>
 	<entry>
@@ -848,7 +861,7 @@
 		<translation>Novo Pronunciamento</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="94" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="171" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="170" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="131" />
 		</references>
 	</entry>
@@ -857,7 +870,7 @@
 		<translation>Novo Tópico Fixo</translation>
 		<references>
 			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="100" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="185" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="184" />
 			<reference file="modules/xarbb/xaruser/searchtopics.php" line="140" />
 		</references>
 	</entry>
@@ -865,24 +878,24 @@
 		<string>Forum Jump</string>
 		<translation>Acessar Fóruns</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="57" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="110" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="56" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="112" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please select forum</string>
 		<translation>Selecione um fórum</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="65" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="118" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="64" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="120" />
 		</references>
 	</entry>
 	<entry>
 		<string>Forums</string>
 		<translation>Fóruns</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="71" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="124" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="70" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="126" />
 			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="7" />
 			<reference file="modules/xarbb/xartemplates/includes/navtabs.xd" line="7" />
 		</references>
@@ -891,17 +904,33 @@
 		<string>Jump</string>
 		<translation>Acessar</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="79" />
-			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="132" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="78" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>New Topic</string>
 		<translation>Novo Tópico</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="87" />
-			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="278" />
-			<reference file="modules/xarbb/xaruser/newtopic.php" line="233" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="86" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="277" />
+			<reference file="modules/xarbb/xaruser/newtopic.php" line="235" />
+		</references>
+	</entry>
+	<entry>
+		<string>Edit</string>
+		<translation>Editar</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="226" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="227" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="230" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="231" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="441" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="442" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="445" />
+			<reference file="modules/xarbb/xartemplates/user-viewtopic.xd" line="446" />
+			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="15" />
+			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
@@ -929,15 +958,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Edit</string>
-		<translation>Editar</translation>
-		<references>
-			<reference file="modules/xarbb/xaruser/viewtopic.php" line="294" />
-			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="15" />
-			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
 		<string>Invalid #(1) [#(2)] for #(3) function #(4)() in module #(5)</string>
 		<translation></translation>
 		<references>
@@ -948,7 +968,7 @@
 	</entry>
 	<entry>
 		<string>Invalid Parameter Count in #(1) function #(2) of module #(3)</string>
-		<translation></translation>
+		<translation>Contagem de Parâmetro Inválida em #(1) função #(2) do módulo #(3)</translation>
 		<references>
 			<reference file="modules/xarbb/xaruserapi/getnexttopicid.php" line="27" />
 			<reference file="modules/xarbb/xaruserapi/getprevioustopicid.php" line="27" />
