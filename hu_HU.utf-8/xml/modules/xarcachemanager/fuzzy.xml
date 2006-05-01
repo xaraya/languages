@@ -4,28 +4,189 @@
 		<string>File does not exist</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23"/>
 		</references>
 	</entry>
 	<entry>
 		<string>An operation requires a file that cannot be found.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The file may be missing, or its name may have changed.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25"/>
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) css stylesheet file cannot be found at this location:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="165" />
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="165"/>
+		</references>
+	</entry>
+	<entry>
+		<string>File does not exist</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23"/>
+		</references>
+	</entry>
+	<entry>
+		<string>An operation requires a file that cannot be found.</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="24"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The file may be missing, or its name may have changed.</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25"/>
+		</references>
+	</entry>
+	<entry>
+		<string>#(1) css stylesheet file cannot be found at this location:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="165"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Block caching is currently disabled...</string>
+		<translation>A blokk gyorstárazás jelenleg ki van kapcsolva.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="6"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Expiration Time</string>
+		<translation>Lejárati idő</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="17"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Flush</string>
+		<translation>Törlés</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="36"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configure to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
+		<translation>A blokk szintű gyorstárazásban nem jelentkeznek ezek a dinamikus tartalommal kapcsolatos korlátozások. Ez a megoldás szándékosan a Xaraya alaprendszer és az aktív modulok betöltésével együttműködve üzemel az oldalletöltések kiszolgálásakor. A blokkok gyorstárazása példányonként beállítható, tehát lehetnek olyan dinamikus blokkok amelyek sosem kerülnek gyorstárazásra, míg mások különböző lejárati időkkel igen. A blokk példányok gyorstárazása lehet megosztott a felhasználók (vagy felhasználók csoportjai) és az oldalak között. Ez lehetőséget biztosít a gyorstárazás rugalmas beállítására, a statikus és dinamikus részeket egyaránt tartalmazó oldalak esetén, de egy bizonyos mértékű teljesítmény csökkenéssel jár. Míg az oldal szintű gyorstárazás, az oldal beállításaitól függően, 65-80% teljesítmény növekedést hozhat, addig a blokk szintű megoldás csak 20-30 százalékkal csökkenti az oldalak generálásához szükséges időt.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="70"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>További információk a modulról:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="113"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Enable the Output Caching System:</string>
+		<translation>Kimeneti gyorstárazás engedélyezése:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="13"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Cache the Output of this Theme:</string>
+		<translation>A gyorstárazásra kijelölt grafika:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="28"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Cache Size Limit (in MB):</string>
+		<translation>Gyorstár méretének felső határa (MB):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="50"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Page Output Caching:</string>
+		<translation>Oldal gyorstárazás engedélyezése:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="62"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Page Cache Expiration Time (in hh:mm:ss):</string>
+		<translation>Oldal gyorstár lejárati ideje (óra:perc:másodperc):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="75"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Cache Item Display Pages:</string>
+		<translation>Elem megjelenítési oldalak gyorstárazása:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="84"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cached Display Page on New Comment:</string>
+		<translation>Elem megjelenítési oldal elévülése új hozzászólás esetén:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="98"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cached Display Page on New Hooked Poll Vote:</string>
+		<translation>Elem megjelenítési oldal elévülése hurkolt szavazáskor:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="124"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Show the "Last Modified" Stamp on Cached Pages:</string>
+		<translation>„Módosítás időpontja” időbélyeg megjelenítése a gyorstárazott oldalakon:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="138"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Allow clients to reuse locally cached pages without re-validation:</string>
+		<translation>Helyi gyorstárazás kliens oldalon, újraellenőrzés nélkül:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="151"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Auto-regenerate cache of session-less URL list:</string>
+		<translation>A munkafolyamat nélküli URL lista gyorstár automatikus újragenerálása:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="164"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Only cache pages of modules hooked to xarCacheManger:</string>
+		<translation>Csak a Gyorstár kezelőhöz hurkolt modulok oldalainak tárolása:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="178"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Block Cache Expiration Time (in hh:mm:ss):</string>
+		<translation>Blokk gyorstár lejárati ideje (óra:perc:másodperc):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="266"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Block Cache Size Limit (in MB):</string>
+		<translation>Blokk gyorstár maximális mérete (MB):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="316"/>
 		</references>
 	</entry>
 </translations>

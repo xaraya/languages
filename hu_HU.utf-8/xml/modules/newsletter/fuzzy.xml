@@ -4,50 +4,471 @@
 		<string>You must choose an issue to preview.</string>
 		<translation>Ki kell választani egy hírlevelet a megtekintéshez.</translation>
 		<references>
-			<reference file="modules/newsletter/xaradmin/previewissue.php" line="36" />
-			<reference file="modules/newsletter/xaruser/previewissue.php" line="36" />
+			<reference file="modules/newsletter/xaradmin/previewissue.php" line="36"/>
+			<reference file="modules/newsletter/xaruser/previewissue.php" line="36"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Active Users</string>
 		<translation>Engedélyezett felhasználók</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="35" />
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="35"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Send newsletter only to active users. This does not include alternative subscriptions.</string>
 		<translation>Hírlevél küldés az engedélyezett felhasználóknak. Nem tartoznak bele más feliratkozottak.</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="37" />
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="37"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Send to active users:</string>
 		<translation>Küldés az engedélyezett felhasználóknak:</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="42" />
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="42"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Short URL Support</string>
 		<translation>Rövid URL támogatás</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="50" />
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="50"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Modify the following for display in the information block.</string>
 		<translation>Block információk módosítása.</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="15" />
+			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="15"/>
 		</references>
 	</entry>
 	<entry>
 		<string>(turn off to display by order of category id)</string>
 		<translation>(kategória azonosító szerinti rendezés kikapcsolása)</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="64" />
+			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="64"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You must choose an issue to preview.</string>
+		<translation>Ki kell választani egy hírlevelet a megtekintéshez.</translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/previewissue.php" line="36"/>
+			<reference file="modules/newsletter/xaruser/previewissue.php" line="36"/>
+		</references>
+	</entry>
+	<entry>
+		<string>How To Use It?</string>
+		<translation>Hogyan kell használni?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="31"/>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="31"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a subscription.</string>
+		<translation>Biztosan törölhető a feliratkozás?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletealtsubscription.xd" line="14"/>
+			<reference file="modules/newsletter/xartemplates/admin-deletesubscription.xd" line="15"/>
+		</references>
+	</entry>
+	<entry>
+		<string>(overrides publication default)</string>
+		<translation>(alapértelmezett felülbírálása)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifystory.xd" line="197"/>
+			<reference file="modules/newsletter/xartemplates/admin-newstory.xd" line="206"/>
+		</references>
+	</entry>
+	<entry>
+		<string>master category</string>
+		<translation>alap kategória</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="81"/>
+		</references>
+	</entry>
+	<entry>
+		<string>- General information about the publications that a user can subscribe to. This information is created in the Newsletter user modify configuration screen in the text fields "Publisher or Company Name" and "Information about Newsletter"</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="157"/>
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows non-registered users to view past issues.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="158"/>
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows logged in users to modify their subscription(s) to the publications.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="159"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a disclaimer.</string>
+		<translation>Biztosan törölhető a határozat?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletedisclaimer.xd" line="14"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete an issue.</string>
+		<translation>Biztosan törölhető a hírlevél?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deleteissue.xd" line="13"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete an Newsletter user.</string>
+		<translation>Biztosan törölhető a hírlevél felhasználó?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deleteowner.xd" line="14"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm removal of Newsletter user:</string>
+		<translation>Hírlevél felhasználó törlésének jóváhagyása:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deleteowner.xd" line="21"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a publication.</string>
+		<translation>Valóban törölni akarja a hírlevél típust?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletepublication.xd" line="14"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to delete a story.</string>
+		<translation>Valóban törölni akarja a hírt?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletestory.xd" line="14"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The Newsletter module allows an individual or organization to compile and distribute news and research updates to interested parties via email. This module gives writers, editors and publishers a comprehensive process to easily assemble the stories for an newsletter and subsequently publish the information to a subscription base.</string>
+		<translation>A Hírlevelek modul személyek vagy szervezetek számára biztosít lehetőséget, hogy híreket és kutatási eredményeket juttassak el az érdeklődőknek e-mailben. A modul a szerzőknek, szerkesztőknek és a kiadóknak átfogó lehetőséget biztosít a hírek hírlevélként való összeszerkesztésére és azok publikálására a feliratkozott személyek felé.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="22"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;&amp;nbsp;If you have not yet configured the module, please do so.</string>
+		<translation>&lt;b&gt;Megjegyzés:&lt;/b&gt; Ha még nem végeztük el a modul beállítását, azzal kell kezdeni a munkát.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="34"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Default Groups&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Alapértelmezett csoportok&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="40"/>
+		</references>
+	</entry>
+	<entry>
+		<string>As a user of the Newsletter module, you will be added to either the publisher, editor or writer group. Once the module administrator has added you to one of these groups, you will be able to create content for a publication.</string>
+		<translation>A Hírlevelek modul felhasználói a kiadó, a szerkesztő és a szerzői csoportokba tartoznak. Mitán az adminisztrátor ezekhez a csoportokhoz hozzáadta a szükséges felhasználókat, azok megkezdhetik a hírlevelek tartalmának előkészítését.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="42"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Publication Items&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Kiadványok elemei&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="57"/>
+		</references>
+	</entry>
+	<entry>
+		<string>A publication is the top-level wrapper for each issue and sets default information for each issue and story within the issue.</string>
+		<translation>A „Kiadvány” a legfelső szintű elem a hírlevelekhez, alapértelmezett információkat határoz meg a hírlevelekhez és az azokon belüli hírekhez.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="59"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Each publication should have a disclaimer or confidentiality clause. Once a disclaimer is created, it can be used by multiple publications.</string>
+		<translation>Minden kiadvány tartalmaz egy határozatot vagy bizalmi kitéltelt. Egy határozat létrehozatala után, azt tetszőleges számú kiadvány használhatja.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="65"/>
+		</references>
+	</entry>
+	<entry>
+		<string>An issue contains the news and research updates that have been compiled as stories. Once the issue is ready to be published, the issue will be sent to the subscription base. After an issue has been published, it can be view by non-registered users from the Newsletter information block.</string>
+		<translation>Egy hírlevél tartalmazza az összeállított híreket és kutatási eredményeket. A hírlevél összeállítása után az elküldhető az adott kiadványra feliratkozott személyeknek. A hírlevelek elküldése után azok megjeleníthetőek a nem regisztrált felhasználók számára, a hírlevél információs blokkból.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="69"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Each issue will have multiple stories relating to the news and research updates that will be presented to the subscription base.</string>
+		<translation>Minden hírlevél több hozzá tartozó hírből áll, melyek az aktuális tartalmat, kutatási eredményeket stb. jelentik, melyeket el szeretnénk küldeni a feliratkozott felhasználóknak.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="73"/>
+		</references>
+	</entry>
+	<entry>
+		<string>publication</string>
+		<translation>kiadvány</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="81"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The admin or publisher should first update the module's configuration within the Newsletter &lt;i&gt;modify configuration&lt;/i&gt; before publishing an issue. If the Newsletter information block has been added, then the &lt;i&gt;Publisher or Company Name&lt;/i&gt; and &lt;i&gt;Information&lt;/i&gt; fields will be displayed within the information block. &lt;i&gt;Information&lt;/i&gt; should contain a general description about the publications that are available to the subscription base.</string>
+		<translation>Az adminisztrátornak vagy a kiadónak, az első hírlevél elkészítése előtt, el kell végeznie a modul beállítását a Hírlevelek modul &lt;i&gt;Beállítások&lt;/i&gt; menüjében. Ha megjelenítünk egy hírlevél információs blokkot, abban megjelenik a &lt;i&gt;Kiadó vagy cég neve&lt;/i&gt; és az meghatározott &lt;i&gt;Információk&lt;/i&gt;, így ezeket is fel kell tölteni a feliratkozók számára általános információkkal.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="124"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Add a signature block if you wish to include a signature in each issue. Do not include a user name in your signature block as this will be automatically included in the template. By default, the signature block will be displayed after your user name.</string>
+		<translation>Határozzunk meg egy aláírás szöveget, amennyiben szeretnénk azt minden hírlevél aljára illeszteni. A felhasználó nevét nem kell beleírni, mert az automatikusan beillesztésre kerül. Alapértelmezésben a név az aláírás felett fog megjelenni.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="128"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Each publication can have it's own HTML and text email template. To create a new template, you will need to copy one of the existing templates and modify the template for the desired appearance. A README file is included in the templates directory with the necessary information on creating a new template.</string>
+		<translation>Minden kiadványnak megvan a saját HTML és sima szöveg e-mail sablonja. A sablonok létrehozásához le kell másolnunk egy meglévő sablont és az igényeinkhez alakítani. A „templates” könyvtárban található README fájl részletes információkat tartalmaz az új sablonok elkészítéséről.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="132"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The default templates are located the directory &lt;i&gt;"modules/newsletter/templates"&lt;/i&gt;</string>
+		<translation>Az alapértelmezett sablonok a „modules/newsletters/templates” könyvtárban találhatóak.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="134"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Either create a new publication or choose a publication that already exists. (publisher)</string>
+		<translation>Hozzunk létre egy kiadványt vagy válasszunk egyet a meglévőek közül. (kiadó)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="146"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You can continue adding stories to the issue until you have finished and are ready to publish the issue.</string>
+		<translation>A hírek hozzáadását a hírlevélhez addig folytathatjuk, amíg teljesen el nem készül az adott hírlevél.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="152"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Select an issue to preview. The publication's HTML template will be used to display the issue.</string>
+		<translation>Válasszunk ki egy hírlevelet. A megjelenítés az adott kiadvány HTML sablonjával történik.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="157"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Subscriptions&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Feliratkozás&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="166"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Normally, a user cannot subscribe to a publication unless they are a registered user on your site. If the Newsletter information block has been added, then a registered user will be able to subscribe to a publication and modify their subscriptions.</string>
+		<translation>A felhasználók nem tudnak feliratkozni a kiadványokra, hacsak nem regisztrált felhasználói az oldalnak. Ha az oldalon megjelenítünk egy Hírlevél információs blokkot, a felhasználók itt fel tudnak iratkozni, illetve szerkeszthetik a feliratkozásaikat.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="168"/>
+		</references>
+	</entry>
+	<entry>
+		<string>If you wish to add a subscription that is not a registered user, then you can add a subscription from the &lt;i&gt;add subscription&lt;/i&gt; menu. You will need to provide a user name and email address. This provides an alternative way of adding subscriptions to a publication for users that are not registered.</string>
+		<translation>Ha nem regisztrált felhasználókat is szeretnénk felvenni, az &lt;i&gt;új feliratkozás&lt;/i&gt; menüt használhatjuk. Egy nevet és e-mail címet kell megadni, így nem regisztrált felhasználókat is felvetünk az adott kiadvány címzettjei közé.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="170"/>
+		</references>
+	</entry>
+	<entry>
+		<string>From the main menu, you have the following choices based on your privileges:</string>
+		<translation>A menüből a következő lehetőségek érhetők el, jogosultságoktól függően:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="177"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Publication&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Kiadvány&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="191"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Field&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Mező&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="196"/>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="338"/>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="415"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description&lt;/b&gt;</string>
+		<translation>&lt;b&gt;Leírás&lt;/b&gt;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="199"/>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="341"/>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="418"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Active Users</string>
+		<translation>Engedélyezett felhasználók</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="35"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Send newsletter only to active users. This does not include alternative subscriptions.</string>
+		<translation>Hírlevél küldés az engedélyezett felhasználóknak. Nem tartoznak bele más feliratkozottak.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="37"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Send to active users:</string>
+		<translation>Küldés az engedélyezett felhasználóknak:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="42"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Short URL Support</string>
+		<translation>Rövid URL támogatás</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyconfig.xd" line="50"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Modify the following for display in the information block.</string>
+		<translation>Block információk módosítása.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="15"/>
+		</references>
+	</entry>
+	<entry>
+		<string>(turn off to display by order of category id)</string>
+		<translation>(kategória azonosító szerinti rendezés kikapcsolása)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifynewsletter.xd" line="64"/>
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to use the default groups and privileges for Newsletter, set the groups accordingly.</string>
+		<translation>A hírlevél alapértelmezett csoportjai és jogosultságainak használatához, a csoportokat ennek megfelelően kell beállítani.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-modifyprivileges.xd" line="16"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&amp;nbsp;&amp;nbsp;firstname,lastname,email</string>
+		<translation>&amp;nbsp;&amp;nbsp;családnév,keresztnév,email</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-newimportaltsubscription.xd" line="21"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You are about to publish an issue.</string>
+		<translation>Biztosan kiadható a hírlevél?</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-publishissue.xd" line="48"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm publication of issue:</string>
+		<translation>A hírlevél kiadásának jóváhagyása:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-publishissue.xd" line="53"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Show all subscriptions for a publication:</string>
+		<translation>A hírlevél típushoz tartozó összes feliratkozás megtekintése:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-searchsubscription.xd" line="18"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Search by name:</string>
+		<translation>Név keresés:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-searchsubscription.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Search by email address:</string>
+		<translation>Email cím keresés:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-searchsubscription.xd" line="60"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Choose Publication:</string>
+		<translation>Hírlevél típus kiválasztása:</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-selectpublication.xd" line="10"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Select if you would like a publication received in HTML format.</string>
+		<translation>HTML formátumú kiadás kiválasztása.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/user-modifysubscription.xd" line="75"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Select if you would like the Newsletter received in HTML format.</string>
+		<translation>HTML formátumú hírlevél kiválasztása.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/user-newsubscription.xd" line="61"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Pubblication title</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-newpublication.xd" line="55"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Pubblication introduction</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-newpublication.xd" line="61"/>
+		</references>
+	</entry>
+	<entry>
+		<string>HTML Pubblication template</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-newpublication.xd" line="67"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Text Pubblication templete</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-newpublication.xd" line="73"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Subscribe to a Newsletter</string>
+		<translation>Feliratkozás a hírlevélre</translation>
+		<references>
+			<reference file="modules/newsletter/xaruser/newsubscription.php" line="32"/>
 		</references>
 	</entry>
 </translations>

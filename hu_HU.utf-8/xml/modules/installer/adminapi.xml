@@ -4,125 +4,16 @@
 		<string>Empty modName (#(1)) or name (#(2)).</string>
 		<translation>Üres „modName” (#(1)) vagy „name” (#(2)) paraméter.</translation>
 		<references>
-			<reference file="modules/installer/xaradminapi.php" line="73" />
+			<reference file="modules/installer/xaradminapi.php" line="74"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid Parameter Count</string>
 		<translation>Érvénytelen számú paraméter</translation>
 		<references>
-			<reference file="modules/installer/xaradminapi.php" line="206" />
-			<reference file="modules/installer/xaradminapi.php" line="244" />
-			<reference file="modules/installer/xaradminapi.php" line="278" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty database_name.</string>
-		<translation>Üres adatbázisnév.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown database type: '#(1)'.</string>
-		<translation>Ismeretlen adatbázistípus: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="77" />
-			<reference file="includes/xarTableDDL.php" line="174" />
-			<reference file="includes/xarTableDDL.php" line="289" />
-			<reference file="includes/xarTableDDL.php" line="343" />
-			<reference file="includes/xarTableDDL.php" line="416" />
-			<reference file="includes/xarTableDDL.php" line="471" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty tableName.</string>
-		<translation>Üres táblanév.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="99" />
-			<reference file="includes/xarTableDDL.php" line="204" />
-			<reference file="includes/xarTableDDL.php" line="310" />
-			<reference file="includes/xarTableDDL.php" line="366" />
-			<reference file="includes/xarTableDDL.php" line="438" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not array fields.</string>
-		<translation>Nem tömb mezők.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="105" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (must be an array, command key must be set).</string>
-		<translation>Érvénytelen paraméterek (tömb szükséges, a „command” elem pedig kötelező).</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="210" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
-		<translation>Érvénytelen index (tömb szükséges, a „fields” elem szintén tömb kell legyen, a „name” elem pedig kötelező).</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="372" />
-			<reference file="includes/xarTableDDL.php" line="444" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (field key must be set).</string>
-		<translation>Érvénytelen paraméterek (a „field” elem megadása kötelező).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="79" />
-			<reference file="includes/tableddl/datadict.php" line="121" />
-			<reference file="includes/tableddl/mysql.php" line="102" />
-			<reference file="includes/tableddl/mysql.php" line="163" />
-			<reference file="includes/tableddl/postgres.php" line="123" />
-			<reference file="includes/tableddl/postgres.php" line="167" />
-			<reference file="includes/tableddl/oracle.php" line="97" />
-			<reference file="includes/tableddl/oracle.php" line="143" />
-			<reference file="includes/tableddl/sqlite.php" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
-		<translation>Érvénytelen paraméterek („type”, „size”, „default”, „null”, „unsigned”, „increment” és „primary_key” megadása kötelező).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="86" />
-			<reference file="includes/tableddl/datadict.php" line="128" />
-			<reference file="includes/tableddl/mysql.php" line="178" />
-			<reference file="includes/tableddl/postgres.php" line="182" />
-			<reference file="includes/tableddl/oracle.php" line="158" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (new_name key must be set.)</string>
-		<translation>Érvénytelen paraméterek (a „new_name” elem megadása kötelező).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="107" />
-			<reference file="includes/tableddl/mysql.php" line="136" />
-			<reference file="includes/tableddl/postgres.php" line="140" />
-			<reference file="includes/tableddl/oracle.php" line="116" />
-			<reference file="includes/tableddl/sqlite.php" line="109" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown command: '#(1)'.</string>
-		<translation>Ismeretlen parancs („command”): „#(1)”.</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="148" />
-			<reference file="includes/tableddl/mysql.php" line="209" />
-			<reference file="includes/tableddl/postgres.php" line="202" />
-			<reference file="includes/tableddl/oracle.php" line="195" />
-			<reference file="includes/tableddl/sqlite.php" line="117" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
-		<translation>A módosítás jelenleg nem támogatja a következőket: „type”, „size”, „default”, „unsigned”, „increment” és „primary_key”.</translation>
-		<references>
-			<reference file="includes/tableddl/mysql.php" line="170" />
-			<reference file="includes/tableddl/postgres.php" line="174" />
-			<reference file="includes/tableddl/oracle.php" line="150" />
+			<reference file="modules/installer/xaradminapi.php" line="207"/>
+			<reference file="modules/installer/xaradminapi.php" line="245"/>
+			<reference file="modules/installer/xaradminapi.php" line="279"/>
 		</references>
 	</entry>
 </translations>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Owner module overview</string>
+		<translation>Tulajdonos modul - Áttekintés</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="3"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="6"/>
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="8"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The Owner module is a simple utility module, which has no
+direct user interface. The module operates entirely
+through the hooks system.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="14"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The functionality it provides is enabled by hooking the
+owner module into another module. By doing so, the hooks
+from this module will run when you create, update or
+display an item in those modules. (the modify and delete
+hooks are TODO )</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="21"/>
+		</references>
+	</entry>
+	<entry>
+		<string>On the create operation the owner module registers the user id
+from the account which creates an item and logs the
+module and item identification of that operation in the
+database. This information is also created when updating
+an item which does not have an owner yet.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="28"/>
+		</references>
+	</entry>
+	<entry>
+		<string>This means that for each item created in the hooked
+modules there is a linkage between the user account
+performing the operation and the module item to which it
+applied. This linkage &lt;em&gt;could&lt;/em&gt; be interpreted as
+ownership, but how the information is actually used is up
+to the creator of other modules.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The maintenance of the linkage, after you hook the owner
+module into another module is automatically performed by
+the module in cooperation with the hooks system.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="45"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The owner module API furthermore exposes a 'get' and a
+'getall' method to retrieve the &lt;em&gt;ownership&lt;/em&gt;
+information on a certain item of a specific itemtype in a
+particular module used in your application, which you can
+retrieve for further processing.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="52"/>
+		</references>
+	</entry>
+	<entry>
+		<string>That's it, plain and simple.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="57"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Ideas for further work</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="59"/>
+		</references>
+	</entry>
+</translations>

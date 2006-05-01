@@ -4,91 +4,112 @@
 		<string>Database Settings Collection</string>
 		<translation>Adatbázis beállítások</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
-		<translation>Adatbázis-beállítások meghatározása. Egyedi adatbázisszerver-kapu megadása a következő formában lehetséges: 'kiszolgáló:kapu' (pl.: 'localhost:12345').</translation>
+		<string>Enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>Az adatbázis beállításainak meghatározása. Egyedi adatbázisszerver-kapu megadása a következő formában lehetséges: „kiszolgáló:kapu” (pl.: „localhost:12345”).</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11"/>
 		</references>
 	</entry>
 	<entry>
-		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
+		<string>Note the following:</string>
+		<translation>Megjegyzések:</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="13"/>
+		</references>
+	</entry>
+	<entry>
+		<string>If you do not have root access to your database (due to virtual hosting etc), you will need to have a pre-existing database installed and configured before you proceed.</string>
 		<translation>Root jogosultság hiányában (pl.: ingyenes szolgáltatók vagy bérelt tárterületek) egy előre létrehozott adatbázisra van szükség a folytatás előtt.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="14" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="15"/>
 		</references>
 	</entry>
 	<entry>
-		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
-		<translation>FRISSITÉS: Másik Weblog vagy CMS rendszerről, vagy a Xaraya korrábi változatáról  történő frissítéshez egy szokásos Xaraya telepítés szükséges, majd ezután a frissítő programok futtatása.</translation>
+		<string>If you plan to use a SQLite or PostgreSQL database please ensure your database already exists before your proceed.</string>
+		<translation>SQLite vagy PostgreSQL adatbázis használata esetén a folytatás előtt készítsük el az adatbázist.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="16"/>
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan on &lt;strong&gt;upgrading&lt;/strong&gt; an existing Xaraya then please run the &lt;strong&gt;upgrade.php&lt;/strong&gt; script, not this install script.</string>
+		<translation>Ha &lt;strong&gt;frissíteni&lt;/strong&gt; szeretnénk egy meglévő Xaraya telepítést, az &lt;strong&gt;upgrade.php&lt;/strong&gt; programot futtassuk, ne ezt a telepítőt.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17"/>
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan to convert from another Weblog/CMS to Xaraya, first install Xaraya as normal and then run the appropriate import script to import your prior Weblog/CMS data.</string>
+		<translation>Ha egy másik Weblog vagy CMS rendszerről szereténk frissíteni egy szokásos Xaraya telepítés szükséges, majd ezután az importáló programok futtatása.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="18"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Database Information</string>
 		<translation>Adatbázis információk</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="22"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Host</string>
 		<translation>Kiszolgáló</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="27" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Database Name</string>
 		<translation>Adatbázis neve</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="48" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="49"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Table Prefix</string>
 		<translation>Tábla előtag</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="55" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="56"/>
 		</references>
 	</entry>
 	<entry>
 		<string>(for Table Sharing)</string>
 		<translation>(tábla megosztáshoz)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="59" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="60"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Database Type</string>
 		<translation>Adatbázis típusa</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="64" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="65"/>
 		</references>
 	</entry>
 	<entry>
 		<string>[not available]</string>
-		<translation>[nem elérhető]</translation>
+		<translation>[nem érhető el]</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="69" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="70"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Create the database</string>
-		<translation>Adatbázis létrehozása</translation>
+		<string>Create the database (MySQL only)</string>
+		<translation>Adatbázis létrehozása (csak MySQL esetén)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="84" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="85"/>
 		</references>
 	</entry>
 	<entry>
-		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
-		<translation>Ez a lehetőség meghatározza, hogy a telepítő hozzon e létre egy új adatbázist vagy csak a szükséges táblákat egy meglévő adatbázisban. Amennyiben a MySQL biztonsági beállításai miatt nincs jogosultságunk adatbázis létrehozásara  (pl. phpMyAdmin-ból sem), erre a telepítő sem lesz képes. Egy előre elkészített (pl. üres) adatbázisban azonban létrehozza a szükséges táblákat.</translation>
+		<string>If checked, this Create the Database option allows the install process to create an empty database for you rather than just populating an existing one. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will &lt;strong&gt;not&lt;/strong&gt; be able to create the database for you. It will be able to populate an already existing database.</string>
+		<translation>Ez a lehetőség meghatározza, hogy a telepítő hozzon e létre egy új adatbázist vagy csak a szükséges táblákat egy meglévő adatbázisban. Amennyiben a MySQL biztonsági beállításai miatt nincs jogosultságunk adatbázis létrehozásara (pl. phpMyAdmin-ból sem), erre a telepítő sem lesz képes. Egy előre elkészített (pl. üres) adatbázisban azonban létre tudja hozni a szükséges táblákat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="88" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="89"/>
 		</references>
 	</entry>
 </translations>

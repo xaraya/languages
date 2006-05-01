@@ -4,274 +4,295 @@
 		<string>The Newsletter module allows an individual or organization to compile and distribute news and research updates to interested parties via email. This module gives writers, editors, and publishers a comprehensive process to easily assemble the stories for a newsletter and subsequently publish the information to a subscription base.</string>
 		<translation>A Hírlevelek modul személyek vagy szervezetek számára biztosít lehetőséget, hogy híreket és kutatási eredményeket juttassak el az érdeklődőknek e-mailben. A modul a szerzőknek, szerkesztőknek és a kiadóknak átfogó lehetőséget biztosít a hírek hírlevélként való összeszerkesztésére és azok publikálására a feliratkozott személyek felé.</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="23" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="13"/>
+		</references>
+	</entry>
+	<entry>
+		<string>to distribute weekly updates on the program and research areas relevant to the foundation's learning differences and human services programs and initiatives.</string>
+		<translation>hozta létre.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;Note:&lt;/b&gt; This overview is focused on the administrative tasks that must be performed before a publication can be created. For an overview of Newsletter, please refer to the overview in the main menu.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="35" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="22"/>
 		</references>
 	</entry>
 	<entry>
 		<string>As the module administrator, you will need to complete the following steps before you can start using the Newsletter module:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="39" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="26"/>
 		</references>
 	</entry>
 	<entry>
 		<string>1. Configure Roles and Privileges</string>
 		<translation>1. Szerepek és jogosultságok beállítása</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="41" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
 		<string>As the module administrator, you must configure the necessary roles and privileges for the Newsletter publishers, editors and writers. You can create the groups and privileges manually or can you use the administration modify configuration menu to easily create the default groups and privileges. After these groups and privileges have been created, you can then add a user to the publisher, editor or writer group.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="43" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="30"/>
 		</references>
 	</entry>
 	<entry>
 		<string>To add the groups and privileges, select Modify Config from the Newsletter administration menu followed by the Modify Privileges tab. By default, the groups are assigned to the Everybody role. You can select the default groups and privileges to be created or you can set which role to assign these groups and change the default privilege for each group.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="45" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="32"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;NewsletterPublisher&lt;/b&gt; (AdminNewsletter privilege)</string>
 		<translation>&lt;b&gt;HírlevélKiadó&lt;/b&gt; (HírlevélAdmin jogosultság)</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="49" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="36"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Can create, edit and delete stories, issues, publications and subscriptions. Can publish issues. Can modify the configuration of the module.</string>
+		<translation>Létrehozhat, szerkeszthet és törölhet híreket, hírleveleket, hírlevél típusokat és feliratkozásokat. Kiadhat hírlevelet. Módosíthatja a modul beállításait.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="37"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;NewsletterEditor&lt;/b&gt; (DeleteNewsletter privilege)</string>
 		<translation>&lt;b&gt;HírlevélSzerkesztő&lt;/b&gt; (HírlevélTörlés jogosultság)</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="52" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Can create, edit and delete stories or issues. Cannot publish issues.</string>
+		<translation>Létrehozhat, szerkeszthet és törölhet híreket vagy hírleveleket. Nem adhat ki hírlevelet.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="39"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;NewsletterWriter&lt;/b&gt; (AddNewsletter privilege)</string>
 		<translation>&lt;b&gt;HírlevélIró&lt;/b&gt; (HírlevélHozzáadás jogosultság)</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="55" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="40"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Once the groups and privileges are created, you do not need to modify the privileges again unless you want to change the privilege of a group.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="59" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="43"/>
 		</references>
 	</entry>
 	<entry>
 		<string>2. Add a Newsletter user</string>
 		<translation>2. Hírlevél felhasználó hozzáadás</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="63" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="48"/>
 		</references>
 	</entry>
 	<entry>
 		<string>After the Newsletter groups and privileges have been successfully created, you can add users to these groups. Select the Modify Users tab from the Modify Config administrative menu. This will display a list of currently assigned users and allow you to add a new user. Select the user to add and the group that the user will inherit privileges from. Once a user has been added to the appropriate group, that user will have writer, editor or publisher privileges and will be able to start creating content for a publication.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="65" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="49"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;Note:&lt;/b&gt; You will not be able to create a publication until at least one user is added to the Newsletter Publisher group.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="67" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="51"/>
 		</references>
 	</entry>
 	<entry>
 		<string>3. Add publication and story categories</string>
 		<translation>3. Hírlevél típus és hír kategória hozzáadás</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="71" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="56"/>
 		</references>
 	</entry>
 	<entry>
-		<string>When the module is first activated, a category named &quot;Newsletter&quot; is created. You must create sub-categories of this master category before a publication can be created. Each sub-category of &quot;Newsletter&quot; will be a publication category. Under each publication category, you will want to create another set of categories corresponding to the story categories for each publication.</string>
+		<string>When the module is first activated, a category named "Newsletter" is created. You must create sub-categories of this master category before a publication can be created. Each sub-category of "Newsletter" will be a publication category. Under each publication category, you will want to create another set of categories corresponding to the story categories for each publication.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="73" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="58"/>
 		</references>
 	</entry>
 	<entry>
 		<string>For example:</string>
 		<translation>Például:</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="75" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="60"/>
 		</references>
 	</entry>
 	<entry>
-		<string>master category</string>
-		<translation>alap kategória</translation>
+		<string>Master category</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="81" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="66"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Learning Differences</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="86" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="71"/>
 		</references>
 	</entry>
 	<entry>
 		<string>publication category</string>
 		<translation>hírlevél típus kategória</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="87" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="116" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="72"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="101"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LD Experts in the News</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="92" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="77"/>
 		</references>
 	</entry>
 	<entry>
 		<string>story category</string>
 		<translation>Hír kategória</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="93" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="99" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="105" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="111" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="122" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="128" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="134" />
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="140" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="78"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="84"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="90"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="96"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="107"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="113"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="119"/>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="125"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Education / Schools</string>
 		<translation>Oktatás / Iskolák</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="98" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="83"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Successful People</string>
 		<translation>Sikeres ember</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="104" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="89"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Controversial Treatment</string>
 		<translation>Ellentmondásos elbánás</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="110" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="95"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Internet Technology</string>
 		<translation>Internet technológia</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="115" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="100"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Design and Architecture</string>
 		<translation>Koncepció és építészet</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="121" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="106"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Emerging Technologies</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="127" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="112"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Networks and Infrastructure</string>
 		<translation>Hálózat és infrastruktúra</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="133" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="118"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Standards and Practices</string>
 		<translation>Alapok és gyakorlatok</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="139" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="124"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;Note:&lt;/b&gt; The stories within a publication will ordered in the same order as the story categories, so place the story categories accordingly.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="144" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="128"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
-		<translation></translation>
+		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="150" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="132"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The following blocks are included:</string>
 		<translation>A blokkok tartalma:</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="154" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="134"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;b&gt;information&lt;/b&gt; - This block provides the following:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="156" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="136"/>
 		</references>
 	</entry>
 	<entry>
-		<string>- General information about the publications that a user can subscribe to. This information is created in the Newsletter user modify configuration screen in the text fields &quot;Publisher or Company Name&quot; and &quot;Information about Newsletter&quot;</string>
+		<string>general information about the publications that a user can subscribe to. This information is created in the Newsletter user modify configuration screen in the text fields "Publisher or Company Name" and "Information about Newsletter"</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="157" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="138"/>
 		</references>
 	</entry>
 	<entry>
-		<string>- Allows non-registered users to view past issues.</string>
+		<string>allows non-registered users to view past issues</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="158" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="139"/>
 		</references>
 	</entry>
 	<entry>
-		<string>- Allows logged in users to modify their subscription(s) to the publications.</string>
+		<string>allows logged in users to modify their subscription(s) to the publications</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="159" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="140"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
-		<translation>Hurkok tartalma</translation>
+		<translation>Kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="165" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="145"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Newsletter provides all the necessary hooks to be present within other modules. But these hooks have not been thoroughly tested.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="169" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="148"/>
 		</references>
 	</entry>
 </translations>

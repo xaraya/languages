@@ -4,29 +4,29 @@
 		<string>Display a Dynamic Example</string>
 		<translation>Dinamikus minta megjelenítése</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="8" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="7"/>
 		</references>
 	</entry>
 	<entry>
 		<string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string>
 		<translation>1. MEGKÖZELÍTÉS: A  &amp;lt;xar:data-display ...&amp;gt; kulcsszó</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="10" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="9"/>
 		</references>
 	</entry>
 	<entry>
 		<string>This tag will automatically retrieve the item from DynamicData,
-and present it according to its standard objects/showdisplay.xd template.</string>
+and present it according to its standard &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; template.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13"/>
 		</references>
 	</entry>
 	<entry>
 		<string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string>
 		<translation>2. MEGKÖZELÍTÉS: A  &amp;lt;xar:data-getitem ...&amp;gt; kulcsszó</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="23" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="24"/>
 		</references>
 	</entry>
 	<entry>
@@ -34,51 +34,57 @@ and present it according to its standard objects/showdisplay.xd template.</strin
 make them available in the 'properties' variable in your template.</string>
 		<translation>Ez a kulcsszó betölti az elemet a Dinamikus Adatokból és elérhetővé teszi a „properties” változóban az adott sablonfájlban.</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="26" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
-		<string>You can then use that variable to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
-		<translation>Ez a változót használhatjuk az adatok tetszőleges megjelenítésére. A &amp;lt;xar:data-label ...&amp;gt; és a &amp;lt;xar:data-output ...&amp;gt; kulcsszavak segítségével elérhető az adathoz tartozó címke illetve érték.</translation>
+		<string>You can then use that variable to build your own layout.
+The &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; tags
+allow you to show individual labels or value outputs in the template.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="30" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="36"/>
 		</references>
 	</entry>
 	<entry>
 		<string>let's be bold now</string>
 		<translation>legyen vastagbetűs</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="40" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="67" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="89" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="47"/>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="79"/>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="104"/>
 		</references>
 	</entry>
 	<entry>
 		<string>APPROACH # 3 : getting the object via API</string>
 		<translation>3. MEGKÖZELÍTÉS:</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="51" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="58"/>
 		</references>
 	</entry>
 	<entry>
-		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt; to let DynamicData handle the display. Or you can use &amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; if you want to provide your own display template in this module :</string>
+		<string>After retrieving the object via API, you can pass along the whole object to
+the template and use &lt;code&gt;&amp;lt;xar:data-display object="$object" /&amp;gt;&lt;/code&gt; to let
+DynamicData handle the display. Or you can use &lt;code&gt;&amp;lt;xar:data-display object="$object" tplmodule="dyn_example" /&amp;gt;&lt;/code&gt;
+if you want to provide your own display template in this module :</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="53" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="64"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string>
-		<translation></translation>
+		<translation>Illetve átadhatjuk a mezőket és értékeiket, amelyet a 2. megközelítés szerint használhatunk.</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="57" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="69"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Notice for instance that you don't get the option to automatically display the image with &amp;lt;xar:data-output ... &amp;gt; or not here.</string>
-		<translation>Vegyük észre, hogy például a kép megjelenítése nem automatikusan történik a &amp;lt;xar:data-output ... &amp;gt; segítségével, vagy legalábbis nem itt.</translation>
+		<string>Notice for instance that you don't get the option to automatically display
+the image with &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; or not here.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="98" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="115"/>
 		</references>
 	</entry>
 </translations>

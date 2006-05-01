@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Choose the combination of events and calendars for privilege '#(1)'</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="10"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Calendar ID</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="24"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Organizer</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="46"/>
+		</references>
+	</entry>
+	<entry>
+		<string>All / Other --&amp;gt;</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="51"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Event</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="66"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Enter event number</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="69"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Access Level</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="78"/>
+		</references>
+	</entry>
+	<entry>
+		<string>No Access</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="85"/>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="89"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Read</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="103"/>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="107"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Admin</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="139"/>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="143"/>
+		</references>
+	</entry>
+	<entry>
+		<string>There are #(1) events matching these selection criteria at the moment</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="157"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Some examples : (assuming your users have read access by default)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="168"/>
+		</references>
+	</entry>
+	<entry>
+		<string>In order to allow 'Friends' to submit events (and only that), define a privilege 'AddJulianEvent' (or whatever name you prefer), and access level "Add" above.
+Press "Finish and Apply to Privilege", and then assign that privilege to the 'Friends' role.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="171"/>
+		</references>
+	</entry>
+	<entry>
+		<string>When you want users to add events, and have them also edit or delete their own, then use the organizer (submitter) role 'Myself'. Eg All:Myself:All:All and an access level of 'Delete' will give users Delete rights to all events in all categories that they have added themselves.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="173"/>
+		</references>
+	</entry>
+	<entry>
+		<string>In order to stop 'Strangers' from viewing Events, define some privilege 'DenyJulianEvents' (instance All:All:All:All) and access level "No Access". Then assign that privilege to the 'Strangers' role.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="175"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Note: if you want to deny access to all events in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the Julian map and categories navigation as well.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="180"/>
+		</references>
+	</entry>
+</translations>

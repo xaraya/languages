@@ -4,8 +4,77 @@
 		<string>Unable to load #(1) #(2) API</string>
 		<translation>Nem sikerült betölteni a(z) #(1) #(2) API-t.</translation>
 		<references>
-			<reference file="modules/pubsub/xaradminapi/getall.php" line="33" />
-			<reference file="modules/pubsub/xaradminapi/getq.php" line="41" />
+			<reference file="modules/pubsub/xaradminapi/getall.php" line="33"/>
+			<reference file="modules/pubsub/xaradminapi/getq.php" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Unable to load #(1) #(2) API</string>
+		<translation>Nem sikerült betölteni a(z) #(1) #(2) API-t.</translation>
+		<references>
+			<reference file="modules/pubsub/xaradminapi/getall.php" line="33"/>
+			<reference file="modules/pubsub/xaradminapi/getq.php" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;The pubsub module should be hooked to the categories module first, so that your users can subscribe to events concerning a particular category.&lt;/p&gt;
+&lt;p&gt;Then you should enable the pubsub hooks for any other module (e.g. articles) where you want to send out create/update/delete notifications to your users.&lt;/p&gt;
+&lt;p&gt;And finally you should specify which templates to use for each module and how often events should be processed in "Modify Configuration".&lt;/p&gt;</string>
+		<translation>&lt;p&gt;A Feliratkozás modult először a Kategóriák modulhoz kell csatolni, ez biztosít lehetőséget a kategóriákhoz kapcsolódó eseményekre való feliratkozásra.&lt;/p&gt; &lt;p&gt;Ezután kell a Feliratkozás modult más modulokhoz csatolni, mint például a Cikkek, ahol ki szeretnénk küldeni a felvétel, szerkesztés vagy törlés értesítőket a látogatóknak.&lt;/p&gt; &lt;p&gt;Végül, a Beállítások menüben modulonként meg kell szerkeszteni a kiküldendő értesítések levélsablonjait, és meg kell határozni, hogy az események milyen sűrűn kerüljenek feldolgozásra.&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="28"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>További információk a modulról:</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="48"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
+		<translation>&lt;b&gt;Leírás:&lt;/b&gt; Először kapcsoljuk a Feliratkozás modult más modulokhoz és elemtípusokhoz, majd itt határozzuk meg az elem felvételekor, szerkesztésekor és törlésekor használandó levélsablonokat. A sablon "nem támogatott"-ra történő állításával az adott esemény bekövetkeztéről a látogatók nem kapnak értesítést.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="36"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Create Hook Calls</string>
+		<translation>Sablon a létrehozás műveletekhez</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="43"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Update Hook Calls</string>
+		<translation>Sablon a szerkesztés műveletekhez</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="57"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Delete Hook Calls</string>
+		<translation>Sablon a törlés műveletekhez</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="71"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string>
+		<translation>&lt;b&gt;Leírás:&lt;/b&gt; Az igényelt események feldolgozásához az Ütemező modult kell telepíteni. Ezután itt meghatározható hogy az események milyen sűrűn kerüljenek feldolgozásra.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="90"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Subscription Summary</string>
+		<translation>Feliratkozások áttekintése</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="5"/>
 		</references>
 	</entry>
 </translations>

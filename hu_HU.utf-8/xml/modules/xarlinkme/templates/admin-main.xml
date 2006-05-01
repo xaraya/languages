@@ -1,77 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
 	<entry>
+		<string>XarLinkMe Administration</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="4"/>
+		</references>
+	</entry>
+	<entry>
 		<string>What is it?</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="13"/>
 		</references>
 	</entry>
 	<entry>
-		<string>is a simple script to display your site's banners, and allow others to link to
-your site with them.</string>
+		<string>is a script to display your site's banners, and allow others to link to
+your site with them. Currently the implementation is rudimentary but useful for those that want a page with links to 'official' site banners.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Displays the image of each of your site's banners.</string>
+		<string>Displays each of your site's 'official' banners with optional display of banner and link HTML code for users (optional config).</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="16" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="20"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Provides a text box containing the HTML to display the banner and link to your site.</string>
+		<string>Simple client banner management options are currently in progress/TODO.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Provides instructions to users for linking to your site with one of your banners</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>NOTE:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>This module currently serves the banners directly from your web server.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="21" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="21"/>
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
-		<translation></translation>
+		<translation>Hogyan kell használni?</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="25" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="24"/>
 		</references>
 	</entry>
 	<entry>
-		<string>There is one main option for administration - Modify Configuration. Prior to configuration, prepare your banner files and
-directory:</string>
+		<string>From the existing Admin menu options, only &lt;strong&gt;Modify Config&lt;/strong&gt; menu option provides two working areas:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="30" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="26"/>
+		</references>
+	</entry>
+	<entry>
+		<string>General Options - where you can set short URL and general module options</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="28"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Site Linking Config - where you can set specific features for your LinkMe page</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="29"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The additional Site Banner Link and Client Banners management links are in progress/todo.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="31"/>
+		</references>
+	</entry>
+	<entry>
+		<string>To use the existing functionality for site linking:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="33"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Copy all of your site's banners into a directory which is in your web site path. This is the banner image directory
 that you can specify in the configuration setup. By default it is set to a subdirectory of the xarimages directory in the xarLinkMe
-directory.</string>
+directory. Change as required.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="37"/>
 		</references>
 	</entry>
 	<entry>
@@ -79,77 +92,140 @@ directory.</string>
 as well.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="36" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="39"/>
 		</references>
 	</entry>
 	<entry>
 		<string>When naming your banner image files, give them a descriptive name, usually including the dimensions of the banner eg</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="40"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Fill in the required information in the Modify Configuration Option</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="39" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="42"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Go to the&amp;nbsp;</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="43"/>
 		</references>
 	</entry>
 	<entry>
 		<string>user view of xarLinkMe</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="43"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&amp;nbsp;to see the resulting banner list.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="41" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="44"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
-		<translation></translation>
+		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="48" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="47"/>
 		</references>
 	</entry>
 	<entry>
-		<string>There are no blocks included.</string>
+		<string>There are no blocks included. A client banner block is in progress</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="52" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="49"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
-		<translation></translation>
+		<translation>Kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="53"/>
 		</references>
 	</entry>
 	<entry>
 		<string>This module has no hooks provided.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="62" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="54"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation></translation>
+		<string>Further Information</string>
+		<translation>További információk</translation>
 		<references>
-			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="68" />
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="56"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the xarLinkMe module can be found at</string>
+		<translation>További információk a modulról:</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="58"/>
+		</references>
+	</entry>
+	<entry>
+		<string>xarLinkMe Extension page at</string>
+		<translation>A xarLinkMe modul bővítmény oldala</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="61"/>
+		</references>
+	</entry>
+	<entry>
+		<string>xarLinkMe Module - Xaraya Extension 889</string>
+		<translation>xarLinkMe modul - Xaraya bővítmény: 889</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="61"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="62"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on xarLinkMe found at</string>
+		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="64"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on xarLinkMe</string>
+		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="64"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation</string>
+		<translation>Xaraya dokumentáció.</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="64"/>
+		</references>
+	</entry>
+	<entry>
+		<string>xarLinkMe Module - Overview</string>
+		<translation>xarLinkMe modul - Áttekintés</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="68"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Változat</translation>
+		<references>
+			<reference file="modules/xarlinkme/xartemplates/admin-main.xd" line="68"/>
 		</references>
 	</entry>
 </translations>

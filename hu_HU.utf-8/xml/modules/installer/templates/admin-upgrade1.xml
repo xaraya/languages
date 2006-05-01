@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
+	<entry>
+		<string>Welcome to Xaraya Upgrade</string>
+		<translation>Üdvözli a Xaraya frissítő</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="5"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Ensure you have reviewed the UPGRADE.txt file or the &lt;a href="#(1)"&gt;Xaraya Upgrade Guidelines&lt;/a&gt;, and relevant
+comments for your version upgrade before continuing.</string>
+		<translation>Folytatás előtt olvassuk el az „UPGRADE.txt” fájlt, vagy a &lt;a href="#(1)"&gt;Xaraya frissítési útmutatót&lt;/a&gt;, és az akutális változathoz tartozó frissítési javaslatokat.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="20"/>
+		</references>
+	</entry>
+	<entry>
+		<string>This upgrade process updates your database and some system files but &lt;strong&gt;cannot upgrade&lt;/strong&gt; your theme and templates!</string>
+		<translation>A frissítő képes az adatbázis és néhány rendszerfájl frissítésére, de &lt;strong&gt;nem kezeli&lt;/strong&gt; a grafikai témákat és sablonfájlokat!</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="25"/>
+		</references>
+	</entry>
+	<entry>
+		<string>To ensure a quick and smooth upgrade, please check and address the following important theme and template considerations &lt;strong&gt;before&lt;/strong&gt; continuing.</string>
+		<translation>A problémamentes frissítés érdekében, a folytatás előtt ellenőrizzük és végezzük el a grafikai témákkal és sablonfájlokkal kacsolatos tennivalókat.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="30"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The Adminpanels module has been deprecated as of Version 1.1 and no longer available. The blocks have been moved to the Base module.</string>
+		<translation>Az 1.1-es változattól az Adminpanelek modul megszűnt. A kapcsolódó blokkok az Alap modulban érhetőek el.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="34"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Please check your theme templates for use of any Adminpanel module references. You will need to change references to &lt;strong&gt;adminpanels&lt;/strong&gt; in your theme or templates
+to &lt;strong&gt;base&lt;/strong&gt; module. Remember particularly to change 'adminmenu' and 'waiting content' blocks tags to refer now to the base module, and update other Adminpanels links.</string>
+		<translation>A sablonfájljainkból távolítsuk el az esetleges Adminpanel hivatkozásokat. Ezeket a hivatkozásokat &lt;strong&gt;adminpanels&lt;/strong&gt;-ről &lt;strong&gt;base&lt;/strong&gt;-re kell cserélni. Ennek megfelelően frissítsük az „adminmenu” és „waiting content” blokkokra való hivatkozásokat és az egyéb Adminpanel referenciákat is.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="37"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Make sure your Adminpanel block templates for any compact menu block, adminmenu or waiting content blocks are also moved to &lt;strong&gt;modules/base&lt;/strong&gt; directory in your theme.</string>
+		<translation>Az Adminpanel blokkokhoz (compact menu, adminmenu, waiting content) tartozó saját sablonfájljainat is helyezzük át a grafikai témánk &lt;strong&gt;modules/base&lt;/strong&gt; könyvtárába.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The core login block and function in Roles module has been moved as of Version 1.1 to the
+Authsystem Module at</string>
+		<translation>Az alaprendszer bejelentkezési blokkja a Szerepkörök modulból (a Xaraya 1.1-es változatától) az Authsystem Azonosítási Rendszer modulba került, így az új címe:</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="42"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You should be aware of the change but can still browse to</string>
+		<translation>Fontos megjegyezni ezt a változást, de még mindig használhatjuk az</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="43"/>
+		</references>
+	</entry>
+	<entry>
+		<string>You may wish to note the URL in case of problems logging in.</string>
+		<translation>Érdemes felírni az új címet, az esetleges bejelentkezési problémák elkerülésére.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="44"/>
+		</references>
+	</entry>
+	<entry>
+		<string>If you allow User Registration on your site, you must ensure you have the &lt;strong&gt;Registration module&lt;/strong&gt; in your Xaraya module directory,
+install, and configure it to continue user registration on your site as from Version 1.1 .</string>
+		<translation>Amennyiben a weboldalon engedélyeztük a felhasználók regisztrációját, ellenőrizzük, hogy a &lt;strong&gt;Regisztráció modul&lt;/strong&gt; megalálható a Xaraya modulok könyvtárában. Telepítsük a modult és állítsuk be az igényeinknek megfelelően, hogy a regisztráció a Xaraya 1.1 változatában is elérhető legyen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="48"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The Country Listing Dynamic Data property has changed templates in Version 1.1 to refer to ID as value
+instead of Name. If you have been using this DD property, you will have to override the template to
+continue to use Name as the value.</string>
+		<translation>Az Ország Lista dinamikus adatmező működése megváltozott a Xaraya 1.1 változattól. A lenyíló mező értékeként („value=”) azonosító szerepel, a korábban használt nevek helyett. Ha használtuk ezt a mezőt, bíráljuk felül a sablonfájlját, hogy továbbra is az országnév szerepelhessen a mező értékeként.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="54"/>
+		</references>
+	</entry>
+</translations>

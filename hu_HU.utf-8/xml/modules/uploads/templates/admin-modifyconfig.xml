@@ -4,14 +4,28 @@
 		<string>Modify Uploads Configuration</string>
 		<translation>Feltöltések beállításai</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="9" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="10"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Upload Options</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="17"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Full path to your upload directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="20"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Uploads Directory</string>
 		<translation>Feltöltési könyvtár</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="16" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="21"/>
 		</references>
 	</entry>
 	<entry>
@@ -20,14 +34,21 @@ It is stronly recommended that this directory be located outside of your web dir
 &lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
 		<translation>A feltöltött vagy külső importálásból származó fájlok célkönyvtárának teljes útvonala. Erősen javasolt, hogy ez a könyvtár a weben elérhető könyvtárakon kívül helyezkedjen el.&lt;br /&gt;Megjegyzés: A könyvtárnak a webszerver által írhatónak KELL lennie.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="23" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Full path to the local trusted directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="33"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Trusted Directory:</string>
 		<translation>Megbízható könyvtár:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="36"/>
 		</references>
 	</entry>
 	<entry>
@@ -38,14 +59,22 @@ that this directory be located outside of your web directory.
 &lt;br /&gt;NOTE: This directory MUST be readable and should also be writable by the webserver.</string>
 		<translation>A helyi megbízható könyvtár teljes útvonala. A fájlok ebben a könyvtárban azonnal elérhetőek lesznek a felhasználók számára hogy más objektumokhoz csatolják (pl.: cikkek). Az ebben a könyvtárban található fájlok nem tartoznak bele a modul lemezfoglaltsági számításaiba. Erősen javasolt, hogy ez a könyvtár a weben elérhető könyvtárakon kívül helyezkedjen el.&lt;br /&gt;Megjegyzés: A könyvtárnak a webszerver által olvashatónak KELL lennie, de írási jogosultság is javasolt.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="39" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="46"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Maximum Upload Size in bytes (commas are fine):</string>
-		<translation>Maximális feltöltés mérete bájtokban (vessző megengedett):</translation>
+		<string>Auto approve files</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="45" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="50"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Maximum Upload Size :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53"/>
 		</references>
 	</entry>
 	<entry>
@@ -54,88 +83,102 @@ NOTE: The server wide PHP setting, if set to a lower value, &lt;em&gt;will&lt;/e
 Please ask your web host provider for details on the settings that they use for uploaded files.</string>
 		<translation>A legnagyobb feltölthető fájl mérete&lt;br/&gt;Megjegyzés: Amennyiben a kiszolgáló PHP beállítása egy kisebb értéket határoz meg, az &lt;em&gt;érvényteleníti&lt;/em&gt; az itt megadott értéket. A kiszolgálón beállított értékekről az adminisztrátor tud további felvilágosítással szolgálni.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Auto approve files added by:</string>
 		<translation>Fájlok automatikus jóváhagyása a következőktől:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="59" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="69"/>
 		</references>
 	</entry>
 	<entry>
 		<string>No one</string>
 		<translation>Senki</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="70" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="76"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="80"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Everyone</string>
 		<translation>Mindenki</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="64" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="68" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="74"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="78"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="82"/>
 		</references>
 	</entry>
 	<entry>
 		<string>This option allows you to make all newly added files' status set to approved for Everyone (not recommended), Admins only, or No One.</string>
 		<translation>Ez a lehetőség a feltöltött fájlokat automatikusan a „jóváhagyott” állapotba helyezi mindenkitől (nem javasolt), az adminisztrátoroktól, vagy nem történik automatikus jóváhagyás.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="77" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="87"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm deletion of files</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="91"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Confirm deletion of files:</string>
 		<translation>Fájlok törlésének jóváhagyása:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="84" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="94"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Yes</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="88" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="91" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="107" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="110" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="127" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="130" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="145" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="148" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="100"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="116"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="119"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="137"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="140"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="156"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159"/>
 		</references>
 	</entry>
 	<entry>
 		<string>No</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="89" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="92" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="108" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="111" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="128" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="131" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="146" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="149" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="98"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="101"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="117"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="120"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="138"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="141"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="157"/>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="160"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Confirmation must be provided before files are deleted.</string>
 		<translation>A törlés végrehajtása előtt jóváhagyás szükséges.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="106"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Auto purge files marked as 'rejected':</string>
-		<translation>„Kidobott” fájlok automatikus törlése.</translation>
+		<string>Auto purge files marked as rejected</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="103" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="110"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Auto purge 'rejected' files:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="113"/>
 		</references>
 	</entry>
 	<entry>
@@ -144,104 +187,138 @@ the 'Purge Rejected' button located on the &lt;em&gt;Admin-&gt;Uploads-&gt;View 
 option forces any file you set to 'rejected' status to be deleted right away.</string>
 		<translation>Alapállapotban, a fájlok kidobásakor manuálisan törölni kell azokat a „Kidobott fájlok törlése” gombbal, az &lt;em&gt;Adminisztrálás-&gt;Feltöltések-&gt;Feltöltések megjelenítése&lt;/em&gt; oldalon. Ez a lehetőség a fájlok kidobáskor történő automatikus törlését teszi lehetővé.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="118" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="127"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Obfuscate/Secure Imported Files:</string>
-		<translation>Importált fájlok titkosítása/összezavarása</translation>
+		<string>Obfuscate/Secure Imported Files</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="124" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="131"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Secure Imported Files:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="134"/>
 		</references>
 	</entry>
 	<entry>
 		<string>If Yes, imported files will be stored with their original names obfuscated for added security.</string>
 		<translation>Bekapcsolásakor az importált fájlok neve összezavarva kerül tárolásra a nagyobb biztonság érdekében.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="136" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="146"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Obfuscate/Secure Uploaded Files:</string>
-		<translation>Feltöltött fájlok titkosítása/összezavarása</translation>
+		<string>Obfuscate/Secure Uploaded Files</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="142" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="150"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Secure Uploaded Files:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="153"/>
 		</references>
 	</entry>
 	<entry>
 		<string>If Yes, uploaded files will be stored with their original names obfuscated for added security.
 &lt;br /&gt;
-&lt;strong style=&quot;color: red;&quot;&gt;NOTE:&lt;/strong&gt;Setting this option to 'No' can open a possible route for users
+&lt;strong style="color: red;"&gt;NOTE:&lt;/strong&gt;Setting this option to 'No' can open a possible route for users
 to upload and run malicious scripts on your site. It is &lt;strong&gt;highly&lt;/strong&gt;
 recommended that you leave this option on unless you have a thorough understanding
 of the implications behind turning it off.</string>
-		<translation>Bekapcsolásakor az feltöltött fájlok neve összezavarva kerül tárolásra a nagyobb biztonság érdekében. &lt;br /&gt; &lt;strong style=&quot;color: red;&quot;&gt;Megjegyzés:&lt;/strong&gt; Az összezavarás kikapcsolása lehetőséget adhat felhasználóknak rosszindulatú programok feltöltésére a kiszolgálóra! &lt;strong&gt;Erősen&lt;/strong&gt; javasolt az összezavarás bekapcsolása, hacsak nem teljesen tisztában vagyunk a veszélyeivel és vállaljuk azt.</translation>
+		<translation>Bekapcsolásakor az feltöltött fájlok neve összezavarva kerül tárolásra a nagyobb biztonság érdekében. &lt;br /&gt; &lt;strong style="color: red;"&gt;Megjegyzés:&lt;/strong&gt; Az összezavarás kikapcsolása lehetőséget adhat felhasználóknak rosszindulatú programok feltöltésére a kiszolgálóra! &lt;strong&gt;Erősen&lt;/strong&gt; javasolt az összezavarás bekapcsolása, hacsak nem teljesen tisztában vagyunk a veszélyeivel és vállaljuk azt.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="170"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Reaction to Duplicate Filenames:</string>
+		<string>Reaction to Duplicate Filenames</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="165" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="174"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Allow Duplicate Filenames?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="177"/>
 		</references>
 	</entry>
 	<entry>
 		<string>No upload allowed</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="168" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="180"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Save as new version</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="169" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="181"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Replace original</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="170" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="182"/>
 		</references>
 	</entry>
 	<entry>
-		<string>For new version, files with the same name of existing files will be stored alongside the originals.
-&lt;br /&gt;</string>
+		<string>For new version, files with the same name of existing files will be stored alongside the originals.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="186" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="197"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Cache trusted file information</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="201"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Cache trusted file information:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="192" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="204"/>
 		</references>
 	</entry>
 	<entry>
 		<string>seconds</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="195" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="207"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Items per page in admin view</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="210"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Items per page in admin view:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="201" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="213"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Dynamic File Upload Property Configuration</string>
 		<translation>Dinamikus fájl feltöltési mező beállításai</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="207" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="223"/>
 		</references>
 	</entry>
 	<entry>
@@ -250,56 +327,70 @@ These settings only take effect if you have 'hooked' the uploads module to the m
 FileUpload property.</string>
 		<translation>Ezekkel a beállításokkal a Fájl Feltöltés Dinamikus Adatmező bizonyos tulajdonságait befolyásolhatjuk. Ezek csak akkor lépnek érvénybe, ha a Fájl Feltöltés mezőt használó modulhoz a Feltöltések modult hurokkal kapcsoljuk.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="214" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="230"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Select available file sources for the FileUpload Property:</string>
-		<translation>A Fájl Feltöltés által elérhető források</translation>
+		<string>Select file sources for the FileUpload Property:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="219" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="236"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Note: be sure to choose at &lt;strong&gt;least&lt;/strong&gt; one!</string>
 		<translation>Megjegyzés: &lt;strong&gt;Legalább&lt;/strong&gt; az egyik lehetőséget be kell jelölni!</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="224" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="242"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Files located in the Trusted directory</string>
 		<translation>A megbízható könyvtárban található fájlok</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="235" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="253"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Externally located files (http / ftp / file)</string>
 		<translation>Külső fájlok (http / ftp / file)</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="247" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="265"/>
 		</references>
 	</entry>
 	<entry>
 		<string>User uploaded files</string>
 		<translation>Felhasználók által feltöltött fájlok</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="259" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="276"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Files previously stored</string>
 		<translation>Korábban tárolt fájlok</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="271" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="286"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Hook configuration for uploaded files</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="277" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="294"/>
+		</references>
+	</entry>
+	<entry>
+		<string>No hooks configured.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="302"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Configure hooks now</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="303"/>
 		</references>
 	</entry>
 </translations>

@@ -5,22 +5,135 @@
 - SiteContact</string>
 		<translation>Kapcsolatfelvétel adminisztrálása</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="5" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="5"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Extended information about this module can be found
-at &lt;a href=&quot;http://xaraya.athomeandabout.com&quot; title=&quot;http://xaraya.athomeandabout.com&quot; target=&quot;_blank&quot;&gt;http://xaraya.athomeandabout.com&lt;/a&gt;</string>
-		<translation>A modulról további információk találhatók a &lt;a href=&quot;http://xaraya.athomeandabout.com&quot; title=&quot;http://xaraya.athomeandabout.com&quot; target=&quot;_blank&quot;&gt;http://xaraya.athomeandabout.com&lt;/a&gt; oldalon.</translation>
+at &lt;a href="http://xaraya.athomeandabout.com" title="http://xaraya.athomeandabout.com" target="_blank"&gt;http://xaraya.athomeandabout.com&lt;/a&gt;</string>
+		<translation>A modulról további információk találhatók a &lt;a href="http://xaraya.athomeandabout.com" title="http://xaraya.athomeandabout.com" target="_blank"&gt;http://xaraya.athomeandabout.com&lt;/a&gt; oldalon.</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="72" />
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="72"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Reset</string>
 		<translation>Visszaállítás</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="150" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="150"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Administration
+- SiteContact</string>
+		<translation>Kapcsolatfelvétel adminisztrálása</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="5"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found
+at &lt;a href="http://xaraya.athomeandabout.com" title="http://xaraya.athomeandabout.com" target="_blank"&gt;http://xaraya.athomeandabout.com&lt;/a&gt;</string>
+		<translation>A modulról további információk találhatók a &lt;a href="http://xaraya.athomeandabout.com" title="http://xaraya.athomeandabout.com" target="_blank"&gt;http://xaraya.athomeandabout.com&lt;/a&gt; oldalon.</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="72"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Allow a copy of note to feedback sender?</string>
+		<translation>Másolat a feladónak?</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="101"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Reset</string>
+		<translation>Visszaállítás</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="150"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Welcome to the administration part of this SiteContact module...</string>
+		<translation>Ez a Kapcsolatfelvétel modul adminisztrálásához tartozó rövid összefoglaló helye.</translation>
+		<references>
+			<reference file="modules/sitecontact/xaradmin/main.php" line="25"/>
+		</references>
+	</entry>
+	<entry>
+		<string>SiteContact Overview</string>
+		<translation>Áttekintés</translation>
+		<references>
+			<reference file="modules/sitecontact/xaradminapi/getmenulinks.php" line="28"/>
+		</references>
+	</entry>
+	<entry>
+		<string>SiteContact
+is a simple module that allows visitors to easily contact the Site
+Administrator by email.</string>
+		<translation>A Kapcsolatfelvétel egy egyszerű modul amely lehetőséget biztosít a látogatóknak a weblap adminisztrátorával való, e-mailen keresztüli kapcsolatfelvételére.</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="16"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Install SiteContact
+as usual from the administration Module listing. There are no tables involved. Then, setup the module configuration in Modify Config option.</string>
+		<translation>A modul telepítése a Modulok adminisztrálása menüből történik. A telepítés adatbázistáblákat nem érint. Telepítés utána modul beállításait a Kapcsolatfelvétel -&amp;gt; Beállítások menüjében kell elvégezni.</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="22"/>
+		</references>
+	</entry>
+	<entry>
+		<string>There are a number of variables you can set in the Modify Config
+option. If any are left blank, a default is provided.</string>
+		<translation>A „Beállítások” menüben szerkeszthetjük a modul működésének számos tulajdonságát. A mezők üresen hagyásakor alapértelmezett értékek lesznek használva.</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="26"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Hook Dynamic Data to Site Contact&lt;/strong&gt; and setup your custom dynamic data property fields.
+These currently assume the output of the dynamic data is string type.
+Your Dynamic Data fields will be included in outgoing emails by default, but you can further template the dynamic data output in the respective templates.</string>
+		<translation>Kapcsoljuk a &lt;strong&gt;Dinamikus Adatokat a modulhoz hurokkal&lt;/strong&gt; majd adjunk meg tetszőleges adatmezőket. Ez a lehetőség jelenleg feltételezi, hogy a kapcsolt adatmezők szöveges típusú eredményt adnak vissza. A megadott dinamikus adatmezők alapértelmezetten bekerülnek a kimenő levelekbe, de ezeket tetszőlegesen formázhatjuk a kapcsolódó sablonok segítségével.</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="61"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Sitecontact Module - Overview</string>
+		<translation>Kapcsolatfelvétel modul - Áttekintés</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="83"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Változat</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="83"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Site Contact Configuration</string>
+		<translation>Beállítások szerkesztése</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="11"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Contact Page Options</string>
+		<translation>A kapcsolatfelvétel oldal beállításai</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="68"/>
+		</references>
+	</entry>
+	<entry>
+		<string>User Email Options</string>
+		<translation>Felhasználói e-mail beállítások</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="93"/>
 		</references>
 	</entry>
 </translations>

@@ -1,59 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
 	<entry>
-		<string>Administration - Uploads</string>
-		<translation>Feltöltések adminisztrálása</translation>
-		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Mi ez?</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="11"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Uploads is a Xaraya Utility Module.</string>
 		<translation>A feltöltések egy Xaraya segédmodul.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="12"/>
 		</references>
 	</entry>
 	<entry>
 		<string>It is currently responsible for accomplishing these tasks:</string>
 		<translation>Jelenleg a következő feladatokat látja el:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="18" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="13"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Allows for the importing of files into the Xaraya system either locally or externally.</string>
 		<translation>Helyi vagy távoli fájlok importálása a Xaraya rendszerbe.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="20" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="15"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Allows the managing of access to files via privileges.</string>
 		<translation>A fájlok elérhetőségének meghatározása jogosultságokkal.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="21" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hogyan kell használni?</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="20"/>
 		</references>
 	</entry>
 	<entry>
 		<string>External Imports and Uploads</string>
 		<translation>Külső importálás és feltöltések</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="23"/>
 		</references>
 	</entry>
 	<entry>
@@ -62,7 +55,7 @@ or stored in the filesystem (FS). Use the options (FS/DB) under each form to sel
 storage location for your file.</string>
 		<translation>A feltöltött vagy külső forrásból importált fájlok menthetőek az adatbázisba vagy a fájlrendszerre. A mentés helye minden feltöltési űrlapon meghatározható.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="39" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="30"/>
 		</references>
 	</entry>
 	<entry>
@@ -70,14 +63,14 @@ storage location for your file.</string>
 In the event that it cannot figure out what the file name is it will use the following methods:</string>
 		<translation>Az importáló program megpróbálja kitalálni az importálandó fájlok nevét. Amennyiben ez nem sikerül, a következő megoldásokat alkalmazza:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="45" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="36"/>
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;HTTP and HTTPS&lt;/strong&gt;</string>
 		<translation>&lt;strong&gt;HTTP vagy HTTPS&lt;/strong&gt;</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="48" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="39"/>
 		</references>
 	</entry>
 	<entry>
@@ -86,7 +79,7 @@ named based on the host name of the server the file was imported from. For examp
 http://www.xaraya.com/ would return a file with the name of www_xaraya_com.html</string>
 		<translation>Amennyiben egy HTTP importáláskor a fájlnév meghatározása sikertelen, a fájl nevet az azt tartalmazó kiszolgáló nevéből készíti a modul. Például a http://www.xaraya.com importálása a www_xaraya_com.html nevű fájlt eredményezi.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="54" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="45"/>
 		</references>
 	</entry>
 	<entry>
@@ -95,44 +88,128 @@ on a system without providing a viable file name. In this case, no file name 'gu
 attempted and the import will fail.</string>
 		<translation>Az FTP működéséből adódóan egy fájl elérése lehetetlen egy létező fájl nevének megadása nélkül. Ebben az esetben nem lesz fájlnév találgatás, és az importálás meghiúsul.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="64" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="55"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Local Imports Sandbox</string>
 		<translation>Helyi importálás</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="71" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="62"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Files can be inserted into your local import sandbox and used immediately by users with sufficient access to
 add files and attach them to hooked objects (articles, comments, etc). Files you place in your local import
 sandbox can be seen in the 'Import Local Files' form immediately upon adding them.</string>
-		<translation>A fájlok elhelyezhetőek a helyi tárolókban és azonnal használatba vehetőek azon felhasználók által akiknek fájl hozzáadási jogosultsága van, és hozzárendelhetik azokat a hurokként kapcsolódó objektumokhoz (cikkek, hozzászólások stb.). A helyi tárolóban elhelyezett fájlok a &quot;Helyi fájlok importálása&quot; menüben láthatóak, és felvétel után azonnal használhatóak.</translation>
+		<translation>A fájlok elhelyezhetőek a helyi tárolókban és azonnal használatba vehetőek azon felhasználók által akiknek fájl hozzáadási jogosultsága van, és hozzárendelhetik azokat a hurokként kapcsolódó objektumokhoz (cikkek, hozzászólások stb.). A helyi tárolóban elhelyezett fájlok a "Helyi fájlok importálása" menüben láthatóak, és felvétel után azonnal használhatóak.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="78" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="69"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="85" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="72"/>
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included blocks.</string>
 		<translation>Nincsenek kapcsolódó blokkok.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="73"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-main.xd" line="93" />
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="76"/>
+		</references>
+	</entry>
+	<entry>
+		<string>The Uploads module does provide a transform hook. You can activate the uploads hook for a module or itemtype by going to</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="77"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Modules - Configure Hooks - Uploads Module</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="78"/>
+		</references>
+	</entry>
+	<entry>
+		<string>From there check the radio buttons next to the modules and itemtypes where you wish to activate the uploads module hooks.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="79"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>További információk</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="81"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Uploads module can be found at</string>
+		<translation>További információk a modulról:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="83"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads Extension page at</string>
+		<translation>A Feltöltések modul bővítmény oldala</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="86"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads Module - Xaraya Extension 666</string>
+		<translation>Feltöltések modul - Xaraya bővítmény: 666</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="86"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="87"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Uploads found at</string>
+		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Uploads</string>
+		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumentáció.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="89"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Változat</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-main.xd" line="92"/>
 		</references>
 	</entry>
 </translations>

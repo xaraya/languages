@@ -4,245 +4,281 @@
 		<string>LDAP Server Configuration</string>
 		<translation>LDAP kiszolgáló beállítások</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="9" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="11"/>
 		</references>
 	</entry>
 	<entry>
-		<string>The LDAP server settings are also configurable from the</string>
-		<translation>Az LDAP kiszolgáló beállítások szintén módosíthatóak:</translation>
+		<string>If you are configuring Xaraya to use LDAP for user authentication, you should configure the LDAP server within the &lt;a href="#(1)"&gt;authldap module&lt;/a&gt;.</string>
+		<translation>Ha a Xarayát LDAP felhasználó-azonosításra állítjuk be, előzetesen be kell állítani az LDAP kiszolgáló adatait az &lt;a href="#(1)"&gt;LDAP Azonosítás&lt;/a&gt; modulban.</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="16" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Server Name or IP</string>
 		<translation>LDAP kiszolgáló neve vagy IP címe</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="22" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="21"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="22"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Server Port Number</string>
 		<translation>LDAP kiszolgáló kapu száma</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="30" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="27"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Note:</string>
 		<translation>Megjegyztés:</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="33"/>
 		</references>
 	</entry>
 	<entry>
-		<string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string>
+		<string>If the server name contains "ldap://" or "ldaps://", then the port number is ignored. Instead, append the port number to the server name as in "ldaps://server:port".</string>
 		<translation>Ha a kiszolgáló neve tartalmazza az „ldap://” vagy „ldaps://” részeket, a kapu számát a modul nem veszi figyelembe. Ebben az esetben a kapu számát kapcsoljuk a kiszolgáló nevéhez ebben a formában: „ldaps://kiszolgáló:kapu”.</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="33"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Anonymously Bind to Server</string>
 		<translation>Névtelen kapcsolódás a kiszolgálóhoz</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="43" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="36"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="37"/>
 		</references>
 	</entry>
 	<entry>
-		<string>LDAP Bind DN</string>
+		<string>LDAP bind DN</string>
 		<translation>LDAP kapcsolódási DN</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="55" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="46"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="47"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP UserID Field Name</string>
 		<translation>LDAP Felhasználó ID mező név</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="63" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="52"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="53"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Search User DN</string>
 		<translation>Keresési felhasználó DN</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="71" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="58"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="59"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Admin ID</string>
 		<translation>LDAP adminisztrátor ID</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="83" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="68"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="69"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Admin Password</string>
 		<translation>LDAP adminisztrátor jelszó</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="91" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="74"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="75"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="80"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Use TLS (LDAP Protocol 3 only)</string>
 		<translation>TLS használata (csak LDAP 3-as protokoll esetén)</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="99" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="81"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Authentication Configuration</string>
 		<translation>Azonosítási beállítások</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="113" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="92"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Activate authentication module</string>
-		<translation>Az azonosítási modul bekapcsolása</translation>
+		<translation>Az azonosítási modul engedélyezése</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="119" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="95"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="96"/>
 		</references>
 	</entry>
 	<entry>
 		<string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string>
 		<translation>Amennyiben az LDAP kiszolgáló nem érhető el, Xaraya azonosítási rendszer használható helyettesítésként. Ha ez a helyettesítő azonosítás engedélyezett</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="131" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="105"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string>
 		<translation>Xaraya azonosítás engedélyezése ha az LDAP kiszolgáló nem érhető el?</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="136" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="108"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="109"/>
 		</references>
 	</entry>
 	<entry>
 		<string>User Configuration</string>
 		<translation>Felhasználó beállítások</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="150" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="120"/>
 		</references>
 	</entry>
 	<entry>
 		<string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string>
 		<translation>Ha egy felhasználónak van LDAP azonosítója de nincs Xaraya bejelentkezése, nem léphet be a weblapra. Az alábbi lehetőség bekapcsolásával és az adatok megadásával az LDAP azonosítóval rendelkező felhasználók automatikusan hozzáadódnak a Xaraya adatbázishoz és beléphetnek.</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="156" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="123"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Add LDAP User to Xaraya Database on Login</string>
-		<translation>LDAP felhasználók felvétele a Xaraya adatbázisba belépéskor</translation>
+		<translation>LDAP felhasználók felvétele a Xaraya adatbázisba, belépéskor</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="161" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="126"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="127"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Store Users LDAP Password in the Xaraya Database</string>
+		<translation>A felhasználó LDAP jelszavának tárolása a Xaraya adatbázisban</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="136"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Store User's LDAP Password in the Xaraya Database?</string>
 		<translation>A felhasználó LDAP jelszavának tárolása a Xaraya adatbázisban?</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="173" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="137"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Username Attribute Name</string>
 		<translation>LDAP felhasználónév attribútum név</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="187" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="146"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="147"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Email Attribute Name</string>
 		<translation>LDAP e-mail attribútum név</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="195" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="152"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="153"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Default Group</string>
 		<translation>Alapértelmezett csoport</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="203" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="158"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="159"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Group Configuration</string>
-		<translation></translation>
+		<translation>Csoport beállítások</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="220" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="174"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Default Group for Groups</string>
-		<translation></translation>
+		<translation>Alapértelmezett csoport a csoportokhoz</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="226" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="177"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="178"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP base for group search</string>
-		<translation></translation>
+		<translation>LDAP base a csoport kereséshez</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="241" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="191"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="192"/>
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP groups to import</string>
+		<translation>Az importálandó LDAP csoportok</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="197"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP groups to import (separated by comma &lt;kdb&gt;','&lt;/kdb&gt;)</string>
-		<translation></translation>
+		<translation>Az importálandó LDAP csoportok (vesszővel elválasztva &lt;kdb&gt;','&lt;/kdb&gt;)</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="245" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="198"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP attribute name: group name</string>
-		<translation></translation>
+		<translation>LDAP attribútum név: csoport név</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="249" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="203"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="204"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP attribute name: children group reference</string>
-		<translation></translation>
+		<translation>LDAP attribútum név: alcsoport referencia</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="253" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="209"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="210"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP attribute type: children group reference</string>
-		<translation></translation>
+		<translation>LDAP attribútum típus: alcsoport referencia</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="257" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="215"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="216"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP attribute name: user member reference</string>
-		<translation></translation>
+		<translation>LDAP attribútum név: felhasználó tagsági refernecia</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="261" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="221"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="222"/>
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP attribute type: user member reference</string>
-		<translation></translation>
+		<translation>LDAP attribútum típus: felhasználó tagsági refernecia</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="265" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="227"/>
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="228"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Click &quot;Submit&quot; to change configuration:</string>
+		<string>Click "Submit" to change configuration:</string>
 		<translation>A beállítások mentése:</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="271" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="234"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Változtatások mentése</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="272" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="237"/>
 		</references>
 	</entry>
 </translations>
