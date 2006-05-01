@@ -4,105 +4,112 @@
 		<string>Database Settings Collection</string>
 		<translation>Indsamling af databaseindstillinger</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="9" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
-		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
-		<translation>Angiv dine databaseindstillinger. Du kan forbinde dig til databaser på ikke-standardporte med formatet 'værtsnavn:port' i værtsfeltet (f.eks. 'localhost:12345')</translation>
+		<string>Enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>Angiv dine databaseindstillinger. Der kan forbindes til ikke-standardport med &quot;værtsnavn:port&quot; i Vært-feltet (f.eks. &quot;localhost:12345&quot;)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note the following:</string>
+		<translation>Bemærk:</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you do not have root access to your database (due to virtual hosting etc), you will need to have a pre-existing database installed and configured before you proceed.</string>
+		<translation>Hvis du ikke har root-adgang til din database (f.eks. ved virtuel hosting o.lign.), skal du have en eksisterende database installeret og sat op, før du fortsætter.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan to use a SQLite or PostgreSQL database please ensure your database already exists before your proceed.</string>
+		<translation>Hvis du vil benytte SQLite- eller PostgreSQL-databaser, så sørg for at databasen allerede findes, før du fortsætter.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan on &lt;strong&gt;upgrading&lt;/strong&gt; an existing Xaraya then please run the &lt;strong&gt;upgrade.php&lt;/strong&gt; script, not this install script.</string>
+		<translation>Hvis du vil &lt;strong&gt;opgradere&lt;/strong&gt; en eksisterende Xarayainstallation, så kør scriptet &lt;strong&gt;upgrade.php&lt;/strong&gt; i stedet for dette installationsscript.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
-		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
-		<translation>Hvis du ikke har root-adgang til din databaseserver, er du nødt til at få oprettet en database, før du kan fortsætte.</translation>
+		<string>If you plan to convert from another Weblog/CMS to Xaraya, first install Xaraya as normal and then run the appropriate import script to import your prior Weblog/CMS data.</string>
+		<translation>Hvis du vil skifte fra en anden weblog/CMS til Xaraya, skal du først installere Xaraya på almindelig vis, og derefter køre import-skriptet, der henter data fra din tidligere weblog/CMS.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;IMPORT NOTE&lt;/strong&gt;: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
-		<translation>&lt;strong&gt;BEMÆRKNING OM IMPORTERING&lt;/strong&gt;: Hvis du vil opgradere til Xaraya fra en tidligere version eller en anden Weblog/CMS, så installér som normalt og kør derefter opgraderingsskriptet.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;UPGRADE NOTE&lt;/strong&gt;: If you are upgrading from a previous version of Xaraya, please use the provided &lt;a href=&quot;upgrade.php&quot;&gt;upgrade script&lt;/a&gt;. The installer could overwrite your current database data.</string>
-		<translation>&lt;strong&gt;BEMÆRKNING OM OPGRADERING&lt;/strong&gt;: Hvis du opgraderer fra en tidligere Xaraya-version, så brug &lt;a href=&quot;upgrade.php&quot;&gt;opgraderingsskriptet&lt;/a&gt;. Installationen kan overskrive dine eksisterende databasedata.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="31" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Information</string>
 		<translation>Databaseoplysninger</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database Type</string>
-		<translation>Databasetype</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>[not available]</string>
-		<translation>[ikke tilgængelig]</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="48" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>Host</string>
 		<translation>Vært</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="64" />
-		</references>
-	</entry>
-	<entry>
-		<string>(for SQLite: a directory)</string>
-		<translation>(for SQLite: en mappe)</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="70" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Name</string>
 		<translation>Databasenavn</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="96" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="49" />
 		</references>
 	</entry>
 	<entry>
 		<string>Table Prefix</string>
 		<translation>Tabel-fornavn</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="105" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="56" />
 		</references>
 	</entry>
 	<entry>
 		<string>(for Table Sharing)</string>
 		<translation>(ved deling af tabeller)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="111" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="60" />
 		</references>
 	</entry>
 	<entry>
-		<string>Create the database</string>
-		<translation>Opret databasen</translation>
+		<string>Database Type</string>
+		<translation>Databasetype</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="122" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="65" />
 		</references>
 	</entry>
 	<entry>
-		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
-		<translation>Denne indstilling angiver om du skal vil have oprettet en tom database under installationen, eller om der blot skal fyldes på en eksisterende database. Hvis du ikke har adgang til at oprette databaserne med f.eks. phpMyAdmin, vil installationen heller ikke kunne oprette databasen for dig. Den vil dog kunne benytte en eksisterende database.</translation>
+		<string>[not available]</string>
+		<translation>[ikke tilgængelig]</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="128" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create the database (MySQL only)</string>
+		<translation>Opret databasen (kun MySQL)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>If checked, this Create the Database option allows the install process to create an empty database for you rather than just populating an existing one. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will &lt;strong&gt;not&lt;/strong&gt; be able to create the database for you. It will be able to populate an already existing database.</string>
+		<translation>Hvis denne indstilling er markeret, vil installationsprocessen oprette en tom database for dig, frem for blot at udfylde en eksisterende. Hvis du ikke kan oprette databaser gennem phpMyAdmin på grund af virtuel hosting eller MySQL-sikkerhedsindstillinger, vil installationsprogrammet &lt;strong&gt;ikke&lt;/strong&gt; kunne oprette databasen for dig. Den fil kun kunne udfylde en allerede eksisterende database.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="89" />
 		</references>
 	</entry>
 </translations>
