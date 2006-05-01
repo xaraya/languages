@@ -261,4 +261,314 @@
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="338" />
 		</references>
 	</entry>
+	<entry>
+		<string>Please enter the settings for your Administrator account. This information is necessary in order to properly secure your Xaraya installation. These settings can be changed at any point in the future by visiting the roles module.</string>
+		<translation>Geef de instellingen voor het beheerders account. Deze informatie is nodig om de Xaraya installatie afdoende te kunnen beveiligen. Deze instellingen kunnen later altijd worden gewijzigd in de 'roles' module.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-create_administrator.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>System Settings Check</string>
+		<translation>Systeeminstellingen controle</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>For Xaraya to function properly, the installer must write your database information to the file #(1).
+If your settings are not correct, this script will not be able to do so.
+The installer needs write access for steps 3 and 4 only.</string>
+		<translation>Om Xaraya correct te laten functioneren moet de installer kunnen database informatie kunnen schrijven naar het bestand #(1). Als de instellingen niet correct zijn kan dit script niet goed lopen. De installer heeft alleen schrijftoegang nodig voor de stappen 3 en 4.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP Version is greater than or equal to 4.1.2. Your PHP Version is #(1)</string>
+		<translation>PHP versie is gelijk aan of groter dan 4.1.2. Uw PHP versie is #(1)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>PHP Version is less than 4.1.2. Your PHP Version is #(1) please upgrade PHP.</string>
+		<translation>PHP versie is lager dan 4.1.2. Uw PHP versie is #(1). U kunt Xaraya installeren na het opwaarderen van PHP.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is #(1).</string>
+		<translation>Xaraya heeft een MINIMUM van 8 Megabyte PHP geheugen nodig (16M or meer wordt sterk aangeraden). Het huidige geheugen limiet is #(1).</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya needs a MINIMUM of 8 Megabyte of PHP memory. ( 16M or higher STRONGLY recommended)
+The current memory limit is #(1).</string>
+		<translation>Xaraya heeft een minimum van 8 Mb aan PHP geheugen nodig. (16Mb of hoger wordt sterk aangeraden). Het huidige geheugen limiet is #(1).</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>Especially if you are planning to install modules during the install phase, a lot of memory is
+required. When in doubt, do a core only install and install modules manually later.</string>
+		<translation>Vooral als u modules wilt activeren tijdens de installatie is een hoop geheugen nodig. Als u twijfelt, doe dan alleen een 'core' installatie en installeer de modules later handmatig.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer can write to the configuration file.</string>
+		<translation>De installatieprocedure kan naar het configuratie bestand schrijven.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="101" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer cannot write to the configuration file.
+Please verify that your webserver has write access to the file #(1)</string>
+		<translation>De installatie kan niet schrijven naar het configuratie bestand. Controleer aub of uw webserver kan schrijven naar het bestand #(1)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer can write to the directory #(1)</string>
+		<translation>De installatie kan niet schrijven naar de directory #(1)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="124" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="154" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="184" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="214" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer cannot write to the directory #(1).
+Please verify that your webserver has write access to the directory #(2)</string>
+		<translation>De installatie kan niet schrijven in de directory #(1). Controleer aub of uw webserver schrijftoegang heeft tot de directory #(2)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="137" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="167" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="227" />
+		</references>
+	</entry>
+	<entry>
+		<string>The installer cannot write to the #(1).
+Please verify that your webserver has write access to the directory #(2)</string>
+		<translation>De installatie kan niet schrijven naar de #(1). Controleer aub of uw webserver schrijftoegang heeft tot de directory #(2)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="197" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya can write to the directory #(1) and all its files and subdirectories.</string>
+		<translation>Xaraya kan schrijven in de directory #(1) en alle bestanden en subdirectories daarin.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="255" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="294" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya cannot write to the directory #(1) and all its files and subdirectories.</string>
+		<translation>Xaraya kan niet schrijven in de directory #(1) en alle bestanden en subdirectories daarin.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="268" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="307" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML Extension is loaded.</string>
+		<translation>De XML extensie is geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="352" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XML Extension is not loaded.</string>
+		<translation>De XML extensie is niet geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="360" />
+		</references>
+	</entry>
+	<entry>
+		<string>The MySQL Extension is loaded.</string>
+		<translation>De MySQL extensie is geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="369" />
+		</references>
+	</entry>
+	<entry>
+		<string>The MySQL Extension is not loaded.
+Xaraya will need either the PGSQL or MySQL extension to be loaded to proceed.</string>
+		<translation>De MySQL extensie is niet geladen. Xaraya heeft of de PGSQL of de MySQL extensie nodig om verder te kunnen gaan.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="378" />
+		</references>
+	</entry>
+	<entry>
+		<string>The PGSQL Extension is loaded.</string>
+		<translation>De PGSQL extensie is geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="387" />
+		</references>
+	</entry>
+	<entry>
+		<string>The PGSQL Extension is not loaded.
+Xaraya will need either the PGSQL or MySQL extension to be loaded to proceed.</string>
+		<translation>De PGSQL extensie is niet geladen. Xaraya heeft of de PGSQL of de MySQL extensie nodig om verder te kunnen gaan.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="396" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT Extension is loaded.</string>
+		<translation>De XSLT extensie is geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="405" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT Extension is not loaded.
+This extension is only needed for the XSLT transform module at this time.</string>
+		<translation>De XSLT extensie is niet geladen. Deze extensie is op dit moment alleen nodig voor de XSLT transformatie module.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="414" />
+		</references>
+	</entry>
+	<entry>
+		<string>The LDAP Extension is loaded.</string>
+		<translation>De LDAP extensie is geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="423" />
+		</references>
+	</entry>
+	<entry>
+		<string>The LDAP Extension is not loaded.
+This extension is only needed if you intend on using LDAP authentication with the Xaraya LDAP Modules.</string>
+		<translation>De LDAP extensie is niet geladen. Deze extensie is alleen nodig als u van plan bent om LDAP authenticatie te gebruiken met de Xaraya LDAP modules.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="432" />
+		</references>
+	</entry>
+	<entry>
+		<string>The GD Extension is loaded.</string>
+		<translation>De GD extensie is geladen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="441" />
+		</references>
+	</entry>
+	<entry>
+		<string>The GD Extension is not loaded.
+This extension is only needed for the images module at this time for resizing of thumbnails.</string>
+		<translation>De GF extensie is niet geladen. Deze extensie is alleen nodig voor de images module. Die module gebruikt de extensie voor het schalen van voorbeelden van de afbeeldingen.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="450" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>Voer de instellingen voor uw database in. U kunt een verbinding maken op 'niet-standaard' poortnummers door 'server:poort' te gebruiken in het 'Server' veld (bijv. 'localhost:12345')</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
+		<translation>Als u geen beheerderstoegang heeft tot uw database (bijvoorbeeld omdat uw database bij een provider draait), dient u een voorgedefinieerde configuratie te gebruiken.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
+		<translation>Opwaardering opmerking: Als u van plan bent om Xaraya op te waarderen van een vorige versie of van een andere Weblog/CMS, installeer dan als normaal, maar volg dan een van de opwaardeer scripts.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create the database</string>
+		<translation>Maak een nieuwe database aan</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
+		<translation>Deze optie geeft aan of er een nieuwe database moet worden aangemaakt voor u door het installatiescript of dat er een al bestaande database wordt gebruikt. Als u zelf geen database kunt aanmaken met bijv. phpMyAdmin omdat u bijvoorbeeld shared hosting gebruikt, dan kan het installatiescript geen database voor u aanmaken. De installatie procedure kan dan alsnog een bestaande database vullen met data (LET OP: bestaande Xaraya data gaat hierdoor verloren als de tabellen dezelfde naam hebben. Maak altijd eerst een BACKUP van uw bestaande data)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>This may take a moment. Thank you for your patience.</string>
+		<translation>Dit kan even duren. Een ogenblik geduld AUB.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase5.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>If your browser does not redirect automatically to the next page in a few seconds,
+please click here :</string>
+		<translation>Als uw browser u niet doorstuurt naar de volgende pagina, klik dan hier:</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase5.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>continue</string>
+		<translation>ga verder</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase5.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you continue, tables using the #(1)_ prefix will be overwritten.</string>
+		<translation>Als u doorgaat worden de tabellen met de #(1)_ prefix overschreven.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase5.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group 'syndicate' not found.</string>
+		<translation>De group 'syndicate' is niet aangetroffen</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="1662" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: The PHP4 XSLT Extension is not loaded.
+This extension is only needed for the XSLT transform module at this time.</string>
+		<translation>WAARSCHUWING: De PHP4 extensie XSLT is niet geladen. Deze extensie is op dit moment alleen nodig voor de XSLT transformatie haak.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="431" />
+		</references>
+	</entry>
+	<entry>
+		<string>The core login block and function in Roles module has been moved as of Version 1.1 to the
+Authsystem Module at</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>You should be aware of the change but can still browse to</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>You may wish to note the URL in case of problems logging in.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="44" />
+		</references>
+	</entry>
 </translations>
