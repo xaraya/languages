@@ -4,43 +4,453 @@
 		<string>Modify Configuration</string>
 		<translation>modificar la configuración</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="16" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
-		<string>Actions:</string>
-		<translation>Acciones:</translation>
+		<string>Options:</string>
+		<translation>opciones:</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="23" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>General</string>
+		<translation>General</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="29" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Realms</string>
 		<translation>Reinos</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="30" />
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="38" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="44" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last Resort</string>
+		<translation>Emergencias</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="60" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="66" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>Masks</string>
+		<translation>Máscaras</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="74" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Testing</string>
+		<translation>Probando</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="87" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sitewide Settings</string>
+		<translation>Opciones para todo el sitio</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show exceptions messages or redirect to a login screen</string>
+		<translation>Mostrar mensajes de excepción o redireccionar a una pantalla de inicio de sesión</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>Exception Redirect:</string>
+		<translation>Redireccionar excepción:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>This redirects a non-logged in user to the login screen if they don't have the proper privileges.</string>
+		<translation>Esto redirecciona a los usuarios no identificados a la pantalla de inicio de sesión si no tienen los privilegios necesarios.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>A logged in user will see the exception error message that can be changed with a base module override template (message-NO_PRIVILEGES.xt).</string>
+		<translation>Un usuario que haya iniciado la sesión verá el mensaje de excepción, que puede ser cambiado sobreescribiendo la plantilla message-NO_PRIVILEGES.xt.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable or disable inheritance of deny privileges</string>
+		<translation>Habilita o deshabilita la herencia en la denegación de privilegios</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>Inherit Deny Privileges:</string>
+		<translation>Heredar denegación de privilegios:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Warning: This setting affects the way privileges work on your site. If changed you should retest all the privileges on your site.</string>
+		<translation>Atención: esta característica afecta a la forma en que los privilegios funcionan en su sitio. Si es cambiada debería comprobar todos los privilegios del sitio.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable or disable an administrator of last resort</string>
+		<translation>Habilita o deshabilita un administrador de emergencia</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last Resort Admin:</string>
+		<translation>Administrador de emergencia:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="143" />
+		</references>
+	</entry>
+	<entry>
+		<string>Warning: This setting opens a tab to enable you to create an administrator whose privileges cannot be removed.</string>
+		<translation>Atención: esta opción le permite crear un administrador cuyos privilegios no pueden ser borrados.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Privileges Configuration</string>
+		<translation>Actualizar la configuración</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="158" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="270" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="322" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="351" />
 		</references>
 	</entry>
 	<entry>
 		<string>Working With Realms</string>
 		<translation>Trabajar con reinos</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="53" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="172" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show or hide realms in the privileges input screens</string>
 		<translation>Mostrar u ocultar reinos en la pantalla de creación de privilegios</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="61" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="175" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enable Realms</string>
 		<translation>Habilitar reinos</translation>
 		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="64" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>Checking this enables the Manage Realms item on the Privileges menu</string>
+		<translation>Marcando esto habilita la gestión de ámbitos en el menú de Privilegios</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="185" />
+		</references>
+	</entry>
+	<entry>
+		<string>Realm Privilege Options</string>
+		<translation>Opciones de privilegios de ámbito</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="193" />
+		</references>
+	</entry>
+	<entry>
+		<string>Security checks will look for a match on the realm part of any privilege you define, with the 'realm mask' as defined below.</string>
+		<translation>Las comprobaciones de seguridad cmprobarán la correspondencia con el privilegio del permiso que defina, con la 'máscara de ámbito' como se define a continuación.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="196" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following choice will be inserted into any mask</string>
+		<translation>Las siguientes opciones se insertarán en cualquier máscara</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="200" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="238" />
+		</references>
+	</entry>
+	<entry>
+		<string>Realm Value for Masks</string>
+		<translation>Valor del ámbito para la máscara</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="203" />
+		</references>
+	</entry>
+	<entry>
+		<string>Text value for realm</string>
+		<translation>Valor de texto para la máscara</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="228" />
+		</references>
+	</entry>
+	<entry>
+		<string>Text Value:</string>
+		<translation>Valor de texto:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="231" />
+		</references>
+	</entry>
+	<entry>
+		<string>(applies only to the Text Value option above)</string>
+		<translation>(se aplica solo al la opción de valor de texto anterior)</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="235" />
+		</references>
+	</entry>
+	<entry>
+		<string>Realm Comparison Type</string>
+		<translation>Tipo de comparación de ámbito</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="241" />
+		</references>
+	</entry>
+	<entry>
+		<string>A realm is accepted if the user's privilege contains its name</string>
+		<translation>Un ámbito es aceptado si los privilegios del usuario contienen su nombre</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="260" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manage Last Resort Admin</string>
+		<translation>Gestionar al administrador de emergencia</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="284" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Last Resort Administrator will &lt;strong&gt;always&lt;/strong&gt; have rights to the entire system.</string>
+		<translation>El administrador de emergencia &lt;strong&gt;siempre&lt;/strong&gt; tiene permisos totales en el sistema.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="287" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter a name and password to replace the existing Last Resort administrator.</string>
+		<translation>Inserte un nombre y contraseña para reemplazar el administrador de emergencia actual.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="289" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter a name and password to create a Last Resort administrator.</string>
+		<translation>Inserte un nombre y contraseña para crear un administrador de emergencia.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="291" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name of the administator of last resort</string>
+		<translation>Nombre del administrador de emergencia</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="295" />
+		</references>
+	</entry>
+	<entry>
+		<string>Admin name:</string>
+		<translation>Nombre:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="296" />
+		</references>
+	</entry>
+	<entry>
+		<string>Password of the administrator of last resort</string>
+		<translation>Contraseña del administrador de emergencia</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="301" />
+		</references>
+	</entry>
+	<entry>
+		<string>Password:</string>
+		<translation>Contraseña:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="302" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm password for administrator of last resort</string>
+		<translation>Confirme la contraseña para el administrador de emergencia</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="307" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm Password:</string>
+		<translation>Confirmar contraseña:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="308" />
+		</references>
+	</entry>
+	<entry>
+		<string>Registered Masks</string>
+		<translation>Máscara registrada</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="335" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option is provided for Web Developer convenience. In general most Site Administrators
+should not need to access the Masks list provided below. Editing of the masks without an
+understanding of how they function can result in access problems to content on your site.</string>
+		<translation>Esta opción es proporcionada para ayudar a los desarrolladores web. En general, la mayoría de los administradores del sitio no decesitan acceder a la lista de máscaras proporcionada a continuación. La edición de estas máscaras sin entender perfectamente su funcionamiento puede dar como resultado problemas de acceso a su sitio.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="342" />
+		</references>
+	</entry>
+	<entry>
+		<string>Testing Settings</string>
+		<translation>Probar la configuración</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="364" />
+		</references>
+	</entry>
+	<entry>
+		<string>These settings let a designated tester see security check messages on a live site.</string>
+		<translation>Esta configuración permite a un probador designado ver y comprobar los mensajes de seguridad en un sitio activo.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="367" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group containing the tester</string>
+		<translation>Grupo que contiene al probador</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="371" />
+		</references>
+	</entry>
+	<entry>
+		<string>Tester Group:</string>
+		<translation>Grupo del probador:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="372" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group to select tester from</string>
+		<translation>Grupo del que se selecciona el probador</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="386" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name of the administator that will see the messages</string>
+		<translation>Nombre del administrador que verá los mensajes</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="389" />
+		</references>
+	</entry>
+	<entry>
+		<string>Tester:</string>
+		<translation>Probador:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="390" />
+		</references>
+	</entry>
+	<entry>
+		<string>The current tester is &lt;strong&gt;#(1)&lt;/strong&gt;.</string>
+		<translation>El probador actual es &lt;strong&gt;#(1)&lt;/strong&gt;.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="407" />
+		</references>
+	</entry>
+	<entry>
+		<string>They will see the security check messages.</string>
+		<translation>El verá lso mensajes de comprobación de seguridad.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="416" />
+		</references>
+	</entry>
+	<entry>
+		<string>Non Deny checks only shows checks that do not involve DENYs</string>
+		<translation>Los mensajes de no denegación solo mostrarán las comprobaciones que no impliquen denegación</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="419" />
+		</references>
+	</entry>
+	<entry>
+		<string>Non-DENY checks</string>
+		<translation>Comprobaciones de no denegación</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="422" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show checks not involving DENYs</string>
+		<translation>Mostra quequeos que no conlleves denegación</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="429" />
+		</references>
+	</entry>
+	<entry>
+		<string>Deny checks</string>
+		<translation>Chequeos de denegación</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="432" />
+		</references>
+	</entry>
+	<entry>
+		<string>DENY checks</string>
+		<translation>Chequeos de denegación</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="435" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show checks involving DENYs</string>
+		<translation>Mostrar chequeos que impliquen denegación</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="442" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mask to test against</string>
+		<translation>Máscara contar la que hacer la prueba</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="445" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mask to test</string>
+		<translation>Máscara a probar</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="448" />
+		</references>
+	</entry>
+	<entry>
+		<string>Adding a mask name here will show only the checks involving that mask</string>
+		<translation>Añadiendo el nombre de una máscara aquí se mostrarán solo las pruebas que correspondan a esta máscara</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="452" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Tester Configuration</string>
+		<translation>Actualizar la configuración de la prueba</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="461" />
 		</references>
 	</entry>
 </translations>

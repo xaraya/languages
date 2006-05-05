@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_ES.utf-8">
+	<entry>
+		<string>Welcome to Xaraya Upgrade</string>
+		<translation>Bienvenido a la actualización de Xaraya</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Ensure you have reviewed the UPGRADE.txt file or the &lt;a href=&quot;#(1)&quot;&gt;Xaraya Upgrade Guidelines&lt;/a&gt;, and relevant
+comments for your version upgrade before continuing.</string>
+		<translation>Asegúrese de haber leido el archivo UPGRADE.txt o la &lt;a href=&quot;#(1)&quot;&gt;Guía de Actualización de Xaraya&lt;/a&gt;, y los comentarios relevantes para la versión que desea actualizar antes de continuar.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>This upgrade process updates your database and some system files but &lt;strong&gt;cannot upgrade&lt;/strong&gt; your theme and templates!</string>
+		<translation>Este proceso actualizará la base de datos y algunos archivos del sistema, pero &lt;strong&gt;no actualizará&lt;/strong&gt; los diseños y plantillas.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>To ensure a quick and smooth upgrade, please check and address the following important theme and template considerations &lt;strong&gt;before&lt;/strong&gt; continuing.</string>
+		<translation>Para asegurar una actualización exitosa, pro favor, lea las consideraciones importantes sobre diseños y plantillas &lt;strong&gt;antes&lt;/strong&gt; de continuar.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Adminpanels module has been deprecated as of Version 1.1 and no longer available. The blocks have been moved to the Base module.</string>
+		<translation>El módulo Panel de Administración ha sido eliminado de la versión 1.1. Los bloques pertenecientes al mismo han sido recolocados en el módulo Base.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please check your theme templates for use of any Adminpanel module references. You will need to change references to &lt;strong&gt;adminpanels&lt;/strong&gt; in your theme or templates
+to &lt;strong&gt;base&lt;/strong&gt; module. Remember particularly to change 'adminmenu' and 'waiting content' blocks tags to refer now to the base module, and update other Adminpanels links.</string>
+		<translation>Por favor, compruebe las plantillas que hagan alusión a este módulo, ya que deberá cambiarlas para que hagan referencia al módulo &lt;strong&gt;Base&lt;/strong&gt;. Recuerde especialmente cambiar las etiquetas de los bloques 'Menú de administración' y 'Contenido en espera' para que hagan referencia al módulo base, y actualizar el resto de enlaces.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Make sure your Adminpanel block templates for any compact menu block, adminmenu or waiting content blocks are also moved to &lt;strong&gt;modules/base&lt;/strong&gt; directory in your theme.</string>
+		<translation>Revise también las plantillas para la creación de menús de administración compactos, menú de administración o contenido en espera. Estas deberán moverse al directorio &lt;strong&gt;modules/base&lt;/strong&gt; de su diseño.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>As of Version 1.1 the core login block and function in the Roles module has been moved to the
+Authsystem Module at</string>
+		<translation>En la versión 1.1 el bloque de Inicio de sesión y su función han sido recolocados en el módulo Autenticación en</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can still login by browsing to</string>
+		<translation>Todavía puede iniciar la sesión en</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you allow User Registration on your site, you must ensure you have the &lt;strong&gt;Registration module&lt;/strong&gt; in your Xaraya module directory,
+install, and configure it to continue user registration on your site as from Version 1.1 .</string>
+		<translation>Si permite que los usuarios se registren en su sitio, debe asegurarse de que el &lt;strong&gt;módulo Registros&lt;/strong&gt; está en su directorio de módulos de Xaraya, instalado y configurado, para continuar con el registro de usuarios en la versión 1.1.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Country Listing Dynamic Data property has changed templates in Version 1.1 to refer to ID as value
+instead of Name. If you have been using this DD property, you will have to override the template to
+continue to use Name as the value.</string>
+		<translation>La propiedad de datos dinámicos Listado de Países ha cambiado sus plantillas en la versión 1.1 para hacer referencia al ID en vez de al nombre. Si usa esta propiedad de DD debe sobreescribir la plantilla para continuar usando el nombre como valor.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="53" />
+		</references>
+	</entry>
+</translations>
