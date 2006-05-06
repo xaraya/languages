@@ -1,21 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
+		<string>Multisites Administration</string>
+		<translation>Multisites-Administration</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-addsite.xd" line="2" />
+			<reference file="modules/multisites/xartemplates/admin-adminconfig.xd" line="2" />
+			<reference file="modules/multisites/xartemplates/admin-delete.xd" line="2" />
+			<reference file="modules/multisites/xartemplates/admin-main.xd" line="1" />
+			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="3" />
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Site Name</string>
+		<translation>Name der Website</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-delete.xd" line="41" />
+			<reference file="modules/multisites/xaradmin/view.php" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-main.xd" line="4" />
+			<reference file="modules/multisites/xartemplates/includes/admin-menu.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Shared</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="23" />
+			<reference file="modules/multisites/xaradmin/view.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Status</string>
+		<translation>Status</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="24" />
+			<reference file="modules/multisites/xaradmin/view.php" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Options</string>
+		<translation>Optionen</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="25" />
+			<reference file="modules/multisites/xaradmin/view.php" line="56" />
+		</references>
+	</entry>
+	<entry>
 		<string>Pending</string>
 		<translation>Hängend</translation>
 		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="38" />
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="57" />
 			<reference file="modules/multisites/xaradmin/addsite.php" line="46" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="39" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Active</string>
 		<translation>Aktiv</translation>
 		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="40" />
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="59" />
 			<reference file="modules/multisites/xaradmin/addsite.php" line="47" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="41" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete</string>
+		<translation>Löschen</translation>
+		<references>
+			<reference file="modules/multisites/xartemplates/admin-view.xd" line="76" />
+			<reference file="modules/multisites/xaradmin/view.php" line="103" />
 		</references>
 	</entry>
 	<entry>
@@ -37,46 +97,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Site Name</string>
-		<translation>Name der Website</translation>
-		<references>
-			<reference file="modules/multisites/xaradmin/view.php" line="51" />
-			<reference file="modules/multisites/xartemplates/admin-delete.xd" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Shared</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/multisites/xaradmin/view.php" line="54" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Status</string>
-		<translation>Status</translation>
-		<references>
-			<reference file="modules/multisites/xaradmin/view.php" line="55" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Options</string>
-		<translation>Optionen</translation>
-		<references>
-			<reference file="modules/multisites/xaradmin/view.php" line="56" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Löschen</translation>
-		<references>
-			<reference file="modules/multisites/xaradmin/view.php" line="103" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="77" />
-		</references>
-	</entry>
-	<entry>
 		<string>Invalid Parameter Count</string>
 		<translation>Ungültige Parameteranzahl</translation>
 		<references>
@@ -94,23 +114,19 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Add Site</string>
+		<translation>Seiete hinzufügen</translation>
+		<references>
+			<reference file="modules/multisites/xaradminapi/getmenulinks.php" line="28" />
+			<reference file="modules/multisites/xartemplates/includes/admin-menu.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
 		<string>Empty name.</string>
 		<translation>Leerer Name.</translation>
 		<references>
 			<reference file="modules/multisites/xaradminapi/msconfiggetvar.php" line="9" />
 			<reference file="modules/multisites/xaradminapi/msconfigsetvar.php" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multisites Administration</string>
-		<translation>Multisites-Administration </translation>
-		<references>
-			<reference file="modules/multisites/xartemplates/admin-addsite.xd" line="1" />
-			<reference file="modules/multisites/xartemplates/admin-adminconfig.xd" line="1" />
-			<reference file="modules/multisites/xartemplates/admin-delete.xd" line="1" />
-			<reference file="modules/multisites/xartemplates/admin-main.xd" line="1" />
-			<reference file="modules/multisites/xartemplates/admin-modifyconfig.xd" line="1" />
-			<reference file="modules/multisites/xartemplates/admin-view.xd" line="2" />
 		</references>
 	</entry>
 </translations>

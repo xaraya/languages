@@ -4,32 +4,32 @@
 		<string>What is it?</string>
 		<translation>Wozu dient es?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Roles module lets you manage users and groups on your site. Roles are representations of users and the different groups they can belong to.</string>
-		<translation></translation>
+		<translation>Mit dem Rollen-Modul werden Nutzerkonten und Gruppen verwaltet. Rollen stellen Nutzer und Gruppen von Nutzern dar.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="16" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to
 represent a company's organization chart, or the set of classes at a university. A role can be a member
 of as many other roles as you like (as long as the parents are groups).</string>
-		<translation></translation>
+		<translation>Rollen können Mitglieder anderer Rollen sein. Dies ist beliebig verschachtelbar, sofern die übergeordneten Rollen (Elternrollen) Gruppen sind. Beispielsweise können Rollen ein Organigramm einer Firma widerspiegeln oder jeweils die Mitglieder verschiedener Schulklassen enthalten.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="22" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>Roles can be assigned privileges. By doing so, you define what a given role may or may not
 do on the site. You can use the test functionality of the Roles module to see what parts of the site a
 role with a given set of privileges has access to.</string>
-		<translation></translation>
+		<translation>Rollen können Privilegien zugewiesen werden. Damit legen Sie fest, was die Rollenmitglieder auf der Webseite dürfen oder nicht. Die hilfreiche &quot;Privilegien testen&quot;-Funktion zeigt an, zu welchen Teilen der Webseite eine Rolle Zugang hat.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
@@ -38,182 +38,266 @@ override them. If you give a group editing privileges, for instance, any other r
 that group inherits the editing privileges. If you want to restrict the privileges of some of the members,
 simply assign them a different set of privileges (say reading), and the privileges of the parent will be
 overridden.</string>
-		<translation></translation>
+		<translation>Rollen erben alle Privilegien ihrer Elternrollen. Dabei überdecken die eigenen Privilegien die geerbten. Hat eine Gruppe beispielsweise das Bearbeiten-Privileg, so erben es auch alle Mitglieder. Soll dieses Recht für einige Mitglieder nicht bestehen, so weisen Sie diesen z.B. das geringere Lesen-Privileg zu, welches dann das Elternrecht überdeckt.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Wie setzt man es ein?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
-		<string>The roles on your site are arranged in a tree. At the top of the tree is a role called Everybody, which represents the &quot;group of all groups&quot; on your site. Every user and every group is a member or descendent of Everybody.</string>
+		<string>Menu Options</string>
+		<translation>Menüeinträge</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module provides key functions to manage the users and groups on your site:</string>
+		<translation>Das Rollen-Modul bietet die Funktionen zur Verwaltung von Nutzern und Gruppen.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Groups/users&lt;/strong&gt; : a tabbed interface to user and roles listings with a variety of display options. You can also add users from this view, delete or modify users, email groups of users, test their privileges, and view users by various sorting and selection criteria.</string>
+		<translation>&lt;strong&gt;Gruppen/Nutzer anzeigen&lt;/strong&gt;Hier können alle Nutzer und Gruppen angezeigt, ihre Eigenschaften bearbeitet und gelöscht werden. Ihre Privilegien können getestet werden. Zusätzlich ist der Versand von E-Mails an Nutzer und Nutzergruppen möglich.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add Group/User&lt;/strong&gt; : A form for creation of a new user or group. If you have hooked Dynamic Data to Roles and created extra properties for your users, these will also be displayed here.</string>
+		<translation>&lt;strong&gt;Gruppe/Nutzer hinzufügen&lt;/strong&gt; Hier können neue Nutzer- oder Gruppenrollen vom Administrator angelegt werden. Wenn mit dem Rollen-Modul Dynamische Daten verbunden (hooked) wurden, werden diese zusätzliche Felder hier angezeigt.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Email Messaging&lt;/strong&gt; : Configure email notifications to users on registration, change of passwords, and account activation including template customization. You can also email groups of users from this view.</string>
+		<translation>&lt;strong&gt;E-Mail-Versendung&lt;/strong&gt; Hier kann eingestellt werden, ob und welche E-Mails an die Nutzer bei der Neuregistrierung, bei einer Kennwortänderung, bei der Freischaltung des Nutzerkontos usw. versandt werden. Auch können E-Mails an auszuwählende Nutzergruppen verschickt werden.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Recall/Purge&lt;/strong&gt; : Users or groups that have been deleted can be recalled from this screen or purged for good from the system.</string>
+		<translation>&lt;strong&gt;Zurückrufen/Reinigen&lt;/strong&gt; Gelöschte Nutzerkonten oder Gruppen können hier durch Zurückgerufen wiederhergestellt werden. Auch ist durch Reinigen ein endgültiges Löschen möglich.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Site Lock&lt;/strong&gt; : Lock your site to registration or login during maintenance or updates.</string>
+		<translation>&lt;strong&gt;Webseite sperren&lt;/strong&gt; Hier kann die Webseite für Wartungszwecke oder Updates gesperrt werden.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Modify Config&lt;/strong&gt; : Set general site options including:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="41" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
-		<string>Xaraya also comes preconfigured with a minimal set of roles that are loaded when you run the installer. This configuration is shown below:</string>
+		<string>designated site Administrator and default registration User group</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="44" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
-		<string>At installation time you are asked to choose a configuration that affects preinstalled
-privileges assigned to the above roles. The privileges can be changed after installation. The default
-roles and minimum privileges at installation time are.</string>
+		<string>default Authentication and Registration module</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="61" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;Everybody&lt;/strong&gt;: the role containing all other roles. This role has no access privileges.</string>
+		<string>activation of user variables and Dynamic Data for roles such as Last Login, User Home, Last Password Update</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>Role Member Account Options realted to User Home, editing of Member Account, and search by Email</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Roles</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-main.xd" line="66" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;Anonymous&lt;/strong&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
-		<translation></translation>
+		<string>The roles on your site are arranged in a tree. At the top of the tree is a role called Everybody, which represents the &quot;group of all groups&quot; on your site. Every user and every group is a member or descendent of Everybody.</string>
+		<translation>Die Rollen in Xaraya sind in einer Baumstruktur angeordnet. An der Spitze steht die Rolle &quot;Everybody&quot;, welche die Elterngruppe jeder Rolle ist. Jeder Nutzer und jede Gruppe sind entweder direkte Mitglieder oder aber mittelbare Abkömmlinge von &quot;Everybody&quot;.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-main.xd" line="70" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;Administrators&lt;/strong&gt;: a group that has administration privileges.</string>
-		<translation></translation>
+		<string>Xaraya also comes preconfigured with a minimal set of roles that are loaded when you run the installer. This configuration is shown below:</string>
+		<translation>Xaraya hat fünf vordefinierte Rollen, die während der Installation wie folgt angelegt werden.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="74" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>At installation time you are asked to choose a configuration that affects preinstalled
+privileges assigned to the above roles. The privileges can be changed after installation. The default
+roles and minimum privileges at installation time are.</string>
+		<translation>Bei der Installation können Sie mithilfe einer Konfiguration auswählen, welche vordefinierten Privilegien den oben aufgeführten, vordefinierten Rollen zugewiesen werden. Diese Privilegien können später geändert werden. Die standardgemäßen Rollen und deren Rechte sind:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Everybody&lt;/strong&gt;: the role containing all other roles. This role has no access privileges.</string>
+		<translation>&lt;strong&gt;Everybody&lt;/strong&gt;: Diese Rolle enthält alle anderen Rollen. Diese Rolle hat keine Zugangsrechte.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Anonymous&lt;/strong&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
+		<translation>&lt;strong&gt;Anonymus&lt;/strong&gt;: Eine spezielle Rolle für jeden unangemeldeten Besucher der Webseite. Diese Rolle ist privilegiert zum Besuch der Startseite und hat Zugang zum Anmelde-Block.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Administrators&lt;/strong&gt;: a group that has administration privileges.</string>
+		<translation>&lt;strong&gt;Administrators&lt;/strong&gt;: Diese Rolle hat alle Administrations-Privilegien.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="103" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Admin&lt;/strong&gt;: a member of Administrators. This is the Admin role you create with the Xaraya installer.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Admin&lt;/strong&gt;: Erstes Mitglied der Administrators-Gruppe. Der Nutzername wird bei der Installation von Ihnen festgelegt.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="78" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Users&lt;/strong&gt;: a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges.
 &lt;em&gt;Its members will not have access to the site until you assign some privileges.&lt;/em&gt;</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Users&lt;/strong&gt;: Diese Gruppe enthält üblicherweise die angemeldeten Nutzer. Diese Rolle hat keine vordefinierten Privilegien. &lt;em&gt;Die Gruppenmitglieder können erst dann auf bestimmte Bereiche der Seite zugreifen, wenn der Gruppe die entsprechenden Privilegien zugewiesen werden.&lt;/em&gt;</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="83" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="112" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Myself&lt;/strong&gt;: this is a special role that enables you to assign privileges that will be applied
 to the current user's content. For example if you assign edit privileges for articles to the Myself role,
 then users will be able to edit only their own articles.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;MySelf&lt;/strong&gt;: Eine spezielle Rolle, der Privilegien zugewiesenen werden können, damit die Nutzer auf ihre eigenen Beiträge zugreifen können. Wird dieser Rolle beispielsweise das Ändern-Privileg für Beiträge zugewiesen, können alle Nutzer ihre eigenen Beiträge ändern.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="89" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="118" />
 		</references>
 	</entry>
 	<entry>
 		<string>The preconfigured roles cannot be changed or removed. You can, however, add members to them. You can also define as many more roles in the tree as you wish in whatever configuration you choose.</string>
-		<translation></translation>
+		<translation>Die vordefinierten Rollen können nicht verändert oder gelöscht werden. Sie können aber diesen Rollen Mitglieder zuordnen. Ansonsten können sie beliebig viele Rollen an beliebiger Stelle im Rollen-Baum anlegen.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="94" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="123" />
 		</references>
 	</entry>
 	<entry>
 		<string>Always keep in mind: When you create a role, until you've assigned it some privileges, it will only have those privileges it inherits from its parents.</string>
-		<translation></translation>
+		<translation>Bitte beachten Sie: Solange einer neuen Rolle keine Privilegien zugewiesen wurden, erbt diese Rolle alle Privilegien ihrer Eltern.&lt;br /&gt;
+Nutzerkonten können folgende Zustände aufweisen:&lt;br /&gt;
+&lt;strong&gt;Unbestätigt&lt;/strong&gt; nach einer Neuregistrierung, solange der Nutzer den per E-Mail erhaltenen Bestätigungscode nicht eingegeben hat.&lt;br /&gt;
+&lt;strong&gt;Wartend&lt;/strong&gt; auf Freischaltung durch einen Administrator, falls die Registrierung entsprechend konfiguriert wurde.&lt;br /&gt;
+&lt;strong&gt;Normal&lt;/strong&gt;, das Nutzerkonto wurde bestätigt und ggf. freigeschaltet. &lt;br /&gt;
+&lt;strong&gt;Gesperrt&lt;/strong&gt; von einem Administrator&lt;br /&gt;</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="97" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="126" />
 		</references>
 	</entry>
 	<entry>
-		<string>Menu Options</string>
+		<string>Extending Roles</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="102" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="129" />
 		</references>
 	</entry>
 	<entry>
-		<string>The roles module provides key functions to manage the users and groups on your site:</string>
+		<string>You can extend roles by hooking in the functionality of other modules to roles.
+Dynamic Data module for example, enables you to add further custom fields to your user roles.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="106" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="132" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;View Groups/users&lt;/strong&gt; : a tabbed interface to user and roles listings with a variety of display options. You can also add users from this view, delete or modify users, email groups of users, test their privileges, and view users by various sorting and selection criteria.</string>
+		<string>There is a set of sample 'user' dynamic data (file called users.xml) you can</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="109" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="133" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;Add Group/User&lt;/strong&gt; : A form for creation of a new user or group. If you have hooked Dynamic Data to Roles and created extra properties for your users, these will also be displayed here.</string>
+		<string>import into Roles</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="110" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="133" />
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;Email Messaging&lt;/strong&gt; : Configure email notifications to users on registration, change of passwords, and account activation including template customization. You can also email groups of users from this view.</string>
+		<string>including timezone, aim, irc, msn, yahoom, avatar, user signature and so on that can also be utilized by other modules.
+Some such as the Forum module(xarbb) automatically integrate this data.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="111" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Recall/Purge&lt;/strong&gt; : Users or groups that have been deleted can be recalled from this screen or purged for good from the system.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Site Lock&lt;/strong&gt; : Lock your site to registration or login during maintenance or updates.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Modify Config&lt;/strong&gt; : Set general site options such as lockout times, designated Administrator, site terms and privacy policy, as well as setting user site registration options, and managing filtering and dynamic data.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="114" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="135" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Dazugehörige Blöcke</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="117" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="139" />
 		</references>
 	</entry>
 	<entry>
-		<string>Login Block allows users to login</string>
-		<translation>Der Anmelde- (Login-)Block erlaubt den BenutzerInnen das Anmelden</translation>
+		<string>&lt;strong&gt;Online Block&lt;/strong&gt; shows the number visiting your site right now</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="121" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="143" />
 		</references>
 	</entry>
 	<entry>
-		<string>Online Block shows the number visiting your site right now.</string>
-		<translation>Der Online-Block zeigt die Anzahl der gegenwärtigen BesucherInnen der Website an</translation>
+		<string>&lt;strong&gt;Language Block&lt;/strong&gt; - allow users to select their default language</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="124" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login Block - deprecated here and moved to Authsystem (authentication) module at Xaraya version 1.1.0</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="150" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Dazugehörige Hooks</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="128" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="155" />
 		</references>
 	</entry>
 	<entry>
@@ -221,115 +305,115 @@ then users will be able to edit only their own articles.</string>
 User Menu hook that when activated can enhance a user's visit. If a module providing a User Menu hook
 is hooked to Roles, content from the module will be displayed in the User's account page.
 Examples of modules that provide User Menu hooks are Themes, and Comments.</string>
-		<translation></translation>
+		<translation>Das Rollen-Modul bietet keine eigenen Hooks. Es erlaubt anderen Modulen,  Nutzermenü-Hooks anzubieten. Bei einer solchen Verbindung werden die Daten aus den verbundenen Modulen auf der Nutzerkonto-Seite angezeigt. Beispielsweise bieten die Module Themen und Kommentare Nutzermenü-Hooks an.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="134" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="161" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Dynamic Data Properties</string>
-		<translation></translation>
+		<translation>Dazugehörige Dynamische Daten-Eigenschaften</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="137" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="164" />
 		</references>
 	</entry>
 	<entry>
 		<string>Roles provides a number of Dynamic Data properties that you can use either in Roles or
 other module on your site.</string>
-		<translation></translation>
+		<translation>Das Rollen-Modul bietet zahlreiche Dynamische Daten-Eigenschaften, die in diesem und anderen Modulen genutzt werden können.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="141" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="168" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further Information</string>
-		<translation></translation>
+		<translation>Weitere Informationen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="143" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="171" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further information on the Roles module can be found at:</string>
-		<translation></translation>
+		<translation>Siehe:</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="145" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>Roles Module Extension page at</string>
-		<translation></translation>
+		<translation>Homepage des Rollen-Moduls siehe</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="148" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="176" />
 		</references>
 	</entry>
 	<entry>
 		<string>Roles Module - Xaraya Extension 27</string>
-		<translation></translation>
+		<translation>Xaraya Extension Registration &amp; Release: Rollen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="148" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="176" />
 		</references>
 	</entry>
 	<entry>
 		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
+		<translation>Das Register &lt;i&gt;Version History&lt;/i&gt; am Fuß der Seite enthält die letzten Release-Informationen.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="149" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on Roles module at</string>
-		<translation></translation>
+		<translation>Anleitungen und Dokumentationen zum Rollen-Modul siehe</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="151" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="179" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related documentation on Roles</string>
-		<translation></translation>
+		<translation>Xaraya Stichwort: Rollen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="151" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="179" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Documentation.</string>
-		<translation></translation>
+		<translation>Xaraya Documentation.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="151" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="179" />
 		</references>
 	</entry>
 	<entry>
 		<string>Extended information for Developers at</string>
-		<translation></translation>
+		<translation>Erweiterte Informationen für Entwickler siehe</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="153" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="181" />
 		</references>
 	</entry>
 	<entry>
 		<string>RFC 30</string>
-		<translation></translation>
+		<translation>RFC 30</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="153" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="181" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya RFC-30</string>
-		<translation></translation>
+		<translation>Xaraya RFC-30</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="153" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="181" />
 		</references>
 	</entry>
 	<entry>
-		<string>Roles Module - Overview</string>
+		<string>Roles Module Overview</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="158" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="186" />
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
-		<translation></translation>
+		<translation>Version</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="158" />
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="186" />
 		</references>
 	</entry>
 </translations>

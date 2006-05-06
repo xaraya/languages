@@ -1,46 +1,297 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
-		<string>You do not have access to modify this topic.</string>
-		<translation>Keinen Zugang, um dieses Thema zu ändern.</translation>
+		<string>Invalid Parameter Count in #(1)api_#(2) in module #(3)</string>
+		<translation>Ungültige Parameteranzahl #(1)api_#(2) im Modul #(3)</translation>
 		<references>
-			<reference file="modules/xarbb/xaruser/newreply.php" line="84" />
-			<reference file="modules/xarbb/xaruser/newtopic.php" line="65" />
+			<reference file="modules/xarbb/xaradminapi/deletereplies.php" line="26" />
+			<reference file="modules/xarbb/xaruserapi/updateforumview.php" line="36" />
 		</references>
 	</entry>
 	<entry>
-		<string>All Forums</string>
-		<translation>Alle Foren</translation>
+		<string>Log in</string>
+		<translation>Anmelden</translation>
 		<references>
-			<reference file="modules/xarbb/xarblocks/modify-latestposts.php" line="63" />
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="241" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="370" />
 		</references>
 	</entry>
 	<entry>
-		<string>type #(1)</string>
-		<translation>Typ #(1)</translation>
+		<string>Username</string>
+		<translation>Nutzername</translation>
 		<references>
-			<reference file="modules/xarbb/xarblocks/modify-latestposts.php" line="74" />
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="248" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="377" />
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation></translation>
+		<string>Password</string>
+		<translation>Kennwort</translation>
 		<references>
-			<reference file="modules/xarbb/xartemplates/admin-main.xd" line="71" />
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="255" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="384" />
 		</references>
 	</entry>
 	<entry>
-		<string>[Modified by: #(1) on #(3)]</string>
-		<translation>[Geändert von: #(1) am #(2)]</translation>
+		<string>Remember me</string>
+		<translation>Cookie setzen</translation>
 		<references>
-			<reference file="modules/xarbb/xaruser/newtopic.php" line="153" />
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="263" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="392" />
 		</references>
 	</entry>
 	<entry>
-		<string>No Such Forum Present</string>
-		<translation>Kein derartiges Forum vorhanden</translation>
+		<string>New Announcement</string>
+		<translation>Neue Ankündigung</translation>
 		<references>
-			<reference file="modules/xarbb/xaruserapi/updateforumview.php" line="42" />
+			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="94" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="170" />
+			<reference file="modules/xarbb/xaruser/searchtopics.php" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>New Sticky Topic</string>
+		<translation>Neues vorgezogenes Thema</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="100" />
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="184" />
+			<reference file="modules/xarbb/xaruser/searchtopics.php" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) [#(2)] for #(3) function #(4)() in module #(5)</string>
+		<translation>Ungültiges #(1) [#(2)] bei #(3) Funktion #(4)() im Modul #(5)</translation>
+		<references>
+			<reference file="modules/xarbb/xaruserapi/get_allposts.php" line="38" />
+			<reference file="modules/xarbb/xaruserapi/get_allposts.php" line="46" />
+			<reference file="modules/xarbb/xaruserapi/getallreplies_byip.php" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid Parameter Count in #(1) function #(2) of module #(3)</string>
+		<translation>Ungültige Parameteranzahl in #(1) Function #(2) des Moduls #(3)</translation>
+		<references>
+			<reference file="modules/xarbb/xaruserapi/getnexttopicid.php" line="27" />
+			<reference file="modules/xarbb/xaruserapi/getprevioustopicid.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid Parameter Count in #(1), #(2), #(3)</string>
+		<translation>Ungültige Parameteranzahl in #(1), #(2), #(3)</translation>
+		<references>
+			<reference file="modules/xarbb/xaradminapi/deleteallreplies.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Could not get topic in #(1), #(2), #(3)</string>
+		<translation>Konnte kein Thema in #(1), #(2), #(3) erhalten</translation>
+		<references>
+			<reference file="modules/xarbb/xaradminapi/deleteallreplies.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid Parameter count in #(1), #(2), #(3)</string>
+		<translation>Ungültige Parameteranzahl in #(1), #(2), #(3)</translation>
+		<references>
+			<reference file="modules/xarbb/xaradminapi/deletetopics.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete a Forum</string>
+		<translation>Ein Forum löschen</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-delete.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Forum for Deletion</string>
+		<translation>Zu löschendes Forum</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-delete.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Existing Forum</string>
+		<translation>Bestehendes Forum ändern</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-modify.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarBB Settings</string>
+		<translation>xarBB-Einstellungen</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>The name of the session that xarBB will create.</string>
+		<translation>Sessionsname, den xarBB anlegt.</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cookie Name</string>
+		<translation>Cookiename</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Values</string>
+		<translation>Standardwerte</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-modifyconfig.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Forums</string>
+		<translation>Foren anzeigen</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/admin-view.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>You last visited on</string>
+		<translation>Der letzte Besuch war am</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>The current time is</string>
+		<translation>Die aktuelle Zeit ist</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Topics:</string>
+		<translation>Themen:</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-main.xd" line="180" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cancel move of topic</string>
+		<translation>Verschieben des Themas abbrechen</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-movetopic.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Post subject</string>
+		<translation>Betreff posten</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-newtopic.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Topics Found</string>
+		<translation>Themen gefunden</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-search.xd" line="23" />
+			<reference file="modules/xarbb/xartemplates/user-search.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search on</string>
+		<translation>Weitersuchen</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-search.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>No replies</string>
+		<translation>Keine Antworten</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-searchtopics.xd" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>Replies:</string>
+		<translation>Antworten:</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="244" />
+		</references>
+	</entry>
+	<entry>
+		<string>Views:</string>
+		<translation>Aufrufe:</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="252" />
+		</references>
+	</entry>
+	<entry>
+		<string>No new post</string>
+		<translation>Kein neuer Beitrag</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="313" />
+		</references>
+	</entry>
+	<entry>
+		<string>New hot topic post</string>
+		<translation>Neuer Beitrag zum aktivenThema</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="336" />
+		</references>
+	</entry>
+	<entry>
+		<string>New sticky</string>
+		<translation>Neu vorstehend</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/user-viewforum.xd" line="356" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid Parameter Count in #(3)_#(1)_#(2)</string>
+		<translation>Ungültige Parameter-Anzahl in #(3)_#(1)_#(2)</translation>
+		<references>
+			<reference file="modules/xarbb/xaruserapi/counttopics.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Topic ID</string>
+		<translation>Themen-ID</translation>
+		<references>
+			<reference file="modules/xarbb/xaruserapi/getitemfields.php" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Topic with ID #(1) does not exist</string>
+		<translation>Das Thema mit der ID #(1) existiert nicht</translation>
+		<references>
+			<reference file="modules/xarbb/xaruserapi/gettopic.php" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sync Topics</string>
+		<translation>Themen synchronisieren</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="36" />
+			<reference file="modules/xarbb/xartemplates/includes/navtabs-action.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>New topic</string>
+		<translation>Neues Thema</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/includes/topiccontrols.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>New reply</string>
+		<translation>Neue Antwort</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/includes/topiccontrols.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>CLosed Topic</string>
+		<translation>Thema geschlossen</translation>
+		<references>
+			<reference file="modules/xarbb/xartemplates/includes/topiccontrols.xd" line="26" />
 		</references>
 	</entry>
 </translations>

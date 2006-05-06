@@ -2,42 +2,42 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
 		<string>Select Hooked Modules for Privilege '#(1)'</string>
-		<translation></translation>
+		<translation>Ausgewählte verbundene Module (hooked) für das Privileg '#(1)'</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
 		<string>Hooked Module</string>
-		<translation></translation>
+		<translation>Modul</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>Item Type</string>
-		<translation></translation>
+		<translation>Beitragstyp</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>Item ID</string>
-		<translation></translation>
+		<translation>Beitrags-ID</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>Access Level</string>
-		<translation></translation>
+		<translation>Zugangslevel</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Access</string>
-		<translation></translation>
+		<translation>Kein Zugang</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="48" />
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="50" />
@@ -45,7 +45,7 @@
 	</entry>
 	<entry>
 		<string>Read</string>
-		<translation></translation>
+		<translation>Lesen</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="53" />
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="55" />
@@ -53,7 +53,7 @@
 	</entry>
 	<entry>
 		<string>Admin</string>
-		<translation></translation>
+		<translation>Admin</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="58" />
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="60" />
@@ -61,7 +61,7 @@
 	</entry>
 	<entry>
 		<string>There are #(1) entries matching these selection criteria at the moment</string>
-		<translation></translation>
+		<translation>#(1) Elemente erfüllen diese Auswahl derzeit.</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="71" />
 		</references>
@@ -74,7 +74,11 @@ Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege 
 &lt;br /&gt;&lt;br /&gt;
 - ...
 &lt;br /&gt;&lt;br /&gt;</string>
-		<translation></translation>
+		<translation>Beispiele unter der Voraussetzung, dass Nutzer standardmäßig das Leserecht für die Artikel haben:&lt;br /&gt;&lt;br /&gt;
+Um 'Grobi' zu erlauben, alle Schlagwörter im Artikel-Modul zu lesen, ist z.B. ein Privileg 'LiesArtikelSchlagwörter' mit Modul=Artikel, Instanz=(151:All:All) und dem Zugangslevel=Lesen anzulegen. Sollen die Schlagwörter nur im Beitragstyp Dokumentation zugänglich sein, muss die Instanz (151:2:All) lauten. 
+&lt;br /&gt;&lt;br /&gt;
+Dieses Instanzenerstellungs-Hilfsformular ist mit 'Speichern und dem Privileg zuweisen' zu beenden und danach das gesamte Privileg zu speichern. Schließlich muß es noch der Rolle 'Grobi' zugewiesen werden.
+&lt;br /&gt;&lt;br /&gt;</translation>
 		<references>
 			<reference file="modules/keywords/xartemplates/admin-privileges.xd" line="87" />
 		</references>

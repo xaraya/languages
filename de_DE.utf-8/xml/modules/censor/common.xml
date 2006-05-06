@@ -4,9 +4,19 @@
 		<string>Edit</string>
 		<translation>Bearbeiten</translation>
 		<references>
-			<reference file="modules/censor/xaradmin/view.php" line="66" />
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="57" />
-			<reference file="modules/censor/xartemplates/includes/plain.xd" line="59" />
+			<reference file="modules/censor/xaradmin/view.php" line="68" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="47" />
+			<reference file="modules/censor/xartemplates/includes/plain.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>All</string>
+		<translation>Alle</translation>
+		<references>
+			<reference file="modules/censor/xaradmin/view.php" line="83" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="78" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="84" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
@@ -14,7 +24,7 @@
 		<translation>Ungültige Parameteranzahl  in #(3)_#(1)_#(2).php</translation>
 		<references>
 			<reference file="modules/censor/xaradminapi/create.php" line="27" />
-			<reference file="modules/censor/xaradminapi/delete.php" line="26" />
+			<reference file="modules/censor/xaradminapi/delete.php" line="24" />
 			<reference file="modules/censor/xaruserapi/get.php" line="24" />
 		</references>
 	</entry>
@@ -22,33 +32,34 @@
 		<string>View</string>
 		<translation>Anzeigen</translation>
 		<references>
-			<reference file="modules/censor/xaradminapi/getmenulinks.php" line="28" />
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/censor/xaradminapi/getmenulinks.php" line="24" />
+			<reference file="modules/censor/xartemplates/admin-main.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add</string>
 		<translation>Hinzufügen</translation>
 		<references>
-			<reference file="modules/censor/xaradminapi/getmenulinks.php" line="39" />
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="43" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="25" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="86" />
+			<reference file="modules/censor/xaradminapi/getmenulinks.php" line="30" />
+			<reference file="modules/censor/xartemplates/admin-main.xd" line="44" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="20" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="82" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify Config</string>
 		<translation>Konfiguration ändern</translation>
 		<references>
-			<reference file="modules/censor/xaradminapi/getmenulinks.php" line="49" />
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="92" />
+			<reference file="modules/censor/xaradminapi/getmenulinks.php" line="36" />
+			<reference file="modules/censor/xartemplates/admin-main.xd" line="94" />
+			<reference file="modules/censor/xartemplates/includes/admin-menu.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid Parameter Count</string>
 		<translation>Ungültige Parameterzahl</translation>
 		<references>
-			<reference file="modules/censor/xaradminapi/update.php" line="27" />
+			<reference file="modules/censor/xaradminapi/update.php" line="28" />
 			<reference file="modules/censor/xaruserapi/transform.php" line="26" />
 		</references>
 	</entry>
@@ -58,38 +69,43 @@
 		<references>
 			<reference file="modules/censor/xartemplates/admin-delete.xd" line="6" />
 			<reference file="modules/censor/xartemplates/admin-main.xd" line="3" />
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="18" />
-			<reference file="modules/censor/xartemplates/admin-modifyconfig.xd" line="18" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="18" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="10" />
-			<reference file="modules/censor/xartemplates/admin-view.xd" line="7" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="14" />
+			<reference file="modules/censor/xartemplates/admin-modifyconfig.xd" line="13" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="14" />
+			<reference file="modules/censor/xartemplates/admin-view.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/censor/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/censor/xartemplates/includes/admin-menu.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Items Per Page</string>
 		<translation>Elemente pro Seite</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="106" />
-			<reference file="modules/censor/xartemplates/admin-modifyconfig.xd" line="52" />
+			<reference file="modules/censor/xartemplates/admin-main.xd" line="108" />
+			<reference file="modules/censor/xartemplates/admin-modifyconfig.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>This is the keyword, that when matched will be replaced.</string>
 		<translation>Das ist das Schlüsselwort, das ersetzt wird.</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="40" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="39" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="17" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="30" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Keyword</string>
 		<translation>Schlüsselwort</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="43" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="42" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="17" />
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="7" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="31" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="30" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="5" />
 			<reference file="modules/censor/xartemplates/includes/plain.xd" line="5" />
 		</references>
 	</entry>
@@ -97,37 +113,33 @@
 		<string>Case Sensitive substitution.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="50" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="49" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="25" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="36" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Case sensitive</string>
 		<translation>Groß- und Kleinschreibung beachtend</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="53" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="52" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="25" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="37" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>Match Case substitution.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="64" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="59" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="33" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="46" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="45" />
 		</references>
 	</entry>
 	<entry>
 		<string>Match Case</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="67" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="62" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="33" />
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="17" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="47" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="46" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="11" />
 			<reference file="modules/censor/xartemplates/includes/plain.xd" line="11" />
 		</references>
 	</entry>
@@ -135,59 +147,61 @@
 		<string>Exact</string>
 		<translation>Genau</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="71" />
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="73" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="65" />
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="44" />
-			<reference file="modules/censor/xartemplates/includes/plain.xd" line="40" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="50" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="52" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="49" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="51" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="34" />
+			<reference file="modules/censor/xartemplates/includes/plain.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>Start with</string>
 		<translation>Beginnen mit</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="76" />
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="78" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="66" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="55" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="57" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="54" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="56" />
 		</references>
 	</entry>
 	<entry>
 		<string>End with</string>
 		<translation>Enden mit</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="81" />
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="83" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="67" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="60" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="62" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="59" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>Everywhere</string>
 		<translation>Überall</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="86" />
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="88" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="68" />
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="50" />
-			<reference file="modules/censor/xartemplates/includes/plain.xd" line="52" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="65" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="67" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="64" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="66" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="40" />
+			<reference file="modules/censor/xartemplates/includes/plain.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>This is the locale, for that when matched will be replaced.</string>
 		<translation>Dies ist die Locale, die bei Übereinstimmung ersetzt wird.</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="93" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="72" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="41" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="71" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="70" />
 		</references>
 	</entry>
 	<entry>
 		<string>Locale</string>
 		<translation>Locale</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/admin-modify.xd" line="96" />
-			<reference file="modules/censor/xartemplates/admin-new.xd" line="75" />
-			<reference file="modules/censor/xartemplates/admin-new_old.xd" line="41" />
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="22" />
+			<reference file="modules/censor/xartemplates/admin-modify.xd" line="72" />
+			<reference file="modules/censor/xartemplates/admin-new.xd" line="71" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="14" />
 			<reference file="modules/censor/xartemplates/includes/plain.xd" line="14" />
 		</references>
 	</entry>
@@ -195,7 +209,7 @@
 		<string>Case Sensitive</string>
 		<translation>Groß- und Kleinschreibung beachtend</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="12" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="8" />
 			<reference file="modules/censor/xartemplates/includes/plain.xd" line="8" />
 		</references>
 	</entry>
@@ -203,7 +217,7 @@
 		<string>Actions</string>
 		<translation>Aktionen</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="27" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="17" />
 			<reference file="modules/censor/xartemplates/includes/plain.xd" line="17" />
 		</references>
 	</entry>
@@ -211,24 +225,24 @@
 		<string>Yes</string>
 		<translation>Ja</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="37" />
-			<reference file="modules/censor/xartemplates/includes/plain.xd" line="29" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="27" />
+			<reference file="modules/censor/xartemplates/includes/plain.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
 		<string>No</string>
 		<translation>Nein</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="39" />
-			<reference file="modules/censor/xartemplates/includes/plain.xd" line="33" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="29" />
+			<reference file="modules/censor/xartemplates/includes/plain.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete</string>
 		<translation>Löschen</translation>
 		<references>
-			<reference file="modules/censor/xartemplates/includes/icons.xd" line="58" />
-			<reference file="modules/censor/xartemplates/includes/plain.xd" line="60" />
+			<reference file="modules/censor/xartemplates/includes/icons.xd" line="48" />
+			<reference file="modules/censor/xartemplates/includes/plain.xd" line="48" />
 		</references>
 	</entry>
 </translations>

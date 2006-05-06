@@ -4,35 +4,35 @@
 		<string>Headlines</string>
 		<translation>Schlagzeilen</translation>
 		<references>
-			<reference file="modules/headlines/xarversion.php" line="16" />
-			<reference file="modules/headlines/xarblocks/rss.php" line="69" />
+			<reference file="modules/headlines/xarversion.php" line="17" />
+			<reference file="modules/headlines/xarblocks/rss.php" line="73" />
 			<reference file="modules/headlines/xartemplates/user-main.xd" line="1" />
 			<reference file="modules/headlines/xartemplates/user-my.xd" line="1" />
-			<reference file="modules/headlines/xartemplates/user-view.xd" line="1" />
-			<reference file="modules/headlines/xaruserapi/getitemtypes.php" line="21" />
+			<reference file="modules/headlines/xartemplates/user-view.xd" line="2" />
+			<reference file="modules/headlines/xaruserapi/getitemtypes.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>There is a problem with this feed : #(1)</string>
 		<translation>Mit diesem Feed gibt es ein Problem: #(1)</translation>
 		<references>
-			<reference file="modules/headlines/xaradmin/create.php" line="47" />
-			<reference file="modules/headlines/xaradminapi/import.php" line="42" />
-			<reference file="modules/headlines/xarblocks/rss.php" line="104" />
-			<reference file="modules/headlines/xaruser/main.php" line="50" />
-			<reference file="modules/headlines/xaruser/view.php" line="42" />
+			<reference file="modules/headlines/xaradmin/create.php" line="51" />
+			<reference file="modules/headlines/xaradminapi/import.php" line="46" />
+			<reference file="modules/headlines/xarblocks/rss.php" line="117" />
+			<reference file="modules/headlines/xaruser/main.php" line="66" />
+			<reference file="modules/headlines/xaruser/view.php" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Einreichen</translation>
 		<references>
-			<reference file="modules/headlines/xaradmin/delete.php" line="35" />
-			<reference file="modules/headlines/xaradmin/modify.php" line="43" />
-			<reference file="modules/headlines/xaradmin/new.php" line="29" />
-			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="96" />
-			<reference file="modules/headlines/xartemplates/admin-modifyconfig.xd" line="130" />
-			<reference file="modules/headlines/xartemplates/admin-new.xd" line="68" />
+			<reference file="modules/headlines/xaradmin/delete.php" line="39" />
+			<reference file="modules/headlines/xaradmin/modify.php" line="47" />
+			<reference file="modules/headlines/xaradmin/new.php" line="33" />
+			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="89" />
+			<reference file="modules/headlines/xartemplates/admin-modifyconfig.xd" line="126" />
+			<reference file="modules/headlines/xartemplates/admin-new.xd" line="65" />
 			<reference file="modules/headlines/xartemplates/user-my.xd" line="19" />
 		</references>
 	</entry>
@@ -42,7 +42,7 @@
 		<references>
 			<reference file="modules/headlines/xaradmin/view.php" line="19" />
 			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="48" />
-			<reference file="modules/headlines/xartemplates/admin-new.xd" line="49" />
+			<reference file="modules/headlines/xartemplates/admin-new.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
@@ -50,8 +50,8 @@
 		<translation>Reihenfolge</translation>
 		<references>
 			<reference file="modules/headlines/xaradmin/view.php" line="20" />
-			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="78" />
-			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="9" />
+			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="72" />
+			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
@@ -59,7 +59,7 @@
 		<translation>Optionen</translation>
 		<references>
 			<reference file="modules/headlines/xaradmin/view.php" line="22" />
-			<reference file="modules/headlines/xartemplates/user-view.xd" line="48" />
+			<reference file="modules/headlines/xartemplates/user-view.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
@@ -67,7 +67,7 @@
 		<translation>Bearbeiten</translation>
 		<references>
 			<reference file="modules/headlines/xaradmin/view.php" line="52" />
-			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="24" />
+			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
@@ -75,15 +75,23 @@
 		<translation>Löschen</translation>
 		<references>
 			<reference file="modules/headlines/xaradmin/view.php" line="63" />
-			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="25" />
+			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid Parameter Count in #(3)_#(1)_#(2)</string>
 		<translation>Ungültige Parameteranzahl in #(3)_#(1)_#(2)</translation>
 		<references>
-			<reference file="modules/headlines/xaradminapi/create.php" line="23" />
-			<reference file="modules/headlines/xaradminapi/delete.php" line="23" />
+			<reference file="modules/headlines/xaradminapi/create.php" line="26" />
+			<reference file="modules/headlines/xaradminapi/delete.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Konfiguration bearbeiten</translation>
+		<references>
+			<reference file="modules/headlines/xaradminapi/getmenulinks.php" line="45" />
+			<reference file="modules/headlines/xartemplates/includes/admin-menu.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
@@ -105,17 +113,26 @@
 		<translation>Administration des &quot;Schlagzeilen&quot;-Moduls</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-delete.xd" line="1" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="16" />
 			<reference file="modules/headlines/xartemplates/admin-modifyconfig.xd" line="7" />
-			<reference file="modules/headlines/xartemplates/admin-new.xd" line="18" />
+			<reference file="modules/headlines/xartemplates/admin-new.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/headlines/xartemplates/includes/admin-menu.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>List of available feeds</string>
 		<translation>Liste der verfügbaren Feeds</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="29" />
-			<reference file="modules/headlines/xartemplates/admin-new.xd" line="31" />
+			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="30" />
+			<reference file="modules/headlines/xartemplates/admin-new.xd" line="30" />
 		</references>
 	</entry>
 	<entry>
@@ -123,24 +140,24 @@
 		<translation>Die URL des Feed, der zum System hinzugefügt werden soll.</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="45" />
-			<reference file="modules/headlines/xartemplates/admin-new.xd" line="46" />
+			<reference file="modules/headlines/xartemplates/admin-new.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>Configuration of Hooked Modules</string>
 		<translation>Konfiguration von mit Hooks verbundenen Modulen</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="89" />
-			<reference file="modules/headlines/xartemplates/admin-modifyconfig.xd" line="121" />
-			<reference file="modules/headlines/xartemplates/admin-new.xd" line="61" />
+			<reference file="modules/headlines/xartemplates/admin-modify.xd" line="82" />
+			<reference file="modules/headlines/xartemplates/admin-modifyconfig.xd" line="119" />
+			<reference file="modules/headlines/xartemplates/admin-new.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>View Headlines</string>
 		<translation>Schlagzeilen zeigen</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-view.xd" line="4" />
-			<reference file="modules/headlines/xaruserapi/getitemtypes.php" line="22" />
+			<reference file="modules/headlines/xartemplates/admin-view.xd" line="5" />
+			<reference file="modules/headlines/xaruserapi/getitemtypes.php" line="25" />
 		</references>
 	</entry>
 	<entry>
@@ -148,7 +165,7 @@
 		<translation>Zurück zu den Hauptschlagzeilen</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/user-my.xd" line="41" />
-			<reference file="modules/headlines/xartemplates/user-view.xd" line="46" />
+			<reference file="modules/headlines/xartemplates/user-view.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
@@ -156,7 +173,7 @@
 		<translation>Schlagzeilen-URL</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/includes/icons.xd" line="6" />
-			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="6" />
+			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
@@ -164,7 +181,7 @@
 		<translation>Aktionen</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/includes/icons.xd" line="9" />
-			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="12" />
+			<reference file="modules/headlines/xartemplates/includes/plain.xd" line="11" />
 		</references>
 	</entry>
 </translations>

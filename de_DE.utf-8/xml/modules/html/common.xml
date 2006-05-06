@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
+		<string>Confirm</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/html/xaradmin/delete.php" line="51" />
+			<reference file="modules/html/xaradmin/deletetype.php" line="50" />
+		</references>
+	</entry>
+	<entry>
 		<string>Invalid authorization key for deleting #(1) HTML tag #(2)</string>
 		<translation>Ungültiger Autorisierungsschlüssel zum Löschen #(1) HTML-Tag #(2)</translation>
 		<references>
@@ -25,7 +33,7 @@
 			<reference file="modules/html/xaradmin/modifyconfig.php" line="30" />
 			<reference file="modules/html/xaradmin/set.php" line="28" />
 			<reference file="modules/html/xaradmin/viewtypes.php" line="27" />
-			<reference file="modules/html/xartemplates/admin-modifyconfig.xd" line="56" />
+			<reference file="modules/html/xartemplates/admin-modifyconfig.xd" line="64" />
 		</references>
 	</entry>
 	<entry>
@@ -64,44 +72,54 @@
 		<string>Add Tag</string>
 		<translation>Tag hinzufügen</translation>
 		<references>
-			<reference file="modules/html/xaradminapi/getmenulinks.php" line="33" />
-			<reference file="modules/html/xartemplates/admin-new.xd" line="10" />
+			<reference file="modules/html/xaradminapi/getmenulinks.php" line="31" />
+			<reference file="modules/html/xartemplates/admin-new.xd" line="12" />
+			<reference file="modules/html/xartemplates/includes/admin-menu.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>Set Tags</string>
 		<translation>Tags setzen</translation>
 		<references>
-			<reference file="modules/html/xaradminapi/getmenulinks.php" line="40" />
-			<reference file="modules/html/xartemplates/admin-set.xd" line="3" />
+			<reference file="modules/html/xaradminapi/getmenulinks.php" line="38" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add Tag Type</string>
 		<translation>Tag-Typ hinzufügen</translation>
 		<references>
-			<reference file="modules/html/xaradminapi/getmenulinks.php" line="48" />
-			<reference file="modules/html/xartemplates/admin-newtype.xd" line="10" />
+			<reference file="modules/html/xaradminapi/getmenulinks.php" line="46" />
+			<reference file="modules/html/xartemplates/admin-newtype.xd" line="12" />
+			<reference file="modules/html/xartemplates/includes/admin-menu.xd" line="45" />
 		</references>
 	</entry>
 	<entry>
 		<string>View Tag Types</string>
 		<translation>Tag-Typen anzeigen</translation>
 		<references>
-			<reference file="modules/html/xaradminapi/getmenulinks.php" line="55" />
-			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="3" />
+			<reference file="modules/html/xaradminapi/getmenulinks.php" line="53" />
+			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Konfiguration ändern</translation>
+		<references>
+			<reference file="modules/html/xaradminapi/getmenulinks.php" line="60" />
+			<reference file="modules/html/xartemplates/includes/admin-menu.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
 		<string>HTML Administration</string>
 		<translation>HTML-Administration</translation>
 		<references>
-			<reference file="modules/html/xaradminapi/menu.php" line="29" />
+			<reference file="modules/html/xaradminapi/menu.php" line="27" />
 			<reference file="modules/html/xartemplates/admin-delete.xd" line="1" />
 			<reference file="modules/html/xartemplates/admin-deletetype.xd" line="1" />
 			<reference file="modules/html/xartemplates/admin-edit.xd" line="1" />
 			<reference file="modules/html/xartemplates/admin-edittype.xd" line="1" />
-			<reference file="modules/html/xartemplates/admin-modifyconfig.xd" line="7" />
+			<reference file="modules/html/xartemplates/admin-modifyconfig.xd" line="6" />
 			<reference file="modules/html/xartemplates/admin-new.xd" line="9" />
 			<reference file="modules/html/xartemplates/admin-newtype.xd" line="9" />
 			<reference file="modules/html/xartemplates/admin-set.xd" line="1" />
@@ -110,19 +128,44 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Confirm Tag Deletion</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/html/xartemplates/admin-delete.xd" line="12" />
+			<reference file="modules/html/xartemplates/admin-deletetype.xd" line="12" />
+		</references>
+	</entry>
+	<entry>
 		<string>Cancel edit of the tag</string>
 		<translation>Bearbeiten des Tags abbrechen</translation>
 		<references>
-			<reference file="modules/html/xartemplates/admin-edit.xd" line="22" />
-			<reference file="modules/html/xartemplates/admin-edittype.xd" line="21" />
+			<reference file="modules/html/xartemplates/admin-edit.xd" line="29" />
+			<reference file="modules/html/xartemplates/admin-edittype.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Tag Type Details</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/html/xartemplates/admin-edittype.xd" line="12" />
+			<reference file="modules/html/xartemplates/admin-newtype.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/html/xartemplates/admin-main.xd" line="7" />
+			<reference file="modules/html/xartemplates/includes/admin-menu.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>Tag</string>
 		<translation>Tag</translation>
 		<references>
-			<reference file="modules/html/xartemplates/admin-new.xd" line="18" />
-			<reference file="modules/html/xartemplates/admin-set.xd" line="9" />
+			<reference file="modules/html/xartemplates/admin-new.xd" line="21" />
+			<reference file="modules/html/xartemplates/admin-new.xd" line="22" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
@@ -130,8 +173,8 @@
 		<translation>Nicht erlaubt</translation>
 		<references>
 			<reference file="modules/html/xartemplates/admin-new.xd" line="42" />
-			<reference file="modules/html/xartemplates/admin-set.xd" line="15" />
-			<reference file="modules/html/xartemplates/admin-view.xd" line="12" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="16" />
+			<reference file="modules/html/xartemplates/admin-view.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
@@ -139,45 +182,45 @@
 		<translation>Erlaubt</translation>
 		<references>
 			<reference file="modules/html/xartemplates/admin-new.xd" line="45" />
-			<reference file="modules/html/xartemplates/admin-set.xd" line="18" />
-			<reference file="modules/html/xartemplates/admin-view.xd" line="15" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="19" />
+			<reference file="modules/html/xartemplates/admin-view.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>Type</string>
 		<translation>Typ</translation>
 		<references>
-			<reference file="modules/html/xartemplates/admin-set.xd" line="12" />
-			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="8" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="13" />
+			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allowed With Parameters</string>
 		<translation>Erlaubt mit Parametern</translation>
 		<references>
-			<reference file="modules/html/xartemplates/admin-set.xd" line="21" />
-			<reference file="modules/html/xartemplates/admin-view.xd" line="18" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="22" />
+			<reference file="modules/html/xartemplates/admin-view.xd" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Options</string>
 		<translation>Optionen</translation>
 		<references>
-			<reference file="modules/html/xartemplates/admin-set.xd" line="24" />
-			<reference file="modules/html/xartemplates/admin-view.xd" line="21" />
-			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="11" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="25" />
+			<reference file="modules/html/xartemplates/admin-view.xd" line="22" />
+			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete</string>
 		<translation>Löschen</translation>
 		<references>
-			<reference file="modules/html/xartemplates/admin-set.xd" line="73" />
-			<reference file="modules/html/xartemplates/admin-set.xd" line="75" />
-			<reference file="modules/html/xartemplates/admin-view.xd" line="51" />
-			<reference file="modules/html/xartemplates/admin-view.xd" line="53" />
-			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="32" />
-			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="34" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="74" />
+			<reference file="modules/html/xartemplates/admin-set.xd" line="76" />
+			<reference file="modules/html/xartemplates/admin-view.xd" line="52" />
+			<reference file="modules/html/xartemplates/admin-view.xd" line="54" />
+			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="33" />
+			<reference file="modules/html/xartemplates/admin-viewtypes.xd" line="35" />
 		</references>
 	</entry>
 </translations>

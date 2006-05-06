@@ -4,40 +4,45 @@
 		<string>DATABASE_ERROR</string>
 		<translation>DATENBANK-FEHLER</translation>
 		<references>
-			<reference file="modules/xproject/xarinit.php" line="50" />
-			<reference file="modules/xproject/xarinit.php" line="95" />
-			<reference file="modules/xproject/xarinit.php" line="234" />
-			<reference file="modules/xproject/xaradminapi/create.php" line="79" />
-			<reference file="modules/xproject/xaradminapi/delete.php" line="42" />
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="52" />
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="68" />
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="88" />
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="109" />
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="130" />
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="141" />
+			<reference file="modules/xproject/xarinit.php" line="52" />
+			<reference file="modules/xproject/xarinit.php" line="97" />
+			<reference file="modules/xproject/xarinit.php" line="288" />
+			<reference file="modules/xproject/xaradminapi/delete.php" line="53" />
+			<reference file="modules/xproject/xaradminapi/migrate.php" line="78" />
+			<reference file="modules/xproject/xaradminapi/migrate.php" line="98" />
+			<reference file="modules/xproject/xaradminapi/migrate.php" line="119" />
+			<reference file="modules/xproject/xaradminapi/migrate.php" line="140" />
+			<reference file="modules/xproject/xaradminapi/migrate.php" line="151" />
 			<reference file="modules/xproject/xaradminapi/update.php" line="68" />
 			<reference file="modules/xproject/xartasksapi/create.php" line="98" />
 			<reference file="modules/xproject/xartasksapi/delete.php" line="42" />
 			<reference file="modules/xproject/xartasksapi/get.php" line="51" />
 			<reference file="modules/xproject/xartasksapi/getall.php" line="125" />
 			<reference file="modules/xproject/xartasksapi/update.php" line="78" />
-			<reference file="modules/xproject/xaruserapi/get.php" line="36" />
 			<reference file="modules/xproject/xaruserapi/getall.php" line="107" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not authorized to delete #(1) item #(2)</string>
-		<translation></translation>
+		<translation>Sie haben keine Berechtigung, um #(1) Element #(2) zu löschen</translation>
 		<references>
-			<reference file="modules/xproject/xaradmin/delete.php" line="24" />
-			<reference file="modules/xproject/xaradminapi/delete.php" line="24" />
+			<reference file="modules/xproject/xaradmin/delete.php" line="35" />
+			<reference file="modules/xproject/xaradminapi/delete.php" line="35" />
 			<reference file="modules/xproject/xartasks/delete.php" line="27" />
 			<reference file="modules/xproject/xartasksapi/delete.php" line="24" />
 		</references>
 	</entry>
 	<entry>
+		<string>Confirm</string>
+		<translation>Bestätigen</translation>
+		<references>
+			<reference file="modules/xproject/xaradmin/delete.php" line="49" />
+			<reference file="modules/xproject/xartasks/delete.php" line="41" />
+		</references>
+	</entry>
+	<entry>
 		<string>Not authorized to modify #(1) item #(2)</string>
-		<translation></translation>
+		<translation>Sie haben keine Berechtigung, um #(1) Element #(2) zu verändern</translation>
 		<references>
 			<reference file="modules/xproject/xaradmin/modify.php" line="22" />
 			<reference file="modules/xproject/xartasks/modify.php" line="46" />
@@ -45,26 +50,26 @@
 	</entry>
 	<entry>
 		<string>Please choose an email option</string>
-		<translation></translation>
+		<translation>Bitte wählen Sie eine Emailoption</translation>
 		<references>
 			<reference file="modules/xproject/xaradmin/modify.php" line="46" />
-			<reference file="modules/xproject/xaradmin/new.php" line="19" />
+			<reference file="modules/xproject/xaradmin/new.php" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>any changes</string>
-		<translation></translation>
+		<translation>einige Änderungen</translation>
 		<references>
 			<reference file="modules/xproject/xaradmin/modify.php" line="47" />
-			<reference file="modules/xproject/xaradmin/new.php" line="20" />
+			<reference file="modules/xproject/xaradmin/new.php" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>major changes</string>
-		<translation></translation>
+		<translation>größere Änderungen</translation>
 		<references>
 			<reference file="modules/xproject/xaradmin/modify.php" line="48" />
-			<reference file="modules/xproject/xaradmin/new.php" line="21" />
+			<reference file="modules/xproject/xaradmin/new.php" line="17" />
 		</references>
 	</entry>
 	<entry>
@@ -72,41 +77,33 @@
 		<translation>wöchentliche Zusammenfassung</translation>
 		<references>
 			<reference file="modules/xproject/xaradmin/modify.php" line="49" />
-			<reference file="modules/xproject/xaradmin/new.php" line="22" />
+			<reference file="modules/xproject/xaradmin/new.php" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Do NOT send email</string>
-		<translation></translation>
+		<translation>Senden Sie KEINE Email</translation>
 		<references>
 			<reference file="modules/xproject/xaradmin/modify.php" line="50" />
-			<reference file="modules/xproject/xaradmin/new.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not authorized to access to #(1)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xproject/xaradmin/new.php" line="9" />
-			<reference file="modules/xproject/xaruser/main.php" line="6" />
-			<reference file="modules/xproject/xaruser/view.php" line="12" />
+			<reference file="modules/xproject/xaradmin/new.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add</string>
 		<translation>Hinzufügen</translation>
 		<references>
-			<reference file="modules/xproject/xaradmin/new.php" line="26" />
-			<reference file="modules/xproject/xaruser/display.php" line="118" />
+			<reference file="modules/xproject/xaradmin/new.php" line="22" />
+			<reference file="modules/xproject/xaruser/display.php" line="126" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation></translation>
+		<translation>Ungültig: #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/create.php" line="27" />
-			<reference file="modules/xproject/xaradminapi/delete.php" line="8" />
+			<reference file="modules/xproject/xaradminapi/create.php" line="24" />
+			<reference file="modules/xproject/xaradminapi/delete.php" line="19" />
 			<reference file="modules/xproject/xaradminapi/update.php" line="18" />
+			<reference file="modules/xproject/xargroupsapi/addgroup.php" line="26" />
 			<reference file="modules/xproject/xartasksapi/create.php" line="15" />
 			<reference file="modules/xproject/xartasksapi/delete.php" line="8" />
 			<reference file="modules/xproject/xartasksapi/get.php" line="8" />
@@ -118,94 +115,78 @@
 	</entry>
 	<entry>
 		<string>Not authorized to add #(1) items</string>
-		<translation></translation>
+		<translation>Sie haben keine Berechtigung, um #(1) Elemente hinzuzufügen</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/create.php" line="35" />
+			<reference file="modules/xproject/xaradminapi/create.php" line="32" />
 			<reference file="modules/xproject/xartasksapi/create.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>The overview of this module and its functions</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="18" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Überblick</translation>
-		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="19" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="19" />
 		</references>
 	</entry>
 	<entry>
 		<string>Create a new project</string>
 		<translation>Ein neues Projekt anlegen</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="27" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="27" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="29" />
+			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>New Project</string>
 		<translation>Neues Projekt</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="28" />
-			<reference file="modules/xproject/xaradminapi/menu.php" line="24" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="30" />
+			<reference file="modules/xproject/xaradminapi/menu.php" line="35" />
 			<reference file="modules/xproject/xartemplates/admin-new.xd" line="3" />
 			<reference file="modules/xproject/xartemplates/tasks-delete.xd" line="12" />
-			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="24" />
+			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="23" />
 			<reference file="modules/xproject/xartemplates/tasks-view.xd" line="10" />
 			<reference file="modules/xproject/xartemplates/user-display.xd" line="20" />
 			<reference file="modules/xproject/xartemplates/user-main.xd" line="14" />
 			<reference file="modules/xproject/xartemplates/user-menu.xd" line="7" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="10" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="28" />
-			<reference file="modules/xproject/xaruserapi/menu.php" line="25" />
+			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="27" />
+			<reference file="modules/xproject/xaruserapi/menu.php" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>List of current projects</string>
 		<translation>Liste aktueller Projekte</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="36" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="36" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="37" />
+			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>View Projects</string>
 		<translation>Projekte anzeigen</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="37" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="38" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="3" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="37" />
+			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>Query project entries</string>
 		<translation>Projekteinträge abfragen</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="42" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="42" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="43" />
+			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="41" />
 		</references>
 	</entry>
 	<entry>
 		<string>Search Projects</string>
 		<translation>Projekte suchen</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="43" />
-			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="43" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="44" />
+			<reference file="modules/xproject/xaruserapi/getmenulinks.php" line="42" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify Config</string>
 		<translation>Konfiguration ändern</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="52" />
+			<reference file="modules/xproject/xaradminapi/getmenulinks.php" line="53" />
 			<reference file="modules/xproject/xartemplates/tasks-delete.xd" line="15" />
-			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="27" />
+			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="26" />
 			<reference file="modules/xproject/xartemplates/tasks-view.xd" line="13" />
 			<reference file="modules/xproject/xartemplates/user-display.xd" line="23" />
 			<reference file="modules/xproject/xartemplates/user-main.xd" line="17" />
@@ -217,45 +198,45 @@
 		<string>Projects</string>
 		<translation>Projekte</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/menu.php" line="25" />
+			<reference file="modules/xproject/xaradminapi/menu.php" line="36" />
 			<reference file="modules/xproject/xartemplates/tasks-delete.xd" line="13" />
-			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="25" />
+			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="24" />
 			<reference file="modules/xproject/xartemplates/tasks-view.xd" line="11" />
 			<reference file="modules/xproject/xartemplates/user-display.xd" line="21" />
 			<reference file="modules/xproject/xartemplates/user-main.xd" line="15" />
 			<reference file="modules/xproject/xartemplates/user-menu.xd" line="8" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="11" />
-			<reference file="modules/xproject/xaruserapi/menu.php" line="24" />
+			<reference file="modules/xproject/xaruserapi/menu.php" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Search</string>
 		<translation>Suchen</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/menu.php" line="26" />
+			<reference file="modules/xproject/xaradminapi/menu.php" line="37" />
 			<reference file="modules/xproject/xartemplates/tasks-delete.xd" line="14" />
-			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="26" />
+			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="25" />
 			<reference file="modules/xproject/xartemplates/tasks-view.xd" line="12" />
 			<reference file="modules/xproject/xartemplates/user-display.xd" line="22" />
 			<reference file="modules/xproject/xartemplates/user-main.xd" line="16" />
 			<reference file="modules/xproject/xartemplates/user-menu.xd" line="9" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="12" />
-			<reference file="modules/xproject/xaruserapi/menu.php" line="26" />
+			<reference file="modules/xproject/xaruserapi/menu.php" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>Config</string>
-		<translation>Konfih´gurieren</translation>
+		<translation>Konfigurieren</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/menu.php" line="27" />
-			<reference file="modules/xproject/xaruserapi/menu.php" line="27" />
+			<reference file="modules/xproject/xaradminapi/menu.php" line="38" />
+			<reference file="modules/xproject/xaruserapi/menu.php" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not authorized to edit #(1) item #(2)</string>
-		<translation></translation>
+		<translation>Ihnen fehlt die Berechtigung,  #(1) Element #(2) zu bearbeiten</translation>
 		<references>
-			<reference file="modules/xproject/xaradminapi/migrate.php" line="18" />
+			<reference file="modules/xproject/xaradminapi/migrate.php" line="31" />
 			<reference file="modules/xproject/xaradminapi/update.php" line="33" />
 			<reference file="modules/xproject/xaradminapi/update.php" line="40" />
 			<reference file="modules/xproject/xartasksapi/update.php" line="33" />
@@ -271,19 +252,28 @@
 		</references>
 	</entry>
 	<entry>
+		<string>This item does not exist</string>
+		<translation>Dieses Element existiert nicht</translation>
+		<references>
+			<reference file="modules/xproject/xargroupsapi/get.php" line="43" />
+			<reference file="modules/xproject/xartasksapi/get.php" line="59" />
+			<reference file="modules/xproject/xaruserapi/get.php" line="39" />
+		</references>
+	</entry>
+	<entry>
 		<string>Team name</string>
 		<translation>Teamname</translation>
 		<references>
-			<reference file="modules/xproject/xargroups/modifygroup.php" line="22" />
-			<reference file="modules/xproject/xargroups/newgroup.php" line="17" />
+			<reference file="modules/xproject/xargroups/modifygroup.php" line="39" />
+			<reference file="modules/xproject/xargroups/newgroup.php" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Rename group</string>
 		<translation>Gruppe umbenennen</translation>
 		<references>
-			<reference file="modules/xproject/xargroups/modifygroup.php" line="26" />
-			<reference file="modules/xproject/xargroups/viewallgroups.php" line="43" />
+			<reference file="modules/xproject/xargroups/modifygroup.php" line="43" />
+			<reference file="modules/xproject/xargroups/view.php" line="63" />
 		</references>
 	</entry>
 	<entry>
@@ -291,7 +281,7 @@
 		<translation>Projektübersicht</translation>
 		<references>
 			<reference file="modules/xproject/xartasks/modify.php" line="59" />
-			<reference file="modules/xproject/xaruser/display.php" line="73" />
+			<reference file="modules/xproject/xaruser/display.php" line="82" />
 		</references>
 	</entry>
 	<entry>
@@ -299,7 +289,7 @@
 		<translation></translation>
 		<references>
 			<reference file="modules/xproject/xartasks/modify.php" line="66" />
-			<reference file="modules/xproject/xaruser/display.php" line="80" />
+			<reference file="modules/xproject/xaruser/display.php" line="89" />
 		</references>
 	</entry>
 	<entry>
@@ -307,7 +297,7 @@
 		<translation>Offen</translation>
 		<references>
 			<reference file="modules/xproject/xartasks/modify.php" line="79" />
-			<reference file="modules/xproject/xaruser/display.php" line="109" />
+			<reference file="modules/xproject/xaruser/display.php" line="117" />
 		</references>
 	</entry>
 	<entry>
@@ -315,23 +305,7 @@
 		<translation>Geschlossen</translation>
 		<references>
 			<reference file="modules/xproject/xartasks/modify.php" line="80" />
-			<reference file="modules/xproject/xaruser/display.php" line="110" />
-		</references>
-	</entry>
-	<entry>
-		<string>This item does not exist</string>
-		<translation>Dieses Element existiert nicht</translation>
-		<references>
-			<reference file="modules/xproject/xartasksapi/get.php" line="59" />
-			<reference file="modules/xproject/xaruserapi/get.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not authorized to access #(1) item #(2)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xproject/xartasksapi/get.php" line="95" />
-			<reference file="modules/xproject/xaruserapi/get.php" line="65" />
+			<reference file="modules/xproject/xaruser/display.php" line="118" />
 		</references>
 	</entry>
 	<entry>
@@ -344,10 +318,10 @@
 	</entry>
 	<entry>
 		<string>xProject Administration</string>
-		<translation></translation>
+		<translation>xProject-Administration</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/admin-config.xd" line="1" />
-			<reference file="modules/xproject/xartemplates/admin-delete.xd" line="1" />
+			<reference file="modules/xproject/xartemplates/admin-config.xd" line="2" />
+			<reference file="modules/xproject/xartemplates/admin-delete.xd" line="2" />
 			<reference file="modules/xproject/xartemplates/admin-modify.xd" line="1" />
 			<reference file="modules/xproject/xartemplates/admin-modifyconfig.xd" line="1" />
 			<reference file="modules/xproject/xartemplates/admin-new.xd" line="1" />
@@ -357,7 +331,7 @@
 		<string>Modify Configuration</string>
 		<translation>Konfiguration ändern</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/admin-config.xd" line="3" />
+			<reference file="modules/xproject/xartemplates/admin-config.xd" line="4" />
 			<reference file="modules/xproject/xartemplates/admin-modifyconfig.xd" line="3" />
 		</references>
 	</entry>
@@ -365,10 +339,10 @@
 		<string>Project</string>
 		<translation>Projekt</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/admin-delete.xd" line="24" />
+			<reference file="modules/xproject/xartemplates/admin-delete.xd" line="25" />
 			<reference file="modules/xproject/xartemplates/admin-new.xd" line="17" />
 			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="42" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="39" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
@@ -378,10 +352,10 @@
 			<reference file="modules/xproject/xartemplates/admin-new.xd" line="62" />
 			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="46" />
 			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="80" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="43" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="77" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="119" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="187" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="44" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="78" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="120" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="189" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="20" />
 		</references>
 	</entry>
@@ -398,7 +372,7 @@
 		<translation></translation>
 		<references>
 			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="53" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="65" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="66" />
 		</references>
 	</entry>
 	<entry>
@@ -406,7 +380,7 @@
 		<translation>Status</translation>
 		<references>
 			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="86" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="130" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="131" />
 		</references>
 	</entry>
 	<entry>
@@ -414,16 +388,16 @@
 		<translation>Priorität</translation>
 		<references>
 			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="97" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="138" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="139" />
 		</references>
 	</entry>
 	<entry>
 		<string>Edit</string>
 		<translation>Bearbeiten</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="127" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="88" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="226" />
+			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="129" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="89" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="228" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="39" />
 		</references>
 	</entry>
@@ -431,19 +405,19 @@
 		<string>Delete</string>
 		<translation>Löschen</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="127" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="88" />
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="226" />
+			<reference file="modules/xproject/xartemplates/tasks-modify.xd" line="129" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="89" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="228" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="39" />
-			<reference file="modules/xproject/xaruser/display.php" line="186" />
-			<reference file="modules/xproject/xaruser/display.php" line="187" />
+			<reference file="modules/xproject/xaruser/display.php" line="195" />
+			<reference file="modules/xproject/xaruser/display.php" line="196" />
 		</references>
 	</entry>
 	<entry>
 		<string>Tasks</string>
 		<translation>Aufgaben</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="179" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="181" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="21" />
 		</references>
 	</entry>
@@ -451,24 +425,16 @@
 		<string>Filter</string>
 		<translation>Filter</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="187" />
-			<reference file="modules/xproject/xaruser/display.php" line="144" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="189" />
+			<reference file="modules/xproject/xaruser/display.php" line="153" />
 		</references>
 	</entry>
 	<entry>
 		<string>Options</string>
 		<translation>Optionen</translation>
 		<references>
-			<reference file="modules/xproject/xartemplates/user-display.xd" line="199" />
+			<reference file="modules/xproject/xartemplates/user-display.xd" line="201" />
 			<reference file="modules/xproject/xartemplates/user-view.xd" line="22" />
 		</references>
 	</entry>
-	<keyEntry>
-		<key>PROJECTCREATED</key>
-		<translation>PROJEKTANGELEGT</translation>
-		<references>
-			<reference file="modules/xproject/xaradmin/create.php" line="45" />
-			<reference file="modules/xproject/xartasks/create.php" line="84" />
-		</references>
-	</keyEntry>
 </translations>

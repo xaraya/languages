@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
-		<string>Submit</string>
-		<translation>Einreichen</translation>
-		<references>
-			<reference file="modules/mail/xaradmin/compose.php" line="31" />
-			<reference file="modules/mail/xaradmin/modifyconfig.php" line="42" />
-		</references>
-	</entry>
-	<entry>
 		<string>Wrong arguments to mail_adminapi</string>
 		<translation>Falsche Argumente für die mail_adminapi</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/_sendmail.php" line="61" />
-			<reference file="modules/mail/xaradminapi/sendmail.php" line="61" />
+			<reference file="modules/mail/xaradminapi/_sendmail.php" line="63" />
 			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="60" />
+			<reference file="modules/mail/xaradminapi/sendmail.php" line="61" />
 		</references>
 	</entry>
 	<entry>
@@ -22,7 +14,24 @@
 		<translation>Test-Konfiguration</translation>
 		<references>
 			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="31" />
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="19" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notification Template</string>
+		<translation>Benachrichtigungs-Template</translation>
+		<references>
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="43" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Konfiguration ändern</translation>
+		<references>
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="48" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="70" />
+			<reference file="modules/mail/xartemplates/includes/admin-menu.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
@@ -52,41 +61,40 @@
 		<string>Name:</string>
 		<translation>Name:</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="25" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="54" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="26" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>Subject:</string>
 		<translation>Betreff:</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="41" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="132" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="75" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="137" />
 		</references>
 	</entry>
 	<entry>
 		<string>Message:</string>
 		<translation>Mitteilung:</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="49" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="140" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="83" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="145" />
 		</references>
 	</entry>
 	<entry>
-		<string>Reset Form</string>
-		<translation>Formular zurücksetzen</translation>
+		<string>Overview</string>
+		<translation>Überblick</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="71" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="369" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="221" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/mail/xartemplates/includes/admin-menu.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
-		<string>Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails will not be sent.</string>
-		<translation>Bitte berücksichtigen, dass vorher geplante Mails nicht gesendet werden, wenn der Scheduler gestoppt bzw. nicht ausgelöst wird.</translation>
+		<string>Update</string>
+		<translation>Aktualisieren</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="88" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="335" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="404" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="225" />
 		</references>
 	</entry>
 </translations>

@@ -4,7 +4,7 @@
 		<string>Weather</string>
 		<translation>Wetter</translation>
 		<references>
-			<reference file="modules/weather/xarversion.php" line="5" />
+			<reference file="modules/weather/xarversion.php" line="18" />
 			<reference file="modules/weather/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="3" />
 		</references>
@@ -13,28 +13,37 @@
 		<string>Modify Config</string>
 		<translation>Konfiguration ändern</translation>
 		<references>
-			<reference file="modules/weather/xaradminapi/getmenulinks.php" line="10" />
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="7" />
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="75" />
+			<reference file="modules/weather/xaradminapi/getmenulinks.php" line="26" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="8" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="81" />
 			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="51" />
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="37" />
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="38" />
+			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="53" />
+			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="54" />
+			<reference file="modules/weather/xartemplates/includes/admin-menu.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/weather/xartemplates/admin-main.xd" line="10" />
+			<reference file="modules/weather/xartemplates/includes/admin-menu.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Current Conditions</string>
 		<translation>Aktuelle Bedingungen</translation>
 		<references>
-			<reference file="modules/weather/xartemplates/admin-main.xd" line="47" />
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="13" />
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="14" />
+			<reference file="modules/weather/xartemplates/admin-main.xd" line="35" />
+			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="29" />
+			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default Location</string>
 		<translation>Ort (Standard)</translation>
 		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="25" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="27" />
 			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="16" />
 		</references>
 	</entry>
@@ -42,7 +51,7 @@
 		<string>Number of Days for Extended Forecasts</string>
 		<translation>Anzahl von Tagen für die erweiterte Vorhersage</translation>
 		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="28" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="31" />
 			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="19" />
 		</references>
 	</entry>
@@ -50,23 +59,23 @@
 		<string>Measurement Units</string>
 		<translation>Maßeinheiten:</translation>
 		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="41" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="44" />
 			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Standard</string>
-		<translation>Standard </translation>
+		<translation>Standard</translation>
 		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="44" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="46" />
 			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Metric</string>
-		<translation></translation>
+		<translation>Metrisch</translation>
 		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="45" />
+			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="47" />
 			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="36" />
 		</references>
 	</entry>
@@ -75,7 +84,7 @@
 		<translation></translation>
 		<references>
 			<reference file="modules/weather/xartemplates/user-cc.xd" line="26" />
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="10" />
+			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
@@ -130,10 +139,10 @@
 	</entry>
 	<entry>
 		<string>UV Index:</string>
-		<translation></translation>
+		<translation>UV-Index: </translation>
 		<references>
 			<reference file="modules/weather/xartemplates/user-cc.xd" line="74" />
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="15" />
+			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
@@ -141,25 +150,25 @@
 		<translation></translation>
 		<references>
 			<reference file="modules/weather/xartemplates/user-cc.xd" line="76" />
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="19" />
+			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Humidity:</string>
-		<translation></translation>
+		<translation>Luftfeuchtigkeit:</translation>
 		<references>
 			<reference file="modules/weather/xartemplates/user-cc.xd" line="77" />
 			<reference file="modules/weather/xartemplates/user-details.xd" line="62" />
 			<reference file="modules/weather/xartemplates/user-details.xd" line="71" />
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="23" />
+			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
 		<string>Pressure:</string>
-		<translation></translation>
+		<translation>Luftdruck:</translation>
 		<references>
 			<reference file="modules/weather/xartemplates/user-cc.xd" line="78" />
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="27" />
+			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
@@ -167,7 +176,7 @@
 		<translation>Wind:</translation>
 		<references>
 			<reference file="modules/weather/xartemplates/user-cc.xd" line="86" />
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="37" />
+			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
