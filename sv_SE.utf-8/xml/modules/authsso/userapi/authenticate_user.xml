@@ -1,45 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<translations xmlns="http://xaraya.com/2002/ns/translations" locale="se_SE.utf-8">
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>LDAP_RETRIEVAL_FAILED</string>
 		<translation>LDAP_HÄMTNING_MISSLYCAKDES</translation>
 		<references>
-			<reference file="modules/authsso/xaruserapi/authenticate_user.php" line="103" />
+			<reference file="modules/authsso/xaruserapi/authenticate_user.php" line="102"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
 		<translation>Din PHP-inställning verkar inte innehålla den nödvändaiga LDAP-utbyggnaden. Vänliga läs http://www.php.net/manual/en/ref.ldap.php (engelska) hur man installerar detta.</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="79" />
+			<reference file="modules/xarldap/xarldap.php" line="84"/>
 		</references>
 	</entry>
 	<entry>
-		<string>LDAP Error:  Connection to server #(1) port_number #(2) failed</string>
+		<string>LDAP Error: Connection to server #(1) port_number #(2) failed</string>
 		<translation>LDAP fel: Anslutning till server #(1) port nummer #(22) misslyckades</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="110" />
+			<reference file="modules/xarldap/xarldap.php" line="116"/>
 		</references>
 	</entry>
 	<entry>
-		<string>LDAP Error:  Search LDAP base_dn #(1) filter #(2) failed</string>
+		<string>LDAP Error: Failed to set LDAP Protocol version to 3</string>
+		<translation>LDAP-fel: Misslyckades att ställa in LDAP protokoll version till 3</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="125"/>
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to start TLS</string>
+		<translation>LDAP-fel: Misslyckades att starta TLS</translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="131"/>
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Search LDAP base_dn #(1) filter #(2) failed</string>
 		<translation>LDAP fel: Sök LDAP base_dn #(1) filter #(2) misslyckades</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="250" />
+			<reference file="modules/xarldap/xarldap.php" line="279"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Empty password (#(1)).</string>
 		<translation>Lösenord saknas (#(1)).</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="575" />
+			<reference file="modules/xarldap/xarldap.php" line="644"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Empty body (#(1)).</string>
-		<translation></translation>
+		<translation>Text saknas (#(1)).</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="611" />
+			<reference file="modules/xarldap/xarldap.php" line="680"/>
 		</references>
 	</entry>
 </translations>

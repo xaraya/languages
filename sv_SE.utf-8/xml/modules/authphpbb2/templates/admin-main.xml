@@ -1,122 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<translations xmlns="http://xaraya.com/2002/ns/translations" locale="se_SE.utf-8">
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>Overview</string>
 		<translation>Översikt</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="6"/>
 		</references>
 	</entry>
 	<entry>
 		<string>What is it?</string>
 		<translation>Vad är detta?</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="8"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The AuthphpBB2 module allows Xaraya to automatically log users authenticated by the phpBB2 into Xaraya.</string>
 		<translation>AuthphpBB2 modulen tillåter Xaraya att automatiskt logga in användare i xaraya, som har verifierats av phpBB2.</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="10"/>
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
-		<translation>Hur man använder den?</translation>
+		<translation>Hur använder man den?</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="21" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="11"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Authentication by AuthphpBB2 is automatically enabled/available once the AuthphpBB2 module has been initialized.  To disable AuthphpBB2 authentication, you must remove the module. But if your phpBB2 settins differ from the defautl ones (they are, sure) you need to set them up in &quot;Admin panel/authphpbb2/Modify Config&quot;.</string>
-		<translation>Verifiering genom AuthphpBB2 är automatiskt aktiverad/tillgänglig så fort AuthphpBB2 modulen har startats. För att avaktivera verifieringen, måste du ta bort modulen. Men om dina phpBB2 inställningar skiljer sig från standard inställningarna, måste du ställa in dem i &quot;Admin panel/authphpbb2/ändra config&quot;.</translation>
+		<string>Authentication by AuthphpBB2 is automatically available once the AuthphpBB2 module has been initialized. To enable/disable AuthphpBB2 authentication, you must adjust the setting in the modify config screen. But if your phpBB2 settins differ from the defautl ones (they are, sure) you need to set them up in "Admin panel/authphpbb2/Modify Config".</string>
+		<translation>Autenticiering genom AuthphpBB2 är automatiskt aktiverad/tillgänglig när AuthphpBB2 modulen har startats. För att inaktivera autenticireingen, måste du ta bort modulen. Men om dina phpBB2 inställningar skiljer sig från standardinställningarna (det gör det säkert), måste du ställa in dem i "Administratörspanelen/authphpbb2/Ändra konfiguration".</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="25" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="12"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Notices:</string>
 		<translation>Noteringar:</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="13"/>
 		</references>
 	</entry>
 	<entry>
 		<string>When user logs in using this module new record appears in Xaraya's roles table. And user can change this table using Roles module. But all that changes wouldn't be synchronized back to phpBB2.</string>
 		<translation>När en användare loggar in genom denna modul skapas ett nytt inlägg i Xarayas roll-tabell. Användare kan ändra denna tabell genom roll-modulen. Men det som ändras kommer inte att synkroniseras mot phpBB2</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="29" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="15"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya uses username (login) to refer to phpBB2 users. So if user changes there names in phpBB2 they will get problems in Xaraya account.</string>
 		<translation>Xaraya använder användarnamn (inloggning) för att hänföra till phpBB2 användare. Så om en phpBB2 användare ändrar sitt namn i phpBB2 kommer de få problem med sitt Xaraya konto.</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="30" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have one choice.  &quot;Modify Config&quot;.</string>
-		<translation>Från menyn, har du ett val. &quot;Ändra config&quot;.</translation>
+		<string>From the menu, you have one choice. "Modify Config".</string>
+		<translation>Från menyn, har du ett val. "Ändra config".</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="35" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="20"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Modify Config -- Here you should set your phpBB2 settings to allow Xaraya to connect to phpBB2 db and get user's info from there. You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string>
-		<translation></translation>
+		<translation>Ändra konfiguration -- Här kan du ställa in om dina phpBB2-inställningar att tillåta Xaraya att ansluta till phpBB2 databasen och hämta användarinformation färifrån- Du kan även tillåta en användare som blivit autenticerad av webbservern att automatiskt bli tillagd till Xarayas databas och tillåtas logga in.</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="23"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
-		<translation></translation>
+		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="42" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="25"/>
 		</references>
 	</entry>
 	<entry>
-		<string>No blocks yet. It's possible to add some like &quot;Last messages&quot;, &quot;Registered users&quot; etc.</string>
-		<translation></translation>
+		<string>No blocks yet. It's possible to add some like "Last messages", "Registered users" etc.</string>
+		<translation>Ännu inga block. Det är möjligt att lägga till några så som "Senaste meddelandena", "Registrerade användare" osv.</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="46" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="26"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
-		<translation></translation>
+		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="50" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The AuthphpBB2 module has no hooks included at this time.</string>
-		<translation></translation>
+		<translation>Modulen AuthphpBB2 har för tillfället inga medföljande kopplingar.</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="54" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="29"/>
 		</references>
 	</entry>
 	<entry>
 		<string>TODO List</string>
-		<translation></translation>
+		<translation>Att göra lista</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="58" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="30"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The 0.01 version of the AuthphpBB2 module is just a copy/paste-made module. If there will be realized some usefull functionality in any other Auth module, it will be added here too. Now I just don't know clearly how Xaraya works with all that stuff.</string>
-		<translation></translation>
+		<translation>Version 0.01 av AuthphpBB2-modulen är en enkel "klipp &amp; klistra" -gjor modul. Om någon användabar funktion hittas i någon annan Auth-modul kommer det att även läggas till här. För tillfället vet jag inte hur Xaraya fungerar med allt det där.</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="62" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="31"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation></translation>
+		<string>Further Information</string>
+		<translation>Ytterliggare information</translation>
 		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="66" />
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="33"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the AuthphpBB2 module can be found at</string>
+		<translation>Ytterligare information om AuthphpBB2-modulen finns på</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="35"/>
+		</references>
+	</entry>
+	<entry>
+		<string>AuthphpBB2 Extension page at</string>
+		<translation>AuthphpBB2- tilläggets sida på</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>AuthphpBB2 Module - Xaraya Extension 77102</string>
+		<translation>AuthphpBB2-modul - Xaraya tillägg 77102</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version History'-fliken längst ner för att få senaste utgåvoinformation.</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="39"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on AuthphpBB2 found at</string>
+		<translation>Relaterade guider och dokumentation om AuthphpBB2 finns på</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on AuthphpBB2</string>
+		<translation>Relaterad dokumentation om AuthphpBB2</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumentation.</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>AuthphpBB2 Module Overview</string>
+		<translation>AuthphpBB2-modulöversikt</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="44"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="44"/>
 		</references>
 	</entry>
 </translations>

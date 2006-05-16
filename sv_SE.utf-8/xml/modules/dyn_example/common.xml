@@ -2,66 +2,82 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ogiltig #(1) för #(2) funktion #(3)() i modul #(4)</translation>
+		<translation>Ogiltig #(1) för  #(2) funktion #(3)() i modul #(4)</translation>
 		<references>
-			<reference file="modules/dyn_example/xaradmin/delete.php" line="36" />
-			<reference file="modules/dyn_example/xaradmin/modify.php" line="28" />
-			<reference file="modules/dyn_example/xaradmin/update.php" line="29" />
-			<reference file="modules/dyn_example/xaruser/display.php" line="35" />
+			<reference file="modules/dyn_example/xaradmin/delete.php" line="36"/>
+			<reference file="modules/dyn_example/xaradmin/modify.php" line="34"/>
+			<reference file="modules/dyn_example/xaradmin/update.php" line="29"/>
+			<reference file="modules/dyn_example/xaruser/display.php" line="36"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Skicka</translation>
 		<references>
-			<reference file="modules/dyn_example/xaradmin/modifyconfig.php" line="57" />
-			<reference file="modules/dyn_example/xaruser/settings.php" line="20" />
-			<reference file="modules/dyn_example/xaruser/usermenu.php" line="53" />
+			<reference file="modules/dyn_example/xaradmin/modifyconfig.php" line="57"/>
+			<reference file="modules/dyn_example/xaruser/settings.php" line="20"/>
+			<reference file="modules/dyn_example/xaruser/usermenu.php" line="55"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Options</string>
 		<translation>Alternativ</translation>
 		<references>
-			<reference file="modules/dyn_example/xaradmin/view.php" line="73" />
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="39" />
+			<reference file="modules/dyn_example/xaradmin/view.php" line="73"/>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="48"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Add Item</string>
+		<translation>Lägg till post</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradminapi/getmenulinks.php" line="35"/>
+			<reference file="modules/dyn_example/xartemplates/includes/admin-menu.xd" line="15"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Ändra konfiguration</translation>
+		<references>
+			<reference file="modules/dyn_example/xaradminapi/getmenulinks.php" line="58"/>
+			<reference file="modules/dyn_example/xartemplates/includes/admin-menu.xd" line="35"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Preview</string>
 		<translation>Förhandsgranska</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="13" />
-			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="42" />
-			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="14" />
-			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="40" />
+			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="18"/>
+			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="36"/>
+			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="17"/>
+			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="36"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Dynamic Example</string>
 		<translation>Dynamiskt exemple</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-modifyconfig.xd" line="38" />
-			<reference file="modules/dyn_example/xaruserapi/menu.php" line="23" />
+			<reference file="modules/dyn_example/xartemplates/admin-modifyconfig.xd" line="38"/>
+			<reference file="modules/dyn_example/xaruserapi/menu.php" line="23"/>
 		</references>
 	</entry>
 	<entry>
 		<string>If you want to provide your own presentation here, you can specify a
-different layout=&quot;...&quot; to use in the default template, or you can specify your
-own template=&quot;...&quot; here as well.</string>
-		<translation>Om du vill ge en egen presentation här, kan du ange en annan formgivning (layout=&quot;...&quot;) för att använda i standard mallen eller så kan du även ange din egen mall (template=&quot;...&quot;) här</translation>
+different &lt;code&gt;layout="..."&lt;/code&gt; to use in the default template, or you can specify your
+own &lt;code&gt;template="..."&lt;/code&gt; here as well.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="21" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="19" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="20" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="23"/>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="21"/>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="22"/>
 		</references>
 	</entry>
 	<entry>
 		<string>APPROACH # 2 : the &amp;lt;xar:data-getitems ...&amp;gt; tag</string>
 		<translation>Infallsvinkel # 2: &amp;lt;xar:data-getitems ...&amp;gt; taggen</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="25" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="34" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="27"/>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="36"/>
 		</references>
 	</entry>
 	<entry>
@@ -69,68 +85,51 @@ own template=&quot;...&quot; here as well.</string>
 make them available in the 'properties' and 'values' variables in your template.</string>
 		<translation>Den här taggen kommer hämta egenskaperna och värden från Dynamiskdata och göra dem tillgängliga i 'properties' och 'values' variblerna i din mall.</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="28" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can then use those variables to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
-		<translation>Du kan då använda dessa variabler för att bygga din egen formgivning. lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; taggarna låter dig visa indviduella etikett- eller värde-utdata i mallen.</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="32" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="39" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="31"/>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="42"/>
 		</references>
 	</entry>
 	<entry>
 		<string>APPROACH # 3 : getting the object list via API</string>
 		<translation>Infallsvinkel # 3: åtkomst till objektlistan via API</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="67" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="48" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="76"/>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="61"/>
 		</references>
 	</entry>
 	<entry>
 		<string>APPROACH # 4 : getting the raw item values via API</string>
 		<translation>Infallsvinkel # 4: atkomst till råa postvärden via API</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="77" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="77" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="84" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="89"/>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="89"/>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="94"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Here you'll have to handle the output format of the values yourself - in the module code and/or template...</string>
-		<translation>Här kommer du själv handha utdataformatet för värdena - i modulkoden och/eller mallen...</translation>
+		<string>Here you'll have to handle the output format of the values yourself -
+in the module code and/or template...</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="79" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="79" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="86" />
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="93"/>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="93"/>
 		</references>
 	</entry>
 	<entry>
 		<string>View Dynamic Examples</string>
 		<translation>Visa dynamiska exempel</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="8" />
-			<reference file="modules/dyn_example/xaruser/view.php" line="84" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="7"/>
+			<reference file="modules/dyn_example/xaruser/view.php" line="93"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Specify your own layout here...</string>
 		<translation>Ange din egna formgivning här...</translation>
 		<references>
-			<reference file="modules/dyn_example/xartemplates/objects/showdisplay-dyn_example.xd" line="24" />
-			<reference file="modules/dyn_example/xartemplates/objects/showform.xd" line="18" />
-			<reference file="modules/dyn_example/xartemplates/objects/showview-dyn_example.xd" line="226" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can also specify a separate template, e.g. if you want to handle individual fields differently for a particular module / itemtype</string>
-		<translation>Du kan även ange en enskild mall, t.ex. om du vill hantera individuella fält olika för en viss modul/posttyp</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/objects/showdisplay-dyn_example.xd" line="26" />
-			<reference file="modules/dyn_example/xartemplates/objects/showform.xd" line="20" />
-			<reference file="modules/dyn_example/xartemplates/objects/showview-dyn_example.xd" line="228" />
+			<reference file="modules/dyn_example/xartemplates/objects/showdisplay-dyn_example.xd" line="24"/>
+			<reference file="modules/dyn_example/xartemplates/objects/showform.xd" line="17"/>
+			<reference file="modules/dyn_example/xartemplates/objects/showview-dyn_example.xd" line="213"/>
 		</references>
 	</entry>
 </translations>

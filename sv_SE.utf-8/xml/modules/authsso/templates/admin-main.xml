@@ -1,144 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
-<translations xmlns="http://xaraya.com/2002/ns/translations" locale="se_SE.utf-8">
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>Overview</string>
 		<translation>Översikt</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="6"/>
 		</references>
 	</entry>
 	<entry>
 		<string>What is it?</string>
 		<translation>Vad är detta?</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="8"/>
 		</references>
 	</entry>
 	<entry>
-		<string>The AuthSSO module allows Xaraya to automatically log users authenticated by the web server into Xaraya.  The original intent was to transparently log in users whose credentials could be passed by their browser to the web server for authentication.  Additionally, this module can be used to leverage other authentication mechanisms via its ability to delegate authentication to the web server (say, by having the web server authenticate with mod_auth_pam and then using pam to plug into an external authentication system).</string>
+		<string>The AuthSSO module allows Xaraya to automatically log users authenticated by the web server into Xaraya. The original intent was to transparently log in users whose credentials could be passed by their browser to the web server for authentication. Additionally, this module can be used to leverage other authentication mechanisms via its ability to delegate authentication to the web server (say, by having the web server authenticate with mod_auth_pam and then using pam to plug into an external authentication system).</string>
 		<translation>AuthSSO modulen tillåter Xaraya att automatiskt logga in användare som verifierats av webbservern till Xaraya. Den ursprungliga avsikten var att smidigt logga in användare vars identitet kan skickas via webbläsaren till webbservern för verifiering. 
 Dessutom kan den här modulen användas till att bestämma över andra verifierings meknismer genom dess förmåga att delegera verifiering till webbservern (till exempel låta webbservern verifiera genom mod_auth_pam och sedan låta pam koppla in till ett extrent verifieringssystem).</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="9"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Warning: this module is useless if you do not have your web server set up to authenticate users.  Refer to your web server's documentation on how to set this up.</string>
+		<string>Warning: this module is useless if you do not have your web server set up to authenticate users. Refer to your web server's documentation on how to set this up.</string>
 		<translation>Varning: denna modul är verkningslös om du inte stäler in din webbserver att verifiera användare. Läs din webbserervs dokumentation hur du ställer in detta.</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="20" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="10"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Warning: this module is only as secure as your web server authentication mechanism.  It completely trusts the web server to handle user credential processing.</string>
+		<string>Warning: this module is only as secure as your web server authentication mechanism. It completely trusts the web server to handle user credential processing.</string>
 		<translation>Varning: denna modul är endast så säker som din webbservers verifieringsmekanism. Den liter helt och hållet på webbservern att handha användaridentifieringsprocessen.</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="23" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="11"/>
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
-		<translation>Hur man använder den?</translation>
+		<translation>Hur använder man den?</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="12"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Authentication by AuthSSO is automatically enabled/available once the AuthSSO module has been initialized.  To disable AuthSSO authentication, you must remove the module (or disable the webserver authentication, which is a prerequisite of AuthSSO functionality).</string>
-		<translation>Verifiering genom AuthSSO är automatiskt aktiverat/tillgänglig så fort AuthSSO moduel har startats. För att avaktivera AuthSSO verifiering, måste du ta bort modulen (eller avaktiverawebbserver verifiering som är en förutsättning är AuthSSO funktionen).</translation>
+		<string>Authentication by AuthSSO is automatically available once the AuthSSO module has been initialized. To disable AuthSSO authentication, you must remove the module or disable it in the modify config screen (or disable the webserver authentication, which is a prerequisite of AuthSSO functionality).</string>
+		<translation>Autenticiering genom AuthSSO är automatiskt aktiverat/tillgänglig när AuthSSO moduel har startats. För att inaktivera AuthSSO autenticiering, måste du inaktivera modulen (eller inaktivera webbserverautenticiering som är en förutsättning är AuthSSO-funktionen).</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="31" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="13"/>
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have one choice.  &quot;Modify Config&quot;.</string>
-		<translation>Från menyn har du ett val. &quot;Ändra Config&quot;.</translation>
+		<string>From the menu, you have one choice. "Modify Config".</string>
+		<translation>Från menyn har du ett val. "Ändra Config".</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="36" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Modify Config -- You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string>
 		<translation>Ändra Config -- Du kan också tillåta en användare som har verifierats av webbservern att automatisk lägaas till i Xarayas databas och tillåtas logga in.</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="18"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="43" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="21"/>
 		</references>
 	</entry>
 	<entry>
 		<string>No blocks yet, but one is coming...</string>
 		<translation>Inga medföljande block ännu, men ett är på väg...</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="47" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="22"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
-		<translation>Medföljande krokar</translation>
+		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="51" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="23"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The AuthSSO module has no hooks included at this time.</string>
 		<translation>AuthSSO moduel har inga medföljande krokar för tillfället.</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="24"/>
 		</references>
 	</entry>
 	<entry>
 		<string>TODO List</string>
 		<translation>Att göra lista</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="59" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="25"/>
 		</references>
 	</entry>
 	<entry>
-		<string>The 0.02 version of the AuthSSO module is a skeleton proof of concept.  There are many &quot;ToDo&quot;s.</string>
+		<string>The 0.02 version of the AuthSSO module is a skeleton proof of concept. There are many "ToDo"s.</string>
 		<translation>Version 0.02 av AuthSSO modulen är en grund för konceptet. Det är mycket kvar att göra.</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="63" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="26"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Rework to make natively pluggable with external auth systems other than the web server (i.e. allow xaraya to trust the authentication of other external systems, or to validate a ticket issued by a third party SSO product).</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="65" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Make integration with other external user information options easily configurable and extendable.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="66" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow site administrators to designate a local authsystem administrator account.</string>
-		<translation>Tillåt sajtadministratörer att bestämma ett lokalt verifieringssytem administreringskonto.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="67" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="29"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Allow site administrators to configure which modules or pages do not auto sign in the web server authenticated user.</string>
-		<translation></translation>
+		<translation>Tillåt administratörer konfigurera vilka moduler eller sidor automatisk inloggning inte sker för webbserverautenticierad användare.</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="68" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="30"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation>Ytterliggare information om denna modul kan hittas här. [modules modul]</translation>
+		<string>Further Information</string>
+		<translation>Ytterliggare information</translation>
 		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="73" />
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="33"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the AuthSSO module can be found at</string>
+		<translation>Ytterligare information om AuthSSO-modulen finns på</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="35"/>
+		</references>
+	</entry>
+	<entry>
+		<string>AuthSSO Extension page at</string>
+		<translation>AuthSSO- tilläggets sida på</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>AuthSSO Module - Xaraya Extension 51</string>
+		<translation>AuthSSO-modul - Xaraya tillägg 51</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version History'-fliken längst ner för att få senaste utgåvoinformation.</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="39"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on AuthSSO found at</string>
+		<translation>Relaterade guider och dokumentation om AuthSSO finns på</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on AuthSSO</string>
+		<translation>Relaterad dokumentation om AuthSSO</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumentation.</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="41"/>
+		</references>
+	</entry>
+	<entry>
+		<string>AuthSSO Module Overview</string>
+		<translation>AuthSSO-modulöversikt</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="44"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/authsso/xartemplates/admin-main.xd" line="44"/>
 		</references>
 	</entry>
 </translations>

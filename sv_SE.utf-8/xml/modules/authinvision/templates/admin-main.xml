@@ -1,80 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
-		<string>Authinvision Module Overview</string>
-		<translation>Authinvision modulöversikt</translation>
+		<string>Overview</string>
+		<translation>Översikt</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="9"/>
 		</references>
 	</entry>
 	<entry>
 		<string>What is it?</string>
 		<translation>Vad är detta?</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="11"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The Authinvision module allows you to authenticate a user with your Invision Board database. The Authinvision module checks the username and password from the login screen against the Invision database and returns true for a match.</string>
 		<translation>Authinvisionmodulen tillåter dig att autenticiera en användare gentemot din Invison Board-databas. Authinvisionmodulen jämför användarnamnet och lösenordet från inloggningen gentemot Invison databasen och godkänner vid överensstämmelse.</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="16" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="13"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Authinvision &lt;strong&gt;does not&lt;/strong&gt; log users into both systems at once, nor does it allow users who register on xaraya to have their user information duplicated in the Invision database. &lt;strong&gt;It is highly suggested that you turn off xaraya registration and use your Invision board's registration/password retrieval process.&lt;/strong&gt;</string>
 		<translation>Authinvision &lt;strong&gt;loggar inte&lt;/strong&gt; in användare till båda system vid ett tillfälle, inte heller tillåter den användare som registrerar sig via xaraya att få sin information införd i Invision databasen. &lt;strong&gt;Det är högst rekommenderat att du stänger av xaraya registreringen och använder dig av Invision Board registrering/lösenords hantering.&lt;/strong&gt;</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="14"/>
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
-		<translation>Hur man använder det?</translation>
+		<translation>Hur använder man den?</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="22" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="15"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Authentication by Authinvision is automatically available once the the Authinvision module has been initialized. You must configure Authinvision before a user will be able to login to Xaraya. To remove Authinvision authentication, you must remove the module or disable it in the modify config screen.</string>
 		<translation>Autenticiering med Authinvision är tillgängligt automatisk så fort Authinvision-modulen har initierats. Du måste konfigurera Authinvision innan en användare kan logga in till Xaraya. För att ta bort Authinvision autentisiering, måste du ta bort modulen eller avaktivera den i ändra konfigurations delen.</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="25" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="16"/>
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have one choice. &quot;Modify Config&quot;.</string>
-		<translation>Från menyn har du ett val: &quot;Ändra konfiguration&quot;.</translation>
+		<string>From the menu, you have one choice. "Modify Config".</string>
+		<translation>Från menyn har du ett val: "Ändra konfiguration".</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="29" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="19"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Modify Config -- From here, you can configure the authinvision server that will be used for authentication. A user that has account information in Invision to be automatically added to the Xaraya database and allowed to login.</string>
 		<translation>Ändra konfiguration -- Härifrån kan du ställa in authinvison-servern som kommer att användas för verifieringen. En användare som har kontoinformation i Invision kommer automatiskt att läggas till i Xarayas databas och tillåtas att logga in.</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="31" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="22"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Medföljande block</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="37" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="24"/>
 		</references>
 	</entry>
 	<entry>
 		<string>usercp: a block that mimics the user links from Invision.</string>
 		<translation>usercp: ett block som kopierar användarlänkar från Invision.</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="40" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="25"/>
 		</references>
 	</entry>
 	<entry>
 		<string>whos_online.php: a who's online block that replaces the one in the roles module.</string>
 		<translation>whos_online.php: ett block som visar vilka som är uppkopplade och ersätter motsvaraande block i rollmodulen.</translation>
 		<references>
-			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="41" />
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="26"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Ytterliggare information</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="27"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Authinvision module can be found at</string>
+		<translation>Ytterligare information om Authinvision-modulen finns på</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="29"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Authinvision Extension page at</string>
+		<translation>Authinvision-tilläggets sida på</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="32"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Authinvision Module - Xaraya Extension 950</string>
+		<translation>Authinvision-modul - Xaraya tillägg 950</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="32"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version History'-fliken längst ner för att få senaste utgåvoinformation.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="33"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Authinvision found at</string>
+		<translation>Relaterade guider och dokumentation om Authinvision finns på</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="35"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Authinvision</string>
+		<translation>Relaterad dokumentation om Authinvision</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="35"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumentation.</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="35"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Authinvision Module Overview</string>
+		<translation>Authinvision modulöversikt</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="38"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/authinvision/xartemplates/admin-main.xd" line="38"/>
 		</references>
 	</entry>
 </translations>
