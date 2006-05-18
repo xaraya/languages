@@ -22,157 +22,194 @@
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have three choices. "Modify Configuration", "Add Headlines", and "View Headlines".</string>
-		<translation>A menüben három lehetőség áll rendelkezésre. „Beállítások”, „Hírforrások felvétele”, „Hírforrások megjelenítése”</translation>
+		<string>From the menu, you have three choices:</string>
+		<translation>A menüben a következő lehetőségek érhetőek el:</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-main.xd" line="23"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Configuration -- Allows you to update the global configuration for the module.</string>
-		<translation>Beállítások - A modul általános beállításainak szerkesztését teszi lehetővé.</translation>
+		<string>&lt;strong&gt;Add Headlines&lt;/strong&gt;: Add a new syndication headline for processing.</string>
+		<translation>&lt;strong&gt;Hírforrások felvétele&lt;/strong&gt;: Új külső hírforrás hozzáadását teszi lehetővé.</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-main.xd" line="25"/>
 		</references>
 	</entry>
 	<entry>
-		<string>View Headlines -- Allows you to view, edit and delete headlines that you have active for your site.</string>
-		<translation>Hírforrások megjelenítése - A weblapon található hírforrások megjelenítését, szerkesztését és törlését teszi lehetővé.</translation>
+		<string>&lt;strong&gt;Manage Headlines&lt;/strong&gt;: View, edit and delete headlines that you have added to your site.
+Add alternative titles and headlines for your feeds, and order the display of the feeds</string>
+		<translation>&lt;strong&gt;Hírforrások kezelése&lt;/strong&gt;: A weboldalra felvett hírforrások megjelenítése, szerkesztése és törlése. Lehetőséget biztosít a hírszolgáltatásokhoz egyedi címsor és hírek felvételre, és a megjelenítési sorrend meghatározására.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="26"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="28"/>
 		</references>
 	</entry>
 	<entry>
-		<string>Add Headlines -- Allows you to add a new syndication headline for processing.</string>
-		<translation>Hírforrások felvétele - Új külső hírforrás hozzáadását teszi lehetővé.</translation>
+		<string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: Update the global configuration for the module.
+Here you can set</string>
+		<translation>&lt;strong&gt;Beállítások&lt;/strong&gt;: A modul általános beállításainak szerkesztését teszi lehetővé. Beállítható:</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="27"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="31"/>
+		</references>
+	</entry>
+	<entry>
+		<string>the number of feeds per page</string>
+		<translation>Az oldalanként megjelenített hírforrások száma.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="33"/>
+		</references>
+	</entry>
+	<entry>
+		<string>optionally select an Article module publication type to import the feed items. You will need a title and summary field in your publication type to import feed items.</string>
+		<translation>Opcionálisan megadható egy cikktípus a Cikkek modulból, amelyekbe a híreket szeretnénk importálni. A cikktípusban a cím és a bevezető mezőkre mindenképp szükség van az importáláshoz.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="34"/>
+		</references>
+	</entry>
+	<entry>
+		<string>choose which content to import to your selected publication type. Feed, Title, Description and an optional link to the originating feed item can also be added in your publication type summary field.</string>
+		<translation>Meghatározhatjuk, hogy mely tartalom kerülön importálásra a cikktípusba. Az összefoglaló mezőbe a cím, leírás és az eredeti cikkre mutató hivatkozás is importálható.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="36"/>
+		</references>
+	</entry>
+	<entry>
+		<string>Hook the Categories module to Headlines to classify your feeds by category on display.</string>
+		<translation>A Kategóriák modult a Hírforrásokhoz hurokkal kapcsolva a hírforrásainkat kategóriákba rendezve jeleníthetjük meg.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="45"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Kapcsolódó blokkok</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="32"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="48"/>
 		</references>
 	</entry>
 	<entry>
-		<string>rss</string>
-		<translation>RSS</translation>
+		<string>&lt;strong&gt;RSS Block&lt;/strong&gt; allows you to provide selected feeds in blocks on your siten and define number of items, title, and refresh times.</string>
+		<translation>&lt;strong&gt;RSS Blokk&lt;/strong&gt;: Kiválasztott hírforrások megjelenítését teszi lehetővé a weboldalon. Megadható a megjelenítendő elemek száma, címsor és a frissítési időköz.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="36"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="52"/>
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Cloud Block&lt;/strong&gt; Creates a cloud block from blog feeds, using Ping module to notify of updates and Scheduler module to update.</string>
+		<translation>&lt;strong&gt;Felhő blokk&lt;/strong&gt;: Blog hírforrásokból készít egy felhő blokkot, a Ping modul felhasználásával a frissítési értesítésekhez és az Ütemezővel a frissítéshez.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="53"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
 		<translation>Kapcsolódó hurkok</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="40"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="58"/>
 		</references>
 	</entry>
 	<entry>
-		<string>There are no included hooks</string>
+		<string>There are no included hooks with Headlines</string>
 		<translation>Nincsenek kapcsolódó hurkok.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="43"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="61"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Credits</string>
 		<translation>Készítők</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="46"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="64"/>
 		</references>
 	</entry>
 	<entry>
 		<string>The RSS Block is using</string>
 		<translation>Az RSS blokk a</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="49"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67"/>
 		</references>
 	</entry>
 	<entry>
 		<string>PHP feedParser</string>
 		<translation>PHP feedParsert</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="49"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67"/>
 		</references>
 	</entry>
 	<entry>
 		<string>as its backend. The notes for the feedParser by Reverend Jim are as follows</string>
 		<translation>használja. Reverend Jim az alábbi megjegyzést fűzi a feedParserhez</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="49"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67"/>
 		</references>
 	</entry>
 	<entry>
 		<string>feedParser was created due to the lack of a good, flexible, class-based RSS feed parser for PHP. It has been built as a class, and currently handles RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, and RSS 2.0 feeds. For channels it grabs the title, description, link, and creator. For items it grabs the title, description, link, and date. It also provides a form of the date converted into the local timezone to facilitate cronological sorting of items. The dates are provided in UNIX timestamp format for easy manipulation by other PHP functions.</string>
 		<translation>„A feedParsert azért hoztuk létre, mert korábban nem létezett jó, rugalmas, objektumközpontú, PHP-ben írt RSS hírforrás értelmező. Jelenleg az RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, és RSS 2.0 formátumú hírforrásokat támogatja. A csatornák esetében a címet, a leírást, a létrehozót és a hivatkozást, az elemek esetében pedig a címet, a leírást, a hivatkozást és a dátumot ismeri a rendszer. A sorba rendezés megkönnyítése érdekében képes a helyi időzónának megfelelő formátumúra konvertálni a dátumot. A dátumok UNIX-os dátum-idő formátumban állnak rendelkezésre, így könnyű azokat más PHP függvények segítségével feldolgozni.”</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="53"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="71"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Further Information</string>
 		<translation>További információk</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="55"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="73"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Extended information about this module can be found at</string>
 		<translation>További információk a modulról:</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="57"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="75"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Headlines Module - Xaraya Extension 777</string>
 		<translation>Hírforrások modul - Xaraya bővítmény: 777</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="57"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="75"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Click on Version History tab at the bottom to get the latest release information.</string>
 		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="60"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="78"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on Headlines found at</string>
 		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="62"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Related documentation on Headlines</string>
 		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="62"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Documentation.</string>
 		<translation>Xaraya dokumentáció.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="62"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Headlines module Overview</string>
 		<translation>Hírforrások modul - Áttekintés</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="66"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="84"/>
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
 		<translation>Változat</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="66"/>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="84"/>
 		</references>
 	</entry>
 </translations>
