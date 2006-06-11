@@ -1,3 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>Block caching is currently disabled...</string>
+		<translation>Blockcachning är förnärvarande inaktiverat...</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="6" />
+		</references>
+	</entry>
+	<entry>
+		<string>Expiration Time</string>
+		<translation>Förfallelse tid</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush</string>
+		<translation>Spola</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configure to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
+		<translation>Utdatacachning på blocknivå har inte samma dynamiska innehållsbegränsningar. Det är syfte-byggt för att tillåta Xaraya att helt och hållet ladda kärnan och aktiva moduler vid varje sidbegäran. Utdatacachning på blocknivå kan konfigureras på en per blockförekomst bas så du kan ha samma blockförekomst helt dynamiskt (aldrig cachad) samtidigt som andra förekomster cachas för varierade livslängder. Cachen för varje blockförekomst kan ställas in till att vara eller inte vara delad mellan användare (eller grupper av användare) och sidor. Detta möjliggör ett väldigt flexibelt utdatacachningsbeteende för webbplatser med mixade statiska och dynamiska sidor. Nackdelen är en mycket högre fast sidkostnad (tid för sidskapande). Vid de tillfällen då utdatacachning på sidnivå kan reducera en sidas skapandetid med 65-80% (YMMV beroende på webbplatsens konfiguration) kommer utdatacachningen på blocknivå allmänt endast reducera det med 20-30%.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Utökad information om denna modul finns här. [modules module]</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable the Output Caching System:</string>
+		<translation>Aktivera utdatacache-systemet:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cache the Output of this Theme:</string>
+		<translation>Cacha utdatan för detta tema:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cache Size Limit (in MB):</string>
+		<translation>Gräns för cachestorlek (i MB):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Page Output Caching:</string>
+		<translation>Aktivera sidutdatacachning.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page Cache Expiration Time (in hh:mm:ss):</string>
+		<translation>Sidcachnings utgångstid (i tt:mm:ss):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cache Item Display Pages:</string>
+		<translation>Cacha sidor med postvisning:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cached Display Page on New Comment:</string>
+		<translation>Spola cachad visningssida vid ny kommentar:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cached Display Page on New Hooked Poll Vote:</string>
+		<translation>Spola cachad visningssida vid nytt kopplat omröstningsbidrag:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the &quot;Last Modified&quot; Stamp on Cached Pages:</string>
+		<translation>Visa märket &quot;Senast modifierad&quot; på cachade sidor:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="138" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow clients to reuse locally cached pages without re-validation:</string>
+		<translation>Tillåt klienter att återanvända lokalt cachade sidor utan återvalidering:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto-regenerate cache of session-less URL list:</string>
+		<translation>Lista automatiskt återskapad cache av sessionslösa webbadresser:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="164" />
+		</references>
+	</entry>
+	<entry>
+		<string>Only cache pages of modules hooked to xarCacheManger:</string>
+		<translation>Cacha endast modulsidor kopplade till xarCacheManager:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Cache Expiration Time (in hh:mm:ss):</string>
+		<translation>Utgångstid för blockcache (i tt:mm:ss):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="266" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Cache Size Limit (in MB):</string>
+		<translation>Storleksgräns för blockcache (i MB):</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="316" />
+		</references>
+	</entry>
 </translations>

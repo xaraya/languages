@@ -1,129 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
-		<string>Administration - Headlines</string>
-		<translation>Administration - Rubriker</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="1" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Översikt</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
 		<string>What is it?</string>
 		<translation>Vad är det?</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Headlines module allows you to syndicate content from other website. It also allows you to use predetermined hooks from Xaraya if you have them installed and activated.</string>
 		<translation>Modulen Rubriker låter dig syndikera innehåll från andra webbplatser. Dessutom låter den dig använda förutbestämda krokar från Xaraya om du har dem installerade.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="15" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to use it?</string>
 		<translation>Hur används den?</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="17" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
-		<string>From the menu, you have three choices. &quot;Modify Configuration&quot;, &quot;Add Headlines&quot;, and &quot;View Headlines&quot;.</string>
-		<translation>På menyn har du tre val. &quot;Ändra inställningar&quot;, &quot;Lägg till rubrik&quot; och &quot;Visa rubriker&quot;.</translation>
+		<string>From the menu, you have three choices:</string>
+		<translation>Från menyn har du tre alternativ:</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-main.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Configuration -- Allows you to update the global configuration for the module.</string>
-		<translation>Ändra inställningar -- Låter dig uppdatera den globala inställningen för modulen.</translation>
+		<string>&lt;strong&gt;Add Headlines&lt;/strong&gt;: Add a new syndication headline for processing.</string>
+		<translation>&lt;strong&gt;Lägg till rubriker&lt;/strong&gt;: Lägg till en syndikeringsrubrik för bearbetning.</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-main.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
-		<string>View Headlines -- Allows you to view, edit and delete headlines that you have active for your site.</string>
-		<translation>Visa rubriker -- Låter dig visa, redigera och ta bort rubriker som är aktiva för din sajt.</translation>
+		<string>&lt;strong&gt;Manage Headlines&lt;/strong&gt;: View, edit and delete headlines that you have added to your site.
+Add alternative titles and headlines for your feeds, and order the display of the feeds</string>
+		<translation>&lt;strong&gt;Hantera rubriker&lt;/strong&gt;: Visa, redigera och ta bort rubriker som du har lagt till till dinwebbplats. Lägg till alternativa titlar och rubriker för dina matningar, och ordna visningen av matningarna</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="26" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
-		<string>Add Headlines -- Allows you to add a new syndication headline for processing.</string>
-		<translation>Lägg till rubrik -- Låter dig lägga till en ny syndikerad rubrik för bearbetning.</translation>
+		<string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: Update the global configuration for the module.
+Here you can set</string>
+		<translation>&lt;strong&gt;Ändra konfiguration&lt;/strong&gt; Uppdatera den allmäna konfigurationen för modulen. Här kan du ställa in</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="31" />
 		</references>
 	</entry>
 	<entry>
-		<string>Included Blocks</string>
-		<translation>Inkluderade block</translation>
+		<string>the number of feeds per page</string>
+		<translation>anatalet matningar per sida</translation>
 		<references>
 			<reference file="modules/headlines/xartemplates/admin-main.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
-		<string>rss</string>
-		<translation>rss</translation>
+		<string>optionally select an Article module publication type to import the feed items. You will need a title and summary field in your publication type to import feed items.</string>
+		<translation>alternativt välja en Artikel-modul publikationsty att importera matningsposterna. Du behöver ett titel- och sammanfattningsfält i din publikatyionstyp för att importera matnigsposter.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>choose which content to import to your selected publication type. Feed, Title, Description and an optional link to the originating feed item can also be added in your publication type summary field.</string>
+		<translation>välj vilket innehåll att importera till dina valda publikationstyper. Matning, titelm beskrivning och en valfri länk till det ursprungliga matningsposten kan även läggas till i din publikationstyps sammanfattningsfält.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Hook the Categories module to Headlines to classify your feeds by category on display.</string>
+		<translation>Koppla Kategorier-modulen till Rubriker för att klassifisera matningar efter kategorier vid visning.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Medföljande block</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;RSS Block&lt;/strong&gt; allows you to provide selected feeds in blocks on your siten and define number of items, title, and refresh times.</string>
+		<translation>&lt;strong&gt;RSS-block&lt;/strong&gt; låter dig tillhandahålla valda matningar i block på din webbplats och definiera antal poster, titel och uppdateringsfrekvens.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Cloud Block&lt;/strong&gt; Creates a cloud block from blog feeds, using Ping module to notify of updates and Scheduler module to update.</string>
+		<translation>&lt;strong&gt;Cloud Block&lt;/strong&gt; Skapar ett cloud block från bloggmatningar genom att använda Ping moduleen för att underrätta om uppdateringar och Scheduler modulen för att updatera.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Hooks</string>
-		<translation>Inkluderade krokar</translation>
+		<translation>Medföljande kopplingar</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="43" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
-		<string>There are no included hooks</string>
-		<translation>Det finns inga inkluderade krokar</translation>
+		<string>There are no included hooks with Headlines</string>
+		<translation>Det finns inga medföljande kopplingar med Rubriker</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="47" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>Credits</string>
 		<translation>Medverkande</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="51" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="64" />
 		</references>
 	</entry>
 	<entry>
 		<string>The RSS Block is using</string>
 		<translation>RSS-blocket använder</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67" />
 		</references>
 	</entry>
 	<entry>
 		<string>PHP feedParser</string>
 		<translation>PHP feedParser</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67" />
 		</references>
 	</entry>
 	<entry>
 		<string>as its backend. The notes for the feedParser by Reverend Jim are as follows</string>
 		<translation>som backend. Anteckningarna för feedParser av Reverend Jim är som följer</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="55" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67" />
 		</references>
 	</entry>
 	<entry>
 		<string>feedParser was created due to the lack of a good, flexible, class-based RSS feed parser for PHP. It has been built as a class, and currently handles RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, and RSS 2.0 feeds. For channels it grabs the title, description, link, and creator. For items it grabs the title, description, link, and date. It also provides a form of the date converted into the local timezone to facilitate cronological sorting of items. The dates are provided in UNIX timestamp format for easy manipulation by other PHP functions.</string>
 		<translation>feedParser skapades till följd av avsaknad av en bra, flexibel, klassbaserad matningstolk för PHP. Den har konstruerats som en klass och kan för närvarande hantera RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0 samt RSS 2.0 matningar. För kanalerna tar den titel, beskrivning, länk och skapare. För punkter tar den titel, beskrivning, länk och datum. Den tillhandahåller även en datumform som är konverterad till lokal tid för att förenkla kronologisk sortering av punkter. Datumen tillhandahålls i UNIX datumformat för att underlätta vidare manipulering i andra PHP-funktioner.</translation>
 		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="59" />
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Ytterligare information</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found at</string>
+		<translation>Utökad information om den här modulen finns på</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Headlines Module - Xaraya Extension 777</string>
+		<translation>Rubriker module - Xaraya tillägg 777</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Klicka på 'Version Histroy'-fliken längst ner för att få senaste utgåvoinformation.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Headlines found at</string>
+		<translation>Relaterade guider och dokumentation om Rubriker finns på</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Headlines</string>
+		<translation>Relaterad dokumentation om Rubriker</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Xaraya dokumtation.</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Headlines module Overview</string>
+		<translation>Rubriker-modul översikt</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Version</translation>
+		<references>
+			<reference file="modules/headlines/xartemplates/admin-main.xd" line="84" />
 		</references>
 	</entry>
 </translations>

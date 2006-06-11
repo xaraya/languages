@@ -4,8 +4,12 @@
 		<string>Newsgroups</string>
 		<translation>Nyhetsgrupper</translation>
 		<references>
-			<reference file="modules/newsgroups/xarversion.php" line="19" />
-			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="30" />
+			<reference file="modules/newsgroups/xarversion.php" line="18" />
+			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="3" />
+			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="31" />
+			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="1" />
+			<reference file="modules/newsgroups/xartemplates/user-main.xd" line="1" />
+			<reference file="modules/newsgroups/xartemplates/user-post.xd" line="1" />
 		</references>
 	</entry>
 	<entry>
@@ -13,7 +17,16 @@
 		<translation>Välj nyhetsgrupper</translation>
 		<references>
 			<reference file="modules/newsgroups/xaradminapi/getmenulinks.php" line="19" />
-			<reference file="modules/newsgroups/xartemplates/admin-selectgroups.xd" line="3" />
+			<reference file="modules/newsgroups/xartemplates/admin-selectgroups.xd" line="4" />
+			<reference file="modules/newsgroups/xartemplates/includes/admin-menu.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Ändra konfiguration</translation>
+		<references>
+			<reference file="modules/newsgroups/xaradminapi/getmenulinks.php" line="24" />
+			<reference file="modules/newsgroups/xartemplates/includes/admin-menu.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
@@ -23,6 +36,14 @@
 			<reference file="modules/newsgroups/xaradminapi/postarticle.php" line="34" />
 			<reference file="modules/newsgroups/xaruserapi/getarticle.php" line="29" />
 			<reference file="modules/newsgroups/xaruserapi/getoverview.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Översikt</translation>
+		<references>
+			<reference file="modules/newsgroups/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/newsgroups/xartemplates/includes/admin-menu.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
@@ -37,52 +58,42 @@
 		<string>Wildcard Match</string>
 		<translation>Jokertecken träff</translation>
 		<references>
-			<reference file="modules/newsgroups/xartemplates/admin-modifyconfig.xd" line="42" />
-			<reference file="modules/newsgroups/xartemplates/admin-selectgroups.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>Newsgroups Module</string>
-		<translation>Newsgroups-modul</translation>
-		<references>
-			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="3" />
-			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="1" />
-			<reference file="modules/newsgroups/xartemplates/user-main.xd" line="1" />
-			<reference file="modules/newsgroups/xartemplates/user-post.xd" line="1" />
+			<reference file="modules/newsgroups/xartemplates/admin-modifyconfig.xd" line="37" />
+			<reference file="modules/newsgroups/xartemplates/admin-selectgroups.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
 		<string>News Server Error:</string>
 		<translation>Nyhetsserverfel</translation>
 		<references>
-			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="11" />
-			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="5" />
+			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="12" />
+			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="7" />
 			<reference file="modules/newsgroups/xartemplates/user-main.xd" line="27" />
-			<reference file="modules/newsgroups/xartemplates/user-post.xd" line="7" />
+			<reference file="modules/newsgroups/xartemplates/user-post.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
 		<string>Subject</string>
 		<translation>Ämne</translation>
 		<references>
-			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="26" />
-			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="18" />
+			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="27" />
+			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>From</string>
 		<translation>Från</translation>
 		<references>
-			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="27" />
-			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="19" />
+			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="28" />
+			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Date</string>
 		<translation>Datum</translation>
 		<references>
-			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="29" />
-			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="20" />
+			<reference file="modules/newsgroups/xartemplates/user-article.xd" line="30" />
+			<reference file="modules/newsgroups/xartemplates/user-group.xd" line="22" />
 		</references>
 	</entry>
 </translations>

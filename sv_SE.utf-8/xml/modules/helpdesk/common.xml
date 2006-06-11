@@ -1,385 +1,404 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
-		<string>HelpDesk</string>
+		<string>Help Desk</string>
 		<translation>Hjälpcentral</translation>
 		<references>
 			<reference file="modules/helpdesk/xarversion.php" line="29" />
-			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="3" />
+			<reference file="modules/helpdesk/xarversion.php" line="42" />
+			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Ogiltig #(1) för #(2) funktion #(3)() i modul #(4)</translation>
 		<references>
-			<reference file="modules/helpdesk/xaradmin/create.php" line="27" />
-			<reference file="modules/helpdesk/xaradmin/delete.php" line="34" />
-			<reference file="modules/helpdesk/xaradmin/delete.php" line="42" />
-			<reference file="modules/helpdesk/xaradmin/display.php" line="25" />
-			<reference file="modules/helpdesk/xaradmin/modify.php" line="24" />
-			<reference file="modules/helpdesk/xaradmin/modify.php" line="32" />
-			<reference file="modules/helpdesk/xaradmin/new.php" line="26" />
-			<reference file="modules/helpdesk/xaradmin/update.php" line="25" />
-			<reference file="modules/helpdesk/xaradmin/update.php" line="33" />
-			<reference file="modules/helpdesk/xaradmin/view.php" line="22" />
-			<reference file="modules/helpdesk/xaruser/display.php" line="30" />
-			<reference file="modules/helpdesk/xaruserapi/get.php" line="16" />
-			<reference file="modules/helpdesk/xaruserapi/getticket.php" line="14" />
+			<reference file="modules/helpdesk/xaradmin/create.php" line="39" />
+			<reference file="modules/helpdesk/xaradmin/delete.php" line="46" />
+			<reference file="modules/helpdesk/xaradmin/delete.php" line="54" />
+			<reference file="modules/helpdesk/xaradmin/modify.php" line="36" />
+			<reference file="modules/helpdesk/xaradmin/modify.php" line="44" />
+			<reference file="modules/helpdesk/xaradmin/new.php" line="39" />
+			<reference file="modules/helpdesk/xaradmin/update.php" line="37" />
+			<reference file="modules/helpdesk/xaradmin/update.php" line="45" />
+			<reference file="modules/helpdesk/xaradmin/view.php" line="34" />
+			<reference file="modules/helpdesk/xaradmin/display.php" line="36" />
+			<reference file="modules/helpdesk/xaruser/display.php" line="35" />
+			<reference file="modules/helpdesk/xaruserapi/getticket.php" line="26" />
 		</references>
 	</entry>
 	<entry>
-		<string>My Tickets</string>
-		<translation>Mina biljetter</translation>
+		<string>Setup Security</string>
+		<translation>Ställ in säkerhet</translation>
 		<references>
-			<reference file="modules/helpdesk/xaruser/view.php" line="108" />
-			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="67" />
+			<reference file="modules/helpdesk/xaradminapi/getmenulinks.php" line="30" />
+			<reference file="modules/helpdesk/xaradminapi/getmenulinks.php" line="31" />
+			<reference file="modules/helpdesk/xartemplates/includes/admin-menu.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
-		<string>All Tickets</string>
-		<translation>Samtliga biljetter</translation>
+		<string>Modify Config</string>
+		<translation>Ändra konfiguration</translation>
 		<references>
-			<reference file="modules/helpdesk/xaruser/view.php" line="109" />
-			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="70" />
+			<reference file="modules/helpdesk/xaradminapi/getmenulinks.php" line="35" />
+			<reference file="modules/helpdesk/xaradminapi/getmenulinks.php" line="36" />
+			<reference file="modules/helpdesk/xartemplates/includes/admin-menu.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
-		<string>My Assigned Tickets</string>
-		<translation>Mina tilldelade biljetter</translation>
+		<string>Confirm</string>
+		<translation>Bekräfta</translation>
 		<references>
-			<reference file="modules/helpdesk/xaruser/view.php" line="110" />
-			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="74" />
+			<reference file="modules/helpdesk/xartemplates/admin-delete.xd" line="31" />
+			<reference file="modules/helpdesk/xartemplates/user-delete.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>Unassigned Tickets</string>
-		<translation>Ej tilldelade biljetter</translation>
+		<string>Cancel</string>
+		<translation>Avbryt</translation>
 		<references>
-			<reference file="modules/helpdesk/xaruser/view.php" line="111" />
-			<reference file="modules/helpdesk/xaruserapi/gettickets.php" line="139" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Tickets</string>
-		<translation>Visa biljetter</translation>
-		<references>
-			<reference file="modules/helpdesk/xaruserapi/getitemtypes.php" line="31" />
-			<reference file="modules/helpdesk/xaruserapi/menulinks.php" line="74" />
-			<reference file="modules/helpdesk/xaruserapi/menulinks.php" line="75" />
-			<reference file="modules/helpdesk/xartemplates/user-sendnewticket.xd" line="37" />
+			<reference file="modules/helpdesk/xartemplates/admin-delete.xd" line="32" />
+			<reference file="modules/helpdesk/xartemplates/user-delete.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Overview</string>
 		<translation>Översikt</translation>
 		<references>
-			<reference file="modules/helpdesk/xaradminapi/getmenulinks.php" line="19" />
-			<reference file="modules/helpdesk/xaradminapi/getmenulinks.php" line="20" />
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="9" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display</string>
-		<translation>Visa</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-display.xd" line="12" />
-			<reference file="modules/helpdesk/xartemplates/admin-view.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Helpdesk is system which enables system admin support to its users though a web based interface. It allows admin to track the progress of tickets.</string>
-		<translation>Hjälpcentral (Helpdesk) är ett system som tillåter system-administratörs support till sina användare genom ett webbgränssnitt. Det låter administratören spåra utvecklingen av sina biljetter.</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="19" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have three choices. &quot;Overview&quot;, &quot;View Items&quot;, and &quot;Modify Configuration&quot;.</string>
-		<translation>Från menyn har du tre alternativ. &quot;Översikt&quot;, Visa Poster&quot; och &quot;Ändra Konfiguration&quot;.</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="29" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview -- Allows you to view this screen.</string>
-		<translation>Översikt -- Låter dig se denna sida.</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="31" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Items -- Allows you to manage any helpdesk item.</string>
-		<translation>Visa poster -- Låter dig hantera hjälpcentral poster.</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="32" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Configuration -- Allows you to set certain configuration routines for forums.</string>
-		<translation>Ändra konfiguration -- Låter dig ställa in vissa konfigurations rutiner forum.</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="33" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Medföljande block</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="44" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks</string>
-		<translation>Det finns inga medföljande block</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="48" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Medföljande kopplingar</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="52" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included hooks</string>
-		<translation>Det finns inga medföljande kopplingar</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="56" />
-			<reference file="modules/helpdesk/xartemplates/admin-overview.xd" line="47" />
+			<reference file="modules/helpdesk/xartemplates/admin-main.xd" line="11" />
+			<reference file="modules/helpdesk/xartemplates/includes/admin-menu.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Preview</string>
 		<translation>Förhandsgranska</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-modify.xd" line="17" />
-			<reference file="modules/helpdesk/xartemplates/admin-modify.xd" line="47" />
-			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="18" />
-			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="44" />
+			<reference file="modules/helpdesk/xartemplates/admin-modify.xd" line="19" />
+			<reference file="modules/helpdesk/xartemplates/admin-modify.xd" line="46" />
+			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="21" />
+			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>New</string>
 		<translation>Ny</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="12" />
-			<reference file="modules/helpdesk/xartemplates/admin-view.xd" line="48" />
+			<reference file="modules/helpdesk/xartemplates/admin-new.xd" line="15" />
+			<reference file="modules/helpdesk/xartemplates/admin-view.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Display</string>
+		<translation>Visa</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/admin-view.xd" line="37" />
+			<reference file="modules/helpdesk/xartemplates/admin-display.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name:</string>
 		<translation>Namn:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="18" />
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="26" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="64" />
+			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="21" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="27" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
 		<string>Updated:</string>
 		<translation>Uppdaterad:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="26" />
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="30" />
+			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="29" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Status:</string>
 		<translation>Status:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="30" />
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="46" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="117" />
+			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="33" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="47" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>Priority:</string>
 		<translation>Prioritet:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="38" />
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="59" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="108" />
+			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="41" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="60" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="69" />
 		</references>
 	</entry>
 	<entry>
 		<string>Closed By:</string>
 		<translation>Stängd av:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="44" />
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="104" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="154" />
+			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="47" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="105" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="115" />
 		</references>
 	</entry>
 	<entry>
 		<string>Domain:</string>
 		<translation>Domän:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="48" />
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="42" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="78" />
+			<reference file="modules/helpdesk/xartemplates/user-display.xd" line="51" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="43" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Ticket</string>
 		<translation>Biljett</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="18" />
-			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="112" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="19" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="20" />
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="111" />
 		</references>
 	</entry>
 	<entry>
 		<string>Phone:</string>
 		<translation>Telefon:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="34" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="68" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="35" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>Subject:</string>
 		<translation>Ämne:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="38" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="83" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="15" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="7" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="14" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="7" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="10" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="5" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="39" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="44" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="16" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="11" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="15" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="8" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="11" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="6" />
 		</references>
 	</entry>
 	<entry>
 		<string>Ticket Opened By:</string>
 		<translation>Biljett öppnad av:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="72" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="128" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="73" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>Ticket Assigned To:</string>
 		<translation>Biljett tilldelad:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="82" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="137" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="83" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="98" />
 		</references>
 	</entry>
 	<entry>
 		<string>Ticket Source:</string>
 		<translation>Biljettkälla:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="92" />
-			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="146" />
+			<reference file="modules/helpdesk/xartemplates/user-modify.xd" line="93" />
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Actions</string>
+		<translation>Åtgärder</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-new.xd" line="139" />
+			<reference file="modules/helpdesk/xartemplates/admin-setup_security.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search</string>
+		<translation>Sök</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-search.xd" line="23" />
+			<reference file="modules/helpdesk/xaruserapi/getmenulinks.php" line="73" />
+			<reference file="modules/helpdesk/xaruserapi/getmenulinks.php" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>Subject</string>
 		<translation>Ämne</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-search.xd" line="36" />
-			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="117" />
+			<reference file="modules/helpdesk/xartemplates/user-search.xd" line="40" />
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Tickets</string>
+		<translation>Visa biljetter</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-sendnewticket.xd" line="28" />
+			<reference file="modules/helpdesk/xaruserapi/getitemtypes.php" line="42" />
+			<reference file="modules/helpdesk/xaruserapi/getmenulinks.php" line="84" />
+			<reference file="modules/helpdesk/xaruserapi/getmenulinks.php" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Status</string>
+		<translation>Status</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="31" />
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="122" />
+			<reference file="modules/helpdesk/xartemplates/admin-setup_security.xd" line="11" />
+			<reference file="modules/helpdesk/xartemplates/includes/additional-comments-form.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>My Tickets</string>
+		<translation>Mina biljetter</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="72" />
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="77" />
+			<reference file="modules/helpdesk/xaruser/view.php" line="132" />
+			<reference file="modules/helpdesk/xaruser/view.php" line="133" />
+			<reference file="modules/helpdesk/xaruserapi/gettickets.php" line="130" />
+			<reference file="modules/helpdesk/xaruserapi/gettickets.php" line="135" />
+		</references>
+	</entry>
+	<entry>
+		<string>My Assigned Tickets</string>
+		<translation>Mina tilldelade biljetter</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="73" />
+			<reference file="modules/helpdesk/xaruser/view.php" line="135" />
+			<reference file="modules/helpdesk/xaruserapi/gettickets.php" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unassigned Tickets</string>
+		<translation>Ej tilldelade biljetter</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="74" />
+			<reference file="modules/helpdesk/xaruser/view.php" line="136" />
+			<reference file="modules/helpdesk/xaruserapi/gettickets.php" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>All Tickets</string>
+		<translation>Samtliga biljetter</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-view.xd" line="75" />
+			<reference file="modules/helpdesk/xaruser/view.php" line="134" />
+			<reference file="modules/helpdesk/xaruserapi/gettickets.php" line="142" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dear</string>
 		<translation>Kära</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="2" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="1" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="2" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="1" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="2" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="1" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="3" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="2" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="3" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="2" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="3" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="2" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-html.xd" line="3" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-text.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
-		<string>View the ticket:</string>
-		<translation>Visa biljetten:</translation>
+		<string>Ticket ###(1) has been closed.</string>
+		<translation>Biljett ###(1) har stängts.</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="19" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="23" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="16" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="9" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="10" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Comment:</string>
+		<translation>Kommentar:</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="21" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="14" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-html.xd" line="9" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-text.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>View your ticket:</string>
+		<translation>Visa din biljett:</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="27" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="26" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="18" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="10" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-html.xd" line="13" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-text.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
 		<string>View all your tickets:</string>
 		<translation>Visa samtliga dina biljetter:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="24" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="28" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="20" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Link to the ticket:</string>
-		<translation>Länk till biljett:</translation>
-		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="9" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="13" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-html.xd" line="32" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="31" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="22" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="13" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-html.xd" line="17" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-text.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
 		<string>Link all your tickets:</string>
 		<translation>Länk till samtliga dina biljetter:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="12" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="16" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailcloseduser-text.xd" line="21" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
-		<string>A new HelpDesk ticket has been assigned to you.</string>
-		<translation>En ny Hjälpcentralbiljett har tilldelats dig.</translation>
+		<string>A new Helpdesk ticket has been assigned to you.</string>
+		<translation>En ny Hjälpcentral-biljett har tilldelats dig.</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="7" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="3" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="8" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>Name of submitter:</string>
 		<translation>Inskickad av:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="10" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="5" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="11" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="6" />
 		</references>
 	</entry>
 	<entry>
 		<string>Issue:</string>
 		<translation>Problem:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="17" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="9" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="13" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="7" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="18" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="10" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="14" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
 		<string>Notes:</string>
 		<translation>Noteringar:</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="20" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="11" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-html.xd" line="22" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewassigned-text.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
-		<string>You have submitted a ticket to our helpdesk system.</string>
-		<translation>Du har skickat in en biljett till vårt hjälpcentralsystem.</translation>
+		<string>Your ticket has been received by our helpdesk system.</string>
+		<translation>Din biljett har mottagits av vårt hjälpcentralsystem.</translation>
 		<references>
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="7" />
-			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="3" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-html.xd" line="8" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailnewuser-text.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>A comment has been logged against ticket:</string>
+		<translation>En kommentar har loggats mot biljett:</translation>
+		<references>
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-html.xd" line="6" />
+			<reference file="modules/helpdesk/xartemplates/user-sendmailadditionalcomment-text.xd" line="5" />
 		</references>
 	</entry>
 </translations>

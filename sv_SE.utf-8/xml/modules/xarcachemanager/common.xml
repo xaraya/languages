@@ -8,24 +8,65 @@ Please change the permission on the #(1) directory
 so that the web server can write to it.</string>
 		<translation>#(1)-katalogen är inte skrivbar av webbservern. #(1)-katalogen måste vara skrivbar av webbserverprocessägaren för att utdatacachning ska fungera. Vänligen ändra behörigheterna för #(1)-katalogen så att webbservern kan skriva till den.</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xarinit.php" line="418" />
-			<reference file="modules/xarcachemanager/xaradminapi/restore_cachingconfig.php" line="29" />
+			<reference file="modules/xarcachemanager/xarinit.php" line="420" />
+			<reference file="modules/xarcachemanager/xaradminapi/restore_cachingconfig.php" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Ogiltig #(1) för #(2) funktion #(3)() i modul #(4)</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xaradmin/modifyhook.php" line="25" />
-			<reference file="modules/xarcachemanager/xaradmin/modifyhook.php" line="33" />
-			<reference file="modules/xarcachemanager/xaradmin/modifyhook.php" line="61" />
-			<reference file="modules/xarcachemanager/xaradminapi/createhook.php" line="30" />
-			<reference file="modules/xarcachemanager/xaradminapi/createhook.php" line="51" />
-			<reference file="modules/xarcachemanager/xaradminapi/deletehook.php" line="30" />
-			<reference file="modules/xarcachemanager/xaradminapi/deletehook.php" line="51" />
-			<reference file="modules/xarcachemanager/xaradminapi/updateconfighook.php" line="44" />
-			<reference file="modules/xarcachemanager/xaradminapi/updatehook.php" line="31" />
-			<reference file="modules/xarcachemanager/xaradminapi/updatehook.php" line="52" />
+			<reference file="modules/xarcachemanager/xaradmin/modifyhook.php" line="35" />
+			<reference file="modules/xarcachemanager/xaradmin/modifyhook.php" line="43" />
+			<reference file="modules/xarcachemanager/xaradmin/modifyhook.php" line="71" />
+			<reference file="modules/xarcachemanager/xaradminapi/createhook.php" line="39" />
+			<reference file="modules/xarcachemanager/xaradminapi/createhook.php" line="60" />
+			<reference file="modules/xarcachemanager/xaradminapi/deletehook.php" line="39" />
+			<reference file="modules/xarcachemanager/xaradminapi/deletehook.php" line="60" />
+			<reference file="modules/xarcachemanager/xaradminapi/updateconfighook.php" line="53" />
+			<reference file="modules/xarcachemanager/xaradminapi/updatehook.php" line="40" />
+			<reference file="modules/xarcachemanager/xaradminapi/updatehook.php" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Query Caching</string>
+		<translation>Förfrågningscachning</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/getmenulinks.php" line="28" />
+			<reference file="modules/xarcachemanager/xartemplates/includes/admin-menu.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cache</string>
+		<translation>Spola cache</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/getmenulinks.php" line="33" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="37" />
+			<reference file="modules/xarcachemanager/xartemplates/includes/admin-menu.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page Caching</string>
+		<translation>Sidcaching</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/getmenulinks.php" line="40" />
+			<reference file="modules/xarcachemanager/xartemplates/includes/admin-menu.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Caching</string>
+		<translation>Blockcachning</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/getmenulinks.php" line="47" />
+			<reference file="modules/xarcachemanager/xartemplates/includes/admin-menu.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Ändra konfiguration</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xaradminapi/getmenulinks.php" line="58" />
+			<reference file="modules/xarcachemanager/xartemplates/includes/admin-menu.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
@@ -34,35 +75,35 @@ so that the web server can write to it.</string>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="2" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-flushcache.xd" line="2" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="2" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-modifyconfig.xd" line="3" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="3" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-queries.xd" line="2" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="4" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module</string>
 		<translation>Modul</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="12" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="44" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="50" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="20" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="45" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Type</string>
 		<translation>Typ</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="13" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="30" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="21" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>Group Members</string>
 		<translation>Gruppmedlemmar</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="40" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="43" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="48" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="51" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-modifyhook.xd" line="31" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-modifyhook.xd" line="35" />
 		</references>
@@ -71,8 +112,8 @@ so that the web server can write to it.</string>
 		<string>All Users</string>
 		<translation>Samtliga användare</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="47" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="50" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="55" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="58" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-modifyhook.xd" line="40" />
 			<reference file="modules/xarcachemanager/xartemplates/admin-modifyhook.xd" line="44" />
 		</references>
@@ -81,37 +122,37 @@ so that the web server can write to it.</string>
 		<string>Submit</string>
 		<translation>Skicka</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="59" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="174" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-queries.xd" line="37" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-blocks.xd" line="68" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="182" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-queries.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>Overview</string>
 		<translation>Översikt</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="4" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="17" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="23" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="24" />
+			<reference file="modules/xarcachemanager/xartemplates/includes/admin-menu.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>Page</string>
 		<translation>Sida</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="193" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="30" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="36" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="589" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="199" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="31" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="37" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="590" />
 		</references>
 	</entry>
 	<entry>
 		<string>Total</string>
 		<translation>Totalt</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="211" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="505" />
-			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="584" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="217" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="506" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-stats.xd" line="585" />
 		</references>
 	</entry>
 </translations>

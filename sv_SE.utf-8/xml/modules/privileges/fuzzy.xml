@@ -36,4 +36,87 @@
 			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="85" />
 		</references>
 	</entry>
+	<entry>
+		<string>Update Privileges Configuration</string>
+		<translation>Uppdatera behörighetskonfigurationen</translation>
+		<references>
+			<reference file="modules/privileges/xaradmin/modifyconfig.php" line="27" />
+			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Overview</string>
+		<translation>Översikt Behörigheter</translation>
+		<references>
+			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Privilege:</string>
+		<translation>Visa behörighet:</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya's privileges are extremely flexible. You can define privileges at the level of site, modules, component classes within modules, or single instances of those classes.</string>
+		<translation>Xarayas behörigheter är extremt flexibla. Du kan definiera behörigheter på webbplatsnivå, modulnivå, komponentklassnivå inom moduler eller på nivå för enstaka instanser av dessa klasser.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clicking on the View Privileges link gives you an overview of all the privileges on your system. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string>
+		<translation>Klickar du på länken Visa Behörigheter får du en översikt över alla behörigheter i ditt system. Sammansatta behörigheter är minimerade men du kan klicka på dem för att öppna upp dem och se deras komponenter.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Administration: a privilege that gives a role complete access to all resources on the site. At installation this privilege is assigned to the role Administrators and is inherited by the user Admin.</string>
+		<translation>Administration: en behörighet som ger en roll total tillgång till samtliga resurser på webbplatsen. Vid installation tilldelas den här behörigheten till rollen Administrators och ärvs av användaren Admin.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>CasualAccess: this is the privilege assigned to unregistered users on the site. It is initially defined to allow viewing access of the front page, as well as access to the login block.</string>
+		<translation>CasualAccess: den här behörigheten tilldelas oregistrerade användare på webbplatsen. Den är initialt definierad för att tillåta visning av framsida och tillgång till inloggningsblocket.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>GeneralLock: a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admin. This is to avoid inadvertent removal.</string>
+		<translation>GeneralLock: en behörighet som begränsar tillgång till vissa grundläggande roller och behörigheter som systemet kräver, t.ex standard admin. Detta för att undvika oavsiktlig borttagning.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>All privileges in the system can be changed or removed. (For those protected by GeneralLock
+above this takes a bit more doing.) You can also combine privileges by using them as elements to create
+compound privileges, or make new privileges of your choosing. There is no limit to the number of privileges
+you can create or their levels of nesting.</string>
+		<translation>Samtliga behörigheter i systemet kan ändras eller tas bort. (För de som skyddas av GeneralLock krävs det lite mer arbete.) Du kan även kombinera behörigheter genom att använda dem som element för att skapa sammansatta behörigheter, eller skapa nya behörigheter efter ditt tycke. Det finns ingen begränsning i antal behörigheter dom du kan skapa eller deras nivåer av blandning</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Remember that you can assign privileges to the Myself role, and those privileges will
+only apply to a specific user and the content owned or authored by that specific eg they could edit
+their own articles, or comments but not articles or comments created by others.</string>
+		<translation>Kom ihåg att du kan tilldela behörigheter till Myself-rollen och dessa behörigheter kommer bara gälla för en specifik användare och innehållet som ägs eller författats av personen. T.ex kan de redigera eller kommentera sina egna artiklar men inte artiklar skapade av andra.</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>Privileges Module - Overview</string>
+		<translation>Behörighetsmodulen - Översikt</translation>
+		<references>
+			<reference file="modules/privileges/xartemplates/admin-main.xd" line="127" />
+		</references>
+	</entry>
 </translations>

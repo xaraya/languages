@@ -4,14 +4,28 @@
 		<string>Modify Uploads Configuration</string>
 		<translation>Ändra uppladdningskonfiguration</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="9" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Upload Options</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Full path to your upload directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Uploads Directory</string>
 		<translation>Uppladdningskatalog</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="16" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="21" />
 		</references>
 	</entry>
 	<entry>
@@ -20,14 +34,21 @@ It is stronly recommended that this directory be located outside of your web dir
 &lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
 		<translation>Det här är den kompletta sökvägen till katalogen där uppladdat och externt imorterade filer kommer sparas. Det rekommenderas starkt att denna katalog är placerad utanför win webbkatalog. &lt;br /&gt;NOTERA: Den här katalogen MÅSTE vara skrivbar av webbservern.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="23" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Full path to the local trusted directory</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
 		<string>Trusted Directory:</string>
 		<translation>Betrodd katalog:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
@@ -38,14 +59,22 @@ that this directory be located outside of your web directory.
 &lt;br /&gt;NOTE: This directory MUST be readable and should also be writable by the webserver.</string>
 		<translation>Det här är den kompletta sökvägen till den lokala betrodda katalogen. Filer i den här katalogen kommer omedelbart vara tillgängliga för användare att bifoga till andra objekt (dvs. artiklar). Filer i den här katalogen räknas &lt;strong&gt;inte&lt;/strong&gt; i diskanvändningens totalsumma. Det rekommenderas starkt att den här katalogen ligger utanför din webbkatalog. &lt;br /&gt;NOTERA: Den här katalogen MÅSTE vara läsbar och bör bara skrivbar av webbservern.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="39" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
-		<string>Maximum Upload Size in bytes (commas are fine):</string>
-		<translation>Maximal uppladdningsstorlek i bytes (kommatecken duger bra):</translation>
+		<string>Auto approve files</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="45" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="50" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Maximum Upload Size :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
@@ -54,88 +83,102 @@ NOTE: The server wide PHP setting, if set to a lower value, &lt;em&gt;will&lt;/e
 Please ask your web host provider for details on the settings that they use for uploaded files.</string>
 		<translation>Det här är den maximala storleken som en uppladdad fil kan ha. &lt;br /&gt; NOTERA: Serverns allmäna PHP-inställning, om ställd till ett lägre värde, &lt;em&gt;kommer&lt;/em&gt; överskrida den här inställningen. Vänligen fråga din webbhotellvärd för detaljer om inställningar som de använder för filuppladdningar.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62" />
 		</references>
 	</entry>
 	<entry>
 		<string>Auto approve files added by:</string>
 		<translation>Godkänn automatiskt filer tillagda av:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="59" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="69" />
 		</references>
 	</entry>
 	<entry>
 		<string>No one</string>
 		<translation>Ingen</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="70" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="76" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="80" />
 		</references>
 	</entry>
 	<entry>
 		<string>Everyone</string>
 		<translation>Samtliga</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="64" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="68" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="74" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="78" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="82" />
 		</references>
 	</entry>
 	<entry>
 		<string>This option allows you to make all newly added files' status set to approved for Everyone (not recommended), Admins only, or No One.</string>
 		<translation>Det här alternativet låter dig ställa in alla nyligen tillagda filers status till godkänd för samtliga (rekommenderas inte), endast administratörer eller ingen.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="77" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm deletion of files</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>Confirm deletion of files:</string>
 		<translation>Bekräfta borttagning av filer:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="84" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="94" />
 		</references>
 	</entry>
 	<entry>
 		<string>Yes</string>
 		<translation>Ja</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="88" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="91" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="107" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="110" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="127" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="130" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="145" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="148" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="100" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="116" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="119" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="137" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="140" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="156" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159" />
 		</references>
 	</entry>
 	<entry>
 		<string>No</string>
 		<translation>Nej</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="89" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="92" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="108" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="111" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="128" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="131" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="146" />
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="149" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="98" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="101" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="117" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="120" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="138" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="141" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="157" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="160" />
 		</references>
 	</entry>
 	<entry>
 		<string>Confirmation must be provided before files are deleted.</string>
 		<translation>Bekräftelse måste ske innan filer tas bort.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="106" />
 		</references>
 	</entry>
 	<entry>
-		<string>Auto purge files marked as 'rejected':</string>
-		<translation>Rensa automatsikt filer markerade som 'avslagna':</translation>
+		<string>Auto purge files marked as rejected</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="103" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto purge 'rejected' files:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="113" />
 		</references>
 	</entry>
 	<entry>
@@ -144,28 +187,42 @@ the 'Purge Rejected' button located on the &lt;em&gt;Admin-&gt;Uploads-&gt;View 
 option forces any file you set to 'rejected' status to be deleted right away.</string>
 		<translation>Normalt, när du avvisar en fil, måste du manuellt rensa dem genom att klicka på 'Rensa avvisade' knappen palcerad på &lt;em&gt;Admin-&gt;Uppladdningar-&gt;Visa-sidan&lt;/em&gt;. Detta alternativ tvingar alla filer som du gett 'avvisad' status att tas bort på en gång.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="118" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="127" />
 		</references>
 	</entry>
 	<entry>
-		<string>Obfuscate/Secure Imported Files:</string>
-		<translation>Dölj/Säkra importerade filer:</translation>
+		<string>Obfuscate/Secure Imported Files</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="124" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>Secure Imported Files:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
 		<string>If Yes, imported files will be stored with their original names obfuscated for added security.</string>
 		<translation>Om Ja, kommer importerade filer att lagras med sina originalnamn dolda för ökad säkerhet.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="136" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="146" />
 		</references>
 	</entry>
 	<entry>
-		<string>Obfuscate/Secure Uploaded Files:</string>
-		<translation>Dölj/Säkra uppladdade filer:</translation>
+		<string>Obfuscate/Secure Uploaded Files</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="142" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>Secure Uploaded Files:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="153" />
 		</references>
 	</entry>
 	<entry>
@@ -177,71 +234,91 @@ recommended that you leave this option on unless you have a thorough understandi
 of the implications behind turning it off.</string>
 		<translation>Om Ja, kommer uppladdade filer lagras med sina originalnamn dolda för ökad säkerhet. &lt;br /&gt; &lt;strong style=color: red;&quot;&gt;NOTERA:&lt;/strong&gt;Att ställa det här till 'Nej' kan öppna en väg för användare att ladda upp och köra skadliga skript på din webbplats. Det är &lt;strong&gt;varmt&lt;/strong&gt; rekommenderat att du lämnar det här alternativet aktiverat såvida du inte har en fullständig förståelse för konsekvenserna av att inaktivera den.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="170" />
 		</references>
 	</entry>
 	<entry>
-		<string>Reaction to Duplicate Filenames:</string>
-		<translation>Reaktion på dublett filnamn:</translation>
+		<string>Reaction to Duplicate Filenames</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="165" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="174" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow Duplicate Filenames?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="177" />
 		</references>
 	</entry>
 	<entry>
 		<string>No upload allowed</string>
 		<translation>Tillåt inte uppladdning</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="168" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="180" />
 		</references>
 	</entry>
 	<entry>
 		<string>Save as new version</string>
 		<translation>Spara som ny version</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="169" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="181" />
 		</references>
 	</entry>
 	<entry>
 		<string>Replace original</string>
 		<translation>Ersätt original</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="170" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="182" />
 		</references>
 	</entry>
 	<entry>
-		<string>For new version, files with the same name of existing files will be stored alongside the originals.
-&lt;br /&gt;</string>
-		<translation>För ny version, kommer filer med samma namn som en existerande fil att sparas tillsammans med originalen. &lt;br /&gt;</translation>
+		<string>For new version, files with the same name of existing files will be stored alongside the originals.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="186" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="197" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cache trusted file information</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="201" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cache trusted file information:</string>
 		<translation>Cacha bestrodd information:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="192" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>seconds</string>
 		<translation>sekunder</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="195" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="207" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per page in admin view</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="210" />
 		</references>
 	</entry>
 	<entry>
 		<string>Items per page in admin view:</string>
 		<translation>Poster per sida i administratörsvyn:</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="201" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="213" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dynamic File Upload Property Configuration</string>
 		<translation>Dynamisk filuppladdningsegenskaper konfiguration</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="207" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="223" />
 		</references>
 	</entry>
 	<entry>
@@ -250,56 +327,70 @@ These settings only take effect if you have 'hooked' the uploads module to the m
 FileUpload property.</string>
 		<translation>Dessa inställningar låter dig omdefiniera vissa utmärkande egenskaper för FileUpload dyamiskdata. Dessa inställningar fungerar endast om du har 'kopplat' uppladdningsmodulen till modulen med FileUpload-egenskapen.</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="214" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="230" />
 		</references>
 	</entry>
 	<entry>
-		<string>Select available file sources for the FileUpload Property:</string>
-		<translation>Välj tillgängliga filkällor för filuppladdnings-egenskap:</translation>
+		<string>Select file sources for the FileUpload Property:</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="219" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="236" />
 		</references>
 	</entry>
 	<entry>
 		<string>Note: be sure to choose at &lt;strong&gt;least&lt;/strong&gt; one!</string>
 		<translation>Notera: var noga att &lt;strong&gt;åtminstone&lt;/strong&gt; välja en!</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="224" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="242" />
 		</references>
 	</entry>
 	<entry>
 		<string>Files located in the Trusted directory</string>
 		<translation>Filer placerade i den betrodda katalogen</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="235" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="253" />
 		</references>
 	</entry>
 	<entry>
 		<string>Externally located files (http / ftp / file)</string>
 		<translation>Externt placerade filer (http / ftp / fil)</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="247" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="265" />
 		</references>
 	</entry>
 	<entry>
 		<string>User uploaded files</string>
 		<translation>Användaruppladdade filer</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="259" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="276" />
 		</references>
 	</entry>
 	<entry>
 		<string>Files previously stored</string>
 		<translation>Filer tidigare lagrade</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="271" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="286" />
 		</references>
 	</entry>
 	<entry>
 		<string>Hook configuration for uploaded files</string>
 		<translation>Kopplingskondiguration för uppladdade filer</translation>
 		<references>
-			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="277" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="294" />
+		</references>
+	</entry>
+	<entry>
+		<string>No hooks configured.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="302" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configure hooks now</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="303" />
 		</references>
 	</entry>
 </translations>

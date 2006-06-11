@@ -4,20 +4,36 @@
 		<string>Messages</string>
 		<translation>Meddelanden</translation>
 		<references>
-			<reference file="modules/messages/xarversion.php" line="6" />
-			<reference file="modules/messages/xartemplates/user-delete.xd" line="9" />
+			<reference file="modules/messages/xarversion.php" line="17" />
 			<reference file="modules/messages/xartemplates/user-menu.xd" line="5" />
 			<reference file="modules/messages/xartemplates/user-menu.xd" line="20" />
+			<reference file="modules/messages/xartemplates/user-delete.xd" line="12" />
 			<reference file="modules/messages/xartemplates/includes/delete-message.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Ändra Config</translation>
+		<references>
+			<reference file="modules/messages/xaradminapi/getmenulinks.php" line="34" />
+			<reference file="modules/messages/xartemplates/includes/admin-menu.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>Messages Administration</string>
 		<translation>Meddelande administration</translation>
 		<references>
-			<reference file="modules/messages/xaradminapi/menu.php" line="12" />
+			<reference file="modules/messages/xaradminapi/menu.php" line="23" />
 			<reference file="modules/messages/xartemplates/admin-config.xd" line="1" />
-			<reference file="modules/messages/xartemplates/admin-main.xd" line="1" />
+			<reference file="modules/messages/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Översikt</translation>
+		<references>
+			<reference file="modules/messages/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/messages/xartemplates/includes/admin-menu.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
@@ -48,9 +64,19 @@
 			<reference file="modules/messages/xartemplates/user-display.xd" line="108" />
 			<reference file="modules/messages/xartemplates/user-display.xd" line="133" />
 			<reference file="modules/messages/xartemplates/user-display.xd" line="135" />
-			<reference file="modules/messages/xartemplates/includes/delete-message.xd" line="8" />
 			<reference file="modules/messages/xartemplates/includes/view-message.xd" line="27" />
 			<reference file="modules/messages/xartemplates/includes/view-message.xd" line="29" />
+			<reference file="modules/messages/xartemplates/includes/delete-message.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Private Messages</string>
+		<translation>Privata meddelanden</translation>
+		<references>
+			<reference file="modules/messages/xartemplates/user-display.xd" line="3" />
+			<reference file="modules/messages/xartemplates/user-send.xd" line="2" />
+			<reference file="modules/messages/xartemplates/user-view.xd" line="2" />
+			<reference file="modules/messages/xartemplates/user-delete.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
@@ -72,54 +98,46 @@
 		</references>
 	</entry>
 	<entry>
-		<string>You are NOT authorized to view someone else's mail!</string>
-		<translation>Du SAKNAR behörighet att läsa någon annans meddelanden!</translation>
-		<references>
-			<reference file="modules/messages/xaruser/delete.php" line="36" />
-			<reference file="modules/messages/xaruser/send.php" line="70" />
-			<reference file="modules/messages/xaruser/view.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are not permitted to view messages.</string>
-		<translation>Du är ej tillåten att se meddelanden.</translation>
-		<references>
-			<reference file="modules/messages/xaruser/display.php" line="7" />
-			<reference file="modules/messages/xaruser/view.php" line="7" />
-		</references>
-	</entry>
-	<entry>
 		<string>Message ID nonexistant!</string>
 		<translation>Meddelande ID saknas!</translation>
 		<references>
-			<reference file="modules/messages/xaruser/send.php" line="64" />
-			<reference file="modules/messages/xaruser/view.php" line="15" />
+			<reference file="modules/messages/xaruser/send.php" line="76" />
+			<reference file="modules/messages/xaruser/view.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>You are NOT authorized to view someone else's mail!</string>
+		<translation>Du SAKNAR behörighet att läsa någon annans meddelanden!</translation>
+		<references>
+			<reference file="modules/messages/xaruser/send.php" line="82" />
+			<reference file="modules/messages/xaruser/view.php" line="33" />
+			<reference file="modules/messages/xaruser/delete.php" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>Missing #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Saknar #(1) för #(2) funktionen #(3)() i modulen #(4)</translation>
 		<references>
-			<reference file="modules/messages/xaruserapi/create.php" line="7" />
-			<reference file="modules/messages/xaruserapi/create.php" line="14" />
-			<reference file="modules/messages/xaruserapi/create.php" line="21" />
-			<reference file="modules/messages/xaruserapi/delete.php" line="18" />
+			<reference file="modules/messages/xaruserapi/create.php" line="19" />
+			<reference file="modules/messages/xaruserapi/create.php" line="26" />
+			<reference file="modules/messages/xaruserapi/create.php" line="33" />
+			<reference file="modules/messages/xaruserapi/delete.php" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>unread</string>
 		<translation>oläst</translation>
 		<references>
-			<reference file="modules/messages/xaruserapi/get.php" line="42" />
-			<reference file="modules/messages/xaruserapi/getall.php" line="34" />
+			<reference file="modules/messages/xaruserapi/get.php" line="53" />
+			<reference file="modules/messages/xaruserapi/getall.php" line="45" />
 		</references>
 	</entry>
 	<entry>
 		<string>read</string>
 		<translation>läst</translation>
 		<references>
-			<reference file="modules/messages/xaruserapi/get.php" line="45" />
-			<reference file="modules/messages/xaruserapi/getall.php" line="37" />
+			<reference file="modules/messages/xaruserapi/get.php" line="56" />
+			<reference file="modules/messages/xaruserapi/getall.php" line="48" />
 		</references>
 	</entry>
 	<entry>
@@ -144,6 +162,14 @@
 		<references>
 			<reference file="modules/messages/xartemplates/includes/input-box.xd" line="43" />
 			<reference file="modules/messages/xartemplates/includes/view-message.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Actions:</string>
+		<translation>Åtgärder:</translation>
+		<references>
+			<reference file="modules/messages/xartemplates/includes/admin-menu.xd" line="10" />
+			<reference file="modules/messages/xartemplates/includes/user-menu.xd" line="10" />
 		</references>
 	</entry>
 </translations>

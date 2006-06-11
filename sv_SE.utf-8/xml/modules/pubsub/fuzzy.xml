@@ -8,4 +8,73 @@
 			<reference file="modules/pubsub/xaradminapi/getq.php" line="41" />
 		</references>
 	</entry>
+	<entry>
+		<string>Unable to load #(1) #(2) API</string>
+		<translation>Oförmögen att ladda #(1) #(2) API</translation>
+		<references>
+			<reference file="modules/pubsub/xaradminapi/getall.php" line="33" />
+			<reference file="modules/pubsub/xaradminapi/getq.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;The pubsub module should be hooked to the categories module first, so that your users can subscribe to events concerning a particular category.&lt;/p&gt;
+&lt;p&gt;Then you should enable the pubsub hooks for any other module (e.g. articles) where you want to send out create/update/delete notifications to your users.&lt;/p&gt;
+&lt;p&gt;And finally you should specify which templates to use for each module and how often events should be processed in &quot;Modify Configuration&quot;.&lt;/p&gt;</string>
+		<translation>&lt;p&gt;Modulen Pubsub bör krokas i modulen kategorier, så att dina användare kan prenumerera på händelser rörande en viss kategori.&lt;/p&gt;&lt;p&gt;Därefter bör du slå på krokarna i Pubsub för alla andra moduler (såsom artiklar) där du vill skicka underrättelser när något skapas, uppdateras eller tas bort.&lt;/p&gt;&lt;p&gt;Slutligen bör du specificera vilken mall som skall användas för varje modul och hur ofta händelser ska bearbetas i &quot;Ända konfiguration&quot;.&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found here. [modules module]</string>
+		<translation>Mer information om en här modulen hittar du här. [modules module]</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
+		<translation>&lt;b&gt;Beskrivning&lt;/b&gt; slå först på pubsub krokar för en viss modul+punkttyp, specificera sedan här vilken mall som ska användas när en punkt skapas, uppdateras eller tas bort för den modul+punkttypen. Ställer du in en mall till &quot;stöds inte&quot; betyder det att dina användare inte kommer att få några underrättelser för den händelsen.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Create Hook Calls</string>
+		<translation>Mall för anrop av Skapa Krok</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Update Hook Calls</string>
+		<translation>Mall för anrop av Uppdatera krok</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Delete Hook Calls</string>
+		<translation>Mall för anrop av Ta bort Krok</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Description:&lt;/b&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string>
+		<translation>&lt;b&gt;Beskrívning:&lt;/b&gt; för att kunna bearbeta köade händelser, behöver du först installera modulen &quot;Schemaläggare&quot;. Därefter kan du här specificera hur ofta händelsekön ska bearbetas.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Subscription Summary</string>
+		<translation>Summering av prenumerationer</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="5" />
+		</references>
+	</entry>
 </translations>

@@ -8,87 +8,108 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
-		<translation>Vänligen ange dina databasinställningar. Du kan ansluta till databaser på icke-standardportar genom att använda 'värdnamn:port' i värdfältet. (ex 'localhost:12345')</translation>
+		<string>Enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>Ange dina databasinställningar. Du kan ansluta till databaser på icke-standardportar genom att använda 'värdnamn:port' i värdfältet. (ex 'localhost:12345')</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
 		</references>
 	</entry>
 	<entry>
-		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
-		<translation>Om du inte har rot-tillgång till din databas (pga delad server, etc.) måste du ha en existerande konfigurerad databas innan du fortsätter.</translation>
+		<string>Note the following:</string>
+		<translation>Tänk på följande:</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="14" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
-		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
-		<translation>UPPDATERINGSNOT: Om du planerar på att uppdatera Xaraya från en tidigare version eller annan Webblogg(CMS, installera som normalt och kör sen det medföljande uppdaterinsgskriptet.</translation>
+		<string>If you do not have root access to your database (due to virtual hosting etc), you will need to have a pre-existing database installed and configured before you proceed.</string>
+		<translation>Om du inte har rot-tillgång till din databas (pga delad server, etc.) måste du ha en existerande konfigurerad databas innan du fortsätter.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan to use a SQLite or PostgreSQL database please ensure your database already exists before your proceed.</string>
+		<translation>Om du tänker använda databaserna SQLite eller PostgreSQL måste du försäkra dig om att de finns upplagda innan du fortsätter.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan on &lt;strong&gt;upgrading&lt;/strong&gt; an existing Xaraya then please run the &lt;strong&gt;upgrade.php&lt;/strong&gt; script, not this install script.</string>
+		<translation>Om du tänker &lt;strong&gt;uppgradera&lt;/strong&gt; en existerande xarayainstallation kör då istället skriptet &lt;strong&gt;upgrade.php&lt;/strong&gt;, inte detta installationsskript.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan to convert from another Weblog/CMS to Xaraya, first install Xaraya as normal and then run the appropriate import script to import your prior Weblog/CMS data.</string>
+		<translation>Om du tänker flytta över data från ett annat Weblog/CMS till Xaraya installerar du först Xaraya, och därefter så kör du det importskript som passar datastrukturen för ditt tidigare Weblog/CMS.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Information</string>
 		<translation>Databasinformation</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>Host</string>
-		<translation>Värd</translation>
+		<translation>Värd (Host)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="27" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Name</string>
 		<translation>Databasnamn</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="48" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="49" />
 		</references>
 	</entry>
 	<entry>
 		<string>Table Prefix</string>
 		<translation>Tabellprefix</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="55" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="56" />
 		</references>
 	</entry>
 	<entry>
 		<string>(for Table Sharing)</string>
 		<translation>(för tabelldelningl)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="59" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="60" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Type</string>
 		<translation>Databastyp</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="64" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="65" />
 		</references>
 	</entry>
 	<entry>
 		<string>[not available]</string>
-		<translation>(inte tillgänglig)</translation>
+		<translation>[inte tillgänglig]</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="69" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="70" />
 		</references>
 	</entry>
 	<entry>
-		<string>Create the database</string>
-		<translation>Skapa databasen</translation>
+		<string>Create the database (MySQL only)</string>
+		<translation>Skapa databasen (enbart MySQL)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="84" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="85" />
 		</references>
 	</entry>
 	<entry>
-		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
-		<translation>Detta alternativ anger om du vill att installationen ska skapa den tomma databasen först eller om den bara kan fylla på i en redan befintlig databas. Om du inte kan skapa databaser genom phpMyAdmin på grund av delad server eller MySQL-säkerhetsinställningar så kan inte installationsprogrammet skapa databasen åt dig. Den kan dock fylla på information i en befintlig databas.</translation>
+		<string>If checked, this Create the Database option allows the install process to create an empty database for you rather than just populating an existing one. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will &lt;strong&gt;not&lt;/strong&gt; be able to create the database for you. It will be able to populate an already existing database.</string>
+		<translation>Genom att kryssa i alternativet 'skapa databasen' anger du att installationen ska skapa en tom databas istället för att fylla på i en redan befintlig databas. Om du inte kan skapa databaser genom phpMyAdmin på grund av delad server eller MySQL-säkerhetsinställningar så kan &lt;strong&gt;inte&lt;/strong&gt; installationsprocessen skapa databasen åt dig. Installationsprocessen kan dock fylla på information i en befintlig databas.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="88" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="89" />
 		</references>
 	</entry>
 </translations>

@@ -1,3 +1,422 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>Update Roles Configuration</string>
+		<translation>Uppdatera roller konfigurationen</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifyconfig.php" line="98" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="256" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="425" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="492" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="521" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="550" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="595" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update Notification Configuration</string>
+		<translation>Uppdatera meddelandekonfiguration</translation>
+		<references>
+			<reference file="modules/roles/xaradmin/modifynotice.php" line="26" />
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>Yahoo Messenger</string>
+		<translation>Yahoo Messenger</translation>
+		<references>
+			<reference file="modules/roles/xarproperties/Dynamic_Yahoo_Property.php" line="32" />
+			<reference file="modules/roles/xartemplates/properties/showoutput-yahoo.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Log In</string>
+		<translation>Logga in</translation>
+		<references>
+			<reference file="modules/roles/xaruser/register.php" line="51" />
+			<reference file="modules/roles/xaruser/showloginform.php" line="28" />
+			<reference file="modules/roles/xartemplates/blocks/login.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>User and Group registration and handling</string>
+		<translation>Registrering och hantering av användare och grupper</translation>
+		<references>
+			<reference file="modules/roles/xarversion.php" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong arguments to roles_adminapi_create.</string>
+		<translation>Fel argument till roles_adminapi_create.</translation>
+		<references>
+			<reference file="modules/roles/xaradminapi/create.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles Overview</string>
+		<translation>Roller översikt</translation>
+		<references>
+			<reference file="modules/roles/xaradminapi/getmenulinks.php" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Modify Config&lt;/strong&gt; : Set general site options such as lockout times, designated Administrator, site terms and privacy policy, as well as setting user site registration options, and managing filtering and dynamic data.</string>
+		<translation>&lt;strong&gt;Ändra konfiguration&lt;/strong&gt;: Ställ in webbplatsalternativ så som utloggningstid, designerad administratör, webbplats villkor och integritetsprinciper, likväl ställa in användaralternativ vid registrering och hantera filtrering och dynamisk data.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="114" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login Block allows users to login</string>
+		<translation>Inloggnings-blocket låter användare logga in</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Online Block shows the number visiting your site right now.</string>
+		<translation>Uppkopplade-blocket visar hur många som besöker din webbsida just nu.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles Module - Overview</string>
+		<translation>Roller-modulen - Översikt</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>Filtering</string>
+		<translation>Filtrering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="64" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show terms of service in Roles user menu</string>
+		<translation>Visa användarvillkor i Roller användarmenyn</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="168" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Terms of Service</string>
+		<translation>Visa användarvillkor</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="171" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show privacy policy in Roles user menu</string>
+		<translation>Visa integritetspolicy i Roller användarmenyn</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="180" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Privacy Policy</string>
+		<translation>Visa integritetspolicy</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="183" />
+		</references>
+	</entry>
+	<entry>
+		<string>Designated Site Administrator</string>
+		<translation>Utnämnd webbsidesadministratör</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login Security Options</string>
+		<translation>Inloggningssäkerhetsalternativ</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="218" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use lockout time on incorrect login attempts?</string>
+		<translation>Använd spärrtid vid felaktiga inloggningsförsök?</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="229" />
+		</references>
+	</entry>
+	<entry>
+		<string>Number of attempts before lockout</string>
+		<translation>Antal försök innan spärrning</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="236" />
+		</references>
+	</entry>
+	<entry>
+		<string>Length of time for lockout (minutes)</string>
+		<translation>Tidslängd för spärr (minuter)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="245" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Registration Options</string>
+		<translation>Alternativ för användarregistrering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="269" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow anonymous users to create accounts</string>
+		<translation>Tillåt anonyma användare att skapa konton</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="297" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow Registration</string>
+		<translation>Tillåt registrering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="300" />
+		</references>
+	</entry>
+	<entry>
+		<string>Users need to be this age or older to register</string>
+		<translation>Användare måste vara den här åldern eller äldre för att registrera</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="305" />
+		</references>
+	</entry>
+	<entry>
+		<string>Minimum Age To Be A User:</string>
+		<translation>Minimi ålder för att vara användare:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="308" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow users to choose their own password when registering</string>
+		<translation>Tillåt användare att välja ett eget lösenord vid registrering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="318" />
+		</references>
+	</entry>
+	<entry>
+		<string>Users May Choose Their Own Password</string>
+		<translation>Användare kan välja sitt eget lösenord</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="321" />
+		</references>
+	</entry>
+	<entry>
+		<string>Users must choose passwords with at least this many characters</string>
+		<translation>Användare måste välja ett lösenord med åtminstonde så här många tecken</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="326" />
+		</references>
+	</entry>
+	<entry>
+		<string>Minimum Password Length:</string>
+		<translation>Minimum lösenordslängd:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="329" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notify Admin when users create an account</string>
+		<translation>Meddela Admin när användare skapar ett konto</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="340" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send Notice To Admin Upon User Registration</string>
+		<translation>Skicka meddelande tillAdmin vid användarregistrering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="343" />
+		</references>
+	</entry>
+	<entry>
+		<string>Administrator must approve and activate new user accounts</string>
+		<translation>Administratör måste godkänna och aktivera nya användakonton</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="352" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Activation Requires Administrator Approval</string>
+		<translation>Användaraktivering kräver adminsitratörs godkännande</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="355" />
+		</references>
+	</entry>
+	<entry>
+		<string>Users must confirm their accounts via confirmation code</string>
+		<translation>Användare måste bekräfta sitt konto via bekräftelsekod</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="364" />
+		</references>
+	</entry>
+	<entry>
+		<string>Require Validation Of New Users</string>
+		<translation>Kräv validering av nya användare</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="367" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow users to enter dynamic property values during account creation process</string>
+		<translation>Tillåt användare att ange dynamiska egenskapsvärden under kontoskapandeprocessen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="376" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Dynamic Properties On Registration (if enabled)</string>
+		<translation>Visa Dynakiska egenskaper vid registrering (om aktiverat)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="379" />
+		</references>
+	</entry>
+	<entry>
+		<string>Users can be notified when their account has been created</string>
+		<translation>Användare kan bli meddelade när deras konto har skapats</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="388" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send Welcome Email On Successful Registration Of User</string>
+		<translation>Skicka Välkomstmeddelande vid framgångsrik registrering av användare</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="391" />
+		</references>
+	</entry>
+	<entry>
+		<string>Require each user account to have a distinct email address</string>
+		<translation>Kräv att varje konto har en unik e-postadress</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="400" />
+		</references>
+	</entry>
+	<entry>
+		<string>Email Address Must Be Unique To Each Registered User</string>
+		<translation>E-postadress måste vara unik för varje registrerad användare</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="403" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow users to be hidden in user list</string>
+		<translation>Tillåt användare att vara dolda i medlemslistan</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="413" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow Users To Be Invisible In Users List</string>
+		<translation>Tillåt användare att vara osynliga i medlemslistan</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="416" />
+		</references>
+	</entry>
+	<entry>
+		<string>Filtering Options</string>
+		<translation>Alternativ för filtrering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="439" />
+		</references>
+	</entry>
+	<entry>
+		<string>User names to which cannot be used</string>
+		<translation>Användarnam som inte kan användas</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="442" />
+		</references>
+	</entry>
+	<entry>
+		<string>Disallowed User Names:</string>
+		<translation>Otillåtna användarnamn:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="445" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: Enter each name on a single line. Do not separate with comma, etc</string>
+		<translation>Notera: Skriv in ett namn per rad. Separera inte med komma etc</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="453" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="468" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="483" />
+		</references>
+	</entry>
+	<entry>
+		<string>Email addresses which cannot be used</string>
+		<translation>E-postadresser som inte kan användas</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="457" />
+		</references>
+	</entry>
+	<entry>
+		<string>Disallowed Email Addresses:</string>
+		<translation>Otillåtna e-postadresser</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="460" />
+		</references>
+	</entry>
+	<entry>
+		<string>Deny access the site from these IP addresses</string>
+		<translation>Neka tillgång till webbplatsen från följande IP-adresser</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="472" />
+		</references>
+	</entry>
+	<entry>
+		<string>Disallowed IP Addresses:</string>
+		<translation>Otillåtna IP-adresser:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="475" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Registration must be enabled.</string>
+		<translation>Användarregistrering måste vara aktiverad.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="500" />
+		</references>
+	</entry>
+	<entry>
+		<string>Member List Options</string>
+		<translation>Medlemslistalternativ</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="570" />
+		</references>
+	</entry>
+	<entry>
+		<string>Caution: this option may reveal enough information to compromise a user's login.</string>
+		<translation>Varning: det här alternativet kan avslöja tillräckligt med information för att äventyra en användares inloggning.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="587" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your new password has been sent to your email address of record. You will want to change this new password once you have logged in.</string>
+		<translation>Ditt nya lösenord har skickats till din registrerade e-postadress. Ändra det nya lösenordet så fort du loggat in.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-requestpwconfirm.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been validated, but must be reviewed by the administrator. You should be activated shortly</string>
+		<translation>Ditt konto har validerats, men måste ses över av administratören. Du aktiveras förmodligen inom kort.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been validated and you can now log in.</string>
+		<translation>Ditt konto har validerats och du kan nu logga in.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="7" />
+		</references>
+	</entry>
 </translations>

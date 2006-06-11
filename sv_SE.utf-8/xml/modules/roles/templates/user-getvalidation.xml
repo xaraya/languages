@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
+		<string>Account Validation</string>
+		<translation>Kontovalidering</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
 		<string>Account Validated</string>
 		<translation>Kontot är validerat</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your account has been validated, but must be reviewed by the administrator. You should be activated shortly</string>
-		<translation>Ditt konto har validerats, men måste ses över av administratören. Du aktiveras förmodligen inom kort.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your account has been validated and you can now log in.</string>
-		<translation>Ditt konto har validerats och du kan nu logga in.</translation>
-		<references>
 			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been validated, but must be reviewed by the administrator before it is activated. Your account should be activated shortly.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been validated! You will now be redirected to the login page.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you are not redirected automatically in a few seconds, please go to &lt;a href=&quot;#(1)&quot;&gt;log in&lt;/a&gt;.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="14" />
 		</references>
 	</entry>
 </translations>
