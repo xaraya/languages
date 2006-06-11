@@ -8,7 +8,21 @@ please make #(2) writable by the web server process and
 #(1) will be created for you.</string>
 		<translation>Обновление модуля xarCacheManager не прошло. Пожалуйста, дайте права на запись в #(1) для хозяина процесса веб-сервера, чтобы завершить обновление. Если #(1) не существует, пожалуйста дайте права на запись в #(2) для хозяина процесса веб-сервера и #(1) будет создан для Вас.запись для веб-сервера для</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xarinit.php" line="122" />
+			<reference file="modules/xarcachemanager/xarinit.php" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module upgrade has failed.
+The #(1) directory is missing, and the #(2) is not
+writable by the web server process owner. Please
+make #(2) writable by the web server process owner
+to complete the upgrade. Alternatively, the #(1)
+directory can be manually created. #(1) must be
+writable by the web service process owner for
+output caching to work.</string>
+		<translation>Обновление модуля xarCacheManager не прошло. Каталога #(1) не существует и нет прав на запись в #(2) для хозяина процесса веб-сервера. Пожалуйста, дайте права на запись в #(2) для хозяина процесса веб-сервера, чтобы завершить обновление. Иначе, создайте каталог #(1) вручную. Для работы кеширования вывода требуется, чтобы хозяин процесса веб-сервера имел права на запись в каталог #(1).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="365" />
 		</references>
 	</entry>
 	<entry>
@@ -23,7 +37,7 @@ the #(4) file must be writable by the web server for
 output caching to work.</string>
 		<translation>Каталог #(1) должен иметь права на запись для веб-сервера, чтобы скрипт установки мог установить все нужное для кэширования. Модуль xarCacheManager НЕ был установлен. Назначьте права на запись в каталог #(1) веб-серверу и повторите процедуру установки модуля. Или, создайте каталог #(2) вручную и скопируйте файл #(3) в #(4) - и каталог #(2), и файл #(4) должны иметь права на запись для веб-сервера для нормальной работы кэширования.</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xarinit.php" line="383" />
+			<reference file="modules/xarcachemanager/xarinit.php" line="528" />
 		</references>
 	</entry>
 	<entry>
@@ -31,7 +45,18 @@ output caching to work.</string>
 output caching to work.</string>
 		<translation>Файл #(1) должен иметь права на запись для веб-сервера для нормальной работы кэширования.</translation>
 		<references>
-			<reference file="modules/xarcachemanager/xarinit.php" line="397" />
+			<reference file="modules/xarcachemanager/xarinit.php" line="542" />
+		</references>
+	</entry>
+	<entry>
+		<string>The #(1) directory is not writable by the web
+web server. The #(1) must be writable by the web
+server process owner for output caching to work.
+Please change the permission on the #(1) directory
+so that the web server can write to it.</string>
+		<translation>Каталог #(1) не имеет прав на запись для хозяина процесса веб-сервера. #(1) должен иметь права на запись для веб-сервера для нормальной работы кэширования. Пожалуйста, назначьте права на запись в каталог #(1) так, чтобы веб-сервер мог туда писать.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xarinit.php" line="563" />
 		</references>
 	</entry>
 </translations>

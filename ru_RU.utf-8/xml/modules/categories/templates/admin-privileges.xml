@@ -4,75 +4,72 @@
 		<string>Select Hooked Modules and/or Categories for Privilege '#(1)'</string>
 		<translation>Выберите связанные модули и/или категории для привилегии '#(1)'</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Select Category for Privilege '#(1)'</string>
-		<translation>Выбирете категорию для привилегии '#(1)'</translation>
-		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="6" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
 		<string>Hooked Module</string>
 		<translation>Связанный (Hooked) модуль</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="21" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>Item ID</string>
 		<translation>ID элемента</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="51" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="38" />
 		</references>
 	</entry>
 	<entry>
 		<string>Access Level</string>
 		<translation>Уровень доступа</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="73" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="53" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Access</string>
 		<translation>Нет доступа</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="77" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="79" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="57" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit (Comment)</string>
 		<translation>Предложить (Комментирование)</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="87" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="89" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="67" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="69" />
 		</references>
 	</entry>
 	<entry>
 		<string>Modify (Edit)</string>
 		<translation>Изменить (Редактирование)</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="92" />
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="94" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="72" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are #(1) category links matching these selection criteria at the moment</string>
 		<translation>В настоящее время есть #(1) ссылок на категории, соответствующие этим критериям выбора</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="111" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
-		<string>Note : if you want to limit access to categories in general, you should use the 'Category' component
-of categories, and if you want to limit access to articles based on pubtype/category/author/... you
-should use the 'Article' component of articles.</string>
-		<translation>Замечание: Если вы хотите ограничить доступ к категориям в общем, используйте компонент 'Категория', а если вы хотите ограничить доступ к публикациям на основе 'типа публикации/категории/автора...' - используйте компонент 'публикации' модуля публикаций.</translation>
+		<string>Some examples : (assuming your users have read access by default)&lt;br /&gt;&lt;br /&gt;
+- In order to allow 'Friends' to assign articles (and only those) to categories, define a privilege 'SubmitArticleCats'
+(or whatever name you prefer), and choose the module &quot;Articles&quot; (instance 151:All:All:All) and
+access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
+&lt;br /&gt;&lt;br /&gt;
+- ...
+&lt;br /&gt;&lt;br /&gt;</string>
+		<translation>Некоторые примеры: (по умолчанию для  Ваших пользователей принят  доступ на чтение) &lt;br /&gt;&lt;br /&gt; - Чтобы позволить 'Друзьям' предлагать публикации (и не более) по категориям, определите привилегию 'SubmitArticleCats' (или иное имя, которое Вы предпочитаете), и выберите модуль &quot;Публикации&quot; (вариант 151:All:All:All) и уровень доступа &quot;Предложение (Комментирование)&quot;. Нажмите &quot;Завершить и Принять привилегии&quot;, и затем назначьте эту привилегию на 'роль' &quot;Друзей&quot;. &lt;Br /&gt;&lt;br /&gt; - ... &lt;br /&gt;&lt;br/&gt;</translation>
 		<references>
-			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="125" />
+			<reference file="modules/categories/xartemplates/admin-privileges.xd" line="106" />
 		</references>
 	</entry>
 </translations>

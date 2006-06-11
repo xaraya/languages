@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
 	<entry>
+		<string>Images Administration</string>
+		<translation>Администрирование модуля изображений</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
 		<string>Modify Images Configuration</string>
 		<translation>Конфигурация модуля изображений</translation>
 		<references>
@@ -8,10 +15,17 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Derivatives Storage Directory</string>
+		<translation>Каталог хранения производных изображений</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
 		<string>This is the full path to the directory where Derivative images will be stored.
-It is strongly recommended that this directory be located outside of your web directory.
+It is stronly recommended that this directory be located outside of your web directory.
 &lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
-		<translation></translation>
+		<translation>Это полный путь к каталогу хранения производных ихображений. Настоятельно рекомендуется разместить этот каталог за пределами вашего веб-сервера.&lt;br /&gt;Примечание: Этот каталог ДОЛЖЕН иметь права на запись для веб-сервера.</translation>
 		<references>
 			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="23" />
 		</references>
@@ -33,68 +47,17 @@ It is strongly recommended that this directory be located outside of your web di
 		</references>
 	</entry>
 	<entry>
-		<string>ImageMagick 'convert' program:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;em&gt;
-&lt;strong&gt;Example:&lt;/strong&gt; /usr/local/bin/convert (Unix) or C:\Program Files\ImageMagick-6.0.6-Q16\convert.exe (Windows)
-&lt;/em&gt;</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="66" />
-		</references>
-	</entry>
-	<entry>
 		<string>Support Short URLs</string>
 		<translation>Поддерживать короткие УРЛы</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="69" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
 		<string>This will cause urls to be displayed in a condescenced format.</string>
 		<translation>После включения УРЛы будут отображаться в человекопонятном формате.</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="78" />
-		</references>
-	</entry>
-	<entry>
-		<string>Cache server file information:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="85" />
-		</references>
-	</entry>
-	<entry>
-		<string>seconds</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Items per page in admin view:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Base directories for browsing server images:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="103" />
-		</references>
-	</entry>
-	<entry>
-		<string>Update Configuration</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="144" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="64" />
 		</references>
 	</entry>
 </translations>

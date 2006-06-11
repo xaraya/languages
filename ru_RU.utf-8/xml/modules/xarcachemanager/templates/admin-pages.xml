@@ -2,7 +2,7 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="ru_RU.utf-8">
 	<entry>
 		<string>Configure Page Caching</string>
-		<translation>Настройка кэширования страниц</translation>
+		<translation>Настройка кэшмрования страниц</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="4" />
 		</references>
@@ -16,7 +16,7 @@
 	</entry>
 	<entry>
 		<string>Default page caching</string>
-		<translation>Кэширование страниц по умолчанию</translation>
+		<translation>Кеширование страниц по умолчанию</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="16" />
 		</references>
@@ -78,15 +78,22 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Anonymous</string>
+		<translation>Аноним</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
 		<string>Session-less page caching</string>
-		<translation>Кэширование страниц без учета сессий</translation>
+		<translation>Кеширование страниц без учета сессий</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="75" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enable session-less page caching of the following URLs for your first-time visitors</string>
-		<translation>Разрешить кэширование страниц без учета сессий для следующих URL для посетителей, впервые пришедших на сайт.</translation>
+		<translation>Разрешить кеширование страниц без учета сессий для следующих URL для посетителей, впервые пришедших на сайт.</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="80" />
 		</references>
@@ -100,21 +107,21 @@
 	</entry>
 	<entry>
 		<string>Auto-regenerate session-less URL cache</string>
-		<translation>Автоматическая перегенерация URL кэша без учета сессий</translation>
+		<translation>Автоматическая перегенерация URL кеша без учета сессий</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
 		<string>Auto-cache configuration</string>
-		<translation>Конфигурация автоматического кэширования</translation>
+		<translation>Конфигурация автоматического кеширования</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="102" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enable automatic caching of frequently-hit pages for your first-time visitors</string>
-		<translation>Разрешить автоматическое кэширование часто посещаемых страниц для посетителей, впервые пришедших на сайт.</translation>
+		<translation>Разрешить автоматическое кеширование часто посещаемых страниц для посетителей, впервые пришедших на сайт.</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="107" />
 		</references>
@@ -163,14 +170,14 @@
 	</entry>
 	<entry>
 		<string>pages in cache</string>
-		<translation>страниц в кэше</translation>
+		<translation>страниц в кеше</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="135" />
 		</references>
 	</entry>
 	<entry>
 		<string>Keep auto-cache statistics</string>
-		<translation>Сохранить статистику авто-кэширования</translation>
+		<translation>Сохранить статистику авто-кеширования</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="140" />
 		</references>
@@ -184,21 +191,21 @@
 	</entry>
 	<entry>
 		<string>Pages to include in the auto-cache</string>
-		<translation>Страницы  включенные в авто-кэш</translation>
+		<translation>Страницы  включенные в авто-кеш</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="153" />
 		</references>
 	</entry>
 	<entry>
 		<string>Pages to exclude from the auto-cache</string>
-		<translation>Страницы  исключенные из авто-кэша</translation>
+		<translation>Страницы  исключенные из авто-кеша</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="163" />
 		</references>
 	</entry>
 	<entry>
 		<string>Current Auto-Cache Log</string>
-		<translation>Текущий лог авто-кэша</translation>
+		<translation>Текущий лог авто-кеша</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="181" />
 		</references>
@@ -208,6 +215,7 @@
 		<translation>вверх</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="181" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="226" />
 		</references>
 	</entry>
 	<entry>
@@ -218,10 +226,47 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Page</string>
+		<translation>Страница</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="193" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="232" />
+		</references>
+	</entry>
+	<entry>
+		<string>Total</string>
+		<translation>Всего</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="211" />
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="250" />
+		</references>
+	</entry>
+	<entry>
 		<string>Current URLs proposed for session-less caching :</string>
-		<translation>Текущие URL, предложенные для кэширование без учета сессий :</translation>
+		<translation>Текущие URL, предложенные для кеширование без учета сессий :</translation>
 		<references>
 			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="215" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto-Cache Statistics</string>
+		<translation>Статистика автокеширования</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="226" />
+		</references>
+	</entry>
+	<entry>
+		<string>First Seen</string>
+		<translation>Первые просмотренные</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="233" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last Seen</string>
+		<translation>Последние просмотренные</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-pages.xd" line="234" />
 		</references>
 	</entry>
 </translations>

@@ -4,59 +4,42 @@
 		<string>Mail Administration</string>
 		<translation>Администрирование Почты</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-viewq.xd" line="3" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="11" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="8" />
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="14" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="10" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="2" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="10" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="6" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails will not be sent.</string>
 		<translation>Обратите внимание, что если планировщик остановлен или не запущен, ранее подготовленные к отправке письма отправлены не будут.</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="335" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Update</string>
-		<translation>Обновить</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="368" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="220" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="331" />
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>Test Configuration</string>
 		<translation>Тестировать настройки</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="19" />
-			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="29" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="30" />
 		</references>
 	</entry>
 	<entry>
-		<string>Name:</string>
-		<translation>Имя:</translation>
+		<string>Subject</string>
+		<translation>Заголовок</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="25" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="54" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="36" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="75" />
 		</references>
 	</entry>
 	<entry>
-		<string>Subject:</string>
-		<translation>Тема:</translation>
+		<string>Message</string>
+		<translation>Сообщение</translation>
 		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="41" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="132" />
-		</references>
-	</entry>
-	<entry>
-		<string>Message:</string>
-		<translation>Сообщение:</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="49" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="140" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="45" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="85" />
 		</references>
 	</entry>
 	<entry>
@@ -64,28 +47,28 @@
 		<translation>Неверные аргументы в mail_adminapi</translation>
 		<references>
 			<reference file="modules/mail/xaradminapi/_sendmail.php" line="61" />
-			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="59" />
-			<reference file="modules/mail/xaradminapi/sendmail.php" line="60" />
+			<reference file="modules/mail/xaradminapi/sendhtmlmail.php" line="60" />
+			<reference file="modules/mail/xaradminapi/sendmail.php" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Неверный #(1) для #(2) функции #(3)() модуля #(4)</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="25" />
-			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="47" />
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="25" />
-			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="47" />
-			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="25" />
-			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="47" />
+			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="48" />
+			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="48" />
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Отправить</translation>
 		<references>
-			<reference file="modules/mail/xaradmin/modifyconfig.php" line="40" />
-			<reference file="modules/mail/xaradmin/compose.php" line="29" />
+			<reference file="modules/mail/xaradmin/modifyconfig.php" line="42" />
+			<reference file="modules/mail/xaradmin/compose.php" line="31" />
 		</references>
 	</entry>
 </translations>

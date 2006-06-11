@@ -29,8 +29,8 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Authentication by AuthLDAP is automatically available once the the AuthLDAP module has been initialized. You must configure XarLDAP before a user will be able to login to Xaraya. To remove AuthLDAP authentication, you must remove the module or disable it in the modify config screen.</string>
-		<translation>Аутентификация через AuthLDAP включается автоматически при инициализации модуля AuthLDAP. Предварительно необходимо сконфигурировать XarLDAP. Для отключения этого способа аутентификации просто отключите или удалите эт от модуль в модуле Модулей.</translation>
+		<string>Authentication by AuthLDAP is automatically set once the the AuthLDAP module has been initialized. You must configure XarLDAP before a user will be able to login to Xaraya. To remove AuthLDAP authentication, you must remove the module.</string>
+		<translation>Аутентификация через AuthLDAP устанавливается автоматически при инициализации модуля AuthLDAP в системе. Вам необходимо сконфигурировать модуль XarLDAP для того, чтобы дать пользователю возможность зарегистрироваться в Xaraya. Для отключения аутентификации через AuthLDAP вам необходимо удалить модуль в системе.</translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-main.xd" line="25" />
 		</references>
@@ -43,38 +43,24 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login. You can also setup the synchronization settings for LDAP groups.</string>
-		<translation>Конфигурация: вы можете разрешить пользователям, чтобы их учетные записи из LDAP были автоматически добавлены в Xaraya и использовались для входа на сайт. Также вы сможете установить настройки синхронизации для групп LDAP.</translation>
+		<string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login.</string>
+		<translation>Конфигурация -- Вы можете задать возможность для пользователя, имеющего учетную запись на сервере DAP, быть автоматически добавленым в БД Xaraya и регистрироваться в системе.</translation>
 		<references>
 			<reference file="modules/authldap/xartemplates/admin-main.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Manually Sync Groups -- This will resynchronize the imported LDAP groups. It may be long the first time if you have lots of Xaraya users imported from LDAP, or lots of (sub)groups to import.</string>
-		<translation>Ручная синхронизация групп: Синхронизация ипортированных групп LDAP. В первый раз это может потребовать времени, в зависимости от количества импортированных груп и подгрупп LDAP.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>To synchronize the groups, we recommand to setup a job entry in the scheduler module. You need to call the function in (module:authldap, type:admin, function:syncgroups). The module has some caching mecanism for LDAP user profiles, so you can run this job frequently, for example every 30 minutes, without fearing about resource usage.</string>
-		<translation>Для синхронизации групп рекомендуется установить задание в модуле Планировщик. Вам необходимо вызвать функцию (module:authldap, type:admin, function:syncgroups). В модуле есть механизм кэширования для профилей пользователей LDAP, и вы можете запускать синхронизацию достаточно часто (например - раз в 30 мин) без опасения использовать все ресурсы сервера.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included Blocks</string>
 		<translation>Включенные блоки</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are no included blocks with the AuthLDAP Module</string>
 		<translation>Модуль не имеет включенных блоков в настоящее время.</translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="42" />
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="40" />
 		</references>
 	</entry>
 </translations>
