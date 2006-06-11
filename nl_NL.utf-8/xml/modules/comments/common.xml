@@ -4,41 +4,414 @@
 		<string>Comments</string>
 		<translation>Reacties</translation>
 		<references>
-			<reference file="modules/comments/xarversion.php" line="19" />
+			<reference file="modules/comments/xarversion.php" line="17" />
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="5" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="5" />
 			<reference file="modules/comments/xartemplates/user-usermenu_icon.xd" line="9" />
 			<reference file="modules/comments/xartemplates/user-usermenu_icon.xd" line="17" />
 			<reference file="modules/comments/xaruser/usermenu.php" line="13" />
 		</references>
 	</entry>
 	<entry>
-		<string>Missing or Invalid parameter 'modid'!!</string>
-		<translation>Ongeldige of Ontbrekende Parameter 'modid'!!</translation>
+		<string>Comments Administration</string>
+		<translation>Opmerkingen administratie</translation>
 		<references>
-			<reference file="modules/comments/xaradminapi/delete_module_nodes.php" line="16" />
-			<reference file="modules/comments/xaradminapi/delete_object_nodes.php" line="23" />
-			<reference file="modules/comments/xaruserapi/add_rootnode.php" line="22" />
-			<reference file="modules/comments/xaruserapi/get_module_lrvalues.php" line="18" />
-			<reference file="modules/comments/xaruserapi/get_node_root.php" line="23" />
-			<reference file="modules/comments/xaruserapi/get_object_maxright.php" line="21" />
+			<reference file="modules/comments/xartemplates/admin-delete.xd" line="3" />
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="7" />
+			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="5" />
+			<reference file="modules/comments/xartemplates/admin-stats.xd" line="4" />
+			<reference file="modules/comments/xartemplates/admin-importblacklist.xd" line="6" />
 		</references>
 	</entry>
 	<entry>
-		<string>Missing or Invalid parameter 'objectid'!!</string>
-		<translation>Ongeldige of Ontbrekende Parameter 'objectid'!!</translation>
+		<string>Yes</string>
+		<translation>Ja</translation>
 		<references>
-			<reference file="modules/comments/xaradminapi/delete_object_nodes.php" line="17" />
-			<reference file="modules/comments/xaruserapi/add_rootnode.php" line="28" />
-			<reference file="modules/comments/xaruserapi/get_node_root.php" line="29" />
-			<reference file="modules/comments/xaruserapi/get_object_maxright.php" line="27" />
+			<reference file="modules/comments/xartemplates/admin-delete.xd" line="33" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="191" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="195" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="199" />
 		</references>
 	</entry>
 	<entry>
 		<string>Overview</string>
 		<translation>Overzicht</translation>
 		<references>
-			<reference file="modules/comments/xaradminapi/getmenulinks.php" line="15" />
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="3" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="3" />
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="4" />
+			<reference file="modules/comments/xartemplates/includes/admin-menu.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Wat is het?</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="12" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Comments is a Xaraya Utility Module.</string>
+		<translation>Comments is een Xaraya hulpmodule.</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is currently responsible for accomplishing these tasks:</string>
+		<translation>De module is verantwoordelijk voor de volgende taken:</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="15" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hoe te gebruiken?</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="21" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Simply enable the comments hook to any content module, and on the display pages, comments will be available to be used.</string>
+		<translation>Activeer de reacties haak naar een andere module. Als de module het ondersteunt zal dan op de weergave pagina van die module de mogelijkheid worden geactiveerd om te reageren.</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="23" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Bijgevoegde blokken</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="26" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Latest Comment block provides a listing of the most
+recent comments made on your site. The number of comments, date of
+comment, comments from which modules, comment author and other configuration
+variables can be set.</string>
+		<translation>Het 'laatste reacties' blok toont een lijst van de laatste reacties die gemaakt zijn. Het aantal reacties, de datum, voor welke modules, auteur en andere opties kunnen worden geconfigureerd.</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="32" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Bijgevoegde hooks</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="35" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Comments provide a display hook for modules to use as needed.</string>
+		<translation>Comments heeft een weergave haak voor andere modules.</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/comments/xartemplates/admin-view.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Configuration</string>
+		<translation>Instellingen wijzigen</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="15" />
+			<reference file="modules/comments/xartemplates/includes/admin-menu.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Rendering Style</string>
+		<translation>Standaard weergave stijl</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="65" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="42" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Nested</string>
+		<translation>Genest</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="70" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="72" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="52" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="58" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="62" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flat</string>
+		<translation>Plat</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="75" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="77" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="65" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="71" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="75" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Threaded</string>
+		<translation>Discussievorm</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="80" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="82" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="78" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="84" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="88" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>No Comments</string>
+		<translation>Geen reacties</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="85" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="87" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="91" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="97" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="102" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Sorting Mode</string>
+		<translation>Standaard sorteerveld</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="95" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="103" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="106" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="164" />
+		</references>
+	</entry>
+	<entry>
+		<string>Author</string>
+		<translation>Auteur</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="100" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="102" />
+			<reference file="modules/comments/xartemplates/user-search.xd" line="58" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="113" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="119" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="125" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="131" />
+			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Date</string>
+		<translation>Datum</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="106" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="108" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="126" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="132" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="138" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Thread</string>
+		<translation>Discussie</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="112" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="114" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="139" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="145" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="151" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="157" />
+		</references>
+	</entry>
+	<entry>
+		<string>Title</string>
+		<translation>Titel</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="118" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="120" />
+			<reference file="modules/comments/xartemplates/user-search.xd" line="37" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="152" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="158" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="164" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="170" />
+			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Sorting Order</string>
+		<translation>Standaard sorteervolgorde</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="128" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="167" />
+		</references>
+	</entry>
+	<entry>
+		<string>Ascending</string>
+		<translation>Oplopend</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="133" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="135" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="174" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="180" />
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="121" />
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="123" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="187" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="193" />
+		</references>
+	</entry>
+	<entry>
+		<string>Descending</string>
+		<translation>Aflopend</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="139" />
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="141" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="187" />
+			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="193" />
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="126" />
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="128" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="200" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="206" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit</string>
+		<translation>Versturen</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="263" />
+			<reference file="modules/comments/xartemplates/includes/input-box.xd" line="93" />
+			<reference file="modules/comments/xartemplates/includes/input-box.xd" line="170" />
+		</references>
+	</entry>
+	<entry>
+		<string>Comments Module Statistics</string>
+		<translation>Statistieken voor comments module</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="13" />
+			<reference file="modules/comments/xartemplates/admin-stats.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete</string>
+		<translation>Verwijderen</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="73" />
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="36" />
+			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="47" />
+			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="47" />
+			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="93" />
+			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="223" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete Comment</string>
+		<translation>Verwijder reactie</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="12" />
+			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm Comment Deletion</string>
+		<translation>Bevestig het verwijderen van de reactie</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="18" />
+			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm deletion of this comment</string>
+		<translation>Bevestig het verwijderen van de reactie</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="21" />
+			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to delete this comment?</string>
+		<translation>Weet u zeker dat u deze reactie wilt verwijderen?</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="22" />
+			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Attach child comments to parent</string>
+		<translation>Koppel onderliggende reacties aan de bovenliggende</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="24" />
+			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete this comment and all children</string>
+		<translation>Verwijder deze reactie en alle onderliggenden</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="25" />
+			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Return to</string>
+		<translation>Terug naar</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-delete.xd" line="41" />
+			<reference file="modules/comments/xartemplates/user-display.xd" line="45" />
+			<reference file="modules/comments/xartemplates/user-display.xd" line="64" />
+			<reference file="modules/comments/xartemplates/user-modify.xd" line="7" />
+			<reference file="modules/comments/xartemplates/user-reply.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>in</string>
+		<translation>in</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="47" />
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="60" />
+			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="35" />
+			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="48" />
+			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>by</string>
+		<translation>door</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="67" />
+			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>on</string>
+		<translation>op</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="82" />
+			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="94" />
+			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="94" />
+			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no comments</string>
+		<translation>Er zijn geen reacties</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="90" />
+			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refresh</string>
+		<translation>Verversen</translation>
+		<references>
+			<reference file="modules/comments/xartemplates/user-displayall.xd" line="132" />
+			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="228" />
 		</references>
 	</entry>
 	<entry>
@@ -60,402 +433,6 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Comments Administration</string>
-		<translation>Opmerkingen administratie</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-delete.xd" line="3" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="7" />
-			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="3" />
-			<reference file="modules/comments/xartemplates/admin-stats.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Yes</string>
-		<translation>Ja</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-delete.xd" line="41" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="206" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="210" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="214" />
-		</references>
-	</entry>
-	<entry>
-		<string>Administration - Comments</string>
-		<translation>Administratie opmerking</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="1" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="1" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Wat is het?</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="9" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>Comments is a Xaraya Utility Module.</string>
-		<translation>Comments is een Xaraya hulpmodule.</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="13" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is currently responsible for accomplishing these tasks:</string>
-		<translation>De module is verantwoordelijk voor de volgende taken:</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="14" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hoe te gebruiken?</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="21" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Simply enable the comments hook to any content module, and on the display pages, comments will be available to be used.</string>
-		<translation>Activeer de 'comments' hook naar een andere module. Als de module het ondersteunt zal dan op de weergave pagina van die module de mogelijkheid worden geactiveerd om te reageren.</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="25" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Bijgevoegde blokken</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="29" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Latest Comment block provides a listing of the most
-recent comments made on your site. The number of comments, date of
-comment, comments from which modules, comment author and other configuration
-variables can be set.</string>
-		<translation>Het 'laatste reacties' blok toont een lijst van de laatste reacties die gemaakt zijn. Het aantal reacties, de datum, voor welke modules, auteur en andere opties kunnen worden geconfigureerd.</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="36" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Bijgevoegde hooks</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="40" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Comments provide a display hook for modules to use as needed.</string>
-		<translation>Comments heeft een weergave hook voor andere modules.</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-main.xd" line="44" />
-			<reference file="modules/comments/xartemplates/admin-view.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Rendering Depth</string>
-		<translation>Standaard weergave-diepte</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="47" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Rendering Style</string>
-		<translation>Standaard weergave stijl</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="68" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>Nested</string>
-		<translation>Genest</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="74" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="76" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="57" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="63" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="62" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>Flat</string>
-		<translation>Plat</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="79" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="81" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="70" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="76" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="75" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Threaded</string>
-		<translation>Discussievorm</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="84" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="86" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="83" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="89" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="88" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>No Comments</string>
-		<translation>Geen reacties</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="89" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="91" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="96" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="102" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="102" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="108" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Sorting Mode</string>
-		<translation>Standaard sorteerveld</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="100" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>Author</string>
-		<translation>Auteur</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="106" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="108" />
-			<reference file="modules/comments/xartemplates/user-search.xd" line="58" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="121" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="127" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="125" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="131" />
-			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Date</string>
-		<translation>Datum</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="112" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="114" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="134" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="140" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="138" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="144" />
-		</references>
-	</entry>
-	<entry>
-		<string>Thread</string>
-		<translation>Discussie</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="118" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="120" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="147" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="153" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="151" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="157" />
-		</references>
-	</entry>
-	<entry>
-		<string>Title</string>
-		<translation>Titel</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="124" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="126" />
-			<reference file="modules/comments/xartemplates/user-search.xd" line="37" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="160" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="166" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="164" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="170" />
-			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Sorting Order</string>
-		<translation>Standaard sorteervolgorde</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="135" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="177" />
-		</references>
-	</entry>
-	<entry>
-		<string>Ascending</string>
-		<translation>Oplopend</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="141" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="143" />
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="119" />
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="121" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="185" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="191" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="187" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="193" />
-		</references>
-	</entry>
-	<entry>
-		<string>Descending</string>
-		<translation>Aflopend</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="147" />
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="149" />
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="124" />
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="126" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="198" />
-			<reference file="modules/comments/xartemplates/user-usermenu_form.xd" line="204" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="200" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="206" />
-		</references>
-	</entry>
-	<entry>
-		<string>Submit</string>
-		<translation>Versturen</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-modifyconfig.xd" line="263" />
-			<reference file="modules/comments/xartemplates/includes/input-box.xd" line="87" />
-			<reference file="modules/comments/xartemplates/includes/input-box.xd" line="159" />
-		</references>
-	</entry>
-	<entry>
-		<string>Comments Module Statistics</string>
-		<translation>Statistieken voor comments module</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="9" />
-			<reference file="modules/comments/xartemplates/admin-stats.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;b&gt;Total&lt;br /&gt;Comments&lt;/b&gt;</string>
-		<translation>&lt;b&gt;Totaal&lt;br/&gt;Reacties&lt;/b&gt;</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="30" />
-			<reference file="modules/comments/xartemplates/admin-stats.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;b&gt;Inactive&lt;br /&gt;Comments&lt;/b&gt;</string>
-		<translation>&lt;b&gt;Inactieve&lt;br&gt;Reacties&lt;/b&gt;</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="33" />
-			<reference file="modules/comments/xartemplates/admin-stats.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;b&gt;Action&lt;/b&gt;</string>
-		<translation>&lt;b&gt;Actie&lt;/b&gt;</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="36" />
-			<reference file="modules/comments/xartemplates/admin-stats.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Verwijderen</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/admin-module_stats.xd" line="81" />
-			<reference file="modules/comments/xartemplates/user-delete.xd" line="16" />
-			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="46" />
-			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="47" />
-			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="93" />
-			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="223" />
-		</references>
-	</entry>
-	<entry>
-		<string>Are you sure you want to delete this comment?</string>
-		<translation>Weet u zeker dat u deze reactie wilt verwijderen?</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-delete.xd" line="4" />
-			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Attach child comments to parent</string>
-		<translation>Koppel onderliggende reacties aan de bovenliggende</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-delete.xd" line="14" />
-			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this comment and all children</string>
-		<translation>Verwijder deze reactie en alle onderliggenden</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-delete.xd" line="15" />
-			<reference file="modules/comments/xartemplates/user-deleteconf.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>Return to</string>
-		<translation>Terug naar</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-delete.xd" line="21" />
-			<reference file="modules/comments/xartemplates/user-display.xd" line="37" />
-			<reference file="modules/comments/xartemplates/user-display.xd" line="56" />
-			<reference file="modules/comments/xartemplates/user-modify.xd" line="7" />
-			<reference file="modules/comments/xartemplates/user-reply.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>in</string>
-		<translation>in</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="47" />
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="58" />
-			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="33" />
-			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="44" />
-			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="51" />
-		</references>
-	</entry>
-	<entry>
-		<string>by</string>
-		<translation>door</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="65" />
-			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="64" />
-		</references>
-	</entry>
-	<entry>
-		<string>on</string>
-		<translation>op</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="80" />
-			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="94" />
-			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="94" />
-			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no comments</string>
-		<translation>Er zijn geen reacties</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="88" />
-			<reference file="modules/comments/xartemplates/blocks/latestcommentsblock.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Refresh</string>
-		<translation>Verversen</translation>
-		<references>
-			<reference file="modules/comments/xartemplates/user-displayall.xd" line="130" />
-			<reference file="modules/comments/xartemplates/includes/option_bar.xd" line="228" />
-		</references>
-	</entry>
-	<entry>
 		<string>Unable to load #(1) #(2)</string>
 		<translation>Laden mislukt voor #(1) #(2)</translation>
 		<references>
@@ -472,6 +449,21 @@ variables can be set.</string>
 			<reference file="modules/comments/xaruser/modify.php" line="78" />
 			<reference file="modules/comments/xaruser/reply.php" line="38" />
 			<reference file="modules/comments/xaruser/reply.php" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>Ongeldig // (1) voor // (2) functie // (3) () in module // (4)</translation>
+		<references>
+			<reference file="modules/comments/xaruserapi/getitems.php" line="23" />
+			<reference file="modules/comments/xaruserapi/getitems.php" line="33" />
+			<reference file="modules/comments/xaruserapi/get_author_count.php" line="22" />
+			<reference file="modules/comments/xaruserapi/get_author_count.php" line="31" />
+			<reference file="modules/comments/xaruserapi/get_childcountlist.php" line="19" />
+			<reference file="modules/comments/xaruserapi/get_count.php" line="21" />
+			<reference file="modules/comments/xaruserapi/get_count.php" line="30" />
+			<reference file="modules/comments/xaruserapi/get_countlist.php" line="22" />
+			<reference file="modules/comments/xaruserapi/get_countlist.php" line="31" />
 		</references>
 	</entry>
 	<entry>
@@ -495,26 +487,33 @@ variables can be set.</string>
 		</references>
 	</entry>
 	<entry>
+		<string>Missing or Invalid parameter 'modid'!!</string>
+		<translation>Ongeldige of Ontbrekende Parameter 'modid'!!</translation>
+		<references>
+			<reference file="modules/comments/xaruserapi/add_rootnode.php" line="22" />
+			<reference file="modules/comments/xaruserapi/get_module_lrvalues.php" line="18" />
+			<reference file="modules/comments/xaruserapi/get_node_root.php" line="23" />
+			<reference file="modules/comments/xaruserapi/get_object_maxright.php" line="21" />
+			<reference file="modules/comments/xaradminapi/delete_module_nodes.php" line="16" />
+			<reference file="modules/comments/xaradminapi/delete_object_nodes.php" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing or Invalid parameter 'objectid'!!</string>
+		<translation>Ongeldige of Ontbrekende Parameter 'objectid'!!</translation>
+		<references>
+			<reference file="modules/comments/xaruserapi/add_rootnode.php" line="28" />
+			<reference file="modules/comments/xaruserapi/get_node_root.php" line="29" />
+			<reference file="modules/comments/xaruserapi/get_object_maxright.php" line="27" />
+			<reference file="modules/comments/xaradminapi/delete_object_nodes.php" line="17" />
+		</references>
+	</entry>
+	<entry>
 		<string>Missing or Invalid parameter 'startpoint'!!</string>
 		<translation>Missende of ongeldige parameter 'startpoint'</translation>
 		<references>
 			<reference file="modules/comments/xaruserapi/create_gap.php" line="22" />
 			<reference file="modules/comments/xaruserapi/remove_gap.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ongeldig // (1) voor // (2) functie // (3) () in module // (4)</translation>
-		<references>
-			<reference file="modules/comments/xaruserapi/get_author_count.php" line="22" />
-			<reference file="modules/comments/xaruserapi/get_author_count.php" line="31" />
-			<reference file="modules/comments/xaruserapi/get_childcountlist.php" line="19" />
-			<reference file="modules/comments/xaruserapi/get_count.php" line="21" />
-			<reference file="modules/comments/xaruserapi/get_count.php" line="30" />
-			<reference file="modules/comments/xaruserapi/get_countlist.php" line="22" />
-			<reference file="modules/comments/xaruserapi/get_countlist.php" line="31" />
-			<reference file="modules/comments/xaruserapi/getitems.php" line="23" />
-			<reference file="modules/comments/xaruserapi/getitems.php" line="33" />
 		</references>
 	</entry>
 	<entry>
@@ -535,6 +534,14 @@ variables can be set.</string>
 		</references>
 	</entry>
 	<entry>
+		<string>View Statistics</string>
+		<translation>Bekijk statistieken</translation>
+		<references>
+			<reference file="modules/comments/xaradminapi/getmenulinks.php" line="25" />
+			<reference file="modules/comments/xartemplates/includes/admin-menu.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
 		<string>Invalid or Missing Parameter 'modid'</string>
 		<translation>Ongeldige of missende parameter 'modid'</translation>
 		<references>
@@ -543,10 +550,40 @@ variables can be set.</string>
 		</references>
 	</entry>
 	<entry>
+		<string>Field #(1) (#(2)) is missing.</string>
+		<translation>Veld #(1) (#(2)) mist.</translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="416" />
+			<reference file="modules/dynamicdata/class/properties.php" line="418" />
+		</references>
+	</entry>
+	<entry>
+		<string>unknown property</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="442" />
+		</references>
+	</entry>
+	<entry>
+		<string>This property is unknown...</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="476" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1)</string>
+		<translation>Ongeldige #(1)</translation>
+		<references>
+			<reference file="modules/dynamicdata/class/properties.php" line="554" />
+			<reference file="modules/dynamicdata/class/properties.php" line="670" />
+		</references>
+	</entry>
+	<entry>
 		<string>Reply</string>
 		<translation>Antwoord</translation>
 		<references>
-			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="15" />
+			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="16" />
 			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="16" />
 			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="62" />
 			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="192" />
@@ -556,7 +593,7 @@ variables can be set.</string>
 		<string>Modify</string>
 		<translation>Wijzigen</translation>
 		<references>
-			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="30" />
+			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="31" />
 			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="31" />
 			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="77" />
 			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="207" />
@@ -594,8 +631,8 @@ variables can be set.</string>
 		<string>Permalink</string>
 		<translation>Permanente link</translation>
 		<references>
-			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="103" />
-			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="110" />
+			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="102" />
+			<reference file="modules/comments/xartemplates/includes/view-flat.xd" line="109" />
 			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="103" />
 			<reference file="modules/comments/xartemplates/includes/view-nested.xd" line="110" />
 			<reference file="modules/comments/xartemplates/includes/view-threaded.xd" line="103" />
