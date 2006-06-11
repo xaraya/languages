@@ -33,14 +33,14 @@ with the mbstring extension compiled in.</string>
 		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
 built in. All information is stored coherently with the chosen character set (at installation time),
 and also user data is meaningful in the chosen character set.</string>
-		<translation>Ang MLS ay gumagamit lamang ng isang takda ng karakter</translation>
+		<translation>Ang MLS ay gumagamit lamang ng isang takda ng karakter, kalimitan ito ay single byte ngunit ang potensyal ang multi byte kung ang mb_string ay built in. Ang lahat ng impormasyon ay nakatago ayon sa piniling takda ng karakter (sa panahon ng instalasyon), at ang datos ng user ay may kahulugan din sa napiling takda ng karakter.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Per page mode (BOXED)</string>
-		<translation></translation>
+		<translation>Moda ng bawat pahina (BOXED)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="41" />
 		</references>
@@ -53,28 +53,28 @@ language areas (for example an Arabic comment won't be shown in the English area
 they are referring to the same object, e.g. an article available in both English and Arabic).
 Another point is that every operation involves only a single language. This mode can produce
 unexpected results if mb_string is not installed.</string>
-		<translation></translation>
+		<translation>Ang MLS ay maaaring gumamit ng isang takda ng karakter sa site (katulad na konsiderasyon para sa single o multi byte kagaya nang sa itaas ay maaring gamitin dito), ngunit isang takda ng karakter lng sa bawat pahina ang gagamitin (ito ay kumon na konsepto ngunit mahalagang maunawaan). Dahil dito, ang laman ay hindi pwedeng ipamahagi sa ibang lengwahe (halimbawa ay ang komento na Arabo ay hindi makikita sa Ingles kahit na sila ay tumutumbok sa parehong object, ito ay sa artikulo na parehong nasa Ingles at Arabo). Karagdagang punto, ang bawat operasyon ay nasa ilalin lamang ng iisang lengwahe. Ang moda na ito ay pwedeng magbigay ng kakatwang resulta kung ang mb_string ay hindi naka-install.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="50" />
 		</references>
 	</entry>
 	<entry>
 		<string>It is installed on this server, so you can give this mode a try</string>
-		<translation></translation>
+		<translation>Naka-install sa server kaya maaring subukan ang moda na ito</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
-		<translation></translation>
+		<translation>PAALA-ALA: ang mb_string ay HINDI naka-install sa server, magpatuloy ng may higit na pag-iingat</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>Full multilanguage (UNBOXED) (experimental!)</string>
-		<translation></translation>
+		<translation>Ang Full multilanguage (UNBOXED) (experimental!)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="64" />
 		</references>
@@ -84,70 +84,70 @@ unexpected results if mb_string is not installed.</string>
 conversion is needed for the content representation. Every page is always shown according to
 the user chosen language, but the page can contain texts in other languages
 (for example a French article and comments inside an English page).</string>
-		<translation></translation>
+		<translation>Ang MLS ay gumagamit ng unibersal na takda ng karakter para irepresenta ang kabuuan (basahin: UTF-8). Ito ay gumagarantiya na walang kombersyon na kailangan para sa presentasyon ng laman. Ang bawat pahina ay palaging ipinapakita gamit ang piniling lengwahe ng user ngunit ang pahina ay maaring magkaroon ng laman na galing sa ibang lenggwahe (halimbawa ay ang artikulong Pranses at mga komento na nasa loob ng Ingles na pahina).</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="71" />
 		</references>
 	</entry>
 	<entry>
 		<string>Language/Locale Configuration</string>
-		<translation></translation>
+		<translation>Lengwahe/Lokal na Kompigurasyon</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="79" />
 		</references>
 	</entry>
 	<entry>
 		<string>The following locales are available to this site:</string>
-		<translation></translation>
+		<translation>Ang mga sumusunod na lokal ay nasa site na ito</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="81" />
 		</references>
 	</entry>
 	<entry>
 		<string>Locale</string>
-		<translation></translation>
+		<translation>Lokal</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="86" />
 		</references>
 	</entry>
 	<entry>
 		<string>Active</string>
-		<translation></translation>
+		<translation>Aktibo</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="89" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default locale to load</string>
-		<translation></translation>
+		<translation>Default na lokal na ilululan</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default Locale</string>
-		<translation></translation>
+		<translation>Default na Lokal</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations backend</string>
-		<translation></translation>
+		<translation>Backend ng pagsasalin</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="127" />
 		</references>
 	</entry>
 	<entry>
 		<string>The translated information for xaraya and her modules can be stored in different back-ends. The following back-ends are supported:</string>
-		<translation></translation>
+		<translation>Ang impormasyon na naisalin para sa xaraya at sa kanyang mga module ay maitatago sa iba't ibang back-end. Ang mga back-end na ito ay suportado:</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="128" />
 		</references>
 	</entry>
 	<entry>
 		<string>Translations Backend</string>
-		<translation></translation>
+		<translation>Backend ng mga Pagsasalin</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="133" />
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="133" />
@@ -155,7 +155,7 @@ the user chosen language, but the page can contain texts in other languages
 	</entry>
 	<entry>
 		<string>XML (good for interoperability)</string>
-		<translation></translation>
+		<translation>XML (Maganda para sa interoperability)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="138" />
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="142" />
@@ -164,7 +164,7 @@ the user chosen language, but the page can contain texts in other languages
 	</entry>
 	<entry>
 		<string>PHP (good for programmed access)</string>
-		<translation></translation>
+		<translation>PHP (Maganda para sa nakaprograma na paggamit)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="139" />
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="143" />
@@ -173,7 +173,7 @@ the user chosen language, but the page can contain texts in other languages
 	</entry>
 	<entry>
 		<string>XML with caching in PHP (new experimental)</string>
-		<translation></translation>
+		<translation>XML na may caching sa PHP (bago experimental)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="140" />
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="144" />
