@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_CN.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>摘要</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>这是什么？</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT module is a utility module that allows you to do XSL transformations via transform hooks.</string>
+		<translation>XSLT模组是允许你通过转换hooks来进行XSL转换的功能模组</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>如何使用它？</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>For each hooked module, specify the XSL file to be used in the transformation. This file should be located on the server, somewhere below the document root. Any DTD referenced by the original XML should also be available.
+&lt;br /&gt;&lt;br /&gt;In order to test this with articles, you should remove the call to xarVarPrepHTMLDisplay() on line 292 of modules/articles/xaruser/display.php (test only !), otherwise all XML tags in your content will be escaped before it gets passed to the transform hook...
+&lt;br /&gt;&lt;br /&gt;Note : this is a work in progress :)</string>
+		<translation>对每个hooked模组，指定要在转换中使用的XSL文件. 这个文件必须位于服务器, 根目录下的某一目录。任何 DTD 指向原始XML必须可用. &lt;br /&gt;&lt;br /&gt;为了使用文章来测试，你必须删除对xarVarPrepHTMLDisplay()的调用位于 modules/articles/xaruser/display.php 的第292行(仅限于测试 !), 否则你的内容中的所有XML标签将在传递到转换hook之前逃逸... &lt;br /&gt;&lt;br /&gt;注释 : 目前还处于测试阶段 :)</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+</translations>

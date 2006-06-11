@@ -1,51 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="zh_CN.utf-8">
 	<entry>
-		<string>Quote</string>
-		<translation>引用</translation>
-		<references>
-			<reference file="modules/bbcode/xaruserapi.php" line="134" />
-			<reference file="modules/bbcode/xaruserapi.php" line="138" />
-			<reference file="modules/bbcode/xartemplates/user-quote.xd" line="4" />
-			<reference file="modules/bbcode/xartemplates/user-quote.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Code</string>
-		<translation>代码</translation>
-		<references>
-			<reference file="modules/bbcode/xaruserapi.php" line="143" />
-			<reference file="modules/bbcode/xartemplates/user-code.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
 		<string>Submit</string>
 		<translation>发表</translation>
 		<references>
-			<reference file="modules/bbcode/xaradmin/delete.php" line="21" />
-			<reference file="modules/bbcode/xaradmin/modify.php" line="19" />
-			<reference file="modules/bbcode/xaradmin/modifyconfig.php" line="32" />
-			<reference file="modules/bbcode/xaradmin/new.php" line="10" />
+			<reference file="modules/bbcode/xaradmin/delete.php" line="33" />
+			<reference file="modules/bbcode/xaradmin/modify.php" line="31" />
+			<reference file="modules/bbcode/xaradmin/modifyconfig.php" line="29" />
+			<reference file="modules/bbcode/xaradmin/new.php" line="22" />
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="58" />
-			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="90" />
+			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="56" />
 			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="57" />
-			<reference file="modules/bbcode/xaruser/main.php" line="23" />
+			<reference file="modules/bbcode/xaruser/main.php" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Delete BBCode</string>
-		<translation></translation>
+		<translation>删除BBCODE</translation>
 		<references>
-			<reference file="modules/bbcode/xaradmin/view.php" line="40" />
+			<reference file="modules/bbcode/xaradmin/view.php" line="52" />
 			<reference file="modules/bbcode/xartemplates/admin-delete.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
 		<string>Invalid Parameter Count</string>
-		<translation></translation>
+		<translation>非法参数数</translation>
 		<references>
-			<reference file="modules/bbcode/xaradminapi/delete.php" line="14" />
-			<reference file="modules/bbcode/xaradminapi/update.php" line="18" />
+			<reference file="modules/bbcode/xaradminapi/delete.php" line="26" />
+			<reference file="modules/bbcode/xaradminapi/update.php" line="34" />
 		</references>
 	</entry>
 	<entry>
@@ -53,16 +35,16 @@
 		<translation>BBCode管理</translation>
 		<references>
 			<reference file="modules/bbcode/xartemplates/admin-delete.xd" line="1" />
-			<reference file="modules/bbcode/xartemplates/admin-main.xd" line="2" />
+			<reference file="modules/bbcode/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="16" />
-			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="7" />
+			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="6" />
 			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="16" />
 			<reference file="modules/bbcode/xartemplates/admin-view.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
 		<string>Settings</string>
-		<translation></translation>
+		<translation>设置</translation>
 		<references>
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="31" />
 			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="22" />
@@ -71,7 +53,7 @@
 	</entry>
 	<entry>
 		<string>The long name for the bbcode.</string>
-		<translation></translation>
+		<translation>Bbcod 的长名称</translation>
 		<references>
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="39" />
 			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="38" />
@@ -79,7 +61,7 @@
 	</entry>
 	<entry>
 		<string>Name</string>
-		<translation></translation>
+		<translation>名称</translation>
 		<references>
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="42" />
 			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="41" />
@@ -87,7 +69,7 @@
 	</entry>
 	<entry>
 		<string>The tag for the bbcode.</string>
-		<translation></translation>
+		<translation>Bbcode的标签。</translation>
 		<references>
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="49" />
 			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="48" />
@@ -95,19 +77,10 @@
 	</entry>
 	<entry>
 		<string>Tag</string>
-		<translation></translation>
+		<translation>标签</translation>
 		<references>
 			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="52" />
 			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="51" />
-		</references>
-	</entry>
-	<entry>
-		<string>Reset</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/bbcode/xartemplates/admin-modify.xd" line="59" />
-			<reference file="modules/bbcode/xartemplates/admin-modifyconfig.xd" line="91" />
-			<reference file="modules/bbcode/xartemplates/admin-new.xd" line="58" />
 		</references>
 	</entry>
 </translations>
