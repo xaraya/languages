@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+	<entry>
+		<string>Filter:</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Clear</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sorted by '.$sort)#&quot; /&gt;
+&lt;/xar:if&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;a href=&quot;#xarServerGetCurrentURL(array('order' =&gt; 'pubname</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sorted by '.$sort)#&quot; /&gt;
+&lt;/xar:if&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;a href=&quot;#xarServerGetCurrentURL(array('order' =&gt; 'email</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sorted by '.$sort)#&quot; /&gt;
+&lt;/xar:if&gt;
+&lt;/th&gt;
+&lt;th&gt;&lt;xar:mlstring&gt;Options&lt;/xar:mlstring&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;xar:loop name=&quot;$subscribers&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;input type=&quot;checkbox&quot; name=&quot;unsub[#$loop:item.id#]&quot; id=&quot;unsub[#$loop:item.id#]&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;#$loop:item.name#&lt;/td&gt;
+&lt;td&gt;#$loop:item.pubname#&lt;/td&gt;
+&lt;td&gt;#$loop:item.email#&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&quot;#xarModURL('ebulletin</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to delete this subscription?</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unsubscribe</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="119" />
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>With checked subscribers :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-viewsubscribers.xd" line="127" />
+		</references>
+	</entry>
+</translations>
