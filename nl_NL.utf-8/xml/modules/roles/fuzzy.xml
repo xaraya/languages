@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+	<entry>
+		<string>Subject</string>
+		<translation>Onderwerp</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="53" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="331" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following variables will be replaced in the text with specific information</string>
+		<translation>De volgende variabelen worden in de tekst vervangen door specifieke informatie</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="75" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic property</string>
+		<translation>Dynamische eigenschap</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="159" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="210" />
+		</references>
+	</entry>
+	<entry>
+		<string>Messaging system</string>
+		<translation>Berichtensysteem</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="16" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="12" />
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>&amp;nbsp;</string>
+		<translation>&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="125" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="264" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="213" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manage the user</string>
+		<translation>Beheer de gebruikersgegevens</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="6" />
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="6" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="8" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manage the group</string>
+		<translation>Beheer de groepsgegevens</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="7" />
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="7" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="9" />
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>Registration / Login</string>
+		<translation>Registratie / Inloggen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="3" />
+			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Forget your password?</string>
+		<translation>Uw wachtwoord vergeten?</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="31" />
+			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Remember me</string>
+		<translation>Bewaar mijn gegevens</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="36" />
+			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Log In</string>
+		<translation>Aanmelden</translation>
+		<references>
+			<reference file="modules/roles/xaruser/register.php" line="53" />
+			<reference file="modules/roles/xaruser/showloginform.php" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>User and Group registration and handling</string>
+		<translation>Gebruiker- en groepen-registratie en behandeling</translation>
+		<references>
+			<reference file="modules/roles/xarversion.php" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Roles module lets you manage &lt;b&gt;users&lt;/b&gt; and &lt;b&gt;groups&lt;/b&gt; on your site. Roles are representations of users and the different groups they can belong to.</string>
+		<translation>De rollen module geeft u de mogelijkheid de &lt;b&gt;gebruikers&lt;/b&gt; en &lt;b&gt;groepen&lt;/b&gt; te besturen op uw website. Rollen representeren gebruikers en groepen tot welke ze kunnen behoren.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or the set of classes at a university. A role can be a member of as many other roles as you like (as long as the parents are groups).</string>
+		<translation>Rollen kunnen lid zijn van andere rollen. U kunt, bijvoorbeeld, rollen gebruiken om een bedrijfsorganogram te representeren of een set van klassen op een school. Een rol kan lid zijn van net zoveel andere rollen als u wilt (zolang de ouders een groep zijn).</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be assigned &lt;b&gt;privileges&lt;/b&gt;. By doing so, you define what a given role may or may not do on the site. You can use the test functionality of the Roles module to see what parts of the site a role with a given set of privileges has access to.</string>
+		<translation>Aan rollen kunnen &lt;b&gt;privileges&lt;/b&gt; worden toegekend. Als u dit doet, dan definieert u wat een bepaalde rol mag of niet mag binnen de website. U kunt de testfunctionaliteit van de rollen module gebruiken om te zien welke delen van de website een rol met een bepaalde set van privileges toegang heeft.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles have &lt;b&gt;inheritance&lt;/b&gt;. A role inherits all the privileges of all of its parents, but can override them. If you give a group editing privileges, for instance, any other role that is a member of that group inherits the editing privileges. If you want to restrict the privileges of some of the members, simply assign them a different set of privileges (say reading), and the privileges of the parent will be overridden.</string>
+		<translation>Rollen &lt;b&gt;erven&lt;/b&gt;. Een rol erft alle privileges van de ouders, maar kan ze overstijgen. Als u een groep edit privileges geeft, bijvoorbeeld, dan erft iedere rol die lid is van de groep de edit privileges. Als u de privileges wilt beperken van sommige leden, wijs dan deze leden simpelweg een andere set privileges toe (zeg lezen) en de privileges van de ouder zal worden overschreven.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles on your site are arranged in a tree. At the top of the tree is a role called &lt;b&gt;Everybody&lt;/b&gt;, which represents the &quot;group of all groups&quot; on your site. Every user and every group is a member or descendent of Everybody.</string>
+		<translation>De rollen in uw website zijn gerangschikt in een boom. De rol aan de top van de boom is genaamd &lt;b&gt;Iedereen&lt;/b&gt;, welke de &quot;groep van alle groepen&quot; vertegenwoordigd binnen uw website. Iedere gebruiker en iedere groep is een lid of afstammeling van Iedereen.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Everybody&lt;/b&gt;: is the role containing all other roles. This role has no access privileges.</string>
+		<translation>&lt;b&gt;Iedereen&lt;/b&gt;: is de rol die alle andere rollen bevat. Deze rol heeft geen toegangsprivilege</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Anonymous&lt;/b&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
+		<translation>&lt;b&gt;Anoniem&lt;/b&gt;: een gebruiker die alle ongeregistreerde gebruikers op uw website vertegenwoordigd. Deze rol is initieel samengesteld met privileges om enkel toegang te hebben tot de voorpagina van de website en het inlog blok.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administrators&lt;/b&gt;: a group that has administration privileges.</string>
+		<translation>&lt;b&gt;Beheerders&lt;/b&gt;: een groep met beheerdersprivileges</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Admin&lt;/b&gt;: a member of Administrators. This is the Admin role you create with the Xaraya installer.</string>
+		<translation>&lt;b&gt;Beheerder&lt;/b&gt;: een lid van de beheerders. Dit is de beheerder rol die u maakt middels het Xaraya installeerprogramma.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Users&lt;/b&gt;: a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges. &lt;i&gt;Its members will not have access to the site until you assign some privileges.&lt;/i&gt;</string>
+		<translation>&lt;b&gt;Gebruikers&lt;/b&gt;: een groep dat normaler wijs geregistreerde gebruikers van de web omgeving bevat. N.B.: deze rol is niet vooraf samengesteld met enig privilege. &lt;i&gt;De leden hebben geen toegang tot de web omgeving totdat u ze sommige privileges toekent.&lt;/i&gt;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login Block allows users to login</string>
+		<translation>Inlog blok staat gebruikers toe zich aan te melden</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Online Block shows the number visiting your site right now.</string>
+		<translation>On-line blok laat het aantal bezoekers zien van uw website op dit moment.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module allows the use of the User Menu hook which will allow users to set values to further enhance their visit.</string>
+		<translation>De rollen module staat het gebruik van het gebruikers menu toe, die gebruikers toestaat waarde te zetten die hun verdere bezoek uitbreiden.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>Uitgebreide informatie over deze module kan worden gevonden in</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC-30</string>
+		<translation>RFC-30</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>Filtering</string>
+		<translation>Filteren</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="43" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Number of users to view per page</string>
+		<translation>Aantal gebruikers die mogen kijken per pagina</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Terms of Service</string>
+		<translation>Laat service voorwaarden zien</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show Privacy Policy</string>
+		<translation>Laat privacy beleid zien</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>Designated Site Administrator</string>
+		<translation>Aangewezen sitebeheerder</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="151" />
+		</references>
+	</entry>
+	<entry>
+		<string>The designated site admin that cannot be deleted</string>
+		<translation>De aangewezen beheerder die niet kan worden verwijderd</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="155" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login Security Options</string>
+		<translation>Login beveiligings opties</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="172" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use lockout time on incorrect login attempts?</string>
+		<translation>Gebruik de afsluitingstijd optie voor incorrecte login pogingen?</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>Number of attempts before lockout</string>
+		<translation>Aantal pogingen voordat de afsluitingstijd ingaat</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="189" />
+		</references>
+	</entry>
+	<entry>
+		<string>Length of time for lockout (minutes)</string>
+		<translation>Lengte van de afsluitingstijd (minuten)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="193" />
+		</references>
+	</entry>
+	<entry>
+		<string>User Registration Options</string>
+		<translation>Gebruikers registratie mogelijkheden</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="210" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Group for new users</string>
+		<translation>Standaardgroep voor nieuwe gebruikers</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="213" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow registration</string>
+		<translation>Sta registratie toe</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="227" />
+		</references>
+	</entry>
+	<entry>
+		<string>Minimum age to be a user</string>
+		<translation>Minimum leeftijd voor een gebruiker</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="238" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow users to choose their own password when registering</string>
+		<translation>Sta gebruikers toe hun eigen wachtwoord te kiezen tijdens registratie</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="242" />
+		</references>
+	</entry>
+	<entry>
+		<string>Minimum length for password</string>
+		<translation>Minimum lengte voor het wachtwoord</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="253" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send notice to admin when new user registers</string>
+		<translation>Verstuur een bericht aan de beheerder als een nieuwe gebruiker wordt geregistreerd.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="258" />
+		</references>
+	</entry>
+	<entry>
+		<string>Require explicit administrator approval before activating new user</string>
+		<translation>Eis duidelijke beheerders toestemming voordat een nieuwe gebruiker wordt geactiveerd.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="268" />
+		</references>
+	</entry>
+	<entry>
+		<string>Require validation of new user</string>
+		<translation>Eis validatie van een nieuwe gebruiker</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="278" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show dynamic properties on registration (if enabled)</string>
+		<translation>Laat dynamische eigenschappen zien bij registratie (wanneer toegelaten)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="288" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send welcome email on successful registration of user</string>
+		<translation>Verstuur een welkomst-mail bij succesvolle registratie van een gebruiker</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="298" />
+		</references>
+	</entry>
+	<entry>
+		<string>Email address must be unique to each registered user</string>
+		<translation>E-mail adres moet uniek zijn voor iedere gebruiker</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="308" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow users to be invisible in users list</string>
+		<translation>Sta gebruikers toe onzichtbaar te zijn in de gebruikerslijst</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="320" />
+		</references>
+	</entry>
+	<entry>
+		<string>Filtering Options</string>
+		<translation>Filter mogelijkheden</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="344" />
+		</references>
+	</entry>
+	<entry>
+		<string>Disallowed user names</string>
+		<translation>Sta bepaalde gebruikersnamen niet toe</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="345" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: Enter each name on a single line. Do not separate with comma, etc</string>
+		<translation>Vermelding: Voer iedere naam in op een aparte regel. Scheidt niets met een komma, etc.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="346" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="351" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="356" />
+		</references>
+	</entry>
+	<entry>
+		<string>Disallowed email addresses</string>
+		<translation>Sta bepaalde e-mail adressen niet toe</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="350" />
+		</references>
+	</entry>
+	<entry>
+		<string>Disallowed IP addresses</string>
+		<translation>Sta bepaalde IP adressen niet toe</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="355" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Configuratie van de hooked modules</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="367" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="386" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default hooks for user roles</string>
+		<translation>Standaard hooks voor gebruikers rollen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="372" />
+		</references>
+	</entry>
+	<entry>
+		<string>No modules are hooked to this one</string>
+		<translation>Geen modules zijn ge-hooked aan deze</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="380" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="399" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default hooks for group roles</string>
+		<translation>Standaard hooks voor groeps rollen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="391" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow searching by email</string>
+		<translation>Sta zoeken op e-mail adres toe</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="412" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: Be careful, it might reveal enough information to compromise the user's login.</string>
+		<translation>Opm.: Deze optie kan genoeg informatie vrijgeven om de applicatie minder veilig te maken omdat de login informatie gebruik maakt van het e-mail adres.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="421" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow User Email Page</string>
+		<translation>Sta gebruikers e-mail pagina toe</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="425" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow members to send emails from site.</string>
+		<translation>Sta leden toe om e-mails vanaf de site te versturen.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="434" />
+		</references>
+	</entry>
+	<entry>
+		<string>User successfully created with UID</string>
+		<translation>Gebruker is met succes gemaakt met UID</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createuser.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>For more information, please contact our webmaster.</string>
+		<translation>Neem voor meer informatie contact op met de website beheerder.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>for more information.</string>
+		<translation>voor meer informatie</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must also be at least the age of</string>
+		<translation>U heeft minstens de leeftijd van</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>older.</string>
+		<translation>ouder.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send mail to users/groups</string>
+		<translation>Verstuur e-mail naar gebruikers / groepen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>user(s) selected</string>
+		<translation>gebruiker(s) geselecteerd</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="230" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your new password has been sent to your email address of record. You will want to change this new password once you have logged in.</string>
+		<translation>Uw nieuwe wachtwoord is per e-mail verstuurd naar het geregistreerde e-mail adres. U kunt / moet dit nieuwe wachtwoord wijzigen wanneer u bent aangemeld.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-requestpwconfirm.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been validated, but must be reviewed by the administrator. You should be activated shortly</string>
+		<translation>Uw account is gevalideerd, maar moet worden bekeken door de beheerder. Uw account wordt binnen korte tijd geactiveerd.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="6" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your account has been validated and you can now log in.</string>
+		<translation>Uw account is gevalideerd en u kunt nu inloggen.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>group</string>
+		<translation>groep</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>You do not have the privileges to delete</string>
+		<translation>U heeft geen toegangsrechten om te verwijderen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm the deletion of</string>
+		<translation>Bevestig het wissen van</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cancel the deletion</string>
+		<translation>Annuleer het wissen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>This&amp;nbsp;</string>
+		<translation>Deze&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>User&amp;nbsp;</string>
+		<translation>Gebruiker&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="96" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="229" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="237" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="269" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group&amp;nbsp;</string>
+		<translation>Groep&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="98" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="231" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="239" />
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="268" />
+		</references>
+	</entry>
+	<entry>
+		<string>cannot be edited or deleted</string>
+		<translation>kan niet worden gewijzigd of worden gewist</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>The fields below only apply for Users</string>
+		<translation>De velden hieronder zijn alleen van toepassing voor gebruikers</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="143" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add&amp;nbsp;</string>
+		<translation>Toevoegen&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="227" />
+		</references>
+	</entry>
+	<entry>
+		<string>to a Group</string>
+		<translation>aan een groep</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="233" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cannot add to this&amp;nbsp;</string>
+		<translation>Kan niet toevoegen aan deze&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="235" />
+		</references>
+	</entry>
+	<entry>
+		<string>Group:</string>
+		<translation>Groep:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="249" />
+		</references>
+	</entry>
+	<entry>
+		<string>&amp;nbsp;Group Memberships:</string>
+		<translation>&amp;nbsp;Groep lidmaatschappen:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="272" />
+		</references>
+	</entry>
+	<entry>
+		<string>Member of</string>
+		<translation>Lid van</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test this User's Privileges</string>
+		<translation>Test de privileges van deze gebruiker</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test the privileges of #(1)</string>
+		<translation>Test de privileges van #(1)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overridden privileges: light gray (partial), dark gray (full)</string>
+		<translation>Overschreven privileges: lichtgrijs (deels), donkergrijs (volledig)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>only relevant privileges are shown</string>
+		<translation>alleen de relevante privilege zijn getoond</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="188" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign a Privilege to #(1) '#(2)':</string>
+		<translation>Wijs een privilege toe aan #(1) '#(2)':</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="281" />
+		</references>
+	</entry>
+	<entry>
+		<string>Change the state of selected users</string>
+		<translation>Wijzig de status van de geselecteerde gebruikers</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="231" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Privileges Of</string>
+		<translation>Test privileges van</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the privileges of</string>
+		<translation>Toon de privileges van</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>is not permitted</string>
+		<translation>is niet toegestaan</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>is permitted</string>
+		<translation>is toegestaan</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Registered Masks For Module</string>
+		<translation>Geregistreerde maskers voor de module.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="167" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose a module from the list and click on &quot;Test&quot;</string>
+		<translation>Kies een module uit de lijst en klik op &quot;Test&quot;</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="186" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on the mask you want to test privileges against:</string>
+		<translation>Klik op het masker waartegen je de privileges wilt testen.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="191" />
+		</references>
+	</entry>
+	<entry>
+		<string>Attach recalled groups/users to</string>
+		<translation>Links de herstelde groep of gebruiker aan</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Set recalled users to</string>
+		<translation>Status na herstellen</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: Shaded groups/users cannot be recalled because another group/user
+of the same name already exists (or same email, if the admin restricted emails to be unique).</string>
+		<translation>Opm.: De 'gemarkeerde' groepen/gebruikers kunnen niet worden hersteld omdat een andere groep/gebruiker met dezelfde naam al bestaat (of hetzelfde e-mail adres als de beheerder heeft aangegeven dat e- mail adressen uniek moeten zijn).</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>Search users</string>
+		<translation>Zoek een gebruiker</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="224" />
+		</references>
+	</entry>
+	<entry>
+		<string>&amp;nbsp;matching</string>
+		<translation>&amp;nbsp;overeenkomend met</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="311" />
+		</references>
+	</entry>
+	<entry>
+		<string>On a locked site only the following users and groups will have access. &lt;br/&gt;
+Entering a group name allows access to the users of that group. &lt;br/&gt;
+Unknown names will be ignored.</string>
+		<translation>Alleen de volgende gebruikers en gebruikersgroepen hebben toegang tot de gesloten website. &lt;br /&gt; Het gebruiken van een groepnaam staat geeft toegang tot de gebruikers van die groep.&lt;br /&gt; Onbekende namen worden genegeerd.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Role</string>
+		<translation>Rol</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notify</string>
+		<translation>Meld</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following message will be emailed to members in the above list when the site is locked or unlocked.
+&lt;br /&gt;
+It is prefaced by a short: &quot;Site &amp;lt;sitename&amp;gt; has been locked/unlocked&quot;.</string>
+		<translation>Het volgende bericht wordt middels e-mail verstuurd aan de leden uit de bovenstaande lijst als de website wordt afgesloten of wordt geopend.&lt;br /&gt;Het wordt voorafgegaan door een korte &quot;Website &amp;lt;sitename&amp;gt; wordt gesloten/geopend&quot;.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify notification template</string>
+		<translation>Wijzig meldingstemplate</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template</string>
+		<translation>Template</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>This email will be sent to users when they re-validate their account (i.e. change email address)</string>
+		<translation>Dit bericht zal naar gebruikers worden gestuurd wanneer het account opnieuw gevalideerd moet worden (bijv. bij een wijziging van het e-mail adres)</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>This email will be sent to users when an administrator changes their password</string>
+		<translation>Dit bericht zal naar gebruikers worden gestuurd wanneer de beheerder het wachtwoord van de gebruiker wijzigt</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="84" />
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify notification options</string>
+		<translation>Wijzig de meldingsopties</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notification email :</string>
+		<translation>Meldings e-mail:</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Ask about sending a notification when an administrator changes the state of a user to</string>
+		<translation>Vraag bevestiging voor de melding wanneer de beheerder de status wijzigt naar</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>pending</string>
+		<translation>in behandeling</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>active</string>
+		<translation>actief</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>inactive</string>
+		<translation>inactief</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Not validated</string>
+		<translation>Niet gevalideerd</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>Ask about sending a notification when an administrator changes the password of a user</string>
+		<translation>Vraag bevestiging voor het zenden van een melding wanneer de beheerder het wachtwoord van een gebruiker wijzigt</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Password created</string>
+		<translation>Wachtwoord gemaakt</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>Caution : this password has just been generated by the system and assigned to this user. This password has not been sent by mail to the user.&lt;br /&gt;
+For security, It's the only time you will see this password in clear text, please write it down if you want to send it to the user.</string>
+		<translation>Voorzichting: dit wachtwoord is zojuist gegenereerd door het systeem en toegewezen aan deze gebruiker. Dit wachtwoord is niet verstuurd naar de gebruiker door middel van e-mail.&lt;br /&gt;Vanwege beveiligingsredenen is dit de enige keer dat u het wachtwoord ziet in duidelijke tekst. Schrijf het alstublieft op als u het naar de gebruiker wilt sturen.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click here to get back to the users list</string>
+		<translation>Klik hier om terug te gaan naar de gebruikerslijst</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>This form allows you to send a notification to the changed user(s)</string>
+		<translation>Dit formulier verstuurt een melding naar de gebruiker(s) waarvan de gegevens zijn gewijzigd</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong arguments to roles_adminapi_create.</string>
+		<translation>Verkeerde argumenten in de roles_adminapi_create.</translation>
+		<references>
+			<reference file="modules/roles/xaradminapi/create.php" line="41" />
+		</references>
+	</entry>
+</translations>

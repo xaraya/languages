@@ -1,102 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
 	<entry>
-		<string>Send mail to users/groups</string>
-		<translation>Verstuur e-mail naar gebruikers / groepen</translation>
+		<string>Send Mail To Users/Groups</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="18" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Option</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="50" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show Users</string>
 		<translation>Toon gebruikers</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="55" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="86" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select a group</string>
 		<translation>Selecteer een groep</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="58" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
 		<string>Includes subgroups</string>
 		<translation>Omvat subgroepen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="65" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="105" />
 		</references>
 	</entry>
 	<entry>
 		<string>Include Subgroups</string>
 		<translation>Neem deelgroepen op</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="65" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="108" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select template for the message</string>
 		<translation>Selecteer template voor het bericht</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="69" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="113" />
 		</references>
 	</entry>
 	<entry>
 		<string>Single user</string>
 		<translation>Enkelvoudige gebruiker</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="91" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="149" />
 		</references>
 	</entry>
 	<entry>
 		<string>-- choose --</string>
 		<translation>-- kies --</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="129" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="156" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="203" />
 		</references>
 	</entry>
 	<entry>
 		<string>No users selected</string>
 		<translation>Geen gebruikers geselecteerd</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="222" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="319" />
 		</references>
 	</entry>
 	<entry>
-		<string>user(s) selected</string>
-		<translation>gebruiker(s) geselecteerd</translation>
+		<string>#(1) user(s) selected.</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="230" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="331" />
 		</references>
 	</entry>
 	<entry>
 		<string>No users match</string>
 		<translation>Er zijn geen overeenkomende gebruikers</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="269" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="342" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose a message template from the Templates dropdown above, or type in your message directly :</string>
 		<translation>Kies een berichtsjabloon of type uw bericht direct.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="325" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="442" />
+		</references>
+	</entry>
+	<entry>
+		<string>Subject line of the email</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="445" />
+		</references>
+	</entry>
+	<entry>
+		<string>Body of the email</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="453" />
 		</references>
 	</entry>
 	<entry>
 		<string>Look in the file var/messaging/roles/includes/message-vars.xd to see how the different variables used in the templates are defined.</string>
 		<translation>Kijk in het bestand var/messaging/roles/include/message-vars.xd om te zien welke variabelen beschikbaar zijn.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="361" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="482" />
 		</references>
 	</entry>
 	<entry>
 		<string>Note that some variables (e.g. $myusername in the confirmation template) are defined dynamically during Xaraya processes, such as registration. You cannot use those variables, nor can you send messages that contain them from here.</string>
 		<translation>Merk op dat sommige variabelen (zoals bijv. $myusername in het bevestigings sjabloon) dynamisch hun waarde krijgen. U kunt deze variabelen niet gebruiken, nog berichten versturen die deze variabelen bevatten vanaf deze plek.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="366" />
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="487" />
 		</references>
 	</entry>
 </translations>
