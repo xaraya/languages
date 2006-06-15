@@ -802,8 +802,8 @@ be downloaded at</string>
 	<entry>
 		<string>before adding new allowed tags and attributes here. Any added elements here are are added to the default with the &lt;strong&gt;extended_valid_elements&lt;/strong&gt;
 config option. Separate each tag with a comma. *[*] allows all tags and attributes. If you have HTML module installed, its settings will override and
-filter all tags (but not individual attributes).</string>
-		<translation>bevor Sie hier neue erlaubte Tags und Attribute hinzufügen. Jedes hier hinzugefügte Element wird zu der Standard &lt;strong&gt;extended_valid_elements&lt;/strong&gt;-Konfigurationsoption hinzugefügt. Trennen Sie jeden Tag durch ein Komma. *[*] erlaubt alle Tags und Attribute. Wenn Sie das HTML-Module installiert haben, setzen dessen Einstellungen alle Tags (aber nicht die Attribute) außer Kraft und filtern diese.</translation>
+prevent tags being rendered (but not filter out individual tags, or specific attributes).</string>
+		<translation></translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="510" />
 		</references>
@@ -1025,9 +1025,9 @@ filter all tags (but not individual attributes).</string>
 		</references>
 	</entry>
 	<entry>
-		<string>&lt;strong&gt;Available plugins (bundled):&lt;/strong&gt; save, ibrowser, emotions, iespell (IE only), insertdatetime, preview, zoom,
-advimage, advlink, flash, advhr, searchreplace, print, table, xarpagebreak, contextmenu, lorem, dictionary, paste,
-fullscreen, directionality, fullpage, liststyle, layer, style, spellchecker</string>
+		<string>&lt;strong&gt;Available plugins (bundled):&lt;/strong&gt; save, emotions, iespell (IE only), insertdatetime, preview, zoom,
+advimage, advlink, flash, advhr, searchreplace, print, table, xarpagebreak, contextmenu, lorem, paste,
+fullscreen, directionality, fullpage, liststyle, layer, style, spellchecker, media</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="652" />
@@ -1097,59 +1097,59 @@ fullscreen, directionality, fullpage, liststyle, layer, style, spellchecker</str
 		</references>
 	</entry>
 	<entry>
-		<string>Use filebrowser in advanced image, link or flash plugins?</string>
+		<string>Use integrated &lt;strong&gt;Filebrowser&lt;/strong&gt; for file browsing and uploading for eg images, links, flash plugins ?</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="684" />
 		</references>
 	</entry>
 	<entry>
-		<string>To use FileBrowser, IBrowser or IManager:</string>
+		<string>To use FileBrowser (or downloaded Xaraya IBrowser or IManager plugin):</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="689" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="691" />
 		</references>
 	</entry>
 	<entry>
-		<string>Add &lt;strong&gt;ibrowser or imanager&lt;/strong&gt; (or plugin that uses filebrowser eg advimage or advlink)&lt;/strong&gt; to the plugins above</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="692" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add &lt;strong&gt;ibrowser or imanager &lt;/strong&gt; to the button list in Advanced Theme Layout option below.</string>
+		<string>Add &lt;strong&gt;ibrowser or imanager&lt;/strong&gt; (or any plugin that uses filebrowser eg advimage or advlink)&lt;/strong&gt; to the plugins above</string>
 		<translation></translation>
 		<references>
 			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="693" />
 		</references>
 	</entry>
 	<entry>
+		<string>Add &lt;strong&gt;ibrowser or imanager &lt;/strong&gt; to the button list in Advanced Theme Layout option below.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="694" />
+		</references>
+	</entry>
+	<entry>
 		<string>Update the</string>
 		<translation>Aktualisieren Sie</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="694" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="695" />
 		</references>
 	</entry>
 	<entry>
 		<string>configuration file at modules/tinymce/xartemplates/includes/tinymceconfig.inc</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="694" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="695" />
 		</references>
 	</entry>
 	<entry>
 		<string>and copy to your &lt;code&gt;var/tinymce/tinymceconfig.inc&lt;/code&gt; directory</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="695" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="696" />
 		</references>
 	</entry>
 	<entry>
 		<string>Advanced Theme Button Layout</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="703" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="704" />
 		</references>
 	</entry>
 	<entry>
@@ -1157,108 +1157,108 @@ fullscreen, directionality, fullpage, liststyle, layer, style, spellchecker</str
 which buttons appear.</string>
 		<translation>Wenn Sie die STANDARDS ändern wollen, können Sie Button entfernen und hinzufügen oder aber definieren, welche Buttons erscheinen.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="707" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="708" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Valid button names are&lt;/strong&gt; (separate names by comma - no spaces):</string>
 		<translation>&lt;strong&gt;Gültige Buttonnamen sind&lt;/strong&gt; (Namen mit Komma trennen - nicht mit Leerzeichen):):</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="711" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="712" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Valid plugin button options&lt;/strong&gt;</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="713" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="714" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add extra button or plugins for this theme here</string>
 		<translation>Fügen Sie Extra-Buttons oder Plugins für dieses Theme hier hinzu</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="719" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="720" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add EXTRA Buttons:</string>
 		<translation>EXTRA-Button hinzufügen:</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="720" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="721" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add these extra buttons to your editor toolbar.</string>
 		<translation>Fügen Sie diese zusätzlichen Buttons zu Ihrer Werkzeugleiste hinzu.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="722" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="723" />
 		</references>
 	</entry>
 	<entry>
 		<string>Additional buttons for this theme for Line 1 - see manual</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="725" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="726" />
 		</references>
 	</entry>
 	<entry>
 		<string>Row 1</string>
 		<translation>Zeile 1</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="726" />
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="761" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="727" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="762" />
 		</references>
 	</entry>
 	<entry>
 		<string>Additional buttons for this theme for Line 2 - see manual</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="731" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="732" />
 		</references>
 	</entry>
 	<entry>
 		<string>Row 2</string>
 		<translation>Zeile 2</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="732" />
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="767" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="733" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="768" />
 		</references>
 	</entry>
 	<entry>
 		<string>Additional buttons for this theme for Line 3 - see manual</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="737" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="738" />
 		</references>
 	</entry>
 	<entry>
 		<string>Row 3</string>
 		<translation>Zeile 3</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="738" />
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="773" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="739" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="774" />
 		</references>
 	</entry>
 	<entry>
 		<string>Buttons to remove from Advanced theme</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="744" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="745" />
 		</references>
 	</entry>
 	<entry>
 		<string>Remove these buttons:</string>
 		<translation>Diese Buttons entfernen:</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="745" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="746" />
 		</references>
 	</entry>
 	<entry>
 		<string>Build Your Own Layout</string>
 		<translation>Gestalten Sie sich Ihr eigenes Layout</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="752" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="753" />
 		</references>
 	</entry>
 	<entry>
@@ -1266,49 +1266,49 @@ which buttons appear.</string>
 Any entry in a row will force use of this custom layout. A &lt;strong&gt;space&lt;/strong&gt; alone will remove a row so be careful!</string>
 		<translation>Sie können sich Ihr eigenes Editorlayout unter Verwendung der existierenden Buttons gestalten. Jeder Eintrag in einer Zeile erzwingt die Verwendung dieses Layouts. Ein &lt;strong&gt;Leerzeichen &lt;/strong&gt; alleine entfernt eine Zeile - seien Sie also vorsichtig!</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="757" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="758" />
 		</references>
 	</entry>
 	<entry>
 		<string>Restrict buttons for Line 1 to these buttons only</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="760" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="761" />
 		</references>
 	</entry>
 	<entry>
 		<string>Restrict buttons for Line 2 to these buttons only</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="766" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="767" />
 		</references>
 	</entry>
 	<entry>
 		<string>Restrict buttons for Line 3 to these buttons only</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="772" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="773" />
 		</references>
 	</entry>
 	<entry>
 		<string>Multiple Configuration Instances</string>
 		<translation>Mehrfach-Konfigurationsinstanzen</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="792" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="793" />
 		</references>
 	</entry>
 	<entry>
 		<string>Would you like to use multiple configuration settings?</string>
 		<translation>Wollen Sie Mehrfach-Konfigurationseinstellungen verwenden?</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="800" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="801" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Use multiple configurations?&lt;/strong&gt; (Must be checked for activation of custom config options below).</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="803" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="804" />
 		</references>
 	</entry>
 	<entry>
@@ -1316,28 +1316,28 @@ Any entry in a row will force use of this custom layout. A &lt;strong&gt;space&l
 In each configuration you must have at least</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="809" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="810" />
 		</references>
 	</entry>
 	<entry>
 		<string>Do not</string>
 		<translation>Verwenden Sie nicht</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="813" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="814" />
 		</references>
 	</entry>
 	<entry>
 		<string>use the default</string>
 		<translation>den Standard-</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="813" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="814" />
 		</references>
 	</entry>
 	<entry>
 		<string>as the trigger name.</string>
 		<translation>als Auslösenamen.</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="814" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="815" />
 		</references>
 	</entry>
 	<entry>
@@ -1345,78 +1345,78 @@ In each configuration you must have at least</string>
 your div or textarea where you want the wysiwyg instance eg</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="816" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="817" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please &lt;strong&gt;check the final tinymce config code&lt;/strong&gt; in the code display at the end of this screen before use!</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="817" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="818" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enter additional individual custom config options here</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="821" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="822" />
 		</references>
 	</entry>
 	<entry>
 		<string>Custom Config options:</string>
 		<translation>Spezifische Konfigurationsoptionen</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="822" />
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="843" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="823" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="844" />
 		</references>
 	</entry>
 	<entry>
 		<string>Custom Configuration Code</string>
 		<translation>Spezifischer Konfigurationscode</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="831" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="832" />
 		</references>
 	</entry>
 	<entry>
 		<string>This option allows you to add additional custom configuration options that are added to the DEFAULT tinymce configuration string.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="834" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="835" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please refer to the TinyMCE</string>
 		<translation>Bitte verweisen Sie auf die TinyMCE</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="835" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="836" />
 		</references>
 	</entry>
 	<entry>
 		<string>Usage Documentation</string>
 		<translation>-Gebrauchsanweisung</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="835" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="836" />
 		</references>
 	</entry>
 	<entry>
 		<string>Each option should be on a separate line, ending in a comma, in the format</string>
 		<translation>Jede Option sollte sich in einer eigenen Zeile befinden, endend mit einem Komma, in dem Format</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="838" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="839" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enter additional config options here</string>
 		<translation>Zusätzliche Konfigurationsoptionen hier eingeben</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="842" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="843" />
 		</references>
 	</entry>
 	<entry>
 		<string>Current active default configuration</string>
 		<translation>Aktuell aktive Standardkonfiguration</translation>
 		<references>
-			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="850" />
+			<reference file="modules/tinymce/xartemplates/admin-modifyconfig.xd" line="851" />
 		</references>
 	</entry>
 </translations>
