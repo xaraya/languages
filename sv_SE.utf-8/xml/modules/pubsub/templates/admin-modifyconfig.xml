@@ -16,7 +16,7 @@
 	</entry>
 	<entry>
 		<string>Enable Short URLs :</string>
-		<translation>Slå på Korta URLer :</translation>
+		<translation>Aktivera korta webbaadresser :</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="16" />
 		</references>
@@ -30,7 +30,7 @@
 	</entry>
 	<entry>
 		<string>Use Content's Title for EMail Subject:</string>
-		<translation>Använd innehållets titel som Ämne i emailet:</translation>
+		<translation>Använd innehållets titel som ämne i e-brevet.</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="28" />
 		</references>
@@ -44,7 +44,7 @@
 	</entry>
 	<entry>
 		<string>Configuration of Hooked Modules</string>
-		<translation>Konfiguration av Krokade Moduler</translation>
+		<translation>Konfiguration av Kopplade Moduler</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="43" />
 		</references>
@@ -53,28 +53,28 @@
 		<string>&lt;strong&gt;Description:&lt;/strong&gt; first enable pubsub hooks for a particular module+itemtype,
 then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
 Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Beskrivning:&lt;/strong&gt; aktivera först pubsub-kopplingar flr en viss modul+posttyp, ange sen vilka mallar som ska användas när en post skapas, uppdateras eller tas bort för den modulen + posttyp. Om du ställer en mall till 'stöds ej' betyder det att dina användare inte kommer bli meddelade för den händelsen.</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="49" />
 		</references>
 	</entry>
 	<entry>
 		<string>Template for Create Hook</string>
-		<translation></translation>
+		<translation>Mall för Skapa koppling</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Template for Update Hook</string>
-		<translation></translation>
+		<translation>Mall för Uppdatera koppling</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="72" />
 		</references>
 	</entry>
 	<entry>
 		<string>Template for Delete Hook</string>
-		<translation></translation>
+		<translation>Mall för Ta bort koppling</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="86" />
 		</references>
@@ -89,7 +89,7 @@ Setting a template to 'not supported' means that your users will not receive any
 	<entry>
 		<string>&lt;strong&gt;Description:&lt;/strong&gt; in order to process queued events, you need to install the 'scheduler' module first.
 Then you can specify here how often the event queue should be processed.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Beskrivning:&lt;/strong&gt; för att bearbeta köade händelser, måste du installera &quot;Schemaläggaren&quot; först. DU kan sen ange hur ofta händelsekön ska bearbetas.</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="109" />
 		</references>
@@ -103,14 +103,14 @@ Then you can specify here how often the event queue should be processed.</string
 	</entry>
 	<entry>
 		<string>disabled</string>
-		<translation>avslagen</translation>
+		<translation>inaktiverad</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="115" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please note that if you stop the scheduler or if it isn't triggered, queued events will not be processed.</string>
-		<translation>Var god notera att om du stoppar schemaläggaren eller om den inte är triggad så kommer köade händelser inte att bearbetas.</translation>
+		<translation>Vänligen notera att om du stoppar schemaläggaren eller om den inte är triggad kommer köade händelser inte att bearbetas.</translation>
 		<references>
 			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="127" />
 		</references>

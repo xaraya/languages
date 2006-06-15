@@ -2,56 +2,56 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
 	<entry>
 		<string>Choose the combination of events and calendars for privilege '#(1)'</string>
-		<translation></translation>
+		<translation>Välj kombination av händelser och kalendrar för behörighet '#(1)'</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
 		<string>Calendar ID</string>
-		<translation></translation>
+		<translation>Kalender-ID</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Organizer</string>
-		<translation></translation>
+		<translation>Organisatör</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>All / Other --&amp;gt;</string>
-		<translation></translation>
+		<translation>Samtliga/Övriga --&amp;gt;</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Event</string>
-		<translation></translation>
+		<translation>Händelse</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="66" />
 		</references>
 	</entry>
 	<entry>
 		<string>Enter event number</string>
-		<translation></translation>
+		<translation>Ange händelsenummer</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="69" />
 		</references>
 	</entry>
 	<entry>
 		<string>Access Level</string>
-		<translation></translation>
+		<translation>Behörighetsnivå</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>No Access</string>
-		<translation></translation>
+		<translation>Ingen åtkomst</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="85" />
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="89" />
@@ -59,7 +59,7 @@
 	</entry>
 	<entry>
 		<string>Read</string>
-		<translation></translation>
+		<translation>Läs</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="103" />
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="107" />
@@ -67,7 +67,7 @@
 	</entry>
 	<entry>
 		<string>Admin</string>
-		<translation></translation>
+		<translation>Administratör</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="139" />
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="143" />
@@ -75,14 +75,14 @@
 	</entry>
 	<entry>
 		<string>There are #(1) events matching these selection criteria at the moment</string>
-		<translation></translation>
+		<translation>Det finns #(1) händelser som för tillfället överensstämmer med urvalskriterierna</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="157" />
 		</references>
 	</entry>
 	<entry>
 		<string>Some examples : (assuming your users have read access by default)</string>
-		<translation></translation>
+		<translation>Några exempel: (förutsätter att dina användare har läsbehörighet som standard)</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="168" />
 		</references>
@@ -90,28 +90,28 @@
 	<entry>
 		<string>In order to allow 'Friends' to submit events (and only that), define a privilege 'AddJulianEvent' (or whatever name you prefer), and access level &quot;Add&quot; above.
 Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.</string>
-		<translation></translation>
+		<translation>För att låta 'Vänner' skicka in händelser (och bara det), definiera en behörighet 'LäggTillJulianHändelse' (eller det namn du föredrar), och behörighetsnivå 'Lägg till' ovan. Klicka på &quot;Avsluta och genomför till behörighet&quot;, och tilldela sedan den behörigheten till 'Vänner'-rollen.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="171" />
 		</references>
 	</entry>
 	<entry>
 		<string>When you want users to add events, and have them also edit or delete their own, then use the organizer (submitter) role 'Myself'. Eg All:Myself:All:All and an access level of 'Delete' will give users Delete rights to all events in all categories that they have added themselves.</string>
-		<translation></translation>
+		<translation>När du vill låta användare kunna lägga till händelser, och även låta dem redigera eller ta bort sina egna, använd då organisatör (inskickar) rollen 'Myself'. T.ex. All:Myself:All:All och en åtkomstnivå för 'Delete' kommer ge användare rättigheter till samtliga händelser i samtliga kategorier som de har lagt till sig själva.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>In order to stop 'Strangers' from viewing Events, define some privilege 'DenyJulianEvents' (instance All:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.</string>
-		<translation></translation>
+		<translation>För att hindra 'Strängers' från att se händelser, definiera en behörighet 'DenyJulianEvents' (instans All:All:All:All) och åtkomstnivå &quot;Ingen åtkomst&quot;. Tilldela sen den behörigheten till 'Strangers'-rollen.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="175" />
 		</references>
 	</entry>
 	<entry>
 		<string>Note: if you want to deny access to all events in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the Julian map and categories navigation as well.</string>
-		<translation></translation>
+		<translation>Notera: om du vill neka åtkomst till samtliga händelser i en viss kategori med ID 123, kan du även definiera en behörighet för modul 'categories', komponent 'Category', kategorinamn 'Allä och kategori-id '123'. Detta kommer ta bort kategorin från Julian planen och även från kategorinavigationen.</translation>
 		<references>
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="180" />
 		</references>

@@ -5,22 +5,7 @@
 		<translation>Uppdatera konfiguration</translation>
 		<references>
 			<reference file="modules/scheduler/xaradmin/modifyconfig.php" line="13" />
-			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="202" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ogiltig #(1) för #(2) funktion #(3)() i modul #(4)</translation>
-		<references>
-			<reference file="modules/scheduler/xaradminapi/create.php" line="32" />
-			<reference file="modules/scheduler/xaradminapi/create.php" line="49" />
-			<reference file="modules/scheduler/xaradminapi/delete.php" line="35" />
-			<reference file="modules/scheduler/xaradminapi/delete.php" line="52" />
-			<reference file="modules/scheduler/xaradminapi/delete.php" line="66" />
-			<reference file="modules/scheduler/xaradminapi/update.php" line="38" />
-			<reference file="modules/scheduler/xaradminapi/update.php" line="55" />
-			<reference file="modules/scheduler/xaradminapi/update.php" line="78" />
-			<reference file="modules/scheduler/xaruserapi/get.php" line="35" />
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="210" />
 		</references>
 	</entry>
 	<entry>
@@ -40,20 +25,18 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Wrong trigger</string>
-		<translation>Felaktig utlösare</translation>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>Ogiltig #(1) för #(2) funktion #(3)() i modul #(4)</translation>
 		<references>
-			<reference file="modules/scheduler/xarblocks/trigger.php" line="56" />
-			<reference file="modules/scheduler/xaruser/main.php" line="11" />
-			<reference file="modules/scheduler/xaruser/main.php" line="69" />
-		</references>
-	</entry>
-	<entry>
-		<string>Last run was #(1) minutes #(2) seconds ago</string>
-		<translation>Senaste körning var för #(1) minuter (#2) sekunder sen</translation>
-		<references>
-			<reference file="modules/scheduler/xarblocks/trigger.php" line="68" />
-			<reference file="modules/scheduler/xaruser/main.php" line="79" />
+			<reference file="modules/scheduler/xaradminapi/create.php" line="35" />
+			<reference file="modules/scheduler/xaradminapi/create.php" line="52" />
+			<reference file="modules/scheduler/xaradminapi/delete.php" line="35" />
+			<reference file="modules/scheduler/xaradminapi/delete.php" line="52" />
+			<reference file="modules/scheduler/xaradminapi/delete.php" line="66" />
+			<reference file="modules/scheduler/xaradminapi/update.php" line="39" />
+			<reference file="modules/scheduler/xaradminapi/update.php" line="56" />
+			<reference file="modules/scheduler/xaradminapi/update.php" line="79" />
+			<reference file="modules/scheduler/xaruserapi/get.php" line="35" />
 		</references>
 	</entry>
 	<entry>
@@ -63,6 +46,7 @@
 			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="4" />
 			<reference file="modules/scheduler/xartemplates/admin-search.xd" line="4" />
+			<reference file="modules/scheduler/xartemplates/admin-modify.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
@@ -71,6 +55,64 @@
 		<references>
 			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="11" />
 			<reference file="modules/scheduler/xartemplates/includes/admin-menu.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module</string>
+		<translation>Modul</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="22" />
+			<reference file="modules/scheduler/xartemplates/admin-modify.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Type</string>
+		<translation>Typ</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="23" />
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="108" />
+			<reference file="modules/scheduler/xartemplates/admin-modify.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>API Function</string>
+		<translation>API-funktion</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="24" />
+			<reference file="modules/scheduler/xartemplates/admin-modify.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Interval</string>
+		<translation>Intervall</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="25" />
+			<reference file="modules/scheduler/xartemplates/admin-modify.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Warning: jobs are currently running - any changes you make now may be overwritten</string>
+		<translation>Varning: det körs för närvarande jobb - eventuella ändringar du gör nu kan bli överskrivna</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-modifyconfig.xd" line="208" />
+			<reference file="modules/scheduler/xartemplates/admin-modify.xd" line="130" />
+		</references>
+	</entry>
+	<entry>
+		<string>Wrong trigger</string>
+		<translation>Felaktig utlösare</translation>
+		<references>
+			<reference file="modules/scheduler/xaruser/main.php" line="11" />
+			<reference file="modules/scheduler/xaruser/main.php" line="69" />
+			<reference file="modules/scheduler/xarblocks/trigger.php" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Last run was #(1) minutes #(2) seconds ago</string>
+		<translation>Senaste körning var för #(1) minuter (#2) sekunder sen</translation>
+		<references>
+			<reference file="modules/scheduler/xaruser/main.php" line="79" />
+			<reference file="modules/scheduler/xarblocks/trigger.php" line="68" />
 		</references>
 	</entry>
 </translations>
