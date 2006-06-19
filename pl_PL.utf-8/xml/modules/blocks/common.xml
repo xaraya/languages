@@ -4,117 +4,375 @@
 		<string>Blocks Administration</string>
 		<translation>Administracja blokami</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-registerblock.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="1" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="1" />
+			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="8" />
+			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="8" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="4" />
+			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="8" />
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="5" />
+			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="19" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="14" />
+			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="5" />
+			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="5" />
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="3" />
+			<reference file="modules/blocks/xartemplates/admin-new_type.xd" line="14" />
+			<reference file="modules/blocks/xartemplates/admin-modifyconfig.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
-		<string>Name</string>
-		<translation>Nazwa</translation>
+		<string>Name:</string>
+		<translation>Nazwa:</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="7" />
-			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="10" />
-			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="12" />
-			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Members</string>
-		<translation>Członkowie</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="10" />
-			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="20" />
+			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="28" />
+			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="28" />
 			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="23" />
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="37" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Members:</string>
+		<translation>Użytkownicy:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="34" />
+			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>none</string>
+		<translation>brak</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="43" />
+			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="51" />
+			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="67" />
+			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="38" />
+			<reference file="modules/blocks/xartemplates/includes/compact.xd" line="31" />
+			<reference file="modules/blocks/xartemplates/includes/compact.xd" line="90" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="45" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cancel</string>
+		<translation>Anuluj</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="63" />
+			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="71" />
+			<reference file="modules/blocks/xaradmin/new_group.php" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Title:</string>
+		<translation>Tytuł:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="35" />
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="44" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Przegląd</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="10" />
+			<reference file="modules/blocks/xartemplates/includes/admin-menu.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Types</string>
+		<translation>Typ bloku</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="21" />
+			<reference file="modules/blocks/xaruserapi/getitemtypes.php" line="29" />
+			<reference file="modules/blocks/xartemplates/includes/admin-menu.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter the name of the group. This value is used in your theme template to call the block group.</string>
+		<translation>Podaj nazwę grupy. Ta wartość przyporządkowuje blok danemu miejscu w Twoim themie.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="22" />
+			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you wish to override the default template you may do so by entering a template name. Otherwise the default.xt template will be used.</string>
+		<translation>Jeżeli chcesz nadpisywać domyślny szablon, musisz podać jego nazwę. Jedyny nadpisywany plik to default.xt.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="29" />
+			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default Template (optional):</string>
+		<translation>Domyślny szablon (opcjonalne):</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="30" />
+			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Type:</string>
+		<translation>Typ bloku:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="30" />
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Default State:</string>
+		<translation>Domyślne położenie:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="51" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>Hidden</string>
+		<translation>Ukryty</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="58" />
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="64" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="86" />
+			<reference file="modules/blocks/xaradmin/view_instances.php" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Maximized</string>
+		<translation>Zmaksymalizowany</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="71" />
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="77" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="92" />
+			<reference file="modules/blocks/xaradmin/view_instances.php" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Instance Template (optional):</string>
+		<translation>Instancja szablonu (opcjonalne):</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="213" />
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update</string>
+		<translation>Aktualizuj</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="225" />
+			<reference file="modules/blocks/xaradmin/modify_group.php" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Group</string>
+		<translation>Dodaj grupę</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="30" />
+			<reference file="modules/blocks/xartemplates/admin-new_group.xd" line="52" />
+			<reference file="modules/blocks/xaradminapi/getmenulinks.php" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add Instance</string>
+		<translation>Dodaj instancję</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="20" />
+			<reference file="modules/blocks/xaradminapi/getmenulinks.php" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Minimized</string>
+		<translation>Zminimalizowane/y</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="89" />
+			<reference file="modules/blocks/xaradmin/view_instances.php" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create Instance</string>
+		<translation>Stwórz instancję</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="102" />
+			<reference file="modules/blocks/xaradmin/new_instance.php" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Template</string>
 		<translation>Szablon</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="13" />
-			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="16" />
-			<reference file="modules/blocks/xartemplates/admin-delete_group.xd" line="30" />
-			<reference file="modules/blocks/xartemplates/admin-modify_group.xd" line="49" />
+			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="20" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="17" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="26" />
 		</references>
 	</entry>
 	<entry>
-		<string>Operations</string>
-		<translation>Operacje</translation>
+		<string>default</string>
+		<translation>domyślnie</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="16" />
-			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="22" />
+			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="43" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="64" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="73" />
 		</references>
 	</entry>
 	<entry>
-		<string>Group</string>
-		<translation>Grupa</translation>
+		<string>Edit</string>
+		<translation>Edytuj</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="7" />
-			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="20" />
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="32" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="27" />
+			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="49" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="78" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="87" />
 		</references>
 	</entry>
 	<entry>
-		<string>Title</string>
-		<translation>Tytuł</translation>
+		<string>Delete</string>
+		<translation>Usuń</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="10" />
-			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="12" />
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="10" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="11" />
+			<reference file="modules/blocks/xartemplates/admin-view_groups.xd" line="50" />
+			<reference file="modules/blocks/xaradmin/delete_group.php" line="40" />
+			<reference file="modules/blocks/xaradmin/delete_instance.php" line="38" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="84" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refresh</string>
+		<translation>Odśwież</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="33" />
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Block Type</string>
+		<translation>Pokaż typ bloku</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="9" />
+			<reference file="modules/blocks/xaruserapi/getitemlinks.php" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name</string>
+		<translation>Nazwa</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="84" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="5" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Block Types</string>
+		<translation>Pokaż typy bloków</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="114" />
+			<reference file="modules/blocks/xaradminapi/getmenulinks.php" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Module</string>
+		<translation>Moduł</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="121" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="11" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Type</string>
 		<translation>Typ</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-view_instances.xd" line="13" />
-			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="10" />
-			<reference file="modules/blocks/xartemplates/admin-delete_instance.xd" line="28" />
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="18" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="19" />
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="122" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="14" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
-		<string>Template (optional)</string>
-		<translation>Szablon (opcjonalny)</translation>
+		<string>Actions</string>
+		<translation>Akcje</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="46" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="45" />
+			<reference file="modules/blocks/xartemplates/admin-view_types.xd" line="124" />
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="23" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
-		<string>Default state</string>
-		<translation>Domyślny stan</translation>
+		<string>Add Block Type</string>
+		<translation>Dodaj typ bloku</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="54" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="74" />
+			<reference file="modules/blocks/xartemplates/admin-new_type.xd" line="26" />
+			<reference file="modules/blocks/xartemplates/admin-new_type.xd" line="66" />
+			<reference file="modules/blocks/xaradminapi/getmenulinks.php" line="57" />
 		</references>
 	</entry>
 	<entry>
-		<string>Hidden</string>
-		<translation>Ukryte</translation>
+		<string>Block group name &quot;#(1)&quot; already exists</string>
+		<translation>Grupa bloku &quot;#(1)&quot; już istnieje</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="58" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="83" />
+			<reference file="modules/blocks/xaradmin/create_group.php" line="33" />
+			<reference file="modules/blocks/xaradmin/update_group.php" line="47" />
 		</references>
 	</entry>
 	<entry>
-		<string>Maximized</string>
-		<translation>Zmaksymalizowane</translation>
+		<string>Block name &quot;#(1)&quot; already exists</string>
+		<translation>Blok &quot;#(1)&quot; już istnieje</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-new_instance.xd" line="60" />
-			<reference file="modules/blocks/xartemplates/admin-modify_instance.xd" line="89" />
+			<reference file="modules/blocks/xaradmin/create_instance.php" line="36" />
+			<reference file="modules/blocks/xaradmin/update_instance.php" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid parameter</string>
+		<translation>Nieprawidłowy parametr</translation>
+		<references>
+			<reference file="modules/blocks/xaradminapi/delete_group.php" line="27" />
+			<reference file="modules/blocks/xaradminapi/delete_instance.php" line="27" />
+			<reference file="modules/blocks/xaradminapi/update_instance.php" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Edytuj konfigurację</translation>
+		<references>
+			<reference file="modules/blocks/xaradminapi/getmenulinks.php" line="62" />
+			<reference file="modules/blocks/xartemplates/includes/admin-menu.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid parameter: missing module or type</string>
+		<translation>Nieprawidłowy parametr: brak typu modułu</translation>
+		<references>
+			<reference file="modules/blocks/xaruserapi/read_type_info.php" line="27" />
+			<reference file="modules/blocks/xaruserapi/read_type_init.php" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Groups</string>
+		<translation>Grupy bloków</translation>
+		<references>
+			<reference file="modules/blocks/xaruserapi/getitemtypes.php" line="35" />
+			<reference file="modules/blocks/xartemplates/includes/admin-menu.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Groups</string>
+		<translation>Grupy</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="8" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Status</string>
+		<translation>Status</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="20" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>View block type details</string>
+		<translation>Pokaż szczegóły typu bloku</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/includes/plain.xd" line="52" />
+			<reference file="modules/blocks/xartemplates/includes/plain2.xd" line="61" />
 		</references>
 	</entry>
 </translations>
