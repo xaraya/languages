@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="sv_SE.utf-8">
+	<entry>
+		<string>official icon</string>
+		<translation>Officiell ikon</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>Vad är det här?</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>The eBulletin module is an email newsletter system that
+exclusively uses Blocklayout to generate newsletters using content that's
+already on your site. This gives you the power of determining exactly what
+content is included and how it is formatted.</string>
+		<translation>Modulen eBulletin är ett system för att sända nyhetsbrev via e-post. eBulletin använder uteslutande Blocklayout för att generera nyhetsbrev utifrån det innehåll som redan finns på din sajt. Detta ger dig makten att exakt bestämma vilket innehåll som ska tas med och hur det formatteras.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Installation Notes</string>
+		<translation>Installationsanteckningar</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>After installing this module, be sure to set your desired template directory.
+You will also have to create Blocklayout templates for your newsletters. See &lt;code&gt;modules/ebulletin/contrib/templates/sample.xd&lt;/code&gt; for a sample template with instructions.</string>
+		<translation>Efter att du installerat denna modul behöver du försäkra dig om att du angett den mallkatalog du vill använda. Du kommer även att behöva skapa blocklayoutmallar för dina nyhetsbrev. Studera &lt;code&gt;modules/ebulletin/contrib/templates/sample.xd&lt;/code&gt; som är en exempelmall med instruktioner.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>eBulletin can also be configured to use an alternate theme when generating templates. You might consider creating your own customized theme (perhaps starting with
+the 'print' theme due to its simplicity).</string>
+		<translation>eBulletin kan även konfigureras till att använda alternativa teman (themes) när mallar (templates) genereras. Du bör överväga att skapa ditt eget anpassade tema (börja gärna med temat 'print' eftersom det är ett enkelt tema).</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>Hur använder jag det här?</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Create publications&lt;/a&gt; for as many diffent newsletters as you want to have.&lt;/em&gt;</string>
+		<translation>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Skapa publikationer&lt;/a&gt; för så många olika nyhetsbrev du behöver.&lt;/em&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>When configurating a publication, you can set a starting and ending interval, which is the range of dates to select content from when creating an Issue. These dates are provided to your templates, which you can then use in BlockLayout tags when calling blocks, modules, etc. The intervals are based on the Issue Date which is specified at the time each issue is created.</string>
+		<translation>När du konfigurerar en publikation anger du från- och tilldatum som tillsammans bildar det datumintervall ur vilket innehåll sedan kan hämtas till dina utgåvor för publikationen. Dessa datum sänds vidare till dina mallar. Mallarna infogar du via taggar i BlockLayout när du kallar på block, moduler etc. Intervallen baseras på utgåvodatumet som specificeras då varje utgåva skapas.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must define an email address to go in the &lt;code&gt;TO:&lt;/code&gt; and &lt;code&gt;FROM:&lt;/code&gt; fields of each issue when it is sent. These will be seen by every recipient of your newsletter, so they should be easily recognizable and preferably real addresses.</string>
+		<translation>Du måste ange e-postadresser för fälten &lt;code&gt;TILL:&lt;/code&gt; och &lt;code&gt;FRÅN:&lt;/code&gt; för varje utgåva innan den sänds. E-postadreserna bör vara fungerande och lätta att känna igen eftersom alla mottagare kommer att se dessa.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Each publication can be assigned its own HTML and/or text template. If you only want a text email, then leave the HTML template blank, or vice versa. You can, of course, specify templates for each. You can even assign the same template for both HTML and text versions of your newsletter. eBulletin does some rudimentary conversions (a.k.a. &lt;code&gt;strip_tags()&lt;/code&gt;) to make sure things look fairly decent in the absence of a specialized template.</string>
+		<translation>Varje publikation kan tilldelas sin egen HTML- och/eller Textmall. Om du bara vill  sända ett textmejl lämnar du fältet HTMLmall tomt och tvärtom. Du kan självklart ange mallar för båda. Du kan till och med tilldela samma mall för både HTML- och Textversionen av ditt nyhetsbrev. eBulletin gör några grundläggande konverteringar (det vill säga &lt;code&gt;strip_tags()&lt;/code&gt;) för att säkerställa att saker och ting ser någotsånär hyfsat ut vid frånvaron av en specialiserad mall.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Add subscribers&lt;/a&gt; for each publication.&lt;/em&gt;</string>
+		<translation>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Lägg till prenumeranter&lt;/a&gt; till varje publikation.&lt;/em&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>It is &lt;em&gt;not&lt;/em&gt; necessary for a user to be registered on your website in order to subscribe. Anonymous users are not allowed to subscribe using emails owned by the registered users of your site. A name is required for each subscriber. Also, eBulletin has a ModifyConfig option to require unregistered users to validate subscription changes through email. &lt;em&gt;Important:&lt;/em&gt; if you use this option, you must copy &lt;code&gt;modules/ebulletin/contrib/ebval.php&lt;/code&gt; to the top level of your website (in the same folder as &lt;code&gt;index.php&lt;/code&gt;).</string>
+		<translation>Det är &lt;em&gt;inte&lt;/em&gt; nödvändigt för en användare att vara registrerad på din webbsajt för att kunna anmäla sig till en prenumeration. Anonyma användare tillåts inte att anmäla sig till en prenumeration genom att använda e-postadressen för en redan registrerad användare på din webbsajt. Ett namn krävs för varje prenumerant. eBulletin har även en konfigurationsinställning (ModifyConfig) där du kan ställa in att ej registrerade användare måste validera sina prenumerationsförändringar via e-post. &lt;em&gt;Viktigt:&lt;/em&gt; om du använder detta alternativ måste du kopiera &lt;code&gt;modules/ebulletin/contrib/ebval.php&lt;/code&gt; till toppnivån för din webbsajt (samma katalog som &lt;code&gt;index.php&lt;/code&gt;).</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>A separate Batch interface is provided for subscribing registered and nonregistered users. The non-registered interface can accept a list of names and emails, one per line, in several different formats. Notably, it can take the contents of a standard CSV (comma-separated) file if you have a large list of people to subscribe. See the example provided below the text box.</string>
+		<translation>Ett separat batchgränssnitt finns för att prenumerationsanmäla registrerade och ej registrerade användare. I gränssnittet för ej registrerade användare kan du ange en lista med namn och e-postadresser, en per rad, i ett flertal olika format. Du kan även använda en fil i standard CSVformat (kommaseparerad) om du har en stor prenumerantlista. Exempel hittar du under textboxen.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Users may subscribe themselves using one of several methods:</string>
+		<translation>Användare kan själva anmäla sig till en prenumeration genom ett av flera sätt:</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>If the &lt;code&gt;usermenu&lt;/code&gt; hook is enabled, by a &quot;Newsletter&quot; tab in their Account section. Note that enabling this hook also enables eBulletin's &lt;code&gt;create&lt;/code&gt; hook. See below.</string>
+		<translation>Om kroken &lt;code&gt;användarmeny (usermenu)&lt;/code&gt; är aktiverad, via fliken &quot;Nyhetsbrev&quot; under deras kontoinställningar. Aktivering av denna krok aktiverar också eBulletin's krok &lt;code&gt;skapa&lt;/code&gt;. Läs mer nedan.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>The &lt;code&gt;ebulletin/subscription&lt;/code&gt; block</string>
+		<translation>Blocket &lt;code&gt;ebulletin/subscription&lt;/code&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>eBulletin's &lt;code&gt;main&lt;/code&gt; user function</string>
+		<translation>eBulletin's funktion användare (user) under &lt;code&gt;huvudmeny (main)&lt;/code&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="62" />
+		</references>
+	</entry>
+	<entry>
+		<string>Or, if you have a legitimate mailing list, you could put it in the publication's &lt;code&gt;TO:&lt;/code&gt; field and use it as an external tool to manage subscriptions. If you do this, you may want to make that publication private. Otherwise, users may end up subscribed to both lists and therefore receive duplicate copies of every issue.</string>
+		<translation>Eller om du har en aktiv e-postlista, så kan du ange dess adress i publikationens &lt;code&gt;TILL:&lt;/code&gt;fält för att använda eBulletin som ett externt verktyg för att hantera prenumerationer. Om du väljer detta sätt, kan du ställa in att publikationen inte ska vara offentlig, för att undvika att användare av misstag registrerar sig två gånger och därmed får dubbla mejl av dina utgåvor.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Create a new issue&lt;/a&gt; for a given publication as often as desired, whenever you want to send something out to your subscribers.&lt;/em&gt;</string>
+		<translation>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Skapa en ny utgåva&lt;/a&gt; för en bestämd publikation så ofta du önskar, närhelst du vill sända någonting till dina prenumeranter.&lt;/em&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>eBulletin will then use your templates to generate HTML and/or text versions of your newsletter. You can view, edit, or even regenerate issues whenever you want, even after you've published them. (In that case, it asks you for a confirmation first.) Note that by modifying the Issue Date and then regenerating, you can effectively change the entire issue.</string>
+		<translation>eBulletin använder dina mallar för att generera HTML- och/eller Textversioner av ditt nyhetsbrev. Du kan visa, redigera och återskapa utgåvor när du vill, även efter att du publicerat dom. Återskapande av redan publicerade utgåvor varnar med ett extra bekräftelsesteg i publiceringsprocessen. Genom att ändra utgåvodatumet och sedan återskapa, kan du effektivt ändra hela utgåvan.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Whenever you're ready, press the &lt;code&gt;Publish&lt;/code&gt; link. This will show you a summary of the issue, including the list of emails it will be sent to. Press the &lt;code&gt;Send&lt;/code&gt; button to actually send the newsletter out.</string>
+		<translation>När du är färdig för sändning klickar du på länken &lt;code&gt;Publicera&lt;/code&gt;. Du ska nu få upp en sammanställning av utgåvan samt en lista med e-postadresser som den kommande sändningen omfattar. För att verkligen sända nyhetsbrevet klickar du slutligen på knappen &lt;code&gt;Sänd&lt;/code&gt;.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Medföljande block</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;code&gt;ebulletin/subscription&lt;/code&gt; - Allow users to subscribe or unsubscribe from a block instead of going to eBulletin's main page.</string>
+		<translation>&lt;code&gt;ebulletin/subscription&lt;/code&gt; - Ger användaren möjligheten att anmäla och avanmäla sin prenumeration via ett block istället för att gå via eBulletin's huvudsida.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Medföljande krokar (hooks)</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;code&gt;usermenu&lt;/code&gt; - adds a &quot;Newsletter&quot; tab to your users' Account pages for ease of managing one's subscriptions</string>
+		<translation>&lt;code&gt;användarmeny (usermenu)&lt;/code&gt; - Lägger till en flik för &quot;Nyhetsbrev&quot; till dina användares kontoinställningssida så att de själva enkelt kan hantera sina prenumerationer.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;code&gt;create&lt;/code&gt; - automatically subscribes users to all public newsletters when they register on your website</string>
+		<translation>&lt;code&gt;skapa&lt;/code&gt; - Anmäler automatiskt användare till alla offentliga nyhetsbrev när de registrerar sig på din webbsajt.</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Ytterligare information</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>Documentation folder: &lt;code&gt;modules/ebulletin/xardocs/&lt;/code&gt;</string>
+		<translation>Dokumentationskatalog: &lt;code&gt;modules/ebulletin/xardocs/&lt;/code&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module's page at Xaraya.com: &lt;a href=&quot;http://www.xaraya.com/index.php/release/557.html&quot; target=&quot;_blank&quot;&gt;Xaraya Extension and Releases&lt;/a&gt;</string>
+		<translation>Modulens sida på Xaraya.com: &lt;a href=&quot;http://www.xaraya.com/index.php/release/557.html&quot; target=&quot;_blank&quot;&gt;Xaraya Extension and Releases&lt;/a&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Bugs and feature requests: &lt;a href=&quot;http://bugs.xaraya.com/&quot; target=&quot;_blank&quot;&gt;Xaraya Bug Tracker&lt;/a&gt;</string>
+		<translation>Buggrapportera och lämna förslag på nya funktioner: &lt;a href=&quot;http://bugs.xaraya.com/&quot; target=&quot;_blank&quot;&gt;Xaraya Bug Tracker&lt;/a&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support issues of general interest: &lt;a href=&quot;http://xaraya.curtisfarnham.com/forums/&quot; target=&quot;_blank&quot;&gt;Forums at the author's website&lt;/a&gt;</string>
+		<translation>Supportärenden av allmän karaktär: &lt;a href=&quot;http://xaraya.curtisfarnham.com/forums/&quot; target=&quot;_blank&quot;&gt;Forum på författarens webbsajt&lt;/a&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>Everything else: &lt;a href=&quot;http://xaraya.curtisfarnham.com/contact/&quot; target=&quot;_blank&quot;&gt;Contact form at the author's website&lt;/a&gt;</string>
+		<translation>Allting annat: &lt;a href=&quot;http://xaraya.curtisfarnham.com/contact/&quot; target=&quot;_blank&quot;&gt;Kontaktformulär på författarens webbsajt&lt;/a&gt;</translation>
+		<references>
+			<reference file="modules/ebulletin/xartemplates/admin-overview.xd" line="104" />
+		</references>
+	</entry>
+</translations>
