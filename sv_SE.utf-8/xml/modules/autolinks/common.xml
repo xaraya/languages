@@ -5,26 +5,9 @@
 		<translation>Ogiltigt antal parametrar</translation>
 		<references>
 			<reference file="modules/autolinks/xaradminapi/create.php" line="32" />
-			<reference file="modules/autolinks/xaradminapi/createtype.php" line="37" />
 			<reference file="modules/autolinks/xaradminapi/update.php" line="58" />
+			<reference file="modules/autolinks/xaradminapi/createtype.php" line="37" />
 			<reference file="modules/autolinks/xaruserapi/transform.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid parameter count</string>
-		<translation>Ogiltigt antal parametrar</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/deletetype.php" line="20" />
-			<reference file="modules/autolinks/xaradminapi/updatecache.php" line="23" />
-			<reference file="modules/autolinks/xaradminapi/updatetype.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>No such link type present: #(1)</string>
-		<translation>Ingen sådan länktyp tillgänglig: #(1)</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/deletetype.php" line="35" />
-			<reference file="modules/autolinks/xaradminapi/updatetype.php" line="69" />
 		</references>
 	</entry>
 	<entry>
@@ -68,20 +51,37 @@
 		</references>
 	</entry>
 	<entry>
+		<string>Invalid parameter count</string>
+		<translation>Ogiltigt antal parametrar</translation>
+		<references>
+			<reference file="modules/autolinks/xaradminapi/updatecache.php" line="23" />
+			<reference file="modules/autolinks/xaradminapi/updatetype.php" line="54" />
+			<reference file="modules/autolinks/xaradminapi/deletetype.php" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>No such link type present: #(1)</string>
+		<translation>Ingen sådan länktyp tillgänglig: #(1)</translation>
+		<references>
+			<reference file="modules/autolinks/xaradminapi/updatetype.php" line="69" />
+			<reference file="modules/autolinks/xaradminapi/deletetype.php" line="35" />
+		</references>
+	</entry>
+	<entry>
 		<string>Autolinks Administration</string>
 		<translation>Administration Autolänkar</translation>
 		<references>
 			<reference file="modules/autolinks/xartemplates/admin-delete.xd" line="1" />
-			<reference file="modules/autolinks/xartemplates/admin-deletetype.xd" line="1" />
 			<reference file="modules/autolinks/xartemplates/admin-main.xd" line="3" />
 			<reference file="modules/autolinks/xartemplates/admin-modify.xd" line="3" />
 			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="10" />
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="4" />
-			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="1" />
 			<reference file="modules/autolinks/xartemplates/admin-new.xd" line="2" />
-			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="3" />
 			<reference file="modules/autolinks/xartemplates/admin-view.xd" line="4" />
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="4" />
+			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="3" />
 			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="2" />
+			<reference file="modules/autolinks/xartemplates/admin-deletetype.xd" line="1" />
+			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="1" />
 			<reference file="modules/autolinks/xartemplates/util-export.xd" line="1" />
 			<reference file="modules/autolinks/xartemplates/util-main.xd" line="1" />
 			<reference file="modules/autolinks/xartemplates/util-samples.xd" line="1" />
@@ -108,8 +108,8 @@
 		<translation>Visa autolänkar</translation>
 		<references>
 			<reference file="modules/autolinks/xartemplates/admin-modify.xd" line="6" />
-			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="4" />
 			<reference file="modules/autolinks/xartemplates/admin-view.xd" line="7" />
+			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
@@ -134,10 +134,10 @@
 		<translation>Flytta</translation>
 		<references>
 			<reference file="modules/autolinks/xartemplates/admin-modify.xd" line="19" />
-			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="26" />
-			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="56" />
 			<reference file="modules/autolinks/xartemplates/admin-view.xd" line="105" />
 			<reference file="modules/autolinks/xartemplates/admin-view.xd" line="107" />
+			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="26" />
+			<reference file="modules/autolinks/xartemplates/admin-move.xd" line="56" />
 		</references>
 	</entry>
 	<entry>
@@ -145,10 +145,10 @@
 		<translation>Namn</translation>
 		<references>
 			<reference file="modules/autolinks/xartemplates/admin-modify.xd" line="34" />
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="24" />
 			<reference file="modules/autolinks/xartemplates/admin-new.xd" line="38" />
-			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="18" />
 			<reference file="modules/autolinks/xartemplates/admin-view.xd" line="34" />
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="24" />
+			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="18" />
 			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="10" />
 		</references>
 	</entry>
@@ -192,48 +192,6 @@
 		<references>
 			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="121" />
 			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="84" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Autolink Types</string>
-		<translation>Visa autolänktyper</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="7" />
-			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Template Name</string>
-		<translation>Mallnamn</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="36" />
-			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="29" />
-			<reference file="modules/autolinks/xartemplates/util-samples.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>name</string>
-		<translation>namn</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="39" />
-			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Execute Template Dynamically</string>
-		<translation>Exekvera mallar dynamiskt</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="52" />
-			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Description</string>
-		<translation>Beskrivning</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="66" />
-			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="55" />
-			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
@@ -286,6 +244,48 @@
 			<reference file="modules/autolinks/xartemplates/admin-view.xd" line="112" />
 			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="46" />
 			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Autolink Types</string>
+		<translation>Visa autolänktyper</translation>
+		<references>
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="7" />
+			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template Name</string>
+		<translation>Mallnamn</translation>
+		<references>
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="36" />
+			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="29" />
+			<reference file="modules/autolinks/xartemplates/util-samples.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>name</string>
+		<translation>namn</translation>
+		<references>
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="39" />
+			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Execute Template Dynamically</string>
+		<translation>Exekvera mallar dynamiskt</translation>
+		<references>
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="52" />
+			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>Description</string>
+		<translation>Beskrivning</translation>
+		<references>
+			<reference file="modules/autolinks/xartemplates/admin-modifytype.xd" line="66" />
+			<reference file="modules/autolinks/xartemplates/admin-newtype.xd" line="55" />
+			<reference file="modules/autolinks/xartemplates/admin-viewtype.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
