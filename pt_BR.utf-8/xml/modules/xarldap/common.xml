@@ -4,7 +4,7 @@
 		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
 		<translation>Sua configuração do PHP não aparenta incluir a extensão LDAP exigida. Por favor, confira o &lt;a href=http://br.php.net/manual/pt_BR/ref.ldap.php target=_blank&gt;manual do PHP&lt;/a&gt; para informações sobre como adicioná-la.</translation>
 		<references>
-			<reference file="modules/xarldap/xarinit.php" line="24" />
+			<reference file="modules/xarldap/xarinit.php" line="23" />
 			<reference file="modules/xarldap/xarldap.php" line="84" />
 		</references>
 	</entry>
@@ -33,129 +33,154 @@
 		<string>LDAP Error: Search LDAP base_dn #(1) filter #(2) failed</string>
 		<translation>Erro LDAP: Busca LDAP na base_dn #(1) com filtro #(2) falhou.</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="278" />
+			<reference file="modules/xarldap/xarldap.php" line="279" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty password (#(1)).</string>
 		<translation>Senha vazia (#(1)).</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="613" />
+			<reference file="modules/xarldap/xarldap.php" line="644" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty body (#(1)).</string>
 		<translation>Corpo vazio (#(1)).</translation>
 		<references>
-			<reference file="modules/xarldap/xarldap.php" line="649" />
+			<reference file="modules/xarldap/xarldap.php" line="680" />
 		</references>
 	</entry>
 	<entry>
 		<string>User Search</string>
 		<translation>Procurar Usuário</translation>
 		<references>
-			<reference file="modules/xarldap/xaradmin/search.php" line="51" />
-			<reference file="modules/xarldap/xaradminapi/getmenulinks.php" line="48" />
+			<reference file="modules/xarldap/xaradmin/search.php" line="50" />
+			<reference file="modules/xarldap/xaradminapi/getmenulinks.php" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Connection</string>
+		<translation>Testar Conexão</translation>
+		<references>
+			<reference file="modules/xarldap/xaradminapi/getmenulinks.php" line="41" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="71" />
 		</references>
 	</entry>
 	<entry>
 		<string>XarLDAP Administration</string>
 		<translation>Administração do xarLDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="1" />
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="1" />
-			<reference file="modules/xarldap/xartemplates/admin-main.xd" line="1" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="1" />
-			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="1" />
-			<reference file="modules/xarldap/xartemplates/admin-usersearch.xd" line="1" />
-		</references>
-	</entry>
-	<entry>
-		<string>Success!</string>
-		<translation>Sucesso!</translation>
-		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="11" />
-			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Failure!</string>
-		<translation>Falha!</translation>
-		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="19" />
-			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="26" />
+			<reference file="modules/xarldap/xartemplates/admin-main.xd" line="4" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="4" />
+			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="4" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="4" />
+			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="4" />
+			<reference file="modules/xarldap/xartemplates/admin-usersearch.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Server Name or IP</string>
 		<translation>Nome ou IP do servidor LDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="14" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="20" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="21" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="22" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Server Port Number</string>
 		<translation>Número da Porta do Servidor LDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="22" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="27" />
 			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="28" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="21" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>Anonymously Bind to Server</string>
 		<translation>Vincular Anonimamente ao Servidor</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="30" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="41" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="36" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="37" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="27" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP bind DN</string>
 		<translation>Vinculação DN LDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="38" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="53" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="46" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="47" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="33" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP UserID Field Name</string>
 		<translation>Nome do Campo UserID do LDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="46" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="61" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="52" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="53" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="39" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
 		<string>Search User DN</string>
 		<translation>Procurar DN de Usuário</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="54" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="69" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="58" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="59" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="45" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Admin ID</string>
 		<translation>ID do Administrador LDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="62" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="81" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="68" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="69" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="51" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>LDAP Admin Password</string>
 		<translation>Senha do Administrador LDAP</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="70" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="89" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="74" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="75" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="80" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="15" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="57" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="58" />
 		</references>
 	</entry>
 	<entry>
 		<string>Use TLS (LDAP Protocol 3 only)</string>
 		<translation>Utilizar TLS (somente Protocolo LDAP versão 3)</translation>
 		<references>
-			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="78" />
-			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="97" />
+			<reference file="modules/xarldap/xartemplates/admin-modifyconfig.xd" line="81" />
+			<reference file="modules/xarldap/xartemplates/admin-connecttest.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Success!</string>
+		<translation>Sucesso!</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="14" />
+			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Failure!</string>
+		<translation>Falha!</translation>
+		<references>
+			<reference file="modules/xarldap/xartemplates/admin-connectstatus.xd" line="22" />
+			<reference file="modules/xarldap/xartemplates/admin-search.xd" line="34" />
 		</references>
 	</entry>
 </translations>
