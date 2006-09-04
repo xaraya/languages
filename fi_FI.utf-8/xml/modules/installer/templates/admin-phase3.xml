@@ -99,7 +99,7 @@ The current memory limit is #(1).</string>
 	<entry>
 		<string>If you are planning to install modules during the install phase, a lot of memory is
 required. If in doubt, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
-		<translation>Jos aiot asentaa moduuleja jo asennusvaiheessa, tarvitaan paljon muistia. Jos epäilet muistin riittävyyttä, &lt;strong&gt;asenna nyt vain ydintoiminnallisuus&lt;/strong&gt; ja asenna muut moduulit jälkikäteen.</translation>
+		<translation>Jos aiot asentaa moduuleja jo asennusvaiheessa, tarvitaan paljon muistia. Jos epäilet muistin riittävyyttä, asenna nyt vain ydintoiminnallisuus ja asenna muut moduulit jälkikäteen.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="88" />
 		</references>
@@ -107,7 +107,7 @@ required. If in doubt, &lt;strong&gt;do a core only install&lt;/strong&gt; and i
 	<entry>
 		<string>WARNING: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
 The current memory limit is &lt;strong&gt;#(1)&lt;/strong&gt;.</string>
-		<translation>VAROITUS: Xaraya tarvitsee VÄHINTÄÄN 8 megatavua PHP-muistia (SUOSITUS on yli 16Mt). Nykyinen muistiraja on &lt;strong&gt;#(1)&lt;/strong&gt;.</translation>
+		<translation>VAROITUS: Xaraya tarvitsee VÄHINTÄÄN 8 megatavua PHP-muistia (SUOSITUS on yli 16Mt). Nykyinen muistiraja on #(1).</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="96" />
 		</references>
@@ -115,7 +115,7 @@ The current memory limit is &lt;strong&gt;#(1)&lt;/strong&gt;.</string>
 	<entry>
 		<string>Please check your PHP memory limit. Installation requires a lot of memory especially if you are planning to install modules during this phase.
 If in doubt about your PHP memory limit, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
-		<translation>Tarkista PHP:n muistiraja. Asennus vaatii paljon muistia, etenkin jos aiot asentaa moduuleita tässä vaiheessa. Jos epäilet muistin riittävyyttä, &lt;strong&gt;asenna nyt vain ydintoiminnallisuus&lt;/strong&gt; ja asenna muut moduulit jälkikäteen.</translation>
+		<translation>Tarkista PHP:n muistiraja. Asennus vaatii paljon muistia, etenkin jos aiot asentaa moduuleita tässä vaiheessa. Jos epäilet muistin riittävyyttä, asenna nyt vain ydintoiminnallisuus ja asenna muut moduulit jälkikäteen.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="104" />
 		</references>
@@ -264,7 +264,7 @@ If you're not sure, ignore this warning.</string>
 	</entry>
 	<entry>
 		<string>This write access is only needed if you intend on using translations module at your site actively.</string>
-		<translation>Näitä kirjoitusoikeuksia tarvitaan vain, jos aiot käyttää käännökset-moduulia sivustollasi.</translation>
+		<translation>Näitä kirjoitusoikeuksia tarvitaan vain, jos aiot käyttää Käännökset-moduulia sivustollasi.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="373" />
 		</references>
@@ -280,7 +280,7 @@ If you're not sure, ignore this warning.</string>
 		<string>These extensions may be required for some modules to work, however Xaraya
 is not dependant on these extensions for installation.
 Refer to #(1) for further information on these extensions.</string>
-		<translation>Näitä laajennuksia voidaan tarvita joidenkin moduulien toimintaan. Xarayan asennusohjelma ei kuitenkaan tarvitse seuraavia laajennoksia. Lue #(1) saadaksesi lisää tietoa näistä laajennuksista.</translation>
+		<translation>Näitä laajennuksia voidaan tarvita joidenkin moduulien toimintaan. Xarayan asennusohjelma ei kuitenkaan tarvitse seuraavia laajennuksia. Lue #(1) saadaksesi lisää tietoa näistä laajennuksista.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="386" />
 		</references>
@@ -289,50 +289,85 @@ Refer to #(1) for further information on these extensions.</string>
 		<string>SUCCESS: The XML Extension is loaded.</string>
 		<translation>ONNISTUI: XML-laajennus on ladattu.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="396" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="397" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: The XML Extension is not loaded. You will require this extension
 if you plan to use the Xaraya Translations module.</string>
-		<translation>VAROITUS: XML-laajennusta ei ole ladattu. Tarvitset tätä laajennusta, jos aiot käyttää Xarayan käännös-moduulia.</translation>
+		<translation>VAROITUS: XML-laajennusta ei ole ladattu. Tarvitset tätä laajennusta, jos aiot käyttää Xarayan Käännökset-moduulia.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="401" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="402" />
+		</references>
+	</entry>
+	<entry>
+		<string>You will need at least one available database type</string>
+		<translation>Tarvitset vähintään yhden tietokannan jonka tyyppi on tuettu</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="407" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: You have at least one database type available.</string>
+		<translation>ONNISTUI: Sinulla on käytettävissä vähintään yksi tietokanta jonka tyyppi on tuettu.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="412" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: You do not have a supported database type available.</string>
+		<translation>VAROITUS: Sinulla ei ole käytettävissä tuetun tyyppistä tietokantaa.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="416" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The MySQL Extension is loaded.</string>
 		<translation>ONNISTUI: MySQL-laajennus on ladattu.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="406" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="421" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: MySQL as database will not be available</string>
 		<translation>VAROITUS: MySQL-tietokanta ei ole saatavilla</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="410" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="425" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The PGSQL Extension is loaded.</string>
 		<translation>ONNISTUI: PGSQL-laajennus on ladattu.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="415" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="430" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: PostgreSQL as database will not be available</string>
 		<translation>VAROITUS: PostgreSQL-tietokanta ei ole saatavilla</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="419" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="434" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The SQLite Extension is loaded.</string>
+		<translation>ONNISTUI: SQLite-laajennus on ladattu.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="439" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: SQLITE as database will not be available</string>
+		<translation>VAROITUS: SQLite-tietokanta ei ole saatavilla</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="443" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The PHP4 XSLT Extension is loaded.</string>
 		<translation>ONNISTUI: PHP4 XSLT-laajennus on ladattu.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="424" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="449" />
 		</references>
 	</entry>
 	<entry>
@@ -340,14 +375,14 @@ if you plan to use the Xaraya Translations module.</string>
 This PHP4 extension is only needed for the PHP4 XSLT transform module at this time.</string>
 		<translation>Varoitus: PHP4 XSLT-laajennus ei ole ladattu. Vain PHP4 XSLT -käännösmoduuli tarvitsee tätä laajennusta.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="431" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="456" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The LDAP Extension is loaded.</string>
 		<translation>ONNISTUI: LDAP-laajennus on ladattu.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="436" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="461" />
 		</references>
 	</entry>
 	<entry>
@@ -355,14 +390,14 @@ This PHP4 extension is only needed for the PHP4 XSLT transform module at this ti
 This extension is only needed if you intend on using LDAP authentication with the Xaraya LDAP Modules.</string>
 		<translation>VAROITUS: LDAP-laajennusta ei ole ladattu. Tätä laajennusta tarvitaan vain, jos aiot käyttää LDAP autentikointia Xarayan LDAP-moduulin kanssa.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="443" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="468" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The GD Extension is loaded.</string>
 		<translation>ONNISTUI: GD-laajennus on ladattu.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="448" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="473" />
 		</references>
 	</entry>
 	<entry>
@@ -370,14 +405,14 @@ This extension is only needed if you intend on using LDAP authentication with th
 This extension is only needed for the images module at this time for resizing of thumbnails.</string>
 		<translation>VAROITUS: GD-laajennusta ei ole ladattu. Tarvitset tätä laajennusta, jos haluat muuttaa kuvien kokoa Kuvat-moduulin avulla.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="455" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="480" />
 		</references>
 	</entry>
 	<entry>
 		<string>Check Again</string>
 		<translation>Tarkista uudelleen</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="469" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="495" />
 		</references>
 	</entry>
 </translations>

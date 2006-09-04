@@ -4,7 +4,7 @@
 		<string>An error occurred while processing your request. The details are:</string>
 		<translation>Komennon suorituksessa tapahtui virhe. Tarkempia tietoja:</translation>
 		<references>
-			<reference file="index.php" line="165" />
+			<reference file="index.php" line="170" />
 		</references>
 	</entry>
 	<entry>
@@ -18,7 +18,7 @@
 		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
 		<translation>Tietokantavirhe ajettaessa: '#(1)': virheen kuvaus on: '#(2)'</translation>
 		<references>
-			<reference file="includes/xarException.php" line="459" />
+			<reference file="includes/xarException.php" line="462" />
 		</references>
 	</entry>
 	<entry>
@@ -1297,21 +1297,21 @@
 		<string>No validation type present.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarVar.php" line="326" />
+			<reference file="includes/xarVar.php" line="314" />
 		</references>
 	</entry>
 	<entry>
 		<string>The #(1) type '#(2)' could not be found.</string>
 		<translation>Tyyppiä #(1) tiedostossa '#(2)' ei löytynyt.</translation>
 		<references>
-			<reference file="includes/xarVar.php" line="1050" />
+			<reference file="includes/xarVar.php" line="1038" />
 		</references>
 	</entry>
 	<entry>
 		<string>Variable #(1) is not an array: &quot;#(2)&quot;</string>
 		<translation>Muuttuja #(1) ei ole taulukko (array): &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="17" />
+			<reference file="includes/validations/array.php" line="19" />
 			<reference file="includes/validations/list.php" line="18" />
 		</references>
 	</entry>
@@ -1319,7 +1319,7 @@
 		<string>Not an array: &quot;#(1)&quot;</string>
 		<translation>Ei ole taulukko (array): &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="19" />
+			<reference file="includes/validations/array.php" line="21" />
 			<reference file="includes/validations/list.php" line="20" />
 		</references>
 	</entry>
@@ -1327,14 +1327,14 @@
 		<string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Taulukkomuuttuja sisältää vähemmän alkioita &quot;#(1)&quot; kuin asetettu minimi &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="30" />
+			<reference file="includes/validations/array.php" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Taulukkomuuttuja sisältää enemmän alkioita &quot;#(1)&quot; kuin asetettu maksimi &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/array.php" line="42" />
+			<reference file="includes/validations/array.php" line="44" />
 		</references>
 	</entry>
 	<entry>
@@ -1355,14 +1355,14 @@
 		<string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string>
 		<translation>Muuttuja #(1) ei ole valintaruutu (checkbox): &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/checkbox.php" line="21" />
+			<reference file="includes/validations/checkbox.php" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a scheckbox: &quot;#(1)&quot;</string>
 		<translation>Ei ole valintaruutu: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/checkbox.php" line="23" />
+			<reference file="includes/validations/checkbox.php" line="25" />
 		</references>
 	</entry>
 	<entry>
@@ -1397,28 +1397,28 @@
 		<string>Variable #(1) is not a float type: &quot;#(2)&quot;</string>
 		<translation>Muuttuja #(1) ei ole liukuluku-tyyppiä: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="18" />
+			<reference file="includes/validations/float.php" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not a float type: &quot;#(1)&quot;</string>
 		<translation>Ei ole liukuluku-tyyppiä: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="20" />
+			<reference file="includes/validations/float.php" line="26" />
 		</references>
 	</entry>
 	<entry>
 		<string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Liukuluku &quot;#(1)&quot; on pienempi kuin määritelty minimi &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="31" />
+			<reference file="includes/validations/float.php" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Liukuluku &quot;#(1)&quot; on suurempi kuin määritelty maksimi &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/float.php" line="43" />
+			<reference file="includes/validations/float.php" line="49" />
 		</references>
 	</entry>
 	<entry>
@@ -1446,35 +1446,35 @@
 		<string>Variable #(1) is not an integer: &quot;#(2)&quot;</string>
 		<translation>Muuttuja #(1) ei ole kokonaisluku: &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="19" />
+			<reference file="includes/validations/int.php" line="21" />
 		</references>
 	</entry>
 	<entry>
 		<string>Not an integer: &quot;#(1)&quot;</string>
 		<translation>Ei ole kokonaisluku: &quot;#(1)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="21" />
+			<reference file="includes/validations/int.php" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
 		<translation>Kokonaisluku &quot;#(1)&quot; on pienempi kuin määritelty minimi &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="32" />
+			<reference file="includes/validations/int.php" line="34" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
 		<translation>Kokonaisluku &quot;#(1)&quot; on suurempi kuin määritelty maksimi &quot;#(2)&quot;</translation>
 		<references>
-			<reference file="includes/validations/int.php" line="44" />
+			<reference file="includes/validations/int.php" line="46" />
 		</references>
 	</entry>
 	<entry>
-		<string>Variable not set!</string>
-		<translation>Muuttujaa ei ole asetettu!</translation>
+		<string>The variable is not set!</string>
+		<translation></translation>
 		<references>
-			<reference file="includes/validations/isset.php" line="17" />
+			<reference file="includes/validations/isset.php" line="24" />
 		</references>
 	</entry>
 	<entry>
@@ -1562,24 +1562,17 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Confirm</string>
-		<translation>Vahvista</translation>
-		<references>
-			<reference file="includes/pnHTML.php" line="473" />
-		</references>
-	</entry>
-	<entry>
 		<string>The directories under #(1) must be writeable by PHP.</string>
 		<translation>Hakemistot #(1) alla pitää olla kirjoitettavissa PHP:llä.</translation>
 		<references>
-			<reference file="includes/xarMLS.php" line="870" />
+			<reference file="includes/xarMLS.php" line="883" />
 		</references>
 	</entry>
 	<entry>
 		<string>Context type: #(1) and file name: #(2)</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarMLSPHPBackend.php" line="95" />
+			<reference file="includes/xarMLSPHPBackend.php" line="97" />
 		</references>
 	</entry>
 	<entry>
@@ -1587,28 +1580,31 @@
 		<translation>Moduulin tai teeman nimi #(1) on tyhjä.</translation>
 		<references>
 			<reference file="includes/xarMod.php" line="450" />
-			<reference file="includes/xarMod.php" line="1787" />
+			<reference file="includes/xarMod.php" line="1795" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarMod.php" line="484" />
+			<reference file="includes/xarMod.php" line="482" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unknown</string>
 		<translation>Tuntematon</translation>
 		<references>
+			<reference file="includes/xarMod.php" line="582" />
+			<reference file="includes/xarMod.php" line="584" />
 			<reference file="includes/xarMod.php" line="585" />
+			<reference file="includes/xarMod.php" line="586" />
 			<reference file="includes/xarMod.php" line="587" />
 			<reference file="includes/xarMod.php" line="588" />
 			<reference file="includes/xarMod.php" line="589" />
 			<reference file="includes/xarMod.php" line="590" />
-			<reference file="includes/xarMod.php" line="591" />
-			<reference file="includes/xarMod.php" line="592" />
-			<reference file="includes/xarMod.php" line="593" />
+			<reference file="includes/xarMod.php" line="594" />
+			<reference file="includes/xarMod.php" line="595" />
+			<reference file="includes/xarMod.php" line="596" />
 			<reference file="includes/xarMod.php" line="597" />
 			<reference file="includes/xarMod.php" line="598" />
 			<reference file="includes/xarMod.php" line="599" />
@@ -1616,225 +1612,333 @@
 			<reference file="includes/xarMod.php" line="601" />
 			<reference file="includes/xarMod.php" line="602" />
 			<reference file="includes/xarMod.php" line="603" />
-			<reference file="includes/xarMod.php" line="604" />
-			<reference file="includes/xarMod.php" line="605" />
-			<reference file="includes/xarMod.php" line="606" />
 		</references>
 	</entry>
 	<entry>
 		<string>This module is not installed properly. Not all info could be retrieved</string>
 		<translation>Moduulia ei ole asennetty kunnolla. Kaikkea tietoa ei saatu</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="586" />
+			<reference file="includes/xarMod.php" line="583" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to find Base Info for Module: #(1)</string>
 		<translation>Perustietoja ei saatu moduulille: #(1)</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="657" />
+			<reference file="includes/xarMod.php" line="661" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module Name #(1) is empty.</string>
 		<translation>Moduulin nimi #(1) on tyhjä.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="770" />
+			<reference file="includes/xarMod.php" line="774" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].</string>
 		<translation>Funktiotiedostoa ei pystytty lataamaan:[#(1)].</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="857" />
+			<reference file="includes/xarMod.php" line="860" />
 		</references>
 	</entry>
 	<entry>
 		<string>Error Caught:</string>
 		<translation>Virhe:</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="858" />
+			<reference file="includes/xarMod.php" line="861" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module function #(1) does not exist.</string>
 		<translation>Moduulin funktiota #(1) ei ole olemassa.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="878" />
+			<reference file="includes/xarMod.php" line="881" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarMod.php" line="964" />
+			<reference file="includes/xarMod.php" line="966" />
 		</references>
 	</entry>
 	<entry>
 		<string>Module API function #(1) does not exist or could not be loaded.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarMod.php" line="984" />
+			<reference file="includes/xarMod.php" line="986" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Module or Theme Name (#(1)).</string>
 		<translation>Tyhjä moduuli tai teeman nimi (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1340" />
+			<reference file="includes/xarMod.php" line="1342" />
 		</references>
 	</entry>
 	<entry>
 		<string>Directory information #(1) is empty.</string>
 		<translation>Hakemistorakenne #(1) on tyhjä.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1661" />
+			<reference file="includes/xarMod.php" line="1669" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot open file #(1).</string>
 		<translation>Tiedostoa #(1) ei voitu avata.</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1681" />
+			<reference file="includes/xarMod.php" line="1690" />
 		</references>
 	</entry>
 	<entry>
 		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
 		<translation>Väärä tyyppi, pitää olla joko 'module' tai 'theme': #(1).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1795" />
+			<reference file="includes/xarMod.php" line="1801" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty theme or module name (#(1)).</string>
 		<translation>Tyhjä teema tai moduulin nimi (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1901" />
+			<reference file="includes/xarMod.php" line="1904" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty Theme or Module variable name (#(1)).</string>
 		<translation>Tyhjä teema tai moduulin muuttujan nimi (#(1)).</translation>
 		<references>
-			<reference file="includes/xarMod.php" line="1992" />
+			<reference file="includes/xarMod.php" line="1995" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1506" />
+			<reference file="includes/xarTemplate.php" line="1519" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1513" />
+			<reference file="includes/xarTemplate.php" line="1526" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1592" />
+			<reference file="includes/xarTemplate.php" line="1605" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1601" />
-			<reference file="includes/xarTemplate.php" line="1699" />
+			<reference file="includes/xarTemplate.php" line="1614" />
+			<reference file="includes/xarTemplate.php" line="1712" />
 		</references>
 	</entry>
 	<entry>
 		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1607" />
+			<reference file="includes/xarTemplate.php" line="1620" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1737" />
+			<reference file="includes/xarTemplate.php" line="1750" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1817" />
+			<reference file="includes/xarTemplate.php" line="1830" />
 		</references>
 	</entry>
 	<entry>
 		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1845" />
+			<reference file="includes/xarTemplate.php" line="1858" />
 		</references>
 	</entry>
 	<entry>
 		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTemplate.php" line="1851" />
+			<reference file="includes/xarTemplate.php" line="1864" />
 		</references>
 	</entry>
 	<entry>
 		<string>Empty themeName (#(1)).</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarTheme.php" line="32" />
-			<reference file="includes/xarTheme.php" line="53" />
-			<reference file="includes/xarTheme.php" line="74" />
+			<reference file="includes/xarTheme.php" line="29" />
+			<reference file="includes/xarTheme.php" line="50" />
+			<reference file="includes/xarTheme.php" line="71" />
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) css stylesheet file cannot be found at this location:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="184" />
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="185" />
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="223" />
+			<reference file="modules/themes/xarclass/xarcss.class.php" line="224" />
 		</references>
 	</entry>
 	<entry>
 		<string>Anonymous</string>
 		<translation>Tuntematon</translation>
 		<references>
-			<reference file="includes/xarUser.php" line="380" />
+			<reference file="includes/xarUser.php" line="398" />
+		</references>
+	</entry>
+	<entry>
+		<string>No Information</string>
+		<translation></translation>
+		<references>
+			<reference file="includes/xarUser.php" line="420" />
 		</references>
 	</entry>
 	<entry>
 		<string>User identified by uid #(1) does not exist.</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarUser.php" line="408" />
-			<reference file="includes/xarUser.php" line="432" />
-			<reference file="includes/xarUser.php" line="571" />
+			<reference file="includes/xarUser.php" line="427" />
+			<reference file="includes/xarUser.php" line="461" />
+			<reference file="includes/xarUser.php" line="603" />
 		</references>
 	</entry>
 	<entry>
 		<string>User variable #(1) was not correctly registered</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarUser.php" line="423" />
-			<reference file="includes/xarUser.php" line="562" />
+			<reference file="includes/xarUser.php" line="448" />
+			<reference file="includes/xarUser.php" line="592" />
 		</references>
 	</entry>
 	<entry>
 		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
 		<translation></translation>
 		<references>
-			<reference file="includes/xarSecurity.php" line="574" />
+			<reference file="includes/xarSecurity.php" line="603" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the Users in this Group</string>
+		<translation>Näytä ryhmän käyttäjät</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="269" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete this Group</string>
+		<translation>Poista ryhmä</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="282" />
+		</references>
+	</entry>
+	<entry>
+		<string>Email the Users in this Group</string>
+		<translation>Lähetä sähköposti ryhmän käyttäjille</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="295" />
+		</references>
+	</entry>
+	<entry>
+		<string>Show the Privileges assigned to this Group</string>
+		<translation>Näytä ryhmän oikeudet</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="308" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test this Groups's Privileges</string>
+		<translation>Testaa ryhmän oikeudet</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="321" />
+		</references>
+	</entry>
+	<entry>
+		<string>subgroup</string>
+		<translation>aliryhmä</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="335" />
+		</references>
+	</entry>
+	<entry>
+		<string>subgroups</string>
+		<translation>aliryhmät</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="335" />
+		</references>
+	</entry>
+	<entry>
+		<string>user</string>
+		<translation>käyttäjä</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="336" />
+		</references>
+	</entry>
+	<entry>
+		<string>users</string>
+		<translation>käyttäjät</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="336" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify this Group</string>
+		<translation>Muokkaa ryhmää</translation>
+		<references>
+			<reference file="modules/roles/xartreerenderer.php" line="339" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must enter a user name and a valid email address.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xarroles.php" line="337" />
+			<reference file="modules/roles/xarroles.php" line="539" />
+		</references>
+	</entry>
+	<entry>
+		<string>This entry already exists.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/roles/xarroles.php" line="351" />
+			<reference file="modules/roles/xarroles.php" line="408" />
+			<reference file="modules/roles/xarroles.php" line="558" />
+			<reference file="modules/privileges/xarprivileges.php" line="2074" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must enter a name.</string>
+		<translation>Sinun pitää syöttää nimi.</translation>
+		<references>
+			<reference file="modules/roles/xarroles.php" line="529" />
+			<reference file="modules/privileges/xarprivileges.php" line="2054" />
+		</references>
+	</entry>
+	<entry>
+		<string>deleted</string>
+		<translation>poistettu</translation>
+		<references>
+			<reference file="modules/roles/xarroles.php" line="756" />
+			<reference file="modules/roles/xarroles.php" line="794" />
 		</references>
 	</entry>
 	<entry>
@@ -1848,182 +1952,35 @@
 		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="382" />
+			<reference file="modules/privileges/xarprivileges.php" line="386" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="385" />
+			<reference file="modules/privileges/xarprivileges.php" line="389" />
 		</references>
 	</entry>
 	<entry>
 		<string>No privilege for #(1)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="446" />
+			<reference file="modules/privileges/xarprivileges.php" line="510" />
 		</references>
 	</entry>
 	<entry>
 		<string>A query is missing in component #(1) of module #(2)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1225" />
+			<reference file="modules/privileges/xarprivileges.php" line="1299" />
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1762" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a name.</string>
-		<translation>Sinun pitää syöttää nimi.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1959" />
-			<reference file="modules/roles/xarroles.php" line="500" />
-		</references>
-	</entry>
-	<entry>
-		<string>This entry already exists.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1979" />
-			<reference file="modules/roles/xarroles.php" line="329" />
-			<reference file="modules/roles/xarroles.php" line="383" />
-			<reference file="modules/roles/xarroles.php" line="529" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a user name and a valid email address.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="315" />
-			<reference file="modules/roles/xarroles.php" line="510" />
-		</references>
-	</entry>
-	<entry>
-		<string>deleted</string>
-		<translation>poistettu</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="722" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation #(1) is not supported</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>SELECT with total of columns different from the number retrieved.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="129" />
-		</references>
-	</entry>
-	<entry>
-		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="208" />
-		</references>
-	</entry>
-	<entry>
-		<string>This function can only take 1 or 2 parameters</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="227" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="279" />
-		</references>
-	</entry>
-	<entry>
-		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="256" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your query has no fields.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="763" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Users in this Group</string>
-		<translation>Näytä ryhmän käyttäjät</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="274" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this Group</string>
-		<translation>Poista ryhmä</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="288" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email the Users in this Group</string>
-		<translation>Lähetä sähköposti ryhmän käyttäjille</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="302" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Privileges assigned to this Group</string>
-		<translation>Näytä ryhmän oikeudet</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="316" />
-		</references>
-	</entry>
-	<entry>
-		<string>Test this Groups's Privileges</string>
-		<translation>Testaa ryhmän oikeudet</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="330" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify this Group</string>
-		<translation>Muokkaa ryhmää</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="341" />
-			<reference file="modules/roles/xartreerenderer.php" line="357" />
-		</references>
-	</entry>
-	<entry>
-		<string>subgroup</string>
-		<translation>aliryhmä</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="359" />
-		</references>
-	</entry>
-	<entry>
-		<string>subgroups</string>
-		<translation>aliryhmät</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="359" />
-		</references>
-	</entry>
-	<entry>
-		<string>user</string>
-		<translation>käyttäjä</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="361" />
-		</references>
-	</entry>
-	<entry>
-		<string>users</string>
-		<translation>käyttäjät</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="361" />
+			<reference file="modules/privileges/xarprivileges.php" line="1857" />
 		</references>
 	</entry>
 </translations>
