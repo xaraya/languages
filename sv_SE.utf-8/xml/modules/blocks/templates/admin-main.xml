@@ -147,7 +147,7 @@ you should never need to use this option in the process of administering your si
 &lt;em&gt;left&lt;/em&gt;, &lt;em&gt;center&lt;/em&gt;, &lt;em&gt;topnav&lt;/em&gt; and &lt;em&gt;header&lt;/em&gt; block groups. Special block group tags are used in the default Xaraya theme to
 place and display them and the block instances already assigned to them. In the case of the default block groups
 their name reflects the position where they are located in the default theme. You can rename these block groups as the names are not significant in themselves</string>
-		<translation></translation>
+		<translation>Xaraya har förkonfigurerade blockgrupper skapade vid installationstillfället som inkluderar &lt;em&gt;Right&lt;/em&gt;, &lt;em&gt;left&lt;/em&gt;, &lt;em&gt;center&lt;/em&gt;, &lt;em&gt;topnav&lt;/em&gt; och &lt;em&gt;header&lt;/em&gt; blockgrupper. Speciella blockgruppstaggar används i standard Xaraya-temattill att placera och visa dem och blockinstansen redan tilldelade till dem. I fallen för standard blockgrupperna reflekterar deras namn den position där de är placerade i standardtemat. Du kan döpa om dessa blockgrupper eftersom namnen inte är viktiga i sig själva.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="61" />
 		</references>
@@ -155,7 +155,7 @@ their name reflects the position where they are located in the default theme. Yo
 	<entry>
 		<string>Note: you do not have to allocated a block instance to a blockgroup. You can place the block instance display directly
 into your theme templates using a &lt;strong&gt;block&lt;/strong&gt; tag. Please check &lt;a href=&quot;#(1)&quot;&gt;RFC0010&lt;/a&gt; for details on using this tag.</string>
-		<translation></translation>
+		<translation>Notera: du behöver inte tilldela en blockinstans till en blockgrupp. Du kan placera blockinstansvisning direkt i din temamall geom att använda en &lt;strong&gt;block&lt;/strong-tagg. Vänligen kontrollera &lt;a href=&quot;#(1)&quot;&gt;RFC0010&gt;/a&gt; för detaljerade instruktioner att använda den här taggen.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="66" />
 		</references>
@@ -241,14 +241,14 @@ you can &lt;code&gt;modify&lt;/code&gt; or &lt;code&gt;delete&lt;/code&gt; any o
 	<entry>
 		<string>Create and make available a new block instance for display on your site. As part of this process you
 may nominate which block type to use for creation of the block instance, and optionally assign the block instance to a Block Group.</string>
-		<translation></translation>
+		<translation>Skapa och gör tillgängliga nya blockinstanser för visning på din webbplats. Som en del av den här processen kan du utse vilka blocktyper att använda för skapning av blockinstansen, och alternativt tilldela blockinstansen till en blockgrupp.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="86" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Modify a Block Instance:&lt;/strong&gt;</string>
-		<translation>&lt;strong&gt;Modifiera en blockinstans:&lt;/strong&gt;</translation>
+		<translation>&lt;strong&gt;Ändra en blockinstans:&lt;/strong&gt;</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="87" />
 		</references>
@@ -257,14 +257,14 @@ may nominate which block type to use for creation of the block instance, and opt
 		<string>from the View Block Instance listing provides the option to allocate the block instance
 to one or more Block Groups. In addition, you can optionally specify whether the block instances should use an
 override block instance (inner) template or block group (outer) template (see Templating Blocks and Block Groups). Each module also specifies any special content here that is available for configuration for this specific block type.</string>
-		<translation></translation>
+		<translation>från Visa blockinstans listan tillhandahåller alternativet att tilldela blockinstansen till en eller flera blockgrupper. Dessutom kan du valfritt ange om blockinstanserna skalla använda en åsidosättande blockinstans (inre) mall eller blockgrupp (yttre) mall (se Mallar för block och blockgrupper). Varje modul anger även här spefifikt innehåll som finns tillgängligt för den här specifika blocktypen.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="90" />
 		</references>
 	</entry>
 	<entry>
 		<string>Templating Blocks and Block Groups</string>
-		<translation></translation>
+		<translation>Mallar för block och blockgrupper</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="92" />
 		</references>
@@ -272,7 +272,7 @@ override block instance (inner) template or block group (outer) template (see Te
 	<entry>
 		<string>As with other Xaraya content, you can provide your own override templates for block
 instances and create your own templates for block groups. To do this note the following:</string>
-		<translation></translation>
+		<translation>Som med övrigt Caraya innehåll, kan du tillhandahålla din egen åsidosättande mall för blockinstanser och skapa dina egna mallar för blockgrupper. För att göra detta notera följande:</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="95" />
 		</references>
@@ -283,7 +283,7 @@ supplied by the module that provides the block type. They can be overridden like
 Overrides for for block instance &lt;strong&gt;inner&lt;/strong&gt; templates should be be placed in
 &lt;code&gt;themes/[yourtheme]/modules/[themodule]/blocks&lt;/code&gt; where &lt;code&gt;[themodule]&lt;/code&gt; is the module providing
 the block type. The general name for the template is &lt;code&gt;blocktype-innertemplatename.xt&lt;/code&gt;</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Inre mall&lt;/strong&gt; används för visning av innehållet i en blockinstans och förses av modulen som tillhandahåller blocktypen. De kan bli åsidosatta som alla andra Xaraya-mallar. Åsidosättning av blockinstans &lt;strong&gt;inre&lt;/strong&gt; mallar ska placeras i &lt;code&gt;themes/[ditt_tema]/moduler/[modulen]/blocks&lt;/code&gt; där &lt;code&gt;[modulen]&lt;/code&gt; är modulen som tillhandahåller blocktypen. Namnet på mallen är generellt &lt;code&gt;blocktype-inremallnamn.xt&lt;/code&gt;</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="103" />
 		</references>
@@ -294,14 +294,14 @@ Some 'outer' templates are installed by default with Xaraya, but you can also cr
 templates. The &lt;strong&gt;outer templates&lt;/strong&gt; are stored in your &lt;code&gt;theme/[yourtheme]/blocks&lt;/code&gt;
 directory. If there is no specific block group template the block group will use the preinstalled 'default'
 block group template.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Yttre mall&lt;/strong&gt; är det tilldelade namnet på mallen som används för blockinstansens blockgrupp. Vissa 'yttre' mallar installeras som standard med Xaraya, men du kan även skapa dina egna 'yttre' mallar. De &lt;strong&gt; yttre mallarna&lt;/strong&gt; sparas i din &lt;code&gt;theme/[ditt_tema]/blocks&lt;/code&gt; katalog. Om det inte finns någon specifik blockgruppmall kommer blockgruppen använda de förinstallerade 'standard' blockgruppmallen.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="108" />
 		</references>
 	</entry>
 	<entry>
 		<string>How to tell Xaraya which inner and outer templates to use</string>
-		<translation></translation>
+		<translation>Hur instruera Xaraya vilken inre och yttre mall att använda</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="111" />
 		</references>
@@ -310,7 +310,7 @@ block group template.</string>
 		<string>You can tell Xaraya which inner and outer templates to use when you create a
 new block instance or modify an existing one. Using the Blocks module, there are two places you can set either the inner
 template, the outer template or both.</string>
-		<translation></translation>
+		<translation>Du kan instruera Xaraya vilken inre och yttre mall att använda när du skapar ett ny blockinstans eller ändrar en befintlig. Genom att använda Block-modulen, finns det två platser du kan ställa in inre mallen, yttre mallen eller båda.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="114" />
 		</references>
@@ -319,7 +319,7 @@ template, the outer template or both.</string>
 		<string>The field labelled &lt;strong&gt;Instance Template (optional):&lt;/strong&gt; sets the default
 inner and outer template used for the block instance and any block group. You can specify inner, outer, both inner and outer or none.
 You use the following format: &lt;code&gt;[outer-template][semi-colon][inner-template]&lt;/code&gt;. Both are specified without the file extension.</string>
-		<translation></translation>
+		<translation>Fältet med etiketten &lt;strong&gt;Instansmall (frivillig):&lt;/strong&gt; ställer in standard inre och yttre mallar som används för blockinstansen och alla blockgrupper. Du kan ange inre, yttre eller både inre och yttre eller ingen. Använd följande format: &lt;code&gt;[yttre-mall[ [semi-kolon] [inre-mall]&lt;/code&gt;. Båda anges utan filändelse.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="118" />
 		</references>
@@ -328,21 +328,21 @@ You use the following format: &lt;code&gt;[outer-template][semi-colon][inner-tem
 		<string>If you add a block instance to a block group, another input field will appear, labelled with the name of the block group.
 You can also add a specific inner, outer or both inner and outer template in this field using the same syntax. Specifying
 an inner or outer template in this block group template field will override any other templates.</string>
-		<translation></translation>
+		<translation>Om du lägger till en blockinstans till en blockgrupp, kommer ytterligare ett indatafält visas, med etiketten satt till samma namn som blockgruppen. Du kan även ange en specifik inre, yttre eller både inre och yttre mall i det här fältet genom att använda samma syntax. Att ange en inre eller yttre mall i det här blockgruppsmallfältet kommer åsidosätta eventuella andra mallar.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="121" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;An example:&lt;/strong&gt; if you create an articles' featureditems block instance and you are using the Xaraya_Classic default theme</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Ett exempel:&lt;/strong&gt; om du skapar en  artikel aktuellaposter blockinstans och använder Xaraya_Classic-temat</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="123" />
 		</references>
 	</entry>
 	<entry>
 		<string>By default, this block instance will use the article module's inner template called &lt;code&gt;featureditems.xd&lt;/code&gt; located in modules/articles/xartemplates/blocks</string>
-		<translation></translation>
+		<translation>Som standard, kommer den här blockinstansen använda artikelmodulens inre mall kallad &lt;code&gt;featureditems.xd&lt;/strong&gt; placerad i modules/articles/xartemplates/blocks</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="125" />
 		</references>
@@ -351,7 +351,7 @@ an inner or outer template in this block group template field will override any 
 		<string>If you have allocated the featured article block instance to a block group called 'right' it will use, by default, the outer template
 located at &lt;code&gt;themes/Xaraya_Classic/blocks/right.xt&lt;/code&gt;. If the 'right' outer template did not exist it will use one called 'default.xt'
 in that same directory.</string>
-		<translation></translation>
+		<translation>Om du har tilldelat aktuella artikel-blockinstansen till en blockgrupp kallad 'right' kommer den använda, som standard, den yttre mallen placerad i &lt;code&gt;themes/Xaraya_Classic/blocks/right.xt&lt;/code&gt;. Om 'right' ytter mallen inte finns kommer den använda en kallad 'default.xt' i samma katalog.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="128" />
 		</references>
@@ -361,7 +361,7 @@ in that same directory.</string>
 &lt;strong&gt;left;weeklyfeature&lt;/strong&gt; would mean means the outer template is one created and called &lt;code&gt;&lt;strong&gt;left&lt;/strong&gt;.xt&lt;/code&gt; in the &lt;code&gt;themes/Xaraya_Classic/blocks&lt;/code&gt; directory.
 The article module's featureditems block instance will be displayed using the &lt;code&gt;themes/Xaraya_Classic/modules/articles/blocks/featureditems-&lt;strong&gt;weeklyfeature&lt;/strong&gt;.xt&lt;/code&gt; template.
 You could just specify outer or inner template if required by adding &lt;code&gt;left;&lt;/code&gt; or &lt;code&gt;;weeklyfeature&lt;/code&gt; to specify outer and inner respectively.</string>
-		<translation></translation>
+		<translation>Om du önskar åsidosätta både de yttre och inre mallarna för aktuellaposter-blocket enligt följande syntax: &lt;strong&gt;left;weeklyfeature&lt;/strong&gt; skulle betyda att den yttre mallen skapas och kallas &lt;code&gt;&lt;strong&gt;left&gt;&lt;/strong&gt;.xt&lt;/code&gt; i &lt;code&gt;themes/Xaraya_Classic(blocks&lt;/code&gt;-katalogen. Artikelmodulens aktuellaposter-blockinstans kommer bli visad genom att använda &lt;code&gt;themes/Xaraya_Classic/modules/articles/blocks/featureditems-&lt;strong&gt;weeklyfeature&lt;/strong&gt;.xt&lt;/code&gt;-mallen. Du skulle bara kunna ange en yttre eller inre mall om nödvändigt genom att lägga till &lt;code&gt;left;&lt;/code&gt; eller &lt;code&gt;;weeklyfeature&lt;/code&gt; för att ange yttre respektive inre.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="132" />
 		</references>
@@ -411,14 +411,14 @@ You could just specify outer or inner template if required by adding &lt;code&gt
 	<entry>
 		<string>Blocks Module Extension page at &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot; &gt;Xaraya Extension and Releases&lt;/a&gt;.
 Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
+		<translation>Blockmodultilläggets sida på &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot; &gt; Xaraya tilläg och utgåvor&lt;/a&gt;. Klicka på 'Version History'-fliken längst ner för att få senaste utgåvoinformation.</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="152" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on Blocks found at &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot;&gt;Xaraya Documentation.&lt;/a&gt;</string>
-		<translation></translation>
+		<translation>Relaterade guider och dokumentation om Block finns på &lt;a href=&quot;#(1)&quot; title=&quot;(2)&quot;&gt;Xaraya dokumentation.&lt;/a&gt;</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="159" />
 		</references>
