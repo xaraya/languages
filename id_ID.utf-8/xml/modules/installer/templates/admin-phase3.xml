@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="id_ID.utf-8">
 	<entry>
 		<string>SUCCESS</string>
 		<translation>SUKSES</translation>
@@ -35,8 +35,7 @@ a certain value.
 We have checked these and the results are listed below. Each check
 is marked as either:</string>
 		<translation>Xaraya membutuhkan sejumlah penataan dan ekstensi yang ada. 
-		Kami mengecek hal ini dan hasilnya ditampilkan dibawah. Masing-masing pengecekan ditandai sebagai berikut:
-		</translation>
+		Kami mengecek hal ini dan hasilnya ditampilkan dibawah. Masing-masing pengecekan ditandai sebagai berikut:</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="25" />
 		</references>
@@ -105,8 +104,7 @@ The current memory limit is #(1).</string>
 required. If in doubt, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
 		<translation>Jika Anda merencanakan untuk menginstal modul-modul selama fase instalasi, sejumlah memori dibutuhkan.
 		Jika ragu-ragu, &lt;strong&gt; kerjakan instalasi inti (core) saja &lt;/strong&gt; 
-		dan installah module lainnya secara manual nanti.
-		</translation>
+		dan installah module lainnya secara manual nanti.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="88" />
 		</references>
@@ -158,8 +156,7 @@ and install modules manually later.</string>
 		30 detik biasanya sudah cukup, tetapi Anda disarankan untuk menaikkannya selama instalasi.
 		Bagaimanapun waktu yang Anda butuhkan tergantu dari sistem Anda dan jumlah modul yang Anda pilih untuk diinstal.
 		Jika Anda dalam keraguan tentang waktu eksekusi maksimum (skrip), &lt;strong&gt; kerjakan hanya instalasi inti(core) saja&lt;/strong&gt; 
-		dan installah modul lainnya nanti.
-		</translation>
+		dan installah modul lainnya nanti.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="132" />
 		</references>
@@ -170,7 +167,7 @@ usually sufficient but you may want to increase it for a full distribution insta
 you need will depend on your system and number of modules you choose during this installation.
 If in doubt about your maximum (script) execution time, &lt;strong&gt;do a core only install&lt;/strong&gt;
 and install modules manually later.</string>
-		<translation></translation>
+		<translation>SUKSES: max_execution_time Anda untuk skrip php ditetapkan ke #(1) detik. 30 detik biasanya cukup tetapi Anda mungkin ingin meningkatkan-nya untuk instalasi distribusi lengkap (full distro). Berapa banyak waktu yang Anda butuhkan tergantung dari sistem Anda dan jumlah modul yang Anda pilih selama proses instalasi ini. Jika Anda sangsi tentang waktu eksekusi (skrip) maksimum, lakukan instalasi inti (core) saja dan instal modul secara manual nanti.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="147" />
 		</references>
@@ -312,50 +309,85 @@ Refer to #(1) for further information on these extensions.</string>
 		<string>SUCCESS: The XML Extension is loaded.</string>
 		<translation>SUKSES: Ekstensi XML telah dimuat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="396" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="397" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: The XML Extension is not loaded. You will require this extension
 if you plan to use the Xaraya Translations module.</string>
-		<translation></translation>
+		<translation>PERINGATAN: Ekstensi XML tidak dapat di muat. Anda akan membuatuhkan ekstensi ini jika Anda merencanakan untuk menggunakan modul Translations-nya Xaraya.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="401" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="402" />
+		</references>
+	</entry>
+	<entry>
+		<string>You will need at least one available database type</string>
+		<translation>Anda akan membutuhkan paling tidak satu tipe database</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="407" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: You have at least one database type available.</string>
+		<translation>SUKSES: Anda memiliki paling tidak satu tipe database yang tersedia.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="412" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: You do not have a supported database type available.</string>
+		<translation>PERINGATAN: Anda tidak mempunyai sebuah tipe database yang didukung.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="416" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The MySQL Extension is loaded.</string>
 		<translation>SUKSES: Ekstensi MySQL telah dimuat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="406" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="421" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: MySQL as database will not be available</string>
 		<translation>PERINGATAN: MySQL sebagai database tidak tersedia</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="410" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="425" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The PGSQL Extension is loaded.</string>
 		<translation>SUKSES: Ekstensi PGSQL telah dimuat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="415" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="430" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: PostgreSQL as database will not be available</string>
 		<translation>PERINGATAN: PostgreSQL sebagai database tidak tersedia</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="419" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="434" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The SQLite Extension is loaded.</string>
+		<translation>SUKSES: Ekstensi SQLite telah dimuat.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="439" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: SQLITE as database will not be available</string>
+		<translation>PERINGATAN: SQLite sebagai database tidak tersedia</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="443" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The PHP4 XSLT Extension is loaded.</string>
 		<translation>SUKSES: Ekstensi XSLT PHP4 telah dimuat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="424" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="449" />
 		</references>
 	</entry>
 	<entry>
@@ -364,14 +396,14 @@ This PHP4 extension is only needed for the PHP4 XSLT transform module at this ti
 		<translation>PERINGATAN: Ekstensi XSLT PHP4 tidak dapat dimuat.
 		Saat ini, Ekstensi ini hanya dibutuhkan untuk modul xslt yang berfungsi sebagai transformasi XSLT PHP4.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="431" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="456" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The LDAP Extension is loaded.</string>
 		<translation>SUKSES: Ekstensi LDAP telah dimuat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="436" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="461" />
 		</references>
 	</entry>
 	<entry>
@@ -380,14 +412,14 @@ This extension is only needed if you intend on using LDAP authentication with th
 		<translation>PERINGATAN: Ekstensi LDAP tidak dapat dimuat.
 		Ekstensi ini digunakan jika Anda bermaksud menggunakan authentikasi LDAP dengan modul LDAP Xaraya</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="443" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="468" />
 		</references>
 	</entry>
 	<entry>
 		<string>SUCCESS: The GD Extension is loaded.</string>
 		<translation>SUKSES: Ekstensi GD telah dimuat.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="448" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="473" />
 		</references>
 	</entry>
 	<entry>
@@ -396,14 +428,14 @@ This extension is only needed for the images module at this time for resizing of
 		<translation>PERINGATAN: Ekstensi GD tidak dapat dimuat.
 		Eksensi ini dibutuhkan untuk modul &lt;strong&gt;images&lt;/strong&gt;, saat ini digunakan untuk merubah ukuran &lt;em&gt;thumbnail&lt;/em&gt;.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="455" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="480" />
 		</references>
 	</entry>
 	<entry>
 		<string>Check Again</string>
 		<translation>Cek Ulang</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="469" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="495" />
 		</references>
 	</entry>
 </translations>
