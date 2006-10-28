@@ -2,7 +2,7 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
 	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation></translation>
+		<translation>Μη αποδεκτό #(1) για την συνάρτηση #(2) #(3)() στην μονάδα #(4)</translation>
 		<references>
 			<reference file="modules/xlink/xaradmin/modifyhook.php" line="17" />
 			<reference file="modules/xlink/xaradmin/modifyhook.php" line="25" />
@@ -34,59 +34,72 @@
 		</references>
 	</entry>
 	<entry>
-		<string>XLink Administration</string>
-		<translation></translation>
+		<string>Modify Config</string>
+		<translation>Τροποποίηση Ρυθμίσεων</translation>
 		<references>
-			<reference file="modules/xlink/xartemplates/admin-delete.xd" line="1" />
-			<reference file="modules/xlink/xartemplates/admin-main.xd" line="1" />
-			<reference file="modules/xlink/xartemplates/admin-modify.xd" line="1" />
+			<reference file="modules/xlink/xaradminapi/getmenulinks.php" line="24" />
+			<reference file="modules/xlink/xartemplates/includes/admin-menu.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>XLink Administration</string>
+		<translation>Διαχείριση XLink</translation>
+		<references>
+			<reference file="modules/xlink/xartemplates/admin-main.xd" line="2" />
 			<reference file="modules/xlink/xartemplates/admin-modifyconfig.xd" line="1" />
-			<reference file="modules/xlink/xartemplates/admin-new.xd" line="1" />
 			<reference file="modules/xlink/xartemplates/admin-privileges.xd" line="1" />
 			<reference file="modules/xlink/xartemplates/admin-view.xd" line="1" />
+			<reference file="modules/xlink/xartemplates/admin-delete.xd" line="1" />
+			<reference file="modules/xlink/xartemplates/admin-modify.xd" line="1" />
+			<reference file="modules/xlink/xartemplates/admin-new.xd" line="1" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Περίληψη</translation>
+		<references>
+			<reference file="modules/xlink/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/xlink/xartemplates/includes/admin-menu.xd" line="32" />
 		</references>
 	</entry>
 	<entry>
 		<string>X-link base</string>
-		<translation></translation>
+		<translation>Βάση X-link</translation>
 		<references>
-			<reference file="modules/xlink/xartemplates/admin-modifyhook.xd" line="4" />
-			<reference file="modules/xlink/xartemplates/admin-newhook.xd" line="3" />
+			<reference file="modules/xlink/xartemplates/admin-modifyhook.xd" line="2" />
+			<reference file="modules/xlink/xartemplates/admin-newhook.xd" line="2" />
 		</references>
 	</entry>
 	<entry>
 		<string>[none]</string>
-		<translation></translation>
+		<translation>[καμμία]</translation>
 		<references>
-			<reference file="modules/xlink/xartemplates/admin-modifyhook.xd" line="8" />
-			<reference file="modules/xlink/xartemplates/admin-newhook.xd" line="7" />
+			<reference file="modules/xlink/xartemplates/admin-modifyhook.xd" line="4" />
+			<reference file="modules/xlink/xartemplates/admin-newhook.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>X-link reference</string>
-		<translation></translation>
+		<translation>Αναφορά X-link</translation>
 		<references>
-			<reference file="modules/xlink/xartemplates/admin-modifyhook.xd" line="22" />
-			<reference file="modules/xlink/xartemplates/admin-newhook.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview of XLink Definitions</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xlink/xartemplates/admin-view.xd" line="2" />
-			<reference file="modules/xlink/xartemplates/user-main.xd" line="2" />
-			<reference file="modules/xlink/xartemplates/user-main.xd" line="8" />
-			<reference file="modules/xlink/xartemplates/user-main.xd" line="11" />
-			<reference file="modules/xlink/xartemplates/user-main.xd" line="14" />
+			<reference file="modules/xlink/xartemplates/admin-modifyhook.xd" line="16" />
+			<reference file="modules/xlink/xartemplates/admin-newhook.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unable to find corresponding item</string>
-		<translation></translation>
+		<translation>Αδύνατη η εύρεση του σχετικού αντικειμένου</translation>
 		<references>
-			<reference file="modules/xlink/xartemplates/user-display.xd" line="13" />
 			<reference file="modules/xlink/xartemplates/user-main.xd" line="9" />
+			<reference file="modules/xlink/xartemplates/user-display.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>XLink Options</string>
+		<translation>Επιλογές XLink</translation>
+		<references>
+			<reference file="modules/xlink/xartemplates/admin-modify.xd" line="9" />
+			<reference file="modules/xlink/xartemplates/admin-new.xd" line="8" />
 		</references>
 	</entry>
 </translations>
