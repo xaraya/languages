@@ -2,7 +2,7 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
 	<entry>
 		<string>By Name</string>
-		<translation></translation>
+		<translation>Nimen mukaan</translation>
 		<references>
 			<reference file="modules/base/xarblocks/modify-adminmenu.php" line="40" />
 			<reference file="modules/base/xartemplates/blocks/adminmenu_display.xd" line="3" />
@@ -10,7 +10,7 @@
 	</entry>
 	<entry>
 		<string>By Category</string>
-		<translation></translation>
+		<translation>Kategorian mukaan</translation>
 		<references>
 			<reference file="modules/base/xarblocks/modify-adminmenu.php" line="41" />
 			<reference file="modules/base/xartemplates/blocks/adminmenu_display.xd" line="7" />
@@ -19,7 +19,7 @@
 	</entry>
 	<entry>
 		<string>Base Administration</string>
-		<translation></translation>
+		<translation>Pohjan ylläpito</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="5" />
 			<reference file="modules/base/xartemplates/admin-main.xd" line="3" />
@@ -29,7 +29,7 @@
 	</entry>
 	<entry>
 		<string>System Information</string>
-		<translation></translation>
+		<translation>Järjestelmätiedot</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="11" />
 			<reference file="modules/base/xartemplates/includes/admin-menu.xd" line="20" />
@@ -40,12 +40,12 @@
 		<translation>Moduulit</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="48" />
-			<reference file="modules/base/xartemplates/blocks/menu.xd" line="62" />
+			<reference file="modules/base/xartemplates/blocks/menu.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>official icon</string>
-		<translation></translation>
+		<translation>virallinen kuvake</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="7" />
 			<reference file="modules/base/xartemplates/admin-main-nooverview.xd" line="7" />
@@ -61,7 +61,7 @@
 	</entry>
 	<entry>
 		<string>Version</string>
-		<translation></translation>
+		<translation>Versio</translation>
 		<references>
 			<reference file="modules/base/xartemplates/admin-main.xd" line="140" />
 			<reference file="modules/base/xartemplates/admin-main-nooverview.xd" line="30" />
@@ -79,7 +79,7 @@
 	</entry>
 	<entry>
 		<string>Exception Icon</string>
-		<translation></translation>
+		<translation>Poikkeuksen kuvake</translation>
 		<references>
 			<reference file="modules/base/xartemplates/system-exception.xd" line="14" />
 			<reference file="modules/base/xartemplates/user-exception.xd" line="14" />
@@ -178,7 +178,7 @@
 	</entry>
 	<entry>
 		<string>System Message</string>
-		<translation>Järjestelmäviestit</translation>
+		<translation>Järjestelmäviesti</translation>
 		<references>
 			<reference file="modules/base/xartemplates/message-exception.xd" line="11" />
 			<reference file="modules/base/xartemplates/message-systeminfo.xd" line="11" />
@@ -186,7 +186,7 @@
 	</entry>
 	<entry>
 		<string>Message Icon</string>
-		<translation></translation>
+		<translation>Viestin kuvake</translation>
 		<references>
 			<reference file="modules/base/xartemplates/message-exception.xd" line="14" />
 			<reference file="modules/base/xartemplates/message-systeminfo.xd" line="14" />
@@ -214,9 +214,9 @@
 	</entry>
 	<entry>
 		<string>date</string>
-		<translation></translation>
+		<translation>ajankohta</translation>
 		<references>
-			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="64" />
+			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="75" />
 			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="60" />
 			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="66" />
 			<reference file="modules/base/xarproperties/Dynamic_ExtendedDate_Property.php" line="91" />
@@ -226,13 +226,13 @@
 		<string>Invalid #(1)</string>
 		<translation>Virheellinen #(1)</translation>
 		<references>
-			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="130" />
-			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="202" />
+			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="146" />
+			<reference file="modules/base/xarproperties/Dynamic_Calendar_Property.php" line="222" />
 			<reference file="modules/base/xarproperties/Dynamic_Checkbox_Property.php" line="75" />
-			<reference file="modules/dynamicdata/class/properties.php" line="554" />
-			<reference file="modules/dynamicdata/class/properties.php" line="670" />
+			<reference file="modules/dynamicdata/class/properties.php" line="555" />
+			<reference file="modules/dynamicdata/class/properties.php" line="671" />
 			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="109" />
-			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="317" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="315" />
 			<reference file="modules/base/xarproperties/Dynamic_FileUpload_Property.php" line="324" />
 			<reference file="modules/base/xarproperties/Dynamic_FileUpload_Property.php" line="432" />
 			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="101" />
@@ -256,12 +256,11 @@
 			<reference file="modules/base/xarproperties/Dynamic_URL_Property.php" line="84" />
 			<reference file="modules/base/xarproperties/Dynamic_TextUpload_Property.php" line="262" />
 			<reference file="modules/base/xarproperties/Dynamic_TextUpload_Property.php" line="346" />
-			<reference file="modules/base/xarproperties/Dynamic_MultiSelect_Property.php" line="90" />
+			<reference file="modules/base/xarproperties/Dynamic_MultiSelect_Property.php" line="87" />
 			<reference file="modules/base/xarproperties/Dynamic_URLTitle_Property.php" line="152" />
 			<reference file="modules/base/xarproperties/Dynamic_URLTitle_Property.php" line="159" />
 			<reference file="modules/base/xarproperties/Dynamic_CountryList_Property.php" line="73" />
-			<reference file="modules/base/xarproperties/Dynamic_StateList_Property.php" line="163" />
-			<reference file="modules/base/xarproperties/Dynamic_StateList_Property.php" line="167" />
+			<reference file="modules/base/xarproperties/Dynamic_StateList_Property.php" line="147" />
 			<reference file="modules/base/xarproperties/Dynamic_TColorPicker_Property.php" line="92" />
 			<reference file="modules/base/xarproperties/Dynamic_TColorPicker_Property.php" line="101" />
 			<reference file="modules/base/xarproperties/Dynamic_CheckboxList_Property.php" line="123" />
@@ -293,24 +292,24 @@
 	</entry>
 	<entry>
 		<string>Field #(1) (#(2)) is missing.</string>
-		<translation></translation>
+		<translation>Kenttä #(1) (#(2)) puuttuu.</translation>
 		<references>
-			<reference file="modules/dynamicdata/class/properties.php" line="416" />
-			<reference file="modules/dynamicdata/class/properties.php" line="418" />
+			<reference file="modules/dynamicdata/class/properties.php" line="417" />
+			<reference file="modules/dynamicdata/class/properties.php" line="419" />
 		</references>
 	</entry>
 	<entry>
 		<string>unknown property</string>
-		<translation></translation>
+		<translation>tuntematon ominaisuus</translation>
 		<references>
-			<reference file="modules/dynamicdata/class/properties.php" line="442" />
+			<reference file="modules/dynamicdata/class/properties.php" line="443" />
 		</references>
 	</entry>
 	<entry>
 		<string>This property is unknown...</string>
-		<translation></translation>
+		<translation>Tämä ominaisuus on tuntematon...</translation>
 		<references>
-			<reference file="modules/dynamicdata/class/properties.php" line="476" />
+			<reference file="modules/dynamicdata/class/properties.php" line="477" />
 		</references>
 	</entry>
 	<entry>
@@ -320,7 +319,7 @@
 			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="62" />
 			<reference file="modules/base/xarproperties/Dynamic_HTMLPage_Property.php" line="64" />
 			<reference file="modules/base/xarproperties/Dynamic_ImageList_Property.php" line="74" />
-			<reference file="modules/base/xarproperties/Dynamic_MultiSelect_Property.php" line="46" />
+			<reference file="modules/base/xarproperties/Dynamic_MultiSelect_Property.php" line="43" />
 		</references>
 	</entry>
 	<entry>
@@ -341,21 +340,21 @@
 	</entry>
 	<entry>
 		<string>text : must be less than #(1) characters long</string>
-		<translation></translation>
+		<translation>teksti: voi olla enintään #(1) merkkiä pitkä</translation>
 		<references>
 			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="62" />
 		</references>
 	</entry>
 	<entry>
 		<string>text : must be at least #(1) characters long</string>
-		<translation></translation>
+		<translation>teksti: täytyy olla vähintään #(1) merkkiä pitkä</translation>
 		<references>
 			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="66" />
 		</references>
 	</entry>
 	<entry>
 		<string>text : does not match regular expression</string>
-		<translation></translation>
+		<translation>teksti: ei vastaa säännöllistä lauseketta</translation>
 		<references>
 			<reference file="modules/base/xarproperties/Dynamic_TextBox_Property.php" line="70" />
 		</references>
@@ -400,7 +399,7 @@
 	</entry>
 	<entry>
 		<string>Modify Config</string>
-		<translation></translation>
+		<translation>Muokkaa asetuksia</translation>
 		<references>
 			<reference file="modules/base/xaradminapi/getmenulinks.php" line="33" />
 			<reference file="modules/base/xartemplates/includes/admin-menu.xd" line="36" />
@@ -408,7 +407,7 @@
 	</entry>
 	<entry>
 		<string>Invalid URL [#(1)]</string>
-		<translation></translation>
+		<translation>Virheellinen URL [#(1)]</translation>
 		<references>
 			<reference file="modules/base/xaruserapi/getfile.php" line="79" />
 			<reference file="modules/base/xaruserapi/checklink.php" line="61" />
@@ -416,7 +415,7 @@
 	</entry>
 	<entry>
 		<string>Socket error #(1) : #(2) while retrieving URL #(3)</string>
-		<translation></translation>
+		<translation>Socket-virhe #(1) : #(2) noudettaessa URLia #(3)</translation>
 		<references>
 			<reference file="modules/base/xaruserapi/getfile.php" line="155" />
 			<reference file="modules/base/xaruserapi/checklink.php" line="74" />
@@ -425,7 +424,7 @@
 	</entry>
 	<entry>
 		<string>Error sending request for URL #(1)</string>
-		<translation></translation>
+		<translation>Virhe lähetettäessä kysely URLille #(1)</translation>
 		<references>
 			<reference file="modules/base/xaruserapi/getfile.php" line="166" />
 			<reference file="modules/base/xaruserapi/checklink.php" line="100" />
@@ -433,7 +432,7 @@
 	</entry>
 	<entry>
 		<string>Invalid response headers for URL #(1) : #(2)</string>
-		<translation></translation>
+		<translation>Virheelliset vastausotsaketiedot URLille #(1) : #(2)</translation>
 		<references>
 			<reference file="modules/base/xaruserapi/getfile.php" line="180" />
 			<reference file="modules/base/xaruserapi/checklink.php" line="112" />
@@ -449,7 +448,7 @@
 	</entry>
 	<entry>
 		<string>Select when the block will expire, if at all.</string>
-		<translation></translation>
+		<translation>Valitse milloin lohko mahdollisesti vanhenee.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="4" />
 			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="4" />
@@ -457,7 +456,7 @@
 	</entry>
 	<entry>
 		<string>Block Expiration:</string>
-		<translation></translation>
+		<translation>Lohko vanhenee:</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="5" />
 			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="5" />
@@ -465,7 +464,7 @@
 	</entry>
 	<entry>
 		<string>1 Day</string>
-		<translation>1 päivää</translation>
+		<translation>1 päivän päästä</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="10" />
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="12" />
@@ -475,7 +474,7 @@
 	</entry>
 	<entry>
 		<string>2 Days</string>
-		<translation>2 päivää</translation>
+		<translation>2 päivän päästä</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="15" />
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="17" />
@@ -485,7 +484,7 @@
 	</entry>
 	<entry>
 		<string>5 Days</string>
-		<translation>5 päivää</translation>
+		<translation>5 päivän päästä</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="20" />
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="22" />
@@ -495,7 +494,7 @@
 	</entry>
 	<entry>
 		<string>15 Days</string>
-		<translation>15 päivää</translation>
+		<translation>15 päivän päästä</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="25" />
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="27" />
@@ -505,7 +504,7 @@
 	</entry>
 	<entry>
 		<string>30 Days</string>
-		<translation>30 päivää</translation>
+		<translation>30 päivän päästä</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="30" />
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="32" />
@@ -533,7 +532,7 @@
 	</entry>
 	<entry>
 		<string>#(1) hours from now.</string>
-		<translation></translation>
+		<translation>#(1) tuntia tästä hetkestä.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="48" />
 			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="49" />
@@ -541,7 +540,7 @@
 	</entry>
 	<entry>
 		<string>Admin logout</string>
-		<translation></translation>
+		<translation>Ylläpitäjän uloskirjautuminen</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/sidemenu.xd" line="48" />
 			<reference file="modules/base/xartemplates/blocks/verticallistbycats.xd" line="107" />
@@ -550,7 +549,7 @@
 	</entry>
 	<entry>
 		<string>System help</string>
-		<translation></translation>
+		<translation>Järjestelmän ohje</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/verticallistbycats.xd" line="12" />
 			<reference file="modules/base/xartemplates/blocks/verticallistbyname.xd" line="11" />
@@ -558,7 +557,7 @@
 	</entry>
 	<entry>
 		<string>Help</string>
-		<translation></translation>
+		<translation>Ohje</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/verticallistbycats.xd" line="13" />
 			<reference file="modules/base/xartemplates/blocks/verticallistbyname.xd" line="12" />
@@ -566,7 +565,7 @@
 	</entry>
 	<entry>
 		<string>Logout as administrator</string>
-		<translation></translation>
+		<translation>Kirjaudu ulos ylläpitäjänä</translation>
 		<references>
 			<reference file="modules/base/xartemplates/blocks/verticallistbycats.xd" line="106" />
 			<reference file="modules/base/xartemplates/blocks/verticallistbyname.xd" line="74" />
@@ -574,7 +573,7 @@
 	</entry>
 	<entry>
 		<string>preview</string>
-		<translation></translation>
+		<translation>esikatsele</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/showinput-url.xd" line="4" />
 			<reference file="modules/base/xartemplates/properties/showinput-urlicon.xd" line="3" />
@@ -583,7 +582,7 @@
 	</entry>
 	<entry>
 		<string>Icon</string>
-		<translation></translation>
+		<translation>Kuvake</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/showoutput-urlicon.xd" line="2" />
 			<reference file="modules/base/xartemplates/properties/validation-urlicon.xd" line="5" />
@@ -591,7 +590,7 @@
 	</entry>
 	<entry>
 		<string>Options not specified in validation field.</string>
-		<translation></translation>
+		<translation>Kelpuutuskentässä ei ole määritelty vaihtoehtoja.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/showinput-multiselect.xd" line="27" />
 			<reference file="modules/base/xartemplates/properties/showinput-multiselect.xd" line="47" />
@@ -600,7 +599,7 @@
 	</entry>
 	<entry>
 		<string>Other rule</string>
-		<translation></translation>
+		<translation>Muu sääntö</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-dropdown.xd" line="94" />
 			<reference file="modules/base/xartemplates/properties/validation-floatbox.xd" line="21" />
@@ -616,7 +615,7 @@
 	</entry>
 	<entry>
 		<string>Minimum value</string>
-		<translation></translation>
+		<translation>Pienin arvo</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-floatbox.xd" line="5" />
 			<reference file="modules/base/xartemplates/properties/validation-numberbox.xd" line="5" />
@@ -624,7 +623,7 @@
 	</entry>
 	<entry>
 		<string>Maximum value</string>
-		<translation></translation>
+		<translation>Suurin arvo</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-floatbox.xd" line="13" />
 			<reference file="modules/base/xartemplates/properties/validation-numberbox.xd" line="13" />
@@ -632,7 +631,7 @@
 	</entry>
 	<entry>
 		<string>Base directory</string>
-		<translation></translation>
+		<translation>Pohjahakemisto</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="6" />
 			<reference file="modules/base/xartemplates/properties/validation-imagelist.xd" line="5" />
@@ -641,7 +640,7 @@
 	<entry>
 		<string>Note : {theme} will be replaced by the current theme directory
 - e.g. {theme}/images -&amp;gt; themes/Xaraya_Classic/images</string>
-		<translation></translation>
+		<translation>Huomaa : {theme} korvataan käytössä olevan teeman hakemistolla - esim. {theme}/images -&amp;gt; themes/Xaraya_Classic/images</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="14" />
 			<reference file="modules/base/xartemplates/properties/validation-imagelist.xd" line="13" />
@@ -649,7 +648,7 @@
 	</entry>
 	<entry>
 		<string>File extensions</string>
-		<translation></translation>
+		<translation>Tiedostopäätteet</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="19" />
 			<reference file="modules/base/xartemplates/properties/validation-imagelist.xd" line="30" />
@@ -657,7 +656,7 @@
 	</entry>
 	<entry>
 		<string>Note: the uploads module is not hooked</string>
-		<translation></translation>
+		<translation>Huomaa: tiedostot-moduulin koukkuja ei ole asetettu</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="39" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="6" />
@@ -665,7 +664,7 @@
 	</entry>
 	<entry>
 		<string>Methods</string>
-		<translation></translation>
+		<translation>Metodit</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="63" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="12" />
@@ -673,7 +672,7 @@
 	</entry>
 	<entry>
 		<string>Upload Directory</string>
-		<translation></translation>
+		<translation>Lataushakemisto</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="80" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="29" />
@@ -682,7 +681,7 @@
 	<entry>
 		<string>Note : {user} will be replaced by the current user uploading the file
 - e.g. var/uploads/{user} -&amp;gt; var/uploads/myusername_123</string>
-		<translation></translation>
+		<translation>Huomaa : {user} korvataan sen käyttäjän nimellä joka kopioi tiedoston palvelimelle - esim. var/uploads/{user} -&amp;gt; var/uploads/käyttäjänimeni_123</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="89" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="38" />
@@ -690,7 +689,7 @@
 	</entry>
 	<entry>
 		<string>Trusted Directory</string>
-		<translation></translation>
+		<translation>Luotettu hakemisto</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="95" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="44" />
@@ -699,7 +698,7 @@
 	<entry>
 		<string>Note : {user} will be replaced by the current user importing the file
 - e.g. var/imports/{user} -&amp;gt; var/imports/myusername_123</string>
-		<translation></translation>
+		<translation>Huomaa : {user} korvataan sen käyttäjän nimellä joka tuo tiedoston - esim. var/imports/{user} -&amp;gt; var/imports/käyttäjänimeni_123</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="104" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="53" />
@@ -707,7 +706,7 @@
 	</entry>
 	<entry>
 		<string>Note: the uploads module is hooked</string>
-		<translation></translation>
+		<translation>Huomaa: tiedostot-moduulin koukut on asetettu</translation>
 		<references>
 			<reference file="modules/base/xartemplates/properties/validation-fileupload.xd" line="109" />
 			<reference file="modules/base/xartemplates/properties/validation-textupload.xd" line="58" />
