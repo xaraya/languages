@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
+		<string>Change of Email</string>
+		<translation>Änderung der E-Mailadresse</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
 		<string>Instructions Sent</string>
 		<translation>Anweisungen wurden versandt</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="3" />
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
-		<string>Further instructions for registering have been sent to the email you provided. Please take a moment and read the instructions. If you have a question, or didn't receive your instructions please contact the</string>
-		<translation>Weitere Anweisungen für die Registrierung wurden an die angegebene E-Mail-Adresse versandt. Bitte diese Instruktionen lesen. Für den Fall, dass diese Instruktionen nicht per Mail eingegangen sind bzw. bei weiteren Fragen bitte Kontakt aufnehmen mit dem</translation>
+		<string>You have changed your email address and your account now requires re-validation before you can log in.
+Information on how to re-validate your account have been sent to the email address you provided. Please take a moment
+to read these instructions.</string>
+		<translation>Sie haben Ihre E-Mailadresse geändert. Diese muss erst von Ihnen bestätigen werden, bevor Sie sich wieder anmelden können. Die Anweisungen hierfür wurden an die neue E-Mailadresse gesendet.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="4" />
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="13" />
 		</references>
 	</entry>
 	<entry>
-		<string>&amp;nbsp;website administrator</string>
-		<translation>Website-Administrator</translation>
+		<string>If you have a question or didn't receive your instructions please contact the &lt;a href=&quot;mailto:#(1)&quot;&gt;website administrator&lt;/a&gt;.</string>
+		<translation>Falls Sie Anweisungen nicht erhalten haben, prüfen Sie bitte den Inhalt Ihres Spam-Filters und benachrichtigen danach den &lt;a href=&quot;mailto:#(1)&quot;&gt;Administrator&lt;/a&gt; dieser Webseite.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="4" />
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="17" />
 		</references>
 	</entry>
 </translations>

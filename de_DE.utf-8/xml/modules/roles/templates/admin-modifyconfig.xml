@@ -9,7 +9,7 @@
 	</entry>
 	<entry>
 		<string>Configure:</string>
-		<translation></translation>
+		<translation>Unterbereich</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="24" />
 		</references>
@@ -24,7 +24,7 @@
 	</entry>
 	<entry>
 		<string>User Variables</string>
-		<translation></translation>
+		<translation>Nutzervariablen</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="48" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="56" />
@@ -48,11 +48,11 @@
 	</entry>
 	<entry>
 		<string>Member Options</string>
-		<translation></translation>
+		<translation>Nutzeroptionen</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="101" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="109" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="471" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="470" />
 		</references>
 	</entry>
 	<entry>
@@ -92,7 +92,7 @@
 	</entry>
 	<entry>
 		<string>Default Group and Site Administrator</string>
-		<translation></translation>
+		<translation>Haupt-Administrator und Standardgruppe</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="151" />
 		</references>
@@ -127,56 +127,56 @@
 	</entry>
 	<entry>
 		<string>Default Authentication &amp;amp; Registration Modules</string>
-		<translation></translation>
+		<translation>Anmeldeverfahren und &amp;amp; Neuregistrierung</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="198" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select the module that manages authentication of users</string>
-		<translation></translation>
+		<translation>Wählen Sie das Modul zur Benutzerauthentifizierung</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="201" />
 		</references>
 	</entry>
 	<entry>
 		<string>Authentication:</string>
-		<translation></translation>
+		<translation>Anmeldeverfahren</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>Select the module that manages registration of users</string>
-		<translation></translation>
+		<translation>Wählen Sie das Modul zur Neuregistrierung</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="209" />
 		</references>
 	</entry>
 	<entry>
 		<string>Registration:</string>
-		<translation></translation>
+		<translation>Neuregistrierung</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="212" />
 		</references>
 	</entry>
 	<entry>
 		<string>Basic User Variables</string>
-		<translation></translation>
+		<translation>Feste Nutzervariablen</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="235" />
 		</references>
 	</entry>
 	<entry>
 		<string>Always available in a user role, and can be retrieved as &lt;strong&gt;xarUserGetVar('varname')&lt;/strong&gt;</string>
-		<translation></translation>
+		<translation>Diese sind immer verfügbar und werden mit &lt;strong&gt;xarUserGetVar('varname')&lt;/strong&gt; abgefragt.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="237" />
 		</references>
 	</entry>
 	<entry>
 		<string>Description</string>
-		<translation></translation>
+		<translation>Beschreibung</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="245" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="289" />
@@ -184,60 +184,60 @@
 	</entry>
 	<entry>
 		<string>The handle or nick under which the user is known to the site. The uname is unique to each user.</string>
-		<translation></translation>
+		<translation>Der Login- oder auch Anmeldename. Er ist eindeutig.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="253" />
 		</references>
 	</entry>
 	<entry>
 		<string>The user's display name, as shown in the members list and other displays. The name need not be unique.</string>
-		<translation></translation>
+		<translation>Der Anzeigename wird in der Mitgliederliste und bei den Beiträgen angezeigt. Er braucht nicht eindeutig zu sein.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="261" />
 		</references>
 	</entry>
 	<entry>
 		<string>The user's email address. The email address can be defined by the site administrator to be unique or not.</string>
-		<translation></translation>
+		<translation>Die E-Mailadresse kann entsprechend der Vorgabe des Administrators eindeutig sein.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="269" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dynamic Roles Variables</string>
-		<translation></translation>
+		<translation>Dynamische Rollenvariablen</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="278" />
 		</references>
 	</entry>
 	<entry>
-		<string>Optional in a user role. Once activated they can be retrieved as &lt;strong&gt;xarModGetUserVar('roles','varname')&lt;/strong&gt;</string>
-		<translation></translation>
+		<string>Optional in a user role. Once activated they can be retrieved as &lt;strong&gt;xarUserGetVar('varname')&lt;/strong&gt;</string>
+		<translation>Diese sind nach Einrichtung verfügbar und werden auch wie oben aufgeführt abgefragt.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="280" />
 		</references>
 	</entry>
 	<entry>
-		<string>The user's home page, which is initially displayed when the user logs in. The home page can be user specific or inherited from the direct parent group. The home page is specified in a similar manner to user menu item shortcuts in the modify or edit role page.</string>
-		<translation></translation>
+		<string>The role's home page, which is initially displayed when the user logs in. The home page can be role/user specific or inherited from the direct parent group. The home page is specified in a similar manner to user menu item shortcuts in the modify or edit role page.</string>
+		<translation>Die Einstiegsseite wird dem Nutzer nach dem Anmeldevorgang angezeigt. Sie kann gruppen- oder nutzerspezifisch sein oder aber von der Eltern-Gruppe geerbt werden. Die Einstiegsseite kann bei den Benutzereinstellungen festgelegt werden.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="300" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deactivate</string>
-		<translation></translation>
+		<translation>Deaktivieren</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="305" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="326" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="345" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="364" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="384" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="383" />
 		</references>
 	</entry>
 	<entry>
 		<string>Activate</string>
-		<translation></translation>
+		<translation>Aktivieren</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="309" />
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="330" />
@@ -247,190 +247,204 @@
 		</references>
 	</entry>
 	<entry>
-		<string>The user's primary parent group.
-A primary parent take precendence over other parent groups for realm and user home settings.</string>
-		<translation></translation>
+		<string>The role's primary parent group.
+A primary parent take precendence over other parent groups for realm and user role home settings.</string>
+		<translation>Die Stammeltern-Gruppe. Sie hat Vorrang bei den Realm- und Einstiegsseiten-Einstellungen.</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="321" />
 		</references>
 	</entry>
 	<entry>
 		<string>The date and time this role's password was last changed.</string>
-		<translation></translation>
+		<translation>Zeitpunkt der letzten Änderung des Passworts dieses Nutzers</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="340" />
 		</references>
 	</entry>
 	<entry>
 		<string>The date and time this role last logged in.</string>
-		<translation></translation>
+		<translation>Zeitpunkt der letzten Anmeldung des Nutzers</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="359" />
 		</references>
 	</entry>
 	<entry>
 		<string>This role's timezone.</string>
-		<translation></translation>
+		<translation>Zeitzone des Nutzers</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="379" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="378" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default Hooks For Users</string>
 		<translation>Standardhooks für Nutzer</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="411" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="410" />
 		</references>
 	</entry>
 	<entry>
 		<string>No hooks are enabled for Users.</string>
 		<translation>Für Nutzer sind keine Hooks aktiviert.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="430" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="429" />
 		</references>
 	</entry>
 	<entry>
 		<string>Default Hooks For Groups</string>
 		<translation>Standardhooks für Gruppen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="440" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="439" />
 		</references>
 	</entry>
 	<entry>
 		<string>No hooks are enabled for Groups.</string>
 		<translation>Für Gruppen sind keine Hooks aktiviert.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="459" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="458" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow user search by email address</string>
 		<translation>Nutzern erlauben, anhand von E-Mail-Adressen zu suchen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="480" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="479" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow Searching By Email</string>
 		<translation>Suchen anhand von E-Mail-Adressen gestatten</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="483" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="482" />
 		</references>
 	</entry>
 	<entry>
 		<string>CAUTION: this may reveal enough information to compromise a user's login.</string>
-		<translation></translation>
+		<translation>VORSICHT: Dies könnte genug Informationen geben, um die Anmeldeinformationen eines Nutzers zu erlangen.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="489" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="488" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allow User Email Page?</string>
+		<translation>E-Mail für Nutzer erlauben</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="499" />
+		</references>
+	</entry>
+	<entry>
+		<string>Allows members to send an email via a form to other users. Users must switch this option on in their own account.</string>
+		<translation>Erlaubt Nutzern, E-Mails über Formulare an andere Benutzer zu senden. Diese müssen zusätzlich den Empfang in ihren Benutzereinstellungen erlauben.</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="503" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow users to edit their account details</string>
-		<translation></translation>
+		<translation>Änderungen der Nutzerangaben durch die Nutzer selbst erlauben</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="498" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="512" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow users to edit their member account details</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="501" />
-		</references>
-	</entry>
-	<entry>
-		<string>This toggles the Roles hook to the Roles module.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="507" />
-		</references>
-	</entry>
-	<entry>
-		<string>Require users to revalidate when they change email address?</string>
-		<translation></translation>
+		<translation>Änderungen der Nutzerangaben erlauben</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="515" />
 		</references>
 	</entry>
 	<entry>
-		<string>Members must validate if they change their email account?</string>
-		<translation></translation>
+		<string>This toggles the Roles hook to the Roles module.</string>
+		<translation>Dies verbindet dern Rollen-Hook zum Rollen-Modul</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="518" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="521" />
 		</references>
 	</entry>
 	<entry>
-		<string>Display roles (memberlist) in user menu?</string>
-		<translation></translation>
+		<string>Require users to revalidate when they change email address?</string>
+		<translation>Erzwingt die erneute Gültigkeitsbestätigung der geänderten Adresse durch den Nutzer</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="529" />
 		</references>
 	</entry>
 	<entry>
-		<string>Display member list as Roles menu option?</string>
-		<translation></translation>
+		<string>Members must validate if they change their email account?</string>
+		<translation>Änderungen der E-Mailadresse überprüfen</translation>
 		<references>
 			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="532" />
 		</references>
 	</entry>
 	<entry>
+		<string>Display roles (memberlist) in user menu?</string>
+		<translation>Menüpunkt 'Rollen' im Benutzermenü anzeigen?</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="543" />
+		</references>
+	</entry>
+	<entry>
+		<string>Display member list as Roles menu option?</string>
+		<translation>Menüpunkt 'Rollen' im Benutzermenü anzeigen?</translation>
+		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="546" />
+		</references>
+	</entry>
+	<entry>
 		<string>NOTE: This is a convenience option. The members list is available
 regardless of its inclusion in the menu, for all users that have Read privileges for Roles.</string>
-		<translation></translation>
+		<translation>Dies ändert nur die Anzeige. Die Nutzerliste ist unabhängig hiervon zugänglich, wenn der Nutzer entsprechende Leserechte hat.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="537" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="551" />
 		</references>
 	</entry>
 	<entry>
 		<string>User Homepage Options</string>
-		<translation></translation>
+		<translation>Einstiegsseite-Optionen</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="541" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="555" />
 		</references>
 	</entry>
 	<entry>
 		<string>Redirect users to Home Page on login?</string>
-		<translation></translation>
+		<translation>Einstiegsseite nach dem Anmelden anzeigen?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="550" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="553" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="564" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="567" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow users to edit their user home page in their account</string>
-		<translation></translation>
+		<translation>Änderungen der Einstiegsseite durch Nutzer erlauben</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="563" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="586" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="577" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="600" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow users to set Home Page in their member account</string>
-		<translation></translation>
+		<translation>Einstellung der Einstiegsseite durch Nutzer erlauben</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="566" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="587" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="580" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="601" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow users to set external URLS for their user home page</string>
-		<translation></translation>
+		<translation>Externe URLs als Einstiegsseite erlauben?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="576" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="590" />
 		</references>
 	</entry>
 	<entry>
 		<string>Allow users to set external URLS in their Home Page?</string>
-		<translation></translation>
+		<translation>Externe URLs als Einstiegsseite erlauben?</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="579" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="593" />
 		</references>
 	</entry>
 	<entry>
 		<string>(options for Home Page are only available if the dynamic roles user variable 'userhome' is activated)</string>
-		<translation></translation>
+		<translation>Die Optionen für die Einstiegsseite sind nur verfügbar, wenn die dynamische Nutzervariable 'userhome' aktiviert ist.</translation>
 		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="588" />
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="602" />
 		</references>
 	</entry>
 </translations>
