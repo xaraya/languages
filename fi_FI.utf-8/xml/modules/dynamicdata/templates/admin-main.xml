@@ -2,439 +2,430 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
 	<entry>
 		<string>Many modules are basically dealing with the equivalent of real-life objects, like news articles, projects, surveys, race tracks or whatever.</string>
-		<translation></translation>
+		<translation>Monet moduulit käsittelevät yleensä oikean elämän kohteita, joita voivat olla uutisartikkelit, projektit, kyselyt tai vaikkapa kilparata.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="13" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
 		<string>Those &quot;objects&quot; each have a number of &quot;properties&quot;, like an item id, a title, an author, a deadline or a number of VIP places, and their data is generally stored in some dedicated module table.</string>
-		<translation></translation>
+		<translation>Nämä kohteet eli &quot;objektit&quot; voivat sisältää useita &quot;ominaisuuksia&quot;, kuten alkion id:n (jokaisen kohteen yksilöllinen tunniste), otsikon, tekijän, määräajan tai aitiopaikkojen määrän. Tämä kaikki tieto tallennetaan useimmiten moduulin dedikoituun tietokantatauluun.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="16" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>The whole management of the object instances (creation, modification, display, deletion, ...) is typically hard-coded in the module, and tightly wired to the underlying data structure, which makes it difficult to e.g. add another property to your objects without rewriting half the module code (and templates).</string>
-		<translation></translation>
+		<translation>Objektien ilmentymien ylläpito (luominen, muokkaaminen, näyttäminen, poistaminen, ...) on yleensä koodattu pysyvästi moduuliin sekä sidottu tiukasti taustalla olevaan tietorakenteeseen. Tällöin esimerkiksi uuden ominaisuuden lisääminen objektiin on vaikeaa, koska moduulin koodia (ja mallineita) joudutaan kirjoittamaan paljon uudelleen.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="19" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>What is it?</string>
-		<translation></translation>
+		<translation>Mikä tämä on?</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="22" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Dynamic Data module allows you to dynamically add properties to your module objects, and to integrate them with the rest of the site without much effort - regardless of whether you're the module developer, a third-party solution designer or the website admin.</string>
-		<translation></translation>
+		<translation>Dynaaminen tieto -moduulilla voit lisätä dynaamisesti ominaisuuksia moduulien objekteihin, lisäksi voit yhdistää ne vaivattomasti sivustoon - riippumatta siitä oletko moduulin kehittäjä, ratkaisun suunnittelija tai sivuston ylläpitäjä.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="24" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
 		<string>And no-one says you're limited to existing modules - you could just as easily create whole new objects by defining their properties and telling the Dynamic Data module where their data should be coming from : dedicated module tables, dynamic data fields (auto-generated), some utility module from Xaraya or a user function you'll specify.</string>
-		<translation></translation>
+		<translation>Dynaamisen tiedon käyttö ei rajoitu vain olemassa oleviin moduuleihin - voit aivan yhtä helposti luoda kokonaan uusia objekteja, määrittää niille ominaisuuksia ja kertoa Dynaaminen tieto -moduulille mistä niiden tiedot tulisi noutaa: dedikoidusta moduulin taulusta, dynaamisen tiedon kentistä (generoitu automaattisesti), jostain Xarayan työkalumoduulista tai itse määritellystä käyttäjäfunktiosta.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="27" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
 		<string>The starting point for all this is of course the admin interface.</string>
-		<translation></translation>
+		<translation>Kaiken tämän lähtökohtana on tietysti ylläpidon käyttöliitymä.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="30" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="31" />
 		</references>
 	</entry>
 	<entry>
 		<string>Admin interface of the Dynamic Data module</string>
-		<translation></translation>
+		<translation>Dynaaminen tieto -moduulin ylläpitoliittymä</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="34" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Explain property types, data sources, validation, input &amp;amp; output representation.</string>
-		<translation></translation>
+		<translation>TODO: Ominaisuustyypit, tietolähteet, kelpuutus, syötteen &amp;amp; tulosteen esitys.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="38" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="39" />
 		</references>
 	</entry>
 	<entry>
 		<string>Using the &amp;lt;xar:data-* ...&amp;gt; tags in your templates</string>
-		<translation></translation>
+		<translation>&amp;lt;xar:data-* ...&amp;gt;-tagien käyttö mallineissa</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="42" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>User view and admin list (for several items)</string>
-		<translation></translation>
+		<translation>Käyttäjän tarkastelunäkymä ja ylläpidon listaus (useille alkioille)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="46" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you want to get the dynamic properties and values for your items, and include them somewhere in your own view/list.</string>
-		<translation></translation>
+		<translation>Jos haluat noutaa alkioiden dynaamiset ominaisuudet ja arvot, ja sisällyttää ne jossain muualla omassa näkymässäsi tai listassasi.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="50" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
 		<string>Available tags: (replace 'users', '&amp;#36;uidlist' and '&amp;#36;uid' with your own)</string>
-		<translation></translation>
+		<translation>Saatavilla olevat tagit: (korvaa 'users', '&amp;#36;uidlist' ja '&amp;#36;uid' arvot omillasi)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="53" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
 		<string>this retrieves the dynamic properties defined for the 'users' module,
 and their value for all items listed in &amp;#36;uidlist. You'll need to build
 that uid list in your module function and pass it along to the template</string>
-		<translation></translation>
+		<translation>Tämä noutaa 'users'-moduulille määritetyt dynaamiset ominaisuudet ja niiden arvot kaikille alkioille,&lt;br /&gt; jotka ovat listattuna &amp;#36;uidlist-arvossa. Sinun täytyy rakentaa uid-lista moduulin funktiossa ja ohjata se edelleen mallineeseen.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="59" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="60" />
 		</references>
 	</entry>
 	<entry>
 		<string>this shows the label for dynamic property</string>
-		<translation></translation>
+		<translation>tämä näyttää dynaamisen ominaisuuden otsikon</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="63" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="64" />
 		</references>
 	</entry>
 	<entry>
 		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid, i
 formatted for output</string>
-		<translation></translation>
+		<translation>tämä näyttää '&amp;#36;name'-ominaisuuden arvon alkiolle &amp;#36;uid, muotoiltuna tulosteeksi</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="67" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="68" />
 		</references>
 	</entry>
 	<entry>
 		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid,
 formatted for input</string>
-		<translation></translation>
+		<translation>tämä näyttää '&amp;#36;name'-ominaisuuden arvon alkiolle &amp;#36;uid, muotoiltuna syötteeksi</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="71" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="72" />
 		</references>
 	</entry>
 	<entry>
 		<string>Sample use:</string>
-		<translation></translation>
+		<translation>Käyttöesimerkki:</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="75" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="76" />
 		</references>
 	</entry>
 	<entry>
 		<string>(somewhere near the beginning of your template)</string>
-		<translation></translation>
+		<translation>(jossain mallineesi alkupäässä)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>avoid errors when the dynamic data module isn't activated</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="83" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="95" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="110" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="80" />
 		</references>
 	</entry>
 	<entry>
 		<string>(when you're building some table headers, and you want to add labels for the dynamic properties)</string>
-		<translation></translation>
+		<translation>(kun rakennat taulukoiden otsakkeitta ja haluat lisätä dynaamisille ominaisuuksille otsikot)</translation>
 		<references>
 			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>(when you're looping over the individual items, and you want to add the dynamic values for item &amp;#36;uid)</string>
-		<translation></translation>
+		<translation>(kun käyt yksittäisiä alkioita läpi silmukassa ja haluat näyttää dynaamiset arvot vain alkiosta &amp;#36;uid)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="106" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="105" />
 		</references>
 	</entry>
 	<entry>
 		<string>avoid errors if the value isn't defined for this
 item (yet)</string>
-		<translation></translation>
+		<translation>tällä vältetään virheet jos arvoa ei ole vielä määritetty tälle alkiolle</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="115" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="113" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you want to show a standard list of items, with all the dynamic properties that are defined for that object.</string>
-		<translation></translation>
+		<translation>Kun haluat näyttää standardin listan alkioista, kaikkine dynaamisine ominaisuuksineen, jotka on määritetty kyseiselle objektille.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="128" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="126" />
 		</references>
 	</entry>
 	<entry>
 		<string>Idem for</string>
-		<translation></translation>
+		<translation>Sama tagille</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="155" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="213" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="225" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="153" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="211" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="223" />
 		</references>
 	</entry>
 	<entry>
 		<string>(Todo : group, join ?)</string>
-		<translation></translation>
+		<translation>(TODO : ryhmittely, liittäminen ?)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="161" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="159" />
 		</references>
 	</entry>
 	<entry>
 		<string>User display and admin form (for one item)</string>
-		<translation></translation>
+		<translation>Käyttäjän tulostenäkymä ja ylläpidon lomake (yhdelle alkiolle)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="165" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="163" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you want to get the dynamic properties for this item, and include them manually in your own display.</string>
-		<translation></translation>
+		<translation>Kun haluat noutaa tämän alkion dynaamiset ominaisuudet ja sisällyttää ne manuaalisti omassa tulostenäkymässäsi.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="169" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="167" />
 		</references>
 	</entry>
 	<entry>
 		<string>this retrieves the dynamic properties defined for the 'users' module
 and item &amp;#36;uid. Note that we don't use value=&quot;...&quot; here, since we only
 have one item</string>
-		<translation></translation>
+		<translation>tämä noutaa dynaamiset ominaisuudet 'users'-moduulin alkiolle &amp;#36;uid.&lt;br /&gt; Huomaa, että tässä ei käytetä value=&quot;...&quot; attribuuttia, koska noudamme vain yhden alkion</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="175" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>(where you want to add the dynamic labels and values for this item)</string>
-		<translation></translation>
+		<translation>(mihin haluat lisätä tämän alkion dynaamisen ominaisuuden otsikot ja arvot)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="180" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="178" />
 		</references>
 	</entry>
 	<entry>
 		<string>Idem for input forms, where you'd use &amp;lt;xar:data-input ... /&amp;gt; to show input fields</string>
-		<translation></translation>
+		<translation>Sama syötelomakkeille, jossa käytetään &amp;lt;xar:data-input ... /&amp;gt;-tagia syötekenttien näyttämiseen</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="195" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="193" />
 		</references>
 	</entry>
 	<entry>
 		<string>If you simply want to display the dynamic properties for this item (= easier in most cases).</string>
-		<translation></translation>
+		<translation>Kun haluat vain näyttää tämän alkion dynaamiset ominaisuudet (usein vaivattomampaa).</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="198" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="196" />
 		</references>
 	</entry>
 	<entry>
 		<string>this will use the default layout of user-objectdisplay.xd</string>
-		<translation></translation>
+		<translation>tämä käyttää oletustaittoa mallineesta user-objectdisplay.xd</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="202" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="200" />
 		</references>
 	</entry>
 	<entry>
 		<string>this will use layout 'mylayout' of user-objectdisplay.xd</string>
-		<translation></translation>
+		<translation>tämä käyttää 'mylayout'-taittoa mallineesta user-objectdisplay.xd</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="205" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="203" />
 		</references>
 	</entry>
 	<entry>
 		<string>this will use the template user-objectdisplay-myusers.xd</string>
-		<translation></translation>
+		<translation>tämä käyttää mallinetta user-objectdisplay-myusers.xd</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="208" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="206" />
 		</references>
 	</entry>
 	<entry>
 		<string>User output and admin input (for one field of an item)</string>
-		<translation></translation>
+		<translation>Käyttäjän tuloste ja ylläpidon syöte (yksittäisen alkion yhdelle kentälle)</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="217" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="215" />
 		</references>
 	</entry>
 	<entry>
 		<string>Included hooks</string>
-		<translation></translation>
+		<translation>Mukana tulevat koukut</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="228" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="226" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Admin Hook&lt;/strong&gt; : new/create/modify/update/delete plus
 modifyconf/updateconfig.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Ylläpitokoukku&lt;/strong&gt; : new/create/modify/update/delete ja modifyconf/updateconfig.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="234" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="232" />
 		</references>
 	</entry>
 	<entry>
 		<string>You can hook Dynamic Data to other modules by going to Modules -&gt; Configure Hooks
 and clicking on Dynamic Data. Activate the hook by checking the checkbox next to the module where
 you would like to use Dynamic Data.</string>
-		<translation></translation>
+		<translation>Voit asettaa Dynaamisen tiedon koukut muille moduuleille menemällä Moduulit -&gt; Muokkaa koukkuja - ja napsauttamalla Dynaaminen tieto. Aktivoi koukku valitsemalla valintanappi haluamasi moduulin kohdalta.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="237" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="235" />
 		</references>
 	</entry>
 	<entry>
 		<string>deprecated</string>
-		<translation></translation>
+		<translation>vanhentunut</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="241" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="239" />
 		</references>
 	</entry>
 	<entry>
 		<string>Using API calls</string>
-		<translation></translation>
+		<translation>API-kutsutoimintojen käyttäminen</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="247" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="245" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dynamic Objects And Object Lists</string>
-		<translation></translation>
+		<translation>Dynaamiset objektit ja objektilistat</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="255" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="273" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="253" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="271" />
 		</references>
 	</entry>
 	<entry>
 		<string>Dynamic Properties</string>
-		<translation></translation>
+		<translation>Dynaamiset ominaisuudet</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="258" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="276" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="256" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="274" />
 		</references>
 	</entry>
 	<entry>
 		<string>items : getitems(), getitem(), getfield()</string>
-		<translation></translation>
+		<translation>alkiot : getitems(), getitem(), getfield()</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="261" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="279" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="259" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="277" />
 		</references>
 	</entry>
 	<entry>
 		<string>Using Object Oriented Programming</string>
-		<translation></translation>
+		<translation>Käyttämäminen olio-ohjelmoinnissa</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="266" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="264" />
 		</references>
 	</entry>
 	<entry>
 		<string>Customising Dynamic Data</string>
-		<translation></translation>
+		<translation>Dynaamisen tiedon mukauttaminen</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="284" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="282" />
 		</references>
 	</entry>
 	<entry>
 		<string>templates, data sources, functions, validation, ...</string>
-		<translation></translation>
+		<translation>mallineet, tietolähteet, funktiot, kelpuutus, ...</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="288" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="286" />
 		</references>
 	</entry>
 	<entry>
 		<string>Integrate utility modules via hooks or dynamic data (or both) ?</string>
-		<translation></translation>
+		<translation>Yhdistä työkalumoduuli koukuilla tai dynaamisen tiedon avulla (tai molemmilla)?</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="292" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="290" />
 		</references>
 	</entry>
 	<entry>
 		<string>Import/Export Utilities</string>
-		<translation></translation>
+		<translation>Tuonti/vienti-työkalut</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="296" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="294" />
 		</references>
 	</entry>
 	<entry>
 		<string>Usage : Export object definitions and/or data - and import them elsewhere...</string>
-		<translation></translation>
+		<translation>Käyttö : Vie objektimäärittelyjä ja/tai tietoa - tuo ne jonnekin muualle...</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="300" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="298" />
 		</references>
 	</entry>
 	<entry>
 		<string>[+ Easter Egg : util meta -&amp;gt; export to XML -&amp;gt; save to file -&amp;gt; util import -&amp;gt; access your whole database via DD]</string>
-		<translation></translation>
+		<translation>[+ Vihje : Työkalut -&amp;gt; Metamäärittelyt -&amp;gt; Vie XML-muotoon -&amp;gt; Tallenna tiedostoon -&amp;gt; Työkalut -&amp;gt; Tuo -&amp;gt; pääsy koko tietokantaan Dynaamisen tiedon kautta]</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="304" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="302" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further Information</string>
-		<translation></translation>
+		<translation>Lisätiedot</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="307" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="305" />
 		</references>
 	</entry>
 	<entry>
 		<string>Further information on the DynamicData module can be found at:</string>
-		<translation></translation>
+		<translation>Lisätietoja Dynaaminen tieto -moduulista löydät seuraavilta sivuilta:</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="310" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="308" />
 		</references>
 	</entry>
 	<entry>
 		<string>DynamicData Module Extension page at</string>
-		<translation></translation>
+		<translation>Dynaaminen tieto -moduulin laajennuksen kotisivu osoitteessa</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="311" />
 		</references>
 	</entry>
 	<entry>
 		<string>DynamicData Module - Xaraya Extension 182</string>
-		<translation></translation>
+		<translation>Dynaaminen tieto -moduuli - Xarayan laajennus 182</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="311" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on DynamicData module at</string>
+		<translation>Aiheeseen liittyvät ohjeet ja dokumentaatio sijaitsevat</translation>
 		<references>
 			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
 		</references>
 	</entry>
 	<entry>
-		<string>Related tutorials and documentation on DynamicData module at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="315" />
-		</references>
-	</entry>
-	<entry>
 		<string>Related documentation on DynamicData</string>
-		<translation></translation>
+		<translation>Dynaamiseen tietoon liittyvä dokumentaatio</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="315" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Documentation.</string>
-		<translation></translation>
+		<translation>Xarayan dokumentaatiossa.</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="315" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
 		</references>
 	</entry>
 	<entry>
 		<string>DynamicData Module - Overview</string>
-		<translation></translation>
+		<translation>Dynaaminen tieto -moduuli - Yleiskatsaus</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="319" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="317" />
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
-		<translation></translation>
+		<translation>Versio</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="319" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="317" />
 		</references>
 	</entry>
 </translations>

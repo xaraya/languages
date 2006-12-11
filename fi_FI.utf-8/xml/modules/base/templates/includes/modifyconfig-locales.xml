@@ -9,7 +9,7 @@
 	</entry>
 	<entry>
 		<string>The multilanguage system (MLS) works in three different modes.</string>
-		<translation>Monikielinen järjestelmä (MLS) toimii kolmessa eri tilassa.</translation>
+		<translation>Monikielinen järjestelmä (MKJ) toimii kolmessa eri tilassa.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="15" />
 		</references>
@@ -33,7 +33,7 @@ with the mbstring extension compiled in.</string>
 		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
 built in. All information is stored coherently with the chosen character set (at installation time),
 and also user data is meaningful in the chosen character set.</string>
-		<translation></translation>
+		<translation>MKJ käyttää vain yhtä merkistöä joka on yleensä yksitavuinen, mutta se voi olla myös monitavuinen jos mbstring-laajennus on käytettävissä. Kaikki tiedot tallennetaan aina valitulla merkistöllä (jo asennusvaiheessa).</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="36" />
 		</references>
@@ -53,21 +53,21 @@ language areas (for example an Arabic comment won't be shown in the English area
 they are referring to the same object, e.g. an article available in both English and Arabic).
 Another point is that every operation involves only a single language. This mode can produce
 unexpected results if mb_string is not installed.</string>
-		<translation></translation>
+		<translation>MKJ voi käyttää useampia merkistöjä sivustolla (tässä tilassa täytyy ottaa myös huomioon tallennetaanko tiedot yksitavuisella vai monitavuisella merkistöllä). Yhdellä sivulla voidaan käyttää vain yhtä merkistöä. Tästä johtuen sisältöä ei voida jakaa eri kielialueiden kesken (esim. arabiankielinen kommentti ei näy suomenkielisellä alueella vaikka ne viittaisivat samaan objektiin, kuten artikkeliin joka on saatavilla sekä suomenkielisenä että arabiankielisenä). Lisäksi jokainen järjestelmän operaatio koskee vain yhtä yksittäistä kieltä. Tämä tila voi tuottaa odottamattomia tuloksia jos mbstring-laajennusta ei ole asennettu.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
 		<string>It is installed on this server, so you can give this mode a try</string>
-		<translation></translation>
+		<translation>mbstring-laajennus on asennettu palvelimelle, joten voit kokeilla tätä tilaa</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
 		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
-		<translation></translation>
+		<translation>VAROITUS: mbstring-laajennusta EI OLE asennettu palvelimelle, toimi varoen</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="63" />
 		</references>
@@ -84,7 +84,7 @@ unexpected results if mb_string is not installed.</string>
 conversion is needed for the content representation. Every page is always shown according to
 the user chosen language, but the page can contain texts in other languages
 (for example a French article and comments inside an English page).</string>
-		<translation></translation>
+		<translation>MKJ käyttää yleiskäyttöistä merkistöä kaikelle (eli UTF-8:aa), jolloin esitettävälle sisällölle ei tarvitse tehdä merkistömuunnosta. Jokainen sivu näkyy aina käyttäjän valitsemalla kielellä, mutta sivu voi sisältää tekstiä myös muista kielistä (esimerkiksi suomenkielinen sivu jonka sisällä on ranskankielinen artikkeli ja kommentteja).</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="83" />
 		</references>
