@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
 	<entry>
+		<string>Modify Categories</string>
+		<translation>Wijzig categorieën</translation>
+		<references>
+			<reference file="modules/julian/xaradminapi/getmenulinks.php" line="37" />
+			<reference file="modules/julian/xaradminapi/getmenulinks.php" line="38" />
+			<reference file="modules/julian/xartemplates/admin-modifycategories.xd" line="12" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
+		<translation>Ongeldige #(1) voor #(2) functie #(3)() in module #(4)</translation>
+		<references>
+			<reference file="modules/julian/xaradminapi/update.php" line="57" />
+			<reference file="modules/julian/xaruser/displayhook.php" line="38" />
+			<reference file="modules/julian/xaruser/displayhook.php" line="53" />
+			<reference file="modules/julian/xaruser/modifyhook.php" line="36" />
+			<reference file="modules/julian/xaruser/modifyhook.php" line="51" />
+			<reference file="modules/julian/xaruser/viewevent.php" line="152" />
+			<reference file="modules/julian/xaruserapi/createhook.php" line="33" />
+			<reference file="modules/julian/xaruserapi/createhook.php" line="48" />
+			<reference file="modules/julian/xaruserapi/deletehook.php" line="38" />
+			<reference file="modules/julian/xaruserapi/deletehook.php" line="53" />
+			<reference file="modules/julian/xaruserapi/geteventinfo.php" line="31" />
+			<reference file="modules/julian/xaruserapi/getevents.php" line="80" />
+			<reference file="modules/julian/xaruserapi/get.php" line="34" />
+			<reference file="modules/julian/xaruserapi/gethooked.php" line="42" />
+			<reference file="modules/julian/xaruserapi/gethooked.php" line="50" />
+			<reference file="modules/julian/xaruserapi/getorganizers.php" line="53" />
+		</references>
+	</entry>
+	<entry>
 		<string>Overview</string>
 		<translation>Overzicht</translation>
 		<references>
@@ -17,15 +48,6 @@
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="548" />
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="121" />
 			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="125" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Categories</string>
-		<translation>Wijzig categorieën</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-modifycategories.xd" line="12" />
-			<reference file="modules/julian/xaradminapi/getmenulinks.php" line="37" />
-			<reference file="modules/julian/xaradminapi/getmenulinks.php" line="38" />
 		</references>
 	</entry>
 	<entry>
@@ -136,30 +158,6 @@
 		<references>
 			<reference file="modules/julian/xartemplates/user-addevent.xd" line="173" />
 			<reference file="modules/julian/xartemplates/includes/modify-datetime.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event Date:Month</string>
-		<translation>Datum: maand</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="176" />
-			<reference file="modules/julian/xartemplates/includes/modify-datetime.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event Date:Day</string>
-		<translation>Datum: dag</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="192" />
-			<reference file="modules/julian/xartemplates/includes/modify-datetime.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event Date:Year</string>
-		<translation>Datum: jaar</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/user-addevent.xd" line="207" />
-			<reference file="modules/julian/xartemplates/includes/modify-datetime.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
@@ -699,32 +697,11 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ongeldige #(1) voor #(2) functie #(3)() in module #(4)</translation>
-		<references>
-			<reference file="modules/julian/xaruser/displayhook.php" line="38" />
-			<reference file="modules/julian/xaruser/displayhook.php" line="53" />
-			<reference file="modules/julian/xaruser/modifyhook.php" line="36" />
-			<reference file="modules/julian/xaruser/modifyhook.php" line="51" />
-			<reference file="modules/julian/xaruser/viewevent.php" line="152" />
-			<reference file="modules/julian/xaruserapi/createhook.php" line="33" />
-			<reference file="modules/julian/xaruserapi/createhook.php" line="48" />
-			<reference file="modules/julian/xaruserapi/deletehook.php" line="38" />
-			<reference file="modules/julian/xaruserapi/deletehook.php" line="53" />
-			<reference file="modules/julian/xaruserapi/get.php" line="34" />
-			<reference file="modules/julian/xaruserapi/geteventinfo.php" line="31" />
-			<reference file="modules/julian/xaruserapi/getevents.php" line="80" />
-			<reference file="modules/julian/xaruserapi/gethooked.php" line="42" />
-			<reference file="modules/julian/xaruserapi/gethooked.php" line="50" />
-			<reference file="modules/julian/xaruserapi/getorganizers.php" line="53" />
-		</references>
-	</entry>
-	<entry>
 		<string>Not Entered</string>
 		<translation>Niet ingevuld</translation>
 		<references>
-			<reference file="modules/julian/xaruser/newhook.php" line="29" />
 			<reference file="modules/julian/xaruser/modifyhook.php" line="65" />
+			<reference file="modules/julian/xaruser/newhook.php" line="28" />
 			<reference file="modules/julian/xaruserapi/createhook.php" line="74" />
 		</references>
 	</entry>
@@ -732,8 +709,8 @@
 		<string>Event Alert</string>
 		<translation>Evenement waarschuwing</translation>
 		<references>
-			<reference file="modules/julian/xarschedulerapi/email_alerts.php" line="98" />
 			<reference file="modules/julian/xaruserapi/email_alerts.php" line="98" />
+			<reference file="modules/julian/xarschedulerapi/email_alerts.php" line="98" />
 		</references>
 	</entry>
 	<entry>
