@@ -1,272 +1,355 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
 	<entry>
+		<string>Already installed</string>
+		<translation>Déjà installé</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="20" />
+		</references>
+	</entry>
+	<entry>
 		<string>Welcome to Xaraya</string>
 		<translation>Bienvenue dans Xaraya</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="27" />
+			<reference file="modules/installer/xaradmin.php" line="35" />
 		</references>
 	</entry>
 	<entry>
 		<string>Step One</string>
 		<translation>1ère étape</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="61" />
+			<reference file="modules/installer/xaradmin.php" line="72" />
+			<reference file="modules/installer/xaradmin.php" line="1193" />
 		</references>
 	</entry>
 	<entry>
 		<string>Step Two</string>
 		<translation>2ème étape</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="78" />
+			<reference file="modules/installer/xaradmin.php" line="90" />
+			<reference file="modules/installer/xaradmin.php" line="1729" />
+		</references>
+	</entry>
+	<entry>
+		<string>Undetermined</string>
+		<translation>Non déterminée</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="167" />
+			<reference file="modules/installer/xaradmin.php" line="204" />
 		</references>
 	</entry>
 	<entry>
 		<string>Step Three</string>
 		<translation>3ème étape</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="137" />
+			<reference file="modules/installer/xaradmin.php" line="209" />
+			<reference file="modules/installer/xaradmin.php" line="1807" />
 		</references>
 	</entry>
 	<entry>
 		<string>Step Four</string>
 		<translation>4ème étape</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="166" />
+			<reference file="modules/installer/xaradmin.php" line="242" />
+			<reference file="modules/installer/xaradmin.php" line="1819" />
 		</references>
 	</entry>
 	<entry>
 		<string>No database was specified</string>
 		<translation>Aucune base de données n'a été spécifiée</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="200" />
+			<reference file="modules/installer/xaradmin.php" line="276" />
 		</references>
 	</entry>
 	<entry>
-		<string>Invalid character in table prefix</string>
-		<translation>Caractère invalide dans le préfixe des tables</translation>
+		<string>Invalid character in table prefix. Only use a-z, a _ and/or 0-9 in the prefix.</string>
+		<translation>Un caractère est invalide dans le préfixe des tables. N'utilisez que a-z0-9_ dans le préfixe.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="206" />
+			<reference file="modules/installer/xaradmin.php" line="283" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database connection failed. The information supplied was erroneous, such as a bad or missing password or wrong username.</string>
 		<translation>Impossible de se connecter à la base de données. L'information fournie est erronée, le mot de passe est peut-être manquant ou l'utilisateur n'est pas le bon.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="235" />
+			<reference file="modules/installer/xaradmin.php" line="343" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database #(1) doesn't exist and it wasnt selected to be created.</string>
-		<translation>La base de données #(1)  n'éxiste pas et vous n'avez pas choisis de la créer.</translation>
+		<translation>La base de données #(1)  n'existe pas et vous n'avez pas choisi de la créer.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="241" />
+			<reference file="modules/installer/xaradmin.php" line="349" />
 		</references>
 	</entry>
 	<entry>
 		<string>Could not create database (#(1)). Check if you already have a database by that name and remove it.</string>
-		<translation>Impossible de créer la base de données (#(1)). Vérifier si vous avez déjà une base de données de ce nom et supprimer la.</translation>
+		<translation>Impossible de créer la base de données (#(1)). Vérifiez que vous avez déjà une base de données de ce nom et supprimez-la.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="271" />
+			<reference file="modules/installer/xaradmin.php" line="379" />
 		</references>
 	</entry>
 	<entry>
 		<string>Step Five</string>
 		<translation>5ème étape</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="343" />
+			<reference file="modules/installer/xaradmin.php" line="457" />
+		</references>
+	</entry>
+	<entry>
+		<string>I cannot load the Authsystem module. Please make it available and reinstall</string>
+		<translation>Impossible de charger le module Authsystem. Veuillez le rendre disponible puis réinstaller.</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="484" />
 		</references>
 	</entry>
 	<entry>
 		<string>Create Administrator</string>
 		<translation>Créer un administrateur</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="453" />
+			<reference file="modules/installer/xaradmin.php" line="566" />
 		</references>
 	</entry>
 	<entry>
 		<string>The passwords do not match</string>
 		<translation>Le mot de passe ne correspond pas</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="480" />
+			<reference file="modules/installer/xaradmin.php" line="593" />
+		</references>
+	</entry>
+	<entry>
+		<string>You must provide a preferred username to continue.</string>
+		<translation>Vous devez fournir un nom d'utilisateur favori pour continuer.</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="599" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is a space in the username.</string>
+		<translation>Le nom d'utilisateur contient un espace.</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="605" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your username is too long.</string>
+		<translation>Votre nom d'utilisateur est trop long.</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="611" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is a space in your username.</string>
+		<translation>Votre nom d'utilisateur contient un espace.</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="617" />
 		</references>
 	</entry>
 	<entry>
 		<string>Group 'left' not found.</string>
 		<translation>Groupe 'gauche' introuvable.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="548" />
-			<reference file="modules/installer/xaradmin.php" line="886" />
+			<reference file="modules/installer/xaradmin.php" line="682" />
+			<reference file="modules/installer/xaradmin.php" line="1001" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose your configuration</string>
 		<translation>Choisissez votre configuration</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="624" />
+			<reference file="modules/installer/xaradmin.php" line="758" />
 		</references>
 	</entry>
 	<entry>
-		<string>Xaraya cannot install bcause the following core modules are missing or corrupted: #(1)</string>
+		<string>Xaraya cannot install because the following core modules are missing or corrupted: #(1)</string>
 		<translation>Xaraya ne peut pas s'installer car les modules du noyau suivants sont manquants ou corrompus : #(1)</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="644" />
+			<reference file="modules/installer/xaradmin.php" line="778" />
 		</references>
 	</entry>
 	<entry>
 		<string>There are currently no configuration files available.</string>
 		<translation>Il n'y a actuellement aucun fichier de configuration disponible.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="661" />
+			<reference file="modules/installer/xaradmin.php" line="795" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please go back and select one of the available configurations.</string>
 		<translation>Retournez en arrière s'il vous plaît, et choisissez une des configurations disponibles.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="709" />
+			<reference file="modules/installer/xaradmin.php" line="843" />
 		</references>
 	</entry>
 	<entry>
 		<string>Choose configuration options</string>
 		<translation>Choisissez les options de configuration</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="721" />
+			<reference file="modules/installer/xaradmin.php" line="855" />
 		</references>
 	</entry>
 	<entry>
 		<string>Install the #(1) module.</string>
 		<translation>Installer le module #(1).</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="751" />
-			<reference file="modules/installer/xaradmin.php" line="762" />
+			<reference file="modules/installer/xaradmin.php" line="885" />
 		</references>
 	</entry>
 	<entry>
 		<string>Admin access to all modules</string>
 		<translation>Accès administrateur à tous les modules</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="797" />
+			<reference file="modules/installer/xaradmin.php" line="919" />
 		</references>
 	</entry>
 	<entry>
 		<string>A container privilege for denying access to certain roles</string>
 		<translation>Un ensemble de privilèges pour refuser l'accès à certains rôles.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="798" />
+			<reference file="modules/installer/xaradmin.php" line="920" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deny access to Myself role</string>
 		<translation>Refuse l'accès au rôle 'Personnel' (MySelf)</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="799" />
+			<reference file="modules/installer/xaradmin.php" line="921" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deny access to Everybody role</string>
 		<translation>Refuse l'accès au rôle 'Toutlemonde' (Everybody)</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="800" />
+			<reference file="modules/installer/xaradmin.php" line="922" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deny access to Anonymous role</string>
 		<translation>Refuse l'accès au rôle 'Anonyme' (Anonymous)</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="801" />
+			<reference file="modules/installer/xaradmin.php" line="923" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deny access to Administrators role</string>
 		<translation>Refuse l'accès au rôle 'Administrateur' (Administrators)</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="802" />
+			<reference file="modules/installer/xaradmin.php" line="924" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deny access to Administration privilege</string>
 		<translation>Refuse l'accès à l'administration des privilèges</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="803" />
+			<reference file="modules/installer/xaradmin.php" line="925" />
 		</references>
 	</entry>
 	<entry>
 		<string>Deny access to GeneralLock privilege</string>
 		<translation>Refuse l'accès au privilège 'SécuritéGénérale' (GeneralLock)</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="804" />
+			<reference file="modules/installer/xaradmin.php" line="926" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot load because of unsatisfied dependencies. One or more of the following modules is missing:</string>
-		<translation>Impossible à charger à cause de dépendances insatisfaites. Un ou plus des modules suivants manquent :</translation>
+		<translation>Impossible à charger à cause de dépendances insatisfaites. Un ou plusieurs modules suivants manquent :</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="842" />
+			<reference file="modules/installer/xaradmin.php" line="964" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please check the listings at www.xaraya.com to identify any modules flagged as 'Unknown'.</string>
 		<translation>Vérifiez s'il vous plaît la liste sur le site www.xaraya.com pour identifier les modules marqués comme 'Inconnu'.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="848" />
+			<reference file="modules/installer/xaradmin.php" line="970" />
 		</references>
 	</entry>
 	<entry>
 		<string>Add the missing module(s) to the modules directory and run the installer again.</string>
 		<translation>Ajoutez le(s) module(s) manquant(s) au répertoire des modules et relancer l'installation.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="849" />
+			<reference file="modules/installer/xaradmin.php" line="971" />
 		</references>
 	</entry>
 	<entry>
 		<string>Cannot log in the default administrator. Check your setup.</string>
 		<translation>Impossible de s'identifier avec l'administrateur par défaut. Vérifier vos paramètres.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="934" />
+			<reference file="modules/installer/xaradmin.php" line="1052" />
 		</references>
 	</entry>
 	<entry>
 		<string>Group 'right' not found.</string>
 		<translation>Groupe 'Droit' introuvable.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="959" />
+			<reference file="modules/installer/xaradmin.php" line="1077" />
 		</references>
 	</entry>
 	<entry>
 		<string>Group 'header' not found.</string>
-		<translation>Groupe 'En-tête' introuvable.</translation>
+		<translation>Groupe 'entête' introuvable.</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="1000" />
+			<reference file="modules/installer/xaradmin.php" line="1120" />
 		</references>
 	</entry>
 	<entry>
 		<string>Step Six</string>
 		<translation>6ème étape</translation>
 		<references>
-			<reference file="modules/installer/xaradmin.php" line="1035" />
+			<reference file="modules/installer/xaradmin.php" line="1153" />
 		</references>
 	</entry>
 	<entry>
-		<string>This function can only take 1 or 2 parameters</string>
-		<translation>La fonction ne doit comporter que 1 ou 2 paramètres.</translation>
+		<string>Now preparing to run an upgrade from prior #(1) Version &lt;strong&gt;#(2)&lt;/strong&gt; (release #(3))
+to #(4) version &lt;strong&gt;#(5)&lt;/strong&gt; (release #(6))</string>
+		<translation>Préparation de la mise à jour depuis #(1) version &lt;strong&gt;#(2)&lt;/strong&gt; (release #(3)) vers #(4) version &lt;strong&gt;#(5)&lt;/strong&gt; (release #(6))</translation>
 		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="207" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="254" />
+			<reference file="modules/installer/xaradmin.php" line="1172" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Upgrade</string>
+		<translation>Mise à jour de Xaraya</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="1175" />
+		</references>
+	</entry>
+	<entry>
+		<string>You have already upgraded to #(1). The upgrade script only needs to run once.</string>
+		<translation>Votre version est déjà à jour (version #(1)). La mise à jour ne peut être exécutée qu'une fois.</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="1178" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;Your current site is &lt;strong&gt;Xaraya Version #(1)&lt;/strong&gt;.
+You must have at least Xaraya Version &lt;strong&gt;1.0.0&lt;/strong&gt; installed before continuing to upgrade to the latest release.&lt;/p&gt;
+&lt;p&gt;Please download the latest Xaraya Core 1.0.x version at #(2) and upgrade your current site before continuing.&lt;/p&gt;</string>
+		<translation>&lt;p&gt;Votre site utilise actuellement &lt;strong&gt;Xaraya Version #(1)&lt;/strong&gt;. Vous devez au moins avoir Xaraya Version &lt;strong&gt;1.0.0&lt;/strong&gt; installé avant de continuer à mettre à jour vers la toute dernière version.&lt;/p&gt; &lt;p&gt;Veuillez télécharger Xaraya Core 1.0.x version sur #(2) et mettre à jour votre site avant de continuer.&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/installer/xaradmin.php" line="1188" />
+		</references>
+	</entry>
+	<entry>
+		<string>Core Xaraya install - minimal modules needed to run Xaraya</string>
+		<translation>Installation de Xaraya Core - minimum des modules nécessaires pour pouvoir utiliser Xaraya</translation>
+		<references>
+			<reference file="modules/installer/xarconfigurations/core.conf.php" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Registered users have read access to all modules of the site.</string>
 		<translation>Les utilisateurs enregistrés ont le droit d'accès en lecture sur tous les modules du site.</translation>
 		<references>
-			<reference file="modules/installer/xarconfigurations/core.conf.php" line="27" />
+			<reference file="modules/installer/xarconfigurations/core.conf.php" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>Unregistered users have read access to the non-core modules of the site. If this option is not chosen unregistered users see only the first page.</string>
 		<translation>Les utilisateurs non enregistrés ont le droit d'accès en lecture sur tous les modules du site n'appartenant pas au noyau. Si cette option n'est pas cochée, les utilisateurs non enregistrés verront seulement la première page.</translation>
 		<references>
-			<reference file="modules/installer/xarconfigurations/core.conf.php" line="32" />
+			<reference file="modules/installer/xarconfigurations/core.conf.php" line="35" />
 		</references>
 	</entry>
 </translations>

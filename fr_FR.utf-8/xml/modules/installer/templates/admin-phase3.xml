@@ -4,110 +4,415 @@
 		<string>SUCCESS</string>
 		<translation>OK</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="7" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="4" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="29" />
 		</references>
 	</entry>
 	<entry>
 		<string>FAILURE</string>
 		<translation>ECHEC</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="12" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="9" />
 		</references>
 	</entry>
 	<entry>
-		<string>System Settings Check</string>
-		<translation>Verification de la configuration système</translation>
+		<string>CAUTION</string>
+		<translation>AVERTISSEMENT</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="19" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="14" />
 		</references>
 	</entry>
 	<entry>
-		<string>For Xaraya to function properly, the installer must write your database information to the file</string>
-		<translation>Pour que Xaraya fonctionne, le programme d'installation doit écrire les informations de la base de données dans un fichier</translation>
+		<string>Capabilities inventory</string>
+		<translation>Inventaire des recommendations</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya requires a number of settings and extentions to be present and have
+a certain value.
+We have checked these and the results are listed below. Each check
+is marked as either:</string>
+		<translation>Xaraya requiert la présence de configurations et d'extensions. Le résultat des vérifications est listé ci-dessous. Chaque vérification est donnée comme :</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>ERROR</string>
+		<translation>ERREUR</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
-		<string>If your settings are not correct, this script will not be able to do so. The installer needs write access for steps 3 and 4 only.</string>
-		<translation>Si vos paramètres sont incorrects, l'installation échouera. Le programme d'installation à besoin des permissions d'écriture pour les étapes 3 et 4.</translation>
+		<string>Please rectify the error to continue installation</string>
+		<translation>Veuillez corriger l'erreur pour continuer l'installation</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="31" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="27" />
 		</references>
 	</entry>
 	<entry>
-		<string>PHP Version is greater than or equal to 4.1.2. Your PHP Version is</string>
-		<translation>Version de PHP supérieure ou égale à 4.1.2. Votre version de PHP est</translation>
+		<string>Ensure you understand the warning consequences</string>
+		<translation>Soyez conscient des conséquences</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="39" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="28" />
 		</references>
 	</entry>
 	<entry>
-		<string>PHP Version is less than 4.1.2. Your PHP Version is</string>
-		<translation>Version de PHP inférieure à 4.1.2. Votre version de PHP est</translation>
+		<string>PHP Settings Check</string>
+		<translation>Vérification de la configuration de PHP</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="48" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="33" />
 		</references>
 	</entry>
 	<entry>
-		<string>Please upgrade PHP.</string>
-		<translation>Veuillez mettre à jour PHP.</translation>
+		<string>Xaraya has recommended settings for PHP. If your PHP settings do not meet requirements you may have difficulties in running install to completion.</string>
+		<translation>Xaraya requiert une certaine configuration de PHP. Si la vôtre ne convient pas, vous aurez des difficultés à terminer l'installation correctement.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="52" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="42" />
 		</references>
 	</entry>
 	<entry>
-		<string>The installer can write to the configuration file.</string>
-		<translation>Le programme d'installation ne peut pas écrire dans fichier le configuration.</translation>
+		<string>SUCCESS: PHP Version is greater than or equal to 4.1.2. Your PHP Version is #(1)</string>
+		<translation>OK: Version de PHP supérieure ou égale à 4.1.2. Votre version de PHP est #(1)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="61" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="55" />
 		</references>
 	</entry>
 	<entry>
-		<string>The installer cannot write to the configuration file. Please verify that your webserver has write access to the file</string>
-		<translation>Le programme d'installation ne peut pas écrire dans fichier le configuration. Veuillez vérifier l'acces en écriture pour ce fichier</translation>
+		<string>ERROR: PHP Version is less than 4.1.2. Your PHP Version is #(1) please upgrade PHP.</string>
+		<translation>ERREUR: Version de PHP inférieure à 4.1.2. Votre version de PHP est #(1), veuillez la mettre à jour.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="69" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="66" />
 		</references>
 	</entry>
 	<entry>
-		<string>The installer can write to the directory</string>
-		<translation>Le programme d'installation peut écrire dans le répertoire</translation>
+		<string>SUCCESS: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is #(1).</string>
+		<translation>OK: Xaraya nécessite un MINIMUM de 8 Mo de mémoire pour PHP (16 Mo sont VIVEMENT recommandés). La limite actuelle est #(1).</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="79" />
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="102" />
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="125" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="80" />
 		</references>
 	</entry>
 	<entry>
-		<string>The installer cannot write to the directory</string>
-		<translation>Le programme d'installation ne peut pas écrire dans le répertoire</translation>
+		<string>If you are planning to install modules during the install phase, a lot of memory is
+required. If in doubt, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
+		<translation>Si vous prévoyez d'installer des modules pendant la phase d'installation, une grande quantité de mémoire est nécessaire. Dans le doute, &lt;strong&gt;installez Xaraya Core&lt;/strong&gt;, puis ensuite les modules manuellement.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="88" />
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
-		<string>Please verify that your webserver has write access to the directory</string>
-		<translation>Veuillez vérifier que votre serveur web possède l'accès en écriture à ce répertoire</translation>
+		<string>WARNING: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is &lt;strong&gt;#(1)&lt;/strong&gt;.</string>
+		<translation>ATTENTION: Xaraya nécessite un MINIMUM de 8 Mo de mémoire pour PHP (16 Mo sont VIVEMENT recommandés). La limite actuelle est &lt;strong&gt;#(1)&lt;/strong&gt;.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="92" />
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="115" />
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="138" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="96" />
 		</references>
 	</entry>
 	<entry>
-		<string>The installer cannot write to the</string>
-		<translation>Le programme d'installation ne peut pas écrire dans</translation>
+		<string>Please check your PHP memory limit. Installation requires a lot of memory especially if you are planning to install modules during this phase.
+If in doubt about your PHP memory limit, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
+		<translation>Veuillez vérifier votre limite de mémoire pour PHP. L'installation requiert une grande quantité de mémoire, surtout si vous prévoyez d'installer des modules pendant cette phase. En cas de doute à propos de cette mémoire, &lt;strong&gt;installez Xaraya Core&lt;/strong&gt;, puis ensuite les modules manuellement.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="111" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="104" />
 		</references>
 	</entry>
 	<entry>
-		<string>Check Again &amp;gt;</string>
-		<translation>Vérifier à nouveau &amp;gt;</translation>
+		<string>ERROR: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is #(1).</string>
+		<translation>ERREUR : Xaraya a besoin d'un MINIMUM de 8 Mo de mémoire pour PHP (16 Mo ou plus sont VIVEMENT recommandés). La limite actuelle est #(1).</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="156" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="112" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you are planning to install modules during the install phase, a lot of memory is
+required. If in doubt, do a core only install and install modules manually later.</string>
+		<translation>Si vous prévoyez d'installer des modules pendant la phase d'installation, une grande quantité de mémoire est nécessaire. Dans le doute, installez Xaraya Core (minimale), puis ensuite les modules manuellement.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="120" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: Your max_execution_time for a php script is set to #(1) seconds. 30 seconds is
+usually sufficient but you may want to increase it for a full distribution install. How much time
+you need will depend on your system and number of modules you choose during this installation.
+If in doubt about your maximum (script) execution time, &lt;strong&gt;do a core only install&lt;/strong&gt;
+and install modules manually later.</string>
+		<translation>ATTENTION : Votre max_execution_time pour un script php de #(1) secondes. 30 secondes est la valeur qui convient généralement, mais vous pourriez peut-être l'augmenter pour une installation complète. Le temps nécessaire dépend de votre système et du nombre de modules que vous avez choisis pour cette installation. En cas de doute sur ce temps d'exécution maximum des scripts PHP, &lt;strong&gt;installez Xaraya Core&lt;/strong&gt;, puis ensuite les modules manuellement.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: Your max_execution_time for a php script is set to #(1) seconds. 30 seconds is
+usually sufficient but you may want to increase it for a full distribution install. How much time
+you need will depend on your system and number of modules you choose during this installation.
+If in doubt about your maximum (script) execution time, &lt;strong&gt;do a core only install&lt;/strong&gt;
+and install modules manually later.</string>
+		<translation>OK : Votre max_execution_time pour un script php de #(1) secondes. 30 secondes est la valeur qui convient généralement, mais vous pourriez peut-être l'augmenter pour une installation complète. Le temps nécessaire dépend de votre système et du nombre de modules que vous avez choisis pour cette installation. En cas de doute sur ce temps d'exécution maximum des scripts PHP, &lt;strong&gt;installez Xaraya Core&lt;/strong&gt;, puis ensuite les modules manuellement.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="147" />
+		</references>
+	</entry>
+	<entry>
+		<string>File Settings Check</string>
+		<translation>Vérification des permissions sur les fichiers</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="155" />
+		</references>
+	</entry>
+	<entry>
+		<string>For Xaraya to function properly, the installer must write your database information to the configuration file #(1).
+If your settings are not correct, this script will not be able to do so.</string>
+		<translation>Pour que Xaraya fonctionne correctement, il faut que le programme d'installation puisse écrire les informations concernant la base de données dans le fichier de configuration #(1). Si votre serveur est mal configuré, le script ne sera pas capable de le faire.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="161" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The installer can write to your configuration file.</string>
+		<translation>OK: Le programme d'installation peut écrire dans le fichier de configuration.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="170" />
+		</references>
+	</entry>
+	<entry>
+		<string>ERROR: The installer cannot write to the configuration file.
+Please verify that your webserver has write access to the file #(1)</string>
+		<translation>ERREUR: Le programme d'installation ne peut pas écrire dans le fichier de configuration. Veuillez vérifier l'accès en écriture par le serveur web dans le fichier #(1).</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The installer can write to the directory #(1)</string>
+		<translation>OK: Le programme d'installation peut écrire dans le répertoire #(1)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="191" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="219" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="247" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="277" />
+		</references>
+	</entry>
+	<entry>
+		<string>ERROR: The installer cannot write to the directory #(1).
+Please verify that your webserver has write access to the directory #(2)</string>
+		<translation>ERREUR: Le programme d'installation ne peut pas écrire dans le répertoire #(1). Veuillez vérifier que votre serveur web possède l'accès en écriture dans ce répertoire #(2).</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="203" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="231" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="289" />
+		</references>
+	</entry>
+	<entry>
+		<string>ERROR: The installer cannot write to the #(1).
+Please verify that your webserver has write access to the directory #(2)</string>
+		<translation>ERREUR: Le programme d'installation ne peut pas écrire dans le #(1). Veuillez vérifier que votre serveur web possède l'accès en écriture dans ce répertoire #(2).</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="259" />
+		</references>
+	</entry>
+	<entry>
+		<string>Locales Settings Check</string>
+		<translation>Vérification de la configuration des paramètres locaux</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="300" />
+		</references>
+	</entry>
+	<entry>
+		<string>For translation to function properly, Xaraya must have write access to files in the locales directory</string>
+		<translation>Pour que les traductions puissent fonctionner correctement, Xaraya doit avoir l'accès en écriture sur les fichiers du répertoire &quot;locales&quot;</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="304" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: Xaraya can write to the directory #(1) and all its files and subdirectories.</string>
+		<translation>OK: Xaraya peut écrire dans le répertoire #(1) et dans tous ses fichiers et sous-répertoires.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="312" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="347" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: Xaraya cannot write to the directory #(1) and all its files and subdirectories.</string>
+		<translation>ATTENTION: OK: Xaraya ne peut pas écrire dans le répertoire #(1) ni dans ses fichiers et sous-répertoires.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="323" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="358" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please verify that your webserver has write access to the files under the directory: #(1)</string>
+		<translation>Veuillez vérifier l'accès en écriture par le serveur web dans les fichiers du répertoire #(1)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="331" />
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="366" />
+		</references>
+	</entry>
+	<entry>
+		<string>Write access is required to cache language text for locales other than en.
+If you're not sure, ignore this warning.</string>
+		<translation>L'accès en écriture est requis pour mettre en cache les phrases non anglaises. Dans le doute, ignorez cet avertissement.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="339" />
+		</references>
+	</entry>
+	<entry>
+		<string>This write access is only needed if you intend on using translations module at your site actively.</string>
+		<translation>L'accès en écriture est uniquement requis si vous avez l'intention d'utiliser intensément le module de traductions sur votre site.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="373" />
+		</references>
+	</entry>
+	<entry>
+		<string>Information on Loaded PHP Extensions</string>
+		<translation>Informations concernant les extensions chargées pour PHP</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="377" />
+		</references>
+	</entry>
+	<entry>
+		<string>These extensions may be required for some modules to work, however Xaraya
+is not dependant on these extensions for installation.
+Refer to #(1) for further information on these extensions.</string>
+		<translation>Ces extensions pourrait être nécessaires au fonctionnement de certains modules. Cependant, l'installation de Xaraya ne dépend pas de ces extensions. Veuillez consulter #(1) pour de plus amples informations au sujet de ces extensions.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="386" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The XML Extension is loaded.</string>
+		<translation>OK: L'extension XML est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="397" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: The XML Extension is not loaded. You will require this extension
+if you plan to use the Xaraya Translations module.</string>
+		<translation>ATTENTION: L'extension XML n'est pas chargée. Vous aurez besoin de cette extension si vous prévoyez d'utiliser le module de traductions.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="402" />
+		</references>
+	</entry>
+	<entry>
+		<string>You will need at least one available database type</string>
+		<translation>Vous aurez besoin d'au moins un type de base de données</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="407" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: You have at least one database type available.</string>
+		<translation>OK: Vous disposez d'au moins un type de base de données.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="412" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: You do not have a supported database type available.</string>
+		<translation>ATTENTION: Vous ne disposez pas d'un type de base de données utilisable.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="416" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The MySQL Extension is loaded.</string>
+		<translation>OK: L'extension MySQL est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="421" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: MySQL as database will not be available</string>
+		<translation>ATTENTION: MySQL ne sera pas disponible</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="425" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The PGSQL Extension is loaded.</string>
+		<translation>OK:  L'extension PGSQL est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="430" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: PostgreSQL as database will not be available</string>
+		<translation>ATTENTION: PGSQL ne sera pas disponible</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="434" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The SQLite Extension is loaded.</string>
+		<translation>OK:  L'extension SQLite est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="439" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: SQLITE as database will not be available</string>
+		<translation>ATTENTION: SQLite ne sera pas disponible</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="443" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The PHP4 XSLT Extension is loaded.</string>
+		<translation>OK:  L'extension PHP4 XSLT est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="449" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: The PHP4 XSLT Extension is not loaded.
+This PHP4 extension is only needed for the PHP4 XSLT transform module at this time.</string>
+		<translation>ATTENTION: L'extension PHP4 XSLT ne sera pas disponible. Pour le moment, cette extension est uniquement requise pour le module XSLT.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="456" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The LDAP Extension is loaded.</string>
+		<translation>OK:  L'extension LDAP est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="461" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: The LDAP Extension is not loaded.
+This extension is only needed if you intend on using LDAP authentication with the Xaraya LDAP Modules.</string>
+		<translation>ATTENTION: L'extension LDAP ne sera pas disponible. Cette extension est uniquement requise pour le module d'authentification LDAP.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="468" />
+		</references>
+	</entry>
+	<entry>
+		<string>SUCCESS: The GD Extension is loaded.</string>
+		<translation>OK:  L'extension GD est chargée.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="473" />
+		</references>
+	</entry>
+	<entry>
+		<string>WARNING: The GD Extension is not loaded.
+This extension is only needed for the images module at this time for resizing of thumbnails.</string>
+		<translation>ATTENTION: L'extension GD ne sera pas disponible. Cette extension sert à travailler sur les images.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="480" />
+		</references>
+	</entry>
+	<entry>
+		<string>Check Again</string>
+		<translation>Revérifier</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="495" />
 		</references>
 	</entry>
 </translations>

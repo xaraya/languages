@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>Welcome to Xaraya Upgrade</string>
+		<translation>Bienvenue dans l'espace de Mise à Jour de Xaraya</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Ensure you have reviewed the UPGRADE.txt file or the &lt;a href=&quot;#(1)&quot;&gt;Xaraya Upgrade Guidelines&lt;/a&gt;, and relevant
+comments for your version upgrade before continuing.</string>
+		<translation>Veuillez vous assurer que vous avez consulté UPGRADE.txt ou les &lt;a href=&quot;#(1)&quot;&gt;Xaraya Upgrade Guidelines&lt;/a&gt;, et les commentaires correspondant à votre mise à jour avant de continuer.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>This upgrade process updates your database and some system files but &lt;strong&gt;cannot upgrade&lt;/strong&gt; your theme and templates!</string>
+		<translation>Ce processus de mise à jour s'occupe de votre base de données et de quelques fichiers système, mais &lt;strong&gt;ne peut pas&lt;/strong&gt; mettre à jour vos thèmes et templates !</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>To ensure a quick and smooth upgrade, please check and address the following important theme and template considerations &lt;strong&gt;before&lt;/strong&gt; continuing.</string>
+		<translation>Pour assurer une mise à jour rapide et en douceur, veuillez noter les importantes considérations suivantes concernant les thèmes et templates &lt;strong&gt;avant&lt;/strong&gt; de continuer.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Adminpanels module has been deprecated as of Version 1.1 and no longer available. The blocks have been moved to the Base module.</string>
+		<translation>Le module Adminpanel est déprécié depuis la version 1.1 et n'est plus disponible. Les blocks ont été déplacé vers le module Base.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please check your theme templates for use of any Adminpanel module references. You will need to change references to &lt;strong&gt;adminpanels&lt;/strong&gt; in your theme or templates
+to &lt;strong&gt;base&lt;/strong&gt; module. Remember particularly to change 'adminmenu' and 'waiting content' blocks tags to refer now to the base module, and update other Adminpanels links.</string>
+		<translation>Veuillez vérifier les références que vos templates de thème font vers le module Adminpanel. Il vous faudra remplacer ces références par des références vers le module &lt;strong&gt;Base&lt;/strong&gt;. Pensez surtout à changer les étiquettes de blocs 'adminmenu' et 'contenu en attente' pour qu'ils fassent maintenant référence au module Base, et à mettre à jour les autres liens de Adminpanel.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Make sure your Adminpanel block templates for any compact menu block, adminmenu or waiting content blocks are also moved to &lt;strong&gt;modules/base&lt;/strong&gt; directory in your theme.</string>
+		<translation>Assurez-vous que vos templates de bloc 'Adminpanel' pour vos blocs de menu compact, adminmenu, contenu en attente ont aussi été déplacés dans le répertoire &lt;strong&gt;modules/base&lt;/strong&gt; de votre theme.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>As of Version 1.1 the core login block and function in the Roles module has been moved to the
+Authsystem Module at</string>
+		<translation>Depuis la version 1.1, le bloc login et ses fonctions dans le module Rôles ont été déplacés vers le module Authsystem en</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can still login by browsing to</string>
+		<translation>Vous pouvez toujours vous authentifier en allant sur</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you allow User Registration on your site, you must ensure you have the &lt;strong&gt;Registration module&lt;/strong&gt; in your Xaraya module directory,
+install, and configure it to continue user registration on your site as from Version 1.1 .</string>
+		<translation>Si vous autorisez l'enregistrement de nouveaux utilisateurs sur votre site, vous devez vous assurer que vous avez le &lt;strong&gt;module Registration&lt;/strong&gt; dans votre répertoire modules de Xaraya. Installez-le et configurez-le pour continuer l'enregistrement de nouveaux utilisateurs sur votre site comme dans la version 1.1.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Country Listing Dynamic Data property has changed templates in Version 1.1 to refer to ID as value
+instead of Name. If you have been using this DD property, you will have to override the template to
+continue to use Name as the value.</string>
+		<translation>La propriété 'Country Listing Dynamic Data' a changé depuis la version 1.1 pour faire référence à 'ID' en valeur plutôt qu'à 'Name'. Si vous avez l'habitude d'utiliser cette propriété 'DD', vous devrez surcharger le template afin de continuer à utiliser 'Name' comme valeur.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="58" />
+		</references>
+	</entry>
+</translations>

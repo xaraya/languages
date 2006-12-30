@@ -4,84 +4,127 @@
 		<string>Database Settings Collection</string>
 		<translation>Paramètres de la base de données</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="9" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
-		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
-		<translation>Veuillez entrer les paramètres de votre base de données. Vous pouvez vous connecter aux bases de données avec des ports non-standards, pour cela remplissez le champ Hote comme cela : 'hote:port' (par exemple localhost:12345)</translation>
+		<string>Enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
+		<translation>Veuillez entrer les paramètres de votre base de données. Vous pouvez vous connecter aux bases de données avec des ports non-standards avec 'nom_de_l_hote:port' dans le champs 'Hôte' (par exemple localhost:12345)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note the following:</string>
+		<translation>Veuillez prêter attention à ce qui suit :</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you do not have root access to your database (due to virtual hosting etc), you will need to have a pre-existing database installed and configured before you proceed.</string>
+		<translation>Si vous ne possèdez pas un accès administrateur à votre base de données (pour cause d'hébergement mutualisé, etc...), vous devrez posséder une base de données installée et configurée pour pouvoir installer Xaraya.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan to use a SQLite or PostgreSQL database please ensure your database already exists before your proceed.</string>
+		<translation>Si vous prévoyez d'utiliser une base de données SQLite ou PostgreSQL, veuillez vous assurer qu'elle existe bien avant de continuer.</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you plan on &lt;strong&gt;upgrading&lt;/strong&gt; an existing Xaraya then please run the &lt;strong&gt;upgrade.php&lt;/strong&gt; script, not this install script.</string>
+		<translation>Si vous souhaitez &lt;strong&gt;mettre à jour&lt;/strong&gt; une instance existante de Xaraya, exécutez &lt;strong&gt;upgrade.php&lt;/strong&gt; plutôt que ce script d'installation.</translation>
 		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
-		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
-		<translation>Si vous ne possèdez pas un accès administrateur à votre base de données (hébergement mutualisé, etc...), vous devrez posséder un accès préconfiguré pour pouvoir installer Xaraya.</translation>
+		<string>If you plan to convert from another Weblog/CMS to Xaraya, first install Xaraya as normal and then run the appropriate import script to import your prior Weblog/CMS data.</string>
+		<translation>Si vous souhaitez effectuer une conversion à partir d'un autre Weblog ou CMS vers Xaraya, installez d'abord Xaraya normalement, puis lancez le script d'importation adéquat pour importer vos données précédentes.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
-		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
-		<translation>NOTE pour la mise à jour : Si vous souhaitez mettre à jour une ancienne version de Xaraya ou un autre CMS, installez Xaraya normalment, puis lancez le script fourni.</translation>
+		<string>Make sure you only use valid characters in the username and password for the database
+(eg no spaces, '$' or others which not supported by your database type.</string>
+		<translation>Veuillez vous assurer de n'utiliser que des caractéres valides pour le nom d'utilisateur et le mot de passe, pour une insertion correcte dans la base de données (pas d'espaces, de '$' ou autres, qui ne seraient pas supportés par votre base de données.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="26" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Information</string>
 		<translation>Informations de la base de données</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="31" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
 		<string>Host</string>
-		<translation>Hote</translation>
+		<translation>Hôte</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="38" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>(Only valid characters)</string>
+		<translation>(caractères valides uniquement)</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="47" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Name</string>
 		<translation>Nom de la base de données</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="65" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>Table Prefix</string>
-		<translation>Prefix des tables</translation>
+		<translation>Préfixe des tables</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="74" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>(for Table Sharing)</string>
 		<translation>(pour le partage de tables)</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="80" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="63" />
 		</references>
 	</entry>
 	<entry>
 		<string>Database Type</string>
 		<translation>Type de base de données</translation>
 		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>[not available]</string>
+		<translation>()non disponible</translation>
+		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create the database (MySQL only)</string>
+		<translation>Créer la base de données (MySQL uniquement)</translation>
+		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="88" />
 		</references>
 	</entry>
 	<entry>
-		<string>Create the database</string>
-		<translation>Créer la base de données</translation>
+		<string>If checked, this Create the Database option allows the install process to create an empty database for you rather than just populating an existing one. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will &lt;strong&gt;not&lt;/strong&gt; be able to create the database for you. It will be able to populate an already existing database.</string>
+		<translation>Cette option permet de spécifier si le programme d'installation doit créer une base de données vide pour vous, ou s'il doit utiliser une base existante. Si vous ne pouvez pas créer une base de données grâce à phpMyAdmin pour cause de 'virtual hosting' ou de paramètres de sécurité MySQL, alors le programme d'installation &lt;strong&gt;ne pourra pas&lt;/strong&gt; créer la base de données pour vous. L'installation pourra utiliser une base de données existante.</translation>
 		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="105" />
-		</references>
-	</entry>
-	<entry>
-		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
-		<translation>Cette option permet de spécifier si le programme d'installation doit créer une base de données vide pour vous ou s'il doit utiliser une base existante. Si vous ne pouvez pas créer une base de données grâce à phpMyAdmin car vous n'en possédez pas les droits, alors le programme d'installation ne pourra pas créer la base de données. Dans ce cas là, l'installation se fera dans une base de données existante.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="111" />
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="92" />
 		</references>
 	</entry>
 </translations>
