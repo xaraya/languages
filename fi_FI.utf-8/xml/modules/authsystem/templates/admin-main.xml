@@ -10,7 +10,7 @@
 	<entry>
 		<string>The Authsystem is the default Authentication module and part of the Xaraya Core package.
 It handles user authentication on your site by checking for a valid user log in.</string>
-		<translation></translation>
+		<translation>Autentikointi (eng. Authsystem) on oletusautentikointimoduuli ja osa Xarayan Core-julkaisua. Se käsittelee sivustosi käyttäjien tunnistautumisen tarkistamalla, onko käyttäjän sisäänkirjautuminen kelvollinen.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="18" />
 		</references>
@@ -25,21 +25,21 @@ It handles user authentication on your site by checking for a valid user log in.
 	<entry>
 		<string>The Authsystem module is installed as part of the Core installation package and comes ready
 activated for your use. Once Xaraya is installed you should go to &lt;strong&gt;Admin Panel - Authentication - Modify Config&lt;/strong&gt; to confirm setup of the Authentication options.</string>
-		<translation></translation>
+		<translation>Autentikointi-moduuli asennetaan osana ydinasennusta ja otetaan automaattisesti käyttöön. Kun Xarayan asennus on valmis, sinun tulisi mennä sivulle  &lt;strong&gt;Ylläpitopaneeli - Autentikointi - Muokkaa asetuksia&lt;/strong&gt; ja varmistaa, että autentikointiasetukset ovat oikein.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="25" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Short URLs :&lt;/strong&gt; There is short URL support that you can configure in the Admin Modify Config menu option</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Lyhyet URLit :&lt;/strong&gt; Voit asettaa lyhyet verkko-osoitteet Autentikointi-moduulin käyttöön.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="30" />
 		</references>
 	</entry>
 	<entry>
 		<string>&lt;strong&gt;Login Security Options :&lt;/strong&gt; can also be configured and currently include login attempts and lockout time.</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;Sisäänkirjautumisen turvallisuusasetukset :&lt;/strong&gt; Voit asettaa sisäänkirjautumiselle rajoituksia ja mahdollisen lukituksen.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="31" />
 		</references>
@@ -48,14 +48,14 @@ activated for your use. Once Xaraya is installed you should go to &lt;strong&gt;
 		<string>&lt;strong&gt;NOTE:&lt;/strong&gt; If you also require the ability to have users register and log in on your
 site, you should install the Registration module. The Registration module manages user registration and options
 for that process (which was previously handled by Roles module in earlier Xaraya versions). It is available in the Xaraya Base distribution and Module code repository</string>
-		<translation></translation>
+		<translation>&lt;strong&gt;HUOMAA:&lt;/strong&gt; Jos sivustosi käyttäjien täytyy pystyä myös rekisteröitymään, sinun tulisi asentaa Rekisteröinti-moduuli (eng. Registration). Rekisteröinti-moduuli käsittelee koko rekisteröintiprosessin (aikaisemmissa Xarayan julkaisuissa sen käsitteli Roolit-moduuli). Rekisteröinti on saatavissa Base-jakelussa ja moduulien koodivarastosta (Monotone-repository).</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>The Roles module will use the default Login page and block of the Default Authentication module wish is by default, Authsystem.</string>
-		<translation></translation>
+		<translation>Roolit-moduuli käyttää oletusautentikointimoduulin sisäänkirjautumissivua ja -lohkoa.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="39" />
 		</references>
@@ -70,14 +70,14 @@ for that process (which was previously handled by Roles module in earlier Xaraya
 	<entry>
 		<string>Xaraya also has the ability to add other types of Authentication modules such as AuthLDAP, AuthURL, AuthEmail and so on, that are available in our 3rd party module code repository in addition to 3rd party providers' sites. Please see the documentation
 for the relevant authentication module.</string>
-		<translation></translation>
+		<translation>Xarayaan on mahdollista lisätä muita autentikointimoduuleita, kuten AuthLDAP, AuthURL ja AuthEmail. Ne ovat saatavilla sekä omasta moduulien koodivarastostamme että kolmansien osapuolten omilta sivustoilta. Lisätietoja saat moduulien omista dokumentaatioista.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="44" />
 		</references>
 	</entry>
 	<entry>
 		<string>In the case of authentication modules other than the default, you should set your Default Authentication module for Roles in the Roles module Modify Config.</string>
-		<translation></translation>
+		<translation>Jos haluat käyttää autentikointiin jotain muuta kuin oletusmoduulia, voit asettaa sen Roolit-moduulin asetuksista.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="47" />
 		</references>
@@ -91,7 +91,7 @@ for the relevant authentication module.</string>
 	</entry>
 	<entry>
 		<string>Login Block allows users to login</string>
-		<translation>Sisäänkirjautumislohko jolla käyttäjät voivat kirjautua sisään</translation>
+		<translation>Sisäänkirjautumislohko, jolla käyttäjät voivat kirjautua sisään</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="56" />
 		</references>
@@ -105,7 +105,7 @@ for the relevant authentication module.</string>
 	</entry>
 	<entry>
 		<string>None</string>
-		<translation>E imitään</translation>
+		<translation>Ei mitään</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="64" />
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="71" />
@@ -113,7 +113,7 @@ for the relevant authentication module.</string>
 	</entry>
 	<entry>
 		<string>Included Dynamic Data Properties</string>
-		<translation>Mukana tulevat dynaamisen tiedon ominaisuudet</translation>
+		<translation>Mukana tulevat Dynaamisen tiedon ominaisuudet</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="68" />
 		</references>
@@ -127,49 +127,49 @@ for the relevant authentication module.</string>
 	</entry>
 	<entry>
 		<string>Further information on the Authsystem Authentication module can be found at:</string>
-		<translation></translation>
+		<translation>Lisätietoja Autentikointi-moduulista löydät seuraavilta sivuilta:</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="75" />
 		</references>
 	</entry>
 	<entry>
 		<string>Authsystem Module Extension page at</string>
-		<translation></translation>
+		<translation>Autentikointi-moduulin laajennuksen kotisivu osoitteessa</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>Authsystem Module - Xaraya Extension 42</string>
-		<translation></translation>
+		<translation>Autentikointi-moduuli - Xarayan laajennus 42</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="78" />
 		</references>
 	</entry>
 	<entry>
 		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
+		<translation>Viimeisimmät julkaisutiedot saat napsauttamalla Version History -välilehteä.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="79" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related tutorials and documentation on Authsystem module at</string>
-		<translation></translation>
+		<translation>Aiheeseen liittyvät ohjeet ja dokumentaatio sijaitsevat</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="81" />
 		</references>
 	</entry>
 	<entry>
 		<string>Related documentation on Authsystem</string>
-		<translation></translation>
+		<translation>Autentikointiin liittyvä dokumentaatio</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="81" />
 		</references>
 	</entry>
 	<entry>
 		<string>Xaraya Documentation.</string>
-		<translation></translation>
+		<translation>Xarayan dokumentaatiossa.</translation>
 		<references>
 			<reference file="modules/authsystem/xartemplates/admin-main.xd" line="81" />
 		</references>
