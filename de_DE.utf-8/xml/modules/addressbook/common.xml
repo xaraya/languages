@@ -4,7 +4,7 @@
 		<string>Quality Control Reporting</string>
 		<translation>Qualitätskontrollberichte</translation>
 		<references>
-			<reference file="modules/addressbook/xartemplates/admin-main.xd" line="16" />
+			<reference file="modules/addressbook/xartemplates/admin-main.xd" line="23" />
 			<reference file="modules/addressbook/xartemplates/admin-modifyconfig.xd" line="356" />
 			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="97" />
 		</references>
@@ -13,14 +13,14 @@
 		<string>Administrator Documentation</string>
 		<translation>Administrator-Dokumentation</translation>
 		<references>
-			<reference file="modules/addressbook/xartemplates/admin-main.xd" line="51" />
+			<reference file="modules/addressbook/xartemplates/admin-main.xd" line="64" />
 			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="5" />
 			<reference file="modules/addressbook/xaradminapi/getmenulinks.php" line="59" />
 		</references>
 	</entry>
 	<entry>
 		<string>Category</string>
-		<translation>Kategorie</translation>
+		<translation>Adresskategorie</translation>
 		<references>
 			<reference file="modules/addressbook/xartemplates/admin-modifycategories.xd" line="19" />
 			<reference file="modules/addressbook/xartemplates/user-insertedit.xd" line="91" />
@@ -38,7 +38,7 @@
 			<reference file="modules/addressbook/xartemplates/admin-modifylabels.xd" line="22" />
 			<reference file="modules/addressbook/xartemplates/admin-modifyprefixes.xd" line="22" />
 			<reference file="modules/addressbook/xaruser/confirmdelete.php" line="49" />
-			<reference file="modules/addressbook/xaruserapi/getaddresslist.php" line="540" />
+			<reference file="modules/addressbook/xaruserapi/getaddresslist.php" line="554" />
 			<reference file="modules/addressbook/xartemplates/includes/user-viewall-results.xd" line="32" />
 		</references>
 	</entry>
@@ -62,7 +62,7 @@
 	</entry>
 	<entry>
 		<string>Other Settings</string>
-		<translation>Andere Einstellungen</translation>
+		<translation>Datenformat und Darstellung</translation>
 		<references>
 			<reference file="modules/addressbook/xartemplates/admin-modifyconfig.xd" line="97" />
 			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="24" />
@@ -70,7 +70,7 @@
 	</entry>
 	<entry>
 		<string>Custom Labels</string>
-		<translation>Kunden-Labels</translation>
+		<translation>Eingabe</translation>
 		<references>
 			<reference file="modules/addressbook/xartemplates/admin-modifyconfig.xd" line="299" />
 			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="78" />
@@ -78,7 +78,7 @@
 	</entry>
 	<entry>
 		<string>Unfiled</string>
-		<translation>Unausgefüllt</translation>
+		<translation>[ohne]</translation>
 		<references>
 			<reference file="modules/addressbook/xartemplates/user-insertedit.xd" line="94" />
 			<reference file="modules/addressbook/xaruser/viewdetail.php" line="48" />
@@ -111,10 +111,10 @@
 	</entry>
 	<entry>
 		<string>Commit Changes</string>
-		<translation>Änderungen festlegen</translation>
+		<translation>Speichern</translation>
 		<references>
-			<reference file="modules/addressbook/xaradmin/modifycategories.php" line="58" />
-			<reference file="modules/addressbook/xaradmin/modifyconfig.php" line="175" />
+			<reference file="modules/addressbook/xaradmin/modifycategories.php" line="59" />
+			<reference file="modules/addressbook/xaradmin/modifyconfig.php" line="177" />
 			<reference file="modules/addressbook/xaradmin/modifycustomfields.php" line="102" />
 			<reference file="modules/addressbook/xaradmin/modifylabels.php" line="55" />
 			<reference file="modules/addressbook/xaradmin/modifyprefixes.php" line="64" />
@@ -125,8 +125,8 @@
 		<translation>Ungültiges #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
 		<references>
 			<reference file="modules/addressbook/xaradminapi/addcustomfields.php" line="42" />
-			<reference file="modules/addressbook/xaradminapi/additems.php" line="45" />
-			<reference file="modules/addressbook/xaradminapi/deccustomfields.php" line="39" />
+			<reference file="modules/addressbook/xaradminapi/additems.php" line="46" />
+			<reference file="modules/addressbook/xaradminapi/deccustomfields.php" line="41" />
 			<reference file="modules/addressbook/xaradminapi/deletecustomfields.php" line="43" />
 			<reference file="modules/addressbook/xaradminapi/deleteitems.php" line="40" />
 			<reference file="modules/addressbook/xaradminapi/inccustomfields.php" line="41" />
@@ -188,7 +188,7 @@
 	</entry>
 	<entry>
 		<string>Company</string>
-		<translation>Unternehmen</translation>
+		<translation>Firma</translation>
 		<references>
 			<reference file="modules/addressbook/xarutilapi/getsortoptions.php" line="28" />
 			<reference file="modules/addressbook/xaruserapi/getlistheader.php" line="42" />
@@ -218,7 +218,7 @@
 	</entry>
 	<entry>
 		<string>State</string>
-		<translation>Bundesstatt/Bundesland</translation>
+		<translation>Bundesstaat/Bundesland</translation>
 		<references>
 			<reference file="modules/addressbook/xarutilapi/getsortoptions.php" line="31" />
 			<reference file="modules/addressbook/xaruserapi/getlistheader.php" line="51" />
@@ -240,8 +240,8 @@
 		<string>Back to list</string>
 		<translation>Zurück zur Liste</translation>
 		<references>
-			<reference file="modules/addressbook/xaruser/dodelete.php" line="42" />
-			<reference file="modules/addressbook/xaruser/dodelete.php" line="49" />
+			<reference file="modules/addressbook/xaruser/dodelete.php" line="44" />
+			<reference file="modules/addressbook/xaruser/dodelete.php" line="51" />
 			<reference file="modules/addressbook/xaruser/insertedit.php" line="93" />
 			<reference file="modules/addressbook/xaruser/insertedit.php" line="108" />
 			<reference file="modules/addressbook/xaruser/viewdetail.php" line="150" />
@@ -249,7 +249,7 @@
 	</entry>
 	<entry>
 		<string>Add new address</string>
-		<translation>Eine neue Adresse hinzufügen</translation>
+		<translation>Neue Adresse anlegen</translation>
 		<references>
 			<reference file="modules/addressbook/xaruser/insertedit.php" line="92" />
 			<reference file="modules/addressbook/xaruser/insertedit.php" line="106" />
@@ -257,11 +257,37 @@
 		</references>
 	</entry>
 	<entry>
+		<string>There are no records to show in this view</string>
+		<translation>Für diese Übersicht sind keine Datensätze vorhanden</translation>
+		<references>
+			<reference file="modules/addressbook/xaruserapi/getaddresslist.php" line="176" />
+			<reference file="modules/addressbook/xaruserapi/getall.php" line="182" />
+		</references>
+	</entry>
+	<entry>
 		<string>Edit</string>
 		<translation>Bearbeiten</translation>
 		<references>
-			<reference file="modules/addressbook/xaruserapi/getaddresslist.php" line="542" />
+			<reference file="modules/addressbook/xaruserapi/getaddresslist.php" line="556" />
 			<reference file="modules/addressbook/xartemplates/includes/user-viewall-results.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Invalid #(1)</string>
+		<translation>Ungültig #(1)</translation>
+		<references>
+			<reference file="modules/addressbook/xarproperties/Dynamic_CompanyList_Property.php" line="87" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="109" />
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="315" />
+			<reference file="modules/addressbook/xarproperties/Dynamic_ContactList_Property.php" line="138" />
+			<reference file="modules/addressbook/xarproperties/Dynamic_Phone_Property.php" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>selection</string>
+		<translation>Auswahl</translation>
+		<references>
+			<reference file="modules/base/xarproperties/Dynamic_Select_Property.php" line="62" />
 		</references>
 	</entry>
 	<entry>

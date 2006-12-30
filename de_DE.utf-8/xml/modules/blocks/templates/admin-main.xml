@@ -1,279 +1,441 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
-		<string>official icon</string>
-		<translation>Offizielles Icon</translation>
+		<string>Related documentation on Blocks</string>
+		<translation>Zugehörige Dokumentation zum Blöcke-Modul</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Wozu dient es?</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks Module controls the configuration, display position and grouping of &quot;blocks&quot;
-on your website. Blocks provide a way to display content or functionality on your site
-in addition to the usual content provided by a module such as article or forum display.
-Blocks can be placed anywhere in your site's page displays. The Blocks module is a core module within
-Xaraya, and cannot be removed.</string>
-		<translation>Das Block-Modul kontrolliert die Konfiguration, den Anzeigeort und die Gruppierung eines jeden &quot;Blockes&quot; auf Ihrer Website. Blöcke bieten Ihnen einen Weg zur Anzeige von Inhalt oder Funktionalität auf Ihrer Website in Ergänzung zur gewöhnlichen Darstellung, die Ihnen etwa das Beitrags- oder Foren-Modul bietet. Blöcke können überall auf Ihrer Websit platziert werden. Dieses Block-Modul ist eins der Core-Module von Xaraya und kann nicht entfernt werden.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Wie setzt man es ein?</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Blocks and blockgroups</string>
-		<translation>Blöcke und Blockgruppen</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can use blocks alone, or create a containing 'blockgroup' in which to place your blocks.
-Xaraya has pre-configured blockgroups created at installation time. These blockgroups include right,
-left, center, topnav and header blockgroups. They are used in the default Xaraya theme and have blocks already assigned
-to them. In the case of these default blockgroups, the name reflects the position that the blockgroups have
-been placed in the default theme although you could rename them.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must tell Xaraya where you want to place your blockgroups in your site page by using the 'blockgroup' tag and placing it in your template page or module template. eg
-&lt;code&gt;&amp;lt;xar:blockgroup name=&quot;right&quot; id=&quot;right&quot; /&amp;gt;&lt;/code&gt;. The default blockgroups have already been
-placed in the default theme template.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks module has two menu options which allow you to view and create new blockgroups.</string>
-		<translation>Das Block-Modul bietet zwei Menüoptionen, die es Ihnen gestattet, neue Blockgruppen anzulegen sowie anzuzeigen.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Groups&lt;/strong&gt;: View the defined Block Groups.</string>
-		<translation>&lt;strong&gt;Gruppen anzeigen&lt;/strong&gt;: Zeigt die definierten Blockgruppen an.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add Group&lt;/strong&gt;: Add a new block group for template positioning.</string>
-		<translation>&lt;strong&gt;Gruppe hinzufügen&lt;/strong&gt;: Fügt eine neue Blockgruppe zur Positionierung im Template hinzu.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Creating new instances of blocks</string>
-		<translation>Neue Blockinstanzen anlegen</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Each module may provide the code and templates for one or more types of blocks.
-For example the Articles module provides a 'featured article' block, and a 'top items' block.
-The Base module provides a 'menu' block among others. You can create one or more instances of a block
-and place them in one or more blockgroups using the options provided in the Blocks module menu:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Instances&lt;/strong&gt;: View the current instances that are actively in use by your Xaraya System.</string>
-		<translation>&lt;strong&gt;Instanzen anzeigen&lt;/strong&gt;: Zeigt die aktuellen Instanzen, die aktiv in Ihrem Xaraya-System verwendet werden.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add instance&lt;/strong&gt;: Add a new block instance to be displayed on your site.</string>
-		<translation>&lt;strong&gt;Instanz hinzufügen&lt;/strong&gt;: Fügt eine neue Blockinstanz hinzu, die auf Ihrer Website Verwendung finden soll.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>Block types are defined by a module, and installed when you install the module.
-You can create a new block instance from any of your installed block types using the Add instance option.</string>
-		<translation>Blocktypen werden von einem Modul definiert und dann installiert, wenn Sie ein Modul installieren. Sie können unter Verwendung der &quot;Instanz hinzufügen&quot;-Option für jede Ihrer installierten Blocktypen eine neue Blockinstanz anlegen.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>A site admin or a developer may provide a new block type after a module is installed.
-This new block type can be installed with an upgrade process, or alternatively if no upgrade is provided
-to load the block type, you can add it with the options provided by the Blocks module. You should not
-normally have to add a block in this manner. In addition the Block Types options allow you to view all block types that
-are installed and their associated module.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="66" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add Block Type&lt;/strong&gt;: scan a module for a new block type. This specific function is probably best left to the advanced user.
-Be certain to learn more about it before using it.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Block Types&lt;/strong&gt;: lists all the registered block types, and references which module they belong to.</string>
-		<translation>&lt;strong&gt;Blocktypen anzeigen&lt;/strong&gt;: Listet alle registrierten Blocktypen auf und zeigt an, zu welchem Modul sie gehörn..</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>Using and templating blocks and blockgroups</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>Each block and blockgroup container has it's own template or uses a supplied default.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="75" />
-		</references>
-	</entry>
-	<entry>
-		<string>The blockgroup templates (outer container templates) are kept in your
-&lt;code&gt;theme/yourthemes/blocks&lt;/code&gt; directory. If there is no specific blockgroup template it will use the
-preloaded default blockgroup template.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>The templates provided for each block come with the module that provides the block.
-You can override these templates if you want, and so produce your own layouts for the block content.
-If you do wish to create your own overrides for block templates (inner templates) then they should be placed in
-&lt;code&gt;themes/yourtheme/modules/themodule/blocks&lt;/code&gt; where 'themodule' is the module providing the block.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="85" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Dazugehörige Blöcke</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks Module has no blocks included at this time.</string>
-		<translation>Zur Zeit enthält das Block-Modul keine Blöcke.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="90" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Dazugehörige Hooks</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="92" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks Module has no hooks included at this time.</string>
-		<translation>Momentan verfügt das Modul über keine Hooks.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>Weitere Information</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="96" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Blocks module can be found at</string>
-		<translation>Weitere Information über das Block-Modul kann gefunden werden bei</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>Blocks Module Extension page at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="101" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
 		<string>Blocks Module - Xaraya Extension 13</string>
 		<translation>Block-Modul - Xaraya-Erweiterung 13</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="101" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="5" />
 		</references>
 	</entry>
 	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
+		<string>official icon</string>
+		<translation>Offizielles Icon</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="102" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
-		<string>Related tutorials and documentation on Blocks found at</string>
-		<translation></translation>
+		<string>What is it?</string>
+		<translation>Wozu dient es?</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="104" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
-		<string>Related documentation on Blocks</string>
-		<translation></translation>
+		<string>The Blocks Module controls the configuration, display position and grouping of 'blocks'
+of content or functionality on your website. From version 1.1.2, the Blocks module also can control access and levels of accessto blocks. The Blocks module is a core module within Xaraya and cannot be removed.</string>
+		<translation>Das Blöcke-Modul kontrolliert die Inhalte, den Anzeigeort und die Gruppierung eines jeden &quot;Blocks&quot; auf Ihrer Website. Blöcke können die Hauptdarstellung auf der Seite um beliebige Inhalte und Verweise ergänzen. Blöcke können überall auf der Website platziert werden. Seit der Version 1.1.2 kann das Blöcke-Modul die Zugriffsrechte auf Blöcke kontrollieren. Es ist ein Kern-Modul von Xaraya und kann nicht entfernt werden.</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="104" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="20" />
 		</references>
 	</entry>
 	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya-Dokumentation.</translation>
+		<string>How to use it?</string>
+		<translation>Wie setzt man es ein?</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="104" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="23" />
 		</references>
 	</entry>
 	<entry>
-		<string>BlocksModule - Overview</string>
-		<translation>Block-Modul - Überblick</translation>
+		<string>Each module can provide a block type along with the code and templates for it. A block type defines a specific display
+of content or functionality that you can place on your site. For example the Articles module provides a 'featured article' block type,
+and a 'top items' block type. The Base module provides a 'menu' block type, among others.</string>
+		<translation>Jedes Modul kann einen oder mehrere Blocktypen mit einer zugehörigen Vorlage (Template) anbieten. Ein Blocktyp stellt den Inhalt oder die Funktion des Moduls auf eine bestimmte Weise dar. Beispielsweise bietet das Artikel-Modul die Blocktypen 'featured article' (Von Ihnen ausgewählte Schlagzeilen) und 'top items' (Am häufigsten gelesene Artikel) an. Das Basis-Modul bietet einen Blocktyp 'menu'.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>These different block types are installed at the time of module installation, and removed when a module is uninstalled.
+The block types are also upgraded when a module is upgraded.</string>
+		<translation>Blocktypen sind in den Herkunftsmodulen definiert und werden installiert, wenn Sie das Modul installieren. Sie können unter Verwendung des &quot;Blockinstanz hinzufügen&quot;-Bereichs aus jedem der bisher installierten Blocktypen eine neue Blockinstanz anlegen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocks module enables you to work with &lt;strong&gt;Block Types&lt;/strong&gt; to:</string>
+		<translation>Das Blöcke-Modul ermöglicht im Bereich &lt;strong&gt;Blocktypen&lt;/strong&gt;:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Block Types:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Blocktypen anzeigen:&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>lists all the registered block types in your Xaraya installation with reference to which
+module they belong.</string>
+		<translation>listet alle installierten Blocktypen und deren Herkunftsmodule auf.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add a New Block Type:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Neuen Blocktyp hinzufügen:&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>scans a module for a new block type. This option is added mainly for Developer convenience.
+Sometimes a developer provides a block type or upgrade of a block outside of a normal module release or
+upgrade. This option allows the block to be loaded and registered in your Xaraya installation. Normally
+you should never need to use this option in the process of administering your site.</string>
+		<translation>ermöglicht das Hinzufügen und Aktualisieren von Blocktypen heraus (selten notwendig).</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using Blocks and Block Groups</string>
+		<translation>Blöcke und Blockgruppen verwenden</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are a number of steps required to create a new block of content or functionality for your site, and display it:</string>
+		<translation>Mit wenigen Schritten wird ein neuer Block angelegt und auf der Webseite positioniert:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create a new block instance based on any of your installed block types</string>
+		<translation>Hinzufügen einer neuen Blockinstanz basierend auf einem Blocktyp</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Assign the block instance to an existing block group during block creation or modification (optional)</string>
+		<translation>Zuordnen dieser Blockinstanz zu einer Blockgruppe</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you need a new block group, create one and then assign the block instance to it</string>
+		<translation>Falls eine neue Blockgruppe gewünscht wird, ist diese zuvor anzulegen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add a &lt;strong&gt;blockgroup tag&lt;/strong&gt; in your theme template so Xaraya knows where to display your blocks. eg
+&lt;code&gt;&amp;lt;xar:blockgroup name=&quot;right&quot; id=&quot;right&quot; /&amp;gt;&lt;/code&gt;.</string>
+		<translation>Für diese neue Blockgruppe ist ein &lt;strong&gt;Blockgruppen-Tag&lt;/strong&gt; in der Seitenvorlage (Theme Template) zu setzen, damit Xaraya weiss, wo die Gruppe angezeigt werden soll. Beispielsweise &lt;code&gt;&amp;lt;xar:blockgroup name=&quot;rechtsoben&quot; id=&quot;rechtsoben&quot; /&amp;gt;&lt;/code&gt;.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya has pre-configured block groups created at installation time that include &lt;em&gt;right&lt;/em&gt;,
+&lt;em&gt;left&lt;/em&gt;, &lt;em&gt;center&lt;/em&gt;, &lt;em&gt;topnav&lt;/em&gt; and &lt;em&gt;header&lt;/em&gt; block groups. Special block group tags are used in the default Xaraya theme to
+place and display them and the block instances already assigned to them. In the case of the default block groups
+their name reflects the position where they are located in the default theme. You can rename these block groups as the names are not significant in themselves</string>
+		<translation>Xaraya wird mit den vordefinierten Blockgruppen &lt;em&gt;right&lt;/em&gt;, &lt;em&gt;left&lt;/em&gt;, &lt;em&gt;center&lt;/em&gt;, &lt;em&gt;topnav&lt;/em&gt; und &lt;em&gt;header&lt;/em&gt; installiert. Für diese Blockgruppen sind in der ebenfalls installierten Seitenvorlage (Theme) bereits Markierungen (Tags) vorhanden. Hierbei bezeichnen die Name der Blockgruppen ihre räumliche Position auf der Seite. Die Namen sind nicht funktionell bedingt und können geändert werden.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: you do not have to allocated a block instance to a blockgroup. You can place the block instance display directly
+into your theme templates using a &lt;strong&gt;block&lt;/strong&gt; tag. Please check &lt;a href=&quot;#(1)&quot;&gt;RFC0010&lt;/a&gt; for details on using this tag.</string>
+		<translation>Hinweis: Eine Blockinstanz braucht nicht zu einer Blockgruppe zugeordnet zu werden. Mit einem &lt;strong&gt;Block-Tag&lt;/strong&gt; kann sie direkt in einer Seitenvorlage platziert werden. Weiteres zur Verwendung von Block-Tags siehe im &lt;a href=&quot;#(1)&quot;&gt;RFC0010&lt;/a&gt;.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Creating and Viewing Block Groups</string>
+		<translation>Hinzufügen und Anzeigen von Blockgruppen</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocks module provides a number of options to work with &lt;strong&gt;Block Goups&lt;/strong&gt;:</string>
+		<translation>Das Blöcke-Modul bietet zur Bearbeitung von Blockgruppen einen untergliederten Bereich mit:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Block Groups:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Blockgruppen:&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>displays all the defined Block Groups on your site with links to Edit or Delete options</string>
+		<translation>Zeigt alle vorhandenen Blockgruppen auf der Webseite an und ermöglicht das Ändern und Löschen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add Block Group:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Neue Blockgruppe hinzufügen&lt;/strong&gt;:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>option presents a simple input screen so you can add a new block group</string>
+		<translation>Fügt eine neue Blockgruppe hinzu.&lt;br /&gt;&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Creating, Viewing and Modifying Block Instances</string>
+		<translation>Hinzufügen, Anzeigen und Bearbeiten von Blockinstanzen</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Creating and modifying block instances with Xaraya is simple:</string>
+		<translation>Das Verwalten von Blockinstanzen ist einfach:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Block Instances:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Blöcke anzeigen&lt;/strong&gt;:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="83" />
+		</references>
+	</entry>
+	<entry>
+		<string>displays all current block instances that are available for use in your Xaraya site. From this menu option
+you can &lt;code&gt;modify&lt;/code&gt; or &lt;code&gt;delete&lt;/code&gt; any of the listed block instances.</string>
+		<translation>Zeigt die aktuellen Blockinstanzen, die in Ihrem Xaraya-System definiert sind.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Add New Block Instance:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Neuer Block&lt;/strong&gt;:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Create and make available a new block instance for display on your site. As part of this process you
+may nominate which block type to use for creation of the block instance, and optionally assign the block instance to a Block Group.</string>
+		<translation>Erstellt eine neue Blockinstanz und macht diese verfügbar. In diesem Zuge können die Darstellungsparameter für die Inhalte bestimmt werden und die Blockinstanz einer Blockgruppe hinzugefügt werden.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Modify a Block Instance:&lt;/strong&gt;</string>
+		<translation>&lt;strong&gt;Blockinstanz ändern:&lt;/strong&gt;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>from the View Block Instance listing provides the option to allocate the block instance
+to one or more Block Groups. In addition, you can optionally specify whether the block instances should use an
+override block instance (inner) template or block group (outer) template (see Templating Blocks and Block Groups). Each module also specifies any special content here that is available for configuration for this specific block type.</string>
+		<translation>ausgehend vom 'Blöcke anzeigen'-Bereich können Sie den Block zu einer oder mehreren Blockgruppen zuordnen. Weiterhin kann dort festgelegt werden, ob ein 'inneres Template' der Blockinstanz oder ein 'äußeres Template' der Blockgruppe zur Darstellung der Blockinstanz verwendet werden soll. Diese würden das übliche Seitentemplate überdecken.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="90" />
+		</references>
+	</entry>
+	<entry>
+		<string>Templating Blocks and Block Groups</string>
+		<translation>Blockgruppenzuordnung und Templates</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>As with other Xaraya content, you can provide your own override templates for block
+instances and create your own templates for block groups. To do this note the following:</string>
+		<translation>Wie mit anderen Inhalten bei Xaraya, können überdeckende Templates für Blockinstanzen und für Blockgruppen festgelegt werden. Dazu sind:</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="95" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Inner template&lt;/strong&gt; is used for display of the content in a block instance and
+supplied by the module that provides the block type. They can be overridden like any other Xaraya template.
+Overrides for for block instance &lt;strong&gt;inner&lt;/strong&gt; templates should be be placed in
+&lt;code&gt;themes/[yourtheme]/modules/[themodule]/blocks&lt;/code&gt; where &lt;code&gt;[themodule]&lt;/code&gt; is the module providing
+the block type. The general name for the template is &lt;code&gt;blocktype-innertemplatename.xt&lt;/code&gt;</string>
+		<translation>Das &lt;strong&gt;Innere Template&lt;/strong&gt; wird benutzt um den Inhalt einer Blockinstanz anzuzeigen. Es wird vom Herkunftsmodul des zugrundeliegenden Blocktyps bereitgestellt. Um die Ausgabe zu ändern, soll die Datei des überdeckenden Templates für diese Blockinstanz in &lt;code&gt;themes/[ihrthemename]/modules/[derherkunftsmodulname]/blocks&lt;/code&gt; gespeichert werden. Der übliche Name für dieses Template ist &lt;code&gt;blocktyp-innerestemplatename.xt&lt;/code&gt;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt; Outer template&lt;/strong&gt; is the name given to the template used for the block instance's block group.
+Some 'outer' templates are installed by default with Xaraya, but you can also create your own 'outer'
+templates. The &lt;strong&gt;outer templates&lt;/strong&gt; are stored in your &lt;code&gt;theme/[yourtheme]/blocks&lt;/code&gt;
+directory. If there is no specific block group template the block group will use the preinstalled 'default'
+block group template.</string>
+		<translation>Das &lt;strong&gt;Äußere Template&lt;/strong&gt; bezeichnet die Vorlage zur Darstellung der Blockgruppe. Einige 'Äußere Vorlagen' werden bereits mit Xaraya installiert. Zusätzlich können eigene Vorlagen erstellt und im Verzeichnis &lt;code&gt;themes/[ihrthemename]/blocks&lt;/code&gt; gespeichert werden. Falls kein Template für die Blockgruppe eingestellt ist, verwende die Blockgruppe das vorinstallierte default.xt-Template</translation>
 		<references>
 			<reference file="modules/blocks/xartemplates/admin-main.xd" line="108" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to tell Xaraya which inner and outer templates to use</string>
+		<translation>Verwendung von 'inneren' und 'äußeren' Vorlagen</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="111" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can tell Xaraya which inner and outer templates to use when you create a
+new block instance or modify an existing one. Using the Blocks module, there are two places you can set either the inner
+template, the outer template or both.</string>
+		<translation>Im Blöcke-Modul gibt es zwei Orte, an denen die Verwendung spezieller Vorlagen festgelegt wird.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="114" />
+		</references>
+	</entry>
+	<entry>
+		<string>The field labelled &lt;strong&gt;Instance Template (optional):&lt;/strong&gt; sets the default
+inner and outer template used for the block instance and any block group. You can specify inner, outer, both inner and outer or none.
+You use the following format: &lt;code&gt;[outer-template][semi-colon][inner-template]&lt;/code&gt;. Both are specified without the file extension.</string>
+		<translation>Das &lt;strong&gt;Blockinstanz-Vorlagen&lt;/strong&gt; bezeichnete Feld bestimmt die Vorlagen für die Blockinstanz und die Blockgruppe. Die für die Blockinstanz definierte Vorlage wird verwendet, wenn keine weitere/andere Vorlage für die Blockgruppe definiert ist. Das Format ist: [outer-template][semi-colon][inner-template].</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you add a block instance to a block group, another input field will appear, labelled with the name of the block group.
+You can also add a specific inner, outer or both inner and outer template in this field using the same syntax. Specifying
+an inner or outer template in this block group template field will override any other templates.</string>
+		<translation>Falls eine Blockinstanz einer Blockgruppe zugeordnet wird, erscheint ein weiteres Eingabefeld für die optionalen Vorlagen. Es ist mit &lt;strong&gt;[Publikationstyp]-Vorlagen:&lt;/strong&gt; bezeichnet. Auch hier können die Vorlagen festgelegt werden. Die Einstellung hier überdeckt alle anderen Vorlagen.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;An example:&lt;/strong&gt; if you create an articles' featureditems block instance and you are using the Xaraya_Classic default theme</string>
+		<translation>&lt;strong&gt;Beispiel:&lt;/strong&gt; Die Blockinstanz 'featureditems' wird mit dem Artikel-Moduls vorinstalliert. Die Webseite verwendet das vorinstallierte Theme 'Xaraya_Classic'.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="123" />
+		</references>
+	</entry>
+	<entry>
+		<string>By default, this block instance will use the article module's inner template called &lt;code&gt;featureditems.xd&lt;/code&gt; located in modules/articles/xartemplates/blocks</string>
+		<translation>Standardmäßig wird der Inhalt dieser Blockinstanz mit der inneren Vorlage aus dem Artikel-Modul, genannt &lt;code&gt;featureditems.xd&lt;/code&gt;, gespeichert in &lt;code&gt;modules/articles/xartemplates/blocks&lt;/code&gt; angezeigt werden.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you have allocated the featured article block instance to a block group called 'right' it will use, by default, the outer template
+located at &lt;code&gt;themes/Xaraya_Classic/blocks/right.xt&lt;/code&gt;. If the 'right' outer template did not exist it will use one called 'default.xt'
+in that same directory.</string>
+		<translation>Typischerweise befindet sich die Blockinstanz 'featureditems' in der Blockgruppe 'right'. Als äußere Vorlage wird standardgemäß die Datei &lt;code&gt;themes/Xaraya_Classic/blocks/right.xt&lt;/code&gt; verwendet. Existiert diese nicht, wird die Vorlage &lt;code&gt;default.xt&lt;/code&gt; im selben Verzeichnis verwendet.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="128" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you wish to override both outer and inner templates for the featureditems block then the syntax example of:
+&lt;strong&gt;left;weeklyfeature&lt;/strong&gt; would mean means the outer template is one created and called &lt;code&gt;&lt;strong&gt;left&lt;/strong&gt;.xt&lt;/code&gt; in the &lt;code&gt;themes/Xaraya_Classic/blocks&lt;/code&gt; directory.
+The article module's featureditems block instance will be displayed using the &lt;code&gt;themes/Xaraya_Classic/modules/articles/blocks/featureditems-&lt;strong&gt;weeklyfeature&lt;/strong&gt;.xt&lt;/code&gt; template.
+You could just specify outer or inner template if required by adding &lt;code&gt;left;&lt;/code&gt; or &lt;code&gt;;weeklyfeature&lt;/code&gt; to specify outer and inner respectively.</string>
+		<translation>Falls nun eine Überdeckung der inneren und äußeren Vorlagen für den featureditems-Block beispielsweise mit einer &lt;strong&gt;oberen;Wochenschlagzeile&lt;/strong&gt; gewünscht wird, ist folgendes vorzunehmen. Die äußere Vorlage ist anzulegen und unter &lt;code&gt;&lt;strong&gt;oberen&lt;/strong&gt;.xt&lt;/code&gt; im 
+Verzeichnis &lt;code&gt;themes/Xaraya_Classic/blocks&lt;/code&gt; zu speichern. Die Blockinstanz wird angezeigt werden aus der anzulegenden Vorlage &lt;code&gt;themes/Xaraya_Classic/modules/articles/blocks/featureditems-&lt;strong&gt;Wochenschlagzeile&lt;/strong&gt;.xt&lt;/code&gt;. Die äußeren und inneren Vorlagen sind mit &lt;code&gt;oberen;&lt;/code&gt; oder &lt;code&gt;;Wochenschlagzeile&lt;/code&gt; festlegen.&lt;br /&gt;&amp;nbsp;</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Angebotene Blöcke</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="135" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocks Module has no blocks included at this time.</string>
+		<translation>Das Blöcke-Modul enthält keine Blöcke, weil es nur administrativen Zwecken dient.</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="137" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Angebotene Hooks</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Blocks Module has no hooks included at this time.</string>
+		<translation>Keine</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="141" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Weitere Information</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Blocks module can be found at</string>
+		<translation>Weitere Information über das Block-Modul kann gefunden werden bei</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>Blocks Module Extension page at &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot; &gt;Xaraya Extension and Releases&lt;/a&gt;.
+Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Die Xaraya-Informationsseite des Blöcke-Moduls befindet sich bei &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot;&gt;Xaraya Erweiterungen und Freigaben&lt;/a&gt; (en).</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Blocks found at &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot;&gt;Xaraya Documentation.&lt;/a&gt;</string>
+		<translation>Zugehörige Erläuterungen und die Dokumentation befindet sich bei &lt;a href=&quot;#(1)&quot; title=&quot;#(2)&quot;&gt;Xaraya Dokumentation&lt;/a&gt; (en).</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>Blocks Module Overview</string>
+		<translation>Blöcke-Modul Übersicht</translation>
+		<references>
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="166" />
 		</references>
 	</entry>
 	<entry>
 		<string>Version</string>
 		<translation>Version</translation>
 		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="108" />
+			<reference file="modules/blocks/xartemplates/admin-main.xd" line="166" />
 		</references>
 	</entry>
 </translations>

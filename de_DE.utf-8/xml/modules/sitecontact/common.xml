@@ -6,6 +6,7 @@
 		<references>
 			<reference file="modules/sitecontact/xarversion.php" line="15" />
 			<reference file="modules/sitecontact/xaruser/main.php" line="148" />
+			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="146" />
 		</references>
 	</entry>
 	<entry>
@@ -28,11 +29,11 @@
 		<string>Delete</string>
 		<translation>Löschen</translation>
 		<references>
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="295" />
+			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="303" />
 			<reference file="modules/sitecontact/xaradmin/view.php" line="122" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="532" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="755" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="757" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="535" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="758" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="760" />
 			<reference file="modules/sitecontact/xartemplates/admin-delete.xd" line="7" />
 		</references>
 	</entry>
@@ -40,7 +41,7 @@
 		<string>Response ID</string>
 		<translation>Antwort-ID</translation>
 		<references>
-			<reference file="modules/sitecontact/xaradmin/delete.php" line="42" />
+			<reference file="modules/sitecontact/xaradmin/delete.php" line="48" />
 			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="20" />
 		</references>
 	</entry>
@@ -49,8 +50,8 @@
 		<translation>Bearbeiten</translation>
 		<references>
 			<reference file="modules/sitecontact/xaradmin/view.php" line="123" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="747" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="749" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="750" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="752" />
 		</references>
 	</entry>
 	<entry>
@@ -229,7 +230,7 @@
 	<entry>
 		<string>NOTE: Please ensure you understand the potential problems of allowing
 muliple emailings (spammer use) if you have open access on your website to this form.</string>
-		<translation></translation>
+		<translation>HINWEIS: Wenn sie mehrfaches E-Mailen erlauben, sollten Sie sich sicher sein, die damit zusammenhängenden Probleme zu kennen, wenn Sie auf Ihrer Website offenen Zugang zu diesem Formular ermöglichen.</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="169" />
 			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="371" />
@@ -448,10 +449,10 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<translation>Organisation: / Verein</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="270" />
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="107" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="106" />
 			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="226" />
 			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="473" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="624" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="627" />
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="130" />
 		</references>
 	</entry>
@@ -460,8 +461,9 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<translation>Kontaktformular</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="24" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="559" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="562" />
 			<reference file="modules/sitecontact/xartemplates/includes/admin-submenu.xd" line="10" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
@@ -469,7 +471,8 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<translation>Geben Sie Ihren Namen ein</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="53" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="577" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="580" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="40" />
 		</references>
 	</entry>
 	<entry>
@@ -477,7 +480,7 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<translation>Ihr Name</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="56" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="580" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="583" />
 		</references>
 	</entry>
 	<entry>
@@ -486,8 +489,8 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="63" />
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="77" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="586" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="600" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="589" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="603" />
 		</references>
 	</entry>
 	<entry>
@@ -495,7 +498,8 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<translation>Geben Sie Ihre Emailadresse ein</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="67" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="590" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="593" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="54" />
 		</references>
 	</entry>
 	<entry>
@@ -503,7 +507,7 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<translation>Ihre Email</translation>
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="70" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="593" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="596" />
 		</references>
 	</entry>
 	<entry>
@@ -512,41 +516,44 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="82" />
 			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="85" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="604" />
 			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="607" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="610" />
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="129" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="69" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please enter your organization name.</string>
 		<translation>Bitte geben Sie den Namen Ihrer Organisation an.</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="104" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="621" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="103" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="624" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="91" />
 		</references>
 	</entry>
 	<entry>
 		<string>Separate emails by colons (;) or optionally add a name for each email by separating email and name by a comma eg</string>
 		<translation>Trennen Sie E-Mails durch Semikolons (;) oder fügen Sie optional zu jeder E-Mail-Adresse einen Namen hinzu, E-Mail und Namen dabei durch ein Komma getrennt</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="133" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="645" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="132" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="648" />
 		</references>
 	</entry>
 	<entry>
 		<string>Type in your message</string>
 		<translation>Geben Sie Ihre Mitteilung ein</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="137" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="649" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="136" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="652" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="131" />
 		</references>
 	</entry>
 	<entry>
 		<string>Message</string>
 		<translation>Mitteilung</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="140" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="652" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="139" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="655" />
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="131" />
 		</references>
 	</entry>
@@ -554,58 +561,103 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<string>Would you like to have a copy of the message sent to your email</string>
 		<translation>Wollen Sie eine Kopie Ihrer Mitteilung zugemailt bekommen</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="167" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="682" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="165" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="685" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="159" />
 		</references>
 	</entry>
 	<entry>
 		<string>Copy email to you</string>
 		<translation>Kopie der Email an Sie</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="170" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="680" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="168" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="683" />
 		</references>
 	</entry>
 	<entry>
 		<string>May we save your response to this form?</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="181" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="691" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="179" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="694" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="173" />
 		</references>
 	</entry>
 	<entry>
 		<string>Permit saving of your form response?</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="184" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="694" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="182" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="697" />
 		</references>
 	</entry>
 	<entry>
 		<string>Please review our privacy policy:</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="190" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="700" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="188" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="703" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="182" />
 		</references>
 	</entry>
 	<entry>
 		<string>Terms &amp;amp; Privacy Policy</string>
 		<translation>Nutzungsbedingungen &amp;amp; Datenschutz</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="192" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="702" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="190" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="705" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="184" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter the value as seen in the image (if you can not read the image, click on it to load a new one).</string>
+		<translation>Bitte geben Sie den Wert, den Sie auf dem Bild sehen, ein (wenn sie diesen auf dem Bild nicht lesen können, klicken Sie auf dieses, um einen neuen zu laden).</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="196" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="190" />
+		</references>
+	</entry>
+	<entry>
+		<string>Anti-Bot Code</string>
+		<translation>Anti-Bot-Code</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="199" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="193" />
+		</references>
+	</entry>
+	<entry>
+		<string>Anti-bot code entry was incorrect - please try again...</string>
+		<translation>Die Anti-bot-Code-Eingabe war falsch - bitte versuchen Sie es erneut...</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="204" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="198" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please enter the Anti-Bot Code</string>
+		<translation>Bitte geben Sie den Anti-Bot-Code ein</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="212" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="207" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can't read it? Click the image to generate a new code.</string>
+		<translation>Sie können ihn nicht lesen? Klicken Sie auf das Bild, um einen neuen Code zu erzeugen.</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="214" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="209" />
 		</references>
 	</entry>
 	<entry>
 		<string>Submit</string>
 		<translation>Losschicken</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="233" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="719" />
+			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="230" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="722" />
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="76" />
 			<reference file="modules/sitecontact/xaruser/main.php" line="84" />
+			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="87" />
 		</references>
 	</entry>
 	<entry>
@@ -624,7 +676,8 @@ copy to sender option (spammer use) if you have open access on your website to t
 			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="5" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="7" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="7" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="30" />
+			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="31" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="57" />
 		</references>
 	</entry>
 	<entry>
@@ -635,7 +688,8 @@ copy to sender option (spammer use) if you have open access on your website to t
 			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="7" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="10" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="9" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="42" />
+			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="43" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="94" />
 		</references>
 	</entry>
 	<entry>
@@ -646,7 +700,8 @@ copy to sender option (spammer use) if you have open access on your website to t
 			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="9" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="13" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="11" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="36" />
+			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="37" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="72" />
 		</references>
 	</entry>
 	<entry>
@@ -681,7 +736,7 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="37" />
 			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="29" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="60" />
+			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="61" />
 		</references>
 	</entry>
 	<entry>
@@ -707,13 +762,14 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<references>
 			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="4" />
 			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="5" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="43" />
 		</references>
 	</entry>
 	<entry>
 		<string>Form ID</string>
 		<translation>Formular-ID</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="735" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="738" />
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="124" />
 		</references>
 	</entry>
@@ -721,15 +777,16 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<string>Form Name</string>
 		<translation>Formulatname</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="736" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="739" />
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="126" />
+			<reference file="modules/sitecontact/xartemplates/blocks/modify-sitecontact.xd" line="6" />
 		</references>
 	</entry>
 	<entry>
 		<string>Options</string>
 		<translation>Optionen</translation>
 		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="738" />
+			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="741" />
 			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="31" />
 		</references>
 	</entry>
@@ -740,6 +797,14 @@ copy to sender option (spammer use) if you have open access on your website to t
 			<reference file="modules/sitecontact/xartemplates/admin-delete.xd" line="3" />
 			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="3" />
 			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Message:</string>
+		<translation>Mitteilung:</translation>
+		<references>
+			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="49" />
+			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="134" />
 		</references>
 	</entry>
 	<entry>
@@ -764,6 +829,22 @@ copy to sender option (spammer use) if you have open access on your website to t
 		<references>
 			<reference file="modules/sitecontact/xaruser/contactus.php" line="71" />
 			<reference file="modules/sitecontact/xaruser/main.php" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Your message has been sent.</string>
+		<translation>Ihre Mitteilung wurde versandt.</translation>
+		<references>
+			<reference file="modules/sitecontact/xaruser/main.php" line="180" />
+			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>You should receive confirmation of your email within a few minutes.</string>
+		<translation>In wenigen Minuten erhalten Sie eine Bestätigungsmail.</translation>
+		<references>
+			<reference file="modules/sitecontact/xaruser/main.php" line="182" />
+			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="180" />
 		</references>
 	</entry>
 </translations>

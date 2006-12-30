@@ -2,7 +2,7 @@
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
 		<string>Hitcount Administration</string>
-		<translation>Hitcount-Administration</translation>
+		<translation>Hitcount-Administration (Aufrufzähler)</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="3" />
 		</references>
@@ -16,21 +16,21 @@
 	</entry>
 	<entry>
 		<string>The Hitcount module is a simple utility module to count the number of hits on an item.</string>
-		<translation>Das &quot;Aufrufzähler&quot;-Modul ist ein einfaches Utility-Modul, um die Anzahl der Aufrufe eines Elements zu erfassen.</translation>
+		<translation>&lt;/em&gt;Das hitcount-Modul (Aufrufzähler) ist ein einfaches Hilfsmodul, um die Anzahl der Seitenaufrufe der Webseite zu erfassen. Die Aufrufe werden für jeden einzelnen Eintrag getrennt erfasst.</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="16" />
 		</references>
 	</entry>
 	<entry>
 		<string>It is currently responsible for accomplishing these tasks:</string>
-		<translation>Dem Modul obliegen zur Zeit folgende Aufgaben:</translation>
+		<translation>&lt;h3&gt;Das Modul erfüllt folgende Aufgaben:&lt;/h3&gt;</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Collects and displays hit detail on items in Xaraya.</string>
-		<translation>Sammeln und anzeigen von Aufruf-Details von einzelnen Elementen in Xaraya.</translation>
+		<translation>Sammeln und anzeigen der Aufrufe von einzelnen Elementen in Xaraya.&lt;br /&gt;</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="20" />
 		</references>
@@ -44,7 +44,7 @@
 	</entry>
 	<entry>
 		<string>Simply set the configuration as you would like, and the hitcount module will begin collecting data on the hooks that you configure.</string>
-		<translation>Die Konfiguration einfach wie gewünscht einstellen und entsprechend der konfigurierten Hooks wird das Modul mit dem Sammeln von Daten beginnen.</translation>
+		<translation>Die Zählung beginnt unmittelbar nach dem Setzen eines Hooks. Hitcount ist dabei das Zielmodul. Bei Einstellungen ist es empfehlenswert, die Aufrufe durch Administratoren nicht mitzählen zu lassen.</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="27" />
 		</references>
@@ -58,7 +58,7 @@
 	</entry>
 	<entry>
 		<string>There are no included blocks</string>
-		<translation>...sind momentan nicht vorhanden.</translation>
+		<translation>Keine.</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="33" />
 		</references>
@@ -72,7 +72,7 @@
 	</entry>
 	<entry>
 		<string>The hitcount must be hooked into the items that you want to count up.</string>
-		<translation>Das &quot;Aufrufzähler&quot;-Modul muss mit Hooks mit den Elementen verbunden werden, deren Aufrufe erfasst werden sollen.</translation>
+		<translation>Das hitcount-Modul ist als Zielmodul über Hooks mit den Quellmodulen der zu zählenden Einträge zu verbinden.</translation>
 		<references>
 			<reference file="modules/hitcount/xartemplates/admin-main.xd" line="39" />
 		</references>

@@ -17,14 +17,14 @@
 	<entry>
 		<string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
 with the mbstring extension compiled in.</string>
-		<translation>Bitte beachten Sie, dass Sie den  UNBOXED-Modus des MultiLanguage-Systems nicht verwenden können, es sei den, Sie hätten PHP 4.3.0 mit der mbstring_Erweiterung.</translation>
+		<translation>Bitte beachten Sie, dass Sie den UNBOXED-Modus nur verwenden können, wenn eine PHP-Version größer als 4.3.0 mit der mbstring-Erweiterung installiert ist. Sollte dies nicht der Fall sein, wird Ihre Seite nach dem Umschalten auf UNBOXED &lt;strong&gt;nicht mehr zugänglich sein, auch nicht für Administratoren.&lt;/strong&gt;&lt;br &gt;&amp;nbsp;&lt;br /&gt;Beachten Sie vor eventuellen Änderungen die Wechselwirkungen zwischen den Zeichensätzen in der Datenbank und dem Webserver.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="18" />
 		</references>
 	</entry>
 	<entry>
 		<string>Single Language Mode (SINGLE)</string>
-		<translation>Single-Language-Modus (SINGLE)</translation>
+		<translation>Einzelsprachlicher Modus (SINGLE)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="27" />
 		</references>
@@ -33,14 +33,14 @@ with the mbstring extension compiled in.</string>
 		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
 built in. All information is stored coherently with the chosen character set (at installation time),
 and also user data is meaningful in the chosen character set.</string>
-		<translation>MLS verwendet nur einen Zeichensatz, typischerweise single byte aber möglicherweise multi byte, wenn mb_string zur Verfügung steht. Jede Information verständlich gespeichert mit dem gewählten Zeichensatz (zum Zeitpunkt der Installation) und auch die Nutzerdaten haben ihre Bdeutung für den gewählten Zeichensatz.</translation>
+		<translation>Das Sprachsystem verwendet nur einen Zeichensatz für die komplette Webseite. Mittlerweile typisch sind multi byte-Zeichensätze (Unicode), falls mb_string verfügbar ist. Wenn ein Unicode-Zeichensatz (kurz: UTF) eingesetzt wird, ist SINGLE die &lt;strong&gt;beste Lösung&lt;/strong&gt;, weil Zeichen aus verschiedenen Sprachen gemeinsam verarbeitet werden können.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="36" />
 		</references>
 	</entry>
 	<entry>
 		<string>Per Page Mode (BOXED)</string>
-		<translation>Pro-Seite-Modus (BOXED)</translation>
+		<translation>Pro Seite-Modus (BOXED)</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="46" />
 		</references>
@@ -53,7 +53,7 @@ language areas (for example an Arabic comment won't be shown in the English area
 they are referring to the same object, e.g. an article available in both English and Arabic).
 Another point is that every operation involves only a single language. This mode can produce
 unexpected results if mb_string is not installed.</string>
-		<translation></translation>
+		<translation>Hierbei wird mehr als ein Zeichensatz von Xaraya verwendet, aber nur jeweils ein Zeichensatz pro ausgelieferter HTML-Seite. Dadurch kann der Seiteninhalt nicht in verschiedenen Sprachbereichen angezeigt werden, ein arabischer Kommentar würde nie unter einem hebräischen Artikel erscheinen können (aus technischen Gründen). Dieser Modus kann unvorhergesehene Ergebnisse liefern, falss mb_string nicht installiert ist.</translation>
 		<references>
 			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="57" />
 		</references>
