@@ -4,44 +4,76 @@
 		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/authldap/xarinit.php" line="23" />
-			<reference file="modules/xarldap/xarldap.php" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Error:  Connection to server #(1) port_number #(2) failed</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarldap/xarldap.php" line="110" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Error:  Search LDAP base_dn #(1) filter #(2) failed</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarldap/xarldap.php" line="250" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty password (#(1)).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarldap/xarldap.php" line="575" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty body (#(1)).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarldap/xarldap.php" line="611" />
+			<reference file="modules/authldap/xarinit.php" line="25" />
+			<reference file="modules/xarldap/xarldap.php" line="84" />
 		</references>
 	</entry>
 	<entry>
 		<string>AuthLDAP Administration</string>
 		<translation></translation>
 		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="3" />
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="1" />
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="4" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="4" />
+			<reference file="modules/authldap/xartemplates/admin-manuallysyncgroups.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="10" />
+			<reference file="modules/authldap/xartemplates/includes/admin-menu.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manually Sync Groups</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-manuallysyncgroups.xd" line="9" />
+			<reference file="modules/authldap/xaradminapi/getmenulinks.php" line="34" />
+			<reference file="modules/authldap/xartemplates/includes/admin-menu.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Connection to server #(1) port_number #(2) failed</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to set LDAP Protocol version to 3</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Failed to start TLS</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>LDAP Error: Search LDAP base_dn #(1) filter #(2) failed</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="279" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty password (#(1)).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="644" />
+		</references>
+	</entry>
+	<entry>
+		<string>Empty body (#(1)).</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/xarldap/xarldap.php" line="680" />
 		</references>
 	</entry>
 </translations>
