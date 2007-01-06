@@ -99,14 +99,14 @@
 	</entry>
 	<entry>
 		<string>Subject</string>
-		<translation>Betreff</translation>
+		<translation>Titel</translation>
 		<references>
 			<reference file="modules/articles/xarsetup.php" line="49" />
 		</references>
 	</entry>
 	<entry>
 		<string>Content</string>
-		<translation>Inhalt</translation>
+		<translation>Hauptteil</translation>
 		<references>
 			<reference file="modules/articles/xarsetup.php" line="55" />
 			<reference file="modules/articles/xarblocks/topitems.php" line="160" />
@@ -144,7 +144,7 @@
 	</entry>
 	<entry>
 		<string>Date</string>
-		<translation>Datum</translation>
+		<translation>&lt;abbr title=&quot;Veröffentlichungsdatum&quot;&gt;Datum&lt;/abbr&gt;</translation>
 		<references>
 			<reference file="modules/articles/xarsetup.php" line="88" />
 			<reference file="modules/articles/xarblocks/modify-featureditems.php" line="111" />
@@ -223,7 +223,7 @@
 	</entry>
 	<entry>
 		<string>Website</string>
-		<translation>Webseite</translation>
+		<translation>Webangebot</translation>
 		<references>
 			<reference file="modules/articles/xarsetup.php" line="149" />
 		</references>
@@ -275,7 +275,7 @@
 	</entry>
 	<entry>
 		<string>Summary</string>
-		<translation>Zusammenfassung</translation>
+		<translation>Einleitung</translation>
 		<references>
 			<reference file="modules/articles/xarsetup.php" line="194" />
 			<reference file="modules/articles/xarsetup.php" line="218" />
@@ -472,7 +472,7 @@
 	</entry>
 	<entry>
 		<string>All Published</string>
-		<translation>Alle veröffentlichten</translation>
+		<translation>Freigegeben und Startseite</translation>
 		<references>
 			<reference file="modules/articles/xarblocks/modify-featureditems.php" line="104" />
 			<reference file="modules/articles/xarblocks/modify-topitems.php" line="47" />
@@ -633,7 +633,7 @@
 	</entry>
 	<entry>
 		<string>Save and Edit</string>
-		<translation>Sichern und bearbeiten</translation>
+		<translation>Zwischensichern</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/admin-modify.xd" line="117" />
 			<reference file="modules/articles/xartemplates/admin-new.xd" line="72" />
@@ -784,7 +784,7 @@ the articles module will automatically use the templates
 and &lt;em&gt;user-summary-[publicationtype].xd&lt;/em&gt;.
 If those templates do not exist when you try to preview or display a new article,
 you'll get this warning :-)</string>
-		<translation>&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie einen neuen Veröffentlichungstyp anlegen, nutzt das Artikel-Modul automatisch die Vorlagen &lt;em&gt;user-display-[veröffentlichungstyp].xd&lt;/em&gt; und &lt;em&gt;user-summary-[veröffentlichungstyp].xd&lt;/em&gt;. Wenn eine dieser beiden Vorlagen nicht existiert und der Artikel aufgerufen wird, erhalten Sie diesen Warnhinweis.</translation>
+		<translation>&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie einen neuen Artikeltyp anlegen, nutzt das Artikel-Modul automatisch die Vorlagen &lt;em&gt;user-display-[artikeltyp].xd&lt;/em&gt; und &lt;em&gt;user-summary-[artikeltyp].xd&lt;/em&gt;. Wenn eine dieser beiden Vorlagen nicht existiert und der Artikel aufgerufen wird, erhalten Sie diesen Warnhinweis.</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/user-display.xd" line="13" />
 			<reference file="modules/articles/xartemplates/user-summary.xd" line="11" />
@@ -869,7 +869,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Article Map by Category</string>
-		<translation>nach Kategorie</translation>
+		<translation>Artikelübersicht nach Kategorie</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/user-viewmap.xd" line="6" />
 			<reference file="modules/articles/xartemplates/includes/navtabs-user-map.xd" line="13" />
@@ -877,7 +877,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Article Map by Grid</string>
-		<translation>nach Raster</translation>
+		<translation>Artikelübersicht als Kreuztabelle aus zwei Kategorien</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/user-viewmap.xd" line="39" />
 			<reference file="modules/articles/xartemplates/includes/navtabs-user-map-extended.xd" line="21" />
@@ -885,7 +885,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Article Map by Publication Type</string>
-		<translation>nach Artikeltyp</translation>
+		<translation>Artikelübersicht nach Artikeltyp</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/user-viewmap.xd" line="75" />
 			<reference file="modules/articles/xartemplates/includes/navtabs-user-map-extended.xd" line="13" />
@@ -929,7 +929,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Statistics</string>
-		<translation>Statistik</translation>
+		<translation>Nutzungsstatistik</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/admin-stats.xd" line="17" />
 			<reference file="modules/articles/xartemplates/includes/util-menu.xd" line="16" />
@@ -970,7 +970,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Failed to retrieve article in #(3)_#(1)_#(2).php</string>
-		<translation>Der Artikel in #(3)_#(1)_#(2).php konnte nicht gefunden werden</translation>
+		<translation>Der Artikel in #(3)_#(1)_#(2).php konnte nicht gefunden werden.</translation>
 		<references>
 			<reference file="modules/articles/xaruser/display.php" line="71" />
 			<reference file="modules/articles/xaruser/redirect.php" line="39" />
@@ -1003,7 +1003,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Click on a tab to explore further</string>
-		<translation>Für weitere Erläuterungen den Bereich anklicken</translation>
+		<translation>Den Bereich für Weiteres klicken</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/includes/navtabs-user-map-extended.xd" line="3" />
 			<reference file="modules/articles/xartemplates/includes/navtabs-user-map.xd" line="3" />
@@ -1031,7 +1031,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>All / Current</string>
-		<translation>Alle(s) / Aktuell</translation>
+		<translation>Alle / Aktuell</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/blocks/modify-topitems.xd" line="69" />
 			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="43" />
@@ -1047,7 +1047,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Show summary</string>
-		<translation>Zusammenfassung anzeigen</translation>
+		<translation>Einleitung anzeigen</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/blocks/modify-topitems.xd" line="177" />
 			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="153" />
@@ -1066,7 +1066,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Select this if you wish to show the dynamic data that you have included for your publication types.</string>
-		<translation>Dies auswählen, wenn die bei diesem Veröffentlichungstyp verwandten Dynamischen Daten angezeigt werden sollen.</translation>
+		<translation>Die in diesem Artikeltyp verwandten DynamicData angezeigen.</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/blocks/modify-topitems.xd" line="206" />
 			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="199" />
@@ -1074,7 +1074,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>Include dynamic data</string>
-		<translation>DynamicData anfügen</translation>
+		<translation>DynamicData einschließen</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/blocks/modify-topitems.xd" line="209" />
 			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="202" />
@@ -1106,7 +1106,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>If you wish to give the article an alternative summary to be displayed as a featured item, enter the summary here.</string>
-		<translation>Dieser Text ersetzt die Zusammenfassung des 'Wichtigsten Artikels' im Block.</translation>
+		<translation>Dieser Text ersetzt die Einleitung des 'Wichtigsten Artikels' im Block.</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="125" />
 			<reference file="modules/articles/xartemplates/blocks/modify-featureditems.xd" line="138" />
@@ -1114,7 +1114,7 @@ you'll get this warning :-)</string>
 	</entry>
 	<entry>
 		<string>If you wish to show the summary for the article as teaser text select this box.</string>
-		<translation>Zusammenfassung des Artikels im Block anzeigen.</translation>
+		<translation>Einleitung des Artikels im Block anzeigen.</translation>
 		<references>
 			<reference file="modules/articles/xartemplates/blocks/modify-random.xd" line="150" />
 			<reference file="modules/articles/xartemplates/blocks/modify-featureditems.xd" line="119" />

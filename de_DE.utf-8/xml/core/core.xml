@@ -149,14 +149,14 @@
 	</entry>
 	<entry>
 		<string>Login error</string>
-		<translation>Login-Fehler</translation>
+		<translation>Anmeldefehler</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
 		</references>
 	</entry>
 	<entry>
 		<string>A problem was encountered during the login process.</string>
-		<translation>Während des Login-Vorgangs trat ein Fehler auf.</translation>
+		<translation>Bei der Nutzeranmeldung trat ein Fehler auf.</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="38" />
 		</references>
@@ -213,14 +213,14 @@
 	</entry>
 	<entry>
 		<string>Privileges Error</string>
-		<translation>Privilegien-Fehler</translation>
+		<translation>Zugriffsrechte-Fehler</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
 		</references>
 	</entry>
 	<entry>
 		<string>You do not have privileges for this operation.</string>
-		<translation>Sie verfügen nicht über die für diese Operation erforderlichen Privilegien.</translation>
+		<translation>Sie verfügen nicht über die erforderlichen Zugriffsrechte (Privilegien) für diesen Vorgang.</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="49" />
 		</references>
@@ -234,14 +234,14 @@
 	</entry>
 	<entry>
 		<string>Not logged in</string>
-		<translation>Nicht eingeloggt</translation>
+		<translation>Nicht angemeldet</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
 		</references>
 	</entry>
 	<entry>
 		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>Sie versuchen einen Vorgang auszuführen, der für nicht-eingeloggte Besucher nicht erlaubt ist.</translation>
+		<translation>Sie versuchen einen Vorgang auszuführen, der ungemeldeten Besuchern nicht erlaubt ist.</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="53" />
 		</references>
@@ -255,7 +255,7 @@
 	</entry>
 	<entry>
 		<string>Item not found</string>
-		<translation>Punkt nicht gefunden</translation>
+		<translation>Eintrag nicht gefunden</translation>
 		<references>
 			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
 		</references>
@@ -1815,7 +1815,7 @@
 	</entry>
 	<entry>
 		<string>User identified by uid #(1) does not exist.</string>
-		<translation>Der Benutzer mit der UID #(1) existiert nicht.</translation>
+		<translation>Der Nutzer mit der UID #(1) existiert nicht.</translation>
 		<references>
 			<reference file="includes/xarUser.php" line="427" />
 			<reference file="includes/xarUser.php" line="461" />
@@ -1824,7 +1824,7 @@
 	</entry>
 	<entry>
 		<string>User variable #(1) was not correctly registered</string>
-		<translation>Benutzer-Variable #(1) wurde nicht richtig registriert</translation>
+		<translation>Nutzer-Variable #(1) wurde nicht richtig registriert</translation>
 		<references>
 			<reference file="includes/xarUser.php" line="448" />
 			<reference file="includes/xarUser.php" line="592" />
@@ -1832,14 +1832,14 @@
 	</entry>
 	<entry>
 		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
-		<translation>Security Realm #(1) - Komponente #(2) - Instanz #(3) - Level #(4) : Dieser Aufruf muss in das Xaraya-Sicherheitssystem übersetzt werden.</translation>
+		<translation>Berechtigungsbereich #(1) - Modulkomponente #(2) - Eintragsnstanz #(3) - Zugriffslevel #(4) : Dieser Aufruf muss in das Xaraya-Sicherheitssystem übersetzt werden.</translation>
 		<references>
 			<reference file="includes/xarSecurity.php" line="610" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show the Users in this Group</string>
-		<translation>Benutzer in dieser Gruppe anzeigen</translation>
+		<translation>Nutzer in dieser Gruppe anzeigen</translation>
 		<references>
 			<reference file="modules/roles/xartreerenderer.php" line="269" />
 		</references>
@@ -1853,7 +1853,7 @@
 	</entry>
 	<entry>
 		<string>Email the Users in this Group</string>
-		<translation>Den Benutzern in dieser Gruppe eine Email senden</translation>
+		<translation>Den Nutzern in dieser Gruppe eine E-Mail senden</translation>
 		<references>
 			<reference file="modules/roles/xartreerenderer.php" line="295" />
 		</references>
@@ -1888,14 +1888,14 @@
 	</entry>
 	<entry>
 		<string>user</string>
-		<translation>Benutzer</translation>
+		<translation>Nutzer</translation>
 		<references>
 			<reference file="modules/roles/xartreerenderer.php" line="336" />
 		</references>
 	</entry>
 	<entry>
 		<string>users</string>
-		<translation>Benutzer</translation>
+		<translation>Nutzer</translation>
 		<references>
 			<reference file="modules/roles/xartreerenderer.php" line="336" />
 		</references>
@@ -1909,7 +1909,7 @@
 	</entry>
 	<entry>
 		<string>You must enter a user name and a valid email address.</string>
-		<translation>Sie müssen einen Benutzernamen und eine gültige Email-Adresse eingeben.</translation>
+		<translation>Sie müssen einen Anmeldenamen und eine gültige E-Mailadresse eingeben.</translation>
 		<references>
 			<reference file="modules/roles/xarroles.php" line="337" />
 			<reference file="modules/roles/xarroles.php" line="539" />
@@ -1950,14 +1950,14 @@
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
-		<translation>Kann Maske #(1) nicht finden, registriert für eine unspezifizierte Komponente in Modul #(2)</translation>
+		<translation>Kann Maske #(1) nicht finden, registriert für eine unspezifizierte Modulkomponente in Modul #(2)</translation>
 		<references>
 			<reference file="modules/privileges/xarprivileges.php" line="386" />
 		</references>
 	</entry>
 	<entry>
 		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
-		<translation>Kann Maske #(1) nicht finden, registriert für Komponente #(2) in Modul #(3)</translation>
+		<translation>Kann Maske #(1) nicht finden, registriert für Modulkomponente #(2) in Modul #(3)</translation>
 		<references>
 			<reference file="modules/privileges/xarprivileges.php" line="389" />
 		</references>
@@ -1971,14 +1971,14 @@
 	</entry>
 	<entry>
 		<string>A query is missing in component #(1) of module #(2)</string>
-		<translation>Eine Abfrage fehlt in Komponente #(1) des Moduls #(2)</translation>
+		<translation>Eine Abfrage fehlt in der Modulkomponente #(1) des Moduls #(2)</translation>
 		<references>
 			<reference file="modules/privileges/xarprivileges.php" line="1299" />
 		</references>
 	</entry>
 	<entry>
 		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
-		<translation>#(1) und #(2) haben nicht die gleichen Instanzen. #(3) | #(4) | #(5)</translation>
+		<translation>#(1) und #(2) haben nicht die gleichen Eintragsinstanzen. #(3) | #(4) | #(5)</translation>
 		<references>
 			<reference file="modules/privileges/xarprivileges.php" line="1857" />
 		</references>
