@@ -1,419 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
-		<string>Images Administration</string>
-		<translation>Bilder-Administration</translation>
+		<string>Invalid parameter '#(1)' to API function '#(2)' in module '#(3)'</string>
+		<translation>Ungültiger Parameter '#(1)' bei API-Funktion '#(2)' in Modul '#(3)'</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="3" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="3" />
-			<reference file="modules/images/xartemplates/admin-main.xd" line="3" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="3" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="3" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="3" />
+			<reference file="modules/images/xaruserapi/load_image.php" line="27" />
+			<reference file="modules/images/xaruserapi/load_image.php" line="32" />
+			<reference file="modules/images/xaruserapi/load_image.php" line="37" />
+			<reference file="modules/images/xaruserapi/load_image.php" line="69" />
+			<reference file="modules/images/xaruserapi/getimagesize.php" line="29" />
+			<reference file="modules/images/xaruserapi/getimagesize.php" line="34" />
+			<reference file="modules/images/xaruserapi/getimagesize.php" line="39" />
+			<reference file="modules/images/xaruserapi/getimageinfo.php" line="29" />
+			<reference file="modules/images/xaruserapi/getimageinfo.php" line="34" />
+			<reference file="modules/images/xaruserapi/getimageinfo.php" line="39" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="34" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="39" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="44" />
+			<reference file="modules/images/xaradminapi/process_image.php" line="45" />
+			<reference file="modules/images/xaradminapi/process_image.php" line="161" />
+			<reference file="modules/images/xaradminapi/process_image.php" line="183" />
+			<reference file="modules/images/xaradminapi/process_image.php" line="235" />
 		</references>
 	</entry>
 	<entry>
-		<string>Are you sure you want to delete this image ?</string>
-		<translation>Wollen Sie dieses Bild wirklich löschen?</translation>
+		<string>'#(1)' parameter is incorrectly formatted.</string>
+		<translation>&quot;#(1)&quot;-Parameter ist nicht korrekt formatiert.</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="17" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="17" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="17" />
+			<reference file="modules/images/xaruserapi/resize.php" line="52" />
+			<reference file="modules/images/xaruserapi/resize.php" line="56" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="55" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="59" />
 		</references>
 	</entry>
 	<entry>
-		<string>Confirm</string>
-		<translation></translation>
+		<string>Image type for file: #(1) is not supported for resizing</string>
+		<translation>Die Größenveränderung der Datei: #(1) wird wegen ihres Bildtyps nicht unterstützt.</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="22" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="47" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="21" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="21" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="45" />
+			<reference file="modules/images/xaruserapi/resize.php" line="89" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="119" />
 		</references>
 	</entry>
 	<entry>
-		<string>Cancel</string>
-		<translation>Abbrechen</translation>
+		<string>File not found.</string>
+		<translation>Datei nicht gefunden.</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="23" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="48" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="325" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="345" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="22" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="22" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="46" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="295" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="315" />
+			<reference file="modules/images/xaruserapi/resize.php" line="228" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="133" />
 		</references>
 	</entry>
 	<entry>
-		<string>Specify the width and/or height you want :</string>
-		<translation>Geben Sie die gewünschte Breite und/oder Höhe an:</translation>
+		<string>Unable to save resized image !</string>
+		<translation>Kann größenverändertes Bild nicht speichern!</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="27" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="26" />
+			<reference file="modules/images/xaruserapi/resize.php" line="274" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="189" />
 		</references>
 	</entry>
 	<entry>
-		<string>Width</string>
-		<translation>Breite</translation>
+		<string>Unable to resize image '#(1)'!</string>
+		<translation>Kann die Bildgröße bei Bild &quot;#(1)&quot; nicht verändern!</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="28" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="79" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="189" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="297" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="44" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="107" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="73" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="116" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="27" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="82" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="162" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="267" />
+			<reference file="modules/images/xaruserapi/resize.php" line="278" />
+			<reference file="modules/images/xaradminapi/resize_image.php" line="194" />
 		</references>
 	</entry>
 	<entry>
-		<string>Height</string>
-		<translation>Höhe</translation>
+		<string>View Uploaded Images</string>
+		<translation>Übersicht</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="30" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="83" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="194" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="298" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="48" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="112" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="79" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="124" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="29" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="86" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="167" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="268" />
-		</references>
-	</entry>
-	<entry>
-		<string>Replace</string>
-		<translation>Ersetzen</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="32" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="299" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="321" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="343" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="31" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="269" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="291" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="313" />
-		</references>
-	</entry>
-	<entry>
-		<string>No</string>
-		<translation>Nein</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="35" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="38" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="159" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="301" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="34" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="37" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="271" />
-		</references>
-	</entry>
-	<entry>
-		<string>Yes</string>
-		<translation>Ja</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="36" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="39" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="157" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="302" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="35" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="38" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="272" />
-		</references>
-	</entry>
-	<entry>
-		<string>Preview</string>
-		<translation>Vorschau</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="46" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="546" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Image</string>
-		<translation>Bild</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="54" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="27" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="40" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>Image Details</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="70" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>Filename</string>
-		<translation>Dateiname</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="74" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="183" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="40" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="102" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="45" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="277" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="74" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="152" />
-		</references>
-	</entry>
-	<entry>
-		<string>Size</string>
-		<translation>Größe</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="87" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="199" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="52" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="117" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="65" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="90" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="172" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modified</string>
-		<translation>Abgeändert</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="91" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="204" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="56" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="122" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="51" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="94" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="177" />
-		</references>
-	</entry>
-	<entry>
-		<string>Derivatives &amp;amp; Associations</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="98" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="100" />
-		</references>
-	</entry>
-	<entry>
-		<string>Derivatives</string>
-		<translation>Abgeleitete Bilder</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="102" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="104" />
-			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>No Derivatives</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="111" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>Base Directory</string>
-		<translation>Basisverzeichnis</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="124" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>Base URL</string>
-		<translation>Basis-URL</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="127" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="126" />
-		</references>
-	</entry>
-	<entry>
-		<string>Recursive</string>
-		<translation>rekursiv</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="130" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="129" />
-		</references>
-	</entry>
-	<entry>
-		<string>File Extensions</string>
-		<translation>Dateityp</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="133" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="132" />
-		</references>
-	</entry>
-	<entry>
-		<string>Refresh</string>
-		<translation>Erneut laden</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="168" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>Action</string>
-		<translation>Aktion</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="208" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="126" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="181" />
-		</references>
-	</entry>
-	<entry>
-		<string>View</string>
-		<translation>Anzeigen</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="241" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="157" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="213" />
-		</references>
-	</entry>
-	<entry>
-		<string>Resize</string>
-		<translation>Größenänderung</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="246" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="304" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="323" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="110" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="217" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="274" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="293" />
-		</references>
-	</entry>
-	<entry>
-		<string>Process</string>
-		<translation>Vorgang</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="250" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="292" />
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="341" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="161" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="221" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="262" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="311" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Löschen</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="254" />
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="165" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="225" />
-		</references>
-	</entry>
-	<entry>
-		<string>Check All</string>
-		<translation>Alle auswählen</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="266" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="236" />
-		</references>
-	</entry>
-	<entry>
-		<string>Uncheck All</string>
-		<translation>Auswahl aufheben</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="267" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="237" />
-		</references>
-	</entry>
-	<entry>
-		<string>Image Processing</string>
-		<translation>Bildbearbeitung</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="275" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="245" />
-			<reference file="modules/images/xaradminapi/getmenulinks.php" line="43" />
-			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Save As</string>
-		<translation>Sichern als</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="286" />
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="534" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="256" />
-		</references>
-	</entry>
-	<entry>
-		<string>derivative</string>
-		<translation>abgeleitet</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="288" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="258" />
-		</references>
-	</entry>
-	<entry>
-		<string>[image]_new.[ext]</string>
-		<translation>[Bildname]_neu.[Dateinamenserweiterung]</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="289" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="259" />
-		</references>
-	</entry>
-	<entry>
-		<string>replace</string>
-		<translation>ersetzen</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="290" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="260" />
-		</references>
-	</entry>
-	<entry>
-		<string>Are you sure you want to replace the selected images to [#(1) x #(2)] ?</string>
-		<translation>Sind Sie sicher, dass Sie die ausgewählten Bilder mit [#(1) x #(2)] ersetzen wollen?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="311" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="281" />
-		</references>
-	</entry>
-	<entry>
-		<string>Are you sure you want to resize the selected images to [#(1) x #(2)] ?</string>
-		<translation>Sind Sie sicher, dass Sie die Größe der ausgewählten Bilder zu [#(1) x #(2)] verändern wollen?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="313" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="283" />
-		</references>
-	</entry>
-	<entry>
-		<string>Are you sure you want to process the selected images using '#(1)' ?</string>
-		<translation>Sind Sie sicher, dass sie die ausgewählten Bilder mit '#(1)' verarbeiten wollen?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="332" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="302" />
-		</references>
-	</entry>
-	<entry>
-		<string>Are you sure you want to replace the selected images using '#(1)' ?</string>
-		<translation>Sind Sie sich sicher, dass Sie die ausgewählten Bilder unter Verwendung von '#(1)' ersetzen wollen?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-browse.xd" line="334" />
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="304" />
+			<reference file="modules/images/xaradminapi/getmenulinks.php" line="26" />
+			<reference file="modules/images/xaradminapi/getmenulinks.php" line="27" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="10" />
 		</references>
 	</entry>
 	<entry>
 		<string>View Derivative Images</string>
 		<translation>Abgeleitete Bilder zeigen</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="10" />
 			<reference file="modules/images/xaradminapi/getmenulinks.php" line="32" />
 			<reference file="modules/images/xaradminapi/getmenulinks.php" line="33" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Image Processing</string>
+		<translation>Bildbearbeitung</translation>
+		<references>
+			<reference file="modules/images/xaradminapi/getmenulinks.php" line="43" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="245" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="275" />
+			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Konfiguration</translation>
+		<references>
+			<reference file="modules/images/xaradminapi/getmenulinks.php" line="48" />
+			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>Images Administration</string>
+		<translation>Bilder-Administration</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-main.xd" line="3" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="3" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="3" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="3" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="3" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Einführungstext</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-main.xd" line="9" />
+			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Derivatives Storage Directory</string>
+		<translation>Speicherverzeichnis für abgeleitete Bilder</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="20" />
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="21" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base Directory</string>
+		<translation>Basisverzeichnis</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="134" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Base URL</string>
+		<translation>Basis-URL</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="137" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Recursive</string>
+		<translation>rekursiv</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="140" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="130" />
+		</references>
+	</entry>
+	<entry>
+		<string>File Extensions</string>
+		<translation>Dateityp</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="143" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to delete this image ?</string>
+		<translation>Wollen Sie dieses Bild wirklich löschen?</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="17" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="17" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="21" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="21" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="45" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="22" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Cancel</string>
+		<translation>Abbrechen</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="22" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="22" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="46" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="295" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="315" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="23" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="48" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="325" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="345" />
+		</references>
+	</entry>
+	<entry>
+		<string>Image</string>
+		<translation>Bild</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="27" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="55" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="54" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Filename</string>
+		<translation>Dateiname</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="40" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="102" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="74" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="152" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="74" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="183" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="45" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="277" />
+		</references>
+	</entry>
+	<entry>
+		<string>Width</string>
+		<translation>Breite</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="44" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="107" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="27" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="82" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="162" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="267" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="28" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="79" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="189" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="297" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="73" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>Height</string>
+		<translation>Höhe</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="48" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="112" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="29" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="86" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="167" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="268" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="30" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="83" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="194" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="298" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="79" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Size</string>
+		<translation>Größe</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="52" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="117" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="90" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="172" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="87" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="199" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modified</string>
+		<translation>Abgeändert</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="56" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="122" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="94" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="177" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="91" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="204" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="51" />
 		</references>
 	</entry>
 	<entry>
@@ -426,111 +293,244 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Derivatives Storage Directory</string>
-		<translation>Speicherverzeichnis für abgeleitete Bilder</translation>
+		<string>Refresh</string>
+		<translation>Erneut laden</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="82" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="20" />
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="21" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="86" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="168" />
 		</references>
 	</entry>
 	<entry>
-		<string>Overview</string>
-		<translation>Einführungstext</translation>
+		<string>Action</string>
+		<translation>Aktion</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="9" />
-			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="51" />
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="126" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="181" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="208" />
+		</references>
+	</entry>
+	<entry>
+		<string>View</string>
+		<translation>Anzeigen</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="157" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="213" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="241" />
+		</references>
+	</entry>
+	<entry>
+		<string>Process</string>
+		<translation>Vorgang</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="161" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="221" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="262" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="311" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="250" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="292" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="341" />
+		</references>
+	</entry>
+	<entry>
+		<string>Delete</string>
+		<translation>Löschen</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-derivatives.xd" line="165" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="225" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="254" />
+		</references>
+	</entry>
+	<entry>
+		<string>Specify the width and/or height you want :</string>
+		<translation>Geben Sie die gewünschte Breite und/oder Höhe an:</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="26" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Replace</string>
+		<translation>Ersetzen</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="31" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="269" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="291" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="313" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="32" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="299" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="321" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="343" />
+		</references>
+	</entry>
+	<entry>
+		<string>No</string>
+		<translation>Nein</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="34" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="37" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="271" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="35" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="38" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="159" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="301" />
+		</references>
+	</entry>
+	<entry>
+		<string>Yes</string>
+		<translation>Ja</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="35" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="38" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="272" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="36" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="39" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="157" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="302" />
+		</references>
+	</entry>
+	<entry>
+		<string>Preview</string>
+		<translation>Vorschau</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="44" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="46" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="546" />
+		</references>
+	</entry>
+	<entry>
+		<string>Image Details</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="71" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="70" />
 		</references>
 	</entry>
 	<entry>
 		<string>Filetype</string>
 		<translation>Dateityp</translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="59" />
 			<reference file="modules/images/xartemplates/admin-uploads.xd" line="78" />
 			<reference file="modules/images/xartemplates/admin-uploads.xd" line="157" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="59" />
 		</references>
 	</entry>
 	<entry>
-		<string>View Uploaded Images</string>
-		<translation>Übersicht</translation>
+		<string>Derivatives &amp;amp; Associations</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/images/xartemplates/admin-uploads.xd" line="10" />
-			<reference file="modules/images/xaradminapi/getmenulinks.php" line="26" />
-			<reference file="modules/images/xaradminapi/getmenulinks.php" line="27" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="100" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="98" />
 		</references>
 	</entry>
 	<entry>
-		<string>Modify Config</string>
-		<translation>Konfiguration</translation>
+		<string>Derivatives</string>
+		<translation>Abgeleitete Bilder</translation>
 		<references>
-			<reference file="modules/images/xaradminapi/getmenulinks.php" line="48" />
-			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="44" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="104" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="102" />
+			<reference file="modules/images/xartemplates/includes/admin-menu.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
-		<string>Invalid parameter '#(1)' to API function '#(2)' in module '#(3)'</string>
-		<translation>Ungültiger Parameter '#(1)' bei API-Funktion '#(2)' in Modul '#(3)'</translation>
+		<string>No Derivatives</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/images/xaradminapi/process_image.php" line="46" />
-			<reference file="modules/images/xaradminapi/process_image.php" line="162" />
-			<reference file="modules/images/xaradminapi/process_image.php" line="184" />
-			<reference file="modules/images/xaradminapi/process_image.php" line="236" />
-			<reference file="modules/images/xaradminapi/resize_image.php" line="35" />
-			<reference file="modules/images/xaradminapi/resize_image.php" line="40" />
-			<reference file="modules/images/xaradminapi/resize_image.php" line="45" />
-			<reference file="modules/images/xaruserapi/getimageinfo.php" line="18" />
-			<reference file="modules/images/xaruserapi/getimageinfo.php" line="23" />
-			<reference file="modules/images/xaruserapi/getimageinfo.php" line="28" />
-			<reference file="modules/images/xaruserapi/getimagesize.php" line="18" />
-			<reference file="modules/images/xaruserapi/getimagesize.php" line="23" />
-			<reference file="modules/images/xaruserapi/getimagesize.php" line="28" />
-			<reference file="modules/images/xaruserapi/load_image.php" line="17" />
-			<reference file="modules/images/xaruserapi/load_image.php" line="22" />
-			<reference file="modules/images/xaruserapi/load_image.php" line="27" />
-			<reference file="modules/images/xaruserapi/load_image.php" line="59" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="114" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="111" />
 		</references>
 	</entry>
 	<entry>
-		<string>'#(1)' parameter is incorrectly formatted.</string>
-		<translation>&quot;#(1)&quot;-Parameter ist nicht korrekt formatiert.</translation>
+		<string>Resize</string>
+		<translation>Größenänderung</translation>
 		<references>
-			<reference file="modules/images/xaradminapi/resize_image.php" line="56" />
-			<reference file="modules/images/xaradminapi/resize_image.php" line="60" />
-			<reference file="modules/images/xaruserapi/resize.php" line="42" />
-			<reference file="modules/images/xaruserapi/resize.php" line="46" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="217" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="274" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="293" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="246" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="304" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="323" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="110" />
 		</references>
 	</entry>
 	<entry>
-		<string>Image type for file: #(1) is not supported for resizing</string>
-		<translation>Die Größenveränderung der Datei: #(1) wird wegen ihres Bildtyps nicht unterstützt.</translation>
+		<string>Check All</string>
+		<translation>Alle auswählen</translation>
 		<references>
-			<reference file="modules/images/xaradminapi/resize_image.php" line="119" />
-			<reference file="modules/images/xaruserapi/resize.php" line="77" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="236" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="266" />
 		</references>
 	</entry>
 	<entry>
-		<string>File not found.</string>
-		<translation>Datei nicht gefunden.</translation>
+		<string>Uncheck All</string>
+		<translation>Auswahl aufheben</translation>
 		<references>
-			<reference file="modules/images/xaradminapi/resize_image.php" line="133" />
-			<reference file="modules/images/xaruserapi/resize.php" line="208" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="237" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="267" />
 		</references>
 	</entry>
 	<entry>
-		<string>Unable to save resized image !</string>
-		<translation>Kann größenverändertes Bild nicht speichern!</translation>
+		<string>Save As</string>
+		<translation>Sichern als</translation>
 		<references>
-			<reference file="modules/images/xaradminapi/resize_image.php" line="189" />
-			<reference file="modules/images/xaruserapi/resize.php" line="254" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="256" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="286" />
+			<reference file="modules/images/xartemplates/admin-phpthumb.xd" line="534" />
 		</references>
 	</entry>
 	<entry>
-		<string>Unable to resize image '#(1)'!</string>
-		<translation>Kann die Bildgröße bei Bild &quot;#(1)&quot; nicht verändern!</translation>
+		<string>derivative</string>
+		<translation>abgeleitet</translation>
 		<references>
-			<reference file="modules/images/xaradminapi/resize_image.php" line="194" />
-			<reference file="modules/images/xaruserapi/resize.php" line="258" />
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="258" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="288" />
+		</references>
+	</entry>
+	<entry>
+		<string>[image]_new.[ext]</string>
+		<translation>[Bildname]_neu.[Dateinamenserweiterung]</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="259" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="289" />
+		</references>
+	</entry>
+	<entry>
+		<string>replace</string>
+		<translation>ersetzen</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="260" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="290" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to replace the selected images to [#(1) x #(2)] ?</string>
+		<translation>Sind Sie sicher, dass Sie die ausgewählten Bilder mit [#(1) x #(2)] ersetzen wollen?</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="281" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="311" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to resize the selected images to [#(1) x #(2)] ?</string>
+		<translation>Sind Sie sicher, dass Sie die Größe der ausgewählten Bilder zu [#(1) x #(2)] verändern wollen?</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="283" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="313" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to process the selected images using '#(1)' ?</string>
+		<translation>Sind Sie sicher, dass sie die ausgewählten Bilder mit '#(1)' verarbeiten wollen?</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="302" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="332" />
+		</references>
+	</entry>
+	<entry>
+		<string>Are you sure you want to replace the selected images using '#(1)' ?</string>
+		<translation>Sind Sie sich sicher, dass Sie die ausgewählten Bilder unter Verwendung von '#(1)' ersetzen wollen?</translation>
+		<references>
+			<reference file="modules/images/xartemplates/admin-uploads.xd" line="304" />
+			<reference file="modules/images/xartemplates/admin-browse.xd" line="334" />
 		</references>
 	</entry>
 </translations>

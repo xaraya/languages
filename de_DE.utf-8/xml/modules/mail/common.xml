@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
 	<entry>
+		<string>Mail Administration</string>
+		<translation>Mail-Administration</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="8" />
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="11" />
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="14" />
+			<reference file="modules/mail/xartemplates/admin-viewq.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="14" />
+			<reference file="modules/mail/xartemplates/includes/admin-menu.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notification Template</string>
+		<translation>Benachrichtigungs-Template</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="57" />
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config</string>
+		<translation>Konfiguration ändern</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="70" />
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="47" />
+			<reference file="modules/mail/xartemplates/includes/admin-menu.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Update</string>
+		<translation>Aktualisieren</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="404" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="234" />
+		</references>
+	</entry>
+	<entry>
+		<string>Test Configuration</string>
+		<translation>Test-Konfiguration</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="20" />
+			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name:</string>
+		<translation>Name:</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="26" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>Subject:</string>
+		<translation>Betreff:</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="75" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="146" />
+		</references>
+	</entry>
+	<entry>
+		<string>Message:</string>
+		<translation>Mitteilung:</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-compose.xd" line="83" />
+			<reference file="modules/mail/xartemplates/admin-template.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
 		<string>Wrong arguments to mail_adminapi</string>
 		<translation>Falsche Argumente für die mail_adminapi</translation>
 		<references>
@@ -10,91 +86,15 @@
 		</references>
 	</entry>
 	<entry>
-		<string>Test Configuration</string>
-		<translation>Test-Konfiguration</translation>
-		<references>
-			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="31" />
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Notification Template</string>
-		<translation>Benachrichtigungs-Template</translation>
-		<references>
-			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="43" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config</string>
-		<translation>Konfiguration ändern</translation>
-		<references>
-			<reference file="modules/mail/xaradminapi/getmenulinks.php" line="48" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="70" />
-			<reference file="modules/mail/xartemplates/includes/admin-menu.xd" line="39" />
-		</references>
-	</entry>
-	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Ungültiges #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
 		<references>
-			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="26" />
-			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="48" />
 			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="26" />
 			<reference file="modules/mail/xaradminapi/hookmailcreate.php" line="48" />
 			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="26" />
 			<reference file="modules/mail/xaradminapi/hookmaildelete.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Mail Administration</string>
-		<translation>Mail-Administration</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="11" />
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="8" />
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="11" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="14" />
-			<reference file="modules/mail/xartemplates/admin-viewq.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name:</string>
-		<translation>Name:</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="26" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="59" />
-		</references>
-	</entry>
-	<entry>
-		<string>Subject:</string>
-		<translation>Betreff:</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="75" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="137" />
-		</references>
-	</entry>
-	<entry>
-		<string>Message:</string>
-		<translation>Mitteilung:</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-compose.xd" line="83" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="145" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Überblick</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="14" />
-			<reference file="modules/mail/xartemplates/includes/admin-menu.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Update</string>
-		<translation>Aktualisieren</translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-modifyconfig.xd" line="404" />
-			<reference file="modules/mail/xartemplates/admin-template.xd" line="225" />
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="26" />
+			<reference file="modules/mail/xaradminapi/hookmailchange.php" line="48" />
 		</references>
 	</entry>
 </translations>

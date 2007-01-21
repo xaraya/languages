@@ -4,8 +4,34 @@
 		<string>Your PHP configuration does not seem to include the required LDAP extension. Please refer to http://www.php.net/manual/en/ref.ldap.php on how to install it.</string>
 		<translation>Ihre PHP-Konfiguration scheint nicht die erforderliche LDAP-Erweiterung zu enthalten. Bitte auf http://www.php.net/manual/en/ref.ldap.php informieren, wie diese zu installieren ist.</translation>
 		<references>
-			<reference file="modules/authldap/xarinit.php" line="23" />
+			<reference file="modules/authldap/xarinit.php" line="25" />
 			<reference file="modules/xarldap/xarldap.php" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>AuthLDAP Administration</string>
+		<translation>AuthLDAP-Administration</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="4" />
+			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="4" />
+			<reference file="modules/authldap/xartemplates/admin-manuallysyncgroups.xd" line="4" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Überblick</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="10" />
+			<reference file="modules/authldap/xartemplates/includes/admin-menu.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manually Sync Groups</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-manuallysyncgroups.xd" line="9" />
+			<reference file="modules/authldap/xaradminapi/getmenulinks.php" line="34" />
+			<reference file="modules/authldap/xartemplates/includes/admin-menu.xd" line="24" />
 		</references>
 	</entry>
 	<entry>
@@ -48,14 +74,6 @@
 		<translation>Leerer Textkörper (#(1)).</translation>
 		<references>
 			<reference file="modules/xarldap/xarldap.php" line="680" />
-		</references>
-	</entry>
-	<entry>
-		<string>AuthLDAP Administration</string>
-		<translation>AuthLDAP-Administration</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="1" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="3" />
 		</references>
 	</entry>
 </translations>

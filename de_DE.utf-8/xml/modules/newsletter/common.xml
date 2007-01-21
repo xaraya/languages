@@ -165,8 +165,8 @@
 			<reference file="modules/newsletter/xaradmin/deleteowner.php" line="50" />
 			<reference file="modules/newsletter/xaradmin/deletepublication.php" line="69" />
 			<reference file="modules/newsletter/xaradmin/deletestory.php" line="52" />
-			<reference file="modules/newsletter/xaradmin/deletesubscription.php" line="54" />
 			<reference file="modules/newsletter/xaradmin/publishissue.php" line="73" />
+			<reference file="modules/newsletter/xaradmin/deletesubscription.php" line="54" />
 			<reference file="modules/newsletter/xartemplates/admin-deletealtsubscription.xd" line="36" />
 			<reference file="modules/newsletter/xartemplates/admin-deletedisclaimer.xd" line="23" />
 			<reference file="modules/newsletter/xartemplates/admin-deleteissue.xd" line="23" />
@@ -269,14 +269,6 @@
 			<reference file="modules/newsletter/xaradmin/searchsubscription.php" line="34" />
 			<reference file="modules/newsletter/xaradminapi/subscriptionmenu.php" line="45" />
 			<reference file="modules/newsletter/xaradminapi/subscriptionmenu.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must choose an issue to preview.</string>
-		<translation>Sie müssen ein Thema für die Vorschau auswählen.</translation>
-		<references>
-			<reference file="modules/newsletter/xaradmin/previewissue.php" line="32" />
-			<reference file="modules/newsletter/xaruser/previewissue.php" line="32" />
 		</references>
 	</entry>
 	<entry>
@@ -385,12 +377,19 @@
 		</references>
 	</entry>
 	<entry>
+		<string>You must choose an issue to preview.</string>
+		<translation>Sie müssen ein Thema für die Vorschau auswählen.</translation>
+		<references>
+			<reference file="modules/newsletter/xaradmin/previewissue.php" line="32" />
+			<reference file="modules/newsletter/xaruser/previewissue.php" line="32" />
+		</references>
+	</entry>
+	<entry>
 		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
 		<translation>Ungültig: #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
 		<references>
 			<reference file="modules/newsletter/xaradminapi/addpubtitle.php" line="35" />
 			<reference file="modules/newsletter/xaradminapi/appendchildcategories.php" line="39" />
-			<reference file="modules/newsletter/xaradminapi/countsubscriptions.php" line="36" />
 			<reference file="modules/newsletter/xaradminapi/createaltsubscription.php" line="41" />
 			<reference file="modules/newsletter/xaradminapi/createdisclaimer.php" line="38" />
 			<reference file="modules/newsletter/xaradminapi/createissue.php" line="42" />
@@ -408,7 +407,6 @@
 			<reference file="modules/newsletter/xaradminapi/deletetopic.php" line="34" />
 			<reference file="modules/newsletter/xaradminapi/mailissue.php" line="53" />
 			<reference file="modules/newsletter/xaradminapi/modifyprivilege.php" line="41" />
-			<reference file="modules/newsletter/xaradminapi/newcommentarysource.php" line="40" />
 			<reference file="modules/newsletter/xaradminapi/publishstory.php" line="40" />
 			<reference file="modules/newsletter/xaradminapi/searchsubscription.php" line="53" />
 			<reference file="modules/newsletter/xaradminapi/setdatepublished.php" line="33" />
@@ -423,12 +421,13 @@
 			<reference file="modules/newsletter/xaradminapi/updatesignature.php" line="40" />
 			<reference file="modules/newsletter/xaradminapi/updatestory.php" line="54" />
 			<reference file="modules/newsletter/xaradminapi/updatetopic.php" line="44" />
+			<reference file="modules/newsletter/xaradminapi/newcommentarysource.php" line="40" />
+			<reference file="modules/newsletter/xaradminapi/countsubscriptions.php" line="36" />
 			<reference file="modules/newsletter/xaruserapi/countitems.php" line="32" />
 			<reference file="modules/newsletter/xaruserapi/createsubscription.php" line="39" />
 			<reference file="modules/newsletter/xaruserapi/deletesubscription.php" line="35" />
 			<reference file="modules/newsletter/xaruserapi/get.php" line="75" />
 			<reference file="modules/newsletter/xaruserapi/getaltsubscription.php" line="35" />
-			<reference file="modules/newsletter/xaruserapi/getaltsubscriptionbyemail.php" line="35" />
 			<reference file="modules/newsletter/xaruserapi/getchildcategories.php" line="38" />
 			<reference file="modules/newsletter/xaruserapi/getdisclaimer.php" line="34" />
 			<reference file="modules/newsletter/xaruserapi/getissue.php" line="34" />
@@ -444,6 +443,7 @@
 			<reference file="modules/newsletter/xaruserapi/gettopicbystory.php" line="34" />
 			<reference file="modules/newsletter/xaruserapi/gettopicsbyissue.php" line="34" />
 			<reference file="modules/newsletter/xaruserapi/updatesubscription.php" line="39" />
+			<reference file="modules/newsletter/xaruserapi/getaltsubscriptionbyemail.php" line="35" />
 		</references>
 	</entry>
 	<entry>
@@ -514,9 +514,9 @@
 		<references>
 			<reference file="modules/newsletter/xarblocks/information.php" line="80" />
 			<reference file="modules/newsletter/xartemplates/admin-newaltsubscription.xd" line="58" />
-			<reference file="modules/newsletter/xartemplates/user-information.xd" line="13" />
 			<reference file="modules/newsletter/xartemplates/user-main.xd" line="16" />
 			<reference file="modules/newsletter/xartemplates/user-newsubscription.xd" line="61" />
+			<reference file="modules/newsletter/xartemplates/user-information.xd" line="13" />
 			<reference file="modules/newsletter/xartemplates/user-usermenu_form.xd" line="55" />
 			<reference file="modules/newsletter/xaruser/newsubscription.php" line="38" />
 			<reference file="modules/newsletter/xaruserapi/getmenulinks.php" line="40" />
@@ -548,32 +548,6 @@
 			<reference file="modules/newsletter/xarblocks/information.php" line="94" />
 			<reference file="modules/newsletter/xartemplates/user-viewarchives.xd" line="9" />
 			<reference file="modules/newsletter/xaruserapi/getmenulinks.php" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>choose option</string>
-		<translation>Option wählen</translation>
-		<references>
-			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="30" />
-			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="45" />
-			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="60" />
-			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="74" />
-			<reference file="modules/newsletter/xartemplates/admin-deletepublication.xd" line="18" />
-			<reference file="modules/newsletter/xartemplates/admin-deletepublication.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Category</string>
-		<translation>Kategorie</translation>
-		<references>
-			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="46" />
-			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="475" />
-			<reference file="modules/newsletter/xartemplates/admin-modifystory.xd" line="82" />
-			<reference file="modules/newsletter/xartemplates/admin-newstory.xd" line="82" />
-			<reference file="modules/newsletter/xartemplates/admin-viewpublication.xd" line="18" />
-			<reference file="modules/newsletter/xartemplates/admin-viewpublication.xd" line="20" />
-			<reference file="modules/newsletter/xartemplates/admin-viewstory.xd" line="92" />
-			<reference file="modules/newsletter/xartemplates/admin-viewstory.xd" line="94" />
 		</references>
 	</entry>
 	<entry>
@@ -629,7 +603,6 @@
 			<reference file="modules/newsletter/xartemplates/admin-deletestory.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/admin-deletesubscription.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/admin-importaltsubscription.xd" line="3" />
-			<reference file="modules/newsletter/xartemplates/admin-importissueareapub.xd" line="3" />
 			<reference file="modules/newsletter/xartemplates/admin-mailissue.xd" line="5" />
 			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/admin-modifyaltsubscription.xd" line="4" />
@@ -659,6 +632,7 @@
 			<reference file="modules/newsletter/xartemplates/admin-viewstory.xd" line="5" />
 			<reference file="modules/newsletter/xartemplates/admin-viewsubscription.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/admin-viewusers.xd" line="4" />
+			<reference file="modules/newsletter/xartemplates/admin-importissueareapub.xd" line="3" />
 		</references>
 	</entry>
 	<entry>
@@ -759,6 +733,18 @@
 		<references>
 			<reference file="modules/newsletter/xartemplates/admin-deletealtsubscription.xd" line="39" />
 			<reference file="modules/newsletter/xartemplates/admin-deletesubscription.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>choose option</string>
+		<translation>Option wählen</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-deletepublication.xd" line="18" />
+			<reference file="modules/newsletter/xartemplates/admin-deletepublication.xd" line="28" />
+			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="30" />
+			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="45" />
+			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="60" />
+			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="74" />
 		</references>
 	</entry>
 	<entry>
@@ -969,6 +955,20 @@
 		<references>
 			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="467" />
 			<reference file="modules/newsletter/xartemplates/admin-modifystory.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Category</string>
+		<translation>Kategorie</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-main.xd" line="475" />
+			<reference file="modules/newsletter/xartemplates/admin-modifystory.xd" line="82" />
+			<reference file="modules/newsletter/xartemplates/admin-newstory.xd" line="82" />
+			<reference file="modules/newsletter/xartemplates/admin-viewpublication.xd" line="18" />
+			<reference file="modules/newsletter/xartemplates/admin-viewpublication.xd" line="20" />
+			<reference file="modules/newsletter/xartemplates/admin-viewstory.xd" line="92" />
+			<reference file="modules/newsletter/xartemplates/admin-viewstory.xd" line="94" />
+			<reference file="modules/newsletter/xartemplates/admin-choosearticle.xd" line="46" />
 		</references>
 	</entry>
 	<entry>
@@ -1472,43 +1472,44 @@
 		<string>Newsletter Module</string>
 		<translation>Newsletter-Modul</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/user-information.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/user-main.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/user-modifysubscription.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/user-newsubscription.xd" line="4" />
 			<reference file="modules/newsletter/xartemplates/user-viewarchives.xd" line="5" />
+			<reference file="modules/newsletter/xartemplates/user-information.xd" line="4" />
 		</references>
 	</entry>
 	<entry>
 		<string>To subscribe to a Newsletter,</string>
 		<translation>Um einen Newsletter zu bestellen,</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/user-information.xd" line="17" />
 			<reference file="modules/newsletter/xartemplates/user-main.xd" line="20" />
+			<reference file="modules/newsletter/xartemplates/user-information.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>Click Here</string>
 		<translation>hHier klicken</translation>
 		<references>
-			<reference file="modules/newsletter/xartemplates/user-information.xd" line="17" />
 			<reference file="modules/newsletter/xartemplates/user-main.xd" line="20" />
+			<reference file="modules/newsletter/xartemplates/user-information.xd" line="17" />
 		</references>
 	</entry>
 	<entry>
 		<string>To subscribe to a Newsletter, you must first</string>
 		<translation>Um einen Newsletter zu abonnieren, müssen Sie sich zuerst</translation>
 		<references>
+			<reference file="modules/newsletter/xartemplates/user-main.xd" line="23" />
+			<reference file="modules/newsletter/xartemplates/user-main.xd" line="25" />
 			<reference file="modules/newsletter/xartemplates/user-information.xd" line="19" />
-			<reference file="modules/newsletter/xartemplates/user-main.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
 		<string>Register Here</string>
 		<translation>hier registrieren lassen</translation>
 		<references>
+			<reference file="modules/newsletter/xartemplates/user-main.xd" line="23" />
 			<reference file="modules/newsletter/xartemplates/user-information.xd" line="19" />
-			<reference file="modules/newsletter/xartemplates/user-main.xd" line="22" />
 		</references>
 	</entry>
 	<entry>
