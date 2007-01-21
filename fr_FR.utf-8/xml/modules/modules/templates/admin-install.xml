@@ -1,52 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
 	<entry>
-		<string>Module Installation with unsatisfied Dependencies</string>
-		<translation>Installation du module avec des dépendances non satisfaites</translation>
+		<string>Module Installation: Unsatisfied Dependencies</string>
+		<translation>Installation du Module : Dépendances Non Satisfaites</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="7" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="8" />
 		</references>
 	</entry>
 	<entry>
-		<string>Dependencies already satisfied</string>
-		<translation>Dépendances déjà satisfaites</translation>
+		<string>The module #(1) you are trying to install depends on additional components. Please review the listing below:</string>
+		<translation>Le module #(1) que vous essayer d'installer dépend de composants additionnels. Veuillez consulter la liste ci-dessous :</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="18" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="11" />
 		</references>
 	</entry>
 	<entry>
-		<string>Dependencies which can be satisfied</string>
-		<translation>Dépendances qui peuvent être satisfaites</translation>
+		<string>Dependencies already satisfied:</string>
+		<translation>Dépendances déjà satisfaites :</translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dependencies which can be satisfied:</string>
+		<translation>Dépendances pouvant être satisfaites :</translation>
 		<references>
 			<reference file="modules/modules/xartemplates/admin-install.xd" line="34" />
 		</references>
 	</entry>
 	<entry>
-		<string>Dependencies which cannot be satisfied</string>
-		<translation>Dépendances qui ne peuvent pas être satisfaites</translation>
+		<string>#(1) (id #(2)), the module you are trying to install</string>
+		<translation>#(1) (id #(2)), le module que vous essayez d'installer</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="50" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="45" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="68" />
 		</references>
 	</entry>
 	<entry>
-		<string>Get Information for the missing Module with ID #(1)</string>
-		<translation>Afficher les informations du module manquant avec l'ID #(1)</translation>
+		<string>Dependencies which cannot be satisfied</string>
+		<translation>Dépendances ne pouvant pas être satisfaites</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="60" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing a module with ID #(1). Click this line to get information on this missing module.</string>
+		<translation>Il manque le module dont l'identifiant est #(1). Cliquez sur cette ligne pour avoir des informations sur le module manquant.</translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="76" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Install this module first, then try this installation again.</string>
+		<translation>Installez ce module d'abord, puis retentez cette installation.</translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="81" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Missing a module #(1) (ID #(2)).</string>
+		<translation>Module #(1) (id #(2)) manquant.</translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Get Information for the missing PHP extension #(1)</string>
+		<translation>Informations sur l'extension PHP #(1) manquante</translation>
+		<references>
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="102" />
 		</references>
 	</entry>
 	<entry>
 		<string>Install All</string>
-		<translation>Installer tout</translation>
+		<translation>Installer Tout</translation>
 		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module Installation Failed</string>
-		<translation>Installation du module échouée</translation>
-		<references>
-			<reference file="modules/modules/xartemplates/admin-install.xd" line="77" />
+			<reference file="modules/modules/xartemplates/admin-install.xd" line="111" />
 		</references>
 	</entry>
 </translations>

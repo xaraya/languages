@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
 	<entry>
-		<string>Modify Object Definition</string>
-		<translation>Modifier la définition de l'objet</translation>
+		<string>Modify Dynamic Properties #(1)</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="9" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="12" />
 		</references>
 	</entry>
 	<entry>
-		<string>Warning ! This is a system object used internally by the Dynamic Data module.&lt;br /&gt;&lt;br /&gt;Trying to modify the properties of this object may break the Dynamic Data module.&lt;br /&gt;Proceed with caution...</string>
-		<translation>Avertissement ! Ceci est un système d'objet utilisé en interne par le module de Données Dynamiques.&lt;br /&gt;&lt;br /&gt;Essayer de modifier cet objet peut engendrer un dysfonctionnement du module de Données Dynamiques.&lt;br /&gt; Continuer prudemment...</translation>
+		<string>Preview Input Form</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="32" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="52" />
 		</references>
 	</entry>
 	<entry>
-		<string>Note : for completely dynamic Objects like this one, you need to define one property that is of type &quot;Item ID&quot;</string>
-		<translation>Note : Pour des objets complètement dynamique comme celui-ci, vous devez définir une propriété qui est du type &quot;Item ID&quot;</translation>
+		<string>Object summary</string>
+		<translation></translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="78" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>When DD is used to extend some item (e.g. roles), then you should definitely avoid re-using property names that are already in the original item - just like you can't have 2 fields called 'state' in &quot;static&quot; items either. You should also avoid 'module', 'itemtype', 'itemid', 'transform' and 'returnurl' when using DD via hooks, because those are pre-defined parameters in hook calls.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>Hint: after you create a property, the label and name are independent from each other. You can adapt the property name by clicking on the ID link above.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="79" />
 		</references>
 	</entry>
 	<entry>
 		<string>Show Static Properties and Relations</string>
 		<translation>Afficher les propriétés statiques et les relations</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="107" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="87" />
 		</references>
 	</entry>
 	<entry>
 		<string>Hide Static Properties and Relations</string>
 		<translation>Cacher les propriétés statiques et les relations</translation>
 		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="109" />
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Import table</string>
+		<translation>Importer une table</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="161" />
 		</references>
 	</entry>
 </translations>
