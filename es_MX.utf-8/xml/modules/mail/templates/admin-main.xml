@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>official icon</string>
+		<translation>icono oficial</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>The mail module controls the ways that your site sends mail to users or groups of users.
+This is a utility module that takes information from other modules installed on your site and formats
+the mail for them. At its heart, this module is using the</string>
+		<translation>El m&amp;#243;dulo correo controla las formas en que tu sitio env&amp;#237;a correo a los usuarios o grupos de usuarios. Este es un m&amp;#243;dulo de utiler&amp;#237;a que toma informaci&amp;#243;n de otros m&amp;#243;dulos instalados en tu sitio y formatea los correos por ellos. En su parte central, este m&amp;#243;dulo utiliza las clases de</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>phpmailer</string>
+		<translation>phpmailer</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>classes for processing. These classes extend Xaraya to
+allow you to use SMTP, SendMail or the normal PHP Mail functions.</string>
+		<translation>para el procesamiento. Estas clases extienden Xaraya para permitirte usar SMTP, SendMail y las funciones normales de Correo PHP.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>&amp;#191;C&amp;#243;mo se usa?</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>A number of choices are available in the menu:</string>
+		<translation>Hay una cantidad de alternativas disponibles en el men&amp;#250;:</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Test Configuration&lt;/strong&gt;: Test your current mail system configuration
+settings by sending an email</string>
+		<translation>&lt;strong&gt;Configuraci&amp;#243;n de Prueba&lt;/strong&gt;: Prueba tus valores de configuraci&amp;#243;n de sistema de correo actuales enviando un coreo electr&amp;#243;nico</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;View Mail Queue&lt;/strong&gt;: This option is only available when you have the
+Scheduler module installed</string>
+		<translation>&lt;strong&gt;Ver Cola de Correo&lt;/strong&gt;: Esta opci&amp;#243;n s&amp;#243;lo est&amp;#225; disponible cuando tengas instalado el m&amp;#243;dulo Agendador (scheduler)</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Notification Template&lt;/strong&gt;: Allows you to customize the notification
+templates that are available.</string>
+		<translation>&lt;strong&gt;Plantilla de Notificaci&amp;#243;n&lt;/strong&gt;: Te permite personalizar las plantillas de notificaci&amp;#243;n disponibles.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: From this menu option, you can update the
+necessary configuration options</string>
+		<translation>&lt;strong&gt;Modificar Configuraci&amp;#243;n&lt;/strong&gt;: Desde esta opci&amp;#243;n de men&amp;#250;, puedes actualizar las opciones de configuraci&amp;#243;n necesarias</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>View Mail Queue - Scheduling mail</string>
+		<translation>Ver Cola de Correo</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option allows you to view mail scheduled for sending. Other modules can request
+that a certain mail be sent no earlier than a specific time. In order to support that, you must
+install Scheduler. You then need to configure the Mail module to use the 'scheduler' and check
+if any mails need to be sent e.g. every x hours. Otherwise, those mails will be sent immediately.
+Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails
+will not be sent.</string>
+		<translation>Esta opci&amp;#243;n te permite ver todo el correo agendado para env&amp;#237;o. Otros m&amp;#243;dulos pueden requerir que cierto correo no sea enviado antes de un horario espec&amp;#237;fico. Para lograrlo, debes instalar Agendador (scheduler). Necesitas configurar el m&amp;#243;dulo Correo para usar el 'agendador' (scheduler) y verificar si alg&amp;#250;n correo necesita ser enviado, por ejemplo, cada x horas. De otra manera, esos correos ser&amp;#225;n enviados inmediatamente. Por favor nota que si detienes el programa o no se ejecuta, los correos previamente agendados no ser&amp;#225;n enviados.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Mail module can be hooked to other modules (See Included Hooks) to provide notification
+of changes, updates or deletion of content on your site. The Notification Template provides you with the
+means to change those templates to suit. There is a separate template for the 'changehook', 'createhook'
+and 'deletehook' notification.</string>
+		<translation>El m&amp;#243;dulo Correo se puede enganchar a otros m&amp;#243;dulos (V&amp;#233;ase Ganchos Incluidos) para proveer notificaciones de cambios, actualizaciones o supresiones de contenido en tu sitio. La Plantilla de Notificaci&amp;#243;n te da los medios para cambiar esas plantillas para ajustarse. Hay una plantilla separada para las notificaciones 'cambiargancho' (changehook), 'creargancho' (createhook) y 'suprimirgancho' (deletehook).</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>There is also a list of variables provided that you can easily add to your templates for
+further customization.</string>
+		<translation>Tambi&amp;#233;n hay una lista de variables provistas que puedes f&amp;#225;cilmente agregar a tus plantillas para futura personalizaci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are four sections in the Modify Configuration option.</string>
+		<translation>Hay cuatro secciones en la opci&amp;#243;n de Modificar Configuraci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Mail Configuration&lt;/strong&gt; : default options for email address, email format,
+reply to and template debug option</string>
+		<translation>&lt;strong&gt;Configuraci&amp;#243;n de Correo&lt;/strong&gt; : opciones por defecto para opci&amp;#243;n de direcciones de correo electr&amp;#243;nico, formato de correo electr&amp;#243;nico, responder a y depurar</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;HTML Options&lt;/strong&gt; : option to use and set html headers and footers for your
+emails</string>
+		<translation>&lt;strong&gt;Opciones HTML&lt;/strong&gt; : opci&amp;#243;n para usar y configurar encabezados y notas al pie en HTML para tus correos electr&amp;#243;nicos</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="82" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Text Options&lt;/strong&gt; : various options to specify encoding and mail sending method.
+Depending on your choice of SMTP, Sendmail, Mail or QMail you may get further options to specify.
+You must ensure your SMTP or Sendmail is configured for use if you choose these options SMTP also
+has an option for scheduled email.</string>
+		<translation>&lt;strong&gt;Opciones de Texto&lt;/strong&gt; : varias opciones para especificar el m&amp;#233;todo de codificaci&amp;#243;n y env&amp;#237;o de correo electr&amp;#243;nico. Dependiendo de tu elecci&amp;#243;n de SMTP, SendMail, Mail o QMail, puedes tener m&amp;#225;s opciones que especificar. Debes asegurar que tu SMTP o SendMail est&amp;#225; configurado para usarse si eliges estas opciones. SMTP tambi&amp;#233;n tiene una opci&amp;#243;n para correo agendado.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Filtering&lt;/strong&gt; : allows you to specify strings for search and replacement</string>
+		<translation>&lt;strong&gt;Filtrado&lt;/strong&gt; : te permite especificar cadenas para b&amp;#250;squeda y remplazo</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Bloques Incluidos</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Mail Module has no blocks included at this time.</string>
+		<translation>El M&amp;#243;dulo Correo no tiene bloques incluidos en este momento.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Ganchos Incluidos</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="109" />
+		</references>
+	</entry>
+	<entry>
+		<string>The mail hook allows you to send an email to the site admin when something (content, users, etc)
+is created, changed or deleted. This can be configured by going to &lt;code&gt;Modules -&gt; Configure Hooks&lt;/code&gt; and
+clicking on Mail module. Check the modules where you want the hook activated for mail notification.</string>
+		<translation>El gancho de correo te permite enviar un correo electr&amp;#243;nico al admin del sitio cuando algo (contenido, usuarios, etc.) se crea, cambia o suprime. Esto se puede configurar yendo a &lt;code&gt;M&amp;#243;dulos -&gt; Configurar Ganchos&lt;/code&gt; y pulsando sobre el m&amp;#243;dulo Correo. Marca los m&amp;#243;dulos que quieres activar para notificaciones de correo.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Para Mayor Informaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="119" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Mail module can be found at</string>
+		<translation>Se puede encontrar mayor informaci&amp;#243;n sobre el m&amp;#243;dulo Correo en</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Module Extension page at</string>
+		<translation>P&amp;#225;gina de Extensi&amp;#243;n del M&amp;#243;dulo Correo en</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Module - Xaraya Extension 771</string>
+		<translation>M&amp;#243;dulo Correo - Extensi&amp;#243;n Xaraya 771</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Pulsa sobre la pesta&amp;#241;a de Historia de la Versi&amp;#243;n al fondo para tener informaci&amp;#243;n sobre la &amp;#250;ltima edici&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Mail module found at</string>
+		<translation>Tutoriales y documentaci&amp;#243;n relacionados con el m&amp;#243;dulo Correo en</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Mail</string>
+		<translation>Documentaci&amp;#243;n relacionada a Correo</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Documentaci&amp;#243;n Xaraya</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Mail Module - Overview</string>
+		<translation>M&amp;#243;dulo Correo - Vista General</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="131" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Versi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/mail/xartemplates/admin-main.xd" line="131" />
+		</references>
+	</entry>
+</translations>

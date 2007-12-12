@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Display a Dynamic Example</string>
+		<translation>Mostrar un Ejemplo Din&amp;#225;mico</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string>
+		<translation>APROXIMACI&amp;#211;N # 1 : la etiqueta &amp;lt;xar:data-display ...&amp;gt;</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the item from DynamicData,
+and present it according to its standard &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; template.</string>
+		<translation>Esta etiqueta recuperar&amp;#225; al elemento autom&amp;#225;ticamente de Datos Din&amp;#225;micos, y lo presentar&amp;#225; de acuerdo a su plantilla est&amp;#225;ndar de &lt;strong&gt;objetos/showdisplay.xd&lt;/strong&gt;.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string>
+		<translation>APROXIMACI&amp;#211;N # 2 : la etiqueta &amp;lt;xar:data-getitem ...&amp;gt;</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will retrieve the properties of this item from DynamicData and
+make them available in the 'properties' variable in your template.</string>
+		<translation>Esta etiqueta recuperar&amp;#225; las propiedades de este elemento desde Datos Din&amp;#225;micos y lo pondr&amp;#225; a disposici&amp;#243;n en la variable de 'propiedades' en tu plantilla.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use that variable to build your own layout.
+The &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; tags
+allow you to show individual labels or value outputs in the template.</string>
+		<translation>Puedes utilizar esa variable para construir tu propio maquetado. Las etiquetas de &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; y &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; te permiten mostrar salidas de etiquetas o valores en la plantilla.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>let's be bold now</string>
+		<translation>seamos negritos ahora</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="47" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="79" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 3 : getting the object via API</string>
+		<translation>APROXIMACI&amp;#211;N # 3 :</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object via API, you can pass along the whole object to
+the template and use &lt;code&gt;&amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt;&lt;/code&gt; to let
+DynamicData handle the display. Or you can use &lt;code&gt;&amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt;&lt;/code&gt;
+if you want to provide your own display template in this module :</string>
+		<translation>Despu&amp;#233;s de recuperar el objeto v&amp;#237;a API, puedes pasar el objeto completo a la plantilla y utilizar &lt;code&gt;&amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt;&lt;/code&gt; para permitir a Datos Din&amp;#225;micos gestionar la visualizaci&amp;#243;n. O puedes utilizar &lt;code&gt;&amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt;&lt;/code&gt; si quieres tener tu propia visualizaci&amp;#243;n en este m&amp;#243;dulo :</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string>
+		<translation>De otra manera, puedes pasar las propiedades y trabajar como en la APROXIMACI&amp;#211;N # 2.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notice for instance that you don't get the option to automatically display
+the image with &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; or not here.</string>
+		<translation>Observa que para esta instancia no tienes la opci&amp;#243;n de mostrar o no autom&amp;#225;ticamente la imagen aqu&amp;#237; con &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt;.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="115" />
+		</references>
+	</entry>
+</translations>

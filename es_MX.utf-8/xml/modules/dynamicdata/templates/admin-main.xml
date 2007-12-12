@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Many modules are basically dealing with the equivalent of real-life objects, like news articles, projects, surveys, race tracks or whatever.</string>
+		<translation>Muchos m&amp;#243;dulos est&amp;#225;n b&amp;#225;sicamente trabajando con el equivalente a objetos de la vida real, como art&amp;#237;culos, proyectos, encuestas, pistas de carreras o cualquier otra cosa.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Those &quot;objects&quot; each have a number of &quot;properties&quot;, like an item id, a title, an author, a deadline or a number of VIP places, and their data is generally stored in some dedicated module table.</string>
+		<translation>Estos &quot;objetos&quot; tienen cada uno un n&amp;#250;mero de &quot;propiedades&quot;, tales como un ID de elemento, un t&amp;#237;tulo, un autor, una fecha l&amp;#237;mite o un n&amp;#250;mero de lugares VIP, y sus datos son generalmente almacenados en una tabla de m&amp;#243;dulo dedicada.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>The whole management of the object instances (creation, modification, display, deletion, ...) is typically hard-coded in the module, and tightly wired to the underlying data structure, which makes it difficult to e.g. add another property to your objects without rewriting half the module code (and templates).</string>
+		<translation>Toda la administraci&amp;#243;n de instancias de objetos (creaci&amp;#243;n, modificaci&amp;#243;n, visualizaci&amp;#243;n, supresi&amp;#243;n, ...) est&amp;#225; t&amp;#237;picamente con codificaci&amp;#243;n &quot;dura&quot; en el m&amp;#243;dulo, e &amp;#237;ntimamente enlazada con la estructura de datos que lo soporta, lo que hace dif&amp;#237;cil, por ejemplo, agregar otra propiedad a tus objetos sin reescribir la mitad del c&amp;#243;digo del m&amp;#243;dulo (y plantillas).</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Dynamic Data module allows you to dynamically add properties to your module objects, and to integrate them with the rest of the site without much effort - regardless of whether you're the module developer, a third-party solution designer or the website admin.</string>
+		<translation>El m&amp;#243;dulo Datos Din&amp;#225;micos te permite agregar din&amp;#225;micamente propiedades a tus objetos de m&amp;#243;dulo, y a integrarlas con el resto del sitio sin mucho esfuerzo, independientemente de que seas un desarrollador de m&amp;#243;dulos, un dise&amp;#241;ador en tercer&amp;#237;a o el admin de web.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>And no-one says you're limited to existing modules - you could just as easily create whole new objects by defining their properties and telling the Dynamic Data module where their data should be coming from : dedicated module tables, dynamic data fields (auto-generated), some utility module from Xaraya or a user function you'll specify.</string>
+		<translation>Y nadie dice que est&amp;#233;s limitado a los m&amp;#243;dulos existentes - puedes crear as&amp;#237; de f&amp;#225;cilmente nuevos objetos definiendo sus propiedades y dici&amp;#233;ndole al m&amp;#243;dulo Datos Din&amp;#225;micos de donde deben de venir los datos : de tablas de m&amp;#243;dulo dedicadas, de campos de datos din&amp;#225;micos (autogenerados), de m&amp;#243;dulos de utiler&amp;#237;a de Xaraya o de alguna funci&amp;#243;n de usuario que especifiques.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>The starting point for all this is of course the admin interface.</string>
+		<translation>El punto de partida de todo esto es la interfaz admin.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>Admin interface of the Dynamic Data module</string>
+		<translation>Interfaz admin del m&amp;#243;dulo Datos Din&amp;#225;micos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>Explain property types, data sources, validation, input &amp;amp; output representation.</string>
+		<translation>Explicar tipos de propiedades, fuentes de datos, validaci&amp;#243;n, representaci&amp;#243;n de entrada y salida.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using the &amp;lt;xar:data-* ...&amp;gt; tags in your templates</string>
+		<translation>Utilizaci&amp;#243;n de etiquetas &amp;lt;xar:data-* ...&amp;gt; en tus plantillas</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>User view and admin list (for several items)</string>
+		<translation>Vista de usuario y lista admin (para varios elementos)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to get the dynamic properties and values for your items, and include them somewhere in your own view/list.</string>
+		<translation>Si quieres obtener las propiedades din&amp;#225;micas y valores para tus elementos, e incluirlos en alg&amp;#250;n lugar de tu vista/lista</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Available tags: (replace 'users', '&amp;#36;uidlist' and '&amp;#36;uid' with your own)</string>
+		<translation>Etiquetas disponibles: (remplazar 'users', '&amp;#36;uidlist' y '&amp;#36;uid' con los tuyos)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>this retrieves the dynamic properties defined for the 'users' module,
+and their value for all items listed in &amp;#36;uidlist. You'll need to build
+that uid list in your module function and pass it along to the template</string>
+		<translation>esto recupera las propiedades din&amp;#225;micas definidas para el m&amp;#243;dulo 'usuarios', y
+su valor para todos los elementos enlistados en &amp;#36;uidlist. Necesitar&amp;#225;s
+construir esa lista de uid en tu funci&amp;#243;n de m&amp;#243;dulo y pasarla a la plantilla</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the label for dynamic property</string>
+		<translation>esto muestra la etiqueta para la propiedad din&amp;#225;mica</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid,
+formatted for output</string>
+		<translation>esto muestra el valor de la propiedad din&amp;#225;mica'&amp;#36;name' para el elemento &amp;#36;uid, formateado para salida</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>this shows the value of dynamic property '&amp;#36;name' for item &amp;#36;uid,
+formatted for input</string>
+		<translation>esto muestra el valor de la propiedad din&amp;#225;mica '&amp;#36;name' para el elemento
+&amp;#36;uid, formateado para entrada</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Sample use:</string>
+		<translation>Ejemplo de uso:</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>(somewhere near the beginning of your template)</string>
+		<translation>(en alg&amp;#250;n lugar cerca del inicio de tu plantilla)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>(when you're building some table headers, and you want to add labels for the dynamic properties)</string>
+		<translation>(cuando est&amp;#225;s construyendo algunos encabezados de tabla y quieres agregar etiquetas a las propiedades din&amp;#225;micas)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>(when you're looping over the individual items, and you want to add the dynamic values for item &amp;#36;uid)</string>
+		<translation>(cuando est&amp;#225;s en un bucle sobre elementos individuales, y quieres agregar los valores din&amp;#225;micos para el elemento &amp;#36;uid)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>avoid errors if the value isn't defined for this
+item (yet)</string>
+		<translation>evita errores si el valor no est&amp;#225; definido para este elemento (aun)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to show a standard list of items, with all the dynamic properties that are defined for that object.</string>
+		<translation>Si quieres mostrar una lista est&amp;#225;ndar de elementos, con todas las propiedades din&amp;#225;micas que est&amp;#225;n definidas para ese objeto.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="126" />
+		</references>
+	</entry>
+	<entry>
+		<string>Idem for</string>
+		<translation>Tambi&amp;#233;n para</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="153" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="211" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="223" />
+		</references>
+	</entry>
+	<entry>
+		<string>(Todo : group, join ?)</string>
+		<translation>(Pendiente: agrupar, unir ?)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>User display and admin form (for one item)</string>
+		<translation>Pantalla para usuario y formulario admin (para un elemento)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="163" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to get the dynamic properties for this item, and include them manually in your own display.</string>
+		<translation>Si quieres adquirir las propiedades din&amp;#225;micas para este elemento, incl&amp;#250;yelas manualmente en tu propia pantalla.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="167" />
+		</references>
+	</entry>
+	<entry>
+		<string>this retrieves the dynamic properties defined for the 'users' module
+and item &amp;#36;uid. Note that we don't use value=&quot;...&quot; here, since we only
+have one item</string>
+		<translation>esto recupera las propiedades din&amp;#225;micas definidas por el m&amp;#243;dulo 'users' y el
+elemento &amp;#36;uid. Nota que no usamos valor=&quot;...&quot; aqu&amp;#237;, ya que s&amp;#243;lo tenemos un
+elemento</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="173" />
+		</references>
+	</entry>
+	<entry>
+		<string>(where you want to add the dynamic labels and values for this item)</string>
+		<translation>(donde quieres agregar las etiquetas y valores din&amp;#225;micos para este elemento)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="178" />
+		</references>
+	</entry>
+	<entry>
+		<string>Idem for input forms, where you'd use &amp;lt;xar:data-input ... /&amp;gt; to show input fields</string>
+		<translation>Lo mismo para formularios de entrada, donde usar&amp;#237;as &amp;lt;xar:data-input ... /&amp;gt;
+para mostrar los campos de entrada</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="193" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you simply want to display the dynamic properties for this item (= easier in most cases).</string>
+		<translation>Si simplemente quieres mostrar las propiedades din&amp;#225;micas para este elemento
+(= m&amp;#225;s f&amp;#225;cil, en muchos casos).</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="196" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use the default layout of user-objectdisplay.xd</string>
+		<translation>esto usar&amp;#225; el maquetado por defecto de user-objectdisplay.xd</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="200" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use layout 'mylayout' of user-objectdisplay.xd</string>
+		<translation>esto usar&amp;#225; el maquetado 'mylayout' de user-objectdisplay.xd</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="203" />
+		</references>
+	</entry>
+	<entry>
+		<string>this will use the template user-objectdisplay-myusers.xd</string>
+		<translation>esto usar&amp;#225; la plantilla user-objectdisplay-myusers.xd</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="206" />
+		</references>
+	</entry>
+	<entry>
+		<string>User output and admin input (for one field of an item)</string>
+		<translation>Salida de usuario y entrada de admin (para un campo de un elemento)</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="215" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included hooks</string>
+		<translation>Ganchos Incluidos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="226" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Admin Hook&lt;/strong&gt; : new/create/modify/update/delete plus
+modifyconf/updateconfig.</string>
+		<translation>&lt;strong&gt;Gancho Admin&lt;/strong&gt; : nuevo/crear/modificar/actualizar/suprimir m&amp;#225;s modificarconf/actualizarconfig.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="232" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can hook Dynamic Data to other modules by going to Modules -&gt; Configure Hooks
+and clicking on Dynamic Data. Activate the hook by checking the checkbox next to the module where
+you would like to use Dynamic Data.</string>
+		<translation>Puedes enganchar Datos Din&amp;#225;micos a otros m&amp;#243;dulos al ir a M&amp;#243;dulos -&gt; Configurar Ganchos y pulsar sobre Datos Din&amp;#225;micos. Activa el gancho marcando la casilla junto al m&amp;#243;dulo donde quieras utilizar Datos Din&amp;#225;micos.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="235" />
+		</references>
+	</entry>
+	<entry>
+		<string>deprecated</string>
+		<translation>desaprobado</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="239" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using API calls</string>
+		<translation>Utilizaci&amp;#243;n de llamadas API</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="245" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic Objects And Object Lists</string>
+		<translation>Objetos Din&amp;#225;micos y Listas de Objetos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="253" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="271" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic Properties</string>
+		<translation>Propiedades Din&amp;#225;micas</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="256" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="274" />
+		</references>
+	</entry>
+	<entry>
+		<string>items : getitems(), getitem(), getfield()</string>
+		<translation>elementos : getitems(), getitem(), getfield()</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="259" />
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="277" />
+		</references>
+	</entry>
+	<entry>
+		<string>Using Object Oriented Programming</string>
+		<translation>Uso de Programaci&amp;#243;n Orientada a Objetos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="264" />
+		</references>
+	</entry>
+	<entry>
+		<string>Customising Dynamic Data</string>
+		<translation>Personalizaci&amp;#243;n de Datos Din&amp;#225;micos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="282" />
+		</references>
+	</entry>
+	<entry>
+		<string>templates, data sources, functions, validation, ...</string>
+		<translation>plantillas, fuentes de datos, funciones, validaci&amp;#243;n, ...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="286" />
+		</references>
+	</entry>
+	<entry>
+		<string>Integrate utility modules via hooks or dynamic data (or both) ?</string>
+		<translation>&amp;#191;Integrar los m&amp;#243;dulos de utiler&amp;#237;as v&amp;#237;a ganchos o datos din&amp;#225;micos (o ambos)?</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="290" />
+		</references>
+	</entry>
+	<entry>
+		<string>Import/Export Utilities</string>
+		<translation>Utiler&amp;#237;as Importaci&amp;#243;n/Exportaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="294" />
+		</references>
+	</entry>
+	<entry>
+		<string>Usage : Export object definitions and/or data - and import them elsewhere...</string>
+		<translation>Uso : Exportaci&amp;#243;n de definiciones y/o datos de objetos - e importaci&amp;#243;n de ellos en otros lados...</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="298" />
+		</references>
+	</entry>
+	<entry>
+		<string>[+ Easter Egg : util meta -&amp;gt; export to XML -&amp;gt; save to file -&amp;gt; util import -&amp;gt; access your whole database via DD]</string>
+		<translation>[+ Huevo de Pascua : util meta -&amp;gt; exportar a XML -&amp;gt; guardarlo al archivo -&amp;gt; util importar -&amp;gt; acceder to base de datos entera v&amp;#237;a DD]</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="302" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Para Mayor Informaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="305" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the DynamicData module can be found at:</string>
+		<translation>Se puede encontrar mayor informaci&amp;#243;n sobre el m&amp;#243;dulo Datos Din&amp;#225;micos en:</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="308" />
+		</references>
+	</entry>
+	<entry>
+		<string>DynamicData Module Extension page at</string>
+		<translation>P&amp;#225;gina de Extensi&amp;#243;n del M&amp;#243;dulo Datos Din&amp;#225;micos en</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="311" />
+		</references>
+	</entry>
+	<entry>
+		<string>DynamicData Module - Xaraya Extension 182</string>
+		<translation>M&amp;#243;dulo Datos Din&amp;#225;micos - Extensi&amp;#243;n Xaraya 182</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="311" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on DynamicData module at</string>
+		<translation>Tutoriales y documentaci&amp;#243;n relacionados con el m&amp;#243;dulo Datos Din&amp;#225;micos en</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on DynamicData</string>
+		<translation>Documentaci&amp;#243;n relacionada a Datos Din&amp;#225;micos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Documentaci&amp;#243;n de Xaraya.</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="313" />
+		</references>
+	</entry>
+	<entry>
+		<string>DynamicData Module - Overview</string>
+		<translation>Vista General - M&amp;#243;dulo Datos Din&amp;#225;micos</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="317" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Versi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="317" />
+		</references>
+	</entry>
+</translations>

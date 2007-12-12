@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="12" />
+		</references>
+	</entry>
+	<entry>
+		<string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string>
+		<translation>El m&amp;#243;dulo AuthLDAP te permite autenticar a un usuario mediante un servidor LDAP. El m&amp;#243;dulo AuthLDAP ´reenv&amp;#237;a el nombre del usuario y contrase&amp;#241;a de la pantalla de ingreso al servidor LDAP para autenticaci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>&amp;#191;C&amp;#243;mo se usa?</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>From the menu, you have one choice. &quot;Modify Config&quot;.</string>
+		<translation>Del men&amp;#250;, tienes una opci&amp;#243;n. &quot;Modificar Config&quot;.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login. You can also setup the synchronization settings for LDAP groups.</string>
+		<translation>Modificar Config -- Desde aqu&amp;#237;, puedes permitir a un usuario que tiene informaci&amp;#243;n de cuenta en LDAP para que sea autom&amp;#225;ticamente agregado a la base de datos Xaraya y se le permita ingresar. Tambi&amp;#233;n puedes ajustar la configuraci&amp;#243;n de sincronizaci&amp;#243;n para grupos LDAP.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Manually Sync Groups -- This will resynchronize the imported LDAP groups. It may be long the first time if you have lots of Xaraya users imported from LDAP, or lots of (sub)groups to import.</string>
+		<translation>Sincronizaci&amp;#243;n Manual de Grupos -- Esto resincronizar&amp;#225; los grupos LDAP importados. Puede durar mucho la primera vez si tienes muchos usuarios Xaraya importados de LDAP, o muchos (sub)grupos a importar.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>To synchronize the groups, we recommand to setup a job entry in the scheduler module. You need to call the function in (module:authldap, type:admin, function:syncgroups). The module has some caching mecanism for LDAP user profiles, so you can run this job frequently, for example every 30 minutes, without fearing about resource usage.</string>
+		<translation>Para sincronizar grupos, te recomendamos configurar un registro de tarea en el m&amp;#243;dulo Agendador. Necesitas llamar la funci&amp;#243;n en (module:authldap, type:admin, function:syncgroups). El m&amp;#243;dulo tiene alg&amp;#250;n mecanismo de almacenamiento temporal para perfiles de usuario LDAP, as&amp;#237; que puedes correr esta tarea frecuentemente, por ejemplo cada 30 minutos, sin temer sobre uso de recursos.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Bloques Incluidos</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included blocks with the AuthLDAP Module</string>
+		<translation>No hay bloques incluidos con el M&amp;#243;dulo AuthLDAP</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Ganchos Incluidos</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are no included Hooks with the AuthLDAP Module</string>
+		<translation>No hay ganchos incluidos con el M&amp;#243;dulo AuthLDAP</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Para Mayor Informaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the AuthLDAP module can be found at</string>
+		<translation>Se puede encontrar mayor informaci&amp;#243;n sobre el m&amp;#243;dulo AuthLDAP en</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>AuthLDAP Extension page at</string>
+		<translation>P&amp;#225;gina de Extensi&amp;#243;n del M&amp;#243;dulo AuthLDAP</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>AuthLDAP Module - Xaraya Extension 50</string>
+		<translation>M&amp;#243;dulo AuthLDAP - Extensi&amp;#243;n Xaraya 50</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Pulsa sobre la pesta&amp;#241;a de Historia de la Versi&amp;#243;n al fondo para tener informaci&amp;#243;n sobre la &amp;#250;ltima edici&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="47" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on AuthLDAP found at</string>
+		<translation>Tutoriales y documentaci&amp;#243;n relacionada con el m&amp;#243;dulo AuthLDAP en</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on AuthLDAP</string>
+		<translation>Documentaci&amp;#243;n relacionada con AuthLDAP</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Documentaci&amp;#243;n Xaraya.</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>AuthLDAP Module Overview</string>
+		<translation>Vista General del M&amp;#243;dulo AuthLDAP</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Versi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/authldap/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+</translations>

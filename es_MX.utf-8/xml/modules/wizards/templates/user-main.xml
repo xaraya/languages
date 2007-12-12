@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Roles Administration</string>
+		<translation>Roles de Administraci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Roles module lets you manage &lt;b&gt;users&lt;/b&gt; and &lt;b&gt;groups&lt;/b&gt; on your site. Roles are representations of users and the different groups they can belong to.</string>
+		<translation>El m&amp;#243;dulos Roles te permite administrar &lt;b&gt;usuarios&lt;/b&gt; y &lt;b&gt;grupos&lt;/b&gt; en el sitio. Los Roles son una representaci&amp;#243;n de usuarios y los diferentes grupos a los que pertenezcan.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="17" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or the set of classes at a university. A role can be a member of as many other roles as you like (as long as the parents are groups).</string>
+		<translation>Los roles pueden ser miembros de otros roles, en cualquier grado. Puedes para una instancia usar roles para representar una gr&amp;#225;fica de la organizaci&amp;#243;n de una compa&amp;#241;ia, o el conjunto de clases en una universidad. Un rol puede ser miembro de tantos otros roles como quieras (mientras los padres sean grupos).</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles can be assigned &lt;b&gt;privileges&lt;/b&gt;. By doing so, you define what a given role may or may not do on the site. You can use the test functionality of the Roles module to see what parts of the site a role with a given set of privileges has access to.</string>
+		<translation>A los Roles les puedes asignar &lt;b&gt;privilegios&lt;/b&gt;. Haci&amp;#233;ndolo definir&amp;#225;s que pueden y que no pueden hacer en el sitio. Puedes usar la funci&amp;#243;n de prueba de funcionalidad del m&amp;#243;dulo Roles para ver a qu&amp;#233; parte del sitio un rol con ciertos privilegios tiene acceso.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Roles have &lt;b&gt;inheritance&lt;/b&gt;. A role inherits all the privileges of all of its parents, but can override them. If you give a group editing privileges, for instance, any other role that is a member of that group inherits the editing privileges. If you want to restrict the privileges of some of the members, simply assign them a different set of privileges (say reading), and the privileges of the parent will be overridden.</string>
+		<translation>Los roles tienen &lt;b&gt;herencia&lt;/b&gt;. Un rol hereda todos los privilegios de todos sus parientes, pero puede superponerse a ellos. Si das privilegios de edici&amp;#243;n a un grupo, para una instancia, cualquier otro rol que es miembro de ese grupo no hereda los privilegios de edici&amp;#243;n. Si quieres restringir los privilegios a un miebro, simplemente asigna un ajuste diferente de privilegios (por ejemplo, lectura), y los privilegios de sus padres ser&amp;#225;n superpuestos.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles on your site are arranged in a tree. At the top of the tree is a role called &lt;b&gt;Everybody&lt;/b&gt;, which represents the &quot;group of all groups&quot; on your site. Every user and every group is a member or descendent of Everybody.</string>
+		<translation>Los roles en el sitio est&amp;#225;n ordenados en un &amp;#225;rbol. En la cima del &amp;#225;rbol est&amp;#225; un rol llamado &lt;b&gt;Everybody&lt;/b&gt; (&quot;Todos&quot;), que representa el &quot;grupo de todos los grupos&quot; en tu sitio. Cada usuario y cada grupo es un miembro o descendiente de Everybody.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya also comes preconfigured with a minimal set of roles that are loaded when you run the installer. This configuration is shown below:</string>
+		<translation>Xaraya viene preconfigurada con un m&amp;#237;nimo ajuste de roles que son le&amp;#237;dos cuando corres el instalador. Esta configuraci&amp;#243;n se muestra abajo:</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Everybody&lt;/b&gt;: is the role containing all other roles. This role has no access privileges.</string>
+		<translation>&lt;b&gt;Everybody (Todos)&lt;/b&gt;: es el rol que contiene todos los otros roles. Este rol no tiene privilegios de acceso.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Anonymous&lt;/b&gt;: a user that represents any unregistered users on your site. This role is initially configured with privileges only to access the front page of the site and the login block.</string>
+		<translation>&lt;b&gt;Anonymous (An&amp;#243;nimo)&lt;/b&gt;: un usuario que representa cualquier usuario no registrado en tu sitio. Este rol est&amp;#225; inicialmente configurado con privilegios de s&amp;#243;lo acceso a la p&amp;#225;gina principal del sitio y al bloque de inicio de sesi&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Administrators&lt;/b&gt;: a group that has administration privileges.</string>
+		<translation>&lt;b&gt;Administrators (Administradores)&lt;/b&gt;: un grupo que tiene privilegios de administraci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="44" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Admin&lt;/b&gt;: a member of Administrators. This is the Admin role you create with the Xaraya installer.</string>
+		<translation>&lt;b&gt;Admin&lt;/b&gt;: un miembro de Administradores. Este es el rol Admin que creas con el instalador de Xaraya.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Users&lt;/b&gt;: a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges. &lt;i&gt;Its members will not have access to the site until you assign some privileges.&lt;/i&gt;</string>
+		<translation>&lt;b&gt;Users (Usuarios)&lt;/b&gt;: un grupo que normalmente contiene a los usuarios registrados del sitio. Nota: este rol no viene configurado con ning&amp;#250;n privilegio. &lt;i&gt; Sus miembros no tendr&amp;#225;n acceso al sitio hasta que se les asignes algunos privilegios.&lt;/i&gt;</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>The preconfigured roles cannot be changed or removed. You can, however, add members to them. You can also define as many more roles in the tree as you wish in whatever configuration you choose.</string>
+		<translation>Los roles preconfigurados no pueden ser cambiados o removidos. Puedes, agregarle miembros. Tambi&amp;#233;n puedes definir como muchos m&amp;#225;s roles en el &amp;#225;rbol como lo desees en cualquier configuraci&amp;#243;n que selecciones.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="48" />
+		</references>
+	</entry>
+	<entry>
+		<string>Always keep in mind: When you create a role, until you've assigned it some privileges, it will only have those privileges it inherits from its parents.</string>
+		<translation>Siempre ten en mente: Cuando creas un rol, aunque ya le hayas asignado algunos privilegios, este s&amp;#243;lo tendr&amp;#225; esos privilegios no heredados de sus padres.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Login Block allows users to login</string>
+		<translation>El Bloque Iniciar Sesi&amp;#243;n permite a los usuario iniciar sesi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="56" />
+		</references>
+	</entry>
+	<entry>
+		<string>Online Block shows the number visiting your site right now.</string>
+		<translation>El bloque En L&amp;#237;nea muestra el n&amp;#250;mero de visitantes en el sitio en ese momento.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>The roles module allows the use of the User Menu hook which will allow users to set values to further enhance their visit.</string>
+		<translation>El m&amp;#243;dulo roles permite el uso del gancho del Men&amp;#250; de Usuarios, que permite a los usuarios configurar valores para mejorar sus visitas.</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Extended information about this module can be found in</string>
+		<translation>Se puede encontrar mayor informaci&amp;#243;n sobre el m&amp;#243;dulo en</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>RFC-30</string>
+		<translation>RFC-30</translation>
+		<references>
+			<reference file="modules/wizards/xartemplates/user-main.xd" line="68" />
+		</references>
+	</entry>
+</translations>

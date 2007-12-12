@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Select Articles for Privilege '#(1)'</string>
+		<translation>Seleccionar Art&amp;#237;culos Para el Privilegio '#(1)'</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>All / Other --&amp;gt;</string>
+		<translation>Todos / Otros --&amp;gt;</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="58" />
+		</references>
+	</entry>
+	<entry>
+		<string>Article</string>
+		<translation>Art&amp;#237;culo</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="76" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter article number</string>
+		<translation>Introduce el n&amp;#250;mero de art&amp;#237;culo</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Access Level</string>
+		<translation>Nivel de Acceso</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>No Access</string>
+		<translation>Sin Aceso</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="94" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Read</string>
+		<translation>Leer</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="112" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>Submit (Comment)</string>
+		<translation>Enviar (Comentario)</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="121" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="125" />
+		</references>
+	</entry>
+	<entry>
+		<string>Edit / Approve</string>
+		<translation>Editar / Aprobar</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="130" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="134" />
+		</references>
+	</entry>
+	<entry>
+		<string>Admin</string>
+		<translation>Admin</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="148" />
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="152" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are #(1) articles matching these selection criteria at the moment</string>
+		<translation>Hay #(1) art&amp;#237;culos con estos criterios de selecci&amp;#243;n al momento</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="166" />
+		</references>
+	</entry>
+	<entry>
+		<string>Some examples : (assuming your users have read access by default)
+&lt;br /&gt;
+&lt;br /&gt;- In order to allow 'Friends' to submit News Articles (and only that), define a privilege 'SubmitNews' (or whatever name you prefer), and choose the publication type &quot;News Articles&quot; (instance 1:All:All:All) and access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.
+&lt;br /&gt;
+&lt;br /&gt;- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type &quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.
+&lt;br /&gt;
+&lt;br /&gt;- ...
+&lt;br /&gt;
+&lt;br /&gt;</string>
+		<translation>Algunos ejemplos : (asumiendo que tus usuarios tengan acceso de lectura por defecto) &lt;br /&gt; &lt;br /&gt;- Para permitir que 'Amigos' env&amp;#237;en Art&amp;#237;culos de Noticias (y s&amp;#243;lo eso), define un privilegio 'EnviaNoticias' (o el nombre que prefieras) y selecciona el tipo de publicaci&amp;#243;n &quot;Art&amp;#237;culos de Noticias&quot; (instancia 1:All:All:All) y nivel de acceso &quot;Enviar (Comentar)&quot; arriba. Oprime &quot;Terminar y Aplicar al Privilegio&quot;, y luego asigna ese privilegio al rol 'Amigos'. &lt;br /&gt; &lt;br /&gt;- Para evitar a 'Extra&amp;#241;os' ver Documentos, define un privilegio 'NoDocumentos' con tipo de publicaci&amp;#243;n &quot;Documentos&quot; (instancia 2:All:All:All) y nivel de acceso &quot;Sin Acceso&quot;. Luego asigna ese privilegio al rol 'Extra&amp;#241;os' . &lt;br /&gt; &lt;br /&gt;- ... &lt;br /&gt; &lt;br /&gt;</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="185" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: if you want to deny access to all articles in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the articles map and categories navigation as well.</string>
+		<translation>Nota: Si quieres denegar el acceso a todos los art&amp;#237;culos en una categor&amp;#237;a en particular con ID 123, puedes definir un privilegio para el m&amp;#243;dulo 'categor&amp;#237;as', componente 'Categor&amp;#237;a', nombre de categor&amp;#237;a 'Todas' e ID de categor&amp;#237;a '123'. Esto remover&amp;#225; la categor&amp;#237;a del mapa de categor&amp;#237;as y tambi&amp;#233;n de la navegaci&amp;#243;n de categor&amp;#237;as.</translation>
+		<references>
+			<reference file="modules/articles/xartemplates/admin-privileges.xd" line="186" />
+		</references>
+	</entry>
+</translations>

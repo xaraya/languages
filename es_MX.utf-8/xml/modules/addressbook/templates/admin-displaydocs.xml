@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>1.1 Grant rights for an unregistered user</string>
+		<translation>1.1 Conceder derechos a usuarios no registrados</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Unregistered users have their own set of rights. By default,
+unregistered users may view existing entries only. You may grant unregistered users the
+rights to edit and delete records created by other unregistered users only. Administrators
+may view / edit / delete any record created by an unregistered user.</string>
+		<translation>Los usuarios no registrados tienen su propio conjunto de derechos. Por defecto, los usuarios no registrados s&amp;#243;lo pueden ver entradas existentes. Pueden conceder a los usuarios no registrados el derecho a editar y suprimir registros creados por otros usuarios no registrados solamente. Los administradores pueden ver / editar / suprimir cualquier registro creado por un usuario no registrado.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="19" />
+		</references>
+	</entry>
+	<entry>
+		<string>1.2 Grant right for registered users</string>
+		<translation>1.1 Conceder derechos a usuarios registrados</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>Registered users have their own set of rights. By default, registered users can create records, view records, and delete records. You can restrict access by deselecting grants. Registered users can edit records created by that user account only. All other records are view only. Records marked as private can be viewed only by the user that created the record and no one else save Administrators. Administrators may view / edit / delete any record created by a registered user.</string>
+		<translation>Los usuarios registrados tienen su propio conjunto de derechos. Por defecto, los usuarios registrados pueden crear registros, ver registros y suprimir registros. Puedes restringir acceso suprimiento derechos. Los usuarios registrados pueden editar registros creados por ese usuario solamente, todos los dem&amp;#225;s registros son s&amp;#243;lo vista. Los registros marcados como privados pueden ser vistos solamente por el usuario que cre&amp;#243; el registro y nadie m&amp;#225;s excepto los Administradores. Los administradores pueden ver / editar / suprimir cualquier registro creado por un usuario registrado.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.1 Title of this Address Book</string>
+		<translation>2.1 T&amp;#237;tulo de esta Libreta de Direcciones</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter the title which will appear to all users.</string>
+		<translation>Introduce el t&amp;#237;tulo que aparecer&amp;#225; para todos los usuarios.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.3 Default and Alternate sort order / List View</string>
+		<translation>2.3 Orden de clasificaci&amp;#243;n Por Defecto y Alterno / Vista del Listado</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select two columns of your choice. This setting
+affects not only the sort order but also the display of columns in
+the list view. Users are allowed to select between the Default and Alternate sort orders.</string>
+		<translation>Selecciona las dos columnas de tu elecci&amp;#243;n. Esta configuraci&amp;#243;n afecta no s&amp;#243;lo el orden de clasificaci&amp;#243;n sino tambi&amp;#233;n la visualizaci&amp;#243;n de las columnas en la vista del listado. Los usuarios tienen permitido seleccionar entre los &amp;#243;rdenes de clasificaci&amp;#243;n Por Defecto y Alterno</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.4 Name display in list view and sort order for name
+information</string>
+		<translation>2.4 Visualizaci&amp;#243;n de nombre en la vista del listado y orden de clasificaci&amp;#243;n para la informaci&amp;#243;n del nombre</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>This setting is for the sort order and display of names in
+the list view. You can change the default &amp;laquo;Last Name, First
+Name&amp;raquo; to &amp;laquo;First Name Last Name&amp;raquo;, which is default in
+some countries.</string>
+		<translation>Esta configuraci&amp;#243;n es para el orden de clasificaci&amp;#243;n y visualizaci&amp;#243;n de nombres en la vista del listado. Puedes cambiar la configuraci&amp;#243;n por defecto &amp;laquo;Apellido(s), Nombre(s)&amp;raquo; a &amp;laquo;Nombre(s) Apellido(s)&amp;raquo;, que es lo usual en algunos pa&amp;#237;ses.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.5 Special character (Umlauts) replacement for sort columns</string>
+		<translation>2.5 Remplazo de caracteres especiales (Umlauts) para columnas de clasificaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>MySQL 3.x uses the Latin-1 character set as
+default. Most users have no permission to change these settings.
+Therefore names and companies are now stored in special sort columns
+for correct sorting when special characters (Umlauts) are used. There
+is an admin setting where you can set up the character replacement to
+correct the sort for each language.</string>
+		<translation>MySQL 3.x utiliza por defecto el juego de caracteres Latin-1. La mayor&amp;#237;a de los usuarios no tienen permitido cambiar esta configuraci&amp;#243;n. Entonces los nombres y empresas se almacenan en columnas especiales de alfabetizaci&amp;#243;n para correcta clasificaci&amp;#243;n cuando se usan caracteres especiales (Umlauts). Hay una configuraci&amp;#243;n administrativa donde puedes fijar el remplazo del caracter para corregir la alfabetizaci&amp;#243;n en cada idioma.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.6 Personal address book mode</string>
+		<translation>2.6 Modo de libreta de direcciones personal</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Address Book may be used as a Global AddressBook (unchecked by default)
+or a Personal AddressBook (checked). As a Global AddressBook all users with access may view records
+that are NOT marked Private. As a Personal AddressBook users may only view entries they have created
+and unregistered users may not view or create any entries.</string>
+		<translation>La Libreta de Direcciones puede utilizarse como Libreta de Direcciones Global (por defecto no seleccionada) o una Libreta de Direcciones Personal (seleccionada). En una Libreta de Direcciones Global, todos los usuarios pueden ver los registros que NO est&amp;#233;n marcados como privados. En una Libreta de Direcciones Personal, los usuarios pueden ver solamente los registros que ellos han creado y los usuarios no registrados no pueden ver o crear ninguna entrada.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.7 Do you want to use a prefix field?</string>
+		<translation>2.7 &amp;#191;Quieres un campo de prefijos?</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Prefix/Title (Mr. Mrs. etc.). Values can be set in</string>
+		<translation>Prefijo/T&amp;#237;tulo (Sr., Sra., etc.). Se pueden configurar los valores en el Panel de Administraci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Administration Panel and are optionally selected via a drop-down list when creating / editing an entry. This field is hidden by default.</string>
+		<translation>y opcionalmente se seleccionan via una lista desplegable al crear / editar una entrada. Este campo est&amp;#225; oculto por defecto.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.8 Do you want to use images/logos?</string>
+		<translation>2.8 &amp;#191;Quieres usar im&amp;#225;genes/logos?</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Administrators will see a selection box of all
+files in the xarimages directory of AddressBook and can assign it to a
+record. The picture is shown in the upper right of the detail page.
+Currently, all pictures must be manually uploaded into the xarimages directory of
+AddressBook. This field is hidden by default.</string>
+		<translation>Los administradores ver&amp;#225;n una casilla de selecci&amp;#243;n de todos los archivos en el directorio xarimages de la Libreta de Direcciones y la pueden asignar a un registro. La foto se muestra en la parte superior derecha de la p&amp;#225;gina de detalles. De momento, todas las fotograf&amp;#237;as deben de cargarse manualmente en el directorio xarimages de la Libreta de Direcciones. El campo est&amp;#225; oculto por defecto.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.9 Disable the menu</string>
+		<translation>2.9 Deshabilitar el men&amp;#250;</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="61" />
+		</references>
+	</entry>
+	<entry>
+		<string>If you want to use the AddressBook as a
+simple contact list, you might want to disable the menu completely.
+You can also disable it for guests only. Note, Administrators always see the full menu, regardless of this setting.</string>
+		<translation>Si quieres usar la Libreta de Direcciones como una lista de contactos simple, podr&amp;#237;as querer deshabilitar el men&amp;#250; completamente. Tambi&amp;#233;n lo puedes deshabilitar s&amp;#243;lo para invitados. Note: los administradores siempre ven el men&amp;#250; completo, independientemente de esta configuraci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.10 Disable the second line of the main menu</string>
+		<translation>2.10 Deshabilitar la segunda l&amp;#237;nea del men&amp;#250; principal</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>This hides the second menu line for all users who
+DO NOT have edit access. Users still have access to the categories,
+sort order and the search field, but not access to Private records,
+A-Z / Complete list view switch, and the Add New Record link.</string>
+		<translation>Esto oculta la segunda l&amp;#237;nea del men&amp;#250; para todos los usuarios que NO tienen acceso de edici&amp;#243;n. Los usuarios aun tienen acceso a las categor&amp;#237;as, orden de clasificaci&amp;#243;n y el campo de b&amp;#250;squeda, pero no hay acceso a los registros Privados, el selector de vista A-Z / Lista completa, y el enlace de Agregar Nuevo Registro.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.11 Show zip before city</string>
+		<translation>2.11 Muestra el c&amp;#243;digo postal antes que la ciudad</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>In Europe the postal code (zip in USA) is shown before the city.
+This option is off by default.</string>
+		<translation>En Europa, el c&amp;#243;digo postal (&quot;zip code&quot; en Estados Unidos) se muestra antes que la ciudad. Esta opci&amp;#243;n est&amp;#225; apagada por defecto.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.12 Records viewed per page</string>
+		<translation>2.12 Registros vistos por p&amp;#225;gina</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Pick your number between 1 and ??</string>
+		<translation>Selecciona tu n&amp;#250;mero entre 1 y ??</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.1 Custom tab</string>
+		<translation>3.1 Pesta&amp;#241;a personalizada</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Name of the Custom Fields tab and the
+headline for custom fields in the detail page. Leave it blank, if you
+do not use custom fields.</string>
+		<translation>Nombre de la pesta&amp;#241;a de Campos Personalizados y el encabezado para los campos personalizados en la p&amp;#225;gina de detalle. Deja en blanco si no usas campos personalizados.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.2 Width of TEXTAREA fields</string>
+		<translation>3.2 Ancho de los campos TEXTAREA</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>TEXTAREA field width can change depending on
+the CSS of your theme. Sometimes this results in a very bad layout of
+your form. You can set the html COLS of a TEXTAREA field. Valid size ranges from 4 to 100.</string>
+		<translation>El ancho del campo TEXTAREA puede cambiar dependiendo del CSS en tu dise&amp;#241;o. Algunas veces, esto resulta en un muy mal maquetado de tu formulario. Puedes configurar COLS del HTML de un campo TEXTAREA. El tama&amp;#241;o v&amp;#225;lido var&amp;#237;a entre 4 y 100.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="88" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.3 Format for date entries</string>
+		<translation>3.3 Formato para entradas de fecha</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select the format for date entry and
+display. Only two options at this time, MM.DD.YYYY and DD.MM.YYYY.</string>
+		<translation>Selecciona el formato de la entrada y visualizaci&amp;#243;n de fecha. S&amp;#243;lo hay dos opciones en este momento, MM.DD.YYYY y DD.MM.YYYY.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.4 Format for numeric values</string>
+		<translation>3.4 Formato para valores num&amp;#233;ricos</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select the format for numeric entry and
+display. Only two options at this time, 9,999.00 and 9.999,00</string>
+		<translation>Selecciona el formato para entrada y visualizaci&amp;#243;n num&amp;#233;rica. S&amp;#243;lo hay dos opciones en este momento, 9,999.00 y 9.999,00</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="94" />
+		</references>
+	</entry>
+	<entry>
+		<string>4.1 Send error reports to Site Admin</string>
+		<translation>4.1 Enviar reportes de error al Admin de Sitio</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option enables error messages to be emailed directly to
+the site administrator email account. Uncheck to disable this feature.</string>
+		<translation>Esta opci&amp;#243;n permite que los mensajes de error se env&amp;#237;en por correo electr&amp;#243;nico directamente a la cuenta de correo electr&amp;#243;nico del administrador. Desmarca para deshabilitar esta funcionalidad.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>4.2 Alternate Site Admin email address</string>
+		<translation>4.2 Direcci&amp;#243;n de correo electr&amp;#243;nico de Admin de Sitio Alterno</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Choose an alternate email address if the official Site Admin
+does not wish to receive AddressBook error notifications.</string>
+		<translation>Selecciona una direcci&amp;#243;n de correo electr&amp;#243;nico alterna si el Admin de Sitio oficial no desea recibir notificaciones de error de la Libreta de Direcciones.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="105" />
+		</references>
+	</entry>
+	<entry>
+		<string>4.3 Send error reports to AddressBook Quality Control</string>
+		<translation>4.3 Enviar reportes de error a Control de Calidad de Libreta de Direcciones</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option sends an email directly to the AddressBook development
+team with the error message, date and time of occurrence, and the fully qualified host name of the
+server running the AddressBook module. NO OTHER INFORMATION IS SENT. This information is used solely for
+the purpose of fixing issues encountered in the AddressBook module. Uncheck to disable this feature.</string>
+		<translation>Esta opci&amp;#243;n env&amp;#237;a un correo electr&amp;#243;nico directamente al equipo de desarrollo de Libreta de Direcciones con el mensaje de error, fecha y hora del evento, y el nombre completamente calificado del servidor que corre el m&amp;#243;dulo Libreta de Direcciones. NO SE ENV&amp;#205;A OTRA INFORMACI&amp;#211;N. La informaci&amp;#243;n se usa exclusivamente para el prop&amp;#243;sito de arreglar los problemas encontrador en el m&amp;#243;dulo Libreta de Direcciones. Desmarca para deshabilitar esta funcionalidad.</translation>
+		<references>
+			<reference file="modules/addressbook/xartemplates/admin-displaydocs.xd" line="110" />
+		</references>
+	</entry>
+</translations>

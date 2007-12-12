@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Modify Configuration</string>
+		<translation>Modificar Configuraci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="5" />
+		</references>
+	</entry>
+	<entry>
+		<string>Global Configuration</string>
+		<translation>Configuraci&amp;#243;n Global</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enable Short URLs :</string>
+		<translation>Habilitar URLs Cortos :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Items per Page :</string>
+		<translation>Elementos Por P&amp;#225;gina :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use Content's Title for EMail Subject</string>
+		<translation>Utilizar el T&amp;#237;tulo del Contenido Como Asunto del Correo</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="32" />
+		</references>
+	</entry>
+	<entry>
+		<string>Include Child Categories in Subscriptions:</string>
+		<translation>Incluir Categor&amp;#237;as Hijo en las Suscripciones</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Send only one email per user</string>
+		<translation>Enviar s&amp;#243;lo un correo por usuario</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>(you may create a template, call it 'wrapper', with a variable called # $contents #</string>
+		<translation>(puedes crear una plantilla, llamarla 'envoltura', con una variable llamada # $contenidos #)</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Hooked Modules</string>
+		<translation>Configuraci&amp;#243;n de M&amp;#243;dulos Enganchados</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Description:&lt;/strong&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string>
+		<translation>&lt;strong&gt;Descripci&amp;#243;n:&lt;/strong&gt; primero habilita los ganchos de Pubsub para un m&amp;#243;dulo+tipo de elemento en particular, luego especifica aqu&amp;#237; qu&amp;#233; plantilla se debe utilizar cuando se crea, actualiza o suprime un elemento, para ese m&amp;#243;dulo+tipo de elemento. Configurar una plantilla a 'no soportado' significa que tus usuarios no recibir&amp;#225;n notificaciones para ese evento.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Use create hook only when status is approved or frontpage (applicable only if the pubtype has a status field)</string>
+		<translation>Utiliza el gancho de creaci&amp;#243;n s&amp;#243;lo si el estado est&amp;#225; aprobado en la portada (aplicable solamente si el tipo de publicaci&amp;#243;n tiene un campo de estado)</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="79" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Create Hook</string>
+		<translation>Plantilla Para Gancho de Creaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Update Hook</string>
+		<translation>Plantilla Para Gancho de Actualizaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template for Delete Hook</string>
+		<translation>Plantilla Para Gancho de Supresi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="113" />
+		</references>
+	</entry>
+	<entry>
+		<string>Configuration of Scheduled Processing</string>
+		<translation>Configuraci&amp;#243;n del Procesamiento Agendado</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="132" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;strong&gt;Description:&lt;/strong&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string>
+		<translation>&lt;strong&gt;Descripci&amp;#243;n:&lt;/strong&gt; para procesar eventos en cola, necesitas instalar el m&amp;#243;dulo 'Agendador' primero. Luego puedes especificar aqu&amp;#237; qu&amp;#233; tan frecuente la cola de eventos se debe procesar.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>Run Scheduler Job :</string>
+		<translation>Correr Trabajo del Agendador :</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>disabled</string>
+		<translation>deshabilitado</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that if you stop the scheduler or if it isn't triggered, queued events will not be processed.</string>
+		<translation>Por favor nota que si detienes el Agendador o no se acciona, la cola de eventos no se procesar&amp;#225;.</translation>
+		<references>
+			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="154" />
+		</references>
+	</entry>
+</translations>

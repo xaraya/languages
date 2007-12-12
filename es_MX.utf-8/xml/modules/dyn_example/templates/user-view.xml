@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>APPROACH # 1a : the &amp;lt;xar:data-view ...&amp;gt; tag</string>
+		<translation>APROXIMACI&amp;#211;N # 1a : la etiqueta &amp;lt;xar:data-view ...&amp;gt;</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the list of items from DynamicData,
+and present them according to its standard &lt;strong&gt;objects/showview.xd&lt;/strong&gt; template.</string>
+		<translation>Esta etiqueta autom&amp;#225;ticamente recuperar&amp;#225; la lista de elementos de Datos Din&amp;#225;micos y la presentar&amp;#225; de acuerdo a su plantilla est&amp;#225;ndar &lt;strong&gt;objects/showview.xd&lt;/strong&gt;.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>APPROACH # 1b : the &amp;lt;xar:data-view ...&amp;gt; tag with parameters</string>
+		<translation>APROXIMACI&amp;#211;N # 1b : la etiqueta &amp;lt;xar:data-view ...&amp;gt; con par&amp;#225;metros</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here's an example that uses the &lt;code&gt;layout=&quot;list&quot;&lt;/code&gt;, and &lt;code&gt;linkfield=&quot;name&quot;&lt;/code&gt;
+to tell DynamicData which field should be linked to a display of the item. It also
+uses &lt;code&gt;fieldlist=&quot;name,age&quot;&lt;/code&gt; to show only a selected list of fields.</string>
+		<translation>Aqu&amp;#237; hay un ejemplo que utiliza el &lt;code&gt;layout=&quot;list&quot;&lt;/code&gt; y &lt;code&gt;linkfield=&quot;name&quot;&lt;/code&gt; para decirle a Datos Din&amp;#225;micos qu&amp;#233; campos de van a enlazar al visualizado del elemento. Tambi&amp;#233;n utiliza &lt;code&gt;fieldlist=&quot;name,age&quot;&lt;/code&gt; para mostrar s&amp;#243;lo una lista seleccionada de campos.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use those variables to build your own layout.
+The &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; tags
+allow you to show individual labels or value outputs in the template.</string>
+		<translation>Puedes entonces utilizar esas variables para construir tu propio maquetado. Las etiquetas &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; y &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; te permiten mostrar salidas de etiquetas o valores individuales en la plantilla.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>See the admin list for an example... We'll skip this one here, since we'll be
+retrieving 'properties' and 'values' via the module code instead, with the next approach.</string>
+		<translation>Ve la lista de admin como ejemplo... Nos saltaremos esta aqu&amp;#237;, ya que estaremos esta vez recuperando 'propiedades' y 'valores' v&amp;#237;a el c&amp;#243;digo del m&amp;#243;dulo, con la siguiente aproximaci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object list via API, you can pass along the whole
+object list to the template and use &lt;code&gt;&amp;lt;xar:data-view object=&quot;$mylist&quot; /&amp;gt;&lt;/code&gt; to let DynamicData
+handle the view. Or you can use &lt;code&gt;&amp;lt;xar:data-view object=&quot;$mylist&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt;&lt;/code&gt;
+if you want to provide your own view template in this module :</string>
+		<translation>Despu&amp;#233;s de recuperar la lista de objetos v&amp;#237;a API, puedes pasar la lista completa de objetos a la plantilla y utilizar &lt;code&gt;&amp;lt;xar:data-view object=&quot;$mylist&quot; /&amp;gt;&lt;/code&gt; para permitir a Datos Din&amp;#225;micos gestionar la vista. O puedes utilizar &lt;code&gt;&amp;lt;xar:data-view object=&quot;$mylist&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt;&lt;/code&gt; si quieres proporcionar tu propia plantilla de vista en este m&amp;#243;dulo :</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>or you can pass along the properties and values and work like in APPROACH # 2.</string>
+		<translation>o puedes pasar las propiedades y valores y trabajar como en la APROXIMACI&amp;#211;N # 2.</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Display</string>
+		<translation>Mostrar</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="88" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here you'll have to handle the output format of the values yourself - in the module code and/or template...</string>
+		<translation>Aqu&amp;#237; tendr&amp;#225;s que proporcionar el formato de salida de los valores t&amp;#250; mismo - en el n&amp;#250;cleo y/o la plantilla...</translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="96" />
+		</references>
+	</entry>
+</translations>

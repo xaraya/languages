@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Overview</string>
+		<translation>Vista General</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="2" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="7" />
+		</references>
+	</entry>
+	<entry>
+		<string>The XSLT module is a utility module that allows you to do XSL transformations via transform hooks.</string>
+		<translation>El m&amp;#243;dulo XSLT es un m&amp;#243;dulo de utiler&amp;#237;a que te permite hacer transformaciones XSL v&amp;#237;a ganchos de transformaci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>&amp;#191;C&amp;#243;mo se usa?</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>For each hooked module, specify the XSL file to be used in the transformation. This file should be located on the server, somewhere below the document root. Any DTD referenced by the original XML should also be available.
+&lt;br /&gt;&lt;br /&gt;In order to test this with articles, you should remove the call to xarVarPrepHTMLDisplay() on line 292 of modules/articles/xaruser/display.php (test only !), otherwise all XML tags in your content will be escaped before it gets passed to the transform hook...
+&lt;br /&gt;&lt;br /&gt;Note : this is a work in progress :)</string>
+		<translation>Para cada m&amp;#243;dulo enganchado, especifica el archivo XSL que se va a usar en la transformaci&amp;#243;n. Este archivo puede estar uicado en el servidor, en alg&amp;#250;n lugar abajo de la ra&amp;#237;z del documento. Cualquier DTD referenciada por el XML original debe tambi&amp;#233;n estar disponible. &lt;br /&gt;&lt;br /&gt;Para probarlo con art&amp;#237;culos, debes remover la llamada a xarVarPrepHTMLDisplay() en la l&amp;#237;nea 292 de modules/articles/xaruser/display.php (&amp;#161;s&amp;#243;lo prueba!), de otra forma, todas las etiquetas XML en tu contenido se escapar&amp;#225;n antes de que se pase al gancho de transformaci&amp;#243;n... &lt;br /&gt;&lt;br /&gt;Nota : este es trabajo en progreso :)</translation>
+		<references>
+			<reference file="modules/xslt/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+</translations>

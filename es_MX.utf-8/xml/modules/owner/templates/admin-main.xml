@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Owner module overview</string>
+		<translation>Vista general del m&amp;#243;dulo Propietario</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>Overview</string>
+		<translation>Vista General</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="6" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>The Owner module is a simple utility module, which has no
+direct user interface. The module operates entirely
+through the hooks system.</string>
+		<translation>El m&amp;#243;dulo Propietario es un m&amp;#243;dulo simple de utiler&amp;#237;a, que no tiene interfaz de usuario directa. El m&amp;#243;dulo opera enteramente a trav&amp;#233;s del sistema de ganchos.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>The functionality it provides is enabled by hooking the
+owner module into another module. By doing so, the hooks
+from this module will run when you create, update or
+display an item in those modules. (the modify and delete
+hooks are TODO )</string>
+		<translation>La funcionalidad que provee es habilitada al enganchar el m&amp;#243;dulo Propietario en otro m&amp;#243;dulo. Al hacerlo as&amp;#237;, los ganchos de este m&amp;#243;dulo correr&amp;#225;n cuando crees, actualices o muestres un elemento en esos m&amp;#243;dulos (los ganchos de modificaci&amp;#243;n y supresi&amp;#243;n est&amp;#225;n PENDIENTES).</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="21" />
+		</references>
+	</entry>
+	<entry>
+		<string>On the create operation the owner module registers the user id
+from the account which creates an item and logs the
+module and item identification of that operation in the
+database. This information is also created when updating
+an item which does not have an owner yet.</string>
+		<translation>En la operaci&amp;#243;n de crear, el m&amp;#243;dulo Propietario registra el ID de usuario de la cuenta que crea el elemento y registra la identificaci&amp;#243;n del m&amp;#243;dulo y el elemento de esa operaci&amp;#243;n en la base de datos. Esta informaci&amp;#243;n tambi&amp;#233;n se crea cuando se actualiza un elemento que no tiene aun un propietario.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>This means that for each item created in the hooked
+modules there is a linkage between the user account
+performing the operation and the module item to which it
+applied. This linkage &lt;em&gt;could&lt;/em&gt; be interpreted as
+ownership, but how the information is actually used is up
+to the creator of other modules.</string>
+		<translation>Esto significa que para cada elemento creado en los m&amp;#243;dulos enganchados, hay un enlace entre la cuenta del usuario que efect&amp;#250;a la operaci&amp;#243;n y el elemento del m&amp;#243;dulo para el que aplic&amp;#243;. Este enlace &lt;em&gt;puede&lt;/em&gt; interpretarse como propiedad, pero como se utilice de hecho la informaci&amp;#243;n es enteramente para el creador de otros m&amp;#243;dulos.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="38" />
+		</references>
+	</entry>
+	<entry>
+		<string>The maintenance of the linkage, after you hook the owner
+module into another module is automatically performed by
+the module in cooperation with the hooks system.</string>
+		<translation>El mantenimiento del enlace, despu&amp;#233;s de que enganchas el m&amp;#243;dulo en otro m&amp;#243;dulo se efect&amp;#250;a autom&amp;#225;ticamente por el m&amp;#243;dulo en colaboraci&amp;#243;n con el sistema de ganchos.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>The owner module API furthermore exposes a 'get' and a
+'getall' method to retrieve the &lt;em&gt;ownership&lt;/em&gt;
+information on a certain item of a specific itemtype in a
+particular module used in your application, which you can
+retrieve for further processing.</string>
+		<translation>El API del m&amp;#243;dulo Propietario expone m&amp;#233;todos 'get' y 'getall' para recuperar la informaci&amp;#243;n de &lt;em&gt;propiedad&lt;/em&gt; en un cierto elemento de un tipo de elemento espec&amp;#237;fico en un m&amp;#243;dulo en particular utilizado en tu aplicaci&amp;#243;n, que puedes recuperar para posterior procesamiento.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>That's it, plain and simple.</string>
+		<translation>Eso es, as&amp;#237; de sencillo.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Ideas for further work</string>
+		<translation>Ideas para trabajo futuro.</translation>
+		<references>
+			<reference file="modules/owner/xartemplates/admin-main.xd" line="59" />
+		</references>
+	</entry>
+</translations>

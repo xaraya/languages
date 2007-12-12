@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>This module allows you to schedule Xaraya jobs at certain times of the day/week/month (cron)</string>
+		<translation>Este m&amp;#243;dulo te permite agendar trabajos de Xaraya a ciertas horas del d&amp;#237;a/semana/mes (cron)</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="18" />
+		</references>
+	</entry>
+	<entry>
+		<string>Those jobs could be for instance :</string>
+		<translation>Estos trabajos pueden ser, por ejemplo:</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="22" />
+		</references>
+	</entry>
+	<entry>
+		<string>sending a daily digest mail</string>
+		<translation>env&amp;#237;o de un correo diario de resumen</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="25" />
+		</references>
+	</entry>
+	<entry>
+		<string>expiring temporary user passwords</string>
+		<translation>expiraci&amp;#243;n de contrase&amp;#241;as temporales de usuario</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>escalating a workflow process</string>
+		<translation>escalamiento de un proceso de flujo de trabajo</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="31" />
+		</references>
+	</entry>
+	<entry>
+		<string>doing a backup of the database</string>
+		<translation>respaldo de la base de datos</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>refreshing cache files</string>
+		<translation>actualizaci&amp;#243;n de archivos del almac&amp;#233;n temporal</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>...</string>
+		<translation>...</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>&amp;#191;C&amp;#243;mo se usa?</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>The scheduler module relies on other modules to actually execute
+whatever jobs are scheduled, so first you need to find out
+which &lt;b&gt;module functions&lt;/b&gt; can be scheduled.</string>
+		<translation>El m&amp;#243;dulo agendador conf&amp;#237;a en otros m&amp;#243;dulos para efectivamente ejecutar cualquier trabajo que est&amp;#233; agendado, as&amp;#237; que primero necesitas enterarte sobre cuales &lt;b&gt;funciones de m&amp;#243;dulo&lt;/b&gt; se pueden ejecutar.</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Then you need some kind of &lt;b&gt;trigger&lt;/b&gt; to wake up the scheduler -
+this can be done e.g. by requesting a specific webpage automatically
+from your own system via a Unix cron entry or Windows AT command,
+or via a web-based scheduler service like &lt;a href=&quot;http://webcron.org/&quot;&gt;http://webcron.org/&lt;/a&gt;,
+or (if you really have no other choice) by relying on web hits from your
+visitors if your site is relatively busy.</string>
+		<translation>Luego necesites un tipo de &lt;b&gt;accionador&lt;/b&gt; para despertar al agendador. Esto se puede lograr, por ejemplo, solicitando una p&amp;#225;gina web espec&amp;#237;fica autom&amp;#225;ticamente desde tu sistema v&amp;#237;a una entrada cron de Unix o un comando Windows AT, o v&amp;#237;a un servicio agendador basado en web, tal como &lt;a href=&quot;http://webcron.org/&quot;&gt;http://webcron.org/&lt;/a&gt;, o (si realmente no tienes otra opci&amp;#243;n), confiando en accesos de tus visitantes si tu sitio es relativamente ocupado.</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="68" />
+		</references>
+	</entry>
+	<entry>
+		<string>The rest will be handled by the scheduler module :-)</string>
+		<translation>El resto ser&amp;#225; gestionado por el m&amp;#243;dulo agendador :-)</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Bloques Incluidos</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Trigger block. This block will trigger the scheduler process.
+You can hide it from view, or let administrator see the progress. The block will
+then show the time the last trigger was run.</string>
+		<translation>Bloque accionador. Este bloque acciona el proceso del agendador. Lo puedes esconder de la vista o dejar que el administrador vea el progreso. El bloque mostrar&amp;#225; la hora en que el &amp;#250;ltimo accionador corri&amp;#243;.</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="80" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Ganchos Incluidos</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>to be defined</string>
+		<translation>por definir</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Para Mayor Informaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="93" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the Scheduler module can be found at</string>
+		<translation>Se puede encontrar mayor informaci&amp;#243;n sobre el m&amp;#243;dulo Agendador en</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="96" />
+		</references>
+	</entry>
+	<entry>
+		<string>Scheduler Extension page at</string>
+		<translation>P&amp;#225;gina de Extensi&amp;#243;n del M&amp;#243;dulo Agendador</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Scheduler Module - Xaraya Extension 189</string>
+		<translation>M&amp;#243;dulo Agendador - Extensi&amp;#243;n Xaraya 189</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="99" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Pulsa sobre la pesta&amp;#241;a de Historia de la Versi&amp;#243;n al fondo para tener informaci&amp;#243;n sobre la &amp;#250;ltima edici&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="100" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on Scheduler found at</string>
+		<translation>Tutoriales y documentaci&amp;#243;n relacionados con el m&amp;#243;dulo Agendador en</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on Scheduler</string>
+		<translation>Documentaci&amp;#243;n relacionada a Agendador</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Documentaci&amp;#243;n de Xaraya.</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="102" />
+		</references>
+	</entry>
+	<entry>
+		<string>Scheduler Module Overview</string>
+		<translation>Vista General del M&amp;#243;dulo Agendador</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Versi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="106" />
+		</references>
+	</entry>
+</translations>

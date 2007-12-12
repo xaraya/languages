@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Choose the combination of events and calendars for privilege '#(1)'</string>
+		<translation>Selecciona la combinaci&amp;#243;n de eventos y calendarios para el privilegio '#(1)'</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>Calendar ID</string>
+		<translation>ID de Calendario</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Organizer</string>
+		<translation>Organizador</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="46" />
+		</references>
+	</entry>
+	<entry>
+		<string>All / Other --&amp;gt;</string>
+		<translation>Todos / Otros --&amp;gt;</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>Event</string>
+		<translation>Evento</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="66" />
+		</references>
+	</entry>
+	<entry>
+		<string>Enter event number</string>
+		<translation>Ingresar el n&amp;#250;mero del evento</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Access Level</string>
+		<translation>Nivel de Acceso</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>No Access</string>
+		<translation>Sin Acceso</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="85" />
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="89" />
+		</references>
+	</entry>
+	<entry>
+		<string>Read</string>
+		<translation>Leer</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="103" />
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="107" />
+		</references>
+	</entry>
+	<entry>
+		<string>Admin</string>
+		<translation>Admin</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="139" />
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="143" />
+		</references>
+	</entry>
+	<entry>
+		<string>There are #(1) events matching these selection criteria at the moment</string>
+		<translation>Hay #(1) eventos que coinciden con el criterio de selecci&amp;#243;n en este momento</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="157" />
+		</references>
+	</entry>
+	<entry>
+		<string>Some examples : (assuming your users have read access by default)</string>
+		<translation>Algunos ejemplos: (asumiendo que el usuario tiene acceso de lectura por defecto)</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="168" />
+		</references>
+	</entry>
+	<entry>
+		<string>In order to allow 'Friends' to submit events (and only that), define a privilege 'AddJulianEvent' (or whatever name you prefer), and access level &quot;Add&quot; above.
+Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.</string>
+		<translation>Para permitir a 'Amigos' enviar eventos (y s&amp;#243;lo eso), define un privilegio 'AgregaEventoJuliano' (o el nombre que prefieras), y nivel de acceso &quot;Agregar&quot; o superior. Presiona &quot;Terminar y Aplicar al Privilegio&quot;, y luego asigna ese prilegio al rol 'Amigos'.</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="171" />
+		</references>
+	</entry>
+	<entry>
+		<string>When you want users to add events, and have them also edit or delete their own, then use the organizer (submitter) role 'Myself'. Eg All:Myself:All:All and an access level of 'Delete' will give users Delete rights to all events in all categories that they have added themselves.</string>
+		<translation>Cuando quieras que los usuarios agreguen eventos, y tengan edici&amp;#243;n o supresi&amp;#243;n propia, entonces utiliza de rol 'Myself' del organizador. Ej. All:Myself:All y un nivel de acceso de 'Supresi&amp;#243;n' dar&amp;#225; a los usuarios derechos de Suprimir todos los eventos en todas las categor&amp;#237;as que hayan agregado ellos.</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="173" />
+		</references>
+	</entry>
+	<entry>
+		<string>In order to stop 'Strangers' from viewing Events, define some privilege 'DenyJulianEvents' (instance All:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.</string>
+		<translation>Para prevenir que 'Extra&amp;#241;os' vean los Eventos, define algunos privilegios 'DenegarEventosJuliano' (instancia All:All:All:All) y nivel de acceso &quot;Sin Acceso&quot;. Entonces asigna esos privilegios al rol 'Extra&amp;#241;os&quot;.</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="175" />
+		</references>
+	</entry>
+	<entry>
+		<string>Note: if you want to deny access to all events in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the Julian map and categories navigation as well.</string>
+		<translation>Nota:si quieres denegar el acceso a todos los eventos en una categor&amp;#237;a en particular con ID 123, puedes tambi&amp;#233;n definir un privilegio para las 'categor&amp;#237;as' del m&amp;#243;dulo, componente 'Categor&amp;#237;a', nombre de la categor&amp;#237;a 'Todas' y el ID de categor&amp;#237;a '123'. Esto remover&amp;#225; la categor&amp;#237;a del mapa de Juliano y de la navegaci&amp;#243;n de categor&amp;#237;as tambi&amp;#233;n.</translation>
+		<references>
+			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="180" />
+		</references>
+	</entry>
+</translations>

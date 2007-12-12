@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="es_MX.utf-8">
+	<entry>
+		<string>Administration - xarCacheManager</string>
+		<translation>Administraci&amp;#243;n - xarCacheManager</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="3" />
+		</references>
+	</entry>
+	<entry>
+		<string>What is it?</string>
+		<translation>&amp;#191;Qu&amp;#233; es esto?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="12" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides an administrator interface to control the settings of the xarCache system of Xaraya. It also provides hooks that allow the cache system to know when changes have happened to modules so that it can respond accordingly (event based cache expiration/invalidation).</string>
+		<translation>El M&amp;#243;dulo xarCacheManager provee una interfaz de administraci&amp;#243;n para controlar la configuraci&amp;#243;n del sistema xarCacheManager de Xaraya. Tambi&amp;#233;n provee ganchos que permiten al sistema de almacenamiento temporal saber cuando han habido cambios en los m&amp;#243;dulos, de manera que pueda responder acordemente (expiraci&amp;#243;n/invalidaci&amp;#243;n del almacenamiento temporal basado en eventos).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>The output cache system is designed to reduce the amount of work a server system has to do under heavy load conditions. It saves the output used by Xaraya so that it does not need to go through the entire process to reproduce the same output over and over again. At this point, only page level output caching for anonymous users and block level output caching for all users are available. In time, the output cache system will also support module level output caching for all users, as well as more efficient serving of cached pages for anonymous users. Page level output caching for certain user groups is also planed to be available to sites that can take advantage of this.</string>
+		<translation>El sistema de almacenamiento temporal de salidas est&amp;#225; dise&amp;#241;ado para reducir la cantidad de trabajo que el sistema del servidor debe hacer bajo condiciones de alta carga. Ahorra la salida usada por Xaraya de modo que no necesite pasar por el proceso entero para reproducir la misma salida una y otra vez. En este punto, solamente est&amp;#225;n disponibles el almacenamiento temporal de salidas a nivel de p&amp;#225;gina para usuarios an&amp;#243;nimos y el almacenamiento temporal de salidas a nivel de bloque para todos los usuarios. Con el tiempo, el sistema de almacenamiento temporal de salidas tambi&amp;#233;n soportar&amp;#225; el almacenamiento temporal de salidas a nivel de m&amp;#243;dulos para todos los usuarios, as&amp;#237; como un servicio m&amp;#225;s eficiente de p&amp;#225;ginas almacenadas temporalmente para usuarios an&amp;#243;nimos. El almacenamiento temporal de salidas a nivel de p&amp;#225;gina para ciertos grupos de usuarios tambi&amp;#233;n tambi&amp;#233;n est&amp;#225; planeado para estar disponible para los sitios que pueden aprovechar esto.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please do not confuse output caching with Xaraya's variable or template caching systems. Each are different. In time, they will likely use the same caching infrastructure, but will still provide different caching for different purposes. General data caching is also planned for xarCache. For more on the different points of caching in Xaraya, please refer to:</string>
+		<translation>Por favor no confundas el almacenamiento temporal de salidas con los sitemas de almacenamiento temporal de variables o plantillas de Xaraya. Cada una es diferente. Con el tiempo, probablemente utilizar&amp;#225;n la misma infraestructura de almacenamiento temporal, pero aun proveer&amp;#225; diferentes almacenamientos temporales para distintos prop&amp;#243;sitos. El almacenamiento temporal de datos en general tambi&amp;#233;n est&amp;#225; planeado para xarCache. Para mayor informaci&amp;#243;n sobre los diferentes puntos de almacenamiento temporal en Xaraya, por favor refi&amp;#233;rete a:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>How to use it?</string>
+		<translation>&amp;#191;C&amp;#243;mo se usa?</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module has several tools for managing the xarCache system and your cached output files. The tools are organized under the following menu links:</string>
+		<translation>El m&amp;#243;dulo xarCacheManager tiene m&amp;#250;ltiples herramientas para el manejo del sistema xarCache y los archivos de almacenamiento temporal de salidas. Las herramientas est&amp;#225;n organizadas siguiendo los enlaces del men&amp;#250;:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="24" />
+		</references>
+	</entry>
+	<entry>
+		<string>Query Caching - Queries in the certain functions could be quite expensive for large sites. You can use this tool to set query caching to save the results of some expensive queries for reuse. Please note that cached query results will only be invalidated based on expiration time.</string>
+		<translation>Almacenamiento Temporal de Consultas - Las consultas en ciertas funciones pueden ser muy caras para los sitios grandes. Puedes utilizar esta herramienta para configurar el almacenamiento temporal de consultas para guardar los resultados de algunas consultas caras para reutilizarse. Por favor nota que las consultas almacenadas temporalmente ser&amp;#225;n invalidados solamente bas&amp;#225;ndose en tiempo de expiraci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="26" />
+		</references>
+	</entry>
+	<entry>
+		<string>Flush Cache - allows you to flush (delete) the output cache of specific Cache Keys. Page output Cache Keys are define by module, type, and function. Block output Cache Keys are define by module, block instance id, and block group.</string>
+		<translation>Limpieza de Almacenamiento Temporal - te permite limpiar (suprimir) el almacenamiento temporal de salidas para Llaves de Almacenamiento Temporal espec&amp;#237;ficas. Las Llaves del Almacenamiento Temporal de salidas de p&amp;#225;gina se definen por el m&amp;#243;dulo, tipo y funci&amp;#243;n. Las Llaves del Almacenamiento Temporal de salidas de bloques son definidas por el m&amp;#243;dulo, ID de instancia de bloque y grupo de bloques.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="27" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page Caching - allows you to enable page caching for certain user groups, set up session-less page caching, and configure auto-cache settings. Session-less page caching allows cached pages to be served before loading xarCore to users who do not have a session (new/first-time visitors). Auto-cache allows you to configure your site to dynamically enable session-less page caching for pages that hit certain page view thresholds.</string>
+		<translation>Almacenamiento Temporal de P&amp;#225;ginas - te permiten habilitar el almacenamiento temporal de p&amp;#225;ginas para ciertos grupos de usuarios, configurar el almacenamiento temporal de p&amp;#225;ginas sin sesi&amp;#243;n y configurar valored de auto-almacenamiento temporal. El almacenamiento temporal de p&amp;#225;ginas sin sesi&amp;#243;n ser&amp;#225; servido antes de cargar xarCore a los usuarios que no tienen sesi&amp;#243;n (visitantes de nuevos/primera vez). El auto-almacenamiento temporal te permite configurar el sitio para habilitar din&amp;#225;micamente el almacenamiento temporal de p&amp;#225;ginas sin sesi&amp;#243;n para p&amp;#225;ginas que alcanzan ciertos niveles de visitas.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block Caching - provides a single view and management point of the output caching settings of all block instances.</string>
+		<translation>Almacenamiento Temporal de Bloques - proporciona una vista simple y punto de administraci&amp;#243;n de configuraciones de almacenamiento temporal de salidas para todas las instancias de bloque.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>Modify Config - allows you to set the values for the output cache system. Mouse over the setting titles for more information.</string>
+		<translation>Modificar Config - te permite definir los valores para el sistema de almacenamiento temporal de salidas. Coloca el puntero sobre los t&amp;#237;tulos para mayor informaci&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Bloques Incluidos</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="33" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager Module has no blocks included at this time.</string>
+		<translation>El m&amp;#243;dulo xarCacheManager no tiene bloques incluidos en este momento.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="34" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Ganchos Incluidos</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="36" />
+		</references>
+	</entry>
+	<entry>
+		<string>The xarCacheManager module provides create, update, delete and modify config API hooks and a modify GUI hook (currently only used for adding caching configuration administration to block instance modify pages). To activate these hooks, go to Admin panel -&gt; Modules -&gt; Configure Hooks and click on the xarcachemanager link. Select the modules you would like to enable the xarCacheManager hook functionality for (articles, categories, autolinks, blocks, html are likely candidates) and click the Save Changes button. Once hooked to xarCacheManager, when you create, update, or delete items of the module, or modify the configuration of a module, the call to the xarCacheManager hooks will flush the appropriate cache to insure that your changes will be instantly available on your site (not masked by cached output files).</string>
+		<translation>El m&amp;#243;dulo xarCacheManager provee ganchos API para crear, actualizar, suprimir y modificar la configuraci&amp;#243;n, un gancho de modificar GUI (actualmente utilizado s&amp;#243;lo para agregar administraci&amp;#243;n de la configuraci&amp;#243;n de almacenamiento temporal a p&amp;#225;ginas de modificaci&amp;#243;n de instancia de bloques). Para activar estos ganchos, ve al Panel de Administraci&amp;#243;n -&gt; M&amp;#243;dulos -&gt; Configurar Ganchos y pulsa sobre el enlace xarcachemanager. Selecciona los m&amp;#243;dulos para los que deseas habilitar la funcionalidad de gancho xarCacheManager (art&amp;#237;culos, categor&amp;#237;as, autoenlaces, bloques y html son candidatos ideales), y pulsa sobre el bot&amp;#243;n de Guardar Cambios. Una vez enganchado al xarCahemanager, cuando creas, actualizas o suprimes art&amp;#237;culos del m&amp;#243;dulo, o modificas la configuraci&amp;#243;n de un m&amp;#243;dulo, la llamada a los ganchos de xarCacheManager limpiar&amp;#225; el almacenamiento temporal apropiado para asegurar que tus cambios estar&amp;#225;n disponibles instat&amp;#225;neamente en tu sitio (no enmascarado por los archivos de almacenamiento temporal de salidas).</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="37" />
+		</references>
+	</entry>
+	<entry>
+		<string>Additional Information</string>
+		<translation>Informaci&amp;#243;n Adicional</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please note that page level output caching is not appropriate for sites that require the serving of dynamic content to anonymous users. Example: if each page contains data that changes every second and must be presented to the anonymous viewer in the latest state, you do not want to use page level output caching. However, if it is acceptable to present the data with changes no older than 1 minute, you can enable page level output caching and set the Cache Expiration Time to 60 seconds. If your site serves the same page 100 times per minute this will measurably reduce the load on your systems to do so.</string>
+		<translation>Por favor nota que el almacenamiento temporal de salidas a nivel de p&amp;#225;gina no es apropiado para sitios que requieren servir contenido din&amp;#225;mico a usuarios an&amp;#243;nimos. Ejemplo: si cada p&amp;#225;gina contiene datos que cambian cada segundo y deben presentarse al visitante an&amp;#243;nimo en su estado m&amp;#225;s reciente, no quieres usar el almacenamiento temporal de salidas a nivel de p&amp;#225;gina. Sin embargo, si es aceptable presentar los datos con cambios de no m&amp;#225;s de 1 minuto, puedes habilitar el almacenamiento temporal de salidas a nivel de p&amp;#225;gina y fijar el Tiempo del Expiraci&amp;#243;n de Almacenamiento a 60 segundos. Si tu sitio sirve la misma p&amp;#225;gina 100 veces por minuto, reducir&amp;#225; mediblemente la carga en tus sistemas al hacerlo as&amp;#237;.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="40" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching may also affect the expected behavior of certain aspects of Xaraya as cached pages are served without loading the modules. Example: the stats and opentracker modules will not accurately reflect the total number of page views your site receives because they are not invoked when serving cached pages. If your site is under heavy load that needs to be reduced, you may want to consider doing your site statistic tracking via the web server log files or a javascript based solution like that implemented by Hitbox or WebTrends Live, anyway. Either of these methods will accurately work with page level caching enabled.</string>
+		<translation>El almacenamiento temporal de salidas a nivel de p&amp;#225;gina puede tambi&amp;#233;n afectar el comportamiento previsto de ciertos aspectos de Xaraya, ya que la p&amp;#225;ginas almacenadas temporalmente son servidas sin cargar los m&amp;#243;dulos. Ejemplo: los m&amp;#243;dulos de estad&amp;#237;sticas y opentracker no reflejar&amp;#225;n con precisi&amp;#243;n el n&amp;#250;mero total de visitas de p&amp;#225;gina que tu sitio recibe, porque no son invocados cuando al servir p&amp;#225;ginas almacenadas temporalmente. De cualquier forma, si tu sitio est&amp;#225; bajo alta carga que necesita ser reducida, puedes querer considerar hacer el registro de estad&amp;#237;sticas del sitio v&amp;#237;a los archivos de bit&amp;#225;cora del servidor web, o una soluc&amp;#243;n basada en javascript como implementada por Hitbox o WebTrends Live. Cualquiera de estos m&amp;#233;todos trabajar&amp;#225; con precisi&amp;#243;n con el almacenamiento temporal a nivel de la p&amp;#225;gina habilitado.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configured to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
+		<translation>El almacenamiento temporal de salidas a nivel bloque no tiene las mismas limitaciones de contenido din&amp;#225;mico. Est&amp;#225; construida con el prop&amp;#243;sito de permitir a Xaraya que cargue completamente el n&amp;#250;cleo y m&amp;#243;dulo(s) activo(s) con cada solicitud de p&amp;#225;gina. El almacenamiento temporal de salidas de bloques se puede configurar sobre la base de cada instancia de bloque, para que puedas tener algunos bloques de instancia completamente din&amp;#225;nimos (nunca almacenados temporalmente), mientras que otras instancias son almacenadas temporalmente por tiempos de vida variables. El almacenamiento temporal de cada instancia de bloque se puede configurar para ser o no compartido entre usuarios (o grupos de usuarios) y p&amp;#225;ginas. Esto permite un comportamientos de almacenamientos temporales de salidas muy flexibles para sitios que mezclan p&amp;#225;ginas est&amp;#225;ticas y din&amp;#225;micas, pero la desventaja es un costo fijo mucho m&amp;#225;s alto (tiempo de generaci&amp;#243;n de la p&amp;#225;gina). Donde el nivel de almacenamiento temporal de salidas de la p&amp;#225;gina puede reducir el tiempo de generaci&amp;#243;n de la p&amp;#225;gina de un sitio de 65 a 80% (variable dependiendo de la configuraci&amp;#243;n del sitio), el almacenamiento temporal general de salidas de bloque s&amp;#243;lo reduce el tiempo de generaci&amp;#243;n de p&amp;#225;gina en un 20 &amp;#243; 30%.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level and block level output caching can be used in tandem to reduce loads and improve page generation times on sites that serve both anonymous and non-anonymous audience members, or on sites with varying page and block level output caching requirements.</string>
+		<translation>El almacenamiento temporal de salidas a nivel p&amp;#225;gina y nivel bloque pueden ser utilizados en t&amp;#225;ndem para reducir cargas e improvisar los tiempos de generaci&amp;#243;n de p&amp;#225;ginas en sitios que sirven a miembros de audiencia an&amp;#243;nimos y no an&amp;#243;nimos, o en sitios con p&amp;#225;ginas con requerimientos de almacenamiento tempral de salodas a nivel p&amp;#225;gina y a nivel bloque variables.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>TODO List</string>
+		<translation>Lista de PENDIENTES</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>General caching related:</string>
+		<translation>Relacionados con almacenamiento temporal en general:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support multisite configurations.</string>
+		<translation>Soporte de configuraciones multisitio.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide data caching API.</string>
+		<translation>Proporcionar API para almacenamiento temporal de datos.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide an output cache file browser, like the template cache file browser in SiteTools.</string>
+		<translation>Proporciona un archivo buscador de salida de almacenamieno temporal, como la plantilla de almacenamiento temporal del archivo buscador en SiteTools.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>Refactor, refactor, refactor.</string>
+		<translation>Refactorizar, refactorizar, refactorizar.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Page level output caching related:</string>
+		<translation>Relacionado con el almacenamiento temporal de salidas a nivel de p&amp;#225;gina:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="60" />
+		</references>
+	</entry>
+	<entry>
+		<string>Support itemtype as a 'name' between cacheKey and page when available.</string>
+		<translation>Soporte del tipo de art&amp;#237;culo como un 'nombre' entre la llave de almacenamiento temporal y la p&amp;#225;gina cuando est&amp;#225;n disponibles.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Scheduler, getfile/link integration for pre-population of output cache.</string>
+		<translation>Proveer Agendador, integraci&amp;#243;n getfile/link para la pre-poblaci&amp;#243;n del almacenamiento temporal de salidas.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="64" />
+		</references>
+	</entry>
+	<entry>
+		<string>Analyze Slashdot and Google News use of 304 &amp;amp; ETag HTTP headers and rework our use of these headers based on findings.</string>
+		<translation>Analizar la utilizaci&amp;#243;n de Slashdot y de Google News de encabezados 304 y ETag HTTP y retrabajar nuestra utilizaci&amp;#243;n de estos encabezados basado en lo que se encuentre.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>Block/module level output caching related:</string>
+		<translation>Relacionado con el almacenamiento temporal de salidas a nivel bloque/m&amp;#243;dulo:</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add module output caching functions, reutilizing xarBlock*Cached functions when appropriate.</string>
+		<translation>Agregar funciones al almacenamiento temporal de salidas de m&amp;#243;dulo, reutilizando las funciones xarBlock*Cached cuando sea apropiado.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>Add xarMod*Cached() calls in xarModFunc().</string>
+		<translation>Agregar llamadas xarMod*Cached() en xarModFunc().</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>Provide Admin GUI hooks to modules beyond Blocks for the configuration of per module output cache settings.</string>
+		<translation>Proveer ganchos GUI a los m&amp;#243;dulos m&amp;#225;s all&amp;#225; de los Bloques para la configuraci&amp;#243;n de valores por almacenamiento temporal de salidas de m&amp;#243;dulo.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="74" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further Information</string>
+		<translation>Para Mayor Informaci&amp;#243;n</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="78" />
+		</references>
+	</entry>
+	<entry>
+		<string>Further information on the xarcachemanager module can be found at</string>
+		<translation>Se puede encontrar mayor informaci&amp;#243;n sobre el m&amp;#243;dulo xarCacheManager en</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarcachemanager Extension page at</string>
+		<translation>P&amp;#225;gina de Extensi&amp;#243;n del M&amp;#243;dulo xarCacheManager en</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarcachemanager Module - Xaraya Extension 1652</string>
+		<translation>M&amp;#243;dulo xarCacheManager - Extensi&amp;#243;n Xaraya 1652</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Click on Version History tab at the bottom to get the latest release information.</string>
+		<translation>Pulsa sobre la pesta&amp;#241;a de Historia de la Versi&amp;#243;n al fondo para tener informaci&amp;#243;n sobre la &amp;#250;ltima edici&amp;#243;n.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="85" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related tutorials and documentation on xarcachemanager found at</string>
+		<translation>Tutoriales y documentaci&amp;#243;n relacionada con el m&amp;#243;dulo xarCacheManager en</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>Related documentation on xarcachemanager</string>
+		<translation>Documentaci&amp;#243;n relacionada con xarCacheManager</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>Xaraya Documentation.</string>
+		<translation>Documentaci&amp;#243;n Xaraya.</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87" />
+		</references>
+	</entry>
+	<entry>
+		<string>xarcachemanager Overview</string>
+		<translation>Vista General del M&amp;#243;dulo xarCacheManager</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="91" />
+		</references>
+	</entry>
+	<entry>
+		<string>Version</string>
+		<translation>Versi&amp;#243;n</translation>
+		<references>
+			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="91" />
+		</references>
+	</entry>
+</translations>
