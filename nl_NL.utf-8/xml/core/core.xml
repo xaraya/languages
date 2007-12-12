@@ -1,1986 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
-	<entry>
-		<string>An error occurred while processing your request. The details are:</string>
-		<translation>Tijdens het verwerken van uw verzoek, heeft zich een fout voorgedaan. De details zijn:</translation>
-		<references>
-			<reference file="index.php" line="170" />
-		</references>
-	</entry>
-	<entry>
-		<string>Last updated on #(1)</string>
-		<translation>Laatste wijzigingsdatum: #(1)</translation>
-		<references>
-			<reference file="includes/caching/page.php" line="224" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
-		<translation>Database foutmelding tijdens uitvoering: '#(1)';. Foutmelding: '#(2)'.</translation>
-		<references>
-			<reference file="includes/xarException.php" line="462" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default message</string>
-		<translation>Standaard bericht</translation>
-		<references>
-			<reference file="includes/exceptions/errorcollection.class.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Block type already exists</string>
-		<translation>Bloktype bestaat al</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to register a block type in a module that already exists.</string>
-		<translation>Er is een poging gedaan een bloktype te registreren in een al bestaande module.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Data</string>
-		<translation>Corrupte data</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was bad.</string>
-		<translation>De aangeleverde gegevens zijn corrupt.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>De geleverde waarde tijdens deze bewerking kan niet worden gevalideerd, of wordt niet geaccepteerd om bepaalde redenen.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>File does not exist</string>
-		<translation>Bestand bestaat niet</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation requires a file that cannot be found.</string>
-		<translation>Een operatie heeft een bestand nodig dat niet bestaat</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file may be missing, or its name may have changed.</string>
-		<translation>Het bestand kan niet aanwezig zijn, of de naam ervan kan zijn gewijzigd.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Operation Halted</string>
-		<translation>Bewerking gestopt</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation cannot be completed under the present circumstances.</string>
-		<translation>Deze bewerking kan onder de huidige omstandigheden niet worden afgerond</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
-		<translation>Deze bewerking werd gestopt, ondanks dat het wel is toegestaan, omdat de huidige omstandigheden het niet toelaten deze af te ronden.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Duplicate Data</string>
-		<translation>Dubbele gegevens</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was a duplicate.</string>
-		<translation>De aangeleverde gegevens zijn dubbel.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
-		<translation>Een unieke waarde werd verwacht tijdens deze bewerking, maar de voorziene waarde is een duplicaat van een bestaande waarde.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forbidden Operation</string>
-		<translation>Verboden bewerking.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting is not allowed in the current circumstances.</string>
-		<translation>De bewerking die u probeert uit te voeren is niet toegestaan in de huidige situatie.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
-		<translation>U heeft mischien de terug- of verfrisknop van de browser aangeklikt en opnieuw een bewerking gestart die niet mag worden herhaald, of uw browser staat niet toe dat cookies worden gebruikt.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Login error</string>
-		<translation>Login fout</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>A problem was encountered during the login process.</string>
-		<translation>Er is een probleem geconstateerd gedurende het login proces.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information is available.</string>
-		<translation>Meer informatie is niet beschikbaar.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing Data</string>
-		<translation>Gegevens missen</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data is incomplete.</string>
-		<translation>De gegevens zijn incompleet.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>A value was expected during this operation, but none was found.</string>
-		<translation>De verwachte waarde tijdens deze bewerking is niet gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple instances</string>
-		<translation>Meerdere instanties.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module contains more than one instance of the same block type.</string>
-		<translation>Een module bevat meer dan 1 instantie van hetzelfde blocktype.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Error</string>
-		<translation>Privilege fout</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have privileges for this operation.</string>
-		<translation>U heeft onvoldoende privileges voor deze bewerking</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
-		<translation>De bewerking die u probeert uit te voeren vereist privileges die niet aan u zijn toegekend. Neem hierover contact op met de beheerder van deze website.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not logged in</string>
-		<translation>U bent niet ingelogd.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>U probeert een bewerking uit, die niet is toegestaan voor een anonieme gebruiker.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
-		<translation>Er is een bewerking geconstateerd, waarvoor de gebruiker moet zijn ingelogd. Als u bent ingelogd, en deze melding krijgt, rapporteer dit dan als een probleem.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>Item not found</string>
-		<translation>Item niet gevonden</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unexpected empty result occurred.</string>
-		<translation>Een onverwacht leeg resultaat is aangetroffen.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation that should have returned a result instead came up empty.</string>
-		<translation>Een operatie die een resultaat had moeten leveren gaf een leeg resultaat.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong version</string>
-		<translation>Verkeerde versie</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>The application version supplied is wrong.</string>
-		<translation>De geleverde versie van de toepassing is onjuist.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information available</string>
-		<translation>Meer informatie is niet beschikbaar.</translation>
-		<references>
-			<reference file="includes/exceptions/exceptionrendering.class.php" line="54" />
-			<reference file="includes/exceptions/exceptionrendering.class.php" line="67" />
-		</references>
-	</entry>
-	<entry>
-		<string>Assertion in code failed</string>
-		<translation>Een aanname in de code bleek niet waar te zijn</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>An assertion evaluated to false, which indicates a coding error.</string>
-		<translation>Een aanname evalueerde tot 'niet waar', wat een codeerfout impliceert</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string>
-		<translation>Tijdens uitvoering bleek een aanname niet waar. Dit betekent dat een bepaalde fout voorkomt in sommige code.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Parameter</string>
-		<translation>Corrupte Parameter</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter encountered was bad.</string>
-		<translation>De gebruikte parameter voldoet niet.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>De meegegeven parameter voor deze bewerking kan niet gevalideerd worden, of wordt niet geaccepteerd om andere redenen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Compiler error</string>
-		<translation>Compilerfout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout compiler encountered an error.</string>
-		<translation>De Blocklayout compiler constateerde een fout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string>
-		<translation>De Blocklayout compiler constateerde een fout, waarvan het niet kan herstellen. Er is geen specifieke informatie beschikbaar.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya is not properly configured</string>
-		<translation>Xaraya is niet juist geconfigureerd</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>The combination of configuration settings has led to a conflict</string>
-		<translation>De combinaties van instellingen leidde tot een conflict</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string>
-		<translation>Xaraya is geconfigureerd met instellingen die tot een conflicterende situatie oplevert. Sommige instellingen kunnen niet tegelijkertijd worden gebruikt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Context does not exist</string>
-		<translation>Context bestaat niet.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>A context element was not found.</string>
-		<translation>Een context element is niet gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string>
-		<translation>Deze fout omvat alle fouten met betrekking tot die situaties waar een context element (block, template, include) werd verwacht, maar niet gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database Error</string>
-		<translation>Database Foutmelding</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered while attempting a database operation.</string>
-		<translation>Er is een fout geconstateerd bij het trachten uit te voeren van een database bewerking.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database Query Error</string>
-		<translation>Database Query Foutmelding</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered while trying to execute a database query.</string>
-		<translation>Een fout trad op tijdens het uitvoeren van een database query</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string>
-		<translation>Er is een fout geconstateerd bij het trachten uit te voeren van een database query.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Deprecated API</string>
-		<translation>Afgekeurde API</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>A function call encountered belongs to a deprecated API.</string>
-		<translation>De gebruikte functieaanroep verwijst naar een afgekeurde API.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>A function call encountered belongs to an old API and is therefore no longer supported.</string>
-		<translation>De gebruikte functieaanroep verwijst naar een oude API en wordt daarom niet langer ondersteund.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Deprecated Blocklayout Attribute</string>
-		<translation>Afgekeurd Blocklayout Attribuut</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag in a template contains a deprecated attribute.</string>
-		<translation>Een tag in een template bevat een afgekeurd attribuut.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string>
-		<translation>Een tag in een template bevat een afgekeurd attribuut en dient te worden vervangen door een nieuwe, of niet worden gebruikt. Zie de BL documentatie voor de juiste syntax.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Fatal Error</string>
-		<translation>PHP: fatale fout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>A system error was received from the PHP interpreter.</string>
-		<translation>Een systeemfout trad op vanuit de PHP interpreter.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="51" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="55" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="59" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="63" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="67" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="71" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="75" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="79" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="83" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="87" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is an error in the PHP code that is being processed.</string>
-		<translation>Er is een fout in de PHP code die wordt verwerkt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Warning</string>
-		<translation>PHP: waarschuwing</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Parse Error</string>
-		<translation>PHP: verwerkingsfout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Error Notice</string>
-		<translation>PHP: Foutmelding</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Core Error</string>
-		<translation>PHP: kern fout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Core Warning</string>
-		<translation>PHP: kern waarschuwing</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Compile Error</string>
-		<translation>PHP: compileer fout.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Compile Warning</string>
-		<translation>PHP: compileer waarschuwing</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: User Error</string>
-		<translation>PHP: gebruikersfout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: User Warning</string>
-		<translation>PHP: gebruikerswaarschuwing</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>User Notice</string>
-		<translation>Gebruikersbericht</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Parameter</string>
-		<translation>Lege parameter</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter value was not provided.</string>
-		<translation>Een parameter waarde werd niet gegeven.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="95" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter was expected during this operation, but none was found.</string>
-		<translation>De parameter bevat geen waarde.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event is not registered</string>
-		<translation>Gebeurtenis is niet geregistreerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown event was encountered.</string>
-		<translation>Er is een onbekende gebeurtenis geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>A reference to an event was encountered that is unknown to the system.</string>
-		<translation>Een referentie naar een gebeurtenis is onbekend in het systeem.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown system error</string>
-		<translation>Er is een onbekende systeem fout geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown system error was encountered.</string>
-		<translation>Er is een onbekende systeem fout geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="103" />
-		</references>
-	</entry>
-	<entry>
-		<string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string>
-		<translation>Het fout systeem constateerde een fout die het niet kan identificeren. Help ons alstublieft dit te verhelpen door een probleemmelding te maken bij &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
-		</references>
-	</entry>
-	<entry>
-		<string>Function failed</string>
-		<translation>Functie ontbreekt</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call to a function returned a bad result.</string>
-		<translation>De aangeroepen functie geeft een foutmelding terug.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="107" />
-		</references>
-	</entry>
-	<entry>
-		<string>The function executed correctly, but the result was a failure.</string>
-		<translation>De functie is correct uitgevoerd, maar het resultaat is mislukt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown ID</string>
-		<translation>Onbekende ID</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
-		</references>
-	</entry>
-	<entry>
-		<string>An expected ID was not found.</string>
-		<translation>Een verwacht ID is niet gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="111" />
-		</references>
-	</entry>
-	<entry>
-		<string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string>
-		<translation>Een onderwerp is opgevraagd door een niet herkend ID. Dit kan zijn doordat het onderwerp is verplaatst, gewijzigd, of niet bestaat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid attribute</string>
-		<translation>Ongeldig attribuut</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid attribute.</string>
-		<translation>De Blocklayout verwerker constateerde een ongeldig attribuut.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="115" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid entity</string>
-		<translation>Ongeldige entiteit</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid entity.</string>
-		<translation>De Blocklayout verwerker constateerde een ongeldige entiteit.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="119" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid file</string>
-		<translation>Ongeldig bestand</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid file.</string>
-		<translation>De Blocklayout verwerker constateerde een ongeldig bestand.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file was either not found, or could not be read properly.</string>
-		<translation>Het bestand is niet gevonden, of kan niet juist worden gelezen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid instruction</string>
-		<translation>Ongeldige instructie</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid instruction.</string>
-		<translation>De Blocklayout verwerker constateerde een ongeldige instructie</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid special variable</string>
-		<translation>Ongeldige speciale variabele</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered a problem with a special variable.</string>
-		<translation>De Blocklayout verwerker constateerde een probleem met een speciale variabele.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid syntax</string>
-		<translation>Ongeldige syntax</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered a syntax error.</string>
-		<translation>De Blocklayout verwerker constateerde een syntax fout.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="135" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid tag</string>
-		<translation>Ongeldige tag</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid tag.</string>
-		<translation>De Blocklayout verwerker constateerde een ongeldige tag.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="139" />
-		</references>
-	</entry>
-	<entry>
-		<string>The tag encountered does not conform to XML syntax.</string>
-		<translation>De benaderde tag is niet in overeenstemming met de XML syntax.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
-		</references>
-	</entry>
-	<entry>
-		<string>Locale not available</string>
-		<translation>Lokalisatie niet beschikbaar</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
-		</references>
-	</entry>
-	<entry>
-		<string>Locale does not exist</string>
-		<translation>Lokalisatie bestaat niet</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown locale was encountered.</string>
-		<translation>Er is een onbekende lokalisatie geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="145" />
-		</references>
-	</entry>
-	<entry>
-		<string>A reference to a locale was encountered that is unknown to the system.</string>
-		<translation>Een referentie naar een lokalisatie is onbekend in het systeem.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing attribute</string>
-		<translation>Attribuut mist</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser could not find a tag attribute.</string>
-		<translation>De Blocklayout verwerker kan een tag attribuut niet vinden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="149" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag attribute required by syntax was not found.</string>
-		<translation>Een door de syntax vereiste tag attribuut is niet gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing parameter</string>
-		<translation>Parameter mist</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser could not resolve a tag parameter.</string>
-		<translation>De Blocklayout verwerker kan een tag parameter niet afhandelen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="153" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag parameter could not be resolved because of bad syntax.</string>
-		<translation>Een tag parameter kan niet worden afgehandeld vanwege een onjuiste syntax.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module Dependency</string>
-		<translation>Module afhankelijkheden</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module call failed because of an unsatisifed dependency.</string>
-		<translation>De module aanroep mislukte vanwege een onterecht veronderstelde afhankelijkheid.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="157" />
-		</references>
-	</entry>
-	<entry>
-		<string>The current module cannot execute because another module that must first be installed is not present.</string>
-		<translation>De huidige module kan niet worden uitgevoerd, omdat een andere module die eerst geïnstalleerd moet zijn niet aanwezig is.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module file does not exist</string>
-		<translation>Module bestand bestaat niet</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation requires a module file that cannot be found.</string>
-		<translation>Een bewerking vereist een module bestand dat niet wordt gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="161" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Het bestand kan missen of de naam kan veranderd zijn. Opm.: Deze fout komt ook soms voor waneer een bestand niet verwerkt kan worden omdat er PHP fouten in zitten.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module function does not exist</string>
-		<translation>Module functie bestaat niet.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module function that cannot be found.</string>
-		<translation>De aangeroepen module functie kan niet worden gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="165" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Het bestand waarin de functie zou moeten staan mist. Indien dit niet het geval is, treedt wellicht de fout op omdat de daadwerkelijk functie een andere naam heeft of niet bestaat. Opm.: Deze fout komt soms ook voor wanneer het bestand niet verwerkt kan worden omdat het PHP fouten bevat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module is not active</string>
-		<translation>Module functie is niet actief.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module that is not active.</string>
-		<translation>De aangeroepen module is niet actief.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="169" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string>
-		<translation>De aangeroepen module is nog niet geactiveerd/geïnstalleerd. Gebruik de actieve link van de modulen module (Modules-&gt;Toon Alles) om deze te installeren.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module does not exist</string>
-		<translation>Module bestaat niet.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module that cannot be found</string>
-		<translation>De aangeroepen module kan niet worden gevonden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Een module werd aangeroepen die nog niet is geinstalleerd of niet aanwezig is. Gebruik de 'activeer' link in de 'modules' module (Modules -&gt; Toon Alles) om modules te installeren. Opm.: Deze fout komt ook voor wanneer een bestand niet verwerkt kan worden omdat het PHP fouten bevat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
-		</references>
-	</entry>
-	<entry>
-		<string>No Privilege</string>
-		<translation>Geen privilege</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have the privileges for this operation.</string>
-		<translation>U heeft niet het privilege om deze bewerking uit te voeren.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="177" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string>
-		<translation>Een gebruiker heeft een bewerking willen uitvoeren zonder te beschikken over de juiste privileges. Privileges moeten worden toegekend door de systeem beheerder(s).</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not implemented</string>
-		<translation>Dit is niet geimplementeerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
-		</references>
-	</entry>
-	<entry>
-		<string>The requested feature is not available.</string>
-		<translation>De gevraagde eigenschap is niet aanwezig.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="181" />
-		</references>
-	</entry>
-	<entry>
-		<string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string>
-		<translation>Een verzoek werd gedaan om een handeling uit te voeren die niet in deze installatie beschikbaar is. De functionaliteit mist of is onbeschikbaar in de huidige versie van Xaraya.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
-		</references>
-	</entry>
-	<entry>
-		<string>System error</string>
-		<translation>Systeem fout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
-		</references>
-	</entry>
-	<entry>
-		<string>A system error was encountered.</string>
-		<translation>Er is een systeemfout geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="185" />
-		</references>
-	</entry>
-	<entry>
-		<string>Template does not exist</string>
-		<translation>Template bestaat niet.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown template name was encountered.</string>
-		<translation>Er is een onbekende template naam geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="189" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string>
-		<translation>Er is een poging gedaan een niet te vinden template te verwerken. De template kan zijn verwijderd, niet meer bestaan of de naam kan zijn gewijzigd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
-		</references>
-	</entry>
-	<entry>
-		<string>Theme does not exist</string>
-		<translation>Thema bestaat niet.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown theme name was encountered.</string>
-		<translation>Er is een onbekende thema naam geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="193" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string>
-		<translation>Er is een poging gedaan een niet te vinden thema te laten zien. Het thema kan zijn verwijderd, niet meer bestaan of de naam kan zijn gewijzigd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to load</string>
-		<translation>Het is niet mogelijk om te laden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered during a load operation.</string>
-		<translation>Er is een fout geconstateerd tijdens het laden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="197" />
-		</references>
-	</entry>
-	<entry>
-		<string>The system was unable to successfully load a component, such as a module or theme.</string>
-		<translation>Het systeem was niet bij machtte een component, zoals een module of thema, met succes te laden.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown Error</string>
-		<translation>De fout is onbekend.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown error was encountered.</string>
-		<translation>Er is een onbekende fout geconstateerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="201" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable is not registered</string>
-		<translation>Variabele is niet geregistreerd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting to call a variable that the system does not recognize.</string>
-		<translation>U probeert een variabele aan te roepen die niet door het systeem wordt herkend.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="205" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string>
-		<translation>Er is een fout geconstateerd tijdens een aanroep van een variabele. De variabele kan zijn verwijderd of de naam kan zijn gewijzigd.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML Parser Error</string>
-		<translation>XML verwerker fout</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
-		</references>
-	</entry>
-	<entry>
-		<string>The XML parser has encountered an error.</string>
-		<translation>De XML verwerker constateerde een fout.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="209" />
-		</references>
-	</entry>
-	<entry>
-		<string>The XML parser tried to execute a line that was not well formed.</string>
-		<translation>De XML verwerker probeerde een regel uit te voeren die niet juist gevormd is.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
-		</references>
-	</entry>
-	<entry>
-		<string>The site is locked</string>
-		<translation>De site staat op slot</translation>
-		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>No access at this time</string>
-		<translation>Op dit moment heeft u geen toegang</translation>
-		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty database_name.</string>
-		<translation>Lege database naam.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown database type: '#(1)'.</string>
-		<translation>Onbekend database type: '#(1)'.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="74" />
-			<reference file="includes/xarTableDDL.php" line="171" />
-			<reference file="includes/xarTableDDL.php" line="286" />
-			<reference file="includes/xarTableDDL.php" line="347" />
-			<reference file="includes/xarTableDDL.php" line="420" />
-			<reference file="includes/xarTableDDL.php" line="475" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty tableName.</string>
-		<translation>Lege tabel naam</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="96" />
-			<reference file="includes/xarTableDDL.php" line="201" />
-			<reference file="includes/xarTableDDL.php" line="307" />
-			<reference file="includes/xarTableDDL.php" line="370" />
-			<reference file="includes/xarTableDDL.php" line="442" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not array fields.</string>
-		<translation>Geen array velden.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="102" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (must be an array, command key must be set).</string>
-		<translation>Ongeldige argumenten (moet een array zijn, de &quot;command key&quot; met gezet zijn)</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="207" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
-		<translation>Ongeldige index (moet een array zijn, de veld sleutel moet een array zijn, de naam sleutel moet bestaan).</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="376" />
-			<reference file="includes/xarTableDDL.php" line="448" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (field key must be set).</string>
-		<translation>Ongeldige argumenten (veld sleutel moet bestaan)</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="79" />
-			<reference file="includes/tableddl/datadict.php" line="121" />
-			<reference file="includes/tableddl/mysql.php" line="102" />
-			<reference file="includes/tableddl/mysql.php" line="163" />
-			<reference file="includes/tableddl/postgres.php" line="123" />
-			<reference file="includes/tableddl/postgres.php" line="167" />
-			<reference file="includes/tableddl/oracle.php" line="97" />
-			<reference file="includes/tableddl/oracle.php" line="143" />
-			<reference file="includes/tableddl/sqlite.php" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
-		<translation>Ongeldige argumenten (type,size,default,null, unsigned, increment, of primary_key moet bestaan)</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="86" />
-			<reference file="includes/tableddl/datadict.php" line="128" />
-			<reference file="includes/tableddl/mysql.php" line="178" />
-			<reference file="includes/tableddl/postgres.php" line="182" />
-			<reference file="includes/tableddl/oracle.php" line="158" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (new_name key must be set.)</string>
-		<translation>Ongeldige argumenten (new_name sleutel moet bestaan).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="107" />
-			<reference file="includes/tableddl/mysql.php" line="136" />
-			<reference file="includes/tableddl/postgres.php" line="140" />
-			<reference file="includes/tableddl/oracle.php" line="116" />
-			<reference file="includes/tableddl/sqlite.php" line="109" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown command: '#(1)'.</string>
-		<translation>Onbekend commando: '#(1)'</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="148" />
-			<reference file="includes/tableddl/mysql.php" line="209" />
-			<reference file="includes/tableddl/postgres.php" line="202" />
-			<reference file="includes/tableddl/oracle.php" line="195" />
-			<reference file="includes/tableddl/sqlite.php" line="117" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
-		<translation></translation>
-		<references>
-			<reference file="includes/tableddl/mysql.php" line="170" />
-			<reference file="includes/tableddl/postgres.php" line="174" />
-			<reference file="includes/tableddl/oracle.php" line="150" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for function #(2)() in #(3)</string>
-		<translation>Ongeldige #(1) voor functie #(2)() in #(3)</translation>
-		<references>
-			<reference file="includes/xarDataDict.php" line="73" />
-			<reference file="includes/xarDataDict.php" line="114" />
-			<reference file="includes/xarDataDict.php" line="223" />
-			<reference file="includes/xarDataDict.php" line="371" />
-			<reference file="includes/xarDataDict.php" line="412" />
-			<reference file="includes/xarDataDict.php" line="449" />
-			<reference file="includes/xarDataDict.php" line="508" />
-			<reference file="includes/xarDataDict.php" line="539" />
-		</references>
-	</entry>
-	<entry>
-		<string>No validation type present.</string>
-		<translation>Er is geen validatie type aanwezig.</translation>
-		<references>
-			<reference file="includes/xarVar.php" line="314" />
-		</references>
-	</entry>
-	<entry>
-		<string>The #(1) type '#(2)' could not be found.</string>
-		<translation>Het #(1) type #(2) kon niet worden gevonden.</translation>
-		<references>
-			<reference file="includes/xarVar.php" line="1038" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not an array: &quot;#(2)&quot;</string>
-		<translation>Variabel #(1) is geen array: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="20" />
-			<reference file="includes/validations/list.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an array: &quot;#(1)&quot;</string>
-		<translation>Dit is geen array: &quot;#(1)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="22" />
-			<reference file="includes/validations/list.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string>
-		<translation>De array variabele heeft minder elementen &quot;#(1)&quot; dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string>
-		<translation>De array variabele heeft meer elementen &quot;#(1)&quot; dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) is geen boolean: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/bool.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a boolean: &quot;#(1)&quot;</string>
-		<translation>Geen boolean: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/bool.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) is geen checkbox: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/checkbox.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a scheckbox: &quot;#(1)&quot;</string>
-		<translation>Geen checkbox: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/checkbox.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) komt niet overeen met het type e-mail: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/email.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an e-mail type: &quot;#(1)&quot;</string>
-		<translation>Geen e-mail type: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/email.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string>
-		<translation>De invoer &quot;#(1)&quot; is niet aanwezig in de opties voor #(2):</translation>
-		<references>
-			<reference file="includes/validations/enum.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Input &quot;#(1)&quot; was not one of the possibilities.</string>
-		<translation>De invoer &quot;#(1)&quot; is niet een van de opties</translation>
-		<references>
-			<reference file="includes/validations/enum.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a float type: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) is geen drijvende komma getal: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a float type: &quot;#(1)&quot;</string>
-		<translation>Geen drijvende komma getal: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Drijvende komma waarde &quot;#(1)&quot; is kleiner dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Drijvende komma waarde &quot;#(1)&quot; is groter dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) bevat een tag die niet is toegestaan: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an allowed tag: &quot;#(1)&quot;</string>
-		<translation>Tag niet toegestaan: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string>
-		<translation>Attributen zijn niet toegestaan voor deze tag in de variabele #(1): &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not an integer: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) is geen geheel getal: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an integer: &quot;#(1)&quot;</string>
-		<translation>Geen geheel getal: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Integer waarde &quot;#(1)&quot; is kleiner dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Integer waarde &quot;#(1)&quot; is groter dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>The variable is not set!</string>
-		<translation>De variabele is niet gezet!</translation>
-		<references>
-			<reference file="includes/validations/isset.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid e-mail #(1), the mail server doesnt recognize it.</string>
-		<translation>Ongeldig  e-mail adres: #(1), de mailserver herkent dit niet.</translation>
-		<references>
-			<reference file="includes/validations/mxcheck.php" line="101" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to connect to the mail server #(1) for e-mail #(2).</string>
-		<translation>Het is niet mogelijk verbinding te leggen met de mail server #(1) voor e-mail #(2).</translation>
-		<references>
-			<reference file="includes/validations/mxcheck.php" line="109" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) should not be empty: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) mag niet leeg zijn: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/notempty.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Should not be empty: &quot;#(1)&quot;</string>
-		<translation>Mag niet leeg zijn: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/notempty.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is no parameter to check against in the Regexp validation of #(1)</string>
-		<translation>Er is geen parameter om te controleren met de reg. expressie validatie van #(1)</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is no parameter to check against in the Regexp validation</string>
-		<translation>Er is geen parameter om te controleren met de reg. expressie validatie</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string>
-		<translation>Variabele #(1): &quot;#(2)&quot; voldoet niet aan patroon &quot;#(3)&quot;</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a string: &quot;#(2)&quot;</string>
-		<translation>Variabele #(1) is geen tekststring: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a string: &quot;#(1)&quot;</string>
-		<translation>Dit is geen string: &quot;#(1)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Omvang van de string &quot;#(1)&quot; is kleiner dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Omvang van de string &quot;#(1)&quot; is groter dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>This call needs to be removed</string>
-		<translation>Deze aanroep moet verwijderd worden.</translation>
-		<references>
-			<reference file="includes/xarLegacy.php" line="1033" />
-		</references>
-	</entry>
-	<entry>
-		<string>The directories under #(1) must be writeable by PHP.</string>
-		<translation>De directory onder #(1) moet schrijfbaar zijn door PHP.</translation>
-		<references>
-			<reference file="includes/xarMLS.php" line="952" />
-		</references>
-	</entry>
-	<entry>
-		<string>Context type: #(1) and file name: #(2)</string>
-		<translation>Context type: #(1) en bestandsnaam: #(2).</translation>
-		<references>
-			<reference file="includes/xarMLSPHPBackend.php" line="97" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module or Theme Name #(1) is empty.</string>
-		<translation>Module- of Themanaam #(1) is leeg.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="450" />
-			<reference file="includes/xarMod.php" line="1797" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
-		<translation>Lege RegID (#(1)) of RegID is gelijk aan 0.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="482" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown</string>
-		<translation>Onbekend</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="582" />
-			<reference file="includes/xarMod.php" line="584" />
-			<reference file="includes/xarMod.php" line="585" />
-			<reference file="includes/xarMod.php" line="586" />
-			<reference file="includes/xarMod.php" line="587" />
-			<reference file="includes/xarMod.php" line="588" />
-			<reference file="includes/xarMod.php" line="589" />
-			<reference file="includes/xarMod.php" line="590" />
-			<reference file="includes/xarMod.php" line="594" />
-			<reference file="includes/xarMod.php" line="595" />
-			<reference file="includes/xarMod.php" line="596" />
-			<reference file="includes/xarMod.php" line="597" />
-			<reference file="includes/xarMod.php" line="598" />
-			<reference file="includes/xarMod.php" line="599" />
-			<reference file="includes/xarMod.php" line="600" />
-			<reference file="includes/xarMod.php" line="601" />
-			<reference file="includes/xarMod.php" line="602" />
-			<reference file="includes/xarMod.php" line="603" />
-		</references>
-	</entry>
-	<entry>
-		<string>This module is not installed properly. Not all info could be retrieved</string>
-		<translation>Deze module is niet juist geinstalleerd. Niet all informatie kon worden opgehaald</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="583" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to find Base Info for Module: #(1)</string>
-		<translation>Het is niet mogelijk de Base info te vinden voor de module: #(1).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="661" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module Name #(1) is empty.</string>
-		<translation>Modulenaam #(1) is leeg.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="776" />
-		</references>
-	</entry>
-	<entry>
-		<string>Could not load function file: [#(1)].</string>
-		<translation>Kon het functie bestand [#(1)] niet laden.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="862" />
-		</references>
-	</entry>
-	<entry>
-		<string>Error Caught:</string>
-		<translation>Afgevangen fout:</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="863" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module function #(1) does not exist.</string>
-		<translation>Module functie #(1) bestaat niet.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="883" />
-		</references>
-	</entry>
-	<entry>
-		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
-		<translation>Kon het functie bestand niet laden: [#(1)].\n\n Fout afgevangen:\n #(2)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="968" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module API function #(1) does not exist or could not be loaded.</string>
-		<translation>Module API functie #(1) bestaat niet of kon niet worden geladen.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="988" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Module or Theme Name (#(1)).</string>
-		<translation>Lege Module- of Themanaam.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1344" />
-		</references>
-	</entry>
-	<entry>
-		<string>Directory information #(1) is empty.</string>
-		<translation>Folder informatie #(1) is leeg.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1671" />
-		</references>
-	</entry>
-	<entry>
-		<string>Cannot open file #(1).</string>
-		<translation>Kan bestand #(1) niet openen.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1692" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
-		<translation>Verkeerd type, het moet 'module' of 'theme' zijn: #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1803" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty theme or module name (#(1)).</string>
-		<translation>Lege Thema- of modulenaam (#(1)).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1906" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Theme or Module variable name (#(1)).</string>
-		<translation>Lege Thema of Module variabele naam (#(1)).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1997" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
-		<translation>Illegale attribuutnaam ('#(1)'): Attribuutnaam mag letters, nummers, _ en - bevatten, maar moet beginnen met een letter.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1488" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
-		<translation>Illegale attribuut vlaggen.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1495" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
-		<translation>Illegale tag definitie: '#(1)' is een ongeldige tag naam.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1574" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
-		<translation>Illegale tag definitie: '#(1)' is een ongeldig.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1583" />
-			<reference file="includes/xarTemplate.php" line="1681" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
-		<translation>Illegale tag definitie voor vlaggen ('#(1)'): vlaggen moeten van het integer type zijn.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1589" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
-		<translation>&lt;xar:#(1)&gt; tag al gedefinieerd.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1719" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
-		<translation>&lt;xar:#(1)&gt; tag is niet gedefinieerd.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1799" />
-		</references>
-	</entry>
-	<entry>
-		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
-		<translation>'#(1)' attribuut in &lt;xar:#(2)&gt; tag heeft niet het juiste type aanduiding. Zie documentatie betreffende tag.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1827" />
-		</references>
-	</entry>
-	<entry>
-		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
-		<translation>Vereiste '#(1)' attribuut mist bij &lt;xar:#(2)&gt; tag. Zie documentatie betreffende tag.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1833" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty themeName (#(1)).</string>
-		<translation>Thema naam is leeg (#(1)).</translation>
-		<references>
-			<reference file="includes/xarTheme.php" line="29" />
-			<reference file="includes/xarTheme.php" line="50" />
-			<reference file="includes/xarTheme.php" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) css stylesheet file cannot be found at this location:</string>
-		<translation>#(1) css stylesheet bestand kan niet gevonden worden op deze locatie:</translation>
-		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="185" />
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string>
-		<translation>#(1) (er kon geen geldige scope uit de xar:style tag gehaald worden)</translation>
-		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="224" />
-		</references>
-	</entry>
-	<entry>
-		<string>Anonymous</string>
-		<translation>Anoniem</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="398" />
-		</references>
-	</entry>
-	<entry>
-		<string>No Information</string>
-		<translation>Geen informatie</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="420" />
-		</references>
-	</entry>
-	<entry>
-		<string>User identified by uid #(1) does not exist.</string>
-		<translation>De gebruiker met uid #(1) bestaat niet.</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="427" />
-			<reference file="includes/xarUser.php" line="461" />
-			<reference file="includes/xarUser.php" line="603" />
-		</references>
-	</entry>
-	<entry>
-		<string>User variable #(1) was not correctly registered</string>
-		<translation>De gebruikersvariabele #(1) is niet correct geregistreerd.</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="448" />
-			<reference file="includes/xarUser.php" line="592" />
-		</references>
-	</entry>
-	<entry>
-		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
-		<translation>Veiligheidsgebied #(1) - Component #(2) - Instantie #(3) - Niveau #(4): Deze aanroep moet geconverteerd worden naar het Xaraya veiligheidssyteem.</translation>
-		<references>
-			<reference file="includes/xarSecurity.php" line="610" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Users in this Group</string>
-		<translation>Toon de gebruikers in deze groep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="269" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this Group</string>
-		<translation>Verwijder deze groep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="282" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email the Users in this Group</string>
-		<translation>Email de gebruikers in deze groep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="295" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Privileges assigned to this Group</string>
-		<translation>Toon de privileges toegekend aan deze groep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="308" />
-		</references>
-	</entry>
-	<entry>
-		<string>Test this Groups's Privileges</string>
-		<translation>Test de privileges van deze groep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="321" />
-		</references>
-	</entry>
-	<entry>
-		<string>subgroup</string>
-		<translation>deelgroep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="335" />
-		</references>
-	</entry>
-	<entry>
-		<string>subgroups</string>
-		<translation>deelgroepen</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="335" />
-		</references>
-	</entry>
-	<entry>
-		<string>user</string>
-		<translation>gebruiker</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="336" />
-		</references>
-	</entry>
-	<entry>
-		<string>users</string>
-		<translation>gebruikers</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="336" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify this Group</string>
-		<translation>Wijzig deze groep</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="339" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a user name and a valid email address.</string>
-		<translation>U moet een gebruikersnaam en een valide e-mail adres opgeven.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="337" />
-			<reference file="modules/roles/xarroles.php" line="539" />
-		</references>
-	</entry>
-	<entry>
-		<string>This entry already exists.</string>
-		<translation>Deze ingang bestaat al.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="351" />
-			<reference file="modules/roles/xarroles.php" line="408" />
-			<reference file="modules/roles/xarroles.php" line="558" />
-			<reference file="modules/privileges/xarprivileges.php" line="2074" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a name.</string>
-		<translation>U moet een naam opgeven.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="529" />
-			<reference file="modules/privileges/xarprivileges.php" line="2054" />
-		</references>
-	</entry>
-	<entry>
-		<string>deleted</string>
-		<translation>verwijderd</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="756" />
-			<reference file="modules/roles/xarroles.php" line="794" />
-		</references>
-	</entry>
-	<entry>
-		<string>Parameters to winnow need to be arrays</string>
-		<translation>De parameter voor winnow moeten arrays zijn.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="266" />
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
-		<translation>Kon het masker #(1) niet vinden dat is geregistreerd voor een onbekend component in module #(2)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="386" />
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
-		<translation>Kon het masker #(1) niet vinden dat is geregistreerd voor component #(2) in module #(3)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="389" />
-		</references>
-	</entry>
-	<entry>
-		<string>No privilege for #(1)</string>
-		<translation>Er is geen privilege voor #(1) aanwezig.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="510" />
-		</references>
-	</entry>
-	<entry>
-		<string>A query is missing in component #(1) of module #(2)</string>
-		<translation>Een query mist in component #(1) van module #(2)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1299" />
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
-		<translation>#(1) en #(2) hebben niet dezelfde instanties, #(3) | #(4) | #(5)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1857" />
-		</references>
-	</entry>
+<entry><string>An error occurred while processing your request. The details are:</string><translation>Tijdens het verwerken van uw verzoek, heeft zich een fout voorgedaan. De details zijn:</translation></entry>
+<entry><string>Last updated on #(1)</string><translation>Laatste wijzigingsdatum: #(1)</translation></entry>
+<entry><string>Database error while executing: '#(1)'; error description is: '#(2)'.</string><translation>Database foutmelding tijdens uitvoering: '#(1)';. Foutmelding: '#(2)'.</translation></entry>
+<entry><string>Default message</string><translation>Standaard bericht</translation></entry>
+<entry><string>Block type already exists</string><translation>Bloktype bestaat al</translation></entry>
+<entry><string>An attempt was made to register a block type in a module that already exists.</string><translation>Er is een poging gedaan een bloktype te registreren in een al bestaande module.</translation></entry>
+<entry><string>Bad Data</string><translation>Corrupte data</translation></entry>
+<entry><string>The data provided was bad.</string><translation>De aangeleverde gegevens zijn corrupt.</translation></entry>
+<entry><string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string><translation>De geleverde waarde tijdens deze bewerking kan niet worden gevalideerd, of wordt niet geaccepteerd om bepaalde redenen.</translation></entry>
+<entry><string>File does not exist</string><translation>Bestand bestaat niet</translation></entry>
+<entry><string>An operation requires a file that cannot be found.</string><translation>Een operatie heeft een bestand nodig dat niet bestaat</translation></entry>
+<entry><string>The file may be missing, or its name may have changed.</string><translation>Het bestand kan niet aanwezig zijn, of de naam ervan kan zijn gewijzigd.</translation></entry>
+<entry><string>Operation Halted</string><translation>Bewerking gestopt</translation></entry>
+<entry><string>This operation cannot be completed under the present circumstances.</string><translation>Deze bewerking kan onder de huidige omstandigheden niet worden afgerond</translation></entry>
+<entry><string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string><translation>Deze bewerking werd gestopt, ondanks dat het wel is toegestaan, omdat de huidige omstandigheden het niet toelaten deze af te ronden.</translation></entry>
+<entry><string>Duplicate Data</string><translation>Dubbele gegevens</translation></entry>
+<entry><string>The data provided was a duplicate.</string><translation>De aangeleverde gegevens zijn dubbel.</translation></entry>
+<entry><string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string><translation>Een unieke waarde werd verwacht tijdens deze bewerking, maar de voorziene waarde is een duplicaat van een bestaande waarde.</translation></entry>
+<entry><string>Forbidden Operation</string><translation>Verboden bewerking.</translation></entry>
+<entry><string>The operation you are attempting is not allowed in the current circumstances.</string><translation>De bewerking die u probeert uit te voeren is niet toegestaan in de huidige situatie.</translation></entry>
+<entry><string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string><translation>U heeft mischien de terug- of verfrisknop van de browser aangeklikt en opnieuw een bewerking gestart die niet mag worden herhaald, of uw browser staat niet toe dat cookies worden gebruikt.</translation></entry>
+<entry><string>Login error</string><translation>Login fout</translation></entry>
+<entry><string>A problem was encountered during the login process.</string><translation>Er is een probleem geconstateerd gedurende het login proces.</translation></entry>
+<entry><string>No further information is available.</string><translation>Meer informatie is niet beschikbaar.</translation></entry>
+<entry><string>Missing Data</string><translation>Gegevens missen</translation></entry>
+<entry><string>The data is incomplete.</string><translation>De gegevens zijn incompleet.</translation></entry>
+<entry><string>A value was expected during this operation, but none was found.</string><translation>De verwachte waarde tijdens deze bewerking is niet gevonden.</translation></entry>
+<entry><string>Multiple instances</string><translation>Meerdere instanties.</translation></entry>
+<entry><string>A module contains more than one instance of the same block type.</string><translation>Een module bevat meer dan 1 instantie van hetzelfde blocktype.</translation></entry>
+<entry><string>Privileges Error</string><translation>Privilege fout</translation></entry>
+<entry><string>You do not have privileges for this operation.</string><translation>U heeft onvoldoende privileges voor deze bewerking</translation></entry>
+<entry><string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string><translation>De bewerking die u probeert uit te voeren vereist privileges die niet aan u zijn toegekend. Neem hierover contact op met de beheerder van deze website.</translation></entry>
+<entry><string>Not logged in</string><translation>U bent niet ingelogd.</translation></entry>
+<entry><string>You are attempting an operation that is not allowed for the Anonymous user.</string><translation>U probeert een bewerking uit, die niet is toegestaan voor een anonieme gebruiker.</translation></entry>
+<entry><string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string><translation>Er is een bewerking geconstateerd, waarvoor de gebruiker moet zijn ingelogd. Als u bent ingelogd, en deze melding krijgt, rapporteer dit dan als een probleem.</translation></entry>
+<entry><string>Item not found</string><translation>Item niet gevonden</translation></entry>
+<entry><string>An unexpected empty result occurred.</string><translation>Een onverwacht leeg resultaat is aangetroffen.</translation></entry>
+<entry><string>An operation that should have returned a result instead came up empty.</string><translation>Een operatie die een resultaat had moeten leveren gaf een leeg resultaat.</translation></entry>
+<entry><string>Wrong version</string><translation>Verkeerde versie</translation></entry>
+<entry><string>The application version supplied is wrong.</string><translation>De geleverde versie van de toepassing is onjuist.</translation></entry>
+<entry><string>No further information available</string><translation>Meer informatie is niet beschikbaar.</translation></entry>
+<entry><string>Assertion in code failed</string><translation>Een aanname in de code bleek niet waar te zijn</translation></entry>
+<entry><string>An assertion evaluated to false, which indicates a coding error.</string><translation>Een aanname evalueerde tot 'niet waar', wat een codeerfout impliceert</translation></entry>
+<entry><string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string><translation>Tijdens uitvoering bleek een aanname niet waar. Dit betekent dat een bepaalde fout voorkomt in sommige code.</translation></entry>
+<entry><string>Bad Parameter</string><translation>Corrupte Parameter</translation></entry>
+<entry><string>A parameter encountered was bad.</string><translation>De gebruikte parameter voldoet niet.</translation></entry>
+<entry><string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string><translation>De meegegeven parameter voor deze bewerking kan niet gevalideerd worden, of wordt niet geaccepteerd om andere redenen.</translation></entry>
+<entry><string>Compiler error</string><translation>Compilerfout</translation></entry>
+<entry><string>The Blocklayout compiler encountered an error.</string><translation>De Blocklayout compiler constateerde een fout</translation></entry>
+<entry><string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string><translation>De Blocklayout compiler constateerde een fout, waarvan het niet kan herstellen. Er is geen specifieke informatie beschikbaar.</translation></entry>
+<entry><string>Xaraya is not properly configured</string><translation>Xaraya is niet juist geconfigureerd</translation></entry>
+<entry><string>The combination of configuration settings has led to a conflict</string><translation>De combinaties van instellingen leidde tot een conflict</translation></entry>
+<entry><string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string><translation>Xaraya is geconfigureerd met instellingen die tot een conflicterende situatie oplevert. Sommige instellingen kunnen niet tegelijkertijd worden gebruikt.</translation></entry>
+<entry><string>Context does not exist</string><translation>Context bestaat niet.</translation></entry>
+<entry><string>A context element was not found.</string><translation>Een context element is niet gevonden.</translation></entry>
+<entry><string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string><translation>Deze fout omvat alle fouten met betrekking tot die situaties waar een context element (block, template, include) werd verwacht, maar niet gevonden.</translation></entry>
+<entry><string>Database Error</string><translation>Database Foutmelding</translation></entry>
+<entry><string>An error was encountered while attempting a database operation.</string><translation>Er is een fout geconstateerd bij het trachten uit te voeren van een database bewerking.</translation></entry>
+<entry><string>Database Query Error</string><translation>Database Query Foutmelding</translation></entry>
+<entry><string>An error was encountered while trying to execute a database query.</string><translation>Een fout trad op tijdens het uitvoeren van een database query</translation></entry>
+<entry><string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string><translation>Er is een fout geconstateerd bij het trachten uit te voeren van een database query.</translation></entry>
+<entry><string>Deprecated API</string><translation>Afgekeurde API</translation></entry>
+<entry><string>A function call encountered belongs to a deprecated API.</string><translation>De gebruikte functieaanroep verwijst naar een afgekeurde API.</translation></entry>
+<entry><string>A function call encountered belongs to an old API and is therefore no longer supported.</string><translation>De gebruikte functieaanroep verwijst naar een oude API en wordt daarom niet langer ondersteund.</translation></entry>
+<entry><string>Deprecated Blocklayout Attribute</string><translation>Afgekeurd Blocklayout Attribuut</translation></entry>
+<entry><string>A tag in a template contains a deprecated attribute.</string><translation>Een tag in een template bevat een afgekeurd attribuut.</translation></entry>
+<entry><string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string><translation>Een tag in een template bevat een afgekeurd attribuut en dient te worden vervangen door een nieuwe, of niet worden gebruikt. Zie de BL documentatie voor de juiste syntax.</translation></entry>
+<entry><string>PHP: Fatal Error</string><translation>PHP: fatale fout</translation></entry>
+<entry><string>A system error was received from the PHP interpreter.</string><translation>Een systeemfout trad op vanuit de PHP interpreter.</translation></entry>
+<entry><string>There is an error in the PHP code that is being processed.</string><translation>Er is een fout in de PHP code die wordt verwerkt.</translation></entry>
+<entry><string>PHP: Warning</string><translation>PHP: waarschuwing</translation></entry>
+<entry><string>PHP: Parse Error</string><translation>PHP: verwerkingsfout</translation></entry>
+<entry><string>PHP: Error Notice</string><translation>PHP: Foutmelding</translation></entry>
+<entry><string>PHP: Core Error</string><translation>PHP: kern fout</translation></entry>
+<entry><string>PHP: Core Warning</string><translation>PHP: kern waarschuwing</translation></entry>
+<entry><string>PHP: Compile Error</string><translation>PHP: compileer fout.</translation></entry>
+<entry><string>PHP: Compile Warning</string><translation>PHP: compileer waarschuwing</translation></entry>
+<entry><string>PHP: User Error</string><translation>PHP: gebruikersfout</translation></entry>
+<entry><string>PHP: User Warning</string><translation>PHP: gebruikerswaarschuwing</translation></entry>
+<entry><string>User Notice</string><translation>Gebruikersbericht</translation></entry>
+<entry><string>Empty Parameter</string><translation>Lege parameter</translation></entry>
+<entry><string>A parameter value was not provided.</string><translation>Een parameter waarde werd niet gegeven.</translation></entry>
+<entry><string>A parameter was expected during this operation, but none was found.</string><translation>De parameter bevat geen waarde.</translation></entry>
+<entry><string>Event is not registered</string><translation>Gebeurtenis is niet geregistreerd.</translation></entry>
+<entry><string>An unknown event was encountered.</string><translation>Er is een onbekende gebeurtenis geconstateerd.</translation></entry>
+<entry><string>A reference to an event was encountered that is unknown to the system.</string><translation>Een referentie naar een gebeurtenis is onbekend in het systeem.</translation></entry>
+<entry><string>Unknown system error</string><translation>Er is een onbekende systeem fout geconstateerd.</translation></entry>
+<entry><string>An unknown system error was encountered.</string><translation>Er is een onbekende systeem fout geconstateerd.</translation></entry>
+<entry><string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string><translation>Het fout systeem constateerde een fout die het niet kan identificeren. Help ons alstublieft dit te verhelpen door een probleemmelding te maken bij &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation></entry>
+<entry><string>Function failed</string><translation>Functie ontbreekt</translation></entry>
+<entry><string>A call to a function returned a bad result.</string><translation>De aangeroepen functie geeft een foutmelding terug.</translation></entry>
+<entry><string>The function executed correctly, but the result was a failure.</string><translation>De functie is correct uitgevoerd, maar het resultaat is mislukt.</translation></entry>
+<entry><string>Unknown ID</string><translation>Onbekende ID</translation></entry>
+<entry><string>An expected ID was not found.</string><translation>Een verwacht ID is niet gevonden.</translation></entry>
+<entry><string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string><translation>Een onderwerp is opgevraagd door een niet herkend ID. Dit kan zijn doordat het onderwerp is verplaatst, gewijzigd, of niet bestaat.</translation></entry>
+<entry><string>Invalid attribute</string><translation>Ongeldig attribuut</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid attribute.</string><translation>De Blocklayout verwerker constateerde een ongeldig attribuut.</translation></entry>
+<entry><string>Invalid entity</string><translation>Ongeldige entiteit</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid entity.</string><translation>De Blocklayout verwerker constateerde een ongeldige entiteit.</translation></entry>
+<entry><string>Invalid file</string><translation>Ongeldig bestand</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid file.</string><translation>De Blocklayout verwerker constateerde een ongeldig bestand.</translation></entry>
+<entry><string>The file was either not found, or could not be read properly.</string><translation>Het bestand is niet gevonden, of kan niet juist worden gelezen.</translation></entry>
+<entry><string>Invalid instruction</string><translation>Ongeldige instructie</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid instruction.</string><translation>De Blocklayout verwerker constateerde een ongeldige instructie</translation></entry>
+<entry><string>Invalid special variable</string><translation>Ongeldige speciale variabele</translation></entry>
+<entry><string>The Blocklayout parser encountered a problem with a special variable.</string><translation>De Blocklayout verwerker constateerde een probleem met een speciale variabele.</translation></entry>
+<entry><string>Invalid syntax</string><translation>Ongeldige syntax</translation></entry>
+<entry><string>The Blocklayout parser encountered a syntax error.</string><translation>De Blocklayout verwerker constateerde een syntax fout.</translation></entry>
+<entry><string>Invalid tag</string><translation>Ongeldige tag</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid tag.</string><translation>De Blocklayout verwerker constateerde een ongeldige tag.</translation></entry>
+<entry><string>The tag encountered does not conform to XML syntax.</string><translation>De benaderde tag is niet in overeenstemming met de XML syntax.</translation></entry>
+<entry><string>Locale not available</string><translation>Lokalisatie niet beschikbaar</translation></entry>
+<entry><string>Locale does not exist</string><translation>Lokalisatie bestaat niet</translation></entry>
+<entry><string>An unknown locale was encountered.</string><translation>Er is een onbekende lokalisatie geconstateerd.</translation></entry>
+<entry><string>A reference to a locale was encountered that is unknown to the system.</string><translation>Een referentie naar een lokalisatie is onbekend in het systeem.</translation></entry>
+<entry><string>Missing attribute</string><translation>Attribuut mist</translation></entry>
+<entry><string>The Blocklayout parser could not find a tag attribute.</string><translation>De Blocklayout verwerker kan een tag attribuut niet vinden.</translation></entry>
+<entry><string>A tag attribute required by syntax was not found.</string><translation>Een door de syntax vereiste tag attribuut is niet gevonden.</translation></entry>
+<entry><string>Missing parameter</string><translation>Parameter mist</translation></entry>
+<entry><string>The Blocklayout parser could not resolve a tag parameter.</string><translation>De Blocklayout verwerker kan een tag parameter niet afhandelen.</translation></entry>
+<entry><string>A tag parameter could not be resolved because of bad syntax.</string><translation>Een tag parameter kan niet worden afgehandeld vanwege een onjuiste syntax.</translation></entry>
+<entry><string>Module Dependency</string><translation>Module afhankelijkheden</translation></entry>
+<entry><string>A module call failed because of an unsatisifed dependency.</string><translation>De module aanroep mislukte vanwege een onterecht veronderstelde afhankelijkheid.</translation></entry>
+<entry><string>The current module cannot execute because another module that must first be installed is not present.</string><translation>De huidige module kan niet worden uitgevoerd, omdat een andere module die eerst geïnstalleerd moet zijn niet aanwezig is.</translation></entry>
+<entry><string>Module file does not exist</string><translation>Module bestand bestaat niet</translation></entry>
+<entry><string>An operation requires a module file that cannot be found.</string><translation>Een bewerking vereist een module bestand dat niet wordt gevonden.</translation></entry>
+<entry><string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Het bestand kan missen of de naam kan veranderd zijn. Opm.: Deze fout komt ook soms voor waneer een bestand niet verwerkt kan worden omdat er PHP fouten in zitten.</translation></entry>
+<entry><string>Module function does not exist</string><translation>Module functie bestaat niet.</translation></entry>
+<entry><string>A call has been made to a module function that cannot be found.</string><translation>De aangeroepen module functie kan niet worden gevonden.</translation></entry>
+<entry><string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Het bestand waarin de functie zou moeten staan mist. Indien dit niet het geval is, treedt wellicht de fout op omdat de daadwerkelijk functie een andere naam heeft of niet bestaat. Opm.: Deze fout komt soms ook voor wanneer het bestand niet verwerkt kan worden omdat het PHP fouten bevat.</translation></entry>
+<entry><string>Module is not active</string><translation>Module functie is niet actief.</translation></entry>
+<entry><string>A call has been made to a module that is not active.</string><translation>De aangeroepen module is niet actief.</translation></entry>
+<entry><string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string><translation>De aangeroepen module is nog niet geactiveerd/geïnstalleerd. Gebruik de actieve link van de modulen module (Modules-&gt;Toon Alles) om deze te installeren.</translation></entry>
+<entry><string>Module does not exist</string><translation>Module bestaat niet.</translation></entry>
+<entry><string>A call has been made to a module that cannot be found</string><translation>De aangeroepen module kan niet worden gevonden.</translation></entry>
+<entry><string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Een module werd aangeroepen die nog niet is geinstalleerd of niet aanwezig is. Gebruik de 'activeer' link in de 'modules' module (Modules -&gt; Toon Alles) om modules te installeren. Opm.: Deze fout komt ook voor wanneer een bestand niet verwerkt kan worden omdat het PHP fouten bevat.</translation></entry>
+<entry><string>No Privilege</string><translation>Geen privilege</translation></entry>
+<entry><string>You do not have the privileges for this operation.</string><translation>U heeft niet het privilege om deze bewerking uit te voeren.</translation></entry>
+<entry><string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string><translation>Een gebruiker heeft een bewerking willen uitvoeren zonder te beschikken over de juiste privileges. Privileges moeten worden toegekend door de systeem beheerder(s).</translation></entry>
+<entry><string>Not implemented</string><translation>Dit is niet geimplementeerd.</translation></entry>
+<entry><string>The requested feature is not available.</string><translation>De gevraagde eigenschap is niet aanwezig.</translation></entry>
+<entry><string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string><translation>Een verzoek werd gedaan om een handeling uit te voeren die niet in deze installatie beschikbaar is. De functionaliteit mist of is onbeschikbaar in de huidige versie van Xaraya.</translation></entry>
+<entry><string>System error</string><translation>Systeem fout</translation></entry>
+<entry><string>A system error was encountered.</string><translation>Er is een systeemfout geconstateerd.</translation></entry>
+<entry><string>Template does not exist</string><translation>Template bestaat niet.</translation></entry>
+<entry><string>An unknown template name was encountered.</string><translation>Er is een onbekende template naam geconstateerd.</translation></entry>
+<entry><string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string><translation>Er is een poging gedaan een niet te vinden template te verwerken. De template kan zijn verwijderd, niet meer bestaan of de naam kan zijn gewijzigd.</translation></entry>
+<entry><string>Theme does not exist</string><translation>Thema bestaat niet.</translation></entry>
+<entry><string>An unknown theme name was encountered.</string><translation>Er is een onbekende thema naam geconstateerd.</translation></entry>
+<entry><string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string><translation>Er is een poging gedaan een niet te vinden thema te laten zien. Het thema kan zijn verwijderd, niet meer bestaan of de naam kan zijn gewijzigd.</translation></entry>
+<entry><string>Unable to load</string><translation>Het is niet mogelijk om te laden.</translation></entry>
+<entry><string>An error was encountered during a load operation.</string><translation>Er is een fout geconstateerd tijdens het laden.</translation></entry>
+<entry><string>The system was unable to successfully load a component, such as a module or theme.</string><translation>Het systeem was niet bij machtte een component, zoals een module of thema, met succes te laden.</translation></entry>
+<entry><string>Unknown Error</string><translation>De fout is onbekend.</translation></entry>
+<entry><string>An unknown error was encountered.</string><translation>Er is een onbekende fout geconstateerd.</translation></entry>
+<entry><string>Variable is not registered</string><translation>Variabele is niet geregistreerd.</translation></entry>
+<entry><string>You are attempting to call a variable that the system does not recognize.</string><translation>U probeert een variabele aan te roepen die niet door het systeem wordt herkend.</translation></entry>
+<entry><string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string><translation>Er is een fout geconstateerd tijdens een aanroep van een variabele. De variabele kan zijn verwijderd of de naam kan zijn gewijzigd.</translation></entry>
+<entry><string>XML Parser Error</string><translation>XML verwerker fout</translation></entry>
+<entry><string>The XML parser has encountered an error.</string><translation>De XML verwerker constateerde een fout.</translation></entry>
+<entry><string>The XML parser tried to execute a line that was not well formed.</string><translation>De XML verwerker probeerde een regel uit te voeren die niet juist gevormd is.</translation></entry>
+<entry><string>The site is locked</string><translation>De site staat op slot</translation></entry>
+<entry><string>No access at this time</string><translation>Op dit moment heeft u geen toegang</translation></entry>
+<entry><string>Empty database_name.</string><translation>Lege database naam.</translation></entry>
+<entry><string>Unknown database type: '#(1)'.</string><translation>Onbekend database type: '#(1)'.</translation></entry>
+<entry><string>Empty tableName.</string><translation>Lege tabel naam</translation></entry>
+<entry><string>Not array fields.</string><translation>Geen array velden.</translation></entry>
+<entry><string>Invalid args (must be an array, command key must be set).</string><translation>Ongeldige argumenten (moet een array zijn, de &quot;command key&quot; met gezet zijn)</translation></entry>
+<entry><string>Invalid index (must be an array, fields key must be an array, name key must be set).</string><translation>Ongeldige index (moet een array zijn, de veld sleutel moet een array zijn, de naam sleutel moet bestaan).</translation></entry>
+<entry><string>Invalid args (field key must be set).</string><translation>Ongeldige argumenten (veld sleutel moet bestaan)</translation></entry>
+<entry><string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string><translation>Ongeldige argumenten (type,size,default,null, unsigned, increment, of primary_key moet bestaan)</translation></entry>
+<entry><string>Invalid args (new_name key must be set.)</string><translation>Ongeldige argumenten (new_name sleutel moet bestaan).</translation></entry>
+<entry><string>Unknown command: '#(1)'.</string><translation>Onbekend commando: '#(1)'</translation></entry>
+<entry><string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string><translation></translation></entry>
+<entry><string>Invalid #(1) for function #(2)() in #(3)</string><translation>Ongeldige #(1) voor functie #(2)() in #(3)</translation></entry>
+<entry><string>No validation type present.</string><translation>Er is geen validatie type aanwezig.</translation></entry>
+<entry><string>The #(1) type '#(2)' could not be found.</string><translation>Het #(1) type #(2) kon niet worden gevonden.</translation></entry>
+<entry><string>Variable #(1) is not an array: &quot;#(2)&quot;</string><translation>Variabel #(1) is geen array: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an array: &quot;#(1)&quot;</string><translation>Dit is geen array: &quot;#(1)&quot;.</translation></entry>
+<entry><string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string><translation>De array variabele heeft minder elementen &quot;#(1)&quot; dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string><translation>De array variabele heeft meer elementen &quot;#(1)&quot; dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string><translation>Variabele #(1) is geen boolean: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a boolean: &quot;#(1)&quot;</string><translation>Geen boolean: &quot;#(1)&quot;</translation></entry>
+<entry><string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string><translation>Variabele #(1) is geen checkbox: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a scheckbox: &quot;#(1)&quot;</string><translation>Geen checkbox: &quot;#(1)&quot;</translation></entry>
+<entry><string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string><translation>Variabele #(1) komt niet overeen met het type e-mail: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an e-mail type: &quot;#(1)&quot;</string><translation>Geen e-mail type: &quot;#(1)&quot;</translation></entry>
+<entry><string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string><translation>De invoer &quot;#(1)&quot; is niet aanwezig in de opties voor #(2):</translation></entry>
+<entry><string>Input &quot;#(1)&quot; was not one of the possibilities.</string><translation>De invoer &quot;#(1)&quot; is niet een van de opties</translation></entry>
+<entry><string>Variable #(1) is not a float type: &quot;#(2)&quot;</string><translation>Variabele #(1) is geen drijvende komma getal: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a float type: &quot;#(1)&quot;</string><translation>Geen drijvende komma getal: &quot;#(1)&quot;</translation></entry>
+<entry><string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string><translation>Drijvende komma waarde &quot;#(1)&quot; is kleiner dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string><translation>Drijvende komma waarde &quot;#(1)&quot; is groter dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string><translation>Variabele #(1) bevat een tag die niet is toegestaan: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an allowed tag: &quot;#(1)&quot;</string><translation>Tag niet toegestaan: &quot;#(1)&quot;</translation></entry>
+<entry><string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string><translation>Attributen zijn niet toegestaan voor deze tag in de variabele #(1): &quot;#(2)&quot;</translation></entry>
+<entry><string>Variable #(1) is not an integer: &quot;#(2)&quot;</string><translation>Variabele #(1) is geen geheel getal: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an integer: &quot;#(1)&quot;</string><translation>Geen geheel getal: &quot;#(1)&quot;</translation></entry>
+<entry><string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string><translation>Integer waarde &quot;#(1)&quot; is kleiner dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string><translation>Integer waarde &quot;#(1)&quot; is groter dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>The variable is not set!</string><translation>De variabele is niet gezet!</translation></entry>
+<entry><string>Invalid e-mail #(1), the mail server doesnt recognize it.</string><translation>Ongeldig  e-mail adres: #(1), de mailserver herkent dit niet.</translation></entry>
+<entry><string>Unable to connect to the mail server #(1) for e-mail #(2).</string><translation>Het is niet mogelijk verbinding te leggen met de mail server #(1) voor e-mail #(2).</translation></entry>
+<entry><string>Variable #(1) should not be empty: &quot;#(2)&quot;</string><translation>Variabele #(1) mag niet leeg zijn: &quot;#(2)&quot;</translation></entry>
+<entry><string>Should not be empty: &quot;#(1)&quot;</string><translation>Mag niet leeg zijn: &quot;#(1)&quot;</translation></entry>
+<entry><string>There is no parameter to check against in the Regexp validation of #(1)</string><translation>Er is geen parameter om te controleren met de reg. expressie validatie van #(1)</translation></entry>
+<entry><string>There is no parameter to check against in the Regexp validation</string><translation>Er is geen parameter om te controleren met de reg. expressie validatie</translation></entry>
+<entry><string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string><translation>Variabele #(1): &quot;#(2)&quot; voldoet niet aan patroon &quot;#(3)&quot;</translation></entry>
+<entry><string>Variable #(1) is not a string: &quot;#(2)&quot;</string><translation>Variabele #(1) is geen tekststring: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a string: &quot;#(1)&quot;</string><translation>Dit is geen string: &quot;#(1)&quot;.</translation></entry>
+<entry><string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string><translation>Omvang van de string &quot;#(1)&quot; is kleiner dan het gespecificeerde minimum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string><translation>Omvang van de string &quot;#(1)&quot; is groter dan het gespecificeerde maximum van &quot;#(2)&quot;.</translation></entry>
+<entry><string>This call needs to be removed</string><translation>Deze aanroep moet verwijderd worden.</translation></entry>
+<entry><string>The directories under #(1) must be writeable by PHP.</string><translation>De directory onder #(1) moet schrijfbaar zijn door PHP.</translation></entry>
+<entry><string>Context type: #(1) and file name: #(2)</string><translation>Context type: #(1) en bestandsnaam: #(2).</translation></entry>
+<entry><string>Module or Theme Name #(1) is empty.</string><translation>Module- of Themanaam #(1) is leeg.</translation></entry>
+<entry><string>Empty RegId (#(1)) or RegId is equal to 0.</string><translation>Lege RegID (#(1)) of RegID is gelijk aan 0.</translation></entry>
+<entry><string>Unknown</string><translation>Onbekend</translation></entry>
+<entry><string>This module is not installed properly. Not all info could be retrieved</string><translation>Deze module is niet juist geinstalleerd. Niet all informatie kon worden opgehaald</translation></entry>
+<entry><string>Unable to find Base Info for Module: #(1)</string><translation>Het is niet mogelijk de Base info te vinden voor de module: #(1).</translation></entry>
+<entry><string>Module Name #(1) is empty.</string><translation>Modulenaam #(1) is leeg.</translation></entry>
+<entry><string>Could not load function file: [#(1)].</string><translation>Kon het functie bestand [#(1)] niet laden.</translation></entry>
+<entry><string>Error Caught:</string><translation>Afgevangen fout:</translation></entry>
+<entry><string>Module function #(1) does not exist.</string><translation>Module functie #(1) bestaat niet.</translation></entry>
+<entry><string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string><translation>Kon het functie bestand niet laden: [#(1)].\n\n Fout afgevangen:\n #(2)</translation></entry>
+<entry><string>Module API function #(1) does not exist or could not be loaded.</string><translation>Module API functie #(1) bestaat niet of kon niet worden geladen.</translation></entry>
+<entry><string>Empty Module or Theme Name (#(1)).</string><translation>Lege Module- of Themanaam.</translation></entry>
+<entry><string>Directory information #(1) is empty.</string><translation>Folder informatie #(1) is leeg.</translation></entry>
+<entry><string>Cannot open file #(1).</string><translation>Kan bestand #(1) niet openen.</translation></entry>
+<entry><string>Wrong type, it must be 'module' or 'theme': #(1).</string><translation>Verkeerd type, het moet 'module' of 'theme' zijn: #(1)</translation></entry>
+<entry><string>Empty theme or module name (#(1)).</string><translation>Lege Thema- of modulenaam (#(1)).</translation></entry>
+<entry><string>Empty Theme or Module variable name (#(1)).</string><translation>Lege Thema of Module variabele naam (#(1)).</translation></entry>
+<entry><string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string><translation>Illegale attribuutnaam ('#(1)'): Attribuutnaam mag letters, nummers, _ en - bevatten, maar moet beginnen met een letter.</translation></entry>
+<entry><string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string><translation>Illegale attribuut vlaggen.</translation></entry>
+<entry><string>Illegal tag definition: '#(1)' is an invalid tag name.</string><translation>Illegale tag definitie: '#(1)' is een ongeldige tag naam.</translation></entry>
+<entry><string>Illegal tag definition: '#(1)' is an invalid handler.</string><translation>Illegale tag definitie: '#(1)' is een ongeldig.</translation></entry>
+<entry><string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string><translation>Illegale tag definitie voor vlaggen ('#(1)'): vlaggen moeten van het integer type zijn.</translation></entry>
+<entry><string>&lt;xar:#(1)&gt; tag is already defined.</string><translation>&lt;xar:#(1)&gt; tag al gedefinieerd.</translation></entry>
+<entry><string>&lt;xar:#(1)&gt; tag is not defined.</string><translation>&lt;xar:#(1)&gt; tag is niet gedefinieerd.</translation></entry>
+<entry><string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string><translation>'#(1)' attribuut in &lt;xar:#(2)&gt; tag heeft niet het juiste type aanduiding. Zie documentatie betreffende tag.</translation></entry>
+<entry><string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string><translation>Vereiste '#(1)' attribuut mist bij &lt;xar:#(2)&gt; tag. Zie documentatie betreffende tag.</translation></entry>
+<entry><string>Empty themeName (#(1)).</string><translation>Thema naam is leeg (#(1)).</translation></entry>
+<entry><string>#(1) css stylesheet file cannot be found at this location:</string><translation>#(1) css stylesheet bestand kan niet gevonden worden op deze locatie:</translation></entry>
+<entry><string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string><translation>#(1) (er kon geen geldige scope uit de xar:style tag gehaald worden)</translation></entry>
+<entry><string>Anonymous</string><translation>Anoniem</translation></entry>
+<entry><string>No Information</string><translation>Geen informatie</translation></entry>
+<entry><string>User identified by uid #(1) does not exist.</string><translation>De gebruiker met uid #(1) bestaat niet.</translation></entry>
+<entry><string>User variable #(1) was not correctly registered</string><translation>De gebruikersvariabele #(1) is niet correct geregistreerd.</translation></entry>
+<entry><string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string><translation>Veiligheidsgebied #(1) - Component #(2) - Instantie #(3) - Niveau #(4): Deze aanroep moet geconverteerd worden naar het Xaraya veiligheidssyteem.</translation></entry>
+<entry><string>Show the Users in this Group</string><translation>Toon de gebruikers in deze groep</translation></entry>
+<entry><string>Delete this Group</string><translation>Verwijder deze groep</translation></entry>
+<entry><string>Email the Users in this Group</string><translation>Email de gebruikers in deze groep</translation></entry>
+<entry><string>Show the Privileges assigned to this Group</string><translation>Toon de privileges toegekend aan deze groep</translation></entry>
+<entry><string>Test this Groups's Privileges</string><translation>Test de privileges van deze groep</translation></entry>
+<entry><string>subgroup</string><translation>deelgroep</translation></entry>
+<entry><string>subgroups</string><translation>deelgroepen</translation></entry>
+<entry><string>user</string><translation>gebruiker</translation></entry>
+<entry><string>users</string><translation>gebruikers</translation></entry>
+<entry><string>Modify this Group</string><translation>Wijzig deze groep</translation></entry>
+<entry><string>You must enter a user name and a valid email address.</string><translation>U moet een gebruikersnaam en een valide e-mail adres opgeven.</translation></entry>
+<entry><string>This entry already exists.</string><translation>Deze ingang bestaat al.</translation></entry>
+<entry><string>You must enter a name.</string><translation>U moet een naam opgeven.</translation></entry>
+<entry><string>deleted</string><translation>verwijderd</translation></entry>
+<entry><string>Parameters to winnow need to be arrays</string><translation>De parameter voor winnow moeten arrays zijn.</translation></entry>
+<entry><string>Did not find mask #(1) registered for an unspecified component in module #(2)</string><translation>Kon het masker #(1) niet vinden dat is geregistreerd voor een onbekend component in module #(2)</translation></entry>
+<entry><string>Did not find mask #(1) registered for component #(2) in module #(3)</string><translation>Kon het masker #(1) niet vinden dat is geregistreerd voor component #(2) in module #(3)</translation></entry>
+<entry><string>No privilege for #(1)</string><translation>Er is geen privilege voor #(1) aanwezig.</translation></entry>
+<entry><string>A query is missing in component #(1) of module #(2)</string><translation>Een query mist in component #(1) van module #(2)</translation></entry>
+<entry><string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string><translation>#(1) en #(2) hebben niet dezelfde instanties, #(3) | #(4) | #(5)</translation></entry>
 </translations>
