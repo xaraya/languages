@@ -1,175 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>Mode of Operation</string>
-		<translation>Toimintatila</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>The multilanguage system (MLS) works in three different modes.</string>
-		<translation>Monikielinen järjestelmä (MKJ) toimii kolmessa eri tilassa.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
-with the mbstring extension compiled in.</string>
-		<translation>Otathan huomioon, että et voi käyttää monikielisen järjestelmän UNBOXED-tilaa jos sinulla ei ole PHP:n 4.3.0-versiota (tai uudempaa) johon on käännetty mbstring-laajennus.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Single Language Mode (SINGLE)</string>
-		<translation>Yksikielinen tila (SINGLE)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
+<entry><string>Mode of Operation</string><translation>Toimintatila</translation></entry>
+<entry><string>The multilanguage system (MLS) works in three different modes.</string><translation>Monikielinen järjestelmä (MKJ) toimii kolmessa eri tilassa.</translation></entry>
+<entry><string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
+with the mbstring extension compiled in.</string><translation>Otathan huomioon, että et voi käyttää monikielisen järjestelmän UNBOXED-tilaa jos sinulla ei ole PHP:n 4.3.0-versiota (tai uudempaa) johon on käännetty mbstring-laajennus.</translation></entry>
+<entry><string>Single Language Mode (SINGLE)</string><translation>Yksikielinen tila (SINGLE)</translation></entry>
+<entry><string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
 built in. All information is stored coherently with the chosen character set (at installation time),
-and also user data is meaningful in the chosen character set.</string>
-		<translation>MKJ käyttää vain yhtä merkistöä joka on yleensä yksitavuinen, mutta se voi olla myös monitavuinen jos mbstring-laajennus on käytettävissä. Kaikki tiedot tallennetaan aina valitulla merkistöllä (jo asennusvaiheessa).</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Per Page Mode (BOXED)</string>
-		<translation>Sivukohtainen tila (BOXED)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
+and also user data is meaningful in the chosen character set.</string><translation>MKJ käyttää vain yhtä merkistöä joka on yleensä yksitavuinen, mutta se voi olla myös monitavuinen jos mbstring-laajennus on käytettävissä. Kaikki tiedot tallennetaan aina valitulla merkistöllä (jo asennusvaiheessa).</translation></entry>
+<entry><string>Per Page Mode (BOXED)</string><translation>Sivukohtainen tila (BOXED)</translation></entry>
+<entry><string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
 above can be applied here), but only one character set per page is used (this is an obvious concept maybe,
 but important to understand). Due to this fact content cannot be shared across through different
 language areas (for example an Arabic comment won't be shown in the English area even if
 they are referring to the same object, e.g. an article available in both English and Arabic).
 Another point is that every operation involves only a single language. This mode can produce
-unexpected results if mb_string is not installed.</string>
-		<translation>MKJ voi käyttää useampia merkistöjä sivustolla (tässä tilassa täytyy ottaa myös huomioon tallennetaanko tiedot yksitavuisella vai monitavuisella merkistöllä). Yhdellä sivulla voidaan käyttää vain yhtä merkistöä. Tästä johtuen sisältöä ei voida jakaa eri kielialueiden kesken (esim. arabiankielinen kommentti ei näy suomenkielisellä alueella vaikka ne viittaisivat samaan objektiin, kuten artikkeliin joka on saatavilla sekä suomenkielisenä että arabiankielisenä). Lisäksi jokainen järjestelmän operaatio koskee vain yhtä yksittäistä kieltä. Tämä tila voi tuottaa odottamattomia tuloksia jos mbstring-laajennusta ei ole asennettu.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is installed on this server, so you can give this mode a try</string>
-		<translation>mbstring-laajennus on asennettu palvelimelle, joten voit kokeilla tätä tilaa</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
-		<translation>VAROITUS: mbstring-laajennusta EI OLE asennettu palvelimelle, toimi varoen</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>Full Multilanguage (UNBOXED) (experimental!)</string>
-		<translation>Täysin monikielinen tila (UNBOXED) (kokeellinen!)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
+unexpected results if mb_string is not installed.</string><translation>MKJ voi käyttää useampia merkistöjä sivustolla (tässä tilassa täytyy ottaa myös huomioon tallennetaanko tiedot yksitavuisella vai monitavuisella merkistöllä). Yhdellä sivulla voidaan käyttää vain yhtä merkistöä. Tästä johtuen sisältöä ei voida jakaa eri kielialueiden kesken (esim. arabiankielinen kommentti ei näy suomenkielisellä alueella vaikka ne viittaisivat samaan objektiin, kuten artikkeliin joka on saatavilla sekä suomenkielisenä että arabiankielisenä). Lisäksi jokainen järjestelmän operaatio koskee vain yhtä yksittäistä kieltä. Tämä tila voi tuottaa odottamattomia tuloksia jos mbstring-laajennusta ei ole asennettu.</translation></entry>
+<entry><string>It is installed on this server, so you can give this mode a try</string><translation>mbstring-laajennus on asennettu palvelimelle, joten voit kokeilla tätä tilaa</translation></entry>
+<entry><string>WARNING: mb_string is NOT installed on this server, proceed with caution</string><translation>VAROITUS: mbstring-laajennusta EI OLE asennettu palvelimelle, toimi varoen</translation></entry>
+<entry><string>Full Multilanguage (UNBOXED) (experimental!)</string><translation>Täysin monikielinen tila (UNBOXED) (kokeellinen!)</translation></entry>
+<entry><string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
 conversion is needed for the content representation. Every page is always shown according to
 the user chosen language, but the page can contain texts in other languages
-(for example a French article and comments inside an English page).</string>
-		<translation>MKJ käyttää yleiskäyttöistä merkistöä kaikelle (eli UTF-8:aa), jolloin esitettävälle sisällölle ei tarvitse tehdä merkistömuunnosta. Jokainen sivu näkyy aina käyttäjän valitsemalla kielellä, mutta sivu voi sisältää tekstiä myös muista kielistä (esimerkiksi suomenkielinen sivu jonka sisällä on ranskankielinen artikkeli ja kommentteja).</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>Language/Locale Configuration</string>
-		<translation>Kielen/Lokaalin asetukset</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="90" />
-		</references>
-	</entry>
-	<entry>
-		<string>The following locales are available to this site:</string>
-		<translation>Tällä sivustolla on käytettävissä seuraavat lokaalit:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default locale to load</string>
-		<translation>Oletuksena ladattava lokaali</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Locale:</string>
-		<translation>Oletuslokaali:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations backend</string>
-		<translation>Käännösten taustatekniikka</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="134" />
-		</references>
-	</entry>
-	<entry>
-		<string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string>
-		<translation>Xarayan ja sen moduulien käännetyt tiedot voidaan tallentaa eri taustatekniikoilla. Seuraavat taustatekniikat ovat tuettuna:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations Backend</string>
-		<translation>Käännösten taustatekniikka</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="142" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations Backend:</string>
-		<translation>Käännösten taustatekniikka:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="143" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML (good for interoperability)</string>
-		<translation>XML (hyvä yhteentoimivuuden kannalta)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="147" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP (good for programmed access)</string>
-		<translation>PHP (hyvä ohjelmoinnin kannalta)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="148" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="152" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML with caching in PHP (new experimental)</string>
-		<translation>XML-tekniikka PHP-välimuistilla (uusi kokeellinen)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="149" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="153" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="157" />
-		</references>
-	</entry>
+(for example a French article and comments inside an English page).</string><translation>MKJ käyttää yleiskäyttöistä merkistöä kaikelle (eli UTF-8:aa), jolloin esitettävälle sisällölle ei tarvitse tehdä merkistömuunnosta. Jokainen sivu näkyy aina käyttäjän valitsemalla kielellä, mutta sivu voi sisältää tekstiä myös muista kielistä (esimerkiksi suomenkielinen sivu jonka sisällä on ranskankielinen artikkeli ja kommentteja).</translation></entry>
+<entry><string>Language/Locale Configuration</string><translation>Kielen/Lokaalin asetukset</translation></entry>
+<entry><string>The following locales are available to this site:</string><translation>Tällä sivustolla on käytettävissä seuraavat lokaalit:</translation></entry>
+<entry><string>Default locale to load</string><translation>Oletuksena ladattava lokaali</translation></entry>
+<entry><string>Default Locale:</string><translation>Oletuslokaali:</translation></entry>
+<entry><string>Translations backend</string><translation>Käännösten taustatekniikka</translation></entry>
+<entry><string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string><translation>Xarayan ja sen moduulien käännetyt tiedot voidaan tallentaa eri taustatekniikoilla. Seuraavat taustatekniikat ovat tuettuna:</translation></entry>
+<entry><string>Translations Backend</string><translation>Käännösten taustatekniikka</translation></entry>
+<entry><string>Translations Backend:</string><translation>Käännösten taustatekniikka:</translation></entry>
+<entry><string>XML (good for interoperability)</string><translation>XML (hyvä yhteentoimivuuden kannalta)</translation></entry>
+<entry><string>PHP (good for programmed access)</string><translation>PHP (hyvä ohjelmoinnin kannalta)</translation></entry>
+<entry><string>XML with caching in PHP (new experimental)</string><translation>XML-tekniikka PHP-välimuistilla (uusi kokeellinen)</translation></entry>
 </translations>

@@ -1,86 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>Welcome to Xaraya Upgrade</string>
-		<translation>Tervetuloa Xarayan päivitykseen</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Ensure you have reviewed the UPGRADE.txt file or the &lt;a href=&quot;#(1)&quot;&gt;Xaraya Upgrade Guidelines&lt;/a&gt;, and relevant
-comments for your version upgrade before continuing.</string>
-		<translation>Varmista, että olet lukenut UPGRADE.txt -tiedoston tai &lt;a href=&quot;#(1)&quot;&gt;Xarayan päivittämisoppaan&lt;/a&gt; sekä oleelliset kommentit tästä päivityksestä ennen kuin jatkat eteenpäin.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>This upgrade process updates your database and some system files but &lt;strong&gt;cannot upgrade&lt;/strong&gt; your theme and templates!</string>
-		<translation>Päivitys korjaa tietokannan ja joitakin järjestelmän tiedostoja, mutta se &lt;strong&gt;ei voi päivittää&lt;/strong&gt; teemaasi eikä itse tekemiäsi mallinteita!</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>To ensure a quick and smooth upgrade, please check and address the following important theme and template considerations &lt;strong&gt;before&lt;/strong&gt; continuing.</string>
-		<translation>Varmistaaksesi nopean ja vaivattoman päivityksen, tarkista ja korjaa seuraavat tärkeät teema- ja mallinnemuutokset &lt;strong&gt;ennen&lt;/strong&gt; kuin jatkat päivitystä.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Adminpanels module has been deprecated as of Version 1.1 and no longer available. The blocks have been moved to the Base module.</string>
-		<translation>Hallintavalikko-moduuli on vanhentunut versiossa 1.1 eikä sitä ole enää olemassa. Lohkot ovat siirtyneet Pohja-moduuliin.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please check your theme templates for use of any Adminpanel module references. You will need to change references to &lt;strong&gt;adminpanels&lt;/strong&gt; in your theme or templates
-to &lt;strong&gt;base&lt;/strong&gt; module. Remember particularly to change 'adminmenu' and 'waiting content' blocks tags to refer now to the base module, and update other Adminpanels links.</string>
-		<translation>Tarkista ettei teemojesi mallinne-tiedostot sisällä viittauksia Hallintavalikko-moduuliin. Sinun pitää muuttaa &lt;strong&gt;adminpanels&lt;/strong&gt;-viittaukset &lt;strong&gt;base&lt;/strong&gt; moduuliksi kaikista teemoista tai mallinne-tiedostoista. Muista erityisesti muuttaa 'adminmenu' ja 'waiting content' -lohkojen muotoilukoodit (tagit) osoittamaan Pohja-moduuliin sekä päivittää muut Hallintavalikko-linkit.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Make sure your Adminpanel block templates for any compact menu block, adminmenu or waiting content blocks are also moved to &lt;strong&gt;modules/base&lt;/strong&gt; directory in your theme.</string>
-		<translation>Varmista, että Hallintavalikon mallinteet kaikille valikkolohkoille, ylläpitäjän valikolle tai sisältöä odotetaan -lohkoille on siirretty &lt;strong&gt;modules/base&lt;/strong&gt; -hakemistoon oman teemasi alla.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>As of Version 1.1 the core login block and function in the Roles module has been moved to the
-Authsystem Module at</string>
-		<translation>Versiosta 1.1 lähtien ytimen sisäänkirjautumislohko ja funktio Roolit-moduulissa on siirretty Autentikointi-moduuliin osoitteessa</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can still login by browsing to</string>
-		<translation>Voit silti kirjoittautua sisään selaamalla osoitteeseen</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>If you allow User Registration on your site, you must ensure you have the &lt;strong&gt;Registration module&lt;/strong&gt; in your Xaraya module directory,
-install, and configure it to continue user registration on your site as from Version 1.1 .</string>
-		<translation>Jos sallit käyttäjän rekisteröitymisen sivullesi, sinun tulee valmistaa, että sinulla on &lt;strong&gt;Rekisteröinti-moduuli&lt;/strong&gt; Xarayan moduuli-hakemistossa. Asenna ja muokkaa moduulin asetuksia salliaksesi käyttäjien rekisteröitymisen sivullesi myös versiossa 1.1.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Country Listing Dynamic Data property has changed templates in Version 1.1 to refer to ID as value
+<entry><string>Welcome to Xaraya Upgrade</string><translation>Tervetuloa Xarayan päivitykseen</translation></entry>
+<entry><string>Ensure you have reviewed the UPGRADE.txt file or the &lt;a href=&quot;#(1)&quot;&gt;Xaraya Upgrade Guidelines&lt;/a&gt;, and relevant
+comments for your version upgrade before continuing.</string><translation>Varmista, että olet lukenut UPGRADE.txt -tiedoston tai &lt;a href=&quot;#(1)&quot;&gt;Xarayan päivittämisoppaan&lt;/a&gt; sekä oleelliset kommentit tästä päivityksestä ennen kuin jatkat eteenpäin.</translation></entry>
+<entry><string>This upgrade process updates your database and some system files but &lt;strong&gt;cannot upgrade&lt;/strong&gt; your theme and templates!</string><translation>Päivitys korjaa tietokannan ja joitakin järjestelmän tiedostoja, mutta se &lt;strong&gt;ei voi päivittää&lt;/strong&gt; teemaasi eikä itse tekemiäsi mallinteita!</translation></entry>
+<entry><string>To ensure a quick and smooth upgrade, please check and address the following important theme and template considerations &lt;strong&gt;before&lt;/strong&gt; continuing.</string><translation>Varmistaaksesi nopean ja vaivattoman päivityksen, tarkista ja korjaa seuraavat tärkeät teema- ja mallinnemuutokset &lt;strong&gt;ennen&lt;/strong&gt; kuin jatkat päivitystä.</translation></entry>
+<entry><string>The Adminpanels module has been deprecated as of Version 1.1 and no longer available. The blocks have been moved to the Base module.</string><translation>Hallintavalikko-moduuli on vanhentunut versiossa 1.1 eikä sitä ole enää olemassa. Lohkot ovat siirtyneet Pohja-moduuliin.</translation></entry>
+<entry><string>Please check your theme templates for use of any Adminpanel module references. You will need to change references to &lt;strong&gt;adminpanels&lt;/strong&gt; in your theme or templates
+to &lt;strong&gt;base&lt;/strong&gt; module. Remember particularly to change 'adminmenu' and 'waiting content' blocks tags to refer now to the base module, and update other Adminpanels links.</string><translation>Tarkista ettei teemojesi mallinne-tiedostot sisällä viittauksia Hallintavalikko-moduuliin. Sinun pitää muuttaa &lt;strong&gt;adminpanels&lt;/strong&gt;-viittaukset &lt;strong&gt;base&lt;/strong&gt; moduuliksi kaikista teemoista tai mallinne-tiedostoista. Muista erityisesti muuttaa 'adminmenu' ja 'waiting content' -lohkojen muotoilukoodit (tagit) osoittamaan Pohja-moduuliin sekä päivittää muut Hallintavalikko-linkit.</translation></entry>
+<entry><string>Make sure your Adminpanel block templates for any compact menu block, adminmenu or waiting content blocks are also moved to &lt;strong&gt;modules/base&lt;/strong&gt; directory in your theme.</string><translation>Varmista, että Hallintavalikon mallinteet kaikille valikkolohkoille, ylläpitäjän valikolle tai sisältöä odotetaan -lohkoille on siirretty &lt;strong&gt;modules/base&lt;/strong&gt; -hakemistoon oman teemasi alla.</translation></entry>
+<entry><string>As of Version 1.1 the core login block and function in the Roles module has been moved to the
+Authsystem Module at</string><translation>Versiosta 1.1 lähtien ytimen sisäänkirjautumislohko ja funktio Roolit-moduulissa on siirretty Autentikointi-moduuliin osoitteessa</translation></entry>
+<entry><string>You can still login by browsing to</string><translation>Voit silti kirjoittautua sisään selaamalla osoitteeseen</translation></entry>
+<entry><string>If you allow User Registration on your site, you must ensure you have the &lt;strong&gt;Registration module&lt;/strong&gt; in your Xaraya module directory,
+install, and configure it to continue user registration on your site as from Version 1.1 .</string><translation>Jos sallit käyttäjän rekisteröitymisen sivullesi, sinun tulee valmistaa, että sinulla on &lt;strong&gt;Rekisteröinti-moduuli&lt;/strong&gt; Xarayan moduuli-hakemistossa. Asenna ja muokkaa moduulin asetuksia salliaksesi käyttäjien rekisteröitymisen sivullesi myös versiossa 1.1.</translation></entry>
+<entry><string>The Country Listing Dynamic Data property has changed templates in Version 1.1 to refer to ID as value
 instead of Name. If you have been using this DD property, you will have to override the template to
-continue to use Name as the value.</string>
-		<translation>Dynaamisen tiedon maalista-ominaisuus on vaihtanut mallinteita versiossa 1.1 viitaten ID-arvoon Name-kentän sijaan. Jos olet käyttänyt tätä DD-ominaisuutta, sinun pitää korvata mallinne jatkaaksesi Name-kentän käyttöä.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-upgrade1.xd" line="58" />
-		</references>
-	</entry>
+continue to use Name as the value.</string><translation>Dynaamisen tiedon maalista-ominaisuus on vaihtanut mallinteita versiossa 1.1 viitaten ID-arvoon Name-kentän sijaan. Jos olet käyttänyt tätä DD-ominaisuutta, sinun pitää korvata mallinne jatkaaksesi Name-kentän käyttöä.</translation></entry>
 </translations>

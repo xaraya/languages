@@ -1,264 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>official icon</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>The mail module controls the ways that your site sends mail to users or groups of users.
+<entry><string>official icon</string><translation></translation></entry>
+<entry><string>What is it?</string><translation></translation></entry>
+<entry><string>The mail module controls the ways that your site sends mail to users or groups of users.
 This is a utility module that takes information from other modules installed on your site and formats
-the mail for them. At its heart, this module is using the</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>phpmailer</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>classes for processing. These classes extend Xaraya to
-allow you to use SMTP, SendMail or the normal PHP Mail functions.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>A number of choices are available in the menu:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Test Configuration&lt;/strong&gt;: Test your current mail system configuration
-settings by sending an email</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Mail Queue&lt;/strong&gt;: This option is only available when you have the
-Scheduler module installed</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Notification Template&lt;/strong&gt;: Allows you to customize the notification
-templates that are available.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: From this menu option, you can update the
-necessary configuration options</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Mail Queue - Scheduling mail</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>This option allows you to view mail scheduled for sending. Other modules can request
+the mail for them. At its heart, this module is using the</string><translation></translation></entry>
+<entry><string>phpmailer</string><translation></translation></entry>
+<entry><string>classes for processing. These classes extend Xaraya to
+allow you to use SMTP, SendMail or the normal PHP Mail functions.</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation></translation></entry>
+<entry><string>A number of choices are available in the menu:</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Test Configuration&lt;/strong&gt;: Test your current mail system configuration
+settings by sending an email</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;View Mail Queue&lt;/strong&gt;: This option is only available when you have the
+Scheduler module installed</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Notification Template&lt;/strong&gt;: Allows you to customize the notification
+templates that are available.</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: From this menu option, you can update the
+necessary configuration options</string><translation></translation></entry>
+<entry><string>View Mail Queue - Scheduling mail</string><translation></translation></entry>
+<entry><string>This option allows you to view mail scheduled for sending. Other modules can request
 that a certain mail be sent no earlier than a specific time. In order to support that, you must
 install Scheduler. You then need to configure the Mail module to use the 'scheduler' and check
 if any mails need to be sent e.g. every x hours. Otherwise, those mails will be sent immediately.
 Please note that if you stop the scheduler or if it isn't triggered, previously scheduled mails
-will not be sent.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Mail module can be hooked to other modules (See Included Hooks) to provide notification
+will not be sent.</string><translation></translation></entry>
+<entry><string>The Mail module can be hooked to other modules (See Included Hooks) to provide notification
 of changes, updates or deletion of content on your site. The Notification Template provides you with the
 means to change those templates to suit. There is a separate template for the 'changehook', 'createhook'
-and 'deletehook' notification.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is also a list of variables provided that you can easily add to your templates for
-further customization.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are four sections in the Modify Configuration option.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="72" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Mail Configuration&lt;/strong&gt; : default options for email address, email format,
-reply to and template debug option</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="77" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;HTML Options&lt;/strong&gt; : option to use and set html headers and footers for your
-emails</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="82" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Text Options&lt;/strong&gt; : various options to specify encoding and mail sending method.
+and 'deletehook' notification.</string><translation></translation></entry>
+<entry><string>There is also a list of variables provided that you can easily add to your templates for
+further customization.</string><translation></translation></entry>
+<entry><string>There are four sections in the Modify Configuration option.</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Mail Configuration&lt;/strong&gt; : default options for email address, email format,
+reply to and template debug option</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;HTML Options&lt;/strong&gt; : option to use and set html headers and footers for your
+emails</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Text Options&lt;/strong&gt; : various options to specify encoding and mail sending method.
 Depending on your choice of SMTP, Sendmail, Mail or QMail you may get further options to specify.
 You must ensure your SMTP or Sendmail is configured for use if you choose these options SMTP also
-has an option for scheduled email.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="89" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Filtering&lt;/strong&gt; : allows you to specify strings for search and replacement</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Mail Module has no blocks included at this time.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="104" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="109" />
-		</references>
-	</entry>
-	<entry>
-		<string>The mail hook allows you to send an email to the site admin when something (content, users, etc)
+has an option for scheduled email.</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Filtering&lt;/strong&gt; : allows you to specify strings for search and replacement</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation></translation></entry>
+<entry><string>The Mail Module has no blocks included at this time.</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation></translation></entry>
+<entry><string>The mail hook allows you to send an email to the site admin when something (content, users, etc)
 is created, changed or deleted. This can be configured by going to &lt;code&gt;Modules -&gt; Configure Hooks&lt;/code&gt; and
-clicking on Mail module. Check the modules where you want the hook activated for mail notification.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="116" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="119" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Mail module can be found at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="121" />
-		</references>
-	</entry>
-	<entry>
-		<string>Mail Module Extension page at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>Mail Module - Xaraya Extension 771</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="125" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Mail module found at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Mail</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Mail Module - Overview</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/mail/xartemplates/admin-main.xd" line="131" />
-		</references>
-	</entry>
+clicking on Mail module. Check the modules where you want the hook activated for mail notification.</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the Mail module can be found at</string><translation></translation></entry>
+<entry><string>Mail Module Extension page at</string><translation></translation></entry>
+<entry><string>Mail Module - Xaraya Extension 771</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on Mail module found at</string><translation></translation></entry>
+<entry><string>Related documentation on Mail</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Mail Module - Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>

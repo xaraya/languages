@@ -1,504 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>Administration - SiteContact</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mikä se on?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>SiteContact
+<entry><string>Administration - SiteContact</string><translation></translation></entry>
+<entry><string>What is it?</string><translation>Mikä se on?</translation></entry>
+<entry><string>SiteContact
 is a simple module that allows visitors to easily contact the Site
-Administrator by email. The module allows you to setup one or more forms with different fields and configurations using dynamic data. It comes preinstalled with one default Contact Form.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Administrators can also allow form responses to be saved to the database</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Miten käyttää sitä?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Install SiteContact
-as usual from the administration Module listing. There is one table (sitecontact) currently used to hold different contact form definitions. Then, setup the module configuration in Modify Config option.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact is ready to go. You can use the default form without any further configuration.
-If you want to configure your default contact form, or create further forms, review the following.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Using and Customizing Display and Email Forms</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>By default, a user will be able to see the Default Form that you have configured for your site (see ModifyConfig options below). If no sitecontact form is specified in a URL the default form is used.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can provide a link to any form by appending the form name variable called: &lt;strong&gt;scform&lt;/strong&gt; and a form name, for example 'myniceform', to the main user url eg &lt;strong&gt;index.php?module=sitecontact&amp;amp;scform=myniceform&lt;/strong&gt; or
-with short urls &lt;strong&gt;index.php/sitecontact/myniceform&lt;/strong&gt;</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>All forms will use the default display template (&lt;code&gt;user-main.xd&lt;/code&gt;) for display of the form on your site.
+Administrator by email. The module allows you to setup one or more forms with different fields and configurations using dynamic data. It comes preinstalled with one default Contact Form.</string><translation></translation></entry>
+<entry><string>Administrators can also allow form responses to be saved to the database</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation>Miten käyttää sitä?</translation></entry>
+<entry><string>Install SiteContact
+as usual from the administration Module listing. There is one table (sitecontact) currently used to hold different contact form definitions. Then, setup the module configuration in Modify Config option.</string><translation></translation></entry>
+<entry><string>Sitecontact is ready to go. You can use the default form without any further configuration.
+If you want to configure your default contact form, or create further forms, review the following.</string><translation></translation></entry>
+<entry><string>Using and Customizing Display and Email Forms</string><translation></translation></entry>
+<entry><string>By default, a user will be able to see the Default Form that you have configured for your site (see ModifyConfig options below). If no sitecontact form is specified in a URL the default form is used.</string><translation></translation></entry>
+<entry><string>You can provide a link to any form by appending the form name variable called: &lt;strong&gt;scform&lt;/strong&gt; and a form name, for example 'myniceform', to the main user url eg &lt;strong&gt;index.php?module=sitecontact&amp;amp;scform=myniceform&lt;/strong&gt; or
+with short urls &lt;strong&gt;index.php/sitecontact/myniceform&lt;/strong&gt;</string><translation></translation></entry>
+<entry><string>All forms will use the default display template (&lt;code&gt;user-main.xd&lt;/code&gt;) for display of the form on your site.
 You can also create custom templates with the name of your form appended to the end (user-main-&lt;code&gt;myform&lt;/code&gt;.xd).
 Form templates can be overridden in your theme as per other Xaraya templates (eg create &lt;code&gt;user-main-myform.xt&lt;/code&gt; in
-your themes/yourtheme/modules/sitecontact directory), and will fall back to the default template if no others exist.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can also create override templates that are used to send the emails to Admins of your site, or the users when they request a copy of the email. Each has both a HTML and TEXT template. The &lt;strong&gt;admin&lt;/strong&gt; default html
+your themes/yourtheme/modules/sitecontact directory), and will fall back to the default template if no others exist.</string><translation></translation></entry>
+<entry><string>You can also create override templates that are used to send the emails to Admins of your site, or the users when they request a copy of the email. Each has both a HTML and TEXT template. The &lt;strong&gt;admin&lt;/strong&gt; default html
 and text email templates are &lt;code&gt;user-adminmail-html.xd&lt;/code&gt; and &lt;code&gt;user-adminmail-text.xd&lt;/code&gt; respectively.
 The &lt;strong&gt;user&lt;/strong&gt; templates are &lt;code&gt;user-usermail-html.xd&lt;/code&gt; and &lt;code&gt;user-usermail-text.xd&lt;/code&gt; respectively.
-Override them in your theme.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can go further and create custom email templates for html and text for each FORM. eg if your
-form is called &lt;strong&gt;basic&lt;/strong&gt; you can create an override text email template called &lt;code&gt;user-usermail-html-basic.xt&lt;/code&gt;</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>Manage Custom Contact Forms</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>This option allows you to create new forms, modify, delete and preview existing ones. Sitecontact is installed with a default 'basic' form that you can start to use immediately.
-Read below for the configuration options.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="65" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can create new forms that will initially have configuration settings populated with the default values that you have set in the global Modify Config option (see below).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="69" />
-		</references>
-	</entry>
-	<entry>
-		<string>Options available in the Global Modify Configuration can be overridden by editing the specific custom form options.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Configuration (Global Configuration)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="76" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are a number of variables you can set in the Modify Config
+Override them in your theme.</string><translation></translation></entry>
+<entry><string>You can go further and create custom email templates for html and text for each FORM. eg if your
+form is called &lt;strong&gt;basic&lt;/strong&gt; you can create an override text email template called &lt;code&gt;user-usermail-html-basic.xt&lt;/code&gt;</string><translation></translation></entry>
+<entry><string>Manage Custom Contact Forms</string><translation></translation></entry>
+<entry><string>This option allows you to create new forms, modify, delete and preview existing ones. Sitecontact is installed with a default 'basic' form that you can start to use immediately.
+Read below for the configuration options.</string><translation></translation></entry>
+<entry><string>You can create new forms that will initially have configuration settings populated with the default values that you have set in the global Modify Config option (see below).</string><translation></translation></entry>
+<entry><string>Options available in the Global Modify Configuration can be overridden by editing the specific custom form options.</string><translation></translation></entry>
+<entry><string>Modify Configuration (Global Configuration)</string><translation></translation></entry>
+<entry><string>There are a number of variables you can set in the Modify Config
 option. These options are preset on install but you can change them. They are the GLOBAL options for sitecontact
-and will be used by default for all *new* contact forms that you create.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="80" />
-		</references>
-	</entry>
-	<entry>
-		<string>Check the Short URL checkbox to use short urls</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>You should set a &lt;strong&gt;Default Form&lt;/strong&gt; for use on your site when no other forms are specified.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="84" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can use HTML in your emails or in the configurable text that
+and will be used by default for all *new* contact forms that you create.</string><translation></translation></entry>
+<entry><string>Check the Short URL checkbox to use short urls</string><translation></translation></entry>
+<entry><string>You should set a &lt;strong&gt;Default Form&lt;/strong&gt; for use on your site when no other forms are specified.</string><translation></translation></entry>
+<entry><string>You can use HTML in your emails or in the configurable text that
 displays in SiteContact pages. But, please, if you do, make sure
 you have HTML allowed in your site by configuring the
-HTML module to use the HTML tags you wish to use.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Note that you &lt;strong&gt;can&lt;/strong&gt; use HTML email in Sitecontact by checking the &lt;code&gt;Use HTML Email&lt;/code&gt;
+HTML module to use the HTML tags you wish to use.</string><translation></translation></entry>
+<entry><string>Note that you &lt;strong&gt;can&lt;/strong&gt; use HTML email in Sitecontact by checking the &lt;code&gt;Use HTML Email&lt;/code&gt;
 option in the SiteContact configuration. This will allow HTML mail just for Sitecontact module,
-even if your default mail setup is text.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>By default, all emails are sent to the administrator email address
+even if your default mail setup is text.</string><translation></translation></entry>
+<entry><string>By default, all emails are sent to the administrator email address
 specified in the Mail module. You can override this for each of
 the Subject options of your feedback form. Just add the subject
-option and alternative email in the form:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="95" />
-		</references>
-	</entry>
-	<entry>
-		<string>The line &lt;strong&gt;must end with a comma&lt;/strong&gt;. The semi-colon
+option and alternative email in the form:</string><translation></translation></entry>
+<entry><string>The line &lt;strong&gt;must end with a comma&lt;/strong&gt;. The semi-colon
 and optional email can be omitted. Don't forget to test your setup
-by sending yourself an email through SiteContact!</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="106" />
-		</references>
-	</entry>
-	<entry>
-		<string>The HTML and text emails that are sent to the website contact (admin or other) and the user are based on
+by sending yourself an email through SiteContact!</string><translation></translation></entry>
+<entry><string>The HTML and text emails that are sent to the website contact (admin or other) and the user are based on
 templates in the module's xartemplate directory. There is a text and an HTML version for both the
 Admin notification email (user-adminmail-text.xd and user-adminmail-html.xd) and the user (user-
-usermail-text.xd and user-usermail-html.xd).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="111" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Allow copy to sender&lt;/strong&gt; - if checked, will allow logged in users on your site to send themselves a copy of their form data by email.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Allow anonymous users to request a copy&lt;/strong&gt; - if checked, will allow anonymous users to send themselves a copy of their form data by email, if the Allow Copy to Sender checkbox is also checked.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>CC or BC to other Recipients</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="115" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can configure your forms with a list of CC or BC recipients from the
+usermail-text.xd and user-usermail-html.xd).</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Allow copy to sender&lt;/strong&gt; - if checked, will allow logged in users on your site to send themselves a copy of their form data by email.</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Allow anonymous users to request a copy&lt;/strong&gt; - if checked, will allow anonymous users to send themselves a copy of their form data by email, if the Allow Copy to Sender checkbox is also checked.</string><translation></translation></entry>
+<entry><string>CC or BC to other Recipients</string><translation></translation></entry>
+<entry><string>You can configure your forms with a list of CC or BC recipients from the
 configuration for each form. The CC and BC fields take a list of recipient emails and
 optionally a name for each. These emails and names must be in the correct format. Make
 sure you understand the &lt;span class=&quot;xar-error&quot;&gt;POTENTIAL PROBLEMS&lt;/span&gt; of adding these fields to your forms on an open access website where potential spammers can gain access!
-It is an option best kept protected by using Site Contact permissions for trusted user groups on your site. Keep in mind the following:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="120" />
-		</references>
-	</entry>
-	<entry>
-		<string>If you have a list of email addresses, separate each by a semicolon (;) eg &lt;code&gt;person1@somedomain.com;person2@anotherdomain.com&lt;/code&gt;</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>If you have a list of email addresses and optional names, separate the name from the email addres with a comma eg&lt;br /&gt;
-&lt;code&gt;person1@somedomain.com,name1;person2@anotherdomain.com,name2&lt;/code&gt;</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="126" />
-		</references>
-	</entry>
-	<entry>
-		<string>NOTE: CC and BC do not work with Windows and the mail() function. They both should work with SMTP mail.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="128" />
-		</references>
-	</entry>
-	<entry>
-		<string>Extend Forms with Dynamic Data</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="129" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Hook Dynamic Data to Site Contact forms&lt;/strong&gt; for either individual
+It is an option best kept protected by using Site Contact permissions for trusted user groups on your site. Keep in mind the following:</string><translation></translation></entry>
+<entry><string>If you have a list of email addresses, separate each by a semicolon (;) eg &lt;code&gt;person1@somedomain.com;person2@anotherdomain.com&lt;/code&gt;</string><translation></translation></entry>
+<entry><string>If you have a list of email addresses and optional names, separate the name from the email addres with a comma eg&lt;br /&gt;
+&lt;code&gt;person1@somedomain.com,name1;person2@anotherdomain.com,name2&lt;/code&gt;</string><translation></translation></entry>
+<entry><string>NOTE: CC and BC do not work with Windows and the mail() function. They both should work with SMTP mail.</string><translation></translation></entry>
+<entry><string>Extend Forms with Dynamic Data</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Hook Dynamic Data to Site Contact forms&lt;/strong&gt; for either individual
 forms or all of them and setup your custom dynamic data property fields for each of your sitecontact forms.
-Your Dynamic Data fields will be &lt;strong&gt;included by default&lt;/strong&gt; in display templates or outgoing emails - no need to add them manually if you use the default sitecontact system template.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="133" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can customize the dynamic data output in the respective user display templates, and the email templates. It is recommended you copy the default system template and edit that, so you can see how the dynamic data is added in the template. You can also &lt;strong&gt;remove&lt;/strong&gt; fields that you do not want displayed by editing the templates, or retemplate their output. Who said simple modules aren't powerful :)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="136" />
-		</references>
-	</entry>
-	<entry>
-		<string>Adding An Attachment</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can add a Dynamic Data field to your form to allow users to add an Attachment to their email. To do:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="139" />
-		</references>
-	</entry>
-	<entry>
-		<string>Make sure you &lt;strong&gt;do&lt;/strong&gt; have Dynamic Data hooked, but &lt;strong&gt;do not&lt;/strong&gt; have the Uploads module hooked to your Site contact form</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="141" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add a Dynamic Data property of type &lt;strong&gt;File Upload&lt;/strong&gt; to your form. This will provide the attachment field.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="142" />
-		</references>
-	</entry>
-	<entry>
-		<string>Once you add and save the DD field, ensure you set the Validation for this File Upload field type. Add something like:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="144" />
-		</references>
-	</entry>
-	<entry>
-		<string>In this example the attachment will be temporarily uploaded to the &lt;strong&gt;var/uploads/resume&lt;/strong&gt; directory but deleted once the email has been sent. Make sure this temporary upload directory is writeable.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="144" />
-		</references>
-	</entry>
-	<entry>
-		<string>Saving SiteContact Forms</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="148" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact allows administrators to choose form responses to be saved to
+Your Dynamic Data fields will be &lt;strong&gt;included by default&lt;/strong&gt; in display templates or outgoing emails - no need to add them manually if you use the default sitecontact system template.</string><translation></translation></entry>
+<entry><string>You can customize the dynamic data output in the respective user display templates, and the email templates. It is recommended you copy the default system template and edit that, so you can see how the dynamic data is added in the template. You can also &lt;strong&gt;remove&lt;/strong&gt; fields that you do not want displayed by editing the templates, or retemplate their output. Who said simple modules aren't powerful :)</string><translation></translation></entry>
+<entry><string>Adding An Attachment</string><translation></translation></entry>
+<entry><string>You can add a Dynamic Data field to your form to allow users to add an Attachment to their email. To do:</string><translation></translation></entry>
+<entry><string>Make sure you &lt;strong&gt;do&lt;/strong&gt; have Dynamic Data hooked, but &lt;strong&gt;do not&lt;/strong&gt; have the Uploads module hooked to your Site contact form</string><translation></translation></entry>
+<entry><string>Add a Dynamic Data property of type &lt;strong&gt;File Upload&lt;/strong&gt; to your form. This will provide the attachment field.</string><translation></translation></entry>
+<entry><string>Once you add and save the DD field, ensure you set the Validation for this File Upload field type. Add something like:</string><translation></translation></entry>
+<entry><string>In this example the attachment will be temporarily uploaded to the &lt;strong&gt;var/uploads/resume&lt;/strong&gt; directory but deleted once the email has been sent. Make sure this temporary upload directory is writeable.</string><translation></translation></entry>
+<entry><string>Saving SiteContact Forms</string><translation></translation></entry>
+<entry><string>Sitecontact allows administrators to choose form responses to be saved to
 their database. There is also an option available to Administrators to allow users to give
 their permission to save data to the database. In this case, the contact forms are still
 emailed but data will only be saved if user explicitly checks the permission checkbox.
-Users must have comment level access to the form to have the data saved else they can only read and submit the form.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="155" />
-		</references>
-	</entry>
-	<entry>
-		<string>SiteContact Permissions</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="159" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact provides Xaraya permissions to manage user access to your forms.
-You can provide access to users for all forms, or for specific form instances.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="162" />
-		</references>
-	</entry>
-	<entry>
-		<string>Read Level Access - allows filling out a form and emailing it.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="164" />
-		</references>
-	</entry>
-	<entry>
-		<string>Comment Level Access - allows filling out a form and emailing it and also saving the form to the database, if you have activated this option for this form.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="165" />
-		</references>
-	</entry>
-	<entry>
-		<string>Edit Level Access - for All forms, allows editing and modification of form configuration.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="166" />
-		</references>
-	</entry>
-	<entry>
-		<string>Admin Level Access - for All forms, allows all administration functions for your forms.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="167" />
-		</references>
-	</entry>
-	<entry>
-		<string>Extra Security Features</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="171" />
-		</references>
-	</entry>
-	<entry>
-		<string>Starting with Sitecontact version 1.0.0 there is the ability to add anti-bot
+Users must have comment level access to the form to have the data saved else they can only read and submit the form.</string><translation></translation></entry>
+<entry><string>SiteContact Permissions</string><translation></translation></entry>
+<entry><string>Sitecontact provides Xaraya permissions to manage user access to your forms.
+You can provide access to users for all forms, or for specific form instances.</string><translation></translation></entry>
+<entry><string>Read Level Access - allows filling out a form and emailing it.</string><translation></translation></entry>
+<entry><string>Comment Level Access - allows filling out a form and emailing it and also saving the form to the database, if you have activated this option for this form.</string><translation></translation></entry>
+<entry><string>Edit Level Access - for All forms, allows editing and modification of form configuration.</string><translation></translation></entry>
+<entry><string>Admin Level Access - for All forms, allows all administration functions for your forms.</string><translation></translation></entry>
+<entry><string>Extra Security Features</string><translation></translation></entry>
+<entry><string>Starting with Sitecontact version 1.0.0 there is the ability to add anti-bot
 security to your form by installing the FormAntiBot module. This provides what is also commonly
-known as CAPTCHA as a configured option for each form.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="175" />
-		</references>
-	</entry>
-	<entry>
-		<string>Some drawbacks of using CAPTCHA with the current Sitecontact module are loss of accessibility for sight impared,
+known as CAPTCHA as a configured option for each form.</string><translation></translation></entry>
+<entry><string>Some drawbacks of using CAPTCHA with the current Sitecontact module are loss of accessibility for sight impared,
 and, loss of form data on resubmits for large forms due to a mistyped captcha code. The default fields in a form will always be repopulated,
-but currently any extra dynamic data data is lost on resubmission and needs to be reentered.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="178" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="180" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Sitecontact Block&lt;/strong&gt;: allows choice of one of the active forms for display in a block on your site.
+but currently any extra dynamic data data is lost on resubmission and needs to be reentered.</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation></translation></entry>
+<entry><string>&lt;strong&gt;Sitecontact Block&lt;/strong&gt;: allows choice of one of the active forms for display in a block on your site.
 The block requires at least Read level (ReadBlock) privileges for viewing, and is privilege aware using Block privileges.
-This means you can selectively apply privileges for the given block by creating a Blocks module privilege on the Sitecontact block.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="185" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="188" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Sitecontact module can be found at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="191" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact Extension page at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="194" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact Module - Xaraya Extension 890</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="194" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="195" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on the Sitecontact found at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="197" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Sitecontact</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="197" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="197" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact Module Overview</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="201" />
-		</references>
-	</entry>
-	<entry>
-		<string>Doc Version</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="201" />
-		</references>
-	</entry>
+This means you can selectively apply privileges for the given block by creating a Blocks module privilege on the Sitecontact block.</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the Sitecontact module can be found at</string><translation></translation></entry>
+<entry><string>Sitecontact Extension page at</string><translation></translation></entry>
+<entry><string>Sitecontact Module - Xaraya Extension 890</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on the Sitecontact found at</string><translation></translation></entry>
+<entry><string>Related documentation on Sitecontact</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Sitecontact Module Overview</string><translation></translation></entry>
+<entry><string>Doc Version</string><translation></translation></entry>
 </translations>

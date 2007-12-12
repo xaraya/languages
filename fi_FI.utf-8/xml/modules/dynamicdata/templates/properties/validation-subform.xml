@@ -1,175 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>Object</string>
-		<translation>Objekti</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Select the dynamic object you want to use as sub-form</string>
-		<translation>Valitse dynaaminen objekti jota haluat käyttää alilomakkeena</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Style</string>
-		<translation>Tyyli</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Local value : the item values will be stored locally in serialized format</string>
-		<translation>Paikallinen arvo : alkioiden arvot tallennetaan paikallisesti sarjamuotoisina</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Link to item : the item id of the parent/sibling item will be stored locally</string>
-		<translation>Linkitä alkioon : lapsi/vanhempi-alkion id tallennetaan paikallisesti</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>List of children (child ids) : the list of item ids for the child items will be stored locally</string>
-		<translation>Lista lapsista (lasten id:t) : lista lapsialkioiden id:stä tallennetaan paikallisesti</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>List of children (parent id) : the parent id for the child items will be stored locally (you can use the 'dummy' data source for this property if the parent id corresponds to the current item id)</string>
-		<translation>Lista lapsista (vanhemman id) : lapsialkioiden vanhemman id tallennetaan paikallisesti (voit käyttää 'dummy'-tietolähdettä tälle ominaisuudelle jos vanhemman id vastaa nykyisen alkion id:tä)</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Title Field</string>
-		<translation>Otsikko-kenttä</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>no dropdown list</string>
-		<translation>ei pudotuslistaa</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>Specify which field (if any) should be used to select the sibling/parent item</string>
-		<translation>Määritä mitä kenttää (jos mitään) käytetään valittaessa sisarus/vanhempi-alkio</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>Link Field</string>
-		<translation>Linkki-kenttä</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="65" />
-		</references>
-	</entry>
-	<entry>
-		<string>For the list of children with parent id, specify which field references the parent id (foreign key) in the child items</string>
-		<translation>Jos käytät &quot;Lista lapsista (vanhemman id)&quot; -tyyliä, määritä mikä lapsialkioiden kenttä viittaa vanhemman id:hen (viiteavain)</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>Parent Id</string>
-		<translation>Vanhemman id</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>select</string>
-		<translation>valittavissa</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="105" />
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>fixed (use itemid field)</string>
-		<translation>kiinteä (käyttää alkion id-kenttää)</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="109" />
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>Make the parent id configurable or not</string>
-		<translation>Onko vanhemman id asetettavissa vai ei</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>Where</string>
-		<translation>Missä</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="130" />
-		</references>
-	</entry>
-	<entry>
-		<string>Additional WHERE clause for the link to item or list of children</string>
-		<translation>Täydentävä WHERE-ehto &quot;Linkitä alkioon&quot; tai &quot;Lista lapsista&quot; -tyyliä käytettäessä</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="136" />
-		</references>
-	</entry>
-	<entry>
-		<string>Field List</string>
-		<translation>Kentät</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="143" />
-		</references>
-	</entry>
-	<entry>
-		<string>Select the fields to display in the interface</string>
-		<translation>Valitse kentät jotka näytetään käyttöliittymässä</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="157" />
-		</references>
-	</entry>
-	<entry>
-		<string>Input Form</string>
-		<translation>Syötelomake</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="164" />
-		</references>
-	</entry>
-	<entry>
-		<string>yes</string>
-		<translation>kyllä</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="170" />
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="179" />
-		</references>
-	</entry>
-	<entry>
-		<string>no</string>
-		<translation>ei</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="174" />
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="183" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow editing the subform items here</string>
-		<translation>Salli alilomakkeiden alkioiden muokkaus</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/properties/validation-subform.xd" line="188" />
-		</references>
-	</entry>
+<entry><string>Object</string><translation>Objekti</translation></entry>
+<entry><string>Select the dynamic object you want to use as sub-form</string><translation>Valitse dynaaminen objekti jota haluat käyttää alilomakkeena</translation></entry>
+<entry><string>Style</string><translation>Tyyli</translation></entry>
+<entry><string>Local value : the item values will be stored locally in serialized format</string><translation>Paikallinen arvo : alkioiden arvot tallennetaan paikallisesti sarjamuotoisina</translation></entry>
+<entry><string>Link to item : the item id of the parent/sibling item will be stored locally</string><translation>Linkitä alkioon : lapsi/vanhempi-alkion id tallennetaan paikallisesti</translation></entry>
+<entry><string>List of children (child ids) : the list of item ids for the child items will be stored locally</string><translation>Lista lapsista (lasten id:t) : lista lapsialkioiden id:stä tallennetaan paikallisesti</translation></entry>
+<entry><string>List of children (parent id) : the parent id for the child items will be stored locally (you can use the 'dummy' data source for this property if the parent id corresponds to the current item id)</string><translation>Lista lapsista (vanhemman id) : lapsialkioiden vanhemman id tallennetaan paikallisesti (voit käyttää 'dummy'-tietolähdettä tälle ominaisuudelle jos vanhemman id vastaa nykyisen alkion id:tä)</translation></entry>
+<entry><string>Title Field</string><translation>Otsikko-kenttä</translation></entry>
+<entry><string>no dropdown list</string><translation>ei pudotuslistaa</translation></entry>
+<entry><string>Specify which field (if any) should be used to select the sibling/parent item</string><translation>Määritä mitä kenttää (jos mitään) käytetään valittaessa sisarus/vanhempi-alkio</translation></entry>
+<entry><string>Link Field</string><translation>Linkki-kenttä</translation></entry>
+<entry><string>For the list of children with parent id, specify which field references the parent id (foreign key) in the child items</string><translation>Jos käytät &quot;Lista lapsista (vanhemman id)&quot; -tyyliä, määritä mikä lapsialkioiden kenttä viittaa vanhemman id:hen (viiteavain)</translation></entry>
+<entry><string>Parent Id</string><translation>Vanhemman id</translation></entry>
+<entry><string>select</string><translation>valittavissa</translation></entry>
+<entry><string>fixed (use itemid field)</string><translation>kiinteä (käyttää alkion id-kenttää)</translation></entry>
+<entry><string>Make the parent id configurable or not</string><translation>Onko vanhemman id asetettavissa vai ei</translation></entry>
+<entry><string>Where</string><translation>Missä</translation></entry>
+<entry><string>Additional WHERE clause for the link to item or list of children</string><translation>Täydentävä WHERE-ehto &quot;Linkitä alkioon&quot; tai &quot;Lista lapsista&quot; -tyyliä käytettäessä</translation></entry>
+<entry><string>Field List</string><translation>Kentät</translation></entry>
+<entry><string>Select the fields to display in the interface</string><translation>Valitse kentät jotka näytetään käyttöliittymässä</translation></entry>
+<entry><string>Input Form</string><translation>Syötelomake</translation></entry>
+<entry><string>yes</string><translation>kyllä</translation></entry>
+<entry><string>no</string><translation>ei</translation></entry>
+<entry><string>Allow editing the subform items here</string><translation>Salli alilomakkeiden alkioiden muokkaus</translation></entry>
 </translations>

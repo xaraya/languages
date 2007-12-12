@@ -1,276 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>Administration - Articles</string>
-		<translation>Ylläpito - Artikkelit</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mikä tämä on?</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Articles is a Xaraya Content Module responsible for the handling of generic and complex content structures.</string>
-		<translation>Artikkelit on Xarayan sisältömoduuli joka huolehtii perussisällön ja monimutkaisempien sisältökokonaisuuksien rakenteesta.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Miten tätä käytetään?</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>If this is your first visit to this part of your Xaraya site, please take a minute to read through the following introduction, in order to explore the different possibilities offered by the articles module.</string>
-		<translation>Jos käytät ensimmäistä kertaa tätä moduulia, on suositeltavaa käyttää pieni hetki tämän esittelyn läpikäyntiin, jotta saat kuvan kaikista Artikkelit-moduulin käyttömahdollisuuksista.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>1. Publication types</string>
-		<translation>1. Julkaisutyypit</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>The articles module can manage 'articles' of different types at the same time, for instance news articles, longer documents in different sections, frequently asked questions, and so on.</string>
-		<translation>Artikkelit-moduuli voi käsitellä erityyppisiä 'artikkeleita' samanaikaisesti, esimerkkeinä näistä ovat uutisartikkelit, pidemmät dokumentit eri osioissa, usein kysytyt kysymykset, ja niin edelleen.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>These types are called 'publication types', and each type of article can make use of a different set of data fields, with a different meaning for each data field. For example, the 'summary' field could be used for an Introduction in news articles, for providing some details about a question in FAQs, or not be used at all for section documents.</string>
-		<translation>Näitä eri tyyppejä kutsutaan 'julkaisutyypeiksi'. Jokainen julkaisutyyppi voi käyttää hyödykseen eri tietokenttien kokonaisuuksia, joissa jokaisella kentällä voi olla oma, toisista julkaisutyypeistä poikkeava merkityksensä. Esimerkiksi 'yhteenveto'-kenttä voi olla uutisartikkeleissa uutisen lyhyt Yhteenveto, Usein kysytyissä kysymyksissä sama kenttä voi sisältää vastauksen kysymykseen, kun taas jossain toisessa julkaisutyypissä sitä ei käytetä lainkaan.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is a specific menu where you can manage those &lt;strong&gt;publication types&lt;/strong&gt;, change the description that will appear in navigation menus, enable and disable data fields or change their meaning for a particular type, or even create or delete publication types according to your needs.</string>
-		<translation>&lt;strong&gt;Julkaisutyypeille&lt;/strong&gt; on oma valikko, joissa niiden kuvauksia voidaan muuttaa, tietokenttiä voidaan ottaa käyttöön ja poistaa käytöstä tai niiden merkityksiä tietyssä julkaisutyypissä voidaan muuttaa. Samasta valikosta voidaan myös luoda kokonaan uusia julkaisutyyppejä tai poistaa tarpeettomia käytöstä.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>Each publication type also has its own templates, so that you can customize the look &amp;amp; feel of how each article will appear to your visitors.</string>
-		<translation>Jokaisella julkaisutyypillä on myös oma mallineensa, jolloin artikkelin ulkonäkö ja toiminnallisuus voidaan muokata sivuston käyttäjille sopivaksi.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>A default set of publication types and templates (corresponding to the old News, Sections and FAQs modules, if you're familiar with earlier versions of PostNuke or PHP-Nuke) is included as part of the installation.</string>
-		<translation>Asennuksen mukana tulee valmiiksi luotuja julkaisutyyppejä ja mallineita (jos olet aikaisemmin käyttänyt PostNukea tai PHP-Nukea, nämä julkaisutyypit vastaavat vanhoja News-, Sections- ja FAQ-moduuleita).</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>2. Categories</string>
-		<translation>2. Kategoriat</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>Articles (of any type) can be organised into categories. You could use one or more common categories across different publication types, or use specific categories for each type of article, or any combination that you might prefer for your site.</string>
-		<translation>Artikkelit voidaan järjestellä kategorioihin. Voit käyttää yhtä tai useampaa yleistä kategoriaa kaikkien julkaisutyyppien kesken, tai käyttää jokaiselle julkaisutyypille omia kategorioita, tai luoda näiden yhdistelmiä.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="78" />
-		</references>
-	</entry>
-	<entry>
-		<string>Before you start specifying which article types will be using what categories, you should create the categorization you want via the &lt;a href=&quot;index.php?module=categories&amp;amp;type=admin&quot;&gt;Categories&lt;/a&gt; administration menu. A default set of categories has been defined for articles when you installed this module, as an example to get you started. (You can adapt the categories later on, of course.)</string>
-		<translation>Ennen kuin määrität kategoriat julkaisutyypeille, sinun tulisi luoda haluttu luokittelu &lt;a href=&quot;index.php?module=categories&amp;amp;type=admin&quot;&gt;Kategoriat-moduulin ylläpidossa&lt;/a&gt;.Tämän moduulin asennuksessa on luotu esimerkkikategorioita. (Voit tietysti muokata kategorioita jälkeenpäin.)</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>Once you have a set of categories you would like to use for your articles, you can go to &lt;strong&gt;Articles Configuration&lt;/strong&gt;, and specify the number of categories that can be used for each publication type, and the 'base categories' to be used.</string>
-		<translation>Kun olet luonut halutut kategoriat, mene &lt;strong&gt;Artikkelit-moduulin ylläpitoon&lt;/strong&gt; ja aseta haluamillesi julkaisutyypeille mahdollisten kategoriavaihtoehtojen määrä ja jokaiselle vaihtoehdolle 'pohjakategoria'.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>A 'base category' is any starting point somewhere in your tree of categories, below which you will have the actual list (or subtree) of categories people can choose from when they submit or view articles. For example, you could have a 'base category' called Topics, with a list of different topics relevant to your site below it, and another 'base category' called Cities, with a list of cities or places that you would provide regional news for.</string>
-		<translation>'Pohjakategoria' on mikä tahansa kategoriapuun kategoria, jonka alta käyttäjät voivat valita halutun kategorian. Esimerkiksi sinulla voisi olla 'pohjakategoria' Aiheet, joka listaa sivuston aihealueet, ja toinen 'pohjakategoria' Paikkakunnat, joka listaa paikallisuutisten sijainnit.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>One topic might be 'Good Restaurants', and one city might 'Brussels', so people would be able to browse through any articles about good restaurants in Brussels, for instance.</string>
-		<translation>Esimerkiksi, aiheena voisi olla 'Hyvät ravintolat' ja paikkakuntana 'Bryssel', jolloin käyttäjät voisivat selata artikkeleita, joissa kerrotaan Brysselissä sijaitsevista hyvistä ravintoloista.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>3. Submitting or adding articles</string>
-		<translation>3. Artikkeleiden lähettäminen ja lisääminen</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="103" />
-		</references>
-	</entry>
-	<entry>
-		<string>status = submitted, rejected, approved or on frontpage (for those pubtypes that use it !)</string>
-		<translation>tila = lähetetty, hylätty, hyväksytty ja etusivu (julkaisutyypeille jotka käyttävät sitä!)</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="108" />
-		</references>
-	</entry>
-	<entry>
-		<string>4. Managing the overview and display of articles per publication type</string>
-		<translation>4. Artikkeleiden näytön hallinta julkaisutyypeittäin</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>In &lt;strong&gt;Articles Configuration&lt;/strong&gt;, set start view (list/browse), # of columns and items, show category links + # of comments (+ performance impact)</string>
-		<translation>&lt;strong&gt;Artikkelit-moduulin ylläpidossa&lt;/strong&gt; voit asettaa alkunäkymän (listaus/selaus), sarakkaiden ja alkioiden lukumäärän, kategorialinkkien näkyvyyden sekä kommenttien lukumäärän (vaikuttaa järjestelmän suorituskykyyn).</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>+ adapt specific templates!</string>
-		<translation>+ mallineiden muokkaus!</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>5. Managing your 'front page'</string>
-		<translation>5. 'etusivun' hallinta</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="128" />
-		</references>
-	</entry>
-	<entry>
-		<string>cfr. frontpage status and # of columns and items - needs to be extended</string>
-		<translation>Etusivun tila ja sarakkaiden sekä alkioiden lukumäärä. TODO</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="133" />
-		</references>
-	</entry>
-	<entry>
-		<string>6. Adding counters, ratings, comments, smilies, bb-code etc.</string>
-		<translation>6. Laskurit, pisteytykset, kommentit, hymiöt, BB-code jne.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>cfr. hooks + special note on counters</string>
-		<translation>koukut + huomautus laskureista TODO</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="143" />
-		</references>
-	</entry>
-	<entry>
-		<string>7. Organising permissions</string>
-		<translation>7. Oikeuksien hallinta</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="148" />
-		</references>
-	</entry>
-	<entry>
-		<string>this really needs a permissions wizard</string>
-		<translation>TODO</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="153" />
-		</references>
-	</entry>
-	<entry>
-		<string>8. Short URL support</string>
-		<translation>8. Lyhyiden verkko-osoitteiden tuki</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="158" />
-		</references>
-	</entry>
-	<entry>
-		<string>overall enable/disable in 'base' admin + specific enable/disable in 'articles' admin + use of module aliases</string>
-		<translation>TODO</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="163" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module aliases seem to be disabled at the moment - uncomment the line in includes/xarServer.php if you want to try it out</string>
-		<translation>TODO</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="168" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Mukana tulevat lohkot</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>featured items</string>
-		<translation>valitut artikkelit / featured items</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="179" />
-		</references>
-	</entry>
-	<entry>
-		<string>glossary</string>
-		<translation>sanasto / glossary</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="184" />
-		</references>
-	</entry>
-	<entry>
-		<string>random</string>
-		<translation>satunnainen / random</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="189" />
-		</references>
-	</entry>
-	<entry>
-		<string>related</string>
-		<translation>aiheeseen liittyvää / related</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="194" />
-		</references>
-	</entry>
-	<entry>
-		<string>top items</string>
-		<translation>suosituimmat / top items</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="199" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Mukana tulevat koukut</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="205" />
-		</references>
-	</entry>
-	<entry>
-		<string>Search hook which provides the functionality to search your individual articles.</string>
-		<translation>Search-koukku jolla voidaan etsiä tekstiä yksittäisistä artikkeleista.</translation>
-		<references>
-			<reference file="modules/articles/xartemplates/admin-main.xd" line="210" />
-		</references>
-	</entry>
+<entry><string>Administration - Articles</string><translation>Ylläpito - Artikkelit</translation></entry>
+<entry><string>What is it?</string><translation>Mikä tämä on?</translation></entry>
+<entry><string>Articles is a Xaraya Content Module responsible for the handling of generic and complex content structures.</string><translation>Artikkelit on Xarayan sisältömoduuli joka huolehtii perussisällön ja monimutkaisempien sisältökokonaisuuksien rakenteesta.</translation></entry>
+<entry><string>How to use it?</string><translation>Miten tätä käytetään?</translation></entry>
+<entry><string>If this is your first visit to this part of your Xaraya site, please take a minute to read through the following introduction, in order to explore the different possibilities offered by the articles module.</string><translation>Jos käytät ensimmäistä kertaa tätä moduulia, on suositeltavaa käyttää pieni hetki tämän esittelyn läpikäyntiin, jotta saat kuvan kaikista Artikkelit-moduulin käyttömahdollisuuksista.</translation></entry>
+<entry><string>1. Publication types</string><translation>1. Julkaisutyypit</translation></entry>
+<entry><string>The articles module can manage 'articles' of different types at the same time, for instance news articles, longer documents in different sections, frequently asked questions, and so on.</string><translation>Artikkelit-moduuli voi käsitellä erityyppisiä 'artikkeleita' samanaikaisesti, esimerkkeinä näistä ovat uutisartikkelit, pidemmät dokumentit eri osioissa, usein kysytyt kysymykset, ja niin edelleen.</translation></entry>
+<entry><string>These types are called 'publication types', and each type of article can make use of a different set of data fields, with a different meaning for each data field. For example, the 'summary' field could be used for an Introduction in news articles, for providing some details about a question in FAQs, or not be used at all for section documents.</string><translation>Näitä eri tyyppejä kutsutaan 'julkaisutyypeiksi'. Jokainen julkaisutyyppi voi käyttää hyödykseen eri tietokenttien kokonaisuuksia, joissa jokaisella kentällä voi olla oma, toisista julkaisutyypeistä poikkeava merkityksensä. Esimerkiksi 'yhteenveto'-kenttä voi olla uutisartikkeleissa uutisen lyhyt Yhteenveto, Usein kysytyissä kysymyksissä sama kenttä voi sisältää vastauksen kysymykseen, kun taas jossain toisessa julkaisutyypissä sitä ei käytetä lainkaan.</translation></entry>
+<entry><string>There is a specific menu where you can manage those &lt;strong&gt;publication types&lt;/strong&gt;, change the description that will appear in navigation menus, enable and disable data fields or change their meaning for a particular type, or even create or delete publication types according to your needs.</string><translation>&lt;strong&gt;Julkaisutyypeille&lt;/strong&gt; on oma valikko, joissa niiden kuvauksia voidaan muuttaa, tietokenttiä voidaan ottaa käyttöön ja poistaa käytöstä tai niiden merkityksiä tietyssä julkaisutyypissä voidaan muuttaa. Samasta valikosta voidaan myös luoda kokonaan uusia julkaisutyyppejä tai poistaa tarpeettomia käytöstä.</translation></entry>
+<entry><string>Each publication type also has its own templates, so that you can customize the look &amp;amp; feel of how each article will appear to your visitors.</string><translation>Jokaisella julkaisutyypillä on myös oma mallineensa, jolloin artikkelin ulkonäkö ja toiminnallisuus voidaan muokata sivuston käyttäjille sopivaksi.</translation></entry>
+<entry><string>A default set of publication types and templates (corresponding to the old News, Sections and FAQs modules, if you're familiar with earlier versions of PostNuke or PHP-Nuke) is included as part of the installation.</string><translation>Asennuksen mukana tulee valmiiksi luotuja julkaisutyyppejä ja mallineita (jos olet aikaisemmin käyttänyt PostNukea tai PHP-Nukea, nämä julkaisutyypit vastaavat vanhoja News-, Sections- ja FAQ-moduuleita).</translation></entry>
+<entry><string>2. Categories</string><translation>2. Kategoriat</translation></entry>
+<entry><string>Articles (of any type) can be organised into categories. You could use one or more common categories across different publication types, or use specific categories for each type of article, or any combination that you might prefer for your site.</string><translation>Artikkelit voidaan järjestellä kategorioihin. Voit käyttää yhtä tai useampaa yleistä kategoriaa kaikkien julkaisutyyppien kesken, tai käyttää jokaiselle julkaisutyypille omia kategorioita, tai luoda näiden yhdistelmiä.</translation></entry>
+<entry><string>Before you start specifying which article types will be using what categories, you should create the categorization you want via the &lt;a href=&quot;index.php?module=categories&amp;amp;type=admin&quot;&gt;Categories&lt;/a&gt; administration menu. A default set of categories has been defined for articles when you installed this module, as an example to get you started. (You can adapt the categories later on, of course.)</string><translation>Ennen kuin määrität kategoriat julkaisutyypeille, sinun tulisi luoda haluttu luokittelu &lt;a href=&quot;index.php?module=categories&amp;amp;type=admin&quot;&gt;Kategoriat-moduulin ylläpidossa&lt;/a&gt;.Tämän moduulin asennuksessa on luotu esimerkkikategorioita. (Voit tietysti muokata kategorioita jälkeenpäin.)</translation></entry>
+<entry><string>Once you have a set of categories you would like to use for your articles, you can go to &lt;strong&gt;Articles Configuration&lt;/strong&gt;, and specify the number of categories that can be used for each publication type, and the 'base categories' to be used.</string><translation>Kun olet luonut halutut kategoriat, mene &lt;strong&gt;Artikkelit-moduulin ylläpitoon&lt;/strong&gt; ja aseta haluamillesi julkaisutyypeille mahdollisten kategoriavaihtoehtojen määrä ja jokaiselle vaihtoehdolle 'pohjakategoria'.</translation></entry>
+<entry><string>A 'base category' is any starting point somewhere in your tree of categories, below which you will have the actual list (or subtree) of categories people can choose from when they submit or view articles. For example, you could have a 'base category' called Topics, with a list of different topics relevant to your site below it, and another 'base category' called Cities, with a list of cities or places that you would provide regional news for.</string><translation>'Pohjakategoria' on mikä tahansa kategoriapuun kategoria, jonka alta käyttäjät voivat valita halutun kategorian. Esimerkiksi sinulla voisi olla 'pohjakategoria' Aiheet, joka listaa sivuston aihealueet, ja toinen 'pohjakategoria' Paikkakunnat, joka listaa paikallisuutisten sijainnit.</translation></entry>
+<entry><string>One topic might be 'Good Restaurants', and one city might 'Brussels', so people would be able to browse through any articles about good restaurants in Brussels, for instance.</string><translation>Esimerkiksi, aiheena voisi olla 'Hyvät ravintolat' ja paikkakuntana 'Bryssel', jolloin käyttäjät voisivat selata artikkeleita, joissa kerrotaan Brysselissä sijaitsevista hyvistä ravintoloista.</translation></entry>
+<entry><string>3. Submitting or adding articles</string><translation>3. Artikkeleiden lähettäminen ja lisääminen</translation></entry>
+<entry><string>status = submitted, rejected, approved or on frontpage (for those pubtypes that use it !)</string><translation>tila = lähetetty, hylätty, hyväksytty ja etusivu (julkaisutyypeille jotka käyttävät sitä!)</translation></entry>
+<entry><string>4. Managing the overview and display of articles per publication type</string><translation>4. Artikkeleiden näytön hallinta julkaisutyypeittäin</translation></entry>
+<entry><string>In &lt;strong&gt;Articles Configuration&lt;/strong&gt;, set start view (list/browse), # of columns and items, show category links + # of comments (+ performance impact)</string><translation>&lt;strong&gt;Artikkelit-moduulin ylläpidossa&lt;/strong&gt; voit asettaa alkunäkymän (listaus/selaus), sarakkaiden ja alkioiden lukumäärän, kategorialinkkien näkyvyyden sekä kommenttien lukumäärän (vaikuttaa järjestelmän suorituskykyyn).</translation></entry>
+<entry><string>+ adapt specific templates!</string><translation>+ mallineiden muokkaus!</translation></entry>
+<entry><string>5. Managing your 'front page'</string><translation>5. 'etusivun' hallinta</translation></entry>
+<entry><string>cfr. frontpage status and # of columns and items - needs to be extended</string><translation>Etusivun tila ja sarakkaiden sekä alkioiden lukumäärä. TODO</translation></entry>
+<entry><string>6. Adding counters, ratings, comments, smilies, bb-code etc.</string><translation>6. Laskurit, pisteytykset, kommentit, hymiöt, BB-code jne.</translation></entry>
+<entry><string>cfr. hooks + special note on counters</string><translation>koukut + huomautus laskureista TODO</translation></entry>
+<entry><string>7. Organising permissions</string><translation>7. Oikeuksien hallinta</translation></entry>
+<entry><string>this really needs a permissions wizard</string><translation>TODO</translation></entry>
+<entry><string>8. Short URL support</string><translation>8. Lyhyiden verkko-osoitteiden tuki</translation></entry>
+<entry><string>overall enable/disable in 'base' admin + specific enable/disable in 'articles' admin + use of module aliases</string><translation>TODO</translation></entry>
+<entry><string>Module aliases seem to be disabled at the moment - uncomment the line in includes/xarServer.php if you want to try it out</string><translation>TODO</translation></entry>
+<entry><string>Included Blocks</string><translation>Mukana tulevat lohkot</translation></entry>
+<entry><string>featured items</string><translation>valitut artikkelit / featured items</translation></entry>
+<entry><string>glossary</string><translation>sanasto / glossary</translation></entry>
+<entry><string>random</string><translation>satunnainen / random</translation></entry>
+<entry><string>related</string><translation>aiheeseen liittyvää / related</translation></entry>
+<entry><string>top items</string><translation>suosituimmat / top items</translation></entry>
+<entry><string>Included Hooks</string><translation>Mukana tulevat koukut</translation></entry>
+<entry><string>Search hook which provides the functionality to search your individual articles.</string><translation>Search-koukku jolla voidaan etsiä tekstiä yksittäisistä artikkeleista.</translation></entry>
 </translations>

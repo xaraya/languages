@@ -1,1986 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
-	<entry>
-		<string>An error occurred while processing your request. The details are:</string>
-		<translation>Komennon suorituksessa tapahtui virhe. Tarkempia tietoja:</translation>
-		<references>
-			<reference file="index.php" line="170" />
-		</references>
-	</entry>
-	<entry>
-		<string>Last updated on #(1)</string>
-		<translation>Viimeksi päivitetty #(1)</translation>
-		<references>
-			<reference file="includes/caching/page.php" line="227" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
-		<translation>Tietokantavirhe ajettaessa: '#(1)'; virheen kuvaus on: '#(2)'.</translation>
-		<references>
-			<reference file="includes/xarException.php" line="462" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default message</string>
-		<translation>Oletusviesti</translation>
-		<references>
-			<reference file="includes/exceptions/errorcollection.class.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Block type already exists</string>
-		<translation>Lohkotyyppi on jo olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to register a block type in a module that already exists.</string>
-		<translation>Yritit rekisteröidä lohkotyypin moduulissa, joka on jo olemassa.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Data</string>
-		<translation>Virheellinen syöte</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was bad.</string>
-		<translation>Syötetty tieto oli virheellinen.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>Operaation aikana annettua arvoa ei voitu vahvistaa tai sitä ei hyväksytty muista syistä.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>File does not exist</string>
-		<translation>Tiedostoa ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation requires a file that cannot be found.</string>
-		<translation>Operaatio tarvitsee tiedoston jota ei löydy.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file may be missing, or its name may have changed.</string>
-		<translation>Tiedosto voi puuttua tai sen nimi on muuttunut.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Operation Halted</string>
-		<translation>Operaatio keskeytetty</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation cannot be completed under the present circumstances.</string>
-		<translation>Operaatiota ei voitu viedä loppuun nykyisissä olosuhteissa.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
-		<translation>Operaatio keskeytettiin koska sitä ei voitu suorittaa tässä yhteydessä.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Duplicate Data</string>
-		<translation>Kaksinkertainen tieto</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was a duplicate.</string>
-		<translation>Annettu tieto oli kaksoiskappale.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
-		<translation>Operaatio odotti ainutlaatuista arvoa, mutta annettu arvo on kaksoiskappale olemassa olevan arvon kanssa.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forbidden Operation</string>
-		<translation>Kielletty operaatio</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting is not allowed in the current circumstances.</string>
-		<translation>Yrittämäsi operaatio ei ole sallittu nykyisissä olosuhteissa.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
-		<translation>Olet ehkä napsauttanut selaimesi paluu- tai uudelleenlataus-painiketta ja yrittänyt sellaista toimintoa uudelleen jota ei voi toistaa. Tarkista myös onko evästeet (cookies) sallittu selaimesi asetuksissa.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Login error</string>
-		<translation>Kirjautumisvirhe</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>A problem was encountered during the login process.</string>
-		<translation>Kirjautumisen yhteydessä tapahtui virhe.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information is available.</string>
-		<translation>Lisätietoja ei ole saatavilla.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="36" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="116" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="120" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="128" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="132" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="136" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="186" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="202" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing Data</string>
-		<translation>Tietoja puuttuu</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>The data is incomplete.</string>
-		<translation>Syötetty tieto on epätäydellinen.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>A value was expected during this operation, but none was found.</string>
-		<translation>Arvoa odotettiin operaation aikana, mutta sitä ei löytynyt.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple instances</string>
-		<translation>Useampia instansseja</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module contains more than one instance of the same block type.</string>
-		<translation>Moduuli sisältää useamman kuin yhden instanssin samasta lohkotyypistä.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Error</string>
-		<translation>Ei valtuuksia</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have privileges for this operation.</string>
-		<translation>Sinulla ei ole valtuuksia suorittaa tätä toimintoa.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
-		<translation>Operaatio, jota yrität suorittaa, tarvitsee valtuudet joita sinulla ei ole. Ota yhteys sivuston ylläpitäjään ja kysy häneltä oikeuksia.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not logged in</string>
-		<translation>Et ole kirjautunut sisään</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>Yritit suorittaa operaation joka ei ole sallittu anonyymille käyttäjälle.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
-		<translation>Operaatio vaatii, että käyttäjä on kirjautunut sisään järjestelmään. Jos olet jo kirjautunut sisään, raportoi virheestä ylläpidolle.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>Item not found</string>
-		<translation>Tietoa ei löytynyt</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unexpected empty result occurred.</string>
-		<translation>Saatu odottamaton tyhjä tulos.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation that should have returned a result instead came up empty.</string>
-		<translation>Operaatio, jonka piti palauttaa tulos antoi tyhjän vastauksen.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong version</string>
-		<translation>Väärä versio</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>The application version supplied is wrong.</string>
-		<translation>Sovelluksen versio on väärä.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>No further information available</string>
-		<translation>Lisätietoja ei ole saatavilla</translation>
-		<references>
-			<reference file="includes/exceptions/exceptionrendering.class.php" line="52" />
-			<reference file="includes/exceptions/exceptionrendering.class.php" line="65" />
-		</references>
-	</entry>
-	<entry>
-		<string>Assertion in code failed</string>
-		<translation>Väittämä koodissa epäonnistui</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>An assertion evaluated to false, which indicates a coding error.</string>
-		<translation>Väittämä sai arvokseen epätosi, joka viittaa ohjelmointivirheeseen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string>
-		<translation>Suoritettaessa koodia ehdollinen väittämä epäonnistui. Tämä tarkoittaa, että jossain kohtaa koodia on virhe.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Parameter</string>
-		<translation>Kelvoton parametri</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter encountered was bad.</string>
-		<translation>Löytyi kelvoton parametri.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>Operaation aikana annettua parametria ei voitu vahvistaa tai sitä ei hyväksytty muista syistä.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Compiler error</string>
-		<translation>Kääntäjävirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout compiler encountered an error.</string>
-		<translation>Blocklayout-kääntäjä kohtasi virheen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string>
-		<translation>Blocklayout-kääntäjä kohtasi kriittisen virheen. Lisätietoja ei ole saatavilla.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya is not properly configured</string>
-		<translation>Xarayan asetuksissa on puutteita</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>The combination of configuration settings has led to a conflict</string>
-		<translation>Asetusten yhteensopimattomuus on johtanut virhetilanteeseen</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string>
-		<translation>Jotkut Xarayan asetukset ovat keskenään ristiriitaisia. Joitain asetusmäärittelyjä ei voida käyttää samanaikaisesti.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Context does not exist</string>
-		<translation>Kontekstia ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>A context element was not found.</string>
-		<translation>Kontekstielementtiä ei löytynyt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string>
-		<translation>Tämä on kaiken kattava virhe, joka kuvaa missä kontekstielementtiä (lohko, malline, sisällytetty tiedosto) odotettiin, mutta ei löydetty.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database Error</string>
-		<translation>Tietokantavirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered while attempting a database operation.</string>
-		<translation>Tietokantatoiminnon suorituksessa tapahtui virhe.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database Query Error</string>
-		<translation>Tietokannan hakuvirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered while trying to execute a database query.</string>
-		<translation>Tietokantahaun suorituksessa tapahtui virhe.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string>
-		<translation>Tietokantahakua ei voitu suorittaa. Joko hakulause ei ollut ymmärrettävä tai se palautti odottamattomia tuloksia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Deprecated API</string>
-		<translation>Vanhentunut API</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>A function call encountered belongs to a deprecated API.</string>
-		<translation>Funktiokutsu kuuluu vanhentuneeseen API:iin</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>A function call encountered belongs to an old API and is therefore no longer supported.</string>
-		<translation>Kohdattiin vanhaan API:iin kuuluva funktiokutsu - sitä ei enää tueta.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Deprecated Blocklayout Attribute</string>
-		<translation>Vanhentunut attribuutti lohkosommittelussa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag in a template contains a deprecated attribute.</string>
-		<translation>Tagi mallineessa sisältää vanhentuneen attribuutin.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string>
-		<translation>Mallineessa käytetty tagi sisältää vanhentuneen attribuutin ja täytyy korvata uudemmalla tai poistaa käytöstä. Oikean muotosäännön löydät Blocklayout-dokumentaatiosta.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Fatal Error</string>
-		<translation>PHP: kriittinen virhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>A system error was received from the PHP interpreter.</string>
-		<translation>PHP-tulkki ilmoitti järjestelmävirheestä.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="51" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="55" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="59" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="63" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="67" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="71" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="75" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="79" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="83" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="87" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is an error in the PHP code that is being processed.</string>
-		<translation>Ajettavassa PHP-koodissa on virhe.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="52" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="56" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="60" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="64" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="68" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="72" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="76" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="80" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="84" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="88" />
-			<reference file="includes/exceptions/systemexception.defaults.php" line="92" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Warning</string>
-		<translation>PHP:varoitus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Parse Error</string>
-		<translation>PHP: parserivirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Error Notice</string>
-		<translation>PHP: virheilmoitus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="62" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Core Error</string>
-		<translation>PHP: Ytimen virhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="66" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Core Warning</string>
-		<translation>PHP: Ytimen varoitus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Compile Error</string>
-		<translation>PHP: Käännösvirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Compile Warning</string>
-		<translation>PHP: Käännösvaroitus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="78" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: User Error</string>
-		<translation>PHP: Käyttäjävirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="82" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: User Warning</string>
-		<translation>PHP: Käyttäjävaroitus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>User Notice</string>
-		<translation>Käyttäjän ilmoitus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="90" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Parameter</string>
-		<translation>Tyhjä parametri</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter value was not provided.</string>
-		<translation>Parametrin arvoa ei ole annettu.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="95" />
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter was expected during this operation, but none was found.</string>
-		<translation>Suoritettavassa toiminnossa odotettiin parametria, mutta sitä ei löytynyt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="96" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event is not registered</string>
-		<translation>Tapahtumaa ei ole rekisteröity</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown event was encountered.</string>
-		<translation>Kohdattiin tuntematon tapahtuma.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>A reference to an event was encountered that is unknown to the system.</string>
-		<translation>Kohdattiin viittaus järjestelmälle tuntemattomaan tapahtumaan.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="100" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown system error</string>
-		<translation>Tuntematon järjestelmävirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="102" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown system error was encountered.</string>
-		<translation>Kohdattiin tuntematon järjestelmävirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="103" />
-		</references>
-	</entry>
-	<entry>
-		<string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string>
-		<translation>Järjestelmä ei tunnista virhettä. Auta meitä korjaamaan virhe täyttämällä vikailmoitus osoitteessa &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="104" />
-		</references>
-	</entry>
-	<entry>
-		<string>Function failed</string>
-		<translation>Funktion suorittaminen epäonnistui</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="106" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call to a function returned a bad result.</string>
-		<translation>Funktiokutsu palautti kelvottoman tuloksen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="107" />
-		</references>
-	</entry>
-	<entry>
-		<string>The function executed correctly, but the result was a failure.</string>
-		<translation>Funktio suoritettiin oikein, mutta tuloksena oli epäonnistuminen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="108" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown ID</string>
-		<translation>Tuntematon ID</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="110" />
-		</references>
-	</entry>
-	<entry>
-		<string>An expected ID was not found.</string>
-		<translation>Odotettua ID:tä ei löytynyt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="111" />
-		</references>
-	</entry>
-	<entry>
-		<string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string>
-		<translation>Alkiota pyydettiin tunnusnumerolla, jota ei tunnistettu. Tämä tarkoittaa, että alkiota on joko siirretty, muutettu tai sitä ei ole olemassa.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid attribute</string>
-		<translation>Virheellinen attribuutti</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid attribute.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen attribuutin.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="115" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid entity</string>
-		<translation>Virheellinen entiteetti</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid entity.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen entiteetin.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="119" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid file</string>
-		<translation>Virheellinen tiedosto</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="122" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid file.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen tiedoston.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file was either not found, or could not be read properly.</string>
-		<translation>Tiedostoa ei löytynyt tai sitä ei voitu lukea oikein.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid instruction</string>
-		<translation>Virheellinen käsky</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="126" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid instruction.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen käskyn.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid special variable</string>
-		<translation>Virheellinen erikoismuuttuja</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="130" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered a problem with a special variable.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen erikoismuuttujan.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid syntax</string>
-		<translation>Virheellinen muotosääntö</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="134" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered a syntax error.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen muotosäännön.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="135" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid tag</string>
-		<translation>Virheellinen tagi</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid tag.</string>
-		<translation>Blocklayout-parseri kohtasi virheellisen tagin.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="139" />
-		</references>
-	</entry>
-	<entry>
-		<string>The tag encountered does not conform to XML syntax.</string>
-		<translation>Löydetty tagi  ei noudata XML-muotosääntöä.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="140" />
-		</references>
-	</entry>
-	<entry>
-		<string>Locale not available</string>
-		<translation>Lokaalia ei ole saatavilla</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="142" />
-		</references>
-	</entry>
-	<entry>
-		<string>Locale does not exist</string>
-		<translation>Lokaalia ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="144" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown locale was encountered.</string>
-		<translation>Xaraya ei tunnistanut lokaalia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="145" />
-		</references>
-	</entry>
-	<entry>
-		<string>A reference to a locale was encountered that is unknown to the system.</string>
-		<translation>Lokaali on tuntematon järjestelmälle.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="146" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing attribute</string>
-		<translation>Puuttuva attribuutti</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="148" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser could not find a tag attribute.</string>
-		<translation>Blocklayout-parseri ei löytänyt tagin attribuuttia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="149" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag attribute required by syntax was not found.</string>
-		<translation>Muotosääntöjen mukainen vaadittu tagin attribuutti ei löytynyt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="150" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing parameter</string>
-		<translation>Puuttuva parametri</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="152" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser could not resolve a tag parameter.</string>
-		<translation>Blocklayout-parseri ei voinut ratkaista tagin parametriä.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="153" />
-		</references>
-	</entry>
-	<entry>
-		<string>A tag parameter could not be resolved because of bad syntax.</string>
-		<translation>Tagin parametriä ei voitu ratkaista virheellisen muotosäännön vuoksi.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="154" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module Dependency</string>
-		<translation>Moduulin riippuvuus</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module call failed because of an unsatisifed dependency.</string>
-		<translation>Moduulikutsu epäonnistui puuttuvien riippuvuuksien vuoksi.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="157" />
-		</references>
-	</entry>
-	<entry>
-		<string>The current module cannot execute because another module that must first be installed is not present.</string>
-		<translation>Nykyistä moduulia ei voida suorittaa, sillä toinen moduuli täytyy asentaa ensin.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="158" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module file does not exist</string>
-		<translation>Moduulin tiedostoa ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="160" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation requires a module file that cannot be found.</string>
-		<translation>Toiminto vaatii moduulitiedoston, jota ei löydy.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="161" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Tiedosto voi puuttua tai sen nimi on muuttunut. Huomaa: tämä virhe esiintyy myös silloin, kun tiedostoa ei voida parsia PHP-virheiden takia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="162" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module function does not exist</string>
-		<translation>Moduulin funktiota ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="164" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module function that cannot be found.</string>
-		<translation>On tehty kutsu moduulifunktioon, jota ei löydy.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="165" />
-		</references>
-	</entry>
-	<entry>
-		<string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Tiedosto, jossa funktion odotettiin sijaitsevaan, puuttuu mahdollisesti. Jos näin ei ole, virhe on voinut tapahtua, koska todellinen funktio on eri niminen tai sitä ei ole olemassa. Huomaa: tämä virhe esiintyy myös silloin, kun tiedostoa ei voida parsia PHP-virheiden takia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="166" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module is not active</string>
-		<translation>Moduuli ei ole aktiivinen</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="168" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module that is not active.</string>
-		<translation>Kutsu moduuliin, joka ei ole aktiivinen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="169" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string>
-		<translation>Moduulia, joka ei ole aktivoitu/asennettu, kutsuttiin. Käytä aktivointi-linkkiä Moduulit-moduulista (Moduulit-&gt;Näytä kaikki) asentaaksesi moduuleita.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="170" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module does not exist</string>
-		<translation>Moduulia ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="172" />
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module that cannot be found</string>
-		<translation>Kutsu moduuliin, jota ei löydy</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Moduulia, joka ei ole asennettu tai ei ole olemassa, kutsuttiin. Käytä aktivointi-linkkiä Moduulit-moduulista (Moduulit-&gt;Näytä kaikki) asentaaksesi moduuleita. Huomaa: tämä virhe esiintyy myös silloin, kun tiedostoa ei voida parsia PHP-virheiden takia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="174" />
-		</references>
-	</entry>
-	<entry>
-		<string>No Privilege</string>
-		<translation>Ei valtuuksia</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="176" />
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have the privileges for this operation.</string>
-		<translation>Sinulla ei ole valtuuksia tähän operaatioon.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="177" />
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string>
-		<translation>Yritit operaatiota, johon sinun käyttäjätunnuksellasi ei ole valtuuksia. Vain ylläpitäjillä on oikeus antaa käyttäjille valtuuksia.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="178" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not implemented</string>
-		<translation>Ei implementoitu</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="180" />
-		</references>
-	</entry>
-	<entry>
-		<string>The requested feature is not available.</string>
-		<translation>Pyydetty ominaisuus ei ole saatavilla.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="181" />
-		</references>
-	</entry>
-	<entry>
-		<string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string>
-		<translation>Tehtiin pyyntö päästä käsiksi ominaisuuteen, joka ei ole asennettu tälle palvelimelle. Ominaisuus joko puuttuu tai sitä ei ole olemassa nykyiselle Xarayan versiolle.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="182" />
-		</references>
-	</entry>
-	<entry>
-		<string>System error</string>
-		<translation>Järjestelmävirhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="184" />
-		</references>
-	</entry>
-	<entry>
-		<string>A system error was encountered.</string>
-		<translation>Tapahtui järjestelmävirhe.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="185" />
-		</references>
-	</entry>
-	<entry>
-		<string>Template does not exist</string>
-		<translation>Malline ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="188" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown template name was encountered.</string>
-		<translation>Tuntematon mallineen nimi.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="189" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string>
-		<translation>Järjestelmä yritti esittää mallinteen, jota ei löytynyt. Malline on joko poistettu, sitä ei ole tai sen nimi on muuttunut.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="190" />
-		</references>
-	</entry>
-	<entry>
-		<string>Theme does not exist</string>
-		<translation>Teemaa ei ole olemassa</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="192" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown theme name was encountered.</string>
-		<translation>Tuntematon teeman nimi.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="193" />
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string>
-		<translation>Järjestelmä yritti näyttää teeman, jota ei löytynyt. Teema on joko poistettu, sitä ei ole tai sen nimi on muuttunut.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="194" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to load</string>
-		<translation>Lataus epäonnistui</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="196" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered during a load operation.</string>
-		<translation>Virhe latausoperaation aikana.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="197" />
-		</references>
-	</entry>
-	<entry>
-		<string>The system was unable to successfully load a component, such as a module or theme.</string>
-		<translation>Järjestelmä ei pystynyt lataamaan komponenttia, kuten moduulia tai teemaa.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="198" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown Error</string>
-		<translation>Tuntematon virhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="200" />
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown error was encountered.</string>
-		<translation>Tunematon virhe.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="201" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable is not registered</string>
-		<translation>Muuttujaa ei ole rekisteröity</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="204" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting to call a variable that the system does not recognize.</string>
-		<translation>Yrität kutsua muuttujaa, jota järjestelmä ei tunnista.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="205" />
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string>
-		<translation>Virhe kutsuttaessa muuttujaa. Muuttuja on joko poistettu tai sen nimi on muuttunut.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="206" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML Parser Error</string>
-		<translation>XML-parserin virhe</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="208" />
-		</references>
-	</entry>
-	<entry>
-		<string>The XML parser has encountered an error.</string>
-		<translation>XML-parseri löysi virheen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="209" />
-		</references>
-	</entry>
-	<entry>
-		<string>The XML parser tried to execute a line that was not well formed.</string>
-		<translation>XML-parseri yritti lukea rivin, joka ei ole oikein muodostettu.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="210" />
-		</references>
-	</entry>
-	<entry>
-		<string>The site is locked</string>
-		<translation>Sivusto on lukittu</translation>
-		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>No access at this time</string>
-		<translation>Pääsy evätty tällä hetkellä</translation>
-		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty database_name.</string>
-		<translation>Tyhjä database_name.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown database type: '#(1)'.</string>
-		<translation>Tuntematon tietokantatyyppi: '#(1)'.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="77" />
-			<reference file="includes/xarTableDDL.php" line="174" />
-			<reference file="includes/xarTableDDL.php" line="289" />
-			<reference file="includes/xarTableDDL.php" line="350" />
-			<reference file="includes/xarTableDDL.php" line="423" />
-			<reference file="includes/xarTableDDL.php" line="478" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty tableName.</string>
-		<translation>Tyhjä tableName.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="99" />
-			<reference file="includes/xarTableDDL.php" line="204" />
-			<reference file="includes/xarTableDDL.php" line="310" />
-			<reference file="includes/xarTableDDL.php" line="373" />
-			<reference file="includes/xarTableDDL.php" line="445" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not array fields.</string>
-		<translation>Ei kenttiä array-tietorakenteessa.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="105" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (must be an array, command key must be set).</string>
-		<translation>Virheellisiä argumentteja (syöte array, command-avain asetettu)</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="210" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
-		<translation>Virheellinen indeksi (syöte array, fields-avain array, name-avain asetettu)</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="379" />
-			<reference file="includes/xarTableDDL.php" line="451" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (field key must be set).</string>
-		<translation>Virheellisiä argumentteja (field-avain pitää olla asetettu)</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="79" />
-			<reference file="includes/tableddl/datadict.php" line="121" />
-			<reference file="includes/tableddl/mysql.php" line="102" />
-			<reference file="includes/tableddl/mysql.php" line="163" />
-			<reference file="includes/tableddl/postgres.php" line="123" />
-			<reference file="includes/tableddl/postgres.php" line="167" />
-			<reference file="includes/tableddl/oracle.php" line="97" />
-			<reference file="includes/tableddl/oracle.php" line="143" />
-			<reference file="includes/tableddl/sqlite.php" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
-		<translation>Virheellisiä argumentteja (type, size, default, null, unsigned, increment tai primary_key pitää olla asetettu)</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="86" />
-			<reference file="includes/tableddl/datadict.php" line="128" />
-			<reference file="includes/tableddl/mysql.php" line="178" />
-			<reference file="includes/tableddl/postgres.php" line="182" />
-			<reference file="includes/tableddl/oracle.php" line="158" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (new_name key must be set.)</string>
-		<translation>Virheellisiä argumentteja (new_name-avain pitää olla asetettu)</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="107" />
-			<reference file="includes/tableddl/mysql.php" line="136" />
-			<reference file="includes/tableddl/postgres.php" line="140" />
-			<reference file="includes/tableddl/oracle.php" line="116" />
-			<reference file="includes/tableddl/sqlite.php" line="109" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown command: '#(1)'.</string>
-		<translation>Tuntematon komento: '#(1)'.</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="148" />
-			<reference file="includes/tableddl/mysql.php" line="209" />
-			<reference file="includes/tableddl/postgres.php" line="202" />
-			<reference file="includes/tableddl/oracle.php" line="195" />
-			<reference file="includes/tableddl/sqlite.php" line="117" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
-		<translation>Muokkaus ei tällä hetkellä tue: type, size, default, unsigned, increment tai primary_key)</translation>
-		<references>
-			<reference file="includes/tableddl/mysql.php" line="170" />
-			<reference file="includes/tableddl/postgres.php" line="174" />
-			<reference file="includes/tableddl/oracle.php" line="150" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for function #(2)() in #(3)</string>
-		<translation>Virheellinen #(1) funktiolle #(2)() moduulissa #(3)</translation>
-		<references>
-			<reference file="includes/xarDataDict.php" line="74" />
-			<reference file="includes/xarDataDict.php" line="116" />
-			<reference file="includes/xarDataDict.php" line="228" />
-			<reference file="includes/xarDataDict.php" line="379" />
-			<reference file="includes/xarDataDict.php" line="421" />
-			<reference file="includes/xarDataDict.php" line="459" />
-			<reference file="includes/xarDataDict.php" line="519" />
-			<reference file="includes/xarDataDict.php" line="550" />
-		</references>
-	</entry>
-	<entry>
-		<string>No validation type present.</string>
-		<translation>Validointi tyyppiä ei löydy.</translation>
-		<references>
-			<reference file="includes/xarVar.php" line="314" />
-		</references>
-	</entry>
-	<entry>
-		<string>The #(1) type '#(2)' could not be found.</string>
-		<translation>Tyyppiä #(1) tiedostossa '#(2)' ei löytynyt.</translation>
-		<references>
-			<reference file="includes/xarVar.php" line="1038" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not an array: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole taulukko (array): &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="19" />
-			<reference file="includes/validations/list.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an array: &quot;#(1)&quot;</string>
-		<translation>Ei ole taulukko (array): &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="21" />
-			<reference file="includes/validations/list.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Taulukkomuuttuja sisältää vähemmän alkioita &quot;#(1)&quot; kuin asetettu vähimmäismäärä &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Taulukkomuuttuja sisältää enemmän alkioita &quot;#(1)&quot; kuin asetettu enimmäismäärä &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole boolean: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/bool.php" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a boolean: &quot;#(1)&quot;</string>
-		<translation>Ei ole boolean: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/bool.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole valintaruutu (checkbox): &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/checkbox.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a scheckbox: &quot;#(1)&quot;</string>
-		<translation>Ei ole valintaruutu: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/checkbox.php" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole sähköpostityyppi: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/email.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an e-mail type: &quot;#(1)&quot;</string>
-		<translation>Ei ole sähköpostityyppi: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/email.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string>
-		<translation>Syöte &quot;#(1)&quot; ei ollut yksikään vaihtoehdoista #(2):lle: &quot;</translation>
-		<references>
-			<reference file="includes/validations/enum.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Input &quot;#(1)&quot; was not one of the possibilities.</string>
-		<translation>Syöte &quot;#(1)&quot; ei ollut yksikään vaihtoehdoista.</translation>
-		<references>
-			<reference file="includes/validations/enum.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a float type: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole liukuluku-tyyppiä: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a float type: &quot;#(1)&quot;</string>
-		<translation>Ei ole liukuluku-tyyppiä: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Liukuluku &quot;#(1)&quot; on pienempi kuin määritelty minimi &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Liukuluku &quot;#(1)&quot; on suurempi kuin määritelty maksimi &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) sisältää tagin, jota ei sallita: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an allowed tag: &quot;#(1)&quot;</string>
-		<translation>Kielletty tagi: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string>
-		<translation>Attribuutteja ei ole sallittu tälle tagille muuttujassa #(1): &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not an integer: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole kokonaisluku: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not an integer: &quot;#(1)&quot;</string>
-		<translation>Ei ole kokonaisluku: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Kokonaisluku &quot;#(1)&quot; on pienempi kuin määritelty vähimmäisluku &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Kokonaisluku &quot;#(1)&quot; on suurempi kuin määritelty enimmäisluku &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>The variable is not set!</string>
-		<translation>Muuttujaa ei ole asetettu!</translation>
-		<references>
-			<reference file="includes/validations/isset.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid e-mail #(1), the mail server doesnt recognize it.</string>
-		<translation>Virheellinen sähköposti #(1), sähköpostipalvelin ei tunnista sitä.</translation>
-		<references>
-			<reference file="includes/validations/mxcheck.php" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to connect to the mail server #(1) for e-mail #(2).</string>
-		<translation>Yhteyden otto sähköpostipalvelimelle #(1) sähköpostille #(2) epäonnistui.</translation>
-		<references>
-			<reference file="includes/validations/mxcheck.php" line="107" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) should not be empty: &quot;#(2)&quot;</string>
-		<translation>Muuttujan #(1) ei pitäisi olla tyhjä: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/notempty.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Should not be empty: &quot;#(1)&quot;</string>
-		<translation>Ei pitäisi olla tyhjä: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/notempty.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is no parameter to check against in the Regexp validation of #(1)</string>
-		<translation>Ei ole parametriä joka voidaan validoida säännöllisen lausekkeen #(1) mukaisesti</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is no parameter to check against in the Regexp validation</string>
-		<translation>Ei ole parametriä joka voidaan validoida säännöllisen lausekkeen mukaisesti</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string>
-		<translation>Muuttuja #(1): &quot;#(2)&quot; ei vastaa kuviota &quot;#(3)&quot;</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a string: &quot;#(2)&quot;</string>
-		<translation>Muuttuja #(1) ei ole merkkijono: &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not a string: &quot;#(1)&quot;</string>
-		<translation>Ei ole merkkijono: &quot;#(1)&quot;</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string>
-		<translation>Merkkijonon &quot;#(1)&quot; koko on pienempi kuin asetettu vähimmäiskoko &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string>
-		<translation>Merkkijonon &quot;#(1)&quot; koko on suurempi kuin asetettu enimmäiskoko &quot;#(2)&quot;</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>This call needs to be removed</string>
-		<translation>Tämä kutsu pitää poistaa</translation>
-		<references>
-			<reference file="includes/xarLegacy.php" line="1033" />
-		</references>
-	</entry>
-	<entry>
-		<string>The directories under #(1) must be writeable by PHP.</string>
-		<translation>Hakemistot #(1) alla pitää olla kirjoitettavissa PHP:llä.</translation>
-		<references>
-			<reference file="includes/xarMLS.php" line="952" />
-		</references>
-	</entry>
-	<entry>
-		<string>Context type: #(1) and file name: #(2)</string>
-		<translation>Kontekstityyppi: #(1) ja tiedostonimi: #(2)</translation>
-		<references>
-			<reference file="includes/xarMLSPHPBackend.php" line="97" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module or Theme Name #(1) is empty.</string>
-		<translation>Moduulin tai teeman nimi #(1) on tyhjä.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="450" />
-			<reference file="includes/xarMod.php" line="1797" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
-		<translation>Tyhjä RegId (#(1)) tai RegId on yhtä kuin 0.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="482" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown</string>
-		<translation>Tuntematon</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="582" />
-			<reference file="includes/xarMod.php" line="584" />
-			<reference file="includes/xarMod.php" line="585" />
-			<reference file="includes/xarMod.php" line="586" />
-			<reference file="includes/xarMod.php" line="587" />
-			<reference file="includes/xarMod.php" line="588" />
-			<reference file="includes/xarMod.php" line="589" />
-			<reference file="includes/xarMod.php" line="590" />
-			<reference file="includes/xarMod.php" line="594" />
-			<reference file="includes/xarMod.php" line="595" />
-			<reference file="includes/xarMod.php" line="596" />
-			<reference file="includes/xarMod.php" line="597" />
-			<reference file="includes/xarMod.php" line="598" />
-			<reference file="includes/xarMod.php" line="599" />
-			<reference file="includes/xarMod.php" line="600" />
-			<reference file="includes/xarMod.php" line="601" />
-			<reference file="includes/xarMod.php" line="602" />
-			<reference file="includes/xarMod.php" line="603" />
-		</references>
-	</entry>
-	<entry>
-		<string>This module is not installed properly. Not all info could be retrieved</string>
-		<translation>Moduulia ei ole asennetty oikein. Kaikkea tietoa ei saatu</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="583" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to find Base Info for Module: #(1)</string>
-		<translation>Perustietoja ei saatu moduulille: #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="661" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module Name #(1) is empty.</string>
-		<translation>Moduulin nimi #(1) on tyhjä.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="776" />
-		</references>
-	</entry>
-	<entry>
-		<string>Could not load function file: [#(1)].</string>
-		<translation>Funktiotiedostoa ei pystytty lataamaan:[#(1)].</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="862" />
-		</references>
-	</entry>
-	<entry>
-		<string>Error Caught:</string>
-		<translation>Virhe:</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="863" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module function #(1) does not exist.</string>
-		<translation>Moduulin funktiota #(1) ei ole olemassa.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="883" />
-		</references>
-	</entry>
-	<entry>
-		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
-		<translation>Ei voitu ladata funktiotiedostoa: [#(1)].\n\n Virhe:\n #(2)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="968" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module API function #(1) does not exist or could not be loaded.</string>
-		<translation>Moduulin API-funktio #(1) ei ole olemassa tai sitä ei voitu ladata.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="988" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Module or Theme Name (#(1)).</string>
-		<translation>Tyhjä moduuli tai teeman nimi (#(1)).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1344" />
-		</references>
-	</entry>
-	<entry>
-		<string>Directory information #(1) is empty.</string>
-		<translation>Hakemistorakenne #(1) on tyhjä.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1671" />
-		</references>
-	</entry>
-	<entry>
-		<string>Cannot open file #(1).</string>
-		<translation>Tiedostoa #(1) ei voitu avata.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1692" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
-		<translation>Väärä tyyppi, pitää olla joko 'module' tai 'theme': #(1).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1803" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty theme or module name (#(1)).</string>
-		<translation>Tyhjä teema tai moduulin nimi (#(1)).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1906" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Theme or Module variable name (#(1)).</string>
-		<translation>Tyhjä teema tai moduulin muuttujan nimi (#(1)).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1997" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
-		<translation>Laiton attribuutin nimi ('#(1)'): Attribuutin nimen täytyy alkaa kirjaimella ja se voi sisältää kirjaimia, numeroita, _ ja -.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1488" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
-		<translation>Laittomat attribuutin liput ('#(1)'): lippujen täytyy olla tyypiltään kokonaislukuja.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1495" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
-		<translation>Laiton tagin määritys: '#(1)' on virheellinen tagin nimi.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1574" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
-		<translation>Laiton tagin määritys: '#(1)' on virheellinen handler.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1583" />
-			<reference file="includes/xarTemplate.php" line="1681" />
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
-		<translation>Laittomat tagin rekisteröintiliput ('#(1)'): lippujen täytyy olla tyypiltään kokonaislukuja.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1589" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
-		<translation>&lt;xar:#(1)&gt; tagi on jo määritelty.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1719" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
-		<translation>&lt;xar:#(1)&gt;  ei ole määritelty.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1799" />
-		</references>
-	</entry>
-	<entry>
-		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
-		<translation>Attribuutti '#(1)' tagissa &lt;xar:#(2)&gt; ei sisällä oikeaa tyyppiä. Katso lisätietoja tagin dokumentaatiosta.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1827" />
-		</references>
-	</entry>
-	<entry>
-		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
-		<translation>Vaadittu attribuutti '#(1)' puuttuu tagista &lt;xar:#(2)&gt;. Katso lisätietoja tagin dokumentaatiosta.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1833" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty themeName (#(1)).</string>
-		<translation>Tyhjä themeName (#(1)).</translation>
-		<references>
-			<reference file="includes/xarTheme.php" line="29" />
-			<reference file="includes/xarTheme.php" line="50" />
-			<reference file="includes/xarTheme.php" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) css stylesheet file cannot be found at this location:</string>
-		<translation>#(1) CSS-tyylitiedostoa ei löydetty tästä sijainnista:</translation>
-		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="185" />
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string>
-		<translation>#(1) (kelvollista scope-attribuuttia ei voitu päätellä tästä xar:style tagista)</translation>
-		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="224" />
-		</references>
-	</entry>
-	<entry>
-		<string>Anonymous</string>
-		<translation>Anonyymi</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="398" />
-		</references>
-	</entry>
-	<entry>
-		<string>No Information</string>
-		<translation>Ei tietoa</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="420" />
-		</references>
-	</entry>
-	<entry>
-		<string>User identified by uid #(1) does not exist.</string>
-		<translation>Käyttäjä tunnistenumerolla uid #(1) ei ole olemassa.</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="427" />
-			<reference file="includes/xarUser.php" line="461" />
-			<reference file="includes/xarUser.php" line="603" />
-		</references>
-	</entry>
-	<entry>
-		<string>User variable #(1) was not correctly registered</string>
-		<translation>Käyttäjämuuttujaa #(1) ei rekisteröity oikein</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="448" />
-			<reference file="includes/xarUser.php" line="592" />
-		</references>
-	</entry>
-	<entry>
-		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
-		<translation>Turvallisuus Realm #(1) - Komponentti #(2) - Instanssi #(3) - Taso #(4): Tämä kutsu täytyy muuttaa käyttämään Xarayan turvallisuusjärjestelmää.</translation>
-		<references>
-			<reference file="includes/xarSecurity.php" line="603" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Users in this Group</string>
-		<translation>Näytä ryhmän käyttäjät</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="269" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this Group</string>
-		<translation>Poista ryhmä</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="282" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email the Users in this Group</string>
-		<translation>Lähetä sähköposti ryhmän käyttäjille</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="295" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Privileges assigned to this Group</string>
-		<translation>Näytä ryhmän oikeudet</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="308" />
-		</references>
-	</entry>
-	<entry>
-		<string>Test this Groups's Privileges</string>
-		<translation>Testaa ryhmän oikeudet</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="321" />
-		</references>
-	</entry>
-	<entry>
-		<string>subgroup</string>
-		<translation>aliryhmä</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="335" />
-		</references>
-	</entry>
-	<entry>
-		<string>subgroups</string>
-		<translation>aliryhmät</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="335" />
-		</references>
-	</entry>
-	<entry>
-		<string>user</string>
-		<translation>käyttäjä</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="336" />
-		</references>
-	</entry>
-	<entry>
-		<string>users</string>
-		<translation>käyttäjät</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="336" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify this Group</string>
-		<translation>Muokkaa ryhmää</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="339" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a user name and a valid email address.</string>
-		<translation>Sinun täytyy antaa käyttäjänimi ja toimiva sähköpostiosoite.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="337" />
-			<reference file="modules/roles/xarroles.php" line="539" />
-		</references>
-	</entry>
-	<entry>
-		<string>This entry already exists.</string>
-		<translation>Tämä merkintä on jo olemassa.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="351" />
-			<reference file="modules/roles/xarroles.php" line="408" />
-			<reference file="modules/roles/xarroles.php" line="558" />
-			<reference file="modules/privileges/xarprivileges.php" line="2074" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a name.</string>
-		<translation>Sinun pitää antaa nimi.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="529" />
-			<reference file="modules/privileges/xarprivileges.php" line="2054" />
-		</references>
-	</entry>
-	<entry>
-		<string>deleted</string>
-		<translation>poistettu</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="756" />
-			<reference file="modules/roles/xarroles.php" line="794" />
-		</references>
-	</entry>
-	<entry>
-		<string>Parameters to winnow need to be arrays</string>
-		<translation>winnow-funktion parametrien täytyy olla tyypiltään taulukoita (array)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="266" />
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
-		<translation>Ei löytynyt maskia #(1), joka on rekisteröity tuntemattomalle komponentille moduulissa #(2)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="386" />
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
-		<translation>Ei löytynyt maskia #(1), joka on rekisteröity komponentille #(2) moduulissa #(3)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="389" />
-		</references>
-	</entry>
-	<entry>
-		<string>No privilege for #(1)</string>
-		<translation>Ei valtuuksia kohteeseen #(1)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="510" />
-		</references>
-	</entry>
-	<entry>
-		<string>A query is missing in component #(1) of module #(2)</string>
-		<translation>Puuttuva kysely komponentissa #(1) moduulissa #(2)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1299" />
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
-		<translation>#(1) ja #(2) eivät sisällä samoja instansseja. #(3) | #(4) | #(5)</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1857" />
-		</references>
-	</entry>
+<entry><string>An error occurred while processing your request. The details are:</string><translation>Komennon suorituksessa tapahtui virhe. Tarkempia tietoja:</translation></entry>
+<entry><string>Last updated on #(1)</string><translation>Viimeksi päivitetty #(1)</translation></entry>
+<entry><string>Database error while executing: '#(1)'; error description is: '#(2)'.</string><translation>Tietokantavirhe ajettaessa: '#(1)'; virheen kuvaus on: '#(2)'.</translation></entry>
+<entry><string>Default message</string><translation>Oletusviesti</translation></entry>
+<entry><string>Block type already exists</string><translation>Lohkotyyppi on jo olemassa</translation></entry>
+<entry><string>An attempt was made to register a block type in a module that already exists.</string><translation>Yritit rekisteröidä lohkotyypin moduulissa, joka on jo olemassa.</translation></entry>
+<entry><string>Bad Data</string><translation>Virheellinen syöte</translation></entry>
+<entry><string>The data provided was bad.</string><translation>Syötetty tieto oli virheellinen.</translation></entry>
+<entry><string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string><translation>Operaation aikana annettua arvoa ei voitu vahvistaa tai sitä ei hyväksytty muista syistä.</translation></entry>
+<entry><string>File does not exist</string><translation>Tiedostoa ei ole olemassa</translation></entry>
+<entry><string>An operation requires a file that cannot be found.</string><translation>Operaatio tarvitsee tiedoston jota ei löydy.</translation></entry>
+<entry><string>The file may be missing, or its name may have changed.</string><translation>Tiedosto voi puuttua tai sen nimi on muuttunut.</translation></entry>
+<entry><string>Operation Halted</string><translation>Operaatio keskeytetty</translation></entry>
+<entry><string>This operation cannot be completed under the present circumstances.</string><translation>Operaatiota ei voitu viedä loppuun nykyisissä olosuhteissa.</translation></entry>
+<entry><string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string><translation>Operaatio keskeytettiin koska sitä ei voitu suorittaa tässä yhteydessä.</translation></entry>
+<entry><string>Duplicate Data</string><translation>Kaksinkertainen tieto</translation></entry>
+<entry><string>The data provided was a duplicate.</string><translation>Annettu tieto oli kaksoiskappale.</translation></entry>
+<entry><string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string><translation>Operaatio odotti ainutlaatuista arvoa, mutta annettu arvo on kaksoiskappale olemassa olevan arvon kanssa.</translation></entry>
+<entry><string>Forbidden Operation</string><translation>Kielletty operaatio</translation></entry>
+<entry><string>The operation you are attempting is not allowed in the current circumstances.</string><translation>Yrittämäsi operaatio ei ole sallittu nykyisissä olosuhteissa.</translation></entry>
+<entry><string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string><translation>Olet ehkä napsauttanut selaimesi paluu- tai uudelleenlataus-painiketta ja yrittänyt sellaista toimintoa uudelleen jota ei voi toistaa. Tarkista myös onko evästeet sallittu selaimesi asetuksissa.</translation></entry>
+<entry><string>Login error</string><translation>Kirjautumisvirhe</translation></entry>
+<entry><string>A problem was encountered during the login process.</string><translation>Kirjautumisen yhteydessä tapahtui virhe.</translation></entry>
+<entry><string>No further information is available.</string><translation>Lisätietoja ei ole saatavilla.</translation></entry>
+<entry><string>Missing Data</string><translation>Tietoja puuttuu</translation></entry>
+<entry><string>The data is incomplete.</string><translation>Syötetty tieto on epätäydellinen.</translation></entry>
+<entry><string>A value was expected during this operation, but none was found.</string><translation>Arvoa odotettiin operaation aikana, mutta sitä ei löytynyt.</translation></entry>
+<entry><string>Multiple instances</string><translation>Useampia instansseja</translation></entry>
+<entry><string>A module contains more than one instance of the same block type.</string><translation>Moduuli sisältää useamman kuin yhden instanssin samasta lohkotyypistä.</translation></entry>
+<entry><string>Privileges Error</string><translation>Ei valtuuksia</translation></entry>
+<entry><string>You do not have privileges for this operation.</string><translation>Sinulla ei ole valtuuksia suorittaa tätä toimintoa.</translation></entry>
+<entry><string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string><translation>Operaatio, jota yrität suorittaa, tarvitsee valtuudet joita sinulla ei ole. Ota yhteys sivuston ylläpitäjään ja kysy häneltä oikeuksia.</translation></entry>
+<entry><string>Not logged in</string><translation>Et ole kirjautunut sisään</translation></entry>
+<entry><string>You are attempting an operation that is not allowed for the Anonymous user.</string><translation>Yritit suorittaa operaation joka ei ole sallittu anonyymille käyttäjälle.</translation></entry>
+<entry><string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string><translation>Operaatio vaatii, että käyttäjä on kirjautunut sisään järjestelmään. Jos olet jo kirjautunut sisään, raportoi virheestä ylläpidolle.</translation></entry>
+<entry><string>Item not found</string><translation>Tietoa ei löytynyt</translation></entry>
+<entry><string>An unexpected empty result occurred.</string><translation>Saatu odottamaton tyhjä tulos.</translation></entry>
+<entry><string>An operation that should have returned a result instead came up empty.</string><translation>Operaatio, jonka piti palauttaa tulos antoi tyhjän vastauksen.</translation></entry>
+<entry><string>Wrong version</string><translation>Väärä versio</translation></entry>
+<entry><string>The application version supplied is wrong.</string><translation>Sovelluksen versio on väärä.</translation></entry>
+<entry><string>No further information available</string><translation>Lisätietoja ei ole saatavilla</translation></entry>
+<entry><string>Assertion in code failed</string><translation>Väittämä koodissa epäonnistui</translation></entry>
+<entry><string>An assertion evaluated to false, which indicates a coding error.</string><translation>Väittämä sai arvokseen epätosi, joka viittaa ohjelmointivirheeseen.</translation></entry>
+<entry><string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string><translation>Ehdollinen väittämä epäonnistui suoritettaessa koodia. Tämä tarkoittaa, että jossain kohtaa koodia on virhe.</translation></entry>
+<entry><string>Bad Parameter</string><translation>Kelvoton parametri</translation></entry>
+<entry><string>A parameter encountered was bad.</string><translation>Löytyi kelvoton parametri.</translation></entry>
+<entry><string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string><translation>Operaation aikana annettua parametria ei voitu vahvistaa tai sitä ei hyväksytty muista syistä.</translation></entry>
+<entry><string>Compiler error</string><translation>Kääntäjävirhe</translation></entry>
+<entry><string>The Blocklayout compiler encountered an error.</string><translation>Blocklayout-kääntäjä kohtasi virheen.</translation></entry>
+<entry><string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string><translation>Blocklayout-kääntäjä kohtasi kriittisen virheen. Lisätietoja ei ole saatavilla.</translation></entry>
+<entry><string>Xaraya is not properly configured</string><translation>Xarayan asetuksissa on puutteita</translation></entry>
+<entry><string>The combination of configuration settings has led to a conflict</string><translation>Asetusten yhteensopimattomuus on johtanut virhetilanteeseen</translation></entry>
+<entry><string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string><translation>Jotkut Xarayan asetukset ovat keskenään ristiriitaisia. Joitain asetusmäärittelyjä ei voida käyttää samanaikaisesti.</translation></entry>
+<entry><string>Context does not exist</string><translation>Kontekstia ei ole olemassa</translation></entry>
+<entry><string>A context element was not found.</string><translation>Kontekstielementtiä ei löytynyt.</translation></entry>
+<entry><string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string><translation>Tämä on kaiken kattava virhe, joka kuvaa missä kontekstielementtiä (lohko, malline, sisällytetty tiedosto) odotettiin, mutta ei löydetty.</translation></entry>
+<entry><string>Database Error</string><translation>Tietokantavirhe</translation></entry>
+<entry><string>An error was encountered while attempting a database operation.</string><translation>Tietokantatoiminnon suorituksessa tapahtui virhe.</translation></entry>
+<entry><string>Database Query Error</string><translation>Tietokannan hakuvirhe</translation></entry>
+<entry><string>An error was encountered while trying to execute a database query.</string><translation>Tietokantahaun suorituksessa tapahtui virhe.</translation></entry>
+<entry><string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string><translation>Tietokantahakua ei voitu suorittaa. Joko hakulause ei ollut ymmärrettävä tai se palautti odottamattomia tuloksia.</translation></entry>
+<entry><string>Deprecated API</string><translation>Vanhentunut API</translation></entry>
+<entry><string>A function call encountered belongs to a deprecated API.</string><translation>Funktiokutsu kuuluu vanhentuneeseen API:iin</translation></entry>
+<entry><string>A function call encountered belongs to an old API and is therefore no longer supported.</string><translation>Kohdattiin vanhaan API:iin kuuluva funktiokutsu - sitä ei enää tueta.</translation></entry>
+<entry><string>Deprecated Blocklayout Attribute</string><translation>Vanhentunut attribuutti lohkosommittelussa</translation></entry>
+<entry><string>A tag in a template contains a deprecated attribute.</string><translation>Tagi mallineessa sisältää vanhentuneen attribuutin.</translation></entry>
+<entry><string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string><translation>Mallineessa käytetty tagi sisältää vanhentuneen attribuutin ja täytyy korvata uudemmalla tai poistaa käytöstä. Oikean muotosäännön löydät Blocklayout-dokumentaatiosta.</translation></entry>
+<entry><string>PHP: Fatal Error</string><translation>PHP: kriittinen virhe</translation></entry>
+<entry><string>A system error was received from the PHP interpreter.</string><translation>PHP-tulkki ilmoitti järjestelmävirheestä.</translation></entry>
+<entry><string>There is an error in the PHP code that is being processed.</string><translation>Ajettavassa PHP-koodissa on virhe.</translation></entry>
+<entry><string>PHP: Warning</string><translation>PHP: Varoitus</translation></entry>
+<entry><string>PHP: Parse Error</string><translation>PHP: Parserivirhe</translation></entry>
+<entry><string>PHP: Error Notice</string><translation>PHP: Virheilmoitus</translation></entry>
+<entry><string>PHP: Core Error</string><translation>PHP: Ytimen virhe</translation></entry>
+<entry><string>PHP: Core Warning</string><translation>PHP: Ytimen varoitus</translation></entry>
+<entry><string>PHP: Compile Error</string><translation>PHP: Käännösvirhe</translation></entry>
+<entry><string>PHP: Compile Warning</string><translation>PHP: Käännösvaroitus</translation></entry>
+<entry><string>PHP: User Error</string><translation>PHP: Käyttäjävirhe</translation></entry>
+<entry><string>PHP: User Warning</string><translation>PHP: Käyttäjävaroitus</translation></entry>
+<entry><string>User Notice</string><translation>Käyttäjäilmoitus</translation></entry>
+<entry><string>Empty Parameter</string><translation>Tyhjä parametri</translation></entry>
+<entry><string>A parameter value was not provided.</string><translation>Parametrin arvoa ei ole annettu.</translation></entry>
+<entry><string>A parameter was expected during this operation, but none was found.</string><translation>Suoritettavassa toiminnossa odotettiin parametria, mutta sitä ei löytynyt.</translation></entry>
+<entry><string>Event is not registered</string><translation>Tapahtumaa ei ole rekisteröity</translation></entry>
+<entry><string>An unknown event was encountered.</string><translation>Kohdattiin tuntematon tapahtuma.</translation></entry>
+<entry><string>A reference to an event was encountered that is unknown to the system.</string><translation>Kohdattiin viittaus järjestelmälle tuntemattomaan tapahtumaan.</translation></entry>
+<entry><string>Unknown system error</string><translation>Tuntematon järjestelmävirhe</translation></entry>
+<entry><string>An unknown system error was encountered.</string><translation>Kohdattiin tuntematon järjestelmävirhe</translation></entry>
+<entry><string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</string><translation>Järjestelmä ei tunnista virhettä. Auta meitä korjaamaan virhe täyttämällä vikailmoitus osoitteessa &lt;a href=&quot;http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core&quot;&gt;bugs.xaraya.com&lt;/a&gt;.</translation></entry>
+<entry><string>Function failed</string><translation>Funktion suorittaminen epäonnistui</translation></entry>
+<entry><string>A call to a function returned a bad result.</string><translation>Funktiokutsu palautti kelvottoman tuloksen.</translation></entry>
+<entry><string>The function executed correctly, but the result was a failure.</string><translation>Funktio suoritettiin oikein, mutta tuloksena oli epäonnistuminen.</translation></entry>
+<entry><string>Unknown ID</string><translation>Tuntematon ID</translation></entry>
+<entry><string>An expected ID was not found.</string><translation>Odotettua ID:tä ei löytynyt.</translation></entry>
+<entry><string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string><translation>Alkiota pyydettiin ID:llä jota ei tunnistettu. Tämä tarkoittaa, että alkiota on joko siirretty, muutettu tai sitä ei ole olemassa.</translation></entry>
+<entry><string>Invalid attribute</string><translation>Virheellinen attribuutti</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid attribute.</string><translation>Blocklayout-parseri kohtasi virheellisen attribuutin.</translation></entry>
+<entry><string>Invalid entity</string><translation>Virheellinen entiteetti</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid entity.</string><translation>Blocklayout-parseri kohtasi virheellisen entiteetin.</translation></entry>
+<entry><string>Invalid file</string><translation>Virheellinen tiedosto</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid file.</string><translation>Blocklayout-parseri kohtasi virheellisen tiedoston.</translation></entry>
+<entry><string>The file was either not found, or could not be read properly.</string><translation>Tiedostoa ei löytynyt tai sitä ei voitu lukea oikein.</translation></entry>
+<entry><string>Invalid instruction</string><translation>Virheellinen käsky</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid instruction.</string><translation>Blocklayout-parseri kohtasi virheellisen käskyn.</translation></entry>
+<entry><string>Invalid special variable</string><translation>Virheellinen erikoismuuttuja</translation></entry>
+<entry><string>The Blocklayout parser encountered a problem with a special variable.</string><translation>Blocklayout-parseri kohtasi virheellisen erikoismuuttujan.</translation></entry>
+<entry><string>Invalid syntax</string><translation>Virheellinen muotosääntö</translation></entry>
+<entry><string>The Blocklayout parser encountered a syntax error.</string><translation>Blocklayout-parseri kohtasi virheellisen muotosäännön.</translation></entry>
+<entry><string>Invalid tag</string><translation>Virheellinen tagi</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid tag.</string><translation>Blocklayout-parseri kohtasi virheellisen tagin.</translation></entry>
+<entry><string>The tag encountered does not conform to XML syntax.</string><translation>Löydetty tagi  ei noudata XML-muotosääntöä.</translation></entry>
+<entry><string>Locale not available</string><translation>Lokaalia ei ole saatavilla</translation></entry>
+<entry><string>Locale does not exist</string><translation>Lokaalia ei ole olemassa</translation></entry>
+<entry><string>An unknown locale was encountered.</string><translation>Xaraya ei tunnistanut lokaalia.</translation></entry>
+<entry><string>A reference to a locale was encountered that is unknown to the system.</string><translation>Lokaali on tuntematon järjestelmälle.</translation></entry>
+<entry><string>Missing attribute</string><translation>Puuttuva attribuutti</translation></entry>
+<entry><string>The Blocklayout parser could not find a tag attribute.</string><translation>Blocklayout-parseri ei löytänyt tagin attribuuttia.</translation></entry>
+<entry><string>A tag attribute required by syntax was not found.</string><translation>Muotosääntöjen mukainen vaadittu tagin attribuutti ei löytynyt.</translation></entry>
+<entry><string>Missing parameter</string><translation>Puuttuva parametri</translation></entry>
+<entry><string>The Blocklayout parser could not resolve a tag parameter.</string><translation>Blocklayout-parseri ei voinut ratkaista tagin parametria.</translation></entry>
+<entry><string>A tag parameter could not be resolved because of bad syntax.</string><translation>Tagin parametria ei voitu ratkaista virheellisen muotosäännön vuoksi.</translation></entry>
+<entry><string>Module Dependency</string><translation>Moduulin riippuvuus</translation></entry>
+<entry><string>A module call failed because of an unsatisifed dependency.</string><translation>Moduulikutsu epäonnistui puuttuvien riippuvuuksien vuoksi.</translation></entry>
+<entry><string>The current module cannot execute because another module that must first be installed is not present.</string><translation>Nykyistä moduulia ei voida suorittaa, sillä toinen moduuli täytyy asentaa ensin.</translation></entry>
+<entry><string>Module file does not exist</string><translation>Moduulin tiedostoa ei ole olemassa</translation></entry>
+<entry><string>An operation requires a module file that cannot be found.</string><translation>Toiminto vaatii moduulin tiedoston, jota ei löydy.</translation></entry>
+<entry><string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Tiedosto voi puuttua tai sen nimi on muuttunut. Huomaa: tämä virhe esiintyy myös silloin, kun tiedostoa ei voida parsia PHP-virheiden takia.</translation></entry>
+<entry><string>Module function does not exist</string><translation>Moduulin funktiota ei ole olemassa</translation></entry>
+<entry><string>A call has been made to a module function that cannot be found.</string><translation>Tehtiin kutsu moduulin funktioon jota ei löydy.</translation></entry>
+<entry><string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Tiedosto, jossa funktion odotettiin sijaitsevan, puuttuu mahdollisesti. Jos näin ei ole, virhe on voinut tapahtua, koska todellinen funktio on eri niminen tai sitä ei ole olemassa. Huomaa: tämä virhe esiintyy myös silloin, kun tiedostoa ei voida parsia PHP-virheiden takia.</translation></entry>
+<entry><string>Module is not active</string><translation>Moduuli ei ole aktiivinen</translation></entry>
+<entry><string>A call has been made to a module that is not active.</string><translation>Tehtiin kutsu moduuliin, joka ei ole aktiivinen.</translation></entry>
+<entry><string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string><translation>Moduulia, joka ei ole aktivoitu/asennettu, kutsuttiin. Käytä aktivointi-linkkiä Moduulit-moduulista (Moduulit-&gt;Näytä kaikki) asentaaksesi moduuleita.</translation></entry>
+<entry><string>Module does not exist</string><translation>Moduulia ei ole olemassa</translation></entry>
+<entry><string>A call has been made to a module that cannot be found</string><translation>Tehtiin kutsu moduuliin, jota ei löydy</translation></entry>
+<entry><string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Moduulia, joka ei ole asennettu tai ei ole olemassa, kutsuttiin. Käytä aktivointi-linkkiä Moduulit-moduulista (Moduulit-&gt;Näytä kaikki) asentaaksesi moduuleita. Huomaa: tämä virhe esiintyy myös silloin, kun tiedostoa ei voida parsia PHP-virheiden takia.</translation></entry>
+<entry><string>No Privilege</string><translation>Ei valtuuksia</translation></entry>
+<entry><string>You do not have the privileges for this operation.</string><translation>Sinulla ei ole valtuuksia tähän operaatioon.</translation></entry>
+<entry><string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string><translation>Yritit operaatiota, johon sinun käyttäjätunnuksellasi ei ole valtuuksia. Vain ylläpitäjillä on oikeus antaa käyttäjille valtuuksia.</translation></entry>
+<entry><string>Not implemented</string><translation>Ei implementoitu</translation></entry>
+<entry><string>The requested feature is not available.</string><translation>Pyydetty ominaisuus ei ole saatavilla.</translation></entry>
+<entry><string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string><translation>Tehtiin pyyntö päästä käsiksi ominaisuuteen, jota ei ole asennettu tälle palvelimelle. Ominaisuus joko puuttuu tai sitä ei ole olemassa nykyiselle Xarayan versiolle.</translation></entry>
+<entry><string>System error</string><translation>Järjestelmävirhe</translation></entry>
+<entry><string>A system error was encountered.</string><translation>Tapahtui järjestelmävirhe.</translation></entry>
+<entry><string>Template does not exist</string><translation>Malline ei ole olemassa</translation></entry>
+<entry><string>An unknown template name was encountered.</string><translation>Tuntematon mallineen nimi.</translation></entry>
+<entry><string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string><translation>Järjestelmä yritti esittää mallinteen, jota ei löytynyt. Malline on joko poistettu, sitä ei ole tai sen nimi on muuttunut.</translation></entry>
+<entry><string>Theme does not exist</string><translation>Teemaa ei ole olemassa</translation></entry>
+<entry><string>An unknown theme name was encountered.</string><translation>Tuntematon teeman nimi.</translation></entry>
+<entry><string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string><translation>Järjestelmä yritti näyttää teeman, jota ei löytynyt. Teema on joko poistettu, sitä ei ole tai sen nimi on muuttunut.</translation></entry>
+<entry><string>Unable to load</string><translation>Lataus epäonnistui</translation></entry>
+<entry><string>An error was encountered during a load operation.</string><translation>Virhe latausoperaation aikana.</translation></entry>
+<entry><string>The system was unable to successfully load a component, such as a module or theme.</string><translation>Järjestelmä ei pystynyt lataamaan komponenttia, kuten moduulia tai teemaa.</translation></entry>
+<entry><string>Unknown Error</string><translation>Tuntematon virhe</translation></entry>
+<entry><string>An unknown error was encountered.</string><translation>Kohdattiin tuntematon virhe.</translation></entry>
+<entry><string>Variable is not registered</string><translation>Muuttujaa ei ole rekisteröity</translation></entry>
+<entry><string>You are attempting to call a variable that the system does not recognize.</string><translation>Yrität kutsua muuttujaa, jota järjestelmä ei tunnista.</translation></entry>
+<entry><string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string><translation>Virhe kutsuttaessa muuttujaa. Muuttuja on joko poistettu tai sen nimi on muuttunut.</translation></entry>
+<entry><string>XML Parser Error</string><translation>XML-parserin virhe</translation></entry>
+<entry><string>The XML parser has encountered an error.</string><translation>XML-parseri löysi virheen.</translation></entry>
+<entry><string>The XML parser tried to execute a line that was not well formed.</string><translation>XML-parseri yritti lukea rivin, joka ei ole oikein muodostettu.</translation></entry>
+<entry><string>The site is locked</string><translation>Sivusto on lukittu</translation></entry>
+<entry><string>No access at this time</string><translation>Pääsy evätty tällä hetkellä</translation></entry>
+<entry><string>Empty database_name.</string><translation>Tyhjä database_name.</translation></entry>
+<entry><string>Unknown database type: '#(1)'.</string><translation>Tuntematon tietokantatyyppi: '#(1)'.</translation></entry>
+<entry><string>Empty tableName.</string><translation>Tyhjä tableName.</translation></entry>
+<entry><string>Not array fields.</string><translation>Kentät eivät ole taulukkona.</translation></entry>
+<entry><string>Invalid args (must be an array, command key must be set).</string><translation>Virheellisiä argumentteja (syötteen täytyy olla taulukko, command-avain täytyy olla asetettu)</translation></entry>
+<entry><string>Invalid index (must be an array, fields key must be an array, name key must be set).</string><translation>Virheellinen indeksi (syötteen täytyy olla taulukko, fields-avaimen täytyy olla taulukko, name-avain täytyy olla asetettu)</translation></entry>
+<entry><string>Invalid args (field key must be set).</string><translation>Virheellisiä argumentteja (field-avain täytyy olla asetettu)</translation></entry>
+<entry><string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string><translation>Virheellisiä argumentteja (type, size, default, null, unsigned, increment tai primary_key pitää olla asetettu)</translation></entry>
+<entry><string>Invalid args (new_name key must be set.)</string><translation>Virheellisiä argumentteja (new_name-avain täytyy olla asetettu)</translation></entry>
+<entry><string>Unknown command: '#(1)'.</string><translation>Tuntematon komento: '#(1)'.</translation></entry>
+<entry><string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string><translation>Muokkaus ei tällä hetkellä tue arvoja: type, size, default, unsigned, increment tai primary_key)</translation></entry>
+<entry><string>Invalid #(1) for function #(2)() in #(3)</string><translation>Virheellinen #(1) funktiolle #(2)() moduulissa #(3)</translation></entry>
+<entry><string>No validation type present.</string><translation>Kelpuutustyyppiä ei löydy.</translation></entry>
+<entry><string>The #(1) type '#(2)' could not be found.</string><translation>Tyyppiä #(1) tiedostossa '#(2)' ei löytynyt.</translation></entry>
+<entry><string>Variable #(1) is not an array: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei ole taulukko: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an array: &quot;#(1)&quot;</string><translation>Ei ole taulukko: &quot;#(1)&quot;</translation></entry>
+<entry><string>Array variable has less elements &quot;#(1)&quot; than the specified minimum &quot;#(2)&quot;</string><translation>Taulukkomuuttuja sisältää vähemmän alkioita &quot;#(1)&quot; kuin asetettu vähimmäismäärä &quot;#(2)&quot;</translation></entry>
+<entry><string>Array variable has more elements &quot;#(1)&quot; than the specified maximum &quot;#(2)&quot;</string><translation>Taulukkomuuttuja sisältää enemmän alkioita &quot;#(1)&quot; kuin asetettu enimmäismäärä &quot;#(2)&quot;</translation></entry>
+<entry><string>Variable #(1) is not a boolean: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei ole boolean: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a boolean: &quot;#(1)&quot;</string><translation>Ei ole boolean: &quot;#(1)&quot;</translation></entry>
+<entry><string>Variable #(1) is not a checkbox: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei ole valintaruutu: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a scheckbox: &quot;#(1)&quot;</string><translation>Ei ole valintaruutu: &quot;#(1)&quot;</translation></entry>
+<entry><string>Variable #(1) does not match an e-mail type: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei vastaa sähköpostityyppiä: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an e-mail type: &quot;#(1)&quot;</string><translation>Ei ole sähköpostityyppi: &quot;#(1)&quot;</translation></entry>
+<entry><string>Input &quot;#(1)&quot; was not one of the possibilities for #(2): &quot;</string><translation>Syöte &quot;#(1)&quot; ei ollut yksikään vaihtoehdoista #(2):lle: &quot;</translation></entry>
+<entry><string>Input &quot;#(1)&quot; was not one of the possibilities.</string><translation>Syöte &quot;#(1)&quot; ei ollut yksikään vaihtoehdoista.</translation></entry>
+<entry><string>Variable #(1) is not a float type: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei ole liukuluku-tyyppiä: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a float type: &quot;#(1)&quot;</string><translation>Ei ole liukuluku-tyyppiä: &quot;#(1)&quot;</translation></entry>
+<entry><string>Float Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string><translation>Liukuluku &quot;#(1)&quot; on alle sallitun arvon &quot;#(2)&quot;</translation></entry>
+<entry><string>Float Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string><translation>Liukuluku &quot;#(1)&quot; on yli sallitun arvon &quot;#(2)&quot;</translation></entry>
+<entry><string>Variable #(1) contains a tag not allowed: &quot;#(2)&quot;</string><translation>Muuttuja #(1) sisältää tagin, jota ei sallita: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an allowed tag: &quot;#(1)&quot;</string><translation>Kielletty tagi: &quot;#(1)&quot;</translation></entry>
+<entry><string>Attributes are not allowed for this tag in variable #(1): &quot;#(2)&quot;</string><translation>Attribuutteja ei ole sallittu tälle tagille muuttujassa #(1): &quot;#(2)&quot;</translation></entry>
+<entry><string>Variable #(1) is not an integer: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei ole kokonaisluku: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not an integer: &quot;#(1)&quot;</string><translation>Ei ole kokonaisluku: &quot;#(1)&quot;</translation></entry>
+<entry><string>Integer Value &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string><translation>Kokonaisluku &quot;#(1)&quot; on alle sallitun arvon &quot;#(2)&quot;</translation></entry>
+<entry><string>Integer Value &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string><translation>Kokonaisluku &quot;#(1)&quot; on yli sallitun arvon &quot;#(2)&quot;</translation></entry>
+<entry><string>The variable is not set!</string><translation>Muuttujaa ei ole asetettu!</translation></entry>
+<entry><string>Invalid e-mail #(1), the mail server doesnt recognize it.</string><translation>Virheellinen sähköpostiosoite #(1), sähköpostipalvelin ei tunnista sitä.</translation></entry>
+<entry><string>Unable to connect to the mail server #(1) for e-mail #(2).</string><translation>Yhteyden otto sähköpostipalvelimelle #(1) osoitteen #(2) tarkistamiseksi epäonnistui.</translation></entry>
+<entry><string>Variable #(1) should not be empty: &quot;#(2)&quot;</string><translation>Muuttujan #(1) ei pitäisi olla tyhjä: &quot;#(2)&quot;</translation></entry>
+<entry><string>Should not be empty: &quot;#(1)&quot;</string><translation>Ei pitäisi olla tyhjä: &quot;#(1)&quot;</translation></entry>
+<entry><string>There is no parameter to check against in the Regexp validation of #(1)</string><translation>Ei ole parametria joka voidaan kelpuuttaa säännöllisen lausekkeen #(1) mukaisesti</translation></entry>
+<entry><string>There is no parameter to check against in the Regexp validation</string><translation>Ei ole parametriä joka voidaan kelpuuttaa säännöllisen lausekkeen mukaisesti</translation></entry>
+<entry><string>Variable #(1): &quot;#(2)&quot; did not match pattern &quot;#(3)&quot;</string><translation>Muuttuja #(1): &quot;#(2)&quot; ei vastaa kuviota &quot;#(3)&quot;</translation></entry>
+<entry><string>Variable #(1) is not a string: &quot;#(2)&quot;</string><translation>Muuttuja #(1) ei ole merkkijono: &quot;#(2)&quot;</translation></entry>
+<entry><string>Not a string: &quot;#(1)&quot;</string><translation>Ei ole merkkijono: &quot;#(1)&quot;</translation></entry>
+<entry><string>Size of the string &quot;#(1)&quot; is smaller than the specified minimum &quot;#(2)&quot;</string><translation>Merkkijonon &quot;#(1)&quot; pituus on alle sallitun arvon &quot;#(2)&quot;</translation></entry>
+<entry><string>Size of the string &quot;#(1)&quot; is bigger than the specified maximum &quot;#(2)&quot;</string><translation>Merkkijonon &quot;#(1)&quot; pituus on yli sallitun arvon &quot;#(2)&quot;</translation></entry>
+<entry><string>This call needs to be removed</string><translation>Tämä kutsu täytyy poistaa</translation></entry>
+<entry><string>The directories under #(1) must be writeable by PHP.</string><translation>Hakemistot polun #(1) alla täytyy olla kirjoitettavissa PHP:llä.</translation></entry>
+<entry><string>Context type: #(1) and file name: #(2)</string><translation>Kontekstityyppi: #(1) ja tiedostonimi: #(2)</translation></entry>
+<entry><string>Module or Theme Name #(1) is empty.</string><translation>Moduulin tai teeman nimi #(1) on tyhjä.</translation></entry>
+<entry><string>Empty RegId (#(1)) or RegId is equal to 0.</string><translation>Tyhjä RegId (#(1)) tai RegId on yhtä kuin 0.</translation></entry>
+<entry><string>Unknown</string><translation>Tuntematon</translation></entry>
+<entry><string>This module is not installed properly. Not all info could be retrieved</string><translation>Moduulia ei ole asennettu oikein. Kaikkea tietoa ei saatu</translation></entry>
+<entry><string>Unable to find Base Info for Module: #(1)</string><translation>Perustietoja ei saatu moduulille: #(1)</translation></entry>
+<entry><string>Module Name #(1) is empty.</string><translation>Moduulin nimi #(1) on tyhjä.</translation></entry>
+<entry><string>Could not load function file: [#(1)].</string><translation>Ei voitu ladata funktiotiedostoa: [#(1)].</translation></entry>
+<entry><string>Error Caught:</string><translation>Virhe:</translation></entry>
+<entry><string>Module function #(1) does not exist.</string><translation>Moduulin funktiota #(1) ei ole olemassa.</translation></entry>
+<entry><string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string><translation>Ei voitu ladata funktiotiedostoa: [#(1)].\n\n Virhe:\n #(2)</translation></entry>
+<entry><string>Module API function #(1) does not exist or could not be loaded.</string><translation>Moduulin API-funktio #(1) ei ole olemassa tai sitä ei voitu ladata.</translation></entry>
+<entry><string>Empty Module or Theme Name (#(1)).</string><translation>Tyhjä moduuli tai teeman nimi (#(1)).</translation></entry>
+<entry><string>Directory information #(1) is empty.</string><translation>Hakemistorakenne #(1) on tyhjä.</translation></entry>
+<entry><string>Cannot open file #(1).</string><translation>Tiedostoa #(1) ei voitu avata.</translation></entry>
+<entry><string>Wrong type, it must be 'module' or 'theme': #(1).</string><translation>Väärä tyyppi, pitää olla joko 'module' tai 'theme': #(1).</translation></entry>
+<entry><string>Empty theme or module name (#(1)).</string><translation>Tyhjä teema tai moduulin nimi (#(1)).</translation></entry>
+<entry><string>Empty Theme or Module variable name (#(1)).</string><translation>Tyhjä teema tai moduulin muuttujan nimi (#(1)).</translation></entry>
+<entry><string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string><translation>Laiton attribuutin nimi ('#(1)'): Attribuutin nimen täytyy alkaa kirjaimella ja se voi sisältää kirjaimia, numeroita sekä merkit _ ja -.</translation></entry>
+<entry><string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string><translation>Laittomat attribuutin liput ('#(1)'): lippujen täytyy olla tyypiltään kokonaislukuja.</translation></entry>
+<entry><string>Illegal tag definition: '#(1)' is an invalid tag name.</string><translation>Laiton tagin määritys: '#(1)' on virheellinen tagin nimi.</translation></entry>
+<entry><string>Illegal tag definition: '#(1)' is an invalid handler.</string><translation>Laiton tagin määritys: '#(1)' on virheellinen handler.</translation></entry>
+<entry><string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string><translation>Laittomat tagin rekisteröintiliput ('#(1)'): lippujen täytyy olla tyypiltään kokonaislukuja.</translation></entry>
+<entry><string>&lt;xar:#(1)&gt; tag is already defined.</string><translation>&lt;xar:#(1)&gt; tagi on jo määritelty.</translation></entry>
+<entry><string>&lt;xar:#(1)&gt; tag is not defined.</string><translation>&lt;xar:#(1)&gt;  tagia ei ole määritelty.</translation></entry>
+<entry><string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string><translation>Attribuutti '#(1)' tagissa &lt;xar:#(2)&gt; ei sisällä oikeaa tyyppiä. Katso lisätietoja tagin dokumentaatiosta.</translation></entry>
+<entry><string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string><translation>Vaadittu attribuutti '#(1)' puuttuu tagista &lt;xar:#(2)&gt;. Katso lisätietoja tagin dokumentaatiosta.</translation></entry>
+<entry><string>Empty themeName (#(1)).</string><translation>Tyhjä themeName (#(1)).</translation></entry>
+<entry><string>#(1) css stylesheet file cannot be found at this location:</string><translation>#(1) CSS-tyylitiedostoa ei löydetty tästä sijainnista:</translation></entry>
+<entry><string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string><translation>#(1) (kelvollista scope-attribuuttia ei voitu päätellä tästä xar:style tagista)</translation></entry>
+<entry><string>Anonymous</string><translation>Anonyymi</translation></entry>
+<entry><string>No Information</string><translation>Ei tietoa</translation></entry>
+<entry><string>User identified by uid #(1) does not exist.</string><translation>Käyttäjä tunnistenumerolla uid #(1) ei ole olemassa.</translation></entry>
+<entry><string>User variable #(1) was not correctly registered</string><translation>Käyttäjämuuttujaa #(1) ei ole rekisteröity oikein</translation></entry>
+<entry><string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string><translation>Security Realm #(1) - Komponentti #(2) - Instanssi #(3) - Taso #(4): Tämä kutsu täytyy muuttaa käyttämään Xarayan turvallisuusjärjestelmää.</translation></entry>
+<entry><string>Show the Users in this Group</string><translation>Näytä ryhmän käyttäjät</translation></entry>
+<entry><string>Delete this Group</string><translation>Poista ryhmä</translation></entry>
+<entry><string>Email the Users in this Group</string><translation>Lähetä sähköposti ryhmän käyttäjille</translation></entry>
+<entry><string>Show the Privileges assigned to this Group</string><translation>Näytä ryhmän oikeudet</translation></entry>
+<entry><string>Test this Groups's Privileges</string><translation>Testaa ryhmän oikeudet</translation></entry>
+<entry><string>subgroup</string><translation>aliryhmä</translation></entry>
+<entry><string>subgroups</string><translation>aliryhmät</translation></entry>
+<entry><string>user</string><translation>käyttäjä</translation></entry>
+<entry><string>users</string><translation>käyttäjät</translation></entry>
+<entry><string>Modify this Group</string><translation>Muokkaa ryhmää</translation></entry>
+<entry><string>You must enter a user name and a valid email address.</string><translation>Sinun täytyy antaa käyttäjänimi ja toimiva sähköpostiosoite.</translation></entry>
+<entry><string>This entry already exists.</string><translation>Tämä merkintä on jo olemassa.</translation></entry>
+<entry><string>You must enter a name.</string><translation>Sinun täytyy antaa nimi.</translation></entry>
+<entry><string>deleted</string><translation>poistettu</translation></entry>
+<entry><string>Parameters to winnow need to be arrays</string><translation>winnow-funktion parametrien täytyy olla taulukoita</translation></entry>
+<entry><string>Did not find mask #(1) registered for an unspecified component in module #(2)</string><translation>Ei löytynyt maskia #(1), joka on rekisteröity tuntemattomalle komponentille moduulissa #(2)</translation></entry>
+<entry><string>Did not find mask #(1) registered for component #(2) in module #(3)</string><translation>Ei löytynyt maskia #(1), joka on rekisteröity komponentille #(2) moduulissa #(3)</translation></entry>
+<entry><string>No privilege for #(1)</string><translation>Ei valtuuksia kohteeseen #(1)</translation></entry>
+<entry><string>A query is missing in component #(1) of module #(2)</string><translation>Puuttuva kysely komponentissa #(1) moduulissa #(2)</translation></entry>
+<entry><string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string><translation>#(1) ja #(2) eivät sisällä samoja instansseja. #(3) | #(4) | #(5)</translation></entry>
 </translations>
