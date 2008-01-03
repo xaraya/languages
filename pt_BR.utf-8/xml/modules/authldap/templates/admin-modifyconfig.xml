@@ -1,185 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="pt_BR.utf-8">
-	<entry>
-		<string>LDAP Server Configuration</string>
-		<translation>Configuração do Servidor LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>The LDAP server settings are also configurable from the</string>
-		<translation>As configurações do servidor LDAP também podem ser configuradas pelo</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Server Name or IP</string>
-		<translation>Nome ou IP do servidor LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Server Port Number</string>
-		<translation>Número da Porta do Servidor LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Note:</string>
-		<translation>Obs:</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string>
-		<translation>Se o nome do servidor contém &quot;ldap://&quot; ou &quot;ldaps://&quot;, o número da porta será ignorado. Ao invéz de utilizar o campo &quot;número da do servidor LDAP&quot;, anexe o número da porta ao nome do servidor no formato &quot;ldaps://servidor:porta&quot;.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>Anonymously Bind to Server</string>
-		<translation>Vincular Anonimamente ao Servidor</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Bind DN</string>
-		<translation>Vinculação DN LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP UserID Field Name</string>
-		<translation>Nome do Campo UserID do LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>Search User DN</string>
-		<translation>Procurar DN de Usuário</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Admin ID</string>
-		<translation>ID do Administrador LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Admin Password</string>
-		<translation>Senha do Administrador LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use TLS (LDAP Protocol 3 only)</string>
-		<translation>Utilizar TLS (somente Protocolo LDAP versão 3)</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authentication Configuration</string>
-		<translation>Configuração da Autenticação</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>Activate authentication module</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="119" />
-		</references>
-	</entry>
-	<entry>
-		<string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string>
-		<translation>Se o servidor LDAP estiver indisponível, a autenticação do Xaraya pode ser utilizada como um sistema alternativo para evitar falhas. Se a alternativa do Xaraya for permitida, ela só será utilizada se a autenticação pelo LDAP não estiver disponível. Se a ligação LDAP é bem sucedida, mas o usuário não é autenticado, o sistema de proteção contra falhas não será ativado.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string>
-		<translation>Permitir Autenticação pelo Xaraya se o Servidor LDAP estiver Indisponível?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="136" />
-		</references>
-	</entry>
-	<entry>
-		<string>User Configuration</string>
-		<translation>Configurações de Usuário</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="150" />
-		</references>
-	</entry>
-	<entry>
-		<string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string>
-		<translation>Se um usuário existente no diretório LDAP não tem uma conta no Xaraya, o usuário não poderá se conectar. Ao selecionar a opção abaixo e fornecer os valores para os atributos, um usuário com uma conta no diretório LDAP será automaticamente adicionado ao banco de dados do Xaraya e portanto poderá se conectar.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add LDAP User to Xaraya Database on Login</string>
-		<translation>Adicionar  Usuário do LDAP ao Banco de Dados do Xaraya ao Conectar</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="161" />
-		</references>
-	</entry>
-	<entry>
-		<string>Store User's LDAP Password in the Xaraya Database?</string>
-		<translation>Manter Senha do Usuário LDAP no Banco de Dados do Xaraya?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Username Attribute Name</string>
-		<translation>Nome do Atributo Nome de Usuário no LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="187" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Email Attribute Name</string>
-		<translation>Nome do Atributo Email no LDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="195" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Group</string>
-		<translation>Grupo de Usuários Padrão no Xaraya</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="203" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click &quot;Submit&quot; to change configuration:</string>
-		<translation>Clique em &quot;Confirmar&quot; para alterar a configuração:</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="220" />
-		</references>
-	</entry>
-	<entry>
-		<string>Submit</string>
-		<translation>Confirmar</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="224" />
-		</references>
-	</entry>
+<entry><string>Modify AuthLDAP Configuration</string><translation>Modificar configuração do módulo AuthLDAP</translation></entry>
+<entry><string>LDAP Server Configuration</string><translation>Configuração do Servidor LDAP</translation></entry>
+<entry><string>If you are configuring Xaraya to use LDAP for user authentication, you should configure the LDAP server within the &lt;a href=&quot;#(1)&quot;&gt;authldap module&lt;/a&gt;.</string><translation></translation></entry>
+<entry><string>LDAP Server Name or IP</string><translation>Nome ou IP do servidor LDAP</translation></entry>
+<entry><string>LDAP Server Port Number</string><translation>Número da Porta do Servidor LDAP</translation></entry>
+<entry><string>Note:</string><translation>Obs:</translation></entry>
+<entry><string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string><translation>Se o nome do servidor contém &quot;ldap://&quot; ou &quot;ldaps://&quot;, o número da porta será ignorado. Ao invéz de utilizar o campo &quot;número da do servidor LDAP&quot;, anexe o número da porta ao nome do servidor no formato &quot;ldaps://servidor:porta&quot;.</translation></entry>
+<entry><string>Anonymously Bind to Server</string><translation>Vincular Anonimamente ao Servidor</translation></entry>
+<entry><string>LDAP bind DN</string><translation>Vinculação DN LDAP</translation></entry>
+<entry><string>LDAP UserID Field Name</string><translation>Nome do Campo UserID do LDAP</translation></entry>
+<entry><string>Search User DN</string><translation>Procurar DN de Usuário</translation></entry>
+<entry><string>LDAP Admin ID</string><translation>ID do Administrador LDAP</translation></entry>
+<entry><string>LDAP Admin Password</string><translation>Senha do Administrador LDAP</translation></entry>
+<entry><string>Use TLS (LDAP Protocol 3 only)</string><translation>Utilizar TLS (somente Protocolo LDAP versão 3)</translation></entry>
+<entry><string>Authentication Configuration</string><translation>Configuração da Autenticação</translation></entry>
+<entry><string>Activate authentication module</string><translation>Ativar módulo de autenticação</translation></entry>
+<entry><string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string><translation>Se o servidor LDAP estiver indisponível, a autenticação do Xaraya pode ser utilizada como um sistema alternativo para evitar falhas. Se a alternativa do Xaraya for permitida, ela só será utilizada se a autenticação pelo LDAP não estiver disponível. Se a ligação LDAP é bem sucedida, mas o usuário não é autenticado, o sistema de proteção contra falhas não será ativado.</translation></entry>
+<entry><string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string><translation>Permitir Autenticação pelo Xaraya se o Servidor LDAP estiver Indisponível?</translation></entry>
+<entry><string>User Configuration</string><translation>Configurações de Usuário</translation></entry>
+<entry><string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string><translation>Se um usuário existente no diretório LDAP não tem uma conta no Xaraya, o usuário não poderá se conectar. Ao selecionar a opção abaixo e fornecer os valores para os atributos, um usuário com uma conta no diretório LDAP será automaticamente adicionado ao banco de dados do Xaraya e portanto poderá se conectar.</translation></entry>
+<entry><string>Add LDAP User to Xaraya Database on Login</string><translation>Adicionar  Usuário do LDAP ao Banco de Dados do Xaraya ao Conectar</translation></entry>
+<entry><string>Store Users LDAP Password in the Xaraya Database</string><translation>Armazenar senha dos usuários LDAP no banco de dados do Xaraya</translation></entry>
+<entry><string>Store User's LDAP Password in the Xaraya Database?</string><translation>Manter Senha do Usuário LDAP no Banco de Dados do Xaraya?</translation></entry>
+<entry><string>LDAP Username Attribute Name</string><translation>Nome do Atributo Nome de Usuário no LDAP</translation></entry>
+<entry><string>LDAP Email Attribute Name</string><translation>Nome do Atributo Email no LDAP</translation></entry>
+<entry><string>Default Group</string><translation>Grupo de Usuários Padrão no Xaraya</translation></entry>
+<entry><string>Group Configuration</string><translation></translation></entry>
+<entry><string>Default Group for Groups</string><translation></translation></entry>
+<entry><string>LDAP base for group search</string><translation></translation></entry>
+<entry><string>LDAP groups to import</string><translation></translation></entry>
+<entry><string>LDAP groups to import (separated by comma &lt;kdb&gt;','&lt;/kdb&gt;)</string><translation></translation></entry>
+<entry><string>LDAP attribute name: group name</string><translation></translation></entry>
+<entry><string>LDAP attribute name: children group reference</string><translation></translation></entry>
+<entry><string>LDAP attribute type: children group reference</string><translation></translation></entry>
+<entry><string>LDAP attribute name: user member reference</string><translation></translation></entry>
+<entry><string>LDAP attribute type: user member reference</string><translation></translation></entry>
+<entry><string>Click &quot;Submit&quot; to change configuration:</string><translation>Clique em &quot;Confirmar&quot; para alterar a configuração:</translation></entry>
+<entry><string>Submit</string><translation>Confirmar</translation></entry>
 </translations>

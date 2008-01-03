@@ -1,66 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="pt_BR.utf-8">
-	<entry>
-		<string>Overview</string>
-		<translation>Introdução</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>O que é?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string>
-		<translation>O módulo AuthLDAP permite que um usuário seja autenticado a partir de um servidor LDAP. Ao tentar entrar no site como un usuário registrado, o módulo envia o nome de usuário e senha ao servidor LDAP para autenticação.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Como utilizá-lo?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authentication by AuthLDAP is automatically available once the the AuthLDAP module has been initialized. You must configure XarLDAP before a user will be able to login to Xaraya. To remove AuthLDAP authentication, you must remove the module or disable it in the modify config screen.</string>
-		<translation>Autenticação pelo módulo AuthLDAP estará disponível automaticamente uma vez que o módulo AuthLDAP tenha sido ativado. Você deve configurar o módulo XarLDAP antes de que um usuário possa se autenticar no Xaraya. Para desativar a autenticação mediante o AuthLDAP, você deve disativar ou remover o módulo na seção &quot;Modificar Configuração&quot;.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have one choice. &quot;Modify Config&quot;.</string>
-		<translation>No menu, você tem uma opção: &quot;Modificar Configuração&quot;.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login.</string>
-		<translation>Modificar Configuração -- Daqui, você pode permitir que as informações de usuário no LDAP sejam automaticamente adicionadas ao banco de dados do Xaraya e que o usuário possa conectar-se ao site.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Blocos Incluídos</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks with the AuthLDAP Module</string>
-		<translation>Não há blocos incluídos no módulo AuthLDAP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>O que é?</translation></entry>
+<entry><string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string><translation>O módulo AuthLDAP permite que um usuário seja autenticado a partir de um servidor LDAP. Ao tentar entrar no site como un usuário registrado, o módulo envia o nome de usuário e senha ao servidor LDAP para autenticação.</translation></entry>
+<entry><string>How to use it?</string><translation>Como utilizá-lo?</translation></entry>
+<entry><string>From the menu, you have one choice. &quot;Modify Config&quot;.</string><translation>No menu, você tem uma opção: &quot;Modificar Configuração&quot;.</translation></entry>
+<entry><string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login. You can also setup the synchronization settings for LDAP groups.</string><translation></translation></entry>
+<entry><string>Manually Sync Groups -- This will resynchronize the imported LDAP groups. It may be long the first time if you have lots of Xaraya users imported from LDAP, or lots of (sub)groups to import.</string><translation></translation></entry>
+<entry><string>To synchronize the groups, we recommand to setup a job entry in the scheduler module. You need to call the function in (module:authldap, type:admin, function:syncgroups). The module has some caching mecanism for LDAP user profiles, so you can run this job frequently, for example every 30 minutes, without fearing about resource usage.</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation>Blocos Incluídos</translation></entry>
+<entry><string>There are no included blocks with the AuthLDAP Module</string><translation>Não há blocos incluídos no módulo AuthLDAP</translation></entry>
+<entry><string>Included Hooks</string><translation></translation></entry>
+<entry><string>There are no included Hooks with the AuthLDAP Module</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the AuthLDAP module can be found at</string><translation></translation></entry>
+<entry><string>AuthLDAP Extension page at</string><translation></translation></entry>
+<entry><string>AuthLDAP Module - Xaraya Extension 50</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on AuthLDAP found at</string><translation></translation></entry>
+<entry><string>Related documentation on AuthLDAP</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>AuthLDAP Module Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>
