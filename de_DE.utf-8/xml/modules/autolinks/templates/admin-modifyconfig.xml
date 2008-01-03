@@ -1,178 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Submit</string>
-		<translation>Speichern</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>Configure Autolinks</string>
-		<translation>Einstellungen bearbeiten</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Matching Rule Options</string>
-		<translation>Regel-Einstellungen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Characters that are permitted to terminate matching words, in addition to white space</string>
-		<translation>Zeichen, die Schlüsselwörter zusätzlich zu Leerzeichen begrenzen können</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Punctuation characters</string>
-		<translation>Interpunktionszeichen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>A list of XML elements within which no Autolinks are to be transformed</string>
-		<translation>Leerzeichen getrennte Liste von XML-Elementen, in denen keine Autolinks erzeugt werden</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Do not match in elements</string>
-		<translation>In diesen Elementen nicht ersetzen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Treat the non-breaking space entity as a white-space character for demarcating the boundaries of key words</string>
-		<translation>Entitys ohne Zeilenumbruch trennen Schlüsselwörter wie Leer- oder Interpunktionszeichen.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Non-breaking space entity (&amp;amp;nbsp;) as white space</string>
-		<translation>Entity ohne Zeilenumbruch (&amp;amp;nbsp;) als Trennung</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Action Options</string>
-		<translation>Treffer-Einstellungen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>The maximum number of times each Autolink is permitted to match a keyword in any single block of text</string>
-		<translation>Maximale Trefferzahl für jeden Autolink in einem einzelnen Textblock</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Link count limit</string>
-		<translation>Linkanzahl begrenzen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>Legacy setting - default decoration style applied to Autolinks - individual links may over-ride this setting or ignore it completely</string>
-		<translation>Vorgabe für das style-Attribut in den erzeugten Links. Kann mit den einzelnen Autolinkdefinitionen überdeckt werden.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>Autolink decoration style</string>
-		<translation>Vorgabe für Style</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>Legacy setting - default new window setting for Autolinks - individual links may over-ride this setting with named windows or ignore it completely</string>
-		<translation>'_blank' als Vorgabe für das target-Attribut in den erzeugten Links. Kann mit den einzelnen Autolinkdefinitionen überdeckt werden.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>Open links in new window</string>
-		<translation>Target=_blank vorgeben</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="69" />
-		</references>
-	</entry>
-	<entry>
-		<string>Flag to indicate whether errors in the execution of Autolink templates are to be shown inline with the linked keyword attempt, or hidden completely, leaving matched keywords intact - generally use this only for debugging</string>
-		<translation>Fehler von Autolink-Templates inline mit dem verbundenen Schlüsselwort anzeigen oder Fehlermeldungen unterdrücken</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show template errors inline (errors shown in content)</string>
-		<translation>Template-Fehler in Ausgabe (Nur zur Fehlersuche!)</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="80" />
-		</references>
-	</entry>
-	<entry>
-		<string>The base name for Autolink templates - this setting will form the first part of the template names</string>
-		<translation>Basisname für Autolink-Templates - erster Teil des Dateinamens - 'link' empfohlen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="90" />
-		</references>
-	</entry>
-	<entry>
-		<string>Template base name (affects all templates used)</string>
-		<translation>Template-Basisname (betrifft alle verwendeten Templates)</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>Admin Options</string>
-		<translation>Admin-Einstellungen</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="96" />
-		</references>
-	</entry>
-	<entry>
-		<string>The maximum number of Autolinks that will be displayed at any time in the Autolink view list admin page</string>
-		<translation>Maximale Anzahl der Autolinks in der Listenansicht</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>Items Per Page</string>
-		<translation>Autolinks pro Seite</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="99" />
-		</references>
-	</entry>
-	<entry>
-		<string>Indicates whether the sample links will be displayed in the Autolink view list admin page</string>
-		<translation>Darstellungsart der Prüftexte und Ergebnisse in der Autolinkliste unter jedem Link</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="105" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show sample links in list</string>
-		<translation>Autolink-Vorabprüfung: Darstellen von</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="106" />
-		</references>
-	</entry>
+<entry><string>Submit</string><translation>Speichern</translation></entry>
+<entry><string>Configure Autolinks</string><translation>Einstellungen bearbeiten</translation></entry>
+<entry><string>Matching Rule Options</string><translation>Regel-Einstellungen</translation></entry>
+<entry><string>Characters that are permitted to terminate matching words, in addition to white space</string><translation>Zeichen, die Schlüsselwörter zusätzlich zu Leerzeichen begrenzen können</translation></entry>
+<entry><string>Punctuation characters</string><translation>Interpunktionszeichen</translation></entry>
+<entry><string>A list of XML elements within which no Autolinks are to be transformed</string><translation>Leerzeichen getrennte Liste von XML-Elementen, in denen keine Autolinks erzeugt werden</translation></entry>
+<entry><string>Do not match in elements</string><translation>In diesen Elementen nicht ersetzen</translation></entry>
+<entry><string>Treat the non-breaking space entity as a white-space character for demarcating the boundaries of key words</string><translation>Entitys ohne Zeilenumbruch trennen Schlüsselwörter wie Leer- oder Interpunktionszeichen.</translation></entry>
+<entry><string>Non-breaking space entity (&amp;amp;nbsp;) as white space</string><translation>Entity ohne Zeilenumbruch (&amp;amp;nbsp;) als Trennung</translation></entry>
+<entry><string>Action Options</string><translation>Treffer-Einstellungen</translation></entry>
+<entry><string>The maximum number of times each Autolink is permitted to match a keyword in any single block of text</string><translation>Maximale Trefferzahl für jeden Autolink in einem einzelnen Textblock</translation></entry>
+<entry><string>Link count limit</string><translation>Linkanzahl begrenzen</translation></entry>
+<entry><string>Legacy setting - default decoration style applied to Autolinks - individual links may over-ride this setting or ignore it completely</string><translation>Vorgabe für das style-Attribut in den erzeugten Links. Kann mit den einzelnen Autolinkdefinitionen überdeckt werden.</translation></entry>
+<entry><string>Autolink decoration style</string><translation>Vorgabe für Style</translation></entry>
+<entry><string>Legacy setting - default new window setting for Autolinks - individual links may over-ride this setting with named windows or ignore it completely</string><translation>'_blank' als Vorgabe für das target-Attribut in den erzeugten Links. Kann mit den einzelnen Autolinkdefinitionen überdeckt werden.</translation></entry>
+<entry><string>Open links in new window</string><translation>Target=_blank vorgeben</translation></entry>
+<entry><string>Flag to indicate whether errors in the execution of Autolink templates are to be shown inline with the linked keyword attempt, or hidden completely, leaving matched keywords intact - generally use this only for debugging</string><translation>Fehler von Autolink-Templates inline mit dem verbundenen Schlüsselwort anzeigen oder Fehlermeldungen unterdrücken</translation></entry>
+<entry><string>Show template errors inline (errors shown in content)</string><translation>Template-Fehler in Ausgabe (Nur zur Fehlersuche!)</translation></entry>
+<entry><string>The base name for Autolink templates - this setting will form the first part of the template names</string><translation>Basisname für Autolink-Templates - erster Teil des Dateinamens - 'link' empfohlen</translation></entry>
+<entry><string>Template base name (affects all templates used)</string><translation>Template-Basisname (betrifft alle verwendeten Templates)</translation></entry>
+<entry><string>Admin Options</string><translation>Admin-Einstellungen</translation></entry>
+<entry><string>The maximum number of Autolinks that will be displayed at any time in the Autolink view list admin page</string><translation>Maximale Anzahl der Autolinks in der Listenansicht</translation></entry>
+<entry><string>Items Per Page</string><translation>Autolinks pro Seite</translation></entry>
+<entry><string>Indicates whether the sample links will be displayed in the Autolink view list admin page</string><translation>Darstellungsart der Prüftexte und Ergebnisse in der Autolinkliste unter jedem Link</translation></entry>
+<entry><string>Show sample links in list</string><translation>Autolink-Vorabprüfung: Darstellen von</translation></entry>
 </translations>

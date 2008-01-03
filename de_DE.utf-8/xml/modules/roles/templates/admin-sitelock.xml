@@ -1,108 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Configuration</string>
-		<translation>Konfiguration</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>On a locked site only the following users and groups will have access.</string>
-		<translation>Zur geschlossenen Webseite haben nur die folgenden Nutzer und Gruppen Zugang.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Entering a group name allows access to the users of that group. Unknown names will be ignored.</string>
-		<translation>Die Angabe eines Gruppennamens gibt den Mitgliedern den Zugang zur gesperrten Webseite. Unbekannte Namen werden nicht berücksichtigt.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Toggle notifications sent to this Group</string>
-		<translation>Sperr-Veränderungsmitteilungen an diese Gruppe senden</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>notify</string>
-		<translation>benachrichtigen</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add a Group to the lock notification list</string>
-		<translation>Füge eine Gruppe zur Sperr-Benachrichtigungsliste hinzu</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add Group:</string>
-		<translation>Gruppe hinzufügen:</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="69" />
-		</references>
-	</entry>
-	<entry>
-		<string>The following message will be emailed to members in the above list when the site is locked or unlocked.</string>
-		<translation>Die folgende Mitteilung wird bei Veränderungen der Sperre an die Mitglieder der vorstehenden Liste gesandt.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="77" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is prefaced by a short: &quot;Site &amp;lt;sitename&amp;gt; has been locked/unlocked&quot;.</string>
-		<translation>Vorangestellt ist der kurze Text: &quot;Die Webseite&amp;lt;sitename&amp;gt; wurde gesperrt/entsperrt&quot;.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Message sent when site lock status changes</string>
-		<translation>Gesendete Mitteilung bei einer Änderung des Sperrzustandes</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>Site Lock Email:</string>
-		<translation>E-Mailadresse zur Webseitensperre</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="92" />
-		</references>
-	</entry>
-	<entry>
-		<string>The following message will be displayed to members who are locked out when they try to login:</string>
-		<translation>Die folgende Mitteilung wird den ausgesperrten Nutzern beim Anmeldeversuch angezeigt:</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="101" />
-		</references>
-	</entry>
-	<entry>
-		<string>Text shown to users attempting to log in to a locked site</string>
-		<translation>Die folgende Mitteilung wird den ausgesperrten Nutzern beim Anmeldeversuch angezeigt:</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="111" />
-		</references>
-	</entry>
-	<entry>
-		<string>Site Lock Message:</string>
-		<translation>Sperrmitteilung</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>Save Site Lock Settings</string>
-		<translation>Save Site Lock Settings</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="124" />
-		</references>
-	</entry>
+<entry><string>Configuration</string><translation>Konfiguration</translation></entry>
+<entry><string>On a locked site only the following users and groups will have access.</string><translation>Zur geschlossenen Webseite haben nur die folgenden Nutzer und Gruppen Zugang.</translation></entry>
+<entry><string>Entering a group name allows access to the users of that group. Unknown names will be ignored.</string><translation>Die Angabe eines Gruppennamens gibt den Mitgliedern den Zugang zur gesperrten Webseite. Unbekannte Namen werden nicht berücksichtigt.</translation></entry>
+<entry><string>Toggle notifications sent to this Group</string><translation>Sperr-Veränderungsmitteilungen an diese Gruppe senden</translation></entry>
+<entry><string>notify</string><translation>benachrichtigen</translation></entry>
+<entry><string>Add a Group to the lock notification list</string><translation>Füge eine Gruppe zur Sperr-Benachrichtigungsliste hinzu</translation></entry>
+<entry><string>Add Group:</string><translation>Gruppe hinzufügen:</translation></entry>
+<entry><string>Logged On Users</string><translation></translation></entry>
+<entry><string>When Sitelock is turned on, you can choose to log off any users that are logged on at that time, except for the nominated Groups.
+Be aware that some users may be in the middle of adding content, and that content will be lost. It would be usual
+to provide some warning of the sitelock time to logged on users if you use this.</string><translation></translation></entry>
+<entry><string>Log off Active Users except for any in nominated Groups</string><translation></translation></entry>
+<entry><string>Log off Active Users (except those in nominated Groups)</string><translation></translation></entry>
+<entry><string>The following message will be emailed to members in the above list when the site is locked or unlocked.</string><translation>Die folgende Mitteilung wird bei Veränderungen der Sperre an die Mitglieder der vorstehenden Liste gesandt.</translation></entry>
+<entry><string>It is prefaced by a short: &quot;Site &amp;lt;sitename&amp;gt; has been locked/unlocked&quot;.</string><translation>Vorangestellt ist der kurze Text: &quot;Die Webseite&amp;lt;sitename&amp;gt; wurde gesperrt/entsperrt&quot;.</translation></entry>
+<entry><string>Message sent when site lock status changes</string><translation>Gesendete Mitteilung bei einer Änderung des Sperrzustandes</translation></entry>
+<entry><string>Site Lock Email:</string><translation>E-Mailadresse zur Webseitensperre</translation></entry>
+<entry><string>The following message will be displayed to members who are locked out when they try to login:</string><translation>Die folgende Mitteilung wird den ausgesperrten Nutzern beim Anmeldeversuch angezeigt:</translation></entry>
+<entry><string>Text shown to users attempting to log in to a locked site</string><translation>Die folgende Mitteilung wird den ausgesperrten Nutzern beim Anmeldeversuch angezeigt:</translation></entry>
+<entry><string>Site Lock Message:</string><translation>Sperrmitteilung</translation></entry>
+<entry><string>Save Site Lock Settings</string><translation>Save Site Lock Settings</translation></entry>
 </translations>

@@ -1,135 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ungültiges #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
-		<references>
-			<reference file="modules/dyn_example/xaradmin/delete.php" line="36" />
-			<reference file="modules/dyn_example/xaradmin/modify.php" line="34" />
-			<reference file="modules/dyn_example/xaradmin/update.php" line="29" />
-			<reference file="modules/dyn_example/xaruser/display.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Submit</string>
-		<translation>Speichern</translation>
-		<references>
-			<reference file="modules/dyn_example/xaradmin/modifyconfig.php" line="57" />
-			<reference file="modules/dyn_example/xaruser/settings.php" line="20" />
-			<reference file="modules/dyn_example/xaruser/usermenu.php" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>Options</string>
-		<translation>Optionen</translation>
-		<references>
-			<reference file="modules/dyn_example/xaradmin/view.php" line="73" />
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="48" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add Item</string>
-		<translation>Eintrag hinzufügen</translation>
-		<references>
-			<reference file="modules/dyn_example/xaradminapi/getmenulinks.php" line="35" />
-			<reference file="modules/dyn_example/xartemplates/includes/admin-menu.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config</string>
-		<translation>Einstellungen</translation>
-		<references>
-			<reference file="modules/dyn_example/xaradminapi/getmenulinks.php" line="58" />
-			<reference file="modules/dyn_example/xartemplates/includes/admin-menu.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Preview</string>
-		<translation>Vorschau</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="18" />
-			<reference file="modules/dyn_example/xartemplates/admin-modify.xd" line="36" />
-			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="17" />
-			<reference file="modules/dyn_example/xartemplates/admin-new.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Dynamic Example</string>
-		<translation>DynamicData-Beispiel</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-modifyconfig.xd" line="38" />
-			<reference file="modules/dyn_example/xaruserapi/menu.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>If you want to provide your own presentation here, you can specify a
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Ungültiges #(1) für #(2) Funktion #(3)() in Modul #(4)</translation></entry>
+<entry><string>Submit</string><translation>Speichern</translation></entry>
+<entry><string>Options</string><translation>Optionen</translation></entry>
+<entry><string>Add Item</string><translation>Eintrag hinzufügen</translation></entry>
+<entry><string>Modify Config</string><translation>Einstellungen</translation></entry>
+<entry><string>Preview</string><translation>Vorschau</translation></entry>
+<entry><string>Dynamic Example</string><translation>DynamicData-Beispiel</translation></entry>
+<entry><string>If you want to provide your own presentation here, you can specify a
 different &lt;code&gt;layout=&quot;...&quot;&lt;/code&gt; to use in the default template, or you can specify your
-own &lt;code&gt;template=&quot;...&quot;&lt;/code&gt; here as well.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="23" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="21" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>APPROACH # 2 : the &amp;lt;xar:data-getitems ...&amp;gt; tag</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="27" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>This tag will retrieve the properties and values from DynamicData and
-make them available in the 'properties' and 'values' variables in your template.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="31" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>APPROACH # 3 : getting the object list via API</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="76" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>APPROACH # 4 : getting the raw item values via API</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="89" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="89" />
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Here you'll have to handle the output format of the values yourself -
-in the module code and/or template...</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="93" />
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Dynamic Examples</string>
-		<translation>DynamicData-Beispiele anzeigen</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="7" />
-			<reference file="modules/dyn_example/xaruser/view.php" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Specify your own layout here...</string>
-		<translation>Geben Sie Ihr eigenes Layout hier an...</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/objects/showdisplay-dyn_example.xd" line="24" />
-			<reference file="modules/dyn_example/xartemplates/objects/showform.xd" line="17" />
-			<reference file="modules/dyn_example/xartemplates/objects/showview-dyn_example.xd" line="213" />
-		</references>
-	</entry>
+own &lt;code&gt;template=&quot;...&quot;&lt;/code&gt; here as well.</string><translation></translation></entry>
+<entry><string>APPROACH # 2 : the &amp;lt;xar:data-getitems ...&amp;gt; tag</string><translation></translation></entry>
+<entry><string>This tag will retrieve the properties and values from DynamicData and
+make them available in the 'properties' and 'values' variables in your template.</string><translation></translation></entry>
+<entry><string>APPROACH # 3 : getting the object list via API</string><translation></translation></entry>
+<entry><string>APPROACH # 4 : getting the raw item values via API</string><translation></translation></entry>
+<entry><string>Here you'll have to handle the output format of the values yourself -
+in the module code and/or template...</string><translation></translation></entry>
+<entry><string>View Dynamic Examples</string><translation>DynamicData-Beispiele anzeigen</translation></entry>
+<entry><string>Specify your own layout here...</string><translation>Geben Sie Ihr eigenes Layout hier an...</translation></entry>
 </translations>

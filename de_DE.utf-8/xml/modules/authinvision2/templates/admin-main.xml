@@ -1,206 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Authinvision2 Authentication Module</string>
-		<translation>Authinvision2 Authentication-Modul</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Überblick</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="6" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Wozu dient es?</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Authinvision2 module provides authentication based on Invision Power Board's v2.x user base. The intended purpose is to utilize IPB's proprietary Converge technology, but currently uses SQL queries to authenticate the user with the existing Converge implementation. The Xaraya Event API is used for user login and logout events which performs the actual login process to IPB. The authinvision2 module also assumes the database server is &lt;b&gt;mysql&lt;/b&gt;.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Wie setzt man es ein?</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have seven choices.</string>
-		<translation>Das Menü bietet sieben Möglichkeiten.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Server - The hostname running the database (defaults to localhost).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Database - The name of the database for IPB.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Username - The username used to connect to the IPB database.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Password - The password used to connect to the IPB database.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invision table prefix - The prefix used for the IPB tables (do &lt;b&gt;not&lt;/b&gt; include a &quot;_&quot;).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invision forum Root - This is the relative path to your IPB installation.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use Authinvision2 exclusively - Setting this will set authinvision2 to be your only authentication mechanism, and can not be unset.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Xaraya Group - The default group to add new users into.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Dazugehörige Blöcke</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>login - A modified Roles login block that adds the ability for a user to set themselves as invisible. This only affects the IPB login, and has no affect in Xaraya.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Dazugehörige Hooks</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>The Authinvision2 Module has no hooks included at this time.</string>
-		<translation>Das Authinvision2-Modul hat zur Zeit keine Hooks eingeschlossen.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included with the authinvision2 module is a class that can be used on IPB's side to log a user into Xaraya in order to provide two-way login capability. In the modules/authinvision2 directory, copy the XarayaIPB-1.0.3.tar.gz file into your forumroot directory and unpack it, which will create a new directory called &lt;b&gt;modules/xaraya&lt;/b&gt;. Included in this directory is a README.txt file containing instructions on modifying IPB, and an example ipb_member_sync.php file.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Authinvision2 module can be found at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authinvision2 Extension page at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authinvision2 Module - Xaraya Extension 130</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Authinvision2 found at</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Authinvision2</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authinvision2 Module Overview</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="43" />
-		</references>
-	</entry>
+<entry><string>Authinvision2 Authentication Module</string><translation>Authinvision2 Authentication-Modul</translation></entry>
+<entry><string>Overview</string><translation>Überblick</translation></entry>
+<entry><string>What is it?</string><translation>Wozu dient es?</translation></entry>
+<entry><string>The Authinvision2 module provides authentication based on Invision Power Board's v2.x user base. The intended purpose is to utilize IPB's proprietary Converge technology, but currently uses SQL queries to authenticate the user with the existing Converge implementation. The Xaraya Event API is used for user login and logout events which performs the actual login process to IPB. The authinvision2 module also assumes the database server is &lt;b&gt;mysql&lt;/b&gt;.</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation>Wie setzt man es ein?</translation></entry>
+<entry><string>From the menu, you have seven choices.</string><translation>Das Menü bietet sieben Möglichkeiten.</translation></entry>
+<entry><string>Server - The hostname running the database (defaults to localhost).</string><translation></translation></entry>
+<entry><string>Database - The name of the database for IPB.</string><translation></translation></entry>
+<entry><string>Username - The username used to connect to the IPB database.</string><translation></translation></entry>
+<entry><string>Password - The password used to connect to the IPB database.</string><translation></translation></entry>
+<entry><string>Invision table prefix - The prefix used for the IPB tables (do &lt;b&gt;not&lt;/b&gt; include a &quot;_&quot;).</string><translation></translation></entry>
+<entry><string>Invision forum Root - This is the relative path to your IPB installation.</string><translation></translation></entry>
+<entry><string>Use Authinvision2 exclusively - Setting this will set authinvision2 to be your only authentication mechanism, and can not be unset.</string><translation></translation></entry>
+<entry><string>Default Xaraya Group - The default group to add new users into.</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation>Dazugehörige Blöcke</translation></entry>
+<entry><string>login - A modified Roles login block that adds the ability for a user to set themselves as invisible. This only affects the IPB login, and has no affect in Xaraya.</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation>Dazugehörige Hooks</translation></entry>
+<entry><string>The Authinvision2 Module has no hooks included at this time.</string><translation>Das Authinvision2-Modul hat zur Zeit keine Hooks eingeschlossen.</translation></entry>
+<entry><string>Included with the authinvision2 module is a class that can be used on IPB's side to log a user into Xaraya in order to provide two-way login capability. In the modules/authinvision2 directory, copy the XarayaIPB-1.0.3.tar.gz file into your forumroot directory and unpack it, which will create a new directory called &lt;b&gt;modules/xaraya&lt;/b&gt;. Included in this directory is a README.txt file containing instructions on modifying IPB, and an example ipb_member_sync.php file.</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the Authinvision2 module can be found at</string><translation></translation></entry>
+<entry><string>Authinvision2 Extension page at</string><translation></translation></entry>
+<entry><string>Authinvision2 Module - Xaraya Extension 130</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on Authinvision2 found at</string><translation></translation></entry>
+<entry><string>Related documentation on Authinvision2</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Authinvision2 Module Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>

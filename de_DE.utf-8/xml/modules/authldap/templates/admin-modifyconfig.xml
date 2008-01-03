@@ -1,291 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Modify AuthLDAP Configuration</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Server Configuration</string>
-		<translation>LDAP-Serverkonfiguration</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>If you are configuring Xaraya to use LDAP for user authentication, you should configure the LDAP server within the &lt;a href=&quot;#(1)&quot;&gt;authldap module&lt;/a&gt;.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Server Name or IP</string>
-		<translation>LDAP-Servername oder -IP</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="23" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Server Port Number</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="29" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Note:</string>
-		<translation>Hinweis:</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Anonymously Bind to Server</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="38" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP bind DN</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="48" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP UserID Field Name</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="54" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>Search User DN</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="60" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Admin ID</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="70" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Admin Password</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="76" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="77" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="82" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use TLS (LDAP Protocol 3 only)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authentication Configuration</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Activate authentication module</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="97" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="107" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="110" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="111" />
-		</references>
-	</entry>
-	<entry>
-		<string>User Configuration</string>
-		<translation>Nutzerkonfiguration</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="122" />
-		</references>
-	</entry>
-	<entry>
-		<string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="125" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add LDAP User to Xaraya Database on Login</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="128" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="129" />
-		</references>
-	</entry>
-	<entry>
-		<string>Store Users LDAP Password in the Xaraya Database</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>Store User's LDAP Password in the Xaraya Database?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="139" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Username Attribute Name</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="148" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="149" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP Email Attribute Name</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="154" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="155" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Group</string>
-		<translation>Standardgruppe</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="160" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="161" />
-		</references>
-	</entry>
-	<entry>
-		<string>Group Configuration</string>
-		<translation>Gruppenkonfiguration</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="176" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Group for Groups</string>
-		<translation>Standardgruppe für Gruppen</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="179" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="180" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP base for group search</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="193" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="194" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP groups to import</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="199" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP groups to import (separated by comma &lt;kdb&gt;','&lt;/kdb&gt;)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="200" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP attribute name: group name</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="205" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="206" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP attribute name: children group reference</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="211" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="212" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP attribute type: children group reference</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="217" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="218" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP attribute name: user member reference</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="223" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="224" />
-		</references>
-	</entry>
-	<entry>
-		<string>LDAP attribute type: user member reference</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="229" />
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="230" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click &quot;Submit&quot; to change configuration:</string>
-		<translation>Klicken Sie auf &quot;Einreichen&quot;, um die Konfiguration zu ändern:</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="236" />
-		</references>
-	</entry>
-	<entry>
-		<string>Submit</string>
-		<translation>Einreichen</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-modifyconfig.xd" line="239" />
-		</references>
-	</entry>
+<entry><string>Modify AuthLDAP Configuration</string><translation></translation></entry>
+<entry><string>LDAP Server Configuration</string><translation>LDAP-Serverkonfiguration</translation></entry>
+<entry><string>If you are configuring Xaraya to use LDAP for user authentication, you should configure the LDAP server within the &lt;a href=&quot;#(1)&quot;&gt;authldap module&lt;/a&gt;.</string><translation></translation></entry>
+<entry><string>LDAP Server Name or IP</string><translation>LDAP-Servername oder -IP</translation></entry>
+<entry><string>LDAP Server Port Number</string><translation></translation></entry>
+<entry><string>Note:</string><translation>Hinweis:</translation></entry>
+<entry><string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string><translation></translation></entry>
+<entry><string>Anonymously Bind to Server</string><translation></translation></entry>
+<entry><string>LDAP bind DN</string><translation></translation></entry>
+<entry><string>LDAP UserID Field Name</string><translation></translation></entry>
+<entry><string>Search User DN</string><translation></translation></entry>
+<entry><string>LDAP Admin ID</string><translation></translation></entry>
+<entry><string>LDAP Admin Password</string><translation></translation></entry>
+<entry><string>Use TLS (LDAP Protocol 3 only)</string><translation></translation></entry>
+<entry><string>Authentication Configuration</string><translation></translation></entry>
+<entry><string>Activate authentication module</string><translation></translation></entry>
+<entry><string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string><translation></translation></entry>
+<entry><string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string><translation></translation></entry>
+<entry><string>User Configuration</string><translation>Nutzerkonfiguration</translation></entry>
+<entry><string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string><translation></translation></entry>
+<entry><string>Add LDAP User to Xaraya Database on Login</string><translation></translation></entry>
+<entry><string>Store Users LDAP Password in the Xaraya Database</string><translation></translation></entry>
+<entry><string>Store User's LDAP Password in the Xaraya Database?</string><translation></translation></entry>
+<entry><string>LDAP Username Attribute Name</string><translation></translation></entry>
+<entry><string>LDAP Email Attribute Name</string><translation></translation></entry>
+<entry><string>Default Group</string><translation>Standardgruppe</translation></entry>
+<entry><string>Group Configuration</string><translation>Gruppenkonfiguration</translation></entry>
+<entry><string>Default Group for Groups</string><translation>Standardgruppe für Gruppen</translation></entry>
+<entry><string>LDAP base for group search</string><translation></translation></entry>
+<entry><string>LDAP groups to import</string><translation></translation></entry>
+<entry><string>LDAP groups to import (separated by comma &lt;kdb&gt;','&lt;/kdb&gt;)</string><translation></translation></entry>
+<entry><string>LDAP attribute name: group name</string><translation></translation></entry>
+<entry><string>LDAP attribute name: children group reference</string><translation></translation></entry>
+<entry><string>LDAP attribute type: children group reference</string><translation></translation></entry>
+<entry><string>LDAP attribute name: user member reference</string><translation></translation></entry>
+<entry><string>LDAP attribute type: user member reference</string><translation></translation></entry>
+<entry><string>Click &quot;Submit&quot; to change configuration:</string><translation>Klicken Sie auf &quot;Einreichen&quot;, um die Konfiguration zu ändern:</translation></entry>
+<entry><string>Submit</string><translation>Einreichen</translation></entry>
 </translations>

@@ -1,850 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Site Contact</string>
-		<translation>Site Contact</translation>
-		<references>
-			<reference file="modules/sitecontact/xarversion.php" line="15" />
-			<reference file="modules/sitecontact/xaruser/main.php" line="148" />
-			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="146" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can add Dynamic Data fields here by hooking Dynamic Data to Sitecontact</string>
-		<translation>Sie können hier dynamicData-Felder hinzufügen, wenn Sie das Modul DynamicData mittels Hook mit diesem Modul (SiteContact) verbinden</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/modifyconfig.php" line="90" />
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="280" />
-		</references>
-	</entry>
-	<entry>
-		<string>Create Form</string>
-		<translation>Formular anlegen</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="212" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="242" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Löschen</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="303" />
-			<reference file="modules/sitecontact/xaradmin/view.php" line="122" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="535" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="758" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="760" />
-			<reference file="modules/sitecontact/xartemplates/admin-delete.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Response ID</string>
-		<translation>Antwort-ID</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/delete.php" line="48" />
-			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Edit</string>
-		<translation>Bearbeiten</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/view.php" line="123" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="750" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="752" />
-		</references>
-	</entry>
-	<entry>
-		<string>Manage Contact Forms</string>
-		<translation>Kontaktformulare verwalten</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/getmenulinks.php" line="27" />
-			<reference file="modules/sitecontact/xartemplates/includes/admin-menu.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Review Responses</string>
-		<translation>Antworten durchsehen</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/getmenulinks.php" line="30" />
-			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="13" />
-			<reference file="modules/sitecontact/xartemplates/includes/admin-menu.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>SiteContact Administration</string>
-		<translation>Administration des SiteContact-Moduls</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/menu.php" line="25" />
-			<reference file="modules/sitecontact/xartemplates/admin-menu.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Ungültig: #(1) für #(2) Funktion #(3)() in Modul #(4)</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/createsctype.php" line="26" />
-			<reference file="modules/sitecontact/xaradminapi/deletesctype.php" line="27" />
-			<reference file="modules/sitecontact/xaradminapi/deletesctype.php" line="44" />
-			<reference file="modules/sitecontact/xaradminapi/updatesctype.php" line="31" />
-			<reference file="modules/sitecontact/xaradminapi/updatesctype.php" line="107" />
-			<reference file="modules/sitecontact/xaradminapi/create.php" line="44" />
-			<reference file="modules/sitecontact/xaradminapi/delete.php" line="28" />
-			<reference file="modules/sitecontact/xaruserapi/get.php" line="29" />
-			<reference file="modules/sitecontact/xaruserapi/getall.php" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Überblick</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="10" />
-			<reference file="modules/sitecontact/xartemplates/includes/admin-menu.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Site Contact Administration</string>
-		<translation>Administration des Moduls SiteContact</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="6" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="6" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default site email for receiving and sending contact emails. Defaults to Admin email</string>
-		<translation>Standardmäßige Emailadress für diese Site, um Kontaktemails zu empfangen und zu senden. Standardemail ist die Email des Administrators</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="82" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="44" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="284" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default name for receiving and sending contact emails. Defaults to site Admin name</string>
-		<translation>Standardmäßig verwendeter Name für das Empfangen und Senden von Kontaktemails. Standardname ist der Name des Administrators</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="90" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="52" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="292" />
-		</references>
-	</entry>
-	<entry>
-		<string>You must install the FormAntiBot module for this Anti-Bot CAPTCHA to work.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="117" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="77" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="321" />
-		</references>
-	</entry>
-	<entry>
-		<string>Custom title for your contact page.</string>
-		<translation>Den Besuchern der Site angezeigter Titel der Seite</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="127" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="86" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="330" />
-		</references>
-	</entry>
-	<entry>
-		<string>Custom page title:</string>
-		<translation>Seitentitel:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="128" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="87" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="331" />
-		</references>
-	</entry>
-	<entry>
-		<string>Custom text for the contact page. You can use HTML here if configured on your site.</string>
-		<translation>Der Einleitungstext auf Ihrer SiteContact-Seite. Wenn die Verwendung von HTML auf Ihrer Site entsprechend konfiguriert ist, können Sie es hier verwenden.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="134" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="93" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="337" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your custom text:</string>
-		<translation>Ihr Einleitungstext:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="135" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="94" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="338" />
-		</references>
-	</entry>
-	<entry>
-		<string>Custom text displayed on your site after the user sends their message.</string>
-		<translation>Der Text, der auf Ihrer Site angezeigt wird, nachdem ein Besucher seine Mailanfrage versandt hat.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="141" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="100" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="344" />
-		</references>
-	</entry>
-	<entry>
-		<string>Confirm Page Text:</string>
-		<translation>Text der Bestätigungsmail</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="142" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="101" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="345" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow a cc recipient list?</string>
-		<translation>Eine CC-Empfängerliste zulassen?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="152" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="111" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="355" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow CC Recipient list?</string>
-		<translation>CC-Empfängerliste zulassen?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="153" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="112" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="356" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow a bcc recipient list?</string>
-		<translation>Eine BCC-Empfängerliste zulassen?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="163" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="121" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="365" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow BCC Recipient list?</string>
-		<translation>BCC-Empfängerliste zulassen?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="164" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="122" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="366" />
-		</references>
-	</entry>
-	<entry>
-		<string>NOTE: Please ensure you understand the potential problems of allowing
-muliple emailings (spammer use) if you have open access on your website to this form.</string>
-		<translation>HINWEIS: Wenn sie mehrfaches E-Mailen erlauben, sollten Sie sich sicher sein, die damit zusammenhängenden Probleme zu kennen, wenn Sie auf Ihrer Website offenen Zugang zu diesem Formular ermöglichen.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="169" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="371" />
-		</references>
-	</entry>
-	<entry>
-		<string>Save the site contact form data</string>
-		<translation>Die SiteContact-Formulardaten sichern</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="177" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="135" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="379" />
-		</references>
-	</entry>
-	<entry>
-		<string>Save form responses to the database?</string>
-		<translation>Formularantworten in der Datenbank sichern?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="178" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="136" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="380" />
-		</references>
-	</entry>
-	<entry>
-		<string>Require user permission for data save?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="188" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="146" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="390" />
-		</references>
-	</entry>
-	<entry>
-		<string>Require user permission for response save in database?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="189" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="147" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="391" />
-		</references>
-	</entry>
-	<entry>
-		<string>URL link to your terms.</string>
-		<translation>URL-Link zu Ihren Nutzungsbedingungen</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="195" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="153" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="397" />
-		</references>
-	</entry>
-	<entry>
-		<string>Terms link URL :</string>
-		<translation>Link zu den Nutzungsbedingungen:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="196" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="154" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="398" />
-		</references>
-	</entry>
-	<entry>
-		<string>Subject and optional email address per line. Form : Subject[semicolon]email[comma]</string>
-		<translation>Betreff und optionale Emailadresse pro Zeile. In dieser Form: Betreff[Semikolon]Email[Komma]</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="206" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="163" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="409" />
-		</references>
-	</entry>
-	<entry>
-		<string>Options for subject with optional alternative email address:</string>
-		<translation>Optionen für den Betreff mit optional alternativen Emailadressen:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="207" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="164" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="410" />
-		</references>
-	</entry>
-	<entry>
-		<string>Each line above should be entered with the semicolon and comma:</string>
-		<translation>Jede Zeile sollte mit Semikolon und Komma eingegeben werden:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="213" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="170" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="416" />
-		</references>
-	</entry>
-	<entry>
-		<string>subject;optional-email,</string>
-		<translation>Betreff;optionale Emailadresse,</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="214" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="171" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="417" />
-		</references>
-	</entry>
-	<entry>
-		<string>The optional email and semicolon can be omitted but must have comma to separate each line.</string>
-		<translation>Die optionale Emailadresse sowie das Semikolon können entfallen, allerdings muss am Ende &lt;strong&gt;jeder&lt;/strong&gt; Zeile ein Komma gesetzt werden (um die Zeilen voneinander zu trennen).</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="215" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="172" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="418" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow sending of copy to feedback sender</string>
-		<translation>Das Senden einer Kopie an den Sender der Rückmeldung erlauben</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="224" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="181" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="427" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow sending of copy to anonymous user</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="234" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="191" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="437" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow anonymous users to also request a copy?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="235" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="192" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="438" />
-		</references>
-	</entry>
-	<entry>
-		<string>NOTE: Please ensure you understand the potential problems of allowing
-copy to sender option (spammer use) if you have open access on your website to this specific form.</string>
-		<translation>HINWEIS: Sie sollten sich über die Problematik im Klaren sein, wenn Sie die Option &quot;Kopie an Absender&quot; erlauben (Spammer-Mißbrauch!) für den Fall, dass Sie offenen Zugang zu diesem spezifischen Formular zulassen.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="241" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="197" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="443" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow HTML in feedback emails</string>
-		<translation>HTML in Feedback-Emails erlauben?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="249" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="201" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="447" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use HTML Email?</string>
-		<translation>HTML in der Email verwenden?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="250" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="202" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="448" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included in email to user - use HTML only if email configured for HTML</string>
-		<translation>auch in der Email an den Benutzer - HTML nur verwenden, wenn die Email für HTML konfiguriert ist</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="256" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="212" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="458" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default emailed note to user (in template as ##$notetouser##):</string>
-		<translation>Standardmäßiger Emailhinweis an den Nutzer:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="257" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="213" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="459" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can use the following variables in your email:</string>
-		<translation>Sie können folgende Variablen in Ihrer Email verwenden:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="263" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="220" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="466" />
-		</references>
-	</entry>
-	<entry>
-		<string>User email</string>
-		<translation>Benutzeremail</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="267" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="223" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="470" />
-		</references>
-	</entry>
-	<entry>
-		<string>User name</string>
-		<translation>Benutzername</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="268" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="224" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="471" />
-		</references>
-	</entry>
-	<entry>
-		<string>Subject from drop down list</string>
-		<translation>Betreff von der Auswahlliste</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="269" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="225" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="472" />
-		</references>
-	</entry>
-	<entry>
-		<string>Organization</string>
-		<translation>Organisation: / Verein</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="270" />
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="106" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="226" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="473" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="627" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="130" />
-		</references>
-	</entry>
-	<entry>
-		<string>Contact Form</string>
-		<translation>Kontaktformular</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="24" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="562" />
-			<reference file="modules/sitecontact/xartemplates/includes/admin-submenu.xd" line="10" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Enter your name</string>
-		<translation>Geben Sie Ihren Namen ein</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="53" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="580" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your Name</string>
-		<translation>Ihr Name</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="56" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="583" />
-		</references>
-	</entry>
-	<entry>
-		<string>(required)</string>
-		<translation>(erforderlich)</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="63" />
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="77" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="589" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="603" />
-		</references>
-	</entry>
-	<entry>
-		<string>Enter your email</string>
-		<translation>Geben Sie Ihre Emailadresse ein</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="67" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="593" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your Email</string>
-		<translation>Ihre Email</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="70" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="596" />
-		</references>
-	</entry>
-	<entry>
-		<string>Subject</string>
-		<translation>Betreff</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="82" />
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="85" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="607" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="610" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="129" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="69" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please enter your organization name.</string>
-		<translation>Bitte geben Sie den Namen Ihrer Organisation an.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="103" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="624" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>Separate emails by colons (;) or optionally add a name for each email by separating email and name by a comma eg</string>
-		<translation>Trennen Sie E-Mails durch Semikolons (;) oder fügen Sie optional zu jeder E-Mail-Adresse einen Namen hinzu, E-Mail und Namen dabei durch ein Komma getrennt</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="132" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="648" />
-		</references>
-	</entry>
-	<entry>
-		<string>Type in your message</string>
-		<translation>Geben Sie Ihre Mitteilung ein</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="136" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="652" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Message</string>
-		<translation>Mitteilung</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="139" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="655" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Would you like to have a copy of the message sent to your email</string>
-		<translation>Wollen Sie eine Kopie Ihrer Mitteilung zugemailt bekommen</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="165" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="685" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="159" />
-		</references>
-	</entry>
-	<entry>
-		<string>Copy email to you</string>
-		<translation>Kopie der Email an Sie</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="168" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="683" />
-		</references>
-	</entry>
-	<entry>
-		<string>May we save your response to this form?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="179" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="694" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>Permit saving of your form response?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="182" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="697" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please review our privacy policy:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="188" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="703" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="182" />
-		</references>
-	</entry>
-	<entry>
-		<string>Terms &amp;amp; Privacy Policy</string>
-		<translation>Nutzungsbedingungen &amp;amp; Datenschutz</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="190" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="705" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="184" />
-		</references>
-	</entry>
-	<entry>
-		<string>Enter the value as seen in the image (if you can not read the image, click on it to load a new one).</string>
-		<translation>Bitte geben Sie den Wert, den Sie auf dem Bild sehen, ein (wenn sie diesen auf dem Bild nicht lesen können, klicken Sie auf dieses, um einen neuen zu laden).</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="196" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="190" />
-		</references>
-	</entry>
-	<entry>
-		<string>Anti-Bot Code</string>
-		<translation>Anti-Bot-Code</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="199" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="193" />
-		</references>
-	</entry>
-	<entry>
-		<string>Anti-bot code entry was incorrect - please try again...</string>
-		<translation>Die Anti-bot-Code-Eingabe war falsch - bitte versuchen Sie es erneut...</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="204" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="198" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please enter the Anti-Bot Code</string>
-		<translation>Bitte geben Sie den Anti-Bot-Code ein</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="212" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="207" />
-		</references>
-	</entry>
-	<entry>
-		<string>Can't read it? Click the image to generate a new code.</string>
-		<translation>Sie können ihn nicht lesen? Klicken Sie auf das Bild, um einen neuen Code zu erzeugen.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="214" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="209" />
-		</references>
-	</entry>
-	<entry>
-		<string>Submit</string>
-		<translation>Losschicken</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="230" />
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="722" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="76" />
-			<reference file="modules/sitecontact/xaruser/main.php" line="84" />
-			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="87" />
-		</references>
-	</entry>
-	<entry>
-		<string>Submitted By:</string>
-		<translation>Eingereicht von:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="2" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="1" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email:</string>
-		<translation>E-Mail:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="6" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="5" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="7" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="7" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="31" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>Organization:</string>
-		<translation>Organisation: / Verein:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="9" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="7" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="10" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="9" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="43" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Subject:</string>
-		<translation>Betreff:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="12" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="9" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="13" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="11" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="37" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="72" />
-		</references>
-	</entry>
-	<entry>
-		<string>Comments:</string>
-		<translation>Kommentare:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="15" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="11" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="16" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>User information:</string>
-		<translation>Nutzerinfo:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="31" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sender:</string>
-		<translation>IP des Absender:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="34" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Referer:</string>
-		<translation>Referer:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="37" />
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="29" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>at</string>
-		<translation>um</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="33" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="30" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>You submitted the following information:</string>
-		<translation>Sie haben die folgende Information eingereicht:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="2" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name:</string>
-		<translation>Name:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="4" />
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="5" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Form ID</string>
-		<translation>Formular-ID</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="738" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>Form Name</string>
-		<translation>Formulatname</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="739" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="126" />
-			<reference file="modules/sitecontact/xartemplates/blocks/modify-sitecontact.xd" line="6" />
-		</references>
-	</entry>
-	<entry>
-		<string>Options</string>
-		<translation>Optionen</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="741" />
-			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Sitecontact Administration</string>
-		<translation>Sitecontact-Administration</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-delete.xd" line="3" />
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="3" />
-			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Message:</string>
-		<translation>Mitteilung:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-display.xd" line="49" />
-			<reference file="modules/sitecontact/xartemplates/blocks/sitecontact.xd" line="134" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name</string>
-		<translation>Name</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="23" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email</string>
-		<translation>E-Mail</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-view.xd" line="26" />
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="128" />
-		</references>
-	</entry>
-	<entry>
-		<string>The form requested is not available</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="71" />
-			<reference file="modules/sitecontact/xaruser/main.php" line="64" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your message has been sent.</string>
-		<translation>Ihre Mitteilung wurde versandt.</translation>
-		<references>
-			<reference file="modules/sitecontact/xaruser/main.php" line="180" />
-			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="178" />
-		</references>
-	</entry>
-	<entry>
-		<string>You should receive confirmation of your email within a few minutes.</string>
-		<translation>In wenigen Minuten erhalten Sie eine Bestätigungsmail.</translation>
-		<references>
-			<reference file="modules/sitecontact/xaruser/main.php" line="182" />
-			<reference file="modules/sitecontact/xarblocks/sitecontact.php" line="180" />
-		</references>
-	</entry>
+<entry><string>Site Contact</string><translation>Site Contact</translation></entry>
+<entry><string>You can add Dynamic Data fields here by hooking Dynamic Data to Sitecontact</string><translation>Sie können hier dynamicData-Felder hinzufügen, wenn Sie das Modul DynamicData mittels Hook mit diesem Modul (SiteContact) verbinden</translation></entry>
+<entry><string>Create Form</string><translation>Formular anlegen</translation></entry>
+<entry><string>Delete</string><translation>Löschen</translation></entry>
+<entry><string>Response ID</string><translation>Antwort-ID</translation></entry>
+<entry><string>Edit</string><translation>Bearbeiten</translation></entry>
+<entry><string>Manage Contact Forms</string><translation>Kontaktformulare verwalten</translation></entry>
+<entry><string>Review Responses</string><translation>Antworten durchsehen</translation></entry>
+<entry><string>SiteContact Administration</string><translation>Administration des SiteContact-Moduls</translation></entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Ungültig: #(1) für #(2) Funktion #(3)() in Modul #(4)</translation></entry>
+<entry><string>Overview</string><translation>Überblick</translation></entry>
+<entry><string>Site Contact Administration</string><translation>Administration des Moduls SiteContact</translation></entry>
+<entry><string>Default site email for receiving and sending contact emails. Defaults to Admin email</string><translation>Standardmäßige Emailadress für diese Site, um Kontaktemails zu empfangen und zu senden. Standardemail ist die Email des Administrators</translation></entry>
+<entry><string>Default name for receiving and sending contact emails. Defaults to site Admin name</string><translation>Standardmäßig verwendeter Name für das Empfangen und Senden von Kontaktemails. Standardname ist der Name des Administrators</translation></entry>
+<entry><string>You must install the FormAntiBot module for this Anti-Bot CAPTCHA to work.</string><translation></translation></entry>
+<entry><string>Custom title for your contact page.</string><translation>Den Besuchern der Site angezeigter Titel der Seite</translation></entry>
+<entry><string>Custom page title:</string><translation>Seitentitel:</translation></entry>
+<entry><string>Custom text for the contact page. You can use HTML here if configured on your site.</string><translation>Der Einleitungstext auf Ihrer SiteContact-Seite. Wenn die Verwendung von HTML auf Ihrer Site entsprechend konfiguriert ist, können Sie es hier verwenden.</translation></entry>
+<entry><string>Your custom text:</string><translation>Ihr Einleitungstext:</translation></entry>
+<entry><string>Custom text displayed on your site after the user sends their message.</string><translation>Der Text, der auf Ihrer Site angezeigt wird, nachdem ein Besucher seine Mailanfrage versandt hat.</translation></entry>
+<entry><string>Confirm Page Text:</string><translation>Text der Bestätigungsmail</translation></entry>
+<entry><string>Allow a cc recipient list?</string><translation>Eine CC-Empfängerliste zulassen?</translation></entry>
+<entry><string>Allow CC Recipient list?</string><translation>CC-Empfängerliste zulassen?</translation></entry>
+<entry><string>Allow a bcc recipient list?</string><translation>Eine BCC-Empfängerliste zulassen?</translation></entry>
+<entry><string>Allow BCC Recipient list?</string><translation>BCC-Empfängerliste zulassen?</translation></entry>
+<entry><string>NOTE: Please ensure you understand the potential problems of allowing
+muliple emailings (spammer use) if you have open access on your website to this form.</string><translation>HINWEIS: Wenn sie mehrfaches E-Mailen erlauben, sollten Sie sich sicher sein, die damit zusammenhängenden Probleme zu kennen, wenn Sie auf Ihrer Website offenen Zugang zu diesem Formular ermöglichen.</translation></entry>
+<entry><string>Save the site contact form data</string><translation>Die SiteContact-Formulardaten sichern</translation></entry>
+<entry><string>Save form responses to the database?</string><translation>Formularantworten in der Datenbank sichern?</translation></entry>
+<entry><string>Require user permission for data save?</string><translation></translation></entry>
+<entry><string>Require user permission for response save in database?</string><translation></translation></entry>
+<entry><string>URL link to your terms.</string><translation>URL-Link zu Ihren Nutzungsbedingungen</translation></entry>
+<entry><string>Terms link URL :</string><translation>Link zu den Nutzungsbedingungen:</translation></entry>
+<entry><string>Subject and optional email address per line. Form : Subject[semicolon]email[comma]</string><translation>Betreff und optionale Emailadresse pro Zeile. In dieser Form: Betreff[Semikolon]Email[Komma]</translation></entry>
+<entry><string>Options for subject with optional alternative email address:</string><translation>Optionen für den Betreff mit optional alternativen Emailadressen:</translation></entry>
+<entry><string>Each line above should be entered with the semicolon and comma:</string><translation>Jede Zeile sollte mit Semikolon und Komma eingegeben werden:</translation></entry>
+<entry><string>subject;optional-email,</string><translation>Betreff;optionale Emailadresse,</translation></entry>
+<entry><string>The optional email and semicolon can be omitted but must have comma to separate each line.</string><translation>Die optionale Emailadresse sowie das Semikolon können entfallen, allerdings muss am Ende &lt;strong&gt;jeder&lt;/strong&gt; Zeile ein Komma gesetzt werden (um die Zeilen voneinander zu trennen).</translation></entry>
+<entry><string>Allow sending of copy to feedback sender</string><translation>Das Senden einer Kopie an den Sender der Rückmeldung erlauben</translation></entry>
+<entry><string>Allow sending of copy to anonymous user</string><translation></translation></entry>
+<entry><string>Allow anonymous users to also request a copy?</string><translation></translation></entry>
+<entry><string>NOTE: Please ensure you understand the potential problems of allowing
+copy to sender option (spammer use) if you have open access on your website to this specific form.</string><translation>HINWEIS: Sie sollten sich über die Problematik im Klaren sein, wenn Sie die Option &quot;Kopie an Absender&quot; erlauben (Spammer-Mißbrauch!) für den Fall, dass Sie offenen Zugang zu diesem spezifischen Formular zulassen.</translation></entry>
+<entry><string>Allow HTML in feedback emails</string><translation>HTML in Feedback-Emails erlauben?</translation></entry>
+<entry><string>Use HTML Email?</string><translation>HTML in der Email verwenden?</translation></entry>
+<entry><string>Included in email to user - use HTML only if email configured for HTML</string><translation>auch in der Email an den Benutzer - HTML nur verwenden, wenn die Email für HTML konfiguriert ist</translation></entry>
+<entry><string>Default emailed note to user (in template as ##$notetouser##):</string><translation>Standardmäßiger Emailhinweis an den Nutzer:</translation></entry>
+<entry><string>You can use the following variables in your email:</string><translation>Sie können folgende Variablen in Ihrer Email verwenden:</translation></entry>
+<entry><string>User email</string><translation>Benutzeremail</translation></entry>
+<entry><string>User name</string><translation>Benutzername</translation></entry>
+<entry><string>Subject from drop down list</string><translation>Betreff von der Auswahlliste</translation></entry>
+<entry><string>Organization</string><translation>Organisation: / Verein</translation></entry>
+<entry><string>Contact Form</string><translation>Kontaktformular</translation></entry>
+<entry><string>Enter your name</string><translation>Geben Sie Ihren Namen ein</translation></entry>
+<entry><string>Your Name</string><translation>Ihr Name</translation></entry>
+<entry><string>(required)</string><translation>(erforderlich)</translation></entry>
+<entry><string>Enter your email</string><translation>Geben Sie Ihre Emailadresse ein</translation></entry>
+<entry><string>Your Email</string><translation>Ihre Email</translation></entry>
+<entry><string>Subject</string><translation>Betreff</translation></entry>
+<entry><string>Please enter your organization name.</string><translation>Bitte geben Sie den Namen Ihrer Organisation an.</translation></entry>
+<entry><string>Separate emails by colons (;) or optionally add a name for each email by separating email and name by a comma eg</string><translation>Trennen Sie E-Mails durch Semikolons (;) oder fügen Sie optional zu jeder E-Mail-Adresse einen Namen hinzu, E-Mail und Namen dabei durch ein Komma getrennt</translation></entry>
+<entry><string>Type in your message</string><translation>Geben Sie Ihre Mitteilung ein</translation></entry>
+<entry><string>Message</string><translation>Mitteilung</translation></entry>
+<entry><string>Would you like to have a copy of the message sent to your email</string><translation>Wollen Sie eine Kopie Ihrer Mitteilung zugemailt bekommen</translation></entry>
+<entry><string>Copy email to you</string><translation>Kopie der Email an Sie</translation></entry>
+<entry><string>May we save your response to this form?</string><translation></translation></entry>
+<entry><string>Permit saving of your form response?</string><translation></translation></entry>
+<entry><string>Please review our privacy policy:</string><translation></translation></entry>
+<entry><string>Terms &amp;amp; Privacy Policy</string><translation>Nutzungsbedingungen &amp;amp; Datenschutz</translation></entry>
+<entry><string>Enter the value as seen in the image (if you can not read the image, click on it to load a new one).</string><translation>Bitte geben Sie den Wert, den Sie auf dem Bild sehen, ein (wenn sie diesen auf dem Bild nicht lesen können, klicken Sie auf dieses, um einen neuen zu laden).</translation></entry>
+<entry><string>Anti-Bot Code</string><translation>Anti-Bot-Code</translation></entry>
+<entry><string>Anti-bot code entry was incorrect - please try again...</string><translation>Die Anti-bot-Code-Eingabe war falsch - bitte versuchen Sie es erneut...</translation></entry>
+<entry><string>Please enter the Anti-Bot Code</string><translation>Bitte geben Sie den Anti-Bot-Code ein</translation></entry>
+<entry><string>Can't read it? Click the image to generate a new code.</string><translation>Sie können ihn nicht lesen? Klicken Sie auf das Bild, um einen neuen Code zu erzeugen.</translation></entry>
+<entry><string>Submit</string><translation>Losschicken</translation></entry>
+<entry><string>Submitted By:</string><translation>Eingereicht von:</translation></entry>
+<entry><string>Email:</string><translation>E-Mail:</translation></entry>
+<entry><string>Organization:</string><translation>Organisation: / Verein:</translation></entry>
+<entry><string>Subject:</string><translation>Betreff:</translation></entry>
+<entry><string>Comments:</string><translation>Kommentare:</translation></entry>
+<entry><string>User information:</string><translation>Nutzerinfo:</translation></entry>
+<entry><string>Sender:</string><translation>IP des Absender:</translation></entry>
+<entry><string>Referer:</string><translation>Referer:</translation></entry>
+<entry><string>at</string><translation>um</translation></entry>
+<entry><string>You submitted the following information:</string><translation>Sie haben die folgende Information eingereicht:</translation></entry>
+<entry><string>Name:</string><translation>Name:</translation></entry>
+<entry><string>Form ID</string><translation>Formular-ID</translation></entry>
+<entry><string>Form Name</string><translation>Formulatname</translation></entry>
+<entry><string>Options</string><translation>Optionen</translation></entry>
+<entry><string>Sitecontact Administration</string><translation>Sitecontact-Administration</translation></entry>
+<entry><string>Message:</string><translation>Mitteilung:</translation></entry>
+<entry><string>Name</string><translation>Name</translation></entry>
+<entry><string>Email</string><translation>E-Mail</translation></entry>
+<entry><string>The form requested is not available</string><translation></translation></entry>
+<entry><string>Your message has been sent.</string><translation>Ihre Mitteilung wurde versandt.</translation></entry>
+<entry><string>You should receive confirmation of your email within a few minutes.</string><translation>In wenigen Minuten erhalten Sie eine Bestätigungsmail.</translation></entry>
 </translations>

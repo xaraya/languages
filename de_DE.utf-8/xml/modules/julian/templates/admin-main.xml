@@ -1,262 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
-	<entry>
-		<string>Julian</string>
-		<translation>Kalendermodul Julian</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Wozu dient es?</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian is the Basic Calendar for Xaraya.</string>
-		<translation>Julian ist Xarayas Basiskalender.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is currently responsible for accomplishing these tasks:</string>
-		<translation>Es kann zur Zeit folgende Aufgaben wahrnehmen:</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display a calendar for day, week, month or year.</string>
-		<translation>Tages-, Wochen-, Monats- und Jahresansicht des Kalenders.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display events for a given date.</string>
-		<translation>Zeigt Termine für ein vorgegebenes Datum an</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Send out an alert with the upcoming events</string>
-		<translation>Versenden von Benachrichtigungen über kommende Termine</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Wie setzt man es ein?</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use it like a calendar.</string>
-		<translation>Verwenden Sie es wie einen Kalender.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian has some requirements at this moment.</string>
-		<translation>Julian setzt momentan bestimmte Erfordernisse voraus.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>The dependancies should have been resolved at installation, otherwise you are not seeing this page.</string>
-		<translation>Diese scheinen während der Installation gegeben gewesen zu sein, anderenfalls würden Sie diese Seite nicht sehen;-)</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Dazugehörende Blöcke</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Month Calendar. This block shows a graphical representation of the current month.</string>
-		<translation>Monatskalender. Dieser Block zeigt den aktuellen Monat in einer grafischen Darstellung</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="35" />
-		</references>
-	</entry>
-	<entry>
-		<string>Today's Events and Upcoming Events. This block shows a short list of the events of today and for the upcoming X days. You can set the amount of days in the future you want the block to show.</string>
-		<translation>Heutige Termine und Terminvorschau. Dieser Block zeigt eine kurze Liste der heutigen Termine und der nächsten Tage. Sie können festlegen, wieviel Tage die Vorschau umfasst.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Security</string>
-		<translation>Sicherheit</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian has a full set of security levels. The checks are carried out on:</string>
-		<translation>Julian hat vielfältige Berechtigungsebenen. Die Zugangsprüfungen werden durchgeführt an:</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Event ID.</string>
-		<translation>Veranstaltungs-ID.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Calendar ID (not in use at present).</string>
-		<translation>Kalender-ID (wird gegenwärtig nicht verwandt).</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Category ID. This check works together with the category privileges. You will need to give users read or edit level access to the Julian categories as well.</string>
-		<translation>Kategorie-ID. Diese Prüfung arbeitet mit den allgemeinen Kategorieberechtigungen zusammen. Sie müssen den entsprechenden Rollen Lesen- oder Edit-Rechte im Kalender zusätzlich geben.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="45" />
-		</references>
-	</entry>
-	<entry>
-		<string>Owner or Organizer ID. This is the user that has entered the event. In future we will implement the use of 'MYSELF' as a check.</string>
-		<translation>Besitzer-ID. Entsprechend der Benutzer-ID des Organisators. Geplant ist eine Prüfung auf die Variable 'MYSELF'.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Eingeschlossene Hooks</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian offers a hook that will enable you to hook any content type to the calendar.</string>
-		<translation>Das Kalendermodul bietet eine Verbindung (Hook), die es Ihnen ermöglicht, jeden Inhaltstyp mit dem Kalender zu verknüpfen.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>The hook shows an input form with all the information needed. You can attach this hook to your own publication type for instance.</string>
-		<translation>Die Verbindung erzeugt im Quellformular alle notwendigen Eingabefelder. Eine Verbindung kann auch mit von Ihnen erzeugten Publikationstypen hergestellt werden.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>In your pubtype, you can then add the data needed by Julian to show the event in the calendar.</string>
-		<translation>In Ihrem Publikationstyp können Sie die Daten hinzufügen, die vom Kalendermodul benötigt werden, um die Veranstaltung im Kalender anzuzeigen.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>The hook has been tested with various modules like articles and example. It will work with any module that provides a clear userapi-getitemlinks function.</string>
-		<translation>Die Verbindung (Hook) wurde mit verschiedenen Modulen wie dem Artikel-Modul und dem Beispielsmodul getestet. Jedesd Modul, das eine eindeutige userapi-getitemlinks-Funktion zur Verfügung stellt, lässt sich so verbinden.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>Known Bugs</string>
-		<translation>Bekannte Fehler (Bugs)</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="58" />
-		</references>
-	</entry>
-	<entry>
-		<string>Program can't view dates in the year 2038 or beyond on 32bit *nix machines.</string>
-		<translation>Das Programm kann keine Daten anzeigen in den Jahren 2038 ff. auf 32bit 'nix-Maschinen</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>The alert subscriptions cannot be migrated from earlier version to 0.2.1. Users need to subscribe again.</string>
-		<translation>Sollten Nutzer Termine abonniert haben, um per E-Mail über Änderungen informiert zu werden, müssen sie sich erneut eintragen, da die Eintragungen von früheren Versionen nicht übernommen werden konnten.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Julian module can be found at</string>
-		<translation>Weitere Informationen zum Julian-Modul finden sich auf der</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="64" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian Extension page at</string>
-		<translation>Julian-Erweiterungsseite bei</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="67" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian Module - Xaraya Extension 319</string>
-		<translation>Julian-Modul - Xaraya-Erweiterungsmodul 319</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="67" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>Das History-Register bietet aktuelle Informationen.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Julian can be found at</string>
-		<translation>Zugehörige Hilfe für Julian befindet sich bei</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Julian</string>
-		<translation>Zugehörige Hilfe für Julian</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya-Dokumentation.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>Julian Module - Overview</string>
-		<translation>Julian-Modul - Überblick</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Version</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-main.xd" line="74" />
-		</references>
-	</entry>
+<entry><string>Julian</string><translation>Kalendermodul Julian</translation></entry>
+<entry><string>What is it?</string><translation>Wozu dient es?</translation></entry>
+<entry><string>Julian is the Basic Calendar for Xaraya.</string><translation>Julian ist Xarayas Basiskalender.</translation></entry>
+<entry><string>It is currently responsible for accomplishing these tasks:</string><translation>Es kann zur Zeit folgende Aufgaben wahrnehmen:</translation></entry>
+<entry><string>Display a calendar for day, week, month or year.</string><translation>Tages-, Wochen-, Monats- und Jahresansicht des Kalenders.</translation></entry>
+<entry><string>Display events for a given date.</string><translation>Zeigt Termine für ein vorgegebenes Datum an</translation></entry>
+<entry><string>Send out an alert with the upcoming events</string><translation>Versenden von Benachrichtigungen über kommende Termine</translation></entry>
+<entry><string>How to use it?</string><translation>Wie setzt man es ein?</translation></entry>
+<entry><string>Use it like a calendar.</string><translation>Verwenden Sie es wie einen Kalender.</translation></entry>
+<entry><string>Julian has some requirements at this moment.</string><translation>Julian setzt momentan bestimmte Erfordernisse voraus.</translation></entry>
+<entry><string>The dependancies should have been resolved at installation, otherwise you are not seeing this page.</string><translation>Diese scheinen während der Installation gegeben gewesen zu sein, anderenfalls würden Sie diese Seite nicht sehen;-)</translation></entry>
+<entry><string>Included Blocks</string><translation>Dazugehörende Blöcke</translation></entry>
+<entry><string>Month Calendar. This block shows a graphical representation of the current month.</string><translation>Monatskalender. Dieser Block zeigt den aktuellen Monat in einer grafischen Darstellung</translation></entry>
+<entry><string>Today's Events and Upcoming Events. This block shows a short list of the events of today and for the upcoming X days. You can set the amount of days in the future you want the block to show.</string><translation>Heutige Termine und Terminvorschau. Dieser Block zeigt eine kurze Liste der heutigen Termine und der nächsten Tage. Sie können festlegen, wieviel Tage die Vorschau umfasst.</translation></entry>
+<entry><string>Security</string><translation>Sicherheit</translation></entry>
+<entry><string>Julian has a full set of security levels. The checks are carried out on:</string><translation>Julian hat vielfältige Berechtigungsebenen. Die Zugangsprüfungen werden durchgeführt an:</translation></entry>
+<entry><string>Event ID.</string><translation>Veranstaltungs-ID.</translation></entry>
+<entry><string>Calendar ID (not in use at present).</string><translation>Kalender-ID (wird gegenwärtig nicht verwandt).</translation></entry>
+<entry><string>Category ID. This check works together with the category privileges. You will need to give users read or edit level access to the Julian categories as well.</string><translation>Kategorie-ID. Diese Prüfung arbeitet mit den allgemeinen Kategorieberechtigungen zusammen. Sie müssen den entsprechenden Rollen Lesen- oder Edit-Rechte im Kalender zusätzlich geben.</translation></entry>
+<entry><string>Owner or Organizer ID. This is the user that has entered the event. In future we will implement the use of 'MYSELF' as a check.</string><translation>Besitzer-ID. Entsprechend der Benutzer-ID des Organisators. Geplant ist eine Prüfung auf die Variable 'MYSELF'.</translation></entry>
+<entry><string>Included Hooks</string><translation>Eingeschlossene Hooks</translation></entry>
+<entry><string>Julian offers a hook that will enable you to hook any content type to the calendar.</string><translation>Das Kalendermodul bietet eine Verbindung (Hook), die es Ihnen ermöglicht, jeden Inhaltstyp mit dem Kalender zu verknüpfen.</translation></entry>
+<entry><string>The hook shows an input form with all the information needed. You can attach this hook to your own publication type for instance.</string><translation>Die Verbindung erzeugt im Quellformular alle notwendigen Eingabefelder. Eine Verbindung kann auch mit von Ihnen erzeugten Publikationstypen hergestellt werden.</translation></entry>
+<entry><string>In your pubtype, you can then add the data needed by Julian to show the event in the calendar.</string><translation>In Ihrem Publikationstyp können Sie die Daten hinzufügen, die vom Kalendermodul benötigt werden, um die Veranstaltung im Kalender anzuzeigen.</translation></entry>
+<entry><string>The hook has been tested with various modules like articles and example. It will work with any module that provides a clear userapi-getitemlinks function.</string><translation>Die Verbindung (Hook) wurde mit verschiedenen Modulen wie dem Artikel-Modul und dem Beispielsmodul getestet. Jedesd Modul, das eine eindeutige userapi-getitemlinks-Funktion zur Verfügung stellt, lässt sich so verbinden.</translation></entry>
+<entry><string>Known Bugs</string><translation>Bekannte Fehler (Bugs)</translation></entry>
+<entry><string>Program can't view dates in the year 2038 or beyond on 32bit *nix machines.</string><translation>Das Programm kann keine Daten anzeigen in den Jahren 2038 ff. auf 32bit 'nix-Maschinen</translation></entry>
+<entry><string>The alert subscriptions cannot be migrated from earlier version to 0.2.1. Users need to subscribe again.</string><translation>Sollten Nutzer Termine abonniert haben, um per E-Mail über Änderungen informiert zu werden, müssen sie sich erneut eintragen, da die Eintragungen von früheren Versionen nicht übernommen werden konnten.</translation></entry>
+<entry><string>Further information on the Julian module can be found at</string><translation>Weitere Informationen zum Julian-Modul finden sich auf der</translation></entry>
+<entry><string>Julian Extension page at</string><translation>Julian-Erweiterungsseite bei</translation></entry>
+<entry><string>Julian Module - Xaraya Extension 319</string><translation>Julian-Modul - Xaraya-Erweiterungsmodul 319</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>Das History-Register bietet aktuelle Informationen.</translation></entry>
+<entry><string>Related documentation on Julian can be found at</string><translation>Zugehörige Hilfe für Julian befindet sich bei</translation></entry>
+<entry><string>Related documentation on Julian</string><translation>Zugehörige Hilfe für Julian</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya-Dokumentation.</translation></entry>
+<entry><string>Julian Module - Overview</string><translation>Julian-Modul - Überblick</translation></entry>
+<entry><string>Version</string><translation>Version</translation></entry>
 </translations>
