@@ -1,119 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Choose the combination of events and calendars for privilege '#(1)'</string>
-		<translation>Az események és naptárak meghatározása a(z) „#(1)” jogosultsághoz</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="10"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Calendar ID</string>
-		<translation>Naptár azonosító</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Organizer</string>
-		<translation>Rendező</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>All / Other --&amp;gt;</string>
-		<translation>Mind / Egyéb --&amp;gt;</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="51"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Event</string>
-		<translation>Esemény</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="66"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enter event number</string>
-		<translation>Az esemény száma</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="69"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Access Level</string>
-		<translation>Jogosultsági szint</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="78"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No Access</string>
-		<translation>Nincs jogosultság</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="85"/>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="89"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Read</string>
-		<translation>Olvasás</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="103"/>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="107"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Admin</string>
-		<translation>Adminisztrálás</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="139"/>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="143"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There are #(1) events matching these selection criteria at the moment</string>
-		<translation>Jelenleg #(1) esemény felel meg a megadott feltételeknek.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="157"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Some examples : (assuming your users have read access by default)</string>
-		<translation>Néhány példa: (feltételezve, hogy a felhasználók alapértelmezetten olvasás jogosultásggal rendelkeznek)</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="168"/>
-		</references>
-	</entry>
-	<entry>
-		<string>In order to allow 'Friends' to submit events (and only that), define a privilege 'AddJulianEvent' (or whatever name you prefer), and access level "Add" above.
-Press "Finish and Apply to Privilege", and then assign that privilege to the 'Friends' role.</string>
-		<translation>Ahhoz, hogy az „Ismerosok” csoport tagjai beküldhessenek eseményeket (és csakis azt), létre kell hozni egy „JulianEsemenyBekuldes” (tetszőleges név) jogosultságot, és a jogosultsági szintet „Felvételre” állítani. A „Befejezés és alkamlazás” gomb megnyomása után, ezt a jogosultságot hozzá kell rendelni az „Ismerosok” csoporthoz.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="171"/>
-		</references>
-	</entry>
-	<entry>
-		<string>When you want users to add events, and have them also edit or delete their own, then use the organizer (submitter) role 'Myself'. Eg All:Myself:All:All and an access level of 'Delete' will give users Delete rights to all events in all categories that they have added themselves.</string>
-		<translation>Ha azt szeretnénk, hogy a felhasználók felvehessenek eseményeket, majd szerkeszthessék és törölhessék a saját eseményeiket, használjuk a „Myself” szerepkört rendezőként (beküldőként). Például: All:Myself:All:All, és adjunk „Törlés” jogosultsági szintet, hogy a felhasználók az összes kategóriában törölhessenek is saját maguk által felvett eseményeket.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="173"/>
-		</references>
-	</entry>
-	<entry>
-		<string>In order to stop 'Strangers' from viewing Events, define some privilege 'DenyJulianEvents' (instance All:All:All:All) and access level "No Access". Then assign that privilege to the 'Strangers' role.</string>
-		<translation>Az „Idegenek” csoport tagjainak meg szeretnénk tilatni, hogy eseményeket megtekintsenek, hozzunk létre egy „JulianEsemenyekTiltasa” jogosultságot (Példány: All:All:All:All), válasszuk a „Nincs jogosultság” szintet, majd rendeljük ezt a jogosultságot az „Idegenek” szerepkörhöz.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="175"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Note: if you want to deny access to all events in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the Julian map and categories navigation as well.</string>
-		<translation>Megjegyzés: Ha egy adott kategóriában lévő eseményekhez történő hozzáférést szeretnénk letiltani (pl ID 123), akkor a kategóriához is meg lehet határozni a jogosultságot, modul „categories”, komponens: „Category”, kategória név: All, kategória ID „123”. Ez mind a Julián térképről mind a kategória böngészésről leveszi a megadott kategóriát.</translation>
-		<references>
-			<reference file="modules/julian/xartemplates/admin-privileges.xd" line="180"/>
-		</references>
-	</entry>
+<entry><string>Choose the combination of events and calendars for privilege '#(1)'</string><translation>Az események és naptárak meghatározása a(z) „#(1)” jogosultsághoz</translation></entry>
+<entry><string>Calendar ID</string><translation>Naptár azonosító</translation></entry>
+<entry><string>Organizer</string><translation>Rendező</translation></entry>
+<entry><string>All / Other --&amp;gt;</string><translation>Mind / Egyéb --&amp;gt;</translation></entry>
+<entry><string>Event</string><translation>Esemény</translation></entry>
+<entry><string>Enter event number</string><translation>Az esemény száma</translation></entry>
+<entry><string>Access Level</string><translation>Jogosultsági szint</translation></entry>
+<entry><string>No Access</string><translation>Nincs jogosultság</translation></entry>
+<entry><string>Read</string><translation>Olvasás</translation></entry>
+<entry><string>Admin</string><translation>Adminisztrálás</translation></entry>
+<entry><string>There are #(1) events matching these selection criteria at the moment</string><translation>Jelenleg #(1) esemény felel meg a megadott feltételeknek.</translation></entry>
+<entry><string>Some examples : (assuming your users have read access by default)</string><translation>Néhány példa: (feltételezve, hogy a felhasználók alapértelmezetten olvasás jogosultásggal rendelkeznek)</translation></entry>
+<entry><string>In order to allow 'Friends' to submit events (and only that), define a privilege 'AddJulianEvent' (or whatever name you prefer), and access level "Add" above.
+Press "Finish and Apply to Privilege", and then assign that privilege to the 'Friends' role.</string><translation>Ahhoz, hogy az „Ismerosok” csoport tagjai beküldhessenek eseményeket (és csakis azt), létre kell hozni egy „JulianEsemenyBekuldes” (tetszőleges név) jogosultságot, és a jogosultsági szintet „Felvételre” állítani. A „Befejezés és alkamlazás” gomb megnyomása után, ezt a jogosultságot hozzá kell rendelni az „Ismerosok” csoporthoz.</translation></entry>
+<entry><string>When you want users to add events, and have them also edit or delete their own, then use the organizer (submitter) role 'Myself'. Eg All:Myself:All:All and an access level of 'Delete' will give users Delete rights to all events in all categories that they have added themselves.</string><translation>Ha azt szeretnénk, hogy a felhasználók felvehessenek eseményeket, majd szerkeszthessék és törölhessék a saját eseményeiket, használjuk a „Myself” szerepkört rendezőként (beküldőként). Például: All:Myself:All:All, és adjunk „Törlés” jogosultsági szintet, hogy a felhasználók az összes kategóriában törölhessenek is saját maguk által felvett eseményeket.</translation></entry>
+<entry><string>In order to stop 'Strangers' from viewing Events, define some privilege 'DenyJulianEvents' (instance All:All:All:All) and access level "No Access". Then assign that privilege to the 'Strangers' role.</string><translation>Az „Idegenek” csoport tagjainak meg szeretnénk tilatni, hogy eseményeket megtekintsenek, hozzunk létre egy „JulianEsemenyekTiltasa” jogosultságot (Példány: All:All:All:All), válasszuk a „Nincs jogosultság” szintet, majd rendeljük ezt a jogosultságot az „Idegenek” szerepkörhöz.</translation></entry>
+<entry><string>Note: if you want to deny access to all events in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the Julian map and categories navigation as well.</string><translation>Megjegyzés: Ha egy adott kategóriában lévő eseményekhez történő hozzáférést szeretnénk letiltani (pl ID 123), akkor a kategóriához is meg lehet határozni a jogosultságot, modul „categories”, komponens: „Category”, kategória név: All, kategória ID „123”. Ez mind a Julián térképről mind a kategória böngészésről leveszi a megadott kategóriát.</translation></entry>
 </translations>

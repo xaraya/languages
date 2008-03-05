@@ -1,90 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Display a Dynamic Example</string>
-		<translation>Dinamikus minta megjelenítése</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="7"/>
-		</references>
-	</entry>
-	<entry>
-		<string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string>
-		<translation>1. MEGKÖZELÍTÉS: A  &amp;lt;xar:data-display ...&amp;gt; kulcsszó</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="9"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This tag will automatically retrieve the item from DynamicData,
-and present it according to its standard &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; template.</string>
-		<translation>Ez a kulcsszó automatikusan betölti az elemet a Dinamikus Adatokból és megjeleníti a hozzá tartozó &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; sablonnak megfelelően.</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string>
-		<translation>2. MEGKÖZELÍTÉS: A  &amp;lt;xar:data-getitem ...&amp;gt; kulcsszó</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This tag will retrieve the properties of this item from DynamicData and
-make them available in the 'properties' variable in your template.</string>
-		<translation>Ez a kulcsszó betölti az elemet a Dinamikus Adatokból és elérhetővé teszi a „properties” változóban az adott sablonfájlban.</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You can then use that variable to build your own layout.
+<entry><string>Display a Dynamic Example</string><translation>Dinamikus minta megjelenítése</translation></entry>
+<entry><string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string><translation>1. MEGKÖZELÍTÉS: A  &amp;lt;xar:data-display ...&amp;gt; kulcsszó</translation></entry>
+<entry><string>This tag will automatically retrieve the item from DynamicData,
+and present it according to its standard &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; template.</string><translation>Ez a kulcsszó automatikusan betölti az elemet a Dinamikus Adatokból és megjeleníti a hozzá tartozó &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; sablonnak megfelelően.</translation></entry>
+<entry><string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string><translation>2. MEGKÖZELÍTÉS: A  &amp;lt;xar:data-getitem ...&amp;gt; kulcsszó</translation></entry>
+<entry><string>This tag will retrieve the properties of this item from DynamicData and
+make them available in the 'properties' variable in your template.</string><translation>Ez a kulcsszó betölti az elemet a Dinamikus Adatokból és elérhetővé teszi a „properties” változóban az adott sablonfájlban.</translation></entry>
+<entry><string>You can then use that variable to build your own layout.
 The &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; tags
-allow you to show individual labels or value outputs in the template.</string>
-		<translation>Ezután a változót felhasználhatjuk a saját elrendezésű megjelenítéshez. A &lt;code&gt;&amp;lt;xar:data-label...&amp;gt;&lt;/code&gt; és &lt;code&gt;&amp;lt;xar:data-output...&amp;gt;&lt;/code&gt; kulcsszavak lehetőséget biztosítanak az egyes címkék vagy értékek egyedi megjelenítésére a sablonfájlban.</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="36"/>
-		</references>
-	</entry>
-	<entry>
-		<string>let's be bold now</string>
-		<translation>legyen vastagbetűs</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="47"/>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="79"/>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>APPROACH # 3 : getting the object via API</string>
-		<translation>3. MEGKÖZELÍTÉS:</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>After retrieving the object via API, you can pass along the whole object to
+allow you to show individual labels or value outputs in the template.</string><translation>Ezután a változót felhasználhatjuk a saját elrendezésű megjelenítéshez. A &lt;code&gt;&amp;lt;xar:data-label...&amp;gt;&lt;/code&gt; és &lt;code&gt;&amp;lt;xar:data-output...&amp;gt;&lt;/code&gt; kulcsszavak lehetőséget biztosítanak az egyes címkék vagy értékek egyedi megjelenítésére a sablonfájlban.</translation></entry>
+<entry><string>let's be bold now</string><translation>legyen vastagbetűs</translation></entry>
+<entry><string>APPROACH # 3 : getting the object via API</string><translation>3. MEGKÖZELÍTÉS:</translation></entry>
+<entry><string>After retrieving the object via API, you can pass along the whole object to
 the template and use &lt;code&gt;&amp;lt;xar:data-display object="$object" /&amp;gt;&lt;/code&gt; to let
 DynamicData handle the display. Or you can use &lt;code&gt;&amp;lt;xar:data-display object="$object" tplmodule="dyn_example" /&amp;gt;&lt;/code&gt;
-if you want to provide your own display template in this module :</string>
-		<translation>Az objektum API-n keresztüli betöltése után, a teljes objektum használható a sablonfájlban a &lt;code&gt;&amp;lt;xar:data-display object="$object"&amp;gt;&lt;/code&gt; segítségével, a Dinamikus Adatokra bízva a megjelenítést. Vagy használhatjuk a &lt;code&gt;&amp;lt;xar:data-display object="$object" tplmodule="dyn_example" /&amp;gt;&lt;/code&gt; formátumot, ha saját megjelenítési sablont szeretnénk biztosítani ebben a modulban:</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="64"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string>
-		<translation>Illetve átadhatjuk a mezőket és értékeiket, amelyet a 2. megközelítés szerint használhatunk.</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="69"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Notice for instance that you don't get the option to automatically display
-the image with &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; or not here.</string>
-		<translation>Vegyük észre, hogy például a kép megjelenítése nem automatikusan történik a &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; segítségével, vagy legalábbis nem itt.</translation>
-		<references>
-			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="115"/>
-		</references>
-	</entry>
+if you want to provide your own display template in this module :</string><translation>Az objektum API-n keresztüli betöltése után, a teljes objektum használható a sablonfájlban a &lt;code&gt;&amp;lt;xar:data-display object="$object"&amp;gt;&lt;/code&gt; segítségével, a Dinamikus Adatokra bízva a megjelenítést. Vagy használhatjuk a &lt;code&gt;&amp;lt;xar:data-display object="$object" tplmodule="dyn_example" /&amp;gt;&lt;/code&gt; formátumot, ha saját megjelenítési sablont szeretnénk biztosítani ebben a modulban:</translation></entry>
+<entry><string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string><translation>Illetve átadhatjuk a mezőket és értékeiket, amelyet a 2. megközelítés szerint használhatunk.</translation></entry>
+<entry><string>Notice for instance that you don't get the option to automatically display
+the image with &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; or not here.</string><translation>Vegyük észre, hogy például a kép megjelenítése nem automatikusan történik a &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; segítségével, vagy legalábbis nem itt.</translation></entry>
 </translations>

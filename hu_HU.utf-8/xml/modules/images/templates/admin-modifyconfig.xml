@@ -1,143 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Modify Images Configuration</string>
-		<translation>Képkezelés beállításainak szerkesztése</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="10"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Image Module Options</string>
-		<translation>Képek modul beállításai</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This is the full path to the directory where Derivative images will be stored.
+<entry><string>Modify Images Configuration</string><translation>Képkezelés beállításainak szerkesztése</translation></entry>
+<entry><string>Image Module Options</string><translation>Képek modul beállításai</translation></entry>
+<entry><string>This is the full path to the directory where Derivative images will be stored.
 It is strongly recommended that this directory be located outside of your web directory.
-&lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
-		<translation>Annak a könyvtárnak a teljes elérési útja, ahol a származtatott képek tárolásra kerülnek. Ajánlott, hogy a weben nem elérhető helyen legyen.&lt;br /&gt;Megjegyzés: ennek a könyvtárnak a webkiszolgáló által írhatónak kell lennie!</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Select Graphics Library</string>
-		<translation>Grafikus könyvtár kiválasztása.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Graphics Library:</string>
-		<translation>Grafikus könyvtár:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="36"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;em&gt;
+&lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string><translation>Annak a könyvtárnak a teljes elérési útja, ahol a származtatott képek tárolásra kerülnek. Ajánlott, hogy a weben nem elérhető helyen legyen.&lt;br /&gt;Megjegyzés: ennek a könyvtárnak a webkiszolgáló által írhatónak kell lennie!</translation></entry>
+<entry><string>Select Graphics Library</string><translation>Grafikus könyvtár kiválasztása.</translation></entry>
+<entry><string>Graphics Library:</string><translation>Grafikus könyvtár:</translation></entry>
+<entry><string>&lt;em&gt;
 &lt;strong&gt;Note:&lt;/strong&gt; Currently only GD &amp;gt;= 2.0.1 is supported
-&lt;/em&gt;</string>
-		<translation>&lt;em&gt;&lt;strong&gt;Megjegyzés:&lt;/strong&gt; Jelenleg csak a GD &amp;gt;= 2.0.1 támogatott&lt;/em&gt;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ImageMagick convert program</string>
-		<translation>ImageMagick „convert” programja</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="62"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ImageMagick 'convert' program:</string>
-		<translation>ImageMagick „convert” programja:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="65"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;em&gt;
+&lt;/em&gt;</string><translation>&lt;em&gt;&lt;strong&gt;Megjegyzés:&lt;/strong&gt; Jelenleg csak a GD &amp;gt;= 2.0.1 támogatott&lt;/em&gt;</translation></entry>
+<entry><string>You do not have any graphics library available, you will not be able to use the resize functions</string><translation>Semmilyen grafikus programkönyvtár nem érhető el. A kép átméretezési funkciók nem lesznek elérhetőek.</translation></entry>
+<entry><string>ImageMagick convert program</string><translation>ImageMagick „convert” programja</translation></entry>
+<entry><string>ImageMagick 'convert' program:</string><translation>ImageMagick „convert” programja:</translation></entry>
+<entry><string>&lt;em&gt;
 &lt;strong&gt;Example:&lt;/strong&gt; /usr/local/bin/convert (Unix) or&lt;br /&gt;
 C:\Program Files\ImageMagick-6.0.6-Q16\convert.exe (Windows)
-&lt;/em&gt;</string>
-		<translation>&lt;em&gt;&lt;strong&gt;Például:&lt;/strong&gt; /usr/local/bin/convert (Unixon) vagy&lt;br /&gt; C:\Program Files\ImageMagick-6.0.6-Q16\convert.exe (Windowson)&lt;/em&gt;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Support short urls?</string>
-		<translation>Rövid URL támogatás?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="84"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Support Short URLs?</string>
-		<translation>Rövid URL támogatás?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="85"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This will cause urls to be displayed in a condescenced format.</string>
-		<translation>Rövidebb URL címek megjelenítése a modulban.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="91"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Cache server file information?</string>
-		<translation>A kiszolgáló fájl információinak gyorstárazása?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="96"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Cache server file information:</string>
-		<translation>Gyorstár kiszolgáló fájl információi:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="99"/>
-		</references>
-	</entry>
-	<entry>
-		<string>seconds</string>
-		<translation>másodperc</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="102"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Items per page in admin view</string>
-		<translation>Elemek száma oldalanként az adminisztrálásban:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="105"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Items per page in admin view:</string>
-		<translation>Oldalankénti elemek száma az adminisztrálásban:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="108"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Base directories for browsing server images</string>
-		<translation>Alapkönyvtár a kiszolgálón található képek tallózásához</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="117"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Update Configuration</string>
-		<translation>Változtatások mentése</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-modifyconfig.xd" line="162"/>
-		</references>
-	</entry>
+&lt;/em&gt;</string><translation>&lt;em&gt;&lt;strong&gt;Például:&lt;/strong&gt; /usr/local/bin/convert (Unixon) vagy&lt;br /&gt; C:\Program Files\ImageMagick-6.0.6-Q16\convert.exe (Windowson)&lt;/em&gt;</translation></entry>
+<entry><string>Support short urls?</string><translation>Rövid URL támogatás?</translation></entry>
+<entry><string>Support Short URLs?</string><translation>Rövid URL támogatás?</translation></entry>
+<entry><string>This will cause urls to be displayed in a condescenced format.</string><translation>Rövidebb URL címek megjelenítése a modulban.</translation></entry>
+<entry><string>Cache server file information?</string><translation>A kiszolgáló fájl információinak gyorstárazása?</translation></entry>
+<entry><string>Cache server file information:</string><translation>Gyorstár kiszolgáló fájl információi:</translation></entry>
+<entry><string>seconds</string><translation>másodperc</translation></entry>
+<entry><string>Items per page in admin view</string><translation>Elemek száma oldalanként az adminisztrálásban:</translation></entry>
+<entry><string>Items per page in admin view:</string><translation>Oldalankénti elemek száma az adminisztrálásban:</translation></entry>
+<entry><string>Base directories for browsing server images</string><translation>Alapkönyvtár a kiszolgálón található képek tallózásához</translation></entry>
+<entry><string>Update Configuration</string><translation>Változtatások mentése</translation></entry>
 </translations>

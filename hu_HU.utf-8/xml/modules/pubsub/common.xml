@@ -1,227 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Invalid #(1) in function #(3)() in module #(4)</string>
-		<translation>Érvénytelen #(1). Függvény: #(3)(); modul: #(4).</translation>
-		<references>
-			<reference file="modules/pubsub/xaruser.php" line="44"/>
-			<reference file="modules/pubsub/xaradminapi/delevent.php" line="35"/>
-			<reference file="modules/pubsub/xaruser/unsubscribe.php" line="58"/>
-			<reference file="modules/pubsub/xaruserapi/unsubscribe.php" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Érvénytelen „#(1)”. Függvény: #(2) #(3)(), modul: #(4)</translation>
-		<references>
-			<reference file="modules/pubsub/xaruser.php" line="77"/>
-			<reference file="modules/pubsub/xaruserapi.php" line="39"/>
-			<reference file="modules/pubsub/xaruserapi.php" line="83"/>
-			<reference file="modules/pubsub/xaradminapi/checkevent.php" line="35"/>
-			<reference file="modules/pubsub/xaradminapi/checkevent.php" line="45"/>
-			<reference file="modules/pubsub/xaradminapi/getevent.php" line="31"/>
-			<reference file="modules/pubsub/xaradminapi/processevent.php" line="47"/>
-			<reference file="modules/pubsub/xaruser/displayicon.php" line="80"/>
-			<reference file="modules/pubsub/xaruserapi/adduser.php" line="44"/>
-			<reference file="modules/pubsub/xaruserapi/deluser.php" line="36"/>
-			<reference file="modules/pubsub/xaruserapi/getsubscriptions.php" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for function #(2)() in module #(3)</string>
-		<translation>Érvénytelen #(1). Függvény: #(2)(); modul:  #(3).</translation>
-		<references>
-			<reference file="modules/pubsub/xaradmin/viewsubscribers.php" line="28"/>
-			<reference file="modules/pubsub/xaradmin/viewsubscribers.php" line="51"/>
-			<reference file="modules/pubsub/xaradminapi/addtemplate.php" line="23"/>
-			<reference file="modules/pubsub/xaradminapi/deltemplate.php" line="21"/>
-			<reference file="modules/pubsub/xaradminapi/gettemplate.php" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Bad return from #(1) in function #(2)() in module #(3)</string>
-		<translation>Hibás visszatérőérték: #(1). Függvény: #(2)(); modul: #(3).</translation>
-		<references>
-			<reference file="modules/pubsub/xaradmin/viewsubscribers.php" line="40"/>
-			<reference file="modules/pubsub/xaruser/subscribe.php" line="88"/>
-			<reference file="modules/pubsub/xaruser/unsubscribe.php" line="90"/>
-			<reference file="modules/pubsub/xaruser/usermenu.php" line="73"/>
-			<reference file="modules/pubsub/xaruserapi/subscribe.php" line="82"/>
-			<reference file="modules/pubsub/xaruserapi/unsubscribe.php" line="73"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Publish / Subscribe Administration</string>
-		<translation>Feliratkozások adminisztrálása</translation>
-		<references>
-			<reference file="modules/pubsub/xaradmin/viewsubscribers.php" line="59"/>
-			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="1"/>
-			<reference file="modules/pubsub/xartemplates/admin-modifyconfig.xd" line="1"/>
-			<reference file="modules/pubsub/xartemplates/admin-modifytemplates.xd" line="1"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="3"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="3"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) in function #(2)() in module #(3)</string>
-		<translation>Érvénytelen #(1). Függvény: #(2)(); modul: #(3).</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/createhook.php" line="34"/>
-			<reference file="modules/pubsub/xaradminapi/createhook.php" line="41"/>
-			<reference file="modules/pubsub/xaradminapi/deletehook.php" line="34"/>
-			<reference file="modules/pubsub/xaradminapi/deletehook.php" line="41"/>
-			<reference file="modules/pubsub/xaradminapi/updatehook.php" line="34"/>
-			<reference file="modules/pubsub/xaradminapi/updatehook.php" line="41"/>
-			<reference file="modules/pubsub/xaruser/subscribe.php" line="61"/>
-			<reference file="modules/pubsub/xaruser/usermenu.php" line="63"/>
-			<reference file="modules/pubsub/xaruserapi/subscribe.php" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) function #(3)() in module #(4)</string>
-		<translation>Érvénytelen #(1). Függvény: #(3)(); modul: #(4).</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/deljob.php" line="21"/>
-			<reference file="modules/pubsub/xaradminapi/runjob.php" line="33"/>
-			<reference file="modules/pubsub/xaradminapi/runjob.php" line="81"/>
-			<reference file="modules/pubsub/xaradminapi/updateevent.php" line="51"/>
-			<reference file="modules/pubsub/xaradminapi/updatejob.php" line="37"/>
-			<reference file="modules/pubsub/xaradminapi/updatetemplate.php" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to load #(1) #(2) API</string>
-		<translation>Nem sikerült betölteni a(z) #(1) #(2) API-t.</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/getall.php" line="33"/>
-			<reference file="modules/pubsub/xaradminapi/getq.php" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>View Subscriptions</string>
-		<translation>Feliratkozások megjelenítése</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/getmenulinks.php" line="31"/>
-			<reference file="modules/pubsub/xartemplates/includes/admin-menu.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>View Event Queue</string>
-		<translation>Esemény sor megjelenítése</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/getmenulinks.php" line="36"/>
-			<reference file="modules/pubsub/xartemplates/includes/admin-menu.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Templates</string>
-		<translation>Sablonok szerkesztése</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/getmenulinks.php" line="41"/>
-			<reference file="modules/pubsub/xartemplates/admin-modifytemplates.xd" line="4"/>
-			<reference file="modules/pubsub/xartemplates/includes/admin-menu.xd" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config</string>
-		<translation>Beállítások</translation>
-		<references>
-			<reference file="modules/pubsub/xaradminapi/getmenulinks.php" line="46"/>
-			<reference file="modules/pubsub/xartemplates/includes/admin-menu.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-main.xd" line="4"/>
-			<reference file="modules/pubsub/xartemplates/includes/admin-menu.xd" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Options</string>
-		<translation>Műveletek</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-modifytemplates.xd" line="10"/>
-			<reference file="modules/pubsub/xartemplates/user-usermenu.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Törlés</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-modifytemplates.xd" line="16"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="60"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown Action</string>
-		<translation>Ismeretlen művelet</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-modifytemplates.xd" line="70"/>
-			<reference file="modules/pubsub/xartemplates/user-usermenu.xd" line="68"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module Name</string>
-		<translation>Modul neve</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="15"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="72"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Item Type</string>
-		<translation>Elem típusa</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="18"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="78"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Category</string>
-		<translation>Kategória</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="21"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="84"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="23"/>
-			<reference file="modules/pubsub/xartemplates/user-usermenu.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Action</string>
-		<translation>Művelet</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="27"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="35"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewsubscribers.xd" line="32"/>
-			<reference file="modules/pubsub/xartemplates/user-usermenu.xd" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No subscriptions found</string>
-		<translation>Nincsenek feliratkozások</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/admin-viewall.xd" line="54"/>
-			<reference file="modules/pubsub/xartemplates/admin-viewq.xd" line="68"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unsubscribe</string>
-		<translation>Leiratkozás</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/user-subscribed.xd" line="3"/>
-			<reference file="modules/pubsub/xartemplates/user-usermenu.xd" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Your Subscriptions</string>
-		<translation>Feliratkozások</translation>
-		<references>
-			<reference file="modules/pubsub/xartemplates/user-usermenu.xd" line="33"/>
-			<reference file="modules/pubsub/xaruser/usermenu.php" line="22"/>
-		</references>
-	</entry>
+<entry><string>Invalid #(1) in function #(3)() in module #(4)</string><translation>Érvénytelen #(1). Függvény: #(3)(); modul: #(4).</translation></entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Érvénytelen „#(1)”. Függvény: #(2) #(3)(), modul: #(4)</translation></entry>
+<entry><string>Publish / Subscribe Administration</string><translation>Feliratkozások adminisztrálása</translation></entry>
+<entry><string>Module Name</string><translation>Modul neve</translation></entry>
+<entry><string>Item Type</string><translation>Elem típusa</translation></entry>
+<entry><string>Category</string><translation>Kategória</translation></entry>
+<entry><string>Action</string><translation>Művelet</translation></entry>
+<entry><string>No subscriptions found</string><translation>Nincsenek feliratkozások</translation></entry>
+<entry><string>Overview</string><translation>Áttekintés</translation></entry>
+<entry><string>Unsubscribe</string><translation>Leiratkozás</translation></entry>
+<entry><string>Modify Templates</string><translation>Sablonok szerkesztése</translation></entry>
+<entry><string>Options</string><translation>Műveletek</translation></entry>
+<entry><string>Delete</string><translation>Törlés</translation></entry>
+<entry><string>Unknown Action</string><translation>Ismeretlen művelet</translation></entry>
+<entry><string>Your Subscriptions</string><translation>Feliratkozások</translation></entry>
+<entry><string>Unable to load #(1) #(2) API</string><translation>Nem sikerült betölteni a(z) #(1) #(2) API-t.</translation></entry>
+<entry><string>Invalid #(1) in function #(2)() in module #(3)</string><translation>Érvénytelen #(1). Függvény: #(2)(); modul: #(3).</translation></entry>
+<entry><string>View Subscriptions</string><translation>Feliratkozások megjelenítése</translation></entry>
+<entry><string>View Event Queue</string><translation>Esemény sor megjelenítése</translation></entry>
+<entry><string>Modify Config</string><translation>Beállítások</translation></entry>
+<entry><string>Invalid #(1) function #(3)() in module #(4)</string><translation>Érvénytelen #(1). Függvény: #(3)(); modul: #(4).</translation></entry>
+<entry><string>Invalid #(1) for function #(2)() in module #(3)</string><translation>Érvénytelen #(1). Függvény: #(2)(); modul:  #(3).</translation></entry>
+<entry><string>Invalid #(1) template</string><translation>Érvénytelen #(1) sablon.</translation></entry>
+<entry><string>Item #(1)</string><translation>Elem #(1)</translation></entry>
+<entry><string>Invalid #(1) action</string><translation>Érvénytelen #(1) művelet.</translation></entry>
+<entry><string>Bad return from #(1) in function #(2)() in module #(3)</string><translation>Hibás visszatérőérték: #(1). Függvény: #(2)(); modul: #(3).</translation></entry>
 </translations>

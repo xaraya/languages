@@ -1,279 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>official icon</string>
-		<translation>hivatalos ikon</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="8"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks Module controls the configuration, display position and grouping of "blocks"
-on your website. Blocks provide a way to display content or functionality on your site
-in addition to the usual content provided by a module such as article or forum display.
-Blocks can be placed anywhere in your site's page displays. The Blocks module is a core module within
-Xaraya, and cannot be removed.</string>
-		<translation>A Blokkok modul a weblapon található blokkok beállításait, elhelyezkedését és csoportosítását kezeli. A Blokkok segítségével a modul szokásos tartalma mellett más tartalmakat is megjeleníthetünk az oldalon. A blokkokat az oldal bármely részére elhelyezhetjük. A Blokkok rendszermodul, ezért nem lehet eltávolítani.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Blocks and blockgroups</string>
-		<translation>Blokkok és blokkcsoportok</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You can use blocks alone, or create a containing 'blockgroup' in which to place your blocks.
-Xaraya has pre-configured blockgroups created at installation time. These blockgroups include right,
-left, center, topnav and header blockgroups. They are used in the default Xaraya theme and have blocks already assigned
-to them. In the case of these default blockgroups, the name reflects the position that the blockgroups have
-been placed in the default theme although you could rename them.</string>
-		<translation>A blokkokat használhatjuk magukban vagy készíthetünk „blokkcsoportokat”, amelyben több blokkot is elhelyezhetünk. A Xaraya a telepítéskor elkészít néhány alapértelmezett blokkcsoportot. Ezek a „right”, „left”, „center”, „topnav” és „header” blokkcsoportok, amelyeket különböző blokkokat is tartalmaznak. Ezeket a blokkcsoportokat az alapértelmezett Xaraya grafikai téma meg is jeleníti. A blokkcsoportok angol elnevezése tükrözi azok elhelyezését, de tetszőlegesen át is nevezhetőek.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You must tell Xaraya where you want to place your blockgroups in your site page by using the 'blockgroup' tag and placing it in your template page or module template. eg
-&lt;code&gt;&amp;lt;xar:blockgroup name="right" id="right" /&amp;gt;&lt;/code&gt;. The default blockgroups have already been
-placed in the default theme template.</string>
-		<translation>Ahhoz, hogy a Xaraya az oldalon megjelenítsen egy blokkcsoportokat, meg kell adnunk, hogy hol jelenjen meg. Ezt úgy tehetjük meg, hogy a 'blockgroup' kulcsszót elhelyezzük az oldalsablon vagy a modulsablon általunk kívánt helyére. Pl:  &lt;code&gt;&amp;lt;xar:blockgroup name="right" id="right" /&amp;gt;&lt;/code&gt; Az alapértelmezett kinézet már tartalmazza az alapértelmezett blokkcsoportokat.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks module has two menu options which allow you to view and create new blockgroups.</string>
-		<translation>A menü a blokkokcsoportok megjelenítésére és létrehozására két elemet tartalmaz.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Groups&lt;/strong&gt;: View the defined Block Groups.</string>
-		<translation>&lt;strong&gt;Csoportok megjelenítése&lt;/strong&gt;:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add Group&lt;/strong&gt;: Add a new block group for template positioning.</string>
-		<translation>&lt;strong&gt;Új csoport&lt;/strong&gt;:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Creating new instances of blocks</string>
-		<translation>Új blokk példányok létrehozása</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Each module may provide the code and templates for one or more types of blocks.
-For example the Articles module provides a 'featured article' block, and a 'top items' block.
-The Base module provides a 'menu' block among others. You can create one or more instances of a block
-and place them in one or more blockgroups using the options provided in the Blocks module menu:</string>
-		<translation>Minden modul tartalmazhat programkódot és sablonfájlokat egy vagy több típusú blokkhoz. Például a Cikkek modul biztosítja a „featured article” (kiemelt cikk) és a „top items” (leg... cikkek) blokkokat. Az Alap modul tartalmazza a „menu” blokkot, néhány más blokk típus mellett. Egy blokkból egy vagy több példányt is létrehozhatunk és elhelyezhetjük ezeket egy vagy több blokkcsoporban, a Blokkok modul segítségével:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Instances&lt;/strong&gt;: View the current instances that are actively in use by your Xaraya System.</string>
-		<translation>&lt;strong&gt;Példányok megjelenítése&lt;/strong&gt;:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add instance&lt;/strong&gt;: Add a new block instance to be displayed on your site.</string>
-		<translation>&lt;strong&gt;Új példány&lt;/strong&gt;:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="53"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Block types are defined by a module, and installed when you install the module.
-You can create a new block instance from any of your installed block types using the Add instance option.</string>
-		<translation>A blokk típusokat az egyes modulok tartalmazzák és azokkal együtt kerülnek telepítésre. A telepített blokkok közül bármelyikből készíthetünk egy újabb példányt az „Új blokk” menüpont segítségével.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="57"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A site admin or a developer may provide a new block type after a module is installed.
-This new block type can be installed with an upgrade process, or alternatively if no upgrade is provided
-to load the block type, you can add it with the options provided by the Blocks module. You should not
-normally have to add a block in this manner. In addition the Block Types options allow you to view all block types that
-are installed and their associated module.</string>
-		<translation>A weblap adminisztrátora vagy egy fejlesztő egy blokkot a modul telepítése után is rendelkezésre bocsájthat. Ilyenkor az új blokk egy frissítési folymattal kerülhet telepítésre. Amennyiben nincs biztosítva a frissítés lehetősége, a blokk típus manuálisan is felvehető, de erre általában nincs szükség. A Blokktípusok menüben megtekinthetjük a telepített blokk típusok listáját és hogy ezek mely modulokhoz tartoznak.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="66"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add Block Type&lt;/strong&gt;: scan a module for a new block type. This specific function is probably best left to the advanced user.
-Be certain to learn more about it before using it.</string>
-		<translation>&lt;strong&gt;Új blokktípus&lt;/strong&gt;: Egy modul megvizsgálása újonan telepített blokktípusokért. Ez a lehetőség csak gyakorlott felhasználóknak javasolt, mindenképpen olvassuk el a pontos működését a használata előtt.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="70"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;View Block Types&lt;/strong&gt;: lists all the registered block types, and references which module they belong to.</string>
-		<translation>&lt;strong&gt;Blokktípusok megjelenítése&lt;/strong&gt;:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="71"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Using and templating blocks and blockgroups</string>
-		<translation>Blokkok és blokkcsoportok használata és formázása</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Each block and blockgroup container has it's own template or uses a supplied default.</string>
-		<translation>Minden blokk és blokkcsoport a saját sablonját vagy az alapértelmezett sablont használja.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="75"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The blockgroup templates (outer container templates) are kept in your
-&lt;code&gt;theme/yourthemes/blocks&lt;/code&gt; directory. If there is no specific blockgroup template it will use the
-preloaded default blockgroup template.</string>
-		<translation>A blokkcsoport sablonok (a külső sablon) a &lt;code&gt;theme/kinezet_neve/blocks&lt;/code&gt; könyvtárban találhatóak. Ha nincs megadva blokkcsoport sablon, a rendszer az alapértelmezett blokkcsoport sablont fogja használni.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="79"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The templates provided for each block come with the module that provides the block.
-You can override these templates if you want, and so produce your own layouts for the block content.
-If you do wish to create your own overrides for block templates (inner templates) then they should be placed in
-&lt;code&gt;themes/yourtheme/modules/themodule/blocks&lt;/code&gt; where 'themodule' is the module providing the block.</string>
-		<translation>A blokk tartalmának formázását a blokkot tartalmazó modul adja meg, szükség esetén azonban ez a belső sablon is fölülírható. Ebben az esetben a  &lt;code&gt;themes/kinezet_neve/modules/modul_neve/blocks&lt;/code&gt; könyvtárba kell elmententeni az új sablont (a 'modul_neve' helyére a blokkot tartalmazó modul neve kerüljön).</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="85"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="88"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks Module has no blocks included at this time.</string>
-		<translation>Nincsenek kapcsolódó blokkok.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="90"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="92"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocks Module has no hooks included at this time.</string>
-		<translation>Nincsenek kapcsolódó hurkok.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="94"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="96"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Blocks module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="98"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Blocks Module Extension page at</string>
-		<translation>A Blokkok modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="101"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Blocks Module - Xaraya Extension 13</string>
-		<translation>Blokkok modul - Xaraya bővítmény: 13</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="101"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="102"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Blocks found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Blocks</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>BlocksModule - Overview</string>
-		<translation>Blokkok modul - áttekintés</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="108"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/blocks/xartemplates/admin-main.xd" line="108"/>
-		</references>
-	</entry>
+<entry><string>Related documentation on Blocks</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Blocks Module - Xaraya Extension 13</string><translation>Blokkok modul - Xaraya bővítmény: 13</translation></entry>
+<entry><string>official icon</string><translation>hivatalos ikon</translation></entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The Blocks Module controls the configuration, display position and grouping of 'blocks'
+of content or functionality on your website. From version 1.1.2, the Blocks module also can control access and levels of accessto blocks. The Blocks module is a core module within Xaraya and cannot be removed.</string><translation>A Blokkok modul a weblapon található tartalmi és funkcionális „blokkok” beállításait, elhelyezkedését és csoportosítását kezeli. A Xaraya 1.1.2-es változatától a Blokkok modul kezeli a blokkokhoz kapcsolódó hozzáférési jogosultságokat és azok szintjeit is. A blokkokat az oldal bármely részére elhelyezhetjük. A Blokkok rendszermodul, ezért nem lehet eltávolítani.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>Each module can provide a block type along with the code and templates for it. A block type defines a specific display
+of content or functionality that you can place on your site. For example the Articles module provides a 'featured article' block type,
+and a 'top items' block type. The Base module provides a 'menu' block type, among others.</string><translation>Minden modul biztosíthat különböző blokktípusokat, a hozzájuk tartozó programkóddal és sablonfájlokkal. Ezek a blokktípusok különböző tartalmi elemeket jeleníthetnek meg, és egyedi funkciókat biztosíthatnak, melyek tetszőlegesen elhelyezhetőek a weboldalon. Például a Cikkek modulban található egy „kiemelt cikkek” és egy „legtöbbet olvasott cikkek” blokk. Az Alap modul - egyebek mellett - tartalmazza a „menü” blokkot.</translation></entry>
+<entry><string>These different block types are installed at the time of module installation, and removed when a module is uninstalled.
+The block types are also upgraded when a module is upgraded.</string><translation>Ezek a blokktípusok a modul telepítésekor válnak elérhetővé, és a modul eltávolításakor kikapcsolódnak. A blokktípusok frissítése a modulok frissítésével együtt történik.</translation></entry>
+<entry><string>The Blocks module enables you to work with &lt;strong&gt;Block Types&lt;/strong&gt; to:</string><translation>A Blokkok modul biztosítja a &lt;strong&gt;Blokk típusok&lt;/strong&gt; kezelését:</translation></entry>
+<entry><string>&lt;strong&gt;View Block Types:&lt;/strong&gt;</string><translation>&lt;strong&gt;Blokktípusok megjelenítése&lt;/strong&gt;</translation></entry>
+<entry><string>lists all the registered block types in your Xaraya installation with reference to which
+module they belong.</string><translation>Az ismert blokktípusok és az őket tartalmazó modulok megjelenítése.</translation></entry>
+<entry><string>&lt;strong&gt;Add a New Block Type:&lt;/strong&gt;</string><translation>&lt;strong&gt;Új blokktípus felvétele:&lt;/strong&gt;</translation></entry>
+<entry><string>scans a module for a new block type. This option is added mainly for Developer convenience.
+Sometimes a developer provides a block type or upgrade of a block outside of a normal module release or
+upgrade. This option allows the block to be loaded and registered in your Xaraya installation. Normally
+you should never need to use this option in the process of administering your site.</string><translation>Új blokktípusokat keres. Ez a lehetőség főleg fejlesztők számára készült. Időnként a fejlesztők újabb blokktípusokat vagy új változatokat telepítenek, a modul szokásos frissítése nélkül. Ezzel a lehetőséggel a blokk a Xaraya telepítésbe integrálható. Általában ezt a lehetőséget nem kell használnunk egy weboldal karbantartásakor.</translation></entry>
+<entry><string>Using Blocks and Block Groups</string><translation>Blokkok és blokk csoportok használata</translation></entry>
+<entry><string>There are a number of steps required to create a new block of content or functionality for your site, and display it:</string><translation>A blokkok hozzáadása a weboldalhoz a következő lépésekből áll:</translation></entry>
+<entry><string>Create a new block instance based on any of your installed block types</string><translation>Hozzunk létre egy új blokk példányt bármelyik telepített blokktípusból.</translation></entry>
+<entry><string>Assign the block instance to an existing block group during block creation or modification (optional)</string><translation>A létrehozáskor vagy szerkesztéskor a blokkot adjuk hozzá bármelyik létező blokk csoporthoz (nem kötelező).</translation></entry>
+<entry><string>If you need a new block group, create one and then assign the block instance to it</string><translation>Amennyiben új blokkcsoportra van szükségünk, hozzuk létre és rendeljük hozzá az új blokkot.</translation></entry>
+<entry><string>Add a &lt;strong&gt;blockgroup tag&lt;/strong&gt; in your theme template so Xaraya knows where to display your blocks. eg
+&lt;code&gt;&amp;lt;xar:blockgroup name="right" id="right" /&amp;gt;&lt;/code&gt;.</string><translation>Adjunk hozzá egy &lt;strong&gt;blokkcsoport kulcsszót&lt;/strong&gt; az oldalsablonokhoz, így a Xaraya a megfelelő helyen megjeleníti azt. Például: &lt;code&gt;&amp;lt;xar:blockgroup name="right" id="right" /&amp;gt;&lt;/code&gt;.</translation></entry>
+<entry><string>Xaraya has pre-configured block groups created at installation time that include &lt;em&gt;right&lt;/em&gt;,
+&lt;em&gt;left&lt;/em&gt;, &lt;em&gt;center&lt;/em&gt;, &lt;em&gt;topnav&lt;/em&gt; and &lt;em&gt;header&lt;/em&gt; block groups. Special block group tags are used in the default Xaraya theme to
+place and display them and the block instances already assigned to them. In the case of the default block groups
+their name reflects the position where they are located in the default theme. You can rename these block groups as the names are not significant in themselves</string><translation>A Xaraya telepítésekor létrejön egy alapértelmezett blokkcsoport készlet: &lt;em&gt;right&lt;/em&gt;, &lt;em&gt;left&lt;/em&gt;, &lt;em&gt;center&lt;/em&gt;, &lt;em&gt;topnav&lt;/em&gt; and &lt;em&gt;header&lt;/em&gt;. A szükséges blokkcsoport kulcsszavakat a Xaraya alapértelmezett oldalsablonjai tartalmazzák, hogy a csoportokba kerülő blokkok megjelenjenek a megfelelő helyeken. Ezeknél az alapértelmezett blokkcsportoknál a nevük utal a megjelenítés helyre, de bármikor átnevezhetőek.</translation></entry>
+<entry><string>Note: you do not have to allocated a block instance to a blockgroup. You can place the block instance display directly
+into your theme templates using a &lt;strong&gt;block&lt;/strong&gt; tag. Please check &lt;a href="#(1)"&gt;RFC0010&lt;/a&gt; for details on using this tag.</string><translation>Megjegyzés: a blokkokat nem szükséges blokkcsoportban elhelyezni. Egyedi blokk példányokat is megjeleníthetünk a weboldalon a &lt;strong&gt;block&lt;/strong&gt; kulcsszó használatával. További információk: &lt;a href="#(1)"&gt;RFC0010&lt;/a&gt;.</translation></entry>
+<entry><string>Creating and Viewing Block Groups</string><translation>Blokk csoportok létrehozása és megjelenítése</translation></entry>
+<entry><string>The Blocks module provides a number of options to work with &lt;strong&gt;Block Goups&lt;/strong&gt;:</string><translation>A blokk csoportokkal való munkát a következő lehetőségek segítik:</translation></entry>
+<entry><string>&lt;strong&gt;View Block Groups:&lt;/strong&gt;</string><translation>&lt;strong&gt;Blokkcsoportok megjelenítése&lt;/strong&gt;</translation></entry>
+<entry><string>displays all the defined Block Groups on your site with links to Edit or Delete options</string><translation>Megjeleníti a létrehozott blokk csoportokat, szerkesztési és törlési lehetőségeket biztosít.</translation></entry>
+<entry><string>&lt;strong&gt;Add Block Group:&lt;/strong&gt;</string><translation>Új blokkcsoport</translation></entry>
+<entry><string>option presents a simple input screen so you can add a new block group</string><translation>Megjeleníti az új blokk csoport létrehozásához szükséges űrlapot.</translation></entry>
+<entry><string>Creating, Viewing and Modifying Block Instances</string><translation>Blokk példányok létrehozása, megjelenítése és szerkesztése</translation></entry>
+<entry><string>Creating and modifying block instances with Xaraya is simple:</string><translation>Blokkok létrehozásához és szerkesztéséhez a következő lehetőségek állnak rendelkezésre:</translation></entry>
+<entry><string>&lt;strong&gt;View Block Instances:&lt;/strong&gt;</string><translation>&lt;strong&gt;Blokkok megjelenítése&lt;/strong&gt;</translation></entry>
+<entry><string>displays all current block instances that are available for use in your Xaraya site. From this menu option
+you can &lt;code&gt;modify&lt;/code&gt; or &lt;code&gt;delete&lt;/code&gt; any of the listed block instances.</string><translation>Megjeleníti a Xarayában aktuálisan használt blokk példányokat. Ebből a menüből &lt;code&gt;módosíthatjuk&lt;/code&gt; vagy &lt;code&gt;törölhetjük&lt;/code&gt; bármelyik megjelenített blokk példányt.</translation></entry>
+<entry><string>&lt;strong&gt;Add New Block Instance:&lt;/strong&gt;</string><translation>&lt;strong&gt;Új blokk példány felvétele:&lt;/strong&gt;</translation></entry>
+<entry><string>Create and make available a new block instance for display on your site. As part of this process you
+may nominate which block type to use for creation of the block instance, and optionally assign the block instance to a Block Group.</string><translation>Új blokk példány létrehozása a weboldalon való megjelenítéshez. Meghatározhatjuk a létrehozandó blokk típusát és opcionálisan megadhatjuk, hogy melyik blokkcsoportba kerüljön.</translation></entry>
+<entry><string>&lt;strong&gt;Modify a Block Instance:&lt;/strong&gt;</string><translation>&lt;strong&gt;Blokk példány szerkesztése:&lt;/strong&gt;</translation></entry>
+<entry><string>from the View Block Instance listing provides the option to allocate the block instance
+to one or more Block Groups. In addition, you can optionally specify whether the block instances should use an
+override block instance (inner) template or block group (outer) template (see Templating Blocks and Block Groups). Each module also specifies any special content here that is available for configuration for this specific block type.</string><translation>A blokk példányok listáján hozzárendelhetjük azokat egy vagy több blokkcsoporthoz. Meghatározhatjuk, hogy az adott blokk példány használjon e egy egyedi példány (belső) vagy blokkcsoport (külső) sablonfájlt (lásd: Blokkok és blokkcsoportok sablonfájljai). Az egyes modulok által biztosított blokk beállítási lehetőségek is itt szerkeszthetőek.</translation></entry>
+<entry><string>Templating Blocks and Block Groups</string><translation>Blokkok és blokkcsoportok sablonfájljai</translation></entry>
+<entry><string>As with other Xaraya content, you can provide your own override templates for block
+instances and create your own templates for block groups. To do this note the following:</string><translation>Hasonlóan más Xaraya tartalomhoz, a blokk példányokhoz és a blokkcsoportokhoz is létrehozhatunk saját sablonfájlokat, a következő módon:</translation></entry>
+<entry><string>&lt;strong&gt;Inner template&lt;/strong&gt; is used for display of the content in a block instance and
+supplied by the module that provides the block type. They can be overridden like any other Xaraya template.
+Overrides for for block instance &lt;strong&gt;inner&lt;/strong&gt; templates should be be placed in
+&lt;code&gt;themes/[yourtheme]/modules/[themodule]/blocks&lt;/code&gt; where &lt;code&gt;[themodule]&lt;/code&gt; is the module providing
+the block type. The general name for the template is &lt;code&gt;blocktype-innertemplatename.xt&lt;/code&gt;</string><translation>A &lt;strong&gt;Belső sablon&lt;/strong&gt;a blokk példány tartalmának megjelenítésére szolgál, és a blokkot tartalmazó modul szolgáltatja. Ezek a sablonfájlok bármely más Xaraya sablonhoz hasonlóan felüldefiniálhatóak. A blokkok &lt;strong&gt;belső&lt;/strong&gt; sablonfájljának saját változatát a &lt;code&gt;themes/[grafikaneve]/modules/[modulneve]/blocks&lt;/code&gt; könyvtárban kell elhelyezni, ahol a &lt;code&gt;[modulneve]&lt;/code&gt; az a modul amely a blokkot tartalmazza. Az sablonok általános neve: &lt;code&gt;blocktípusa-belsősablonneve.xt&lt;/code&gt;.</translation></entry>
+<entry><string>&lt;strong&gt; Outer template&lt;/strong&gt; is the name given to the template used for the block instance's block group.
+Some 'outer' templates are installed by default with Xaraya, but you can also create your own 'outer'
+templates. The &lt;strong&gt;outer templates&lt;/strong&gt; are stored in your &lt;code&gt;theme/[yourtheme]/blocks&lt;/code&gt;
+directory. If there is no specific block group template the block group will use the preinstalled 'default'
+block group template.</string><translation>A &lt;strong&gt;Külső sablon&lt;/strong&gt; a blokk példányt tartalmazó csoport sablonfájljának a neve. Néhány „külső” sablon a Xarayával együtt települ, de létrehozhatunk saját külső sablonokat is. A &lt;strong&gt;külső sablonok&lt;/strong&gt; a &lt;code&gt;theme/[grafikaneve]/blocks&lt;/code&gt; könyvtárba kerülnek. Amennyiben nincs egyedi sablon meghatározva, a blokkcsoport az előre telepített „default” nevő sablont fogja használni.</translation></entry>
+<entry><string>How to tell Xaraya which inner and outer templates to use</string><translation>Hogyan állítsuk be a Xarayát a létrehozott külső és belső sablonfájlok használatára</translation></entry>
+<entry><string>You can tell Xaraya which inner and outer templates to use when you create a
+new block instance or modify an existing one. Using the Blocks module, there are two places you can set either the inner
+template, the outer template or both.</string><translation>A blokk példányok létrehozásakor és szerkesztésekor megadhatjuk a használandó belső és külső sablonfájlok nevét. A Blokkok modulban két helyen határozhatjuk meg a sablonfájlokat.</translation></entry>
+<entry><string>The field labelled &lt;strong&gt;Instance Template (optional):&lt;/strong&gt; sets the default
+inner and outer template used for the block instance and any block group. You can specify inner, outer, both inner and outer or none.
+You use the following format: &lt;code&gt;[outer-template][semi-colon][inner-template]&lt;/code&gt;. Both are specified without the file extension.</string><translation>A &lt;strong&gt;példány sablonfájl (opcionális)&lt;/strong&gt; mező beállítja a blokk példányhoz és bármely blokkcsoporhoz az alapértelmezett a külső és a belső sablonfájlt. Megadhatjuk csak az egyiket, mindkettőt vagy egyiket sem, a következő formában: &lt;code&gt;[külső-sablonfájl][pontosvessző][belső-sablonfájl]&lt;/code&gt;. A fájl kiterjesztését el kell hagyni.</translation></entry>
+<entry><string>If you add a block instance to a block group, another input field will appear, labelled with the name of the block group.
+You can also add a specific inner, outer or both inner and outer template in this field using the same syntax. Specifying
+an inner or outer template in this block group template field will override any other templates.</string><translation>Amikor a blokk példányt hozzáadjuk egy blokkcsoporthoz, egy további mező jelenik meg, a blockcsoport nevével. Ebben a mezőben szintén megadhatjuk a külső és a belső sablonfájlokat, ugyanabban a formátumban. Az itt meghatározott sablonfájlok felülírnak minden más sablon beállítást az adott blokkcsoportban.</translation></entry>
+<entry><string>&lt;strong&gt;An example:&lt;/strong&gt; if you create an articles' featureditems block instance and you are using the Xaraya_Classic default theme</string><translation>&lt;strong&gt;Példa:&lt;/strong&gt; ha a Cikkek modul „kiemelt cikkek” blokk új példányát hozzuk létre, a Xaraya_Classic grafikával</translation></entry>
+<entry><string>By default, this block instance will use the article module's inner template called &lt;code&gt;featureditems.xd&lt;/code&gt; located in modules/articles/xartemplates/blocks</string><translation>Alapértelmezetten ez a blokk a &lt;code&gt;featureditems.xd&lt;/code&gt; blokk sablont fogja használni, a modules/articles/xartemplates/blocks könyvtárból.</translation></entry>
+<entry><string>If you have allocated the featured article block instance to a block group called 'right' it will use, by default, the outer template
+located at &lt;code&gt;themes/Xaraya_Classic/blocks/right.xt&lt;/code&gt;. If the 'right' outer template did not exist it will use one called 'default.xt'
+in that same directory.</string><translation>Amennyiben egy ilyen blokkot a „right” csoporthoz adunk hozzá, az alapértelmezett sablonfájl a &lt;code&gt;themes/Xaraya_Classic/blocks/right.xt&lt;/code&gt;. Amennyiben ez a fájl nem létezik, az ugyanebben a könyvtárban lévő „default.xt” kerül megjelenítésre.</translation></entry>
+<entry><string>If you wish to override both outer and inner templates for the featureditems block then the syntax example of:
+&lt;strong&gt;left;weeklyfeature&lt;/strong&gt; would mean means the outer template is one created and called &lt;code&gt;&lt;strong&gt;left&lt;/strong&gt;.xt&lt;/code&gt; in the &lt;code&gt;themes/Xaraya_Classic/blocks&lt;/code&gt; directory.
+The article module's featureditems block instance will be displayed using the &lt;code&gt;themes/Xaraya_Classic/modules/articles/blocks/featureditems-&lt;strong&gt;weeklyfeature&lt;/strong&gt;.xt&lt;/code&gt; template.
+You could just specify outer or inner template if required by adding &lt;code&gt;left;&lt;/code&gt; or &lt;code&gt;;weeklyfeature&lt;/code&gt; to specify outer and inner respectively.</string><translation>A létrehozott blokk külső és belső sablonfájljainak felüldefiniálásához megadhatjuk a következő beállítást: &lt;strong&gt;left;hetikiemelt&lt;/strong&gt;. Ebben az esetben a külső sablon neve &lt;code&gt;&lt;strong&gt;left&lt;/strong&gt;.xt&lt;/code&gt; és a &lt;code&gt;themes/Xaraya_Classic/blocks&lt;/code&gt; könyvtárban kell létrehoznunk. A blokk tartalmának a megjelenítéséhez pedig a &lt;code&gt;themes/Xaraya_Classic/modules/articles/blocks/featureditems-&lt;strong&gt;hetikiemelt&lt;/strong&gt;.xt&lt;/code&gt; sablonfájlt fogja használni a Xaraya. Csak a külső vagy csak a belső sablon megadásához a &lt;code&gt;left;&lt;/code&gt; illetve a  &lt;code&gt;;hetikiemelt&lt;/code&gt; formátumot használhatjuk.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>The Blocks Module has no blocks included at this time.</string><translation>Nincsenek kapcsolódó blokkok.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>The Blocks Module has no hooks included at this time.</string><translation>Nincsenek kapcsolódó hurkok.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the Blocks module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Blocks Module Extension page at &lt;a href="#(1)" title="#(2)" &gt;Xaraya Extension and Releases&lt;/a&gt;.
+Click on Version History tab at the bottom to get the latest release information.</string><translation>A Blokkok modul bővítmény oldala: &lt;a href="#(1)" title="#(2)" &gt;Xaraya Bővítmények és Kiadások&lt;/a&gt;. A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Blocks found at &lt;a href="#(1)" title="#(2)"&gt;Xaraya Documentation.&lt;/a&gt;</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció: &lt;a href="#(1)" title="#(2)"&gt;Xaraya dokumentáció.&lt;/a&gt;</translation></entry>
+<entry><string>Blocks Module Overview</string><translation>Blokkok modul áttekintése</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

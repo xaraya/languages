@@ -1,300 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Standard autolink</string>
-		<translation>Egyszerű automatikus hivatkozás</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya home</string>
-		<translation>Xaraya honlap</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Sample autolink type</string>
-		<translation>Minta automatikus hivatkozás-típus</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>URL in [square brackets] after the matched keyword. No DD fields are needed.</string>
-		<translation>URL megjelenítése [szögletes zárójelben] a kulcsszó után. Nem szükséges hozzá DA mező.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>External</string>
-		<translation>Külső</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>External URLs. Opens in an "external" window. These URLs are marked up with a "WWW" world icon.'
-.' To extend this, you can create a DD field named "icon" and enter a different icon file name.</string>
-		<translation>Külső hivatkozások, amelyek egy új ablakban nyílnak meg. Az URL egy „WWW” ikonként jelenik meg. Egy „icon” nevű DA mező felvételével, és egy másik ikon fájl nevének megadásával más ikonok is megjeleníthetőek.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Image alt text</string>
-		<translation>Kép „alt” szövege</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Icon File Name</string>
-		<translation>Ikon fájl neve</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Target</string>
-		<translation>Cél</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="64"/>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="248"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Any external HTTP URL</string>
-		<translation>Külső HTTP URL</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="71"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Articles</string>
-		<translation>Cikkek</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="88"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Various links for fetching articles links. Don't forget to hook in DD to view these links correctly. Change these examples to fit the way you want to use them in the site.</string>
-		<translation>Különböző hivatkozások a cikkhivatkozások begyűjtésére. Az ilyen hivatkozások helyes megjelenítéséhez Dinamikus Adatok modul hurokként csatolása szükséges. Az alábbi példák az egyedi igények szerint átszerkeszthetőek.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="91"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Article ID</string>
-		<translation>Cikk azonosító</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="95"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Publication Type ID</string>
-		<translation>Cikktípus azonosító</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="101"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Alternative Text (optional)</string>
-		<translation>Alternatív szöveg (nem kötelező)</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="107"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Article title by article ID</string>
-		<translation>Cikk címe cikk azonosító alapján</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="114"/>
-		</references>
-	</entry>
-	<entry>
-		<string>readfirst</string>
-		<translation>első olvasása</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="129"/>
-		</references>
-	</entry>
-	<entry>
-		<string>readfirst2</string>
-		<translation>első olvasása2</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="144"/>
-		</references>
-	</entry>
-	<entry>
-		<string>readnext</string>
-		<translation>következő olvasása</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="159"/>
-		</references>
-	</entry>
-	<entry>
-		<string>readlast</string>
-		<translation>utolsó olvasása</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="174"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Generic Module</string>
-		<translation>Általános modul</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="192"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allows generic links to module functions to be set up. DD fields are numerous and described in the template.</string>
-		<translation>Lehetővé teszi modulok egyes funkcióira mutató hivatkozások készítését. Számos dinamikus adat kapcsolódik, melyek a sablonfájlban vannak dokumentálva.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="195"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module</string>
-		<translation>Modul</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="199"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module Type</string>
-		<translation>Modul típusa</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="206"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Function</string>
-		<translation>Függvény</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="212"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Link Text (optional)</string>
-		<translation>Hivatkozás szövege (opcionális)</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="218"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ID1 Name</string>
-		<translation>ID1 név</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="224"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ID1 Value</string>
-		<translation>ID1 érték</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="230"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ID2 Name</string>
-		<translation>ID2 név</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="236"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ID2 Value</string>
-		<translation>ID2 érték</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="242"/>
-		</references>
-	</entry>
-	<entry>
-		<string>uploads</string>
-		<translation>feltöltések</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="255"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Glossary Item</string>
-		<translation>Szójegyzék tétel</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="274"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Provides glossary links. The links will refresh the page with the glossary word passed in as an extra GET parameter. The URL is not used - set it to "blank" or "none".</string>
-		<translation>Szójegyzék hivatkozások létrehozása. A hivatkozások frissítik az oldal URL címét úgy, hogy a szójegyzék szó egy új GET paraméterként jelenik meg benne. Az URL-t nem kell használni, állítsuk „üres”-re vagy „egyik sem”-re.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="277"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Replace Text</string>
-		<translation>Szöveg lecserélése</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="281"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Glossary Term (for URL)</string>
-		<translation>Szójegyzék bejegyzés (URL számára)</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="288"/>
-		</references>
-	</entry>
-	<entry>
-		<string>glossary</string>
-		<translation>szójegyzék</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="296"/>
-		</references>
-	</entry>
-	<entry>
-		<string>External CSS</string>
-		<translation>Külső CSS</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="309"/>
-		</references>
-	</entry>
-	<entry>
-		<string>External URLs. These URLs are given an attribute "external".'
-.' Your theme will need to provide the styling for these external links.</string>
-		<translation>Külső hivatkozások. Ezek a külső hivatkozások az „external” attribútummal lesznek kiegészítve. A stíluslap fájlban ehhez egyedi stílust kell meghatározni.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="313"/>
-		</references>
-	</entry>
-	<entry>
-		<string>external_url</string>
-		<translation>külső_hivatkozás</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="316"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Mailto</string>
-		<translation>E-mail</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="329"/>
-		</references>
-	</entry>
-	<entry>
-		<string>E-mail links, that may be obfuscated.</string>
-		<translation>E-mail hivatkozások, amelyeket szükséges lehet elrejteni.</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="332"/>
-		</references>
-	</entry>
-	<entry>
-		<string>mailto</string>
-		<translation>e-mail</translation>
-		<references>
-			<reference file="modules/autolinks/xaradminapi/samples.php" line="335"/>
-		</references>
-	</entry>
+<entry><string>Standard autolink</string><translation>Egyszerű automatikus hivatkozás</translation></entry>
+<entry><string>Xaraya home</string><translation>Xaraya honlap</translation></entry>
+<entry><string>Sample autolink type</string><translation>Minta automatikus hivatkozás-típus</translation></entry>
+<entry><string>URL in [square brackets] after the matched keyword. No DD fields are needed.</string><translation>URL megjelenítése [szögletes zárójelben] a kulcsszó után. Nem szükséges hozzá DA mező.</translation></entry>
+<entry><string>External</string><translation>Külső</translation></entry>
+<entry><string>External URLs. Opens in an "external" window. These URLs are marked up with a "WWW" world icon.'
+.' To extend this, you can create a DD field named "icon" and enter a different icon file name.</string><translation>Külső hivatkozások, amelyek egy új ablakban nyílnak meg. Az URL egy „WWW” ikonként jelenik meg. Egy „icon” nevű DA mező felvételével, és egy másik ikon fájl nevének megadásával más ikonok is megjeleníthetőek.</translation></entry>
+<entry><string>Image alt text</string><translation>Kép „alt” szövege</translation></entry>
+<entry><string>Icon File Name</string><translation>Ikon fájl neve</translation></entry>
+<entry><string>Target</string><translation>Cél</translation></entry>
+<entry><string>Any external HTTP URL</string><translation>Külső HTTP URL</translation></entry>
+<entry><string>Articles</string><translation>Cikkek</translation></entry>
+<entry><string>Various links for fetching articles links. Don't forget to hook in DD to view these links correctly. Change these examples to fit the way you want to use them in the site.</string><translation>Különböző hivatkozások a cikkhivatkozások begyűjtésére. Az ilyen hivatkozások helyes megjelenítéséhez Dinamikus Adatok modul hurokként csatolása szükséges. Az alábbi példák az egyedi igények szerint átszerkeszthetőek.</translation></entry>
+<entry><string>Article ID</string><translation>Cikk azonosító</translation></entry>
+<entry><string>Publication Type ID</string><translation>Cikktípus azonosító</translation></entry>
+<entry><string>Alternative Text (optional)</string><translation>Alternatív szöveg (nem kötelező)</translation></entry>
+<entry><string>Article title by article ID</string><translation>Cikk címe cikk azonosító alapján</translation></entry>
+<entry><string>readfirst</string><translation>első olvasása</translation></entry>
+<entry><string>readfirst2</string><translation>első olvasása2</translation></entry>
+<entry><string>readnext</string><translation>következő olvasása</translation></entry>
+<entry><string>readlast</string><translation>utolsó olvasása</translation></entry>
+<entry><string>Generic Module</string><translation>Általános modul</translation></entry>
+<entry><string>Allows generic links to module functions to be set up. DD fields are numerous and described in the template.</string><translation>Lehetővé teszi modulok egyes funkcióira mutató hivatkozások készítését. Számos dinamikus adat kapcsolódik, melyek a sablonfájlban vannak dokumentálva.</translation></entry>
+<entry><string>Module</string><translation>Modul</translation></entry>
+<entry><string>Module Type</string><translation>Modul típusa</translation></entry>
+<entry><string>Function</string><translation>Függvény</translation></entry>
+<entry><string>Link Text (optional)</string><translation>Hivatkozás szövege (opcionális)</translation></entry>
+<entry><string>ID1 Name</string><translation>ID1 név</translation></entry>
+<entry><string>ID1 Value</string><translation>ID1 érték</translation></entry>
+<entry><string>ID2 Name</string><translation>ID2 név</translation></entry>
+<entry><string>ID2 Value</string><translation>ID2 érték</translation></entry>
+<entry><string>uploads</string><translation>feltöltések</translation></entry>
+<entry><string>Glossary Item</string><translation>Szójegyzék tétel</translation></entry>
+<entry><string>Provides glossary links. The links will refresh the page with the glossary word passed in as an extra GET parameter. The URL is not used - set it to "blank" or "none".</string><translation>Szójegyzék hivatkozások létrehozása. A hivatkozások frissítik az oldal URL címét úgy, hogy a szójegyzék szó egy új GET paraméterként jelenik meg benne. Az URL-t nem kell használni, állítsuk „üres”-re vagy „egyik sem”-re.</translation></entry>
+<entry><string>Replace Text</string><translation>Szöveg lecserélése</translation></entry>
+<entry><string>Glossary Term (for URL)</string><translation>Szójegyzék bejegyzés (URL számára)</translation></entry>
+<entry><string>glossary</string><translation>szójegyzék</translation></entry>
+<entry><string>External CSS</string><translation>Külső CSS</translation></entry>
+<entry><string>External URLs. These URLs are given an attribute "external".'
+.' Your theme will need to provide the styling for these external links.</string><translation>Külső hivatkozások. Ezek a külső hivatkozások az „external” attribútummal lesznek kiegészítve. A stíluslap fájlban ehhez egyedi stílust kell meghatározni.</translation></entry>
+<entry><string>external_url</string><translation>külső_hivatkozás</translation></entry>
+<entry><string>Mailto</string><translation>E-mail</translation></entry>
+<entry><string>E-mail links, that may be obfuscated.</string><translation>E-mail hivatkozások, amelyeket szükséges lehet elrejteni.</translation></entry>
+<entry><string>mailto</string><translation>e-mail</translation></entry>
 </translations>

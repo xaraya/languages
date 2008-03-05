@@ -1,215 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Headlines module allows you to syndicate content from other website. It also allows you to use predetermined hooks from Xaraya if you have them installed and activated.</string>
-		<translation>A hírforrások modul lehetővé teszi más honlapokon megjelenő tartalom átvételét.  Előre beállított hurkok segítségével képes más Xaraya modulokhoz is kapcsolódni.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have three choices:</string>
-		<translation>A menüben a következő lehetőségek érhetőek el:</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Add Headlines&lt;/strong&gt;: Add a new syndication headline for processing.</string>
-		<translation>&lt;strong&gt;Hírforrások felvétele&lt;/strong&gt;: Új külső hírforrás hozzáadását teszi lehetővé.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Manage Headlines&lt;/strong&gt;: View, edit and delete headlines that you have added to your site.
-Add alternative titles and headlines for your feeds, and order the display of the feeds</string>
-		<translation>&lt;strong&gt;Hírforrások kezelése&lt;/strong&gt;: A weboldalra felvett hírforrások megjelenítése, szerkesztése és törlése. Lehetőséget biztosít a hírszolgáltatásokhoz egyedi címsor és hírek felvételre, és a megjelenítési sorrend meghatározására.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: Update the global configuration for the module.
-Here you can set</string>
-		<translation>&lt;strong&gt;Beállítások&lt;/strong&gt;: A modul általános beállításainak szerkesztését teszi lehetővé. Beállítható:</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>the number of feeds per page</string>
-		<translation>Az oldalanként megjelenített hírforrások száma.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>optionally select an Article module publication type to import the feed items. You will need a title and summary field in your publication type to import feed items.</string>
-		<translation>Opcionálisan megadható egy cikktípus a Cikkek modulból, amelyekbe a híreket szeretnénk importálni. A cikktípusban a cím és a bevezető mezőkre mindenképp szükség van az importáláshoz.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>choose which content to import to your selected publication type. Feed, Title, Description and an optional link to the originating feed item can also be added in your publication type summary field.</string>
-		<translation>Meghatározhatjuk, hogy mely tartalom kerülön importálásra a cikktípusba. Az összefoglaló mezőbe a cím, leírás és az eredeti cikkre mutató hivatkozás is importálható.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="36"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Hook the Categories module to Headlines to classify your feeds by category on display.</string>
-		<translation>A Kategóriák modult a Hírforrásokhoz hurokkal kapcsolva a hírforrásainkat kategóriákba rendezve jeleníthetjük meg.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;RSS Block&lt;/strong&gt; allows you to provide selected feeds in blocks on your siten and define number of items, title, and refresh times.</string>
-		<translation>&lt;strong&gt;RSS Blokk&lt;/strong&gt;: Kiválasztott hírforrások megjelenítését teszi lehetővé a weboldalon. Megadható a megjelenítendő elemek száma, címsor és a frissítési időköz.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;strong&gt;Cloud Block&lt;/strong&gt; Creates a cloud block from blog feeds, using Ping module to notify of updates and Scheduler module to update.</string>
-		<translation>&lt;strong&gt;Felhő blokk&lt;/strong&gt;: Blog hírforrásokból készít egy felhő blokkot, a Ping modul felhasználásával a frissítési értesítésekhez és az Ütemezővel a frissítéshez.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="53"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included hooks with Headlines</string>
-		<translation>Nincsenek kapcsolódó hurkok.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="61"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Credits</string>
-		<translation>Készítők</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="64"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The RSS Block is using</string>
-		<translation>Az RSS blokk a</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP feedParser</string>
-		<translation>PHP feedParsert</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67"/>
-		</references>
-	</entry>
-	<entry>
-		<string>as its backend. The notes for the feedParser by Reverend Jim are as follows</string>
-		<translation>használja. Reverend Jim az alábbi megjegyzést fűzi a feedParserhez</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="67"/>
-		</references>
-	</entry>
-	<entry>
-		<string>feedParser was created due to the lack of a good, flexible, class-based RSS feed parser for PHP. It has been built as a class, and currently handles RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, and RSS 2.0 feeds. For channels it grabs the title, description, link, and creator. For items it grabs the title, description, link, and date. It also provides a form of the date converted into the local timezone to facilitate cronological sorting of items. The dates are provided in UNIX timestamp format for easy manipulation by other PHP functions.</string>
-		<translation>„A feedParsert azért hoztuk létre, mert korábban nem létezett jó, rugalmas, objektumközpontú, PHP-ben írt RSS hírforrás értelmező. Jelenleg az RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, és RSS 2.0 formátumú hírforrásokat támogatja. A csatornák esetében a címet, a leírást, a létrehozót és a hivatkozást, az elemek esetében pedig a címet, a leírást, a hivatkozást és a dátumot ismeri a rendszer. A sorba rendezés megkönnyítése érdekében képes a helyi időzónának megfelelő formátumúra konvertálni a dátumot. A dátumok UNIX-os dátum-idő formátumban állnak rendelkezésre, így könnyű azokat más PHP függvények segítségével feldolgozni.”</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="71"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="73"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Extended information about this module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="75"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Headlines Module - Xaraya Extension 777</string>
-		<translation>Hírforrások modul - Xaraya bővítmény: 777</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="75"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="78"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Headlines found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Headlines</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="80"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Headlines module Overview</string>
-		<translation>Hírforrások modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="84"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/headlines/xartemplates/admin-main.xd" line="84"/>
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The Headlines module allows you to syndicate content from other websites.
+It also allows you to use hooks such as Category, Scheduler, or Ping from those Xaraya
+modules to extend functionality or display of headlines to your site visitors.</string><translation>A hírforrások modul lehetővé teszi más honlapokon megjelenő tartalom átvételét. A Kategóriák, Ütemező és a Ping modulokhoz kapcsolva, hurkok segítségével képes ezekkel együttműködni.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>You can use the headlines module in two main ways.</string><translation>A hírforrások modult kétféleképpen használhatjuk.</translation></entry>
+<entry><string>Enter the URL to one or more feeds in the administration area, and allow
+your users to browse those headlines from the main Headline user menu option.</string><translation>Adjunk meg hírforrásokat a modul adminisztrálásánál, amelyeket így a felhasználók a Hírforrások menüből böngészhetnek.</translation></entry>
+<entry><string>In addition to the above user browsing throught the main Headlines user page,
+you can selectively import headline articles into one of your Article publication types.
+This can be done in a batch, or by browsing and selecting which headline item to import.</string><translation>A Cikkek modul egy cikktípusába importálhatunk híreket egy vagy több kiválasztott hírforrásból. Ez történhet kötegelten, vagy egyes hírek kiválasztásával.</translation></entry>
+<entry><string>Adding Feeds and Configuration</string><translation>Hírforrások felvétele és beállítások</translation></entry>
+<entry><string>From the menu, you have three choices:</string><translation>A menüben a következő lehetőségek érhetőek el:</translation></entry>
+<entry><string>&lt;strong&gt;Add Headlines&lt;/strong&gt;: Add a new syndication headline for processing.</string><translation>&lt;strong&gt;Hírforrások felvétele&lt;/strong&gt;: Új külső hírforrás hozzáadását teszi lehetővé.</translation></entry>
+<entry><string>&lt;strong&gt;Manage Headlines&lt;/strong&gt;: View, edit and delete headlines that you have added to your site.
+Add alternative titles and headlines for your feeds, and order the display of the feeds</string><translation>&lt;strong&gt;Hírforrások kezelése&lt;/strong&gt;: A weboldalra felvett hírforrások megjelenítése, szerkesztése és törlése. Lehetőséget biztosít a hírszolgáltatásokhoz egyedi címsor és hírek felvételre, és a megjelenítési sorrend meghatározására.</translation></entry>
+<entry><string>&lt;strong&gt;Modify Configuration&lt;/strong&gt;: Update the global configuration for the module.
+Here you can set</string><translation>&lt;strong&gt;Beállítások&lt;/strong&gt;: A modul általános beállításainak szerkesztését teszi lehetővé. Beállítható:</translation></entry>
+<entry><string>the number of feeds per page.</string><translation>Az oldalanként megjelenített hírforrások száma.</translation></entry>
+<entry><string>optionally select an Article module publication type to import the feed items. You will need a title and summary field in your publication type to import feed items (see Preparing Your Pubtype for Headline Import below).</string><translation>Opcionálisan megadható egy cikktípus a Cikkek modulból, amelyekbe a híreket szeretnénk importálni. A cikktípusban a cím és a bevezető mezőkre mindenképp szükség van az importáláshoz. (Lásd: „Cikktípus előkészítése hírforrások importálásához”.)</translation></entry>
+<entry><string>choose which content to import to your selected publication type. Feed, Title, Description and an optional link to the originating feed item can also be added in your publication type summary field.</string><translation>Meghatározhatjuk, hogy mely tartalom kerülön importálásra a cikktípusba. Az összefoglaló mezőbe a cím, leírás és az eredeti cikkre mutató hivatkozás is importálható.</translation></entry>
+<entry><string>Preparing Your Article Pubtype for Headline Import</string><translation>Cikktípus előkészítése hírforrások importálásához</translation></entry>
+<entry><string>The default News publication type in Articles, or similar is ideal for use with the Headlines module.
+The following fields and field types should be setup in your News publication type, or whichever is to be used for your Headlines.
+Fields in your publication type such as status and pubdate are used in their usual function in the publication type, but not in the headline import process.</string><translation>Az alapértelmezett „Hírek” cikktípus ideális a hírforrások importálásához. A felsorolt mezők és mezőtípusok mindenképpen szükségesek a Hírek cikktípusban, vagy más cikktípusban amelybe importálni szeretnénk. A további mezők, mint például „állapot”, „megjelenés dátuma”, a cikktípusban megszokottak szerint működnek, de az importálás során nem.</translation></entry>
+<entry><string>&lt;strong&gt;Title&lt;/strong&gt;: textbox - used to hold the imported headline title and link to the original feed item and source.</string><translation>&lt;srong&gt;title&lt;/strong&gt;: Egysoros szöveg - Az importált hír címe és hivatkozás az eredeti cikkre.</translation></entry>
+<entry><string>&lt;strong&gt;Summary&lt;/strong&gt;: textarea - used to hold the imported summary of the headline item.</string><translation>&lt;strong&gt;summary&lt;/strong&gt;: Szövegmező - az importált hírek rövid összefoglalóját fogja tartalmazni.</translation></entry>
+<entry><string>&lt;strong&gt;Body&lt;/strong&gt;: textbox or URL property - used to hold the imported URL of the imported headline feed source site.
+You will need to custom format this field as required for display in your pubtype display and summary template.</string><translation>&lt;strong&gt;body&lt;/strong&gt;: szövegmező vagy URL mező - az importált hírek URL címe, vagy hivatkozás az eredeti forrásra. Ennek a mezőnek a megjelenítését a cikktípus megjelenítési és listázási sablonfájljaiban módosítani kell.</translation></entry>
+<entry><string>&lt;strong&gt;Notes&lt;/strong&gt;: URL/Title property. By changing this to a URL/Title property it will automatically display the feed source and feed title as a
+clickable link on display of your imported headline item. However, you can format this as you need in your template. The content is imported and stored as a serialized array containing
+the URL of the feedsource and the title of your headline feed source (not the item headline title).</string><translation>&lt;strong&gt;notes&lt;/strong&gt;: URL + cím mező. A mezőt „URL + cím” típusúra állítva, ebbe automatikusan bekerül a hírforrás címe és neve, kattintható hivatkozásként, melyeket tetszőlegesen felhasználhatunk a sablonfájlokban. A tartalom egy serializált tömbként kerül tárolásra, amely tartalmazza az hírforrás URL címét és a hírforrás nevét (nem a hír címét).</translation></entry>
+<entry><string>Future enhancements of this module may include mapping of pubtype fields to imported headline fields.</string><translation>A modul későbbi változatai lehetővé tehetik a cikktípusok mezőinek hozzárendelését a hírforrásból érkező adatokhoz.</translation></entry>
+<entry><string>Extending the display of Headlines</string><translation>További megjelenítési lehetőségek</translation></entry>
+<entry><string>Hook the Categories module to Headlines to classify your feeds by category on display.</string><translation>A Kategóriák modult a Hírforrásokhoz hurokkal kapcsolva a hírforrásainkat kategóriákba rendezve jeleníthetjük meg.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>&lt;strong&gt;RSS Block&lt;/strong&gt; allows you to provide selected feeds in blocks on your site and define number of items, title, and refresh times.</string><translation>&lt;strong&gt;RSS Blokk&lt;/strong&gt;: Kiválasztott hírforrások megjelenítését teszi lehetővé a weboldalon. Megadható a megjelenítendő elemek száma, címsor és a frissítési időköz.</translation></entry>
+<entry><string>&lt;strong&gt;Cloud Block&lt;/strong&gt; Creates a cloud block from blog feeds, using Ping module to notify of updates and Scheduler module to update.</string><translation>&lt;strong&gt;Felhő blokk&lt;/strong&gt;: Blog hírforrásokból készít egy felhő blokkot, a Ping modul felhasználásával a frissítési értesítésekhez és az Ütemezővel a frissítéshez.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>There are no included hooks with Headlines</string><translation>Nincsenek kapcsolódó hurkok.</translation></entry>
+<entry><string>Credits</string><translation>Készítők</translation></entry>
+<entry><string>The RSS Block is using</string><translation>Az RSS blokk a</translation></entry>
+<entry><string>PHP feedParser</string><translation>PHP feedParsert</translation></entry>
+<entry><string>as its backend. The notes for the feedParser by Reverend Jim are as follows</string><translation>használja. Reverend Jim az alábbi megjegyzést fűzi a feedParserhez</translation></entry>
+<entry><string>feedParser was created due to the lack of a good, flexible, class-based RSS feed parser for PHP. It has been built as a class, and currently handles RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, and RSS 2.0 feeds. For channels it grabs the title, description, link, and creator. For items it grabs the title, description, link, and date. It also provides a form of the date converted into the local timezone to facilitate chronological sorting of items. The dates are provided in UNIX timestamp format for easy manipulation by other PHP functions.</string><translation>A feedParser létrejöttének oka, egy jó, flexibilis, objektum alapú RSS hírforrás feldolgozó hiánya a PHP-hez. A program osztályként készült, jelenleg az RSS 0.91, RSS 0.92, RSS 0.93, RSS 1.0, és RSS 2.0 hírforrások kezelésére alkalmas. A forráshoz letölti a címet, leírást, hivatkozást és a készítőt. Elemekhez letölti a címet, leírást, hivatkozást és a dátumot. Az elemek időbeni sorbarendezéséhez helyi időzónához számított dátummezőt is készít. A dátummezők UNIX timestamp formában érhetőek el a PHP-ből történő könnyebb kezelhetőség érdekében.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Extended information about this module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Headlines Module - Xaraya Extension 777</string><translation>Hírforrások modul - Xaraya bővítmény: 777</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Headlines found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on Headlines</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>Headlines module Overview</string><translation>Hírforrások modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

@@ -1,206 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Authinvision2 Authentication Module</string>
-		<translation>Invision 2 azonosítási modul</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="3"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="6"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="8"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Authinvision2 module provides authentication based on Invision Power Board's v2.x user base. The intended purpose is to utilize IPB's proprietary Converge technology, but currently uses SQL queries to authenticate the user with the existing Converge implementation. The Xaraya Event API is used for user login and logout events which performs the actual login process to IPB. The authinvision2 module also assumes the database server is &lt;b&gt;mysql&lt;/b&gt;.</string>
-		<translation>Az Invision 2 azonosítási modul Az Invision Power Board V2.x felhasználói adatbázisa alapján történő azonosítást teszi lehetővé. A fejlesztés célja, az IPB zárt Converge technológiájának használata, de jelenleg a felhasználók azonosítása SQL lekérdezésekkel történik a meglévő Converge megvalósítás mellett. A Xaraya eseménykezelési API segítségével történik az IPB ki- és bejelentkezési eseményeinek meghívása. A modul használatához &lt;b&gt;mysql&lt;/b&gt; adatbázis-kiszolgáló szükséges.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="10"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have seven choices.</string>
-		<translation>A menüben hét választási lehetőség érhető el.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Server - The hostname running the database (defaults to localhost).</string>
-		<translation>Kiszolgáló: Az adatbázis-kiszolgáló címe (alapértelmezés: localhost).</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Database - The name of the database for IPB.</string>
-		<translation>Adatbázis: az IBF adatbázis neve.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Username - The username used to connect to the IPB database.</string>
-		<translation>Felhasználónév: Az IBF adatbázishoz való csatlakozás felhasználóneve.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Password - The password used to connect to the IPB database.</string>
-		<translation>Jelszó: Az IBF adatbázishoz való csatlakozáshoz használt jelszó.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invision table prefix - The prefix used for the IPB tables (do &lt;b&gt;not&lt;/b&gt; include a "_").</string>
-		<translation>Invision tábla előtag: Az IBF adatbázis tábláiban használt előtag, (&lt;b&gt;az „_” karakter nélkül&lt;/b&gt;).</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invision forum Root - This is the relative path to your IPB installation.</string>
-		<translation>Invision fórum útvonal: A telepített IBF fórum relatív elérési útvonala.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Use Authinvision2 exclusively - Setting this will set authinvision2 to be your only authentication mechanism, and can not be unset.</string>
-		<translation>Invision 2 azonosítás kizárólagos használata: Ez a beállítás az AuthInvision2 modult az egyetlen azonsoítási móddá teszi a rendszerben és nem kikapcsolható.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Default Xaraya Group - The default group to add new users into.</string>
-		<translation>Alapértelmezett Xaraya csoport: A csoport amelybe az új felhasználók alapértelmezetten bekerülnek.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>login - A modified Roles login block that adds the ability for a user to set themselves as invisible. This only affects the IPB login, and has no affect in Xaraya.</string>
-		<translation>login - Egy módosított bejelentkezési blokk, amely lehetőséget biztosít a felhasználóknak a láthatatlan bejelentkezésre. Ez csak az IPB bejelentkezést befolyásolja, nincs hatással a Xarayára.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Authinvision2 Module has no hooks included at this time.</string>
-		<translation>Nincsenek kapcsolódó hurkok.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included with the authinvision2 module is a class that can be used on IPB's side to log a user into Xaraya in order to provide two-way login capability. In the modules/authinvision2 directory, copy the XarayaIPB-1.0.3.tar.gz file into your forumroot directory and unpack it, which will create a new directory called &lt;b&gt;modules/xaraya&lt;/b&gt;. Included in this directory is a README.txt file containing instructions on modifying IPB, and an example ipb_member_sync.php file.</string>
-		<translation>Az Invision 2 azonosítás modul tartalmaz egy oszályt, amely az IPB oldaláról biztosít lehetőséget a Xarayába való bejelentkezésre, így kétoldali bejelentkezt bizosít. A „modules/authinvision2” könyvtárból másoljuk a „XarayaIPB-1.0.3.tar.gz” fájlt a fórum gyökérkönyvtárába és tömörítsük ki. Így létrejön a &lt;strong&gt;modules/xaraya&lt;/strong&gt; könyvtár. A könyvtárban található egy „README.txt” fájl, amely tartalmazza az IPB fájljain végrehajtandó módosítások leírását és egy példa „ipb_member_sync.php” fájl.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Authinvision2 module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Authinvision2 Extension page at</string>
-		<translation>Az AuthInvision2 azonosítás modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Authinvision2 Module - Xaraya Extension 130</string>
-		<translation>AuthInvision2 azonosítás modul - Xaraya bővítmény: 130</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Authinvision2 found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Authinvision2</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Authinvision2 Module Overview</string>
-		<translation>AuthInvision2 azonosítási modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/authinvision2/xartemplates/admin-main.xd" line="43"/>
-		</references>
-	</entry>
+<entry><string>Authinvision2 Authentication Module</string><translation>Invision 2 azonosítási modul</translation></entry>
+<entry><string>Overview</string><translation>Áttekintés</translation></entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The Authinvision2 module provides authentication based on Invision Power Board's v2.x user base. The intended purpose is to utilize IPB's proprietary Converge technology, but currently uses SQL queries to authenticate the user with the existing Converge implementation. The Xaraya Event API is used for user login and logout events which performs the actual login process to IPB. The authinvision2 module also assumes the database server is &lt;b&gt;mysql&lt;/b&gt;.</string><translation>Az Invision 2 azonosítási modul Az Invision Power Board V2.x felhasználói adatbázisa alapján történő azonosítást teszi lehetővé. A fejlesztés célja, az IPB zárt Converge technológiájának használata, de jelenleg a felhasználók azonosítása SQL lekérdezésekkel történik a meglévő Converge megvalósítás mellett. A Xaraya eseménykezelési API segítségével történik az IPB ki- és bejelentkezési eseményeinek meghívása. A modul használatához &lt;b&gt;mysql&lt;/b&gt; adatbázis-kiszolgáló szükséges.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>From the menu, you have seven choices.</string><translation>A menüben hét választási lehetőség érhető el.</translation></entry>
+<entry><string>Server - The hostname running the database (defaults to localhost).</string><translation>Kiszolgáló: Az adatbázis-kiszolgáló címe (alapértelmezés: localhost).</translation></entry>
+<entry><string>Database - The name of the database for IPB.</string><translation>Adatbázis: az IBF adatbázis neve.</translation></entry>
+<entry><string>Username - The username used to connect to the IPB database.</string><translation>Felhasználónév: Az IBF adatbázishoz való csatlakozás felhasználóneve.</translation></entry>
+<entry><string>Password - The password used to connect to the IPB database.</string><translation>Jelszó: Az IBF adatbázishoz való csatlakozáshoz használt jelszó.</translation></entry>
+<entry><string>Invision table prefix - The prefix used for the IPB tables (do &lt;b&gt;not&lt;/b&gt; include a "_").</string><translation>Invision tábla előtag: Az IBF adatbázis tábláiban használt előtag, (&lt;b&gt;az „_” karakter nélkül&lt;/b&gt;).</translation></entry>
+<entry><string>Invision forum Root - This is the relative path to your IPB installation.</string><translation>Invision fórum útvonal: A telepített IBF fórum relatív elérési útvonala.</translation></entry>
+<entry><string>Use Authinvision2 exclusively - Setting this will set authinvision2 to be your only authentication mechanism, and can not be unset.</string><translation>Invision 2 azonosítás kizárólagos használata: Ez a beállítás az AuthInvision2 modult az egyetlen azonsoítási móddá teszi a rendszerben és nem kikapcsolható.</translation></entry>
+<entry><string>Default Xaraya Group - The default group to add new users into.</string><translation>Alapértelmezett Xaraya csoport: A csoport amelybe az új felhasználók alapértelmezetten bekerülnek.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>login - A modified Roles login block that adds the ability for a user to set themselves as invisible. This only affects the IPB login, and has no affect in Xaraya.</string><translation>login - Egy módosított bejelentkezési blokk, amely lehetőséget biztosít a felhasználóknak a láthatatlan bejelentkezésre. Ez csak az IPB bejelentkezést befolyásolja, nincs hatással a Xarayára.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>The Authinvision2 Module has no hooks included at this time.</string><translation>Nincsenek kapcsolódó hurkok.</translation></entry>
+<entry><string>Included with the authinvision2 module is a class that can be used on IPB's side to log a user into Xaraya in order to provide two-way login capability. In the modules/authinvision2 directory, copy the XarayaIPB-1.0.3.tar.gz file into your forumroot directory and unpack it, which will create a new directory called &lt;b&gt;modules/xaraya&lt;/b&gt;. Included in this directory is a README.txt file containing instructions on modifying IPB, and an example ipb_member_sync.php file.</string><translation>Az Invision 2 azonosítás modul tartalmaz egy oszályt, amely az IPB oldaláról biztosít lehetőséget a Xarayába való bejelentkezésre, így kétoldali bejelentkezt bizosít. A „modules/authinvision2” könyvtárból másoljuk a „XarayaIPB-1.0.3.tar.gz” fájlt a fórum gyökérkönyvtárába és tömörítsük ki. Így létrejön a &lt;strong&gt;modules/xaraya&lt;/strong&gt; könyvtár. A könyvtárban található egy „README.txt” fájl, amely tartalmazza az IPB fájljain végrehajtandó módosítások leírását és egy példa „ipb_member_sync.php” fájl.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the Authinvision2 module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Authinvision2 Extension page at</string><translation>Az AuthInvision2 azonosítás modul bővítmény oldala</translation></entry>
+<entry><string>Authinvision2 Module - Xaraya Extension 130</string><translation>AuthInvision2 azonosítás modul - Xaraya bővítmény: 130</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Authinvision2 found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on Authinvision2</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>Authinvision2 Module Overview</string><translation>AuthInvision2 azonosítási modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

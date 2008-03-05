@@ -1,448 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Modify Configuration</string>
-		<translation>Beállítások szerkesztése</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Options:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>General</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="29"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Last Resort</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="60"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="66"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="139"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Masks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="74"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="80"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Testing</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="87"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="93"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Sitewide Settings</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="108"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show exceptions messages or redirect to a login screen</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="111"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Exception Redirect:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="112"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This redirects a non-logged in user to the login screen if they don't have the proper privileges.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="119"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A logged in user will see the exception error message that can be changed with a base module override template (message-NO_PRIVILEGES.xt).</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="121"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enable or disable inheritance of deny privileges</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="125"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Inherit Deny Privileges:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="126"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Warning: This setting affects the way privileges work on your site. If changed you should retest all the privileges on your site.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="133"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enable or disable an administrator of last resort</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="142"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Last Resort Admin:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="143"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Warning: This setting opens a tab to enable you to create an administrator whose privileges cannot be removed.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="150"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Update Privileges Configuration</string>
-		<translation>Változtatások mentése</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="158"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="270"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="322"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="351"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Working With Realms</string>
-		<translation>Munka a tartományokkal</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="172"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show or hide realms in the privileges input screens</string>
-		<translation>Tartományok elrejtése vagy megjelenítése a jogosultság szerkesztési oldalakon.</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="175"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enable Realms</string>
-		<translation>Tartományok engedélyezése</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="178"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Checking this enables the Manage Realms item on the Privileges menu</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="185"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Realm Privilege Options</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="193"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Security checks will look for a match on the realm part of any privilege you define, with the 'realm mask' as defined below.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="196"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The following choice will be inserted into any mask</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="200"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="238"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Realm Value for Masks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="203"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Text value for realm</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="228"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Text Value:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="231"/>
-		</references>
-	</entry>
-	<entry>
-		<string>(applies only to the Text Value option above)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="235"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Realm Comparison Type</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="241"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A realm is accepted if the user's privilege contains its name</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="260"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Manage Last Resort Admin</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="284"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Last Resort Administrator will &lt;strong&gt;always&lt;/strong&gt; have rights to the entire system.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="287"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enter a name and password to replace the existing Last Resort administrator.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="289"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enter a name and password to create a Last Resort administrator.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="291"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Name of the administator of last resort</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="295"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Admin name:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="296"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Password of the administrator of last resort</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="301"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Password:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="302"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Confirm password for administrator of last resort</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="307"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Confirm Password:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="308"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Registered Masks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="335"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This option is provided for Web Developer convenience. In general most Site Administrators
+<entry><string>Modify Configuration</string><translation>Beállítások szerkesztése</translation></entry>
+<entry><string>Options:</string><translation>Lehetőségek</translation></entry>
+<entry><string>General</string><translation>Általános</translation></entry>
+<entry><string>Last Resort</string><translation>Utolsó Esély</translation></entry>
+<entry><string>Masks</string><translation>Maszkok</translation></entry>
+<entry><string>Testing</string><translation>Teszt</translation></entry>
+<entry><string>Sitewide Settings</string><translation>Weboldalszintű beállítások</translation></entry>
+<entry><string>Show exceptions messages or redirect to a login screen</string><translation>Kivételkezelési üzenetek megjelenítése vagy ugrás a bejelentkezési oldalra.</translation></entry>
+<entry><string>Exception Redirect:</string><translation>Kivételkezelés átirányítása:</translation></entry>
+<entry><string>This redirects a non-logged in user to the login screen if they don't have the proper privileges.</string><translation>Átirányítja a nem bejelentkezett felhasználókat a bejelentkezési oldalra, amennyiben nincs elegendő jogosultságuk.</translation></entry>
+<entry><string>A logged in user will see the exception error message that can be changed with a base module override template (message-NO_PRIVILEGES.xt).</string><translation>A bejelentkezett felhasználók a kivételkezelési hibaüzenetet fogják látni, amely az Alap modul sablonjában írható felül (message-NO_PRIVILEGES.xt).</translation></entry>
+<entry><string>Enable or disable inheritance of deny privileges</string><translation>A tiltó jogosultságok öröklésének ki és bekapcsolása.</translation></entry>
+<entry><string>Inherit Deny Privileges:</string><translation>Tiltó jogosultságok öröklése:</translation></entry>
+<entry><string>Warning: This setting affects the way privileges work on your site. If changed you should retest all the privileges on your site.</string><translation>Figyelem: Ez a beállítás jelentősen befolyásolja a jogoulságok működését az oldalon. Javasolt az összes jogosultság kipróbálása az átállítás után.</translation></entry>
+<entry><string>Enable or disable an administrator of last resort</string><translation>Utolsó esély adminisztrátor engedélyezése vagy kikapcsolása.</translation></entry>
+<entry><string>Last Resort Admin:</string><translation>Utolsó Esély Adminisztrátor:</translation></entry>
+<entry><string>Warning: This setting opens a tab to enable you to create an administrator whose privileges cannot be removed.</string><translation>Figyelem: Ez a beállítás egy új fület nyit, ahol létrehozható az adminisztrátor amelynek a jogosultságai nem törölhetőek.</translation></entry>
+<entry><string>Update Privileges Configuration</string><translation>Változtatások mentése</translation></entry>
+<entry><string>Working With Realms</string><translation>Munka a tartományokkal</translation></entry>
+<entry><string>Show or hide realms in the privileges input screens</string><translation>Tartományok elrejtése vagy megjelenítése a jogosultság szerkesztési oldalakon.</translation></entry>
+<entry><string>Enable Realms</string><translation>Tartományok engedélyezése</translation></entry>
+<entry><string>Checking this enables the Manage Realms item on the Privileges menu</string><translation>Bekapcsolása engedélyezi a Tartományok kezelését a Jogosultságok menüjében.</translation></entry>
+<entry><string>Realm Privilege Options</string><translation>Tartományok kezelésének beállításai</translation></entry>
+<entry><string>Security checks will look for a match on the realm part of any privilege you define, with the 'realm mask' as defined below.</string><translation>A jogosultsági ellenőrzések egyezést keresnek az alább definiált tartomány maszkokkal.</translation></entry>
+<entry><string>The following choice will be inserted into any mask</string><translation>A következő lehetőség beszúrásra kerül minden maszkba</translation></entry>
+<entry><string>Realm Value for Masks</string><translation>Tartomány érték a maszkokhoz</translation></entry>
+<entry><string>Text value for realm</string><translation>Szöveges érték a maszkokhoz</translation></entry>
+<entry><string>Text Value:</string><translation>Szöveges érték:</translation></entry>
+<entry><string>(only applies when Text Value option is chosen)</string><translation>(Csak akkor érvényes, ha fent a Szöveges érték van kiválasztva)</translation></entry>
+<entry><string>Realm Comparison Type</string><translation>Tartomány összehasonlítás típusa</translation></entry>
+<entry><string>A realm is accepted if the user's privilege contains its name</string><translation>A tartomány akkor kerül elfogadásra, ha a felhasználó jogosultsága tartalmazza annak nevét.</translation></entry>
+<entry><string>Manage Last Resort Admin</string><translation>Utolsó Esély Adminisztrátor</translation></entry>
+<entry><string>The Last Resort Administrator will &lt;strong&gt;always&lt;/strong&gt; have rights to the entire system.</string><translation>Az Utolsó Esély adminisztrátornak &lt;strong&gt;mindig&lt;/strong&gt; lesz jogosultásga az egész rendszerhez.</translation></entry>
+<entry><string>Enter a name and password to replace the existing Last Resort administrator.</string><translation>Adjuk meg a nevet és a jelszót a jelenlegi Utolsó Esély Adminisztrátor lecseréléséhez.</translation></entry>
+<entry><string>Enter a name and password to create a Last Resort administrator.</string><translation>Név és a jelszó megadása az Utolsó Esély Adminisztrátor létrehozásához.</translation></entry>
+<entry><string>Name of the administator of last resort</string><translation>Az Utolsó Esély Adminisztrátor neve.</translation></entry>
+<entry><string>Admin name:</string><translation>Adminisztráror neve:</translation></entry>
+<entry><string>Password of the administrator of last resort</string><translation>Az Utolsó Esély Adminisztrátor jelszava.</translation></entry>
+<entry><string>Password:</string><translation>Jelszó:</translation></entry>
+<entry><string>Confirm password for administrator of last resort</string><translation>Az Utolsó Esély Adminisztrátor jelszavának ellenőrzése.</translation></entry>
+<entry><string>Confirm Password:</string><translation>Jelszó megismétlése:</translation></entry>
+<entry><string>Registered Masks</string><translation>Regisztrált maszkok</translation></entry>
+<entry><string>This option is provided for Web Developer convenience. In general most Site Administrators
 should not need to access the Masks list provided below. Editing of the masks without an
-understanding of how they function can result in access problems to content on your site.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="342"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Testing Settings</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="364"/>
-		</references>
-	</entry>
-	<entry>
-		<string>These settings let a designated tester see security check messages on a live site.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="367"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Group containing the tester</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="371"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Tester Group:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="372"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Group to select tester from</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="386"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Name of the administator that will see the messages</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="389"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Tester:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="390"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The current tester is &lt;strong&gt;#(1)&lt;/strong&gt;.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="407"/>
-		</references>
-	</entry>
-	<entry>
-		<string>They will see the security check messages.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="416"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Non Deny checks only shows checks that do not involve DENYs</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="419"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Non-DENY checks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="422"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show checks not involving DENYs</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="429"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Deny checks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="432"/>
-		</references>
-	</entry>
-	<entry>
-		<string>DENY checks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="435"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show checks involving DENYs</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="442"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Mask to test against</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="445"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Mask to test</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="448"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Adding a mask name here will show only the checks involving that mask</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="452"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Update Tester Configuration</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="461"/>
-		</references>
-	</entry>
+understanding of how they function can result in access problems to content on your site.</string><translation>Ez a lehetőség a web fejlesztőknek szükséges. Általában a legtöbb weboldal adminisztrátornak nincs szüksége a lent látható maszkok eléréshez. A maszkok szerkesztése, azok megértése nélkül, jogosultsági problémákat okozhat a webodlalon.</translation></entry>
+<entry><string>Testing Settings</string><translation>Beállítások tesztelése</translation></entry>
+<entry><string>These settings let a designated tester see security check messages on a live site.</string><translation>Ezek a beállítások lehetőséget biztosítanak egy kijelölt tesztelőnek a jogosultsági ellenőrzések megvizsgálása egy működő oldalon.</translation></entry>
+<entry><string>Group containing the tester</string><translation>A tesztelő csoportja</translation></entry>
+<entry><string>Tester Group:</string><translation>Tesztelő csoportja:</translation></entry>
+<entry><string>Group to select tester from</string><translation>A csoport amelyből a tesztelőt kiválasztjuk</translation></entry>
+<entry><string>Name of the administator that will see the messages</string><translation>Az adminisztrátor aki láthatja a jogosultsági üzeneteket.</translation></entry>
+<entry><string>Tester:</string><translation>Tesztelő:</translation></entry>
+<entry><string>The current tester is &lt;strong&gt;#(1)&lt;/strong&gt;.</string><translation>Az aktuális tesztelő: &lt;strong&gt;#(1)&lt;/strong&gt;.</translation></entry>
+<entry><string>They will see the security check messages.</string><translation>A kiválasztott felhasználó látni fogja a jogosultsági ellenőrzések üzeneteit.</translation></entry>
+<entry><string>Non Deny checks only shows checks that do not involve DENYs</string><translation>A nem tiltó ellenőrzések csak azokat az elenőrzéseket mutatják amelyek nem tartalmaznak tiltást.</translation></entry>
+<entry><string>Non-DENY checks</string><translation>Nem tiltó ellenőrzések</translation></entry>
+<entry><string>Show checks not involving DENYs</string><translation>Csak azok az ellenőrzések jelennek meg amelyek nem tartalmaznak tiltást.</translation></entry>
+<entry><string>Deny checks</string><translation>Tiltó ellenőrzések</translation></entry>
+<entry><string>DENY checks</string><translation>Tiltó ellenőrzések</translation></entry>
+<entry><string>Show checks involving DENYs</string><translation>A tiltást tartalmazó ellenőrzések megjelenítése</translation></entry>
+<entry><string>Mask to test against</string><translation>Tesztelni kívánt maszk</translation></entry>
+<entry><string>Mask to test</string><translation>Tesztelni kívánt maszk</translation></entry>
+<entry><string>Adding a mask name here will show only the checks involving that mask</string><translation>Csak azok a jogosultság ellenőrzések jelennek meg, amelyek megfelelnek a megadott maszknak.</translation></entry>
+<entry><string>Update Tester Configuration</string><translation>Frissítés</translation></entry>
 </translations>

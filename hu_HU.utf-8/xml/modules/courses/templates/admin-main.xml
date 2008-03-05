@@ -1,136 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Administration - Courses</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="4"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="6"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Courses is the documented Xaraya Courses Module.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>It is currently responsible for accomplishing these tasks:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Gives examples of code commented in plain terms.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Gives examples of templates.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Gives examples of hooks.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This module is intended as a reference for other modules to use. Its output is just a basic non-usable output in many cases.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>new</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>others</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>usermenu -- Allows interface with the "My Account Page"</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="51"/>
-		</references>
-	</entry>
-	<entry>
-		<string>search -- Allows interface with Search Module</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>And more.. [for module developers]</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="57"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please use this consistent template for your module overview.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="61"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/courses/xartemplates/admin-main.xd" line="65"/>
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>Courses is the documented Xaraya Courses Module.</string><translation></translation></entry>
+<entry><string>It is currently responsible for accomplishing these main tasks:</string><translation></translation></entry>
+<entry><string>Manages the course offerings to students.</string><translation></translation></entry>
+<entry><string>Users can enroll into courses.</string><translation></translation></entry>
+<entry><string>Produces overviews of courses, participants and the planning.</string><translation></translation></entry>
+<entry><string>Sends out registration emails.</string><translation></translation></entry>
+<entry><string>Allow teachers to be attached to a course, so they can manage their own course.</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>First define at least one coursetype. Most of the time you will only need one type: your own. However, you can define other ones, like external courses that you want to display as well. Hooks are added to these coursetypes, eg categories are taking the coursetype settings as the main setting.</string><translation></translation></entry>
+<entry><string>To set up the course offerings you will need to understand the way courses are setup.</string><translation></translation></entry>
+<entry><string>Courses are single entities that are present in the system. The information regarding a course is rather fixed. Courses are offered to users in Xaraya, this means they are planned. Another word for this planning can be a delivered course.</string><translation></translation></entry>
+<entry><string>Once the course is planned, you can attach more information to the planned course like a start date, maximum number of participants, location etc.</string><translation></translation></entry>
+<entry><string>A good working order would be:</string><translation></translation></entry>
+<entry><string>Create a coursetype and save it.</string><translation></translation></entry>
+<entry><string>Set the correct parameters for the coursetype by going to the modify option for the coursetype.</string><translation></translation></entry>
+<entry><string>Create a course when you have selected the appropriate coursetype it holds.</string><translation></translation></entry>
+<entry><string>Once the course it created and saved you can plan the course (create a delivered course). Set the start and enddate. Set the number of participants. When a maximum number is not 0, the coursesubcription will automatically use this maximum number of participants and use a waiting list if the course becomes overbooked.</string><translation></translation></entry>
+<entry><string>Turn on short urls and access your course via [yourdomain]/courses/course/[coursecode].</string><translation></translation></entry>
+<entry><string>Watch the number of studends grow via the planning page.</string><translation></translation></entry>
+<entry><string>Add the upcoming courses block to your site and advertise the courses that are not fully booked.</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>Upcoming courses. This is a block which shows the courses in the near future</string><translation></translation></entry>
+<entry><string>We plan to offer another Admin Block with short term information</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>usermenu -- Allows interface with the "My Account Page"</string><translation></translation></entry>
+<entry><string>search -- Allows interface with Search Module</string><translation></translation></entry>
+<entry><string>In these cases, the Courses module provides the hook functionality.
+To activate the hooks go to</string><translation></translation></entry>
+<entry><string>Modules - Configure Hooks - Courses Module</string><translation></translation></entry>
+<entry><string>From there click on the checkbox in either Roles or
+the Search module to activate the respective hooks.</string><translation></translation></entry>
+<entry><string>Included Dynamic Data Properties</string><translation></translation></entry>
+<entry><string>Courselisting -- Provides a dropdown of courses</string><translation></translation></entry>
+<entry><string>This listing can be used in other modules or in your own template. It will show a listing of courses found when you set the validation.</string><translation></translation></entry>
+<entry><string>The validation rules are:</string><translation></translation></entry>
+<entry><string>The coursetype as a number. These are the coursetypes defined in the coursetypes.</string><translation></translation></entry>
+<entry><string>The courselevel as a number.</string><translation></translation></entry>
+<entry><string>you can add extra categories by adding catids and use a + or - to glue them.</string><translation></translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the Courses module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Courses Extension page at</string><translation></translation></entry>
+<entry><string>Courses Module - Xaraya Extension 179</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Courses found at</string><translation></translation></entry>
+<entry><string>Related documentation on Courses</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Courses Module - Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>

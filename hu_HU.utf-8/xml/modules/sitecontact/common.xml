@@ -1,579 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Site Contact</string>
-		<translation>Kapcsolatfelvétel</translation>
-		<references>
-			<reference file="modules/sitecontact/xarversion.php" line="15"/>
-			<reference file="modules/sitecontact/xaruser/main.php" line="118"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Create Form</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="194"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="188"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You can add Dynamic Data fields here by hooking Dynamic Data to Sitecontact</string>
-		<translation>Ide Dinamikus Adatmezőket adhatunk, ha a  Dinamikus Adatok modult hurokkal kapcsoljuk a Kapcsolatfelvétel modulhoz.</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="256"/>
-			<reference file="modules/sitecontact/xaradmin/modifyconfig.php" line="88"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xaradmin/managesctypes.php" line="271"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="419"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="611"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="613"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Érvénytelen „#(1)”. Függvény: #(2) #(3)(), modul: #(4)</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/createsctype.php" line="26"/>
-			<reference file="modules/sitecontact/xaradminapi/deletesctype.php" line="27"/>
-			<reference file="modules/sitecontact/xaradminapi/deletesctype.php" line="44"/>
-			<reference file="modules/sitecontact/xaradminapi/updatesctype.php" line="31"/>
-			<reference file="modules/sitecontact/xaradminapi/updatesctype.php" line="107"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Manage Contact Forms</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/getmenulinks.php" line="27"/>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="58"/>
-			<reference file="modules/sitecontact/xartemplates/includes/admin-menu.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SiteContact Administration</string>
-		<translation>Kapcsolatfelvétel adminisztrálása</translation>
-		<references>
-			<reference file="modules/sitecontact/xaradminapi/menu.php" line="25"/>
-			<reference file="modules/sitecontact/xartemplates/admin-menu.xd" line="4"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-main.xd" line="10"/>
-			<reference file="modules/sitecontact/xartemplates/includes/admin-menu.xd" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Site Contact Administration</string>
-		<translation>Kapcsolatfelvétel - Adminisztrálás</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="6"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="6"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Default site email for receiving and sending contact emails. Defaults to Admin email</string>
-		<translation>Az alapértelmezett e-mail cím a levelek fogadásához és elküldéséhez. Alapértéke az adminisztrátor e-mail címe.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="44"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="230"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="81"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Default name for receiving and sending contact emails. Defaults to site Admin name</string>
-		<translation>Az alapértelmezett név a levelek fogadásához és elküldéséhez. Alapértéke az adminisztrátor neve.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="52"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="238"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="89"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Custom title for your contact page.</string>
-		<translation>Egyedi címsor a kapcsolatfelvétel oldalhoz.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="74"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="262"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="113"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Custom page title:</string>
-		<translation>Címsor:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="75"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="263"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="114"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Custom text for the contact page. You can use HTML here if configured on your site.</string>
-		<translation>Egyedi bevezető szöveg a kapcsolatfelvétel oldalhoz. A mezőben a weblapon engedélyezett HTML kulcsszavak használhatóak.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="81"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="269"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="120"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Your custom text:</string>
-		<translation>Bevezető szöveg:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="82"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="270"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="121"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Custom text displayed on your site after the user sends their message.</string>
-		<translation>Egyedi szöveg, mely az üzenet elküldése után jelenik meg.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="88"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="276"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="127"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Confirm Page Text:</string>
-		<translation>Megköszönő üzenet:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="89"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="277"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="128"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow a cc recipient list?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="99"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="287"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="138"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow CC Recipient list?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="100"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="288"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="139"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow a bcc recipient list?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="109"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="297"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="149"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow BCC Recipient list?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="110"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="298"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="150"/>
-		</references>
-	</entry>
-	<entry>
-		<string>NOTE: Please ensure you understand the potential problems of allowing
-muliple emailings if you have open access on your website to this module or specific form.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="115"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="303"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="155"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Subject and optional email address per line. Form : Subject[semicolon]email[comma]</string>
-		<translation>Tárgy és esetlegesen e-mail cím, soronként egy. Formátum: Tárgy(pontosvessző)E-mail(vessző)</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="123"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="310"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="171"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Options for subject with optional alternative email address:</string>
-		<translation>Lehetséges levél tárgy sorok és (elhagyható) e-mail címek:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="124"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="311"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="172"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Each line above should be entered with the semicolon and comma:</string>
-		<translation>Minden sort pontosvesszővel és vesszővel kell megadni:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="130"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="317"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="178"/>
-		</references>
-	</entry>
-	<entry>
-		<string>subject;optional-email,</string>
-		<translation>tárgy;elhagyható-email,</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="131"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="318"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="179"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The optional email and semicolon can be omitted but must have comma to separate each line.</string>
-		<translation>Az e-mail cím és a pontosvessző elhagyható, de a sor végét mindenképpen vesszővel kell lezárni.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="132"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="319"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="180"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow sending of copy to feedback sender</string>
-		<translation>Másolat küldése az üzenet feladójának.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="136"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="323"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="184"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow copy to sender?</string>
-		<translation>Másolat küldése az üzenet feladójának.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="137"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="324"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="185"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow HTML in feedback emails</string>
-		<translation>HTML engedélyezése a visszajelzési levelekben.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="147"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="334"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="195"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Use HTML Email?</string>
-		<translation>E-mail HTML formátumban?</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="148"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="335"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="196"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included in email to user - use HTML only if email configured for HTML</string>
-		<translation>A felhasználónak elküldött levél - HTML csak akkor használható ha a levél HTML formátumra van kapcsolva.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="158"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="345"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="206"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Default emailed note to user (in template as ##$notetouser##):</string>
-		<translation>Alapértelmezett üzenet a felhasználónak (a sablonban ##$notetouser## változóként):</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="159"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="346"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="207"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You can use the following variables in your email:</string>
-		<translation>A levélben a következő változók használhatóak:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="166"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="353"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="213"/>
-		</references>
-	</entry>
-	<entry>
-		<string>User email</string>
-		<translation>Felhasználó e-mail címe</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="169"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="357"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="217"/>
-		</references>
-	</entry>
-	<entry>
-		<string>User name</string>
-		<translation>Felhasználó neve</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="170"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="358"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="218"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Subject from drop down list</string>
-		<translation>Tárgy, a lenyíló mezőből</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="171"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="359"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="219"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Organization</string>
-		<translation>Intézmény</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="172"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="360"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="510"/>
-			<reference file="modules/sitecontact/xartemplates/admin-modifyconfig.xd" line="220"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="89"/>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="54"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Contact Form</string>
-		<translation>Kapcsolatfelvétel</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="445"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enter your name</string>
-		<translation>A feladó nevének megadása.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="463"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Your Name</string>
-		<translation>Név</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="466"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>(required)</string>
-		<translation>(kötelező)</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="472"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="486"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="51"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="65"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Enter your email</string>
-		<translation>A feladó e-mail címének megadása.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="476"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="55"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Your Email</string>
-		<translation>E-mail cím</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="479"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Subject</string>
-		<translation>Tárgy</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="490"/>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="493"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="69"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="72"/>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="53"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please enter your organization name.</string>
-		<translation>A mezőbe a cégnév vagy intézmény neve írandó.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="507"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="86"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Separate emails by colons (;) or optionally add a name for each email by separating email and name by a comma eg</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="531"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="111"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Type in your message</string>
-		<translation>Az üzenet szövegének beírása.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="535"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="115"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Message</string>
-		<translation>Üzenet</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="538"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="118"/>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="55"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Would you like to have a copy of the message sent to your email</string>
-		<translation>A feladó e-mail címére is elküldésre kerül a visszajelzés tartalma.</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="563"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="143"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Copy email to you</string>
-		<translation>Másolat a feladó címére</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="566"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="146"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Submit</string>
-		<translation>Elküldés</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="575"/>
-			<reference file="modules/sitecontact/xartemplates/user-main.xd" line="162"/>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="105"/>
-			<reference file="modules/sitecontact/xaruser/main.php" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Form ID</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="591"/>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Form Name</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/admin-managesctypes.xd" line="592"/>
-			<reference file="modules/sitecontact/xaruser/contactus.php" line="50"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Submitted By:</string>
-		<translation>Beküldő:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="2"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="1"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Email:</string>
-		<translation>E-mail:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="6"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="5"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="7"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="7"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Organization:</string>
-		<translation>Intézmény:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="9"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="7"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="10"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="9"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Subject:</string>
-		<translation>Tárgy</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="12"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="9"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="13"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="11"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Comments:</string>
-		<translation>Visszajelzés:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="15"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="11"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="16"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>User information:</string>
-		<translation>Felhasználó adatai:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="31"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Sender:</string>
-		<translation>Feladó:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="34"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Referer:</string>
-		<translation>Utaló:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-html.xd" line="37"/>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>at</string>
-		<translation>-</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-adminmail-text.xd" line="33"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="30"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You submitted the following information:</string>
-		<translation>A következő visszajelzés érkezett:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="2"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="3"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Name:</string>
-		<translation>Név:</translation>
-		<references>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-html.xd" line="4"/>
-			<reference file="modules/sitecontact/xartemplates/user-usermail-text.xd" line="5"/>
-		</references>
-	</entry>
+<entry><string>Site Contact</string><translation>Kapcsolatfelvétel</translation></entry>
+<entry><string>You can add Dynamic Data fields here by hooking Dynamic Data to Sitecontact</string><translation>Ide Dinamikus Adatmezőket adhatunk, ha a  Dinamikus Adatok modult hurokkal kapcsoljuk a Kapcsolatfelvétel modulhoz.</translation></entry>
+<entry><string>Create Form</string><translation></translation></entry>
+<entry><string>Delete</string><translation></translation></entry>
+<entry><string>Response ID</string><translation></translation></entry>
+<entry><string>Edit</string><translation>Szerkesztés</translation></entry>
+<entry><string>Manage Contact Forms</string><translation></translation></entry>
+<entry><string>Review Responses</string><translation></translation></entry>
+<entry><string>SiteContact Administration</string><translation>Kapcsolatfelvétel adminisztrálása</translation></entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Érvénytelen „#(1)”. Függvény: #(2) #(3)(), modul: #(4)</translation></entry>
+<entry><string>Overview</string><translation>Áttekintés</translation></entry>
+<entry><string>Site Contact Administration</string><translation>Kapcsolatfelvétel - Adminisztrálás</translation></entry>
+<entry><string>Default site email for receiving and sending contact emails. Defaults to Admin email</string><translation>Az alapértelmezett e-mail cím a levelek fogadásához és elküldéséhez. Alapértéke az adminisztrátor e-mail címe.</translation></entry>
+<entry><string>Default name for receiving and sending contact emails. Defaults to site Admin name</string><translation>Az alapértelmezett név a levelek fogadásához és elküldéséhez. Alapértéke az adminisztrátor neve.</translation></entry>
+<entry><string>You must install the FormAntiBot module for this Anti-Bot CAPTCHA to work.</string><translation></translation></entry>
+<entry><string>Custom title for your contact page.</string><translation>Egyedi címsor a kapcsolatfelvétel oldalhoz.</translation></entry>
+<entry><string>Custom page title:</string><translation>Címsor:</translation></entry>
+<entry><string>Custom text for the contact page. You can use HTML here if configured on your site.</string><translation>Egyedi bevezető szöveg a kapcsolatfelvétel oldalhoz. A mezőben a weblapon engedélyezett HTML kulcsszavak használhatóak.</translation></entry>
+<entry><string>Your custom text:</string><translation>Bevezető szöveg:</translation></entry>
+<entry><string>Custom text displayed on your site after the user sends their message.</string><translation>Egyedi szöveg, mely az üzenet elküldése után jelenik meg.</translation></entry>
+<entry><string>Confirm Page Text:</string><translation>Megköszönő üzenet:</translation></entry>
+<entry><string>Allow a cc recipient list?</string><translation></translation></entry>
+<entry><string>Allow CC Recipient list?</string><translation></translation></entry>
+<entry><string>Allow a bcc recipient list?</string><translation></translation></entry>
+<entry><string>Allow BCC Recipient list?</string><translation></translation></entry>
+<entry><string>NOTE: Please ensure you understand the potential problems of allowing
+muliple emailings (spammer use) if you have open access on your website to this form.</string><translation></translation></entry>
+<entry><string>Save the site contact form data</string><translation></translation></entry>
+<entry><string>Save form responses to the database?</string><translation></translation></entry>
+<entry><string>Require user permission for data save?</string><translation></translation></entry>
+<entry><string>Require user permission for response save in database?</string><translation></translation></entry>
+<entry><string>URL link to your terms.</string><translation></translation></entry>
+<entry><string>Terms link URL :</string><translation></translation></entry>
+<entry><string>Subject and optional email address per line. Form : Subject[semicolon]email[comma]</string><translation>Tárgy és esetlegesen e-mail cím, soronként egy. Formátum: Tárgy(pontosvessző)E-mail(vessző)</translation></entry>
+<entry><string>Options for subject with optional alternative email address:</string><translation>Lehetséges levél tárgy sorok és (elhagyható) e-mail címek:</translation></entry>
+<entry><string>Each line above should be entered with the semicolon and comma:</string><translation>Minden sort pontosvesszővel és vesszővel kell megadni:</translation></entry>
+<entry><string>subject;optional-email,</string><translation>tárgy;elhagyható-email,</translation></entry>
+<entry><string>The optional email and semicolon can be omitted but must have comma to separate each line.</string><translation>Az e-mail cím és a pontosvessző elhagyható, de a sor végét mindenképpen vesszővel kell lezárni.</translation></entry>
+<entry><string>Allow sending of copy to feedback sender</string><translation>Másolat küldése az üzenet feladójának.</translation></entry>
+<entry><string>Allow sending of copy to anonymous user</string><translation></translation></entry>
+<entry><string>Allow anonymous users to also request a copy?</string><translation></translation></entry>
+<entry><string>NOTE: Please ensure you understand the potential problems of allowing
+copy to sender option (spammer use) if you have open access on your website to this specific form.</string><translation></translation></entry>
+<entry><string>Allow HTML in feedback emails</string><translation>HTML engedélyezése a visszajelzési levelekben.</translation></entry>
+<entry><string>Use HTML Email?</string><translation>E-mail HTML formátumban?</translation></entry>
+<entry><string>Included in email to user - use HTML only if email configured for HTML</string><translation>A felhasználónak elküldött levél - HTML csak akkor használható ha a levél HTML formátumra van kapcsolva.</translation></entry>
+<entry><string>Default emailed note to user (in template as ##$notetouser##):</string><translation>Alapértelmezett üzenet a felhasználónak (a sablonban ##$notetouser## változóként):</translation></entry>
+<entry><string>You can use the following variables in your email:</string><translation>A levélben a következő változók használhatóak:</translation></entry>
+<entry><string>User email</string><translation>Felhasználó e-mail címe</translation></entry>
+<entry><string>User name</string><translation>Felhasználó neve</translation></entry>
+<entry><string>Subject from drop down list</string><translation>Tárgy, a lenyíló mezőből</translation></entry>
+<entry><string>Organization</string><translation>Intézmény</translation></entry>
+<entry><string>Contact Form</string><translation>Kapcsolatfelvétel</translation></entry>
+<entry><string>Enter your name</string><translation>A feladó nevének megadása.</translation></entry>
+<entry><string>Your Name</string><translation>Név</translation></entry>
+<entry><string>(required)</string><translation>(kötelező)</translation></entry>
+<entry><string>Enter your email</string><translation>A feladó e-mail címének megadása.</translation></entry>
+<entry><string>Your Email</string><translation>E-mail cím</translation></entry>
+<entry><string>Subject</string><translation>Tárgy</translation></entry>
+<entry><string>Please enter your organization name.</string><translation>A mezőbe a cégnév vagy intézmény neve írandó.</translation></entry>
+<entry><string>Separate emails by colons (;) or optionally add a name for each email by separating email and name by a comma eg</string><translation></translation></entry>
+<entry><string>Type in your message</string><translation>Az üzenet szövegének beírása.</translation></entry>
+<entry><string>Message</string><translation>Üzenet</translation></entry>
+<entry><string>Would you like to have a copy of the message sent to your email</string><translation>A feladó e-mail címére is elküldésre kerül a visszajelzés tartalma.</translation></entry>
+<entry><string>Copy email to you</string><translation>Másolat a feladó címére</translation></entry>
+<entry><string>May we save your response to this form?</string><translation></translation></entry>
+<entry><string>Permit saving of your form response?</string><translation></translation></entry>
+<entry><string>Please review our privacy policy:</string><translation></translation></entry>
+<entry><string>Terms &amp;amp; Privacy Policy</string><translation></translation></entry>
+<entry><string>Enter the value as seen in the image (if you can not read the image, click on it to load a new one).</string><translation></translation></entry>
+<entry><string>Anti-Bot Code</string><translation></translation></entry>
+<entry><string>Anti-bot code entry was incorrect - please try again...</string><translation></translation></entry>
+<entry><string>Please enter the Anti-Bot Code</string><translation></translation></entry>
+<entry><string>Can't read it? Click the image to generate a new code.</string><translation></translation></entry>
+<entry><string>Submit</string><translation>Elküldés</translation></entry>
+<entry><string>Submitted By:</string><translation>Beküldő:</translation></entry>
+<entry><string>Email:</string><translation>E-mail:</translation></entry>
+<entry><string>Organization:</string><translation>Intézmény:</translation></entry>
+<entry><string>Subject:</string><translation>Tárgy</translation></entry>
+<entry><string>Comments:</string><translation>Visszajelzés:</translation></entry>
+<entry><string>User information:</string><translation>Felhasználó adatai:</translation></entry>
+<entry><string>Sender:</string><translation>Feladó:</translation></entry>
+<entry><string>Referer:</string><translation>Utaló:</translation></entry>
+<entry><string>at</string><translation>-</translation></entry>
+<entry><string>You submitted the following information:</string><translation>A következő visszajelzés érkezett:</translation></entry>
+<entry><string>Name:</string><translation>Név:</translation></entry>
+<entry><string>Form ID</string><translation></translation></entry>
+<entry><string>Form Name</string><translation></translation></entry>
+<entry><string>Options</string><translation></translation></entry>
+<entry><string>Sitecontact Administration</string><translation></translation></entry>
+<entry><string>Message:</string><translation></translation></entry>
+<entry><string>Name</string><translation></translation></entry>
+<entry><string>Email</string><translation></translation></entry>
+<entry><string>The form requested is not available</string><translation></translation></entry>
+<entry><string>Your message has been sent.</string><translation>Üzenet elküldve.</translation></entry>
+<entry><string>You should receive confirmation of your email within a few minutes.</string><translation>Az üzenet tartalmát a feladó címére is továbbítottuk.</translation></entry>
 </translations>

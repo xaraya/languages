@@ -1,178 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Submit</string>
-		<translation>Módosítás</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="8"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Configure Autolinks</string>
-		<translation>Automatikus hivatkozások beállítása</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Matching Rule Options</string>
-		<translation>Keresési szabályok beállításai</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Characters that are permitted to terminate matching words, in addition to white space</string>
-		<translation>Azok a karakterek, amelyek a szóköz mellett a szavak végét jelzik.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Punctuation characters</string>
-		<translation>Központozó karakterek</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A list of XML elements within which no Autolinks are to be transformed</string>
-		<translation>Azon XML kulcsszavak listája, amelyeken belül ne hozzon létre automatikus hivatkozásokat.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Do not match in elements</string>
-		<translation>XML kulcsszavak kihagyása</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Treat the non-breaking space entity as a white-space character for demarcating the boundaries of key words</string>
-		<translation>A nem törhető szóközt is tekintse szóvéget jelző szóköznek.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Non-breaking space entity (&amp;amp;nbsp;) as white space</string>
-		<translation>Nem törhető szóköz (&amp;amp;nbsp;) mint szóköz</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Action Options</string>
-		<translation>Műveletek beállításai</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The maximum number of times each Autolink is permitted to match a keyword in any single block of text</string>
-		<translation>Egy szövegblokkon belül maximum hányszor ismétlődhet egy automatikus hivatkozás.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Link count limit</string>
-		<translation>Hivatkozások maximális száma</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="47"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Legacy setting - default decoration style applied to Autolinks - individual links may over-ride this setting or ignore it completely</string>
-		<translation>Visszafelé kompatibilitási beállítás - az automatikus hivatkozások alapértelmezett stílusa, az egyes hivatkozások ezt felülírhatják vagy teljesen figyelmen kívül hagyhatják.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="53"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Autolink decoration style</string>
-		<translation>Automatikus hivatkozás stílus</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="54"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Legacy setting - default new window setting for Autolinks - individual links may over-ride this setting with named windows or ignore it completely</string>
-		<translation>Visszafelé kompatibilitási beállítás - a hivatkozások megnyitása új ablakban, az egyes hivatkozások ezt felülírhatják egy másik ablaknévvel vagy teljesen figyelmen kívül hagyhatják.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="68"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Open links in new window</string>
-		<translation>Hivatkozások megnyitása új ablakban</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="69"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Flag to indicate whether errors in the execution of Autolink templates are to be shown inline with the linked keyword attempt, or hidden completely, leaving matched keywords intact - generally use this only for debugging</string>
-		<translation>Az automatikus hivatkozás sablonok végrehajtsa során keletkezett hibák kerüljenek bele a legenerált oldalba vagy maradjanak elrejtve - csak hibakereséskor kapcsoljuk be.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="79"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show template errors inline (errors shown in content)</string>
-		<translation>Sablonhibák megjelenítése (a hibák megjelenítése a legenerált oldalban)</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="80"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The base name for Autolink templates - this setting will form the first part of the template names</string>
-		<translation>Az automatikus hivatkozás sablonok alap-neve, ez képezi a sablonok nevének első felét.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="90"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Template base name (affects all templates used)</string>
-		<translation>Sablon alap neve (az összes sablonra hatással van)</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="91"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Admin Options</string>
-		<translation>Adminisztrálási beállítások</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="96"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The maximum number of Autolinks that will be displayed at any time in the Autolink view list admin page</string>
-		<translation>Az automatikus hivatkozások adminisztrációs oldalán egyszerre maximálisan megjeleníthető automatikus hivatkozások száma.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="98"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Items Per Page</string>
-		<translation>Tételek száma egy oldalon</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="99"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Indicates whether the sample links will be displayed in the Autolink view list admin page</string>
-		<translation>Megadja, hogy a minta hivatkozások megjelenjenek-e az automatikus hivatkozások adminisztrációs oldalán.</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="105"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show sample links in list</string>
-		<translation>Minta hivatkozások megjelenítése a listában</translation>
-		<references>
-			<reference file="modules/autolinks/xartemplates/admin-modifyconfig.xd" line="106"/>
-		</references>
-	</entry>
+<entry><string>Submit</string><translation>Módosítás</translation></entry>
+<entry><string>Configure Autolinks</string><translation>Automatikus hivatkozások beállítása</translation></entry>
+<entry><string>Matching Rule Options</string><translation>Keresési szabályok beállításai</translation></entry>
+<entry><string>Characters that are permitted to terminate matching words, in addition to white space</string><translation>Azok a karakterek, amelyek a szóköz mellett a szavak végét jelzik.</translation></entry>
+<entry><string>Punctuation characters</string><translation>Központozó karakterek</translation></entry>
+<entry><string>A list of XML elements within which no Autolinks are to be transformed</string><translation>Azon XML kulcsszavak listája, amelyeken belül ne hozzon létre automatikus hivatkozásokat.</translation></entry>
+<entry><string>Do not match in elements</string><translation>XML kulcsszavak kihagyása</translation></entry>
+<entry><string>Treat the non-breaking space entity as a white-space character for demarcating the boundaries of key words</string><translation>A nem törhető szóközt is tekintse szóvéget jelző szóköznek.</translation></entry>
+<entry><string>Non-breaking space entity (&amp;amp;nbsp;) as white space</string><translation>Nem törhető szóköz (&amp;amp;nbsp;) mint szóköz</translation></entry>
+<entry><string>Action Options</string><translation>Műveletek beállításai</translation></entry>
+<entry><string>The maximum number of times each Autolink is permitted to match a keyword in any single block of text</string><translation>Egy szövegblokkon belül maximum hányszor ismétlődhet egy automatikus hivatkozás.</translation></entry>
+<entry><string>Link count limit</string><translation>Hivatkozások maximális száma</translation></entry>
+<entry><string>Legacy setting - default decoration style applied to Autolinks - individual links may over-ride this setting or ignore it completely</string><translation>Visszafelé kompatibilitási beállítás - az automatikus hivatkozások alapértelmezett stílusa, az egyes hivatkozások ezt felülírhatják vagy teljesen figyelmen kívül hagyhatják.</translation></entry>
+<entry><string>Autolink decoration style</string><translation>Automatikus hivatkozás stílus</translation></entry>
+<entry><string>Legacy setting - default new window setting for Autolinks - individual links may over-ride this setting with named windows or ignore it completely</string><translation>Visszafelé kompatibilitási beállítás - a hivatkozások megnyitása új ablakban, az egyes hivatkozások ezt felülírhatják egy másik ablaknévvel vagy teljesen figyelmen kívül hagyhatják.</translation></entry>
+<entry><string>Open links in new window</string><translation>Hivatkozások megnyitása új ablakban</translation></entry>
+<entry><string>Flag to indicate whether errors in the execution of Autolink templates are to be shown inline with the linked keyword attempt, or hidden completely, leaving matched keywords intact - generally use this only for debugging</string><translation>Az automatikus hivatkozás sablonok végrehajtsa során keletkezett hibák kerüljenek bele a legenerált oldalba vagy maradjanak elrejtve - csak hibakereséskor kapcsoljuk be.</translation></entry>
+<entry><string>Show template errors inline (errors shown in content)</string><translation>Sablonhibák megjelenítése (a hibák megjelenítése a legenerált oldalban)</translation></entry>
+<entry><string>The base name for Autolink templates - this setting will form the first part of the template names</string><translation>Az automatikus hivatkozás sablonok alap-neve, ez képezi a sablonok nevének első felét.</translation></entry>
+<entry><string>Template base name (affects all templates used)</string><translation>Sablon alap neve (az összes sablonra hatással van)</translation></entry>
+<entry><string>Admin Options</string><translation>Adminisztrálási beállítások</translation></entry>
+<entry><string>The maximum number of Autolinks that will be displayed at any time in the Autolink view list admin page</string><translation>Az automatikus hivatkozások adminisztrációs oldalán egyszerre maximálisan megjeleníthető automatikus hivatkozások száma.</translation></entry>
+<entry><string>Items Per Page</string><translation>Tételek száma egy oldalon</translation></entry>
+<entry><string>Indicates whether the sample links will be displayed in the Autolink view list admin page</string><translation>Megadja, hogy a minta hivatkozások megjelenjenek-e az automatikus hivatkozások adminisztrációs oldalán.</translation></entry>
+<entry><string>Show sample links in list</string><translation>Minta hivatkozások megjelenítése a listában</translation></entry>
 </translations>

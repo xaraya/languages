@@ -1,1986 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>An error occurred while processing your request. The details are:</string>
-		<translation>Hiba történt a kérés feldolgozása közben. Részletek:</translation>
-		<references>
-			<reference file="index.php" line="171"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Last updated on #(1)</string>
-		<translation>Legutóbbi frissítés: #(1)</translation>
-		<references>
-			<reference file="includes/caching/page.php" line="227"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Database error while executing: '#(1)'; error description is: '#(2)'.</string>
-		<translation>Adatbázis hiba a „#(1)” futtatása közben. Hibaüzenet: „#(2)”.</translation>
-		<references>
-			<reference file="includes/xarException.php" line="462"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Default message</string>
-		<translation>Alapértelmezett üzenet</translation>
-		<references>
-			<reference file="includes/exceptions/errorcollection.class.php" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Block type already exists</string>
-		<translation>Ez a blokktípus már létezik</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to register a block type in a module that already exists.</string>
-		<translation>Már regisztrált blokk újraregisztrálásnak kísérlete egy modulban.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Data</string>
-		<translation>Hibás adat</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was bad.</string>
-		<translation>A megadott adatok hibásak.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>A művelethez megadott adatok hibásak vagy ellenőrzésük sikertelen.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>File does not exist</string>
-		<translation>A fájl nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An operation requires a file that cannot be found.</string>
-		<translation>A művelethez olyan fájlra van szükség amely nem található.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The file may be missing, or its name may have changed.</string>
-		<translation>A fájl nem található vagy megváltozott a neve.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Operation Halted</string>
-		<translation>Művelet leállítva</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This operation cannot be completed under the present circumstances.</string>
-		<translation>A művelet nem fejezhető be a jelenlegi körülmények között.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string>
-		<translation>A művelet leállításra került mert, ugyan nem tiltott, de nem fejezhető be a jelenlegi környezetben.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Duplicate Data</string>
-		<translation>Ismétlődő adat</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The data provided was a duplicate.</string>
-		<translation>A megadott adat nem szerepelhet kétszer.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string>
-		<translation>A művelethez egyedi adatra van szükség, de a megadott érték már foglalt.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Forbidden Operation</string>
-		<translation>Tiltott művelet</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting is not allowed in the current circumstances.</string>
-		<translation>A megkísérelt művelet végrehajtása, a jelenlegi beállítások mellett, nem engedélyezett.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string>
-		<translation>A problémát okozhatja a böngésző vissza gombjának megnyomása, a frissítés gomb megnyomása egy nem ismételhető műveleten, vagy a böngészőkben letiltott süti-kezelés.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Login error</string>
-		<translation>Bejelentkezési hiba</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A problem was encountered during the login process.</string>
-		<translation>Hiba történt a belépés közben.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No further information is available.</string>
-		<translation>Nincs további információ.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="39"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="36"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="116"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="120"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="128"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="132"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="136"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="186"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="202"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Missing Data</string>
-		<translation>Hiányzó adat</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The data is incomplete.</string>
-		<translation>A megadott adatok nem teljesek.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A value was expected during this operation, but none was found.</string>
-		<translation>A művelethez egy kötelező érték megadása elmaradt.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple instances</string>
-		<translation>Többszörös példányok</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A module contains more than one instance of the same block type.</string>
-		<translation>Egy modul ugyanabból a blokk típusból több mint egy példányt tartalmaz.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Error</string>
-		<translation>Jogosultsági hiba</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have privileges for this operation.</string>
-		<translation>Nincs elegendő jogosultság a művelet elvégzéséhez.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="49"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string>
-		<translation>A kívánt művelet elvégzéséhez nincsen elegendő jogosultság. Az adminisztrátor határozhat meg további elérést.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="50"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not logged in</string>
-		<translation>Nincs bejelentkezve</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting an operation that is not allowed for the Anonymous user.</string>
-		<translation>A program olyan művelet végrehajtását próbálta meg, amelyhez bejelentkezés nélkül nincs hozzáférés.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="53"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string>
-		<translation>A művelet végrehajtásához be kell jelentkezni. Amennyiben ez már megtörtént, a program hibára futott.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="54"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Item not found</string>
-		<translation>Elem nem található</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="56"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unexpected empty result occurred.</string>
-		<translation>Váratlan üres visszatérési érték.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="57"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An operation that should have returned a result instead came up empty.</string>
-		<translation>Egy művelet amelynek valamilyen eredményt kellett volna szolgáltatnia, üres értékkel tért vissza.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong version</string>
-		<translation>Hibás verzió</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="60"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The application version supplied is wrong.</string>
-		<translation>A megadott programverzió hibás.</translation>
-		<references>
-			<reference file="includes/exceptions/defaultuserexception.defaults.php" line="61"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No further information available</string>
-		<translation>Nincs további információ.</translation>
-		<references>
-			<reference file="includes/exceptions/exceptionrendering.class.php" line="52"/>
-			<reference file="includes/exceptions/exceptionrendering.class.php" line="65"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Assertion in code failed</string>
-		<translation>Kifejezés kiértékelési hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An assertion evaluated to false, which indicates a coding error.</string>
-		<translation>Egy kiértékelés hamis eredményt adott, ami programozási hibát jelez.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string>
-		<translation>Egy feltételes kiértékelés futtatása hibát okozott. Ez egy a programban lévő hibát jelent.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Bad Parameter</string>
-		<translation>Hibás paraméter</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter encountered was bad.</string>
-		<translation>Egy megadott paraméter hibás</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string>
-		<translation>A művelethez megadott egyik paraméter hibás vagy ellenőrzése sikertelen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Compiler error</string>
-		<translation>Fordítási hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout compiler encountered an error.</string>
-		<translation>A Blocklayout fordító hibára futott.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string>
-		<translation>A Blocklayout fordító egy helyrehozhatatlan hibára futott. Nincs további információ.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya is not properly configured</string>
-		<translation>A Xaraya nincs megfelelően beállítva</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The combination of configuration settings has led to a conflict</string>
-		<translation>A beállítások kombinációja konfliktushoz vezetett.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string>
-		<translation>A Xaraya bizonyos beállításai konfliktushoz vezettek. Bizonyos beállítások nem használhatóak egyszerre.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Context does not exist</string>
-		<translation>Környezet nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A context element was not found.</string>
-		<translation>Egy környezeti elem nem található.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string>
-		<translation>Általános hibaüzenet arra az esetre ha egy környezeti elem (blokk, sablon, include fájl) nem található.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Database Error</string>
-		<translation>Adatbázis hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered while attempting a database operation.</string>
-		<translation>Hiba történt egy adatbázis művelet végrehajtása közben.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Database Query Error</string>
-		<translation>Adatbázis lekérdezési hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered while trying to execute a database query.</string>
-		<translation>Hiba történt egy adatbázis lekérdezés futtatása közben.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string>
-		<translation>Egy adatbázis lekérdezés futtatása nem sikerült, mert a lekérdezés feldolgozhatatlan vagy váratlan hibát eredményezett.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Deprecated API</string>
-		<translation>Régi API</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A function call encountered belongs to a deprecated API.</string>
-		<translation>Régi API-hoz tartozó függvényhívás történt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A function call encountered belongs to an old API and is therefore no longer supported.</string>
-		<translation>A rendszer egy olyan függvényt hívott meg, amely egy régebbi API része volt, de már nem támogatott.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Deprecated Blocklayout Attribute</string>
-		<translation>Elavult BlockLayout attribútum</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A tag in a template contains a deprecated attribute.</string>
-		<translation>Az egyik BlockLayout elem az egyik sablonfájlban elavult attribútumot tartalmaz.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="47"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string>
-		<translation>Az egyik BlockLayout elem az egyik sablonfájlban elavult attribútumot tartalmaz amelyet az új változatára cserélni vagy törölni kell, a helyes formátum a BlockLayout dokumentációban található.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Fatal Error</string>
-		<translation>PHP: Végzetes hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="50"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A system error was received from the PHP interpreter.</string>
-		<translation>A PHP értelmező rendszerhibát jelzett.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="51"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="55"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="59"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="63"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="67"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="71"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="75"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="79"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="83"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="87"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="91"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There is an error in the PHP code that is being processed.</string>
-		<translation>Hiba van a feldolgozott PHP programrészletben.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="52"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="56"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="60"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="64"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="68"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="72"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="76"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="80"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="84"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="88"/>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="92"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Warning</string>
-		<translation>PHP: Figyelmeztetés</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="54"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Parse Error</string>
-		<translation>PHP: Értelmezési hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="58"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Error Notice</string>
-		<translation>PHP: Hibajelzés</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="62"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Core Error</string>
-		<translation>PHP: Rendszerhiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="66"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Core Warning</string>
-		<translation>PHP: Rendszerfigyelmeztetés</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="70"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Compile Error</string>
-		<translation>PHP: Fordítási hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: Compile Warning</string>
-		<translation>PHP: Fordítási figyelmeztetés</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="78"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: User Error</string>
-		<translation>PHP: Felhasználói hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="82"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP: User Warning</string>
-		<translation>PHP: Felhasználói figyelmeztetés</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="86"/>
-		</references>
-	</entry>
-	<entry>
-		<string>User Notice</string>
-		<translation>Felhasználói jelzés</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="90"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Parameter</string>
-		<translation>Üres paraméter</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="94"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter value was not provided.</string>
-		<translation>Egy paraméter értéke hiányzik.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="95"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A parameter was expected during this operation, but none was found.</string>
-		<translation>A megadott művelethez egy olyan paraméter szükséges, amely nincs megadva.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="96"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Event is not registered</string>
-		<translation>Esemény nincs regisztrálva</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="98"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown event was encountered.</string>
-		<translation>Egy ismeretlen esemény kiváltása történt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="99"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A reference to an event was encountered that is unknown to the system.</string>
-		<translation>Olyan hivatkozás történt egy eseményre, amely ismeretlen a rendszerben.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="100"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown system error</string>
-		<translation>Ismeretlen rendszerhiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="102"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown system error was encountered.</string>
-		<translation>Ismeretlen rendszerhiba történt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="103"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href="http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core"&gt;bugs.xaraya.com&lt;/a&gt;.</string>
-		<translation>A rendszer egy ismeretlen hibára futott. A fejlesztést és a hiba kijavítását segíti az ilyen problémák bejelentése a &lt;a href="http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core"&gt;bugs.xaraya.com&lt;/a&gt; címen, előre is köszönjük!</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Function failed</string>
-		<translation>Függvényhívási hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="106"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A call to a function returned a bad result.</string>
-		<translation>Egy függvény hibával tért vissza.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="107"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The function executed correctly, but the result was a failure.</string>
-		<translation>A függvényhívás megtörtént, de a függvény hibával tért vissza.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="108"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown ID</string>
-		<translation>Ismeretlen azonosító</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="110"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An expected ID was not found.</string>
-		<translation>Egy várt azonosító hiányzik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="111"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string>
-		<translation>Hivatkozás történt egy olyan elemre, amelynek az azonosítója ismeretlen. Ez azt is jelentheti, hogy az elem megváltozott vagy nem létezik.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="112"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid attribute</string>
-		<translation>Hibás attribútum</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="114"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid attribute.</string>
-		<translation>A feldolgozott attribútum ismeretlen a BlockLayout értelmező számára.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="115"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid entity</string>
-		<translation>Hibás elem</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="118"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid entity.</string>
-		<translation>A feldolgozott elem ismeretlen a BlockLayout értelmező számára.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="119"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid file</string>
-		<translation>Hibás fájl</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="122"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid file.</string>
-		<translation>A feldolgozott fájl ismeretlen a BlockLayout értelmező számára.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="123"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The file was either not found, or could not be read properly.</string>
-		<translation>A fájl nem található vagy a beolvasása nem sikerült.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="124"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid instruction</string>
-		<translation>Hibás utasítás</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="126"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid instruction.</string>
-		<translation>A feldolgozott utasítás ismeretlen a BlockLayout értelmező számára.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="127"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid special variable</string>
-		<translation>Hibás speciális változó</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="130"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered a problem with a special variable.</string>
-		<translation>A feldolgozott speciális változó hibás a BlockLayout értelmező számára.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="131"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid syntax</string>
-		<translation>Hibás szintaxis</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="134"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered a syntax error.</string>
-		<translation>A BlockLayout értelmező szintaktikai hibára futott.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="135"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid tag</string>
-		<translation>Hibás elem</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="138"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser encountered an invalid tag.</string>
-		<translation>A feldolgozott elem ismeretlen a BlockLayout értelmező számára.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="139"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The tag encountered does not conform to XML syntax.</string>
-		<translation>A feldolgozott elem nem XML megfelelő.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="140"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Locale not available</string>
-		<translation>Nyelvi változat nem érhető el</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="142"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Locale does not exist</string>
-		<translation>A nyelvi változat nem érhető el</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="144"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown locale was encountered.</string>
-		<translation>Egy ismeretlen nyelvi változat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="145"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A reference to a locale was encountered that is unknown to the system.</string>
-		<translation>A rendszer számára ismeretlen nyelvi változatra történt hivatkozás.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="146"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Missing attribute</string>
-		<translation>Hiányzó attribútum</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="148"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser could not find a tag attribute.</string>
-		<translation>A BlockLayout értelmező nem talált egy elem attribútumot.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="149"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A tag attribute required by syntax was not found.</string>
-		<translation>Egy kötelező elem attribútum hiányzik.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="150"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Missing parameter</string>
-		<translation>Hiányzó paraméter</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="152"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Blocklayout parser could not resolve a tag parameter.</string>
-		<translation>A BlockLayout értelmező nem talált egy elem paramétert</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="153"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A tag parameter could not be resolved because of bad syntax.</string>
-		<translation>Szintaktikai hiba miatt egy elem paramétere nem dolgozható fel.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="154"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module Dependency</string>
-		<translation>Modulfüggőség</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="156"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A module call failed because of an unsatisifed dependency.</string>
-		<translation>Egy modul hívása sikertelen, feloldatlan modulfüggőség miatt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="157"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The current module cannot execute because another module that must first be installed is not present.</string>
-		<translation>Az aktuális modul nem futtatható, mert szükséges egy másik modult, amely nincs telepítve.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="158"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module file does not exist</string>
-		<translation>Modulfájl nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="160"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An operation requires a module file that cannot be found.</string>
-		<translation>A művelethez olyan modulfájlra van szükség amely nem található.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="161"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>A fájl hiányzik vagy a neve megváltozott. Megjegyzés: Ez esetleg PHP programhiba miatti sikertelen értelmezés esetén is előfordulhat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="162"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module function does not exist</string>
-		<translation>Modulfunkció nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="164"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module function that cannot be found.</string>
-		<translation>Nem létező függvény meghívása történt a modulban.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="165"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Egy fájl, amelyben a függvény található lenne, valószínűleg hiányzik. Ha mégsem, akkor a hibát az okozza, hogy az aktuális függvénynek más a neve vagy nem létezik. Megjegyzés: Ez esetleg PHP programhiba miatti sikertelen értelmezés esetén is előfordulhat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="166"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module is not active</string>
-		<translation>Modul nincs bekapcsolva</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="168"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module that is not active.</string>
-		<translation>Hívás történt egy kikapcsolt modulba.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="169"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string>
-		<translation>Egy kikapcsolt vagy nem telepített modulba történt hívási kísérlet. A Modulok modulban a Telepítés vagy Bekapcsolás paranccsal aktiválható a modul.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="170"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module does not exist</string>
-		<translation>Modul nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="172"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A call has been made to a module that cannot be found</string>
-		<translation>Hívás történt egy nem létező modulba.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="173"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string>
-		<translation>Egy nem telepített vagy nem létező modulba történt hívás. A Modulok modulban az telepíthető vagy bekapcsolható a modul. Megjegyzés: Ez esetleg PHP programhiba miatti sikertelen értelmezés esetén is előfordulhat.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="174"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No Privilege</string>
-		<translation>Nincs jogosultság</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="176"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You do not have the privileges for this operation.</string>
-		<translation>A művelet végrehajtásához nincs elegendő jogosultság</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="177"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string>
-		<translation>A program olyan művelet végrehajtását próbálta meg, amelyhez az jelenleg bejelentkezett felhasználó nem férhet hozzá. A jogosultságokat az adminisztrátor határozza meg.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="178"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not implemented</string>
-		<translation>Nincs kifejlesztve</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="180"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The requested feature is not available.</string>
-		<translation>A kívánt funkció nem érhető el</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="181"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string>
-		<translation>Egy nem létező funkció elérésére történt kísérlet. A funkció vagy nem létezik, vagy nem elérhető ebben a Xaraya változatban.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="182"/>
-		</references>
-	</entry>
-	<entry>
-		<string>System error</string>
-		<translation>Rendszerhiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="184"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A system error was encountered.</string>
-		<translation>Rendszerhiba történt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="185"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Template does not exist</string>
-		<translation>Sablonfájl nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="188"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown template name was encountered.</string>
-		<translation>A megadott sablonfájl név ismeretlen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="189"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string>
-		<translation>Nem létező sablonfájl feldolgozására történt kísérlet. A sablonfájlt törölték, nem létezik vagy megváltozott a neve.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="190"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Theme does not exist</string>
-		<translation>Grafika nem létezik</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="192"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown theme name was encountered.</string>
-		<translation>Ismeretlen grafika név megadása történt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="193"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string>
-		<translation>Nem létező grafika megjelenítésére történt kísérlet. A grafikát törölték, nem létezik vagy megváltozott a neve.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="194"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to load</string>
-		<translation>Betöltés nem sikerült</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="196"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered during a load operation.</string>
-		<translation>Hiba történt egy betöltési műveletben.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="197"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The system was unable to successfully load a component, such as a module or theme.</string>
-		<translation>A megadott komponens (modul vagy grafika) betöltése sikertelen.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="198"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown Error</string>
-		<translation>Ismeretlen hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="200"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An unknown error was encountered.</string>
-		<translation>Ismeretlen hiba történt.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="201"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable is not registered</string>
-		<translation>Ismeretlen változó</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="204"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You are attempting to call a variable that the system does not recognize.</string>
-		<translation>Olyan változóra történt hivatkozás amelyet a rendszer nem ismert fel.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="205"/>
-		</references>
-	</entry>
-	<entry>
-		<string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string>
-		<translation>Hiba történt egy változóra hivatkozás közben. A változót törölték vagy megváltozott a neve.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="206"/>
-		</references>
-	</entry>
-	<entry>
-		<string>XML Parser Error</string>
-		<translation>XML értelmezési hiba</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="208"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The XML parser has encountered an error.</string>
-		<translation>Hiba történt XML értelmezése közben.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="209"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The XML parser tried to execute a line that was not well formed.</string>
-		<translation>Az XML értelmező olyan sort próbált futtatni amely szintaktikai hibát tartalmaz.</translation>
-		<references>
-			<reference file="includes/exceptions/systemexception.defaults.php" line="210"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The site is locked</string>
-		<translation>A honlap zárva</translation>
-		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No access at this time</string>
-		<translation>A hozzáférés jelenleg nem lehetséges.</translation>
-		<references>
-			<reference file="includes/exceptions/systemmessage.defaults.php" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty database_name.</string>
-		<translation>Üres adatbázisnév.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="48"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown database type: '#(1)'.</string>
-		<translation>Ismeretlen adatbázistípus: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="77"/>
-			<reference file="includes/xarTableDDL.php" line="174"/>
-			<reference file="includes/xarTableDDL.php" line="289"/>
-			<reference file="includes/xarTableDDL.php" line="350"/>
-			<reference file="includes/xarTableDDL.php" line="423"/>
-			<reference file="includes/xarTableDDL.php" line="478"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty tableName.</string>
-		<translation>Üres táblanév.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="99"/>
-			<reference file="includes/xarTableDDL.php" line="204"/>
-			<reference file="includes/xarTableDDL.php" line="310"/>
-			<reference file="includes/xarTableDDL.php" line="373"/>
-			<reference file="includes/xarTableDDL.php" line="445"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not array fields.</string>
-		<translation>Nem tömb mezők.</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="105"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (must be an array, command key must be set).</string>
-		<translation>Érvénytelen paraméterek (tömb szükséges, a „command” elem pedig kötelező).</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="210"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid index (must be an array, fields key must be an array, name key must be set).</string>
-		<translation>Érvénytelen index (tömb szükséges, a „fields” elem szintén tömb kell legyen, a „name” elem pedig kötelező).</translation>
-		<references>
-			<reference file="includes/xarTableDDL.php" line="379"/>
-			<reference file="includes/xarTableDDL.php" line="451"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (field key must be set).</string>
-		<translation>Érvénytelen paraméterek (a „field” elem megadása kötelező).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="79"/>
-			<reference file="includes/tableddl/datadict.php" line="121"/>
-			<reference file="includes/tableddl/mysql.php" line="102"/>
-			<reference file="includes/tableddl/mysql.php" line="163"/>
-			<reference file="includes/tableddl/postgres.php" line="123"/>
-			<reference file="includes/tableddl/postgres.php" line="167"/>
-			<reference file="includes/tableddl/oracle.php" line="97"/>
-			<reference file="includes/tableddl/oracle.php" line="143"/>
-			<reference file="includes/tableddl/sqlite.php" line="88"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string>
-		<translation>Érvénytelen paraméterek („type”, „size”, „default”, „null”, „unsigned”, „increment” vagy „primary_key” megadása kötelező).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="86"/>
-			<reference file="includes/tableddl/datadict.php" line="128"/>
-			<reference file="includes/tableddl/mysql.php" line="178"/>
-			<reference file="includes/tableddl/postgres.php" line="182"/>
-			<reference file="includes/tableddl/oracle.php" line="158"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid args (new_name key must be set.)</string>
-		<translation>Érvénytelen paraméterek (a „new_name” elem megadása kötelező).</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="107"/>
-			<reference file="includes/tableddl/mysql.php" line="136"/>
-			<reference file="includes/tableddl/postgres.php" line="140"/>
-			<reference file="includes/tableddl/oracle.php" line="116"/>
-			<reference file="includes/tableddl/sqlite.php" line="109"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown command: '#(1)'.</string>
-		<translation>Ismeretlen parancs („command”): „#(1)”.</translation>
-		<references>
-			<reference file="includes/tableddl/datadict.php" line="148"/>
-			<reference file="includes/tableddl/mysql.php" line="209"/>
-			<reference file="includes/tableddl/postgres.php" line="202"/>
-			<reference file="includes/tableddl/oracle.php" line="195"/>
-			<reference file="includes/tableddl/sqlite.php" line="117"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string>
-		<translation>A módosítás jelenleg nem támogatja a következőket: „type”, „size”, „default”, „unsigned”, „increment” és „primary_key”.</translation>
-		<references>
-			<reference file="includes/tableddl/mysql.php" line="170"/>
-			<reference file="includes/tableddl/postgres.php" line="174"/>
-			<reference file="includes/tableddl/oracle.php" line="150"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for function #(2)() in #(3)</string>
-		<translation>Érvénytelen „#(1)”. Függvény: #(2)(), modul: #(3)</translation>
-		<references>
-			<reference file="includes/xarDataDict.php" line="74"/>
-			<reference file="includes/xarDataDict.php" line="116"/>
-			<reference file="includes/xarDataDict.php" line="228"/>
-			<reference file="includes/xarDataDict.php" line="379"/>
-			<reference file="includes/xarDataDict.php" line="421"/>
-			<reference file="includes/xarDataDict.php" line="459"/>
-			<reference file="includes/xarDataDict.php" line="519"/>
-			<reference file="includes/xarDataDict.php" line="550"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No validation type present.</string>
-		<translation>Nincs ellenőrzési típus megadva.</translation>
-		<references>
-			<reference file="includes/xarVar.php" line="326"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The #(1) type '#(2)' could not be found.</string>
-		<translation>A „#(1)” típusú „#(2)” nem található.</translation>
-		<references>
-			<reference file="includes/xarVar.php" line="1050"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not an array: "#(2)"</string>
-		<translation>A „#(1)” változó nem egy tömb: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="19"/>
-			<reference file="includes/validations/list.php" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not an array: "#(1)"</string>
-		<translation>Nem tömb: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="21"/>
-			<reference file="includes/validations/list.php" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Array variable has less elements "#(1)" than the specified minimum "#(2)"</string>
-		<translation>A tömbben kevesebb elem (#(1)) található, mint amennyi minimálisan szükséges (#(2)).</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Array variable has more elements "#(1)" than the specified maximum "#(2)"</string>
-		<translation>A tömbben több elem (#(1)) található, mint amennyi megadható (#(2)).</translation>
-		<references>
-			<reference file="includes/validations/array.php" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a boolean: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem egy logikai típus: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/bool.php" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not a boolean: "#(1)"</string>
-		<translation>Nem logikaik típus: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/bool.php" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a checkbox: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem jelölőnégyzet: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/checkbox.php" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not a scheckbox: "#(1)"</string>
-		<translation>Nem jelölőnégyzet: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/checkbox.php" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) does not match an e-mail type: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem e-mail típusú: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/email.php" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not an e-mail type: "#(1)"</string>
-		<translation>Nem e-mail típus: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/email.php" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Input "#(1)" was not one of the possibilities for #(2): "</string>
-		<translation>Nem megengedett érték (#(2)) a mezőben: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/enum.php" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Input "#(1)" was not one of the possibilities.</string>
-		<translation>A(z) „#(1)” nem megengedett érték.</translation>
-		<references>
-			<reference file="includes/validations/enum.php" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a float type: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem törtszám: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not a float type: "#(1)"</string>
-		<translation>Nem törtszám: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Float Value "#(1)" is smaller than the specified minimum "#(2)"</string>
-		<translation>Törtszám értéke (#(1)) kisebb a megadható minimumnál: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Float Value "#(1)" is bigger than the specified maximum "#(2)"</string>
-		<translation>Törtszám értéke (#(1)) nagyobb a megadható maximumnál: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/float.php" line="49"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) contains a tag not allowed: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem megengedett kulcsszót tartalmaz: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not an allowed tag: "#(1)"</string>
-		<translation>Érvénytelen kulcsszó: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Attributes are not allowed for this tag in variable #(1): "#(2)"</string>
-		<translation>Paraméterek megadása nem engedélyezett ehhez a kulcsszóhoz a(z) „#(1)” változóban: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/html.php" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not an integer: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem egész szám: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not an integer: "#(1)"</string>
-		<translation>Nem egész érték: „#(1)”.</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Integer Value "#(1)" is smaller than the specified minimum "#(2)"</string>
-		<translation>Egész szám értéke (#(1)) kisebb a megadható minimumnál: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Integer Value "#(1)" is bigger than the specified maximum "#(2)"</string>
-		<translation>Egész szám értéke (#(1)) nagyobb a megadható maximumnál: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/int.php" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The variable is not set!</string>
-		<translation>A változónak nincs értéke!</translation>
-		<references>
-			<reference file="includes/validations/isset.php" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid e-mail #(1), the mail server doesnt recognize it.</string>
-		<translation>Hibás e-mail: „#(1)”. A levelező-kiszolgáló nem fogadta el.</translation>
-		<references>
-			<reference file="includes/validations/mxcheck.php" line="99"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to connect to the mail server #(1) for e-mail #(2).</string>
-		<translation>Sikertelen kapcsolódás a(z) „#(1)” levelező-kiszolgálóhoz a(z) „#(2)” elküldéséhez.</translation>
-		<references>
-			<reference file="includes/validations/mxcheck.php" line="107"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) should not be empty: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem lehet üres: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/notempty.php" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Should not be empty: "#(1)"</string>
-		<translation>Megadása kötelező: „#(1)”</translation>
-		<references>
-			<reference file="includes/validations/notempty.php" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There is no parameter to check against in the Regexp validation of #(1)</string>
-		<translation>Nincs paraméter a meghatározott szabványos kifejezésben a „#(1)” vizsgálatához.</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There is no parameter to check against in the Regexp validation</string>
-		<translation>Nincs paraméter a szabványos kifejezés vizsgálatához.</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1): "#(2)" did not match pattern "#(3)"</string>
-		<translation>A(z) „#(1)” változó: „#(2)” nem felel meg a „#(3)” mintának.</translation>
-		<references>
-			<reference file="includes/validations/regexp.php" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Variable #(1) is not a string: "#(2)"</string>
-		<translation>A(z) „#(1)” változó nem szöveges érték: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Not a string: "#(1)"</string>
-		<translation>Nem szöveg: „#(1)”</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Size of the string "#(1)" is smaller than the specified minimum "#(2)"</string>
-		<translation>A szöveg („#(1)”) rövidebb a meghatározott miniumnál: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Size of the string "#(1)" is bigger than the specified maximum "#(2)"</string>
-		<translation>A szöveg („#(1)”) hosszabb a meghatározott maximumnál: „#(2)”.</translation>
-		<references>
-			<reference file="includes/validations/str.php" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This call needs to be removed</string>
-		<translation>A hívás el kell távolítani</translation>
-		<references>
-			<reference file="includes/xarLegacy.php" line="1033"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The directories under #(1) must be writeable by PHP.</string>
-		<translation>A(z) „#(1)” alatti könyvtáraknak a PHP által írhatónak kell lennie.</translation>
-		<references>
-			<reference file="includes/xarMLS.php" line="871"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Context type: #(1) and file name: #(2)</string>
-		<translation>Környezet típus: „#(1)” és fájlnév: „#(2)”</translation>
-		<references>
-			<reference file="includes/xarMLSPHPBackend.php" line="97"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module or Theme Name #(1) is empty.</string>
-		<translation>Modul vagy Grafika neve üres. #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="450"/>
-			<reference file="includes/xarMod.php" line="1793"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty RegId (#(1)) or RegId is equal to 0.</string>
-		<translation>Üres vagy nulla RegID érték (#(1)).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="482"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unknown</string>
-		<translation>Ismeretlen</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="582"/>
-			<reference file="includes/xarMod.php" line="584"/>
-			<reference file="includes/xarMod.php" line="585"/>
-			<reference file="includes/xarMod.php" line="586"/>
-			<reference file="includes/xarMod.php" line="587"/>
-			<reference file="includes/xarMod.php" line="588"/>
-			<reference file="includes/xarMod.php" line="589"/>
-			<reference file="includes/xarMod.php" line="590"/>
-			<reference file="includes/xarMod.php" line="594"/>
-			<reference file="includes/xarMod.php" line="595"/>
-			<reference file="includes/xarMod.php" line="596"/>
-			<reference file="includes/xarMod.php" line="597"/>
-			<reference file="includes/xarMod.php" line="598"/>
-			<reference file="includes/xarMod.php" line="599"/>
-			<reference file="includes/xarMod.php" line="600"/>
-			<reference file="includes/xarMod.php" line="601"/>
-			<reference file="includes/xarMod.php" line="602"/>
-			<reference file="includes/xarMod.php" line="603"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This module is not installed properly. Not all info could be retrieved</string>
-		<translation>Ez a modul nincs helyesen telepítve. Nem sikerült az összes információ betöltése.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="583"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to find Base Info for Module: #(1)</string>
-		<translation>Alapvető információ hiányzik a „#(1)” modulhoz.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="660"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module Name #(1) is empty.</string>
-		<translation>Üres modul név #(1).</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="773"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Could not load function file: [#(1)].</string>
-		<translation>A függvény fájl betöltése nem sikerült: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="859"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Error Caught:</string>
-		<translation>Hiba:</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="860"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module function #(1) does not exist.</string>
-		<translation>Modul függvény: „#(1)” nem létezik.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="880"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string>
-		<translation>A függvény fájl betöltése nem sikerült: „#(1)”.\n\nHiba:\n#(2)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="965"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module API function #(1) does not exist or could not be loaded.</string>
-		<translation>Modul API függvény: #(1) nem létezik, vagy a betöltés sikertelen.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="985"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Module or Theme Name (#(1)).</string>
-		<translation>Üres modul vagy grafika név. #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1340"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Directory information #(1) is empty.</string>
-		<translation>Üres könyvtárnév. #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1667"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Cannot open file #(1).</string>
-		<translation>Fájl megnyitása sikertelen: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1688"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong type, it must be 'module' or 'theme': #(1).</string>
-		<translation>Hibás típus. Csak „module” és „theme” lehetséges: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1799"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty theme or module name (#(1)).</string>
-		<translation>Üres modul vagy grafika név. #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1902"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty Theme or Module variable name (#(1)).</string>
-		<translation>Üres Grafika vagy Modul név változó. #(1)</translation>
-		<references>
-			<reference file="includes/xarMod.php" line="1993"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string>
-		<translation>Helytelen attribútum név („#(1)”): Az attribútum név angol betűkből, számokból, aláhúzás és mínusz karakterekből állhat és betűvel kell kezdődnie.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1535"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string>
-		<translation>Helytelen attribútum kapcsolók („#(1)”): a kapcsolók csak egész típusúak lehetnek.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1542"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag definition: '#(1)' is an invalid tag name.</string>
-		<translation>Helytelen kulcsszó definíció. Hibás kulcsszó név: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1621"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag definition: '#(1)' is an invalid handler.</string>
-		<translation>Helytelen kulcsszó definíció. Hibás feldolgozó: „#(1)”.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1630"/>
-			<reference file="includes/xarTemplate.php" line="1728"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string>
-		<translation>Érvénytelen kulcsszó regisztrálási kapcsoló („#(1)”): a kapcsolók csak egész típusúak lehetnek.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1636"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;xar:#(1)&gt; tag is already defined.</string>
-		<translation>A „&lt;xar:#(1)&gt;” tag már korábban definiált.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1766"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;xar:#(1)&gt; tag is not defined.</string>
-		<translation>A „&lt;xar:#(1)&gt;” nincs definiálva.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1846"/>
-		</references>
-	</entry>
-	<entry>
-		<string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string>
-		<translation>A „#(1)” attribútum a „&lt;xar:#(2)&gt;” elemben nem megfelelő típusú. Lásd a kulcsszó dokumentációját.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1874"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string>
-		<translation>A „#(1)” kötelező attribútum hiányzik a „&lt;xar:#(2)&gt;” elemből. Lásd a kulcsszó dokumentációját.</translation>
-		<references>
-			<reference file="includes/xarTemplate.php" line="1880"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Empty themeName (#(1)).</string>
-		<translation>Üres „themeName” változó. #(1)</translation>
-		<references>
-			<reference file="includes/xarTheme.php" line="32"/>
-			<reference file="includes/xarTheme.php" line="53"/>
-			<reference file="includes/xarTheme.php" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) css stylesheet file cannot be found at this location:</string>
-		<translation>#(1) css stíluslap fájl nem található a következő helyen:</translation>
-		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="185"/>
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string>
-		<translation>#(1) (Nem származtatható érvényes hatókör érték ebből a xar:style kulcsszóból.)</translation>
-		<references>
-			<reference file="modules/themes/xarclass/xarcss.class.php" line="224"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Anonymous</string>
-		<translation>Névtelen</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="395"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No Information</string>
-		<translation>Nincs információ</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="417"/>
-		</references>
-	</entry>
-	<entry>
-		<string>User identified by uid #(1) does not exist.</string>
-		<translation>A „#(1)” uid azonosítójú felhasználó nem létezik.</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="426"/>
-			<reference file="includes/xarUser.php" line="458"/>
-			<reference file="includes/xarUser.php" line="600"/>
-		</references>
-	</entry>
-	<entry>
-		<string>User variable #(1) was not correctly registered</string>
-		<translation>A „#(1)” felhasználói változó nincs helyesen regisztrálva.</translation>
-		<references>
-			<reference file="includes/xarUser.php" line="444"/>
-			<reference file="includes/xarUser.php" line="589"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string>
-		<translation>Biztonsági tartomány „#(1)” - Komponens „#(2)” - Példány „#(3)” - Szint „#(4)” : Ezt a hívást a Xaraya biztonsági rendszeréhez kell illeszteni.</translation>
-		<references>
-			<reference file="includes/xarSecurity.php" line="603"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Users in this Group</string>
-		<translation>A csoport felhasználóinak megjelenítése</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="269"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this Group</string>
-		<translation>Csoport törlése</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="282"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Email the Users in this Group</string>
-		<translation>E-mail küldés a csoportban lévő felhasználóknak</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="295"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Privileges assigned to this Group</string>
-		<translation>A csoporthoz rendelt jogosultságok megjelenítése</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="308"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Test this Groups's Privileges</string>
-		<translation>A csoport jogosultságainak tesztelése</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="321"/>
-		</references>
-	</entry>
-	<entry>
-		<string>subgroup</string>
-		<translation>alcsoport</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="335"/>
-		</references>
-	</entry>
-	<entry>
-		<string>subgroups</string>
-		<translation>alcsoport</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="335"/>
-		</references>
-	</entry>
-	<entry>
-		<string>user</string>
-		<translation>felhasználó</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="336"/>
-		</references>
-	</entry>
-	<entry>
-		<string>users</string>
-		<translation>felhasználó</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="336"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify this Group</string>
-		<translation>Csoport szerkesztése</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="339"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a user name and a valid email address.</string>
-		<translation>A név és egy valós e-mail cím megadása kötelező.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="337"/>
-			<reference file="modules/roles/xarroles.php" line="537"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This entry already exists.</string>
-		<translation>Ez az elem már létezik.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="351"/>
-			<reference file="modules/roles/xarroles.php" line="406"/>
-			<reference file="modules/roles/xarroles.php" line="556"/>
-			<reference file="modules/privileges/xarprivileges.php" line="2029"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You must enter a name.</string>
-		<translation>A név megadása kötelező.</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="527"/>
-			<reference file="modules/privileges/xarprivileges.php" line="2009"/>
-		</references>
-	</entry>
-	<entry>
-		<string>deleted</string>
-		<translation>törölt</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="753"/>
-			<reference file="modules/roles/xarroles.php" line="791"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Parameters to winnow need to be arrays</string>
-		<translation>A „winnow” paraméterének tömbnek kell lennie.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="266"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find mask #(1) registered for an unspecified component in module #(2)</string>
-		<translation>A regisztrált maszk („#(1)”) egy meghatározatlan komponenshez nem található. Modul: „#(2)”.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="386"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find mask #(1) registered for component #(2) in module #(3)</string>
-		<translation>A regisztrált maszk („#(1)”) nem található. Komponens: „#(2)”, modul: „#(3)”.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="389"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No privilege for #(1)</string>
-		<translation>Nincs jogosultság a „#(1)” maszkhoz.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="485"/>
-		</references>
-	</entry>
-	<entry>
-		<string>A query is missing in component #(1) of module #(2)</string>
-		<translation>Egy lekérdezés hiányzik. Komponens: „#(1)”, modul: „#(2)”.</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1254"/>
-		</references>
-	</entry>
-	<entry>
-		<string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string>
-		<translation>„#(1)” és „#(2)” nem rendelkezik közös példánnyal. „#(3) | #(4) | #(5)”</translation>
-		<references>
-			<reference file="modules/privileges/xarprivileges.php" line="1812"/>
-		</references>
-	</entry>
+<entry><string>An error occurred while processing your request. The details are:</string><translation>Hiba történt a kérés feldolgozása közben. Részletek:</translation></entry>
+<entry><string>Last updated on #(1)</string><translation>Legutóbbi frissítés: #(1)</translation></entry>
+<entry><string>Database error while executing: '#(1)'; error description is: '#(2)'.</string><translation>Adatbázis hiba a „#(1)” futtatása közben. Hibaüzenet: „#(2)”.</translation></entry>
+<entry><string>Default message</string><translation>Alapértelmezett üzenet</translation></entry>
+<entry><string>Block type already exists</string><translation>Ez a blokktípus már létezik</translation></entry>
+<entry><string>An attempt was made to register a block type in a module that already exists.</string><translation>Már regisztrált blokk újraregisztrálásnak kísérlete egy modulban.</translation></entry>
+<entry><string>Bad Data</string><translation>Hibás adat</translation></entry>
+<entry><string>The data provided was bad.</string><translation>A megadott adatok hibásak.</translation></entry>
+<entry><string>The value provided during this operation could not be validated, or was not accepted for other reasons.</string><translation>A művelethez megadott adatok hibásak vagy ellenőrzésük sikertelen.</translation></entry>
+<entry><string>File does not exist</string><translation>A fájl nem létezik</translation></entry>
+<entry><string>An operation requires a file that cannot be found.</string><translation>A művelethez olyan fájlra van szükség amely nem található.</translation></entry>
+<entry><string>The file may be missing, or its name may have changed.</string><translation>A fájl nem található vagy megváltozott a neve.</translation></entry>
+<entry><string>Operation Halted</string><translation>Művelet leállítva</translation></entry>
+<entry><string>This operation cannot be completed under the present circumstances.</string><translation>A művelet nem fejezhető be a jelenlegi körülmények között.</translation></entry>
+<entry><string>This operation was stopped because, although it is not forbidden, it cannot be completed in this context.</string><translation>A művelet leállításra került mert, ugyan nem tiltott, de nem fejezhető be a jelenlegi környezetben.</translation></entry>
+<entry><string>Duplicate Data</string><translation>Ismétlődő adat</translation></entry>
+<entry><string>The data provided was a duplicate.</string><translation>A megadott adat nem szerepelhet kétszer.</translation></entry>
+<entry><string>A unique value was expected during this operation, but the value provided is a duplicate of an existing value.</string><translation>A művelethez egyedi adatra van szükség, de a megadott érték már foglalt.</translation></entry>
+<entry><string>Forbidden Operation</string><translation>Tiltott művelet</translation></entry>
+<entry><string>The operation you are attempting is not allowed in the current circumstances.</string><translation>A megkísérelt művelet végrehajtása, a jelenlegi beállítások mellett, nem engedélyezett.</translation></entry>
+<entry><string>You may have clicked on the browser's back or refresh button and reattempted an operation that may not be repeated, or your browser may not have cookies enabled.</string><translation>A problémát okozhatja a böngésző vissza gombjának megnyomása, a frissítés gomb megnyomása egy nem ismételhető műveleten, vagy a böngészőkben letiltott süti-kezelés.</translation></entry>
+<entry><string>Login error</string><translation>Bejelentkezési hiba</translation></entry>
+<entry><string>A problem was encountered during the login process.</string><translation>Hiba történt a belépés közben.</translation></entry>
+<entry><string>No further information is available.</string><translation>Nincs további információ.</translation></entry>
+<entry><string>Missing Data</string><translation>Hiányzó adat</translation></entry>
+<entry><string>The data is incomplete.</string><translation>A megadott adatok nem teljesek.</translation></entry>
+<entry><string>A value was expected during this operation, but none was found.</string><translation>A művelethez egy kötelező érték megadása elmaradt.</translation></entry>
+<entry><string>Multiple instances</string><translation>Többszörös példányok</translation></entry>
+<entry><string>A module contains more than one instance of the same block type.</string><translation>Egy modul ugyanabból a blokk típusból több mint egy példányt tartalmaz.</translation></entry>
+<entry><string>Privileges Error</string><translation>Jogosultsági hiba</translation></entry>
+<entry><string>You do not have privileges for this operation.</string><translation>Nincs elegendő jogosultság a művelet elvégzéséhez.</translation></entry>
+<entry><string>The operation you are attempting requires privileges that you do not have. Contact the systems/site administrator to request access.</string><translation>A kívánt művelet elvégzéséhez nincsen elegendő jogosultság. Az adminisztrátor határozhat meg további elérést.</translation></entry>
+<entry><string>Not logged in</string><translation>Nincs bejelentkezve</translation></entry>
+<entry><string>You are attempting an operation that is not allowed for the Anonymous user.</string><translation>A program olyan művelet végrehajtását próbálta meg, amelyhez bejelentkezés nélkül nincs hozzáférés.</translation></entry>
+<entry><string>An operation was encountered that requires the user to be logged in. If you are currently logged in please report this as a bug.</string><translation>A művelet végrehajtásához be kell jelentkezni. Amennyiben ez már megtörtént, a program hibára futott.</translation></entry>
+<entry><string>Item not found</string><translation>Elem nem található</translation></entry>
+<entry><string>An unexpected empty result occurred.</string><translation>Váratlan üres visszatérési érték.</translation></entry>
+<entry><string>An operation that should have returned a result instead came up empty.</string><translation>Egy művelet amelynek valamilyen eredményt kellett volna szolgáltatnia, üres értékkel tért vissza.</translation></entry>
+<entry><string>Wrong version</string><translation>Hibás verzió</translation></entry>
+<entry><string>The application version supplied is wrong.</string><translation>A megadott programverzió hibás.</translation></entry>
+<entry><string>No further information available</string><translation>Nincs további információ.</translation></entry>
+<entry><string>Assertion in code failed</string><translation>Kifejezés kiértékelési hiba</translation></entry>
+<entry><string>An assertion evaluated to false, which indicates a coding error.</string><translation>Egy kiértékelés hamis eredményt adott, ami programozási hibát jelez.</translation></entry>
+<entry><string>While executing, an asserted condition failed. This means that a definite error in some code exists.</string><translation>Egy feltételes kiértékelés futtatása hibát okozott. Ez egy a programban lévő hibát jelent.</translation></entry>
+<entry><string>Bad Parameter</string><translation>Hibás paraméter</translation></entry>
+<entry><string>A parameter encountered was bad.</string><translation>Egy megadott paraméter hibás</translation></entry>
+<entry><string>A parameter provided during this operation could not be validated, or was not accepted for other reasons.</string><translation>A művelethez megadott egyik paraméter hibás vagy ellenőrzése sikertelen.</translation></entry>
+<entry><string>Compiler error</string><translation>Fordítási hiba</translation></entry>
+<entry><string>The Blocklayout compiler encountered an error.</string><translation>A Blocklayout fordító hibára futott.</translation></entry>
+<entry><string>The Blocklayout compiler encountered an error it could not recover from. No specific information is available.</string><translation>A Blocklayout fordító egy helyrehozhatatlan hibára futott. Nincs további információ.</translation></entry>
+<entry><string>Xaraya is not properly configured</string><translation>A Xaraya nincs megfelelően beállítva</translation></entry>
+<entry><string>The combination of configuration settings has led to a conflict</string><translation>A beállítások kombinációja konfliktushoz vezetett.</translation></entry>
+<entry><string>Xaraya is configured with some settings which lead to a conflicting situation. Some configuration settings cannot be used simultaneously</string><translation>A Xaraya bizonyos beállításai konfliktushoz vezettek. Bizonyos beállítások nem használhatóak egyszerre.</translation></entry>
+<entry><string>Context does not exist</string><translation>Környezet nem létezik</translation></entry>
+<entry><string>A context element was not found.</string><translation>Egy környezeti elem nem található.</translation></entry>
+<entry><string>This error is a catchall to describe situations where a context element (block, template, include) was expected but not found.</string><translation>Általános hibaüzenet arra az esetre ha egy környezeti elem (blokk, sablon, include fájl) nem található.</translation></entry>
+<entry><string>Database Error</string><translation>Adatbázis hiba</translation></entry>
+<entry><string>An error was encountered while attempting a database operation.</string><translation>Hiba történt egy adatbázis művelet végrehajtása közben.</translation></entry>
+<entry><string>Database Query Error</string><translation>Adatbázis lekérdezési hiba</translation></entry>
+<entry><string>An error was encountered while trying to execute a database query.</string><translation>Hiba történt egy adatbázis lekérdezés futtatása közben.</translation></entry>
+<entry><string>A database query could not be executed, either because the query could not be understood or because it returned unexpected results.</string><translation>Egy adatbázis lekérdezés futtatása nem sikerült, mert a lekérdezés feldolgozhatatlan vagy váratlan hibát eredményezett.</translation></entry>
+<entry><string>Deprecated API</string><translation>Régi API</translation></entry>
+<entry><string>A function call encountered belongs to a deprecated API.</string><translation>Régi API-hoz tartozó függvényhívás történt.</translation></entry>
+<entry><string>A function call encountered belongs to an old API and is therefore no longer supported.</string><translation>A rendszer egy olyan függvényt hívott meg, amely egy régebbi API része volt, de már nem támogatott.</translation></entry>
+<entry><string>Deprecated Blocklayout Attribute</string><translation>Elavult BlockLayout attribútum</translation></entry>
+<entry><string>A tag in a template contains a deprecated attribute.</string><translation>Az egyik BlockLayout elem az egyik sablonfájlban elavult attribútumot tartalmaz.</translation></entry>
+<entry><string>A tag in a template contains a deprecated attribute and needs to be replaced by a new one, or be left out, see BL documentation for the right syntax.</string><translation>Az egyik BlockLayout elem az egyik sablonfájlban elavult attribútumot tartalmaz amelyet az új változatára cserélni vagy törölni kell, a helyes formátum a BlockLayout dokumentációban található.</translation></entry>
+<entry><string>PHP: Fatal Error</string><translation>PHP: Végzetes hiba</translation></entry>
+<entry><string>A system error was received from the PHP interpreter.</string><translation>A PHP értelmező rendszerhibát jelzett.</translation></entry>
+<entry><string>There is an error in the PHP code that is being processed.</string><translation>Hiba van a feldolgozott PHP programrészletben.</translation></entry>
+<entry><string>PHP: Warning</string><translation>PHP: Figyelmeztetés</translation></entry>
+<entry><string>PHP: Parse Error</string><translation>PHP: Értelmezési hiba</translation></entry>
+<entry><string>PHP: Error Notice</string><translation>PHP: Hibajelzés</translation></entry>
+<entry><string>PHP: Core Error</string><translation>PHP: Rendszerhiba</translation></entry>
+<entry><string>PHP: Core Warning</string><translation>PHP: Rendszerfigyelmeztetés</translation></entry>
+<entry><string>PHP: Compile Error</string><translation>PHP: Fordítási hiba</translation></entry>
+<entry><string>PHP: Compile Warning</string><translation>PHP: Fordítási figyelmeztetés</translation></entry>
+<entry><string>PHP: User Error</string><translation>PHP: Felhasználói hiba</translation></entry>
+<entry><string>PHP: User Warning</string><translation>PHP: Felhasználói figyelmeztetés</translation></entry>
+<entry><string>User Notice</string><translation>Felhasználói jelzés</translation></entry>
+<entry><string>Empty Parameter</string><translation>Üres paraméter</translation></entry>
+<entry><string>A parameter value was not provided.</string><translation>Egy paraméter értéke hiányzik.</translation></entry>
+<entry><string>A parameter was expected during this operation, but none was found.</string><translation>A megadott művelethez egy olyan paraméter szükséges, amely nincs megadva.</translation></entry>
+<entry><string>Event is not registered</string><translation>Esemény nincs regisztrálva</translation></entry>
+<entry><string>An unknown event was encountered.</string><translation>Egy ismeretlen esemény kiváltása történt.</translation></entry>
+<entry><string>A reference to an event was encountered that is unknown to the system.</string><translation>Olyan hivatkozás történt egy eseményre, amely ismeretlen a rendszerben.</translation></entry>
+<entry><string>Unknown system error</string><translation>Ismeretlen rendszerhiba</translation></entry>
+<entry><string>An unknown system error was encountered.</string><translation>Ismeretlen rendszerhiba történt.</translation></entry>
+<entry><string>The error system has encountered an error it cannot identify. Please help us correct this by filing a bug at &lt;a href="http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core"&gt;bugs.xaraya.com&lt;/a&gt;.</string><translation>A rendszer egy ismeretlen hibára futott. A fejlesztést és a hiba kijavítását segíti az ilyen problémák bejelentése a &lt;a href="http://bugs.xaraya.com/enter_bug.cgi?product=App%20-%20Core"&gt;bugs.xaraya.com&lt;/a&gt; címen, előre is köszönjük!</translation></entry>
+<entry><string>Function failed</string><translation>Függvényhívási hiba</translation></entry>
+<entry><string>A call to a function returned a bad result.</string><translation>Egy függvény hibával tért vissza.</translation></entry>
+<entry><string>The function executed correctly, but the result was a failure.</string><translation>A függvényhívás megtörtént, de a függvény hibával tért vissza.</translation></entry>
+<entry><string>Unknown ID</string><translation>Ismeretlen azonosító</translation></entry>
+<entry><string>An expected ID was not found.</string><translation>Egy várt azonosító hiányzik</translation></entry>
+<entry><string>An item was requested by an ID that is not recognized. This could mean the item has been moved, changed, or does not exist.</string><translation>Hivatkozás történt egy olyan elemre, amelynek az azonosítója ismeretlen. Ez azt is jelentheti, hogy az elem megváltozott vagy nem létezik.</translation></entry>
+<entry><string>Invalid attribute</string><translation>Hibás attribútum</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid attribute.</string><translation>A feldolgozott attribútum ismeretlen a BlockLayout értelmező számára.</translation></entry>
+<entry><string>Invalid entity</string><translation>Hibás elem</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid entity.</string><translation>A feldolgozott elem ismeretlen a BlockLayout értelmező számára.</translation></entry>
+<entry><string>Invalid file</string><translation>Hibás fájl</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid file.</string><translation>A feldolgozott fájl ismeretlen a BlockLayout értelmező számára.</translation></entry>
+<entry><string>The file was either not found, or could not be read properly.</string><translation>A fájl nem található vagy a beolvasása nem sikerült.</translation></entry>
+<entry><string>Invalid instruction</string><translation>Hibás utasítás</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid instruction.</string><translation>A feldolgozott utasítás ismeretlen a BlockLayout értelmező számára.</translation></entry>
+<entry><string>Invalid special variable</string><translation>Hibás speciális változó</translation></entry>
+<entry><string>The Blocklayout parser encountered a problem with a special variable.</string><translation>A feldolgozott speciális változó hibás a BlockLayout értelmező számára.</translation></entry>
+<entry><string>Invalid syntax</string><translation>Hibás szintaxis</translation></entry>
+<entry><string>The Blocklayout parser encountered a syntax error.</string><translation>A BlockLayout értelmező szintaktikai hibára futott.</translation></entry>
+<entry><string>Invalid tag</string><translation>Hibás elem</translation></entry>
+<entry><string>The Blocklayout parser encountered an invalid tag.</string><translation>A feldolgozott elem ismeretlen a BlockLayout értelmező számára.</translation></entry>
+<entry><string>The tag encountered does not conform to XML syntax.</string><translation>A feldolgozott elem nem XML megfelelő.</translation></entry>
+<entry><string>Locale not available</string><translation>Nyelvi változat nem érhető el</translation></entry>
+<entry><string>Locale does not exist</string><translation>A nyelvi változat nem érhető el</translation></entry>
+<entry><string>An unknown locale was encountered.</string><translation>Egy ismeretlen nyelvi változat.</translation></entry>
+<entry><string>A reference to a locale was encountered that is unknown to the system.</string><translation>A rendszer számára ismeretlen nyelvi változatra történt hivatkozás.</translation></entry>
+<entry><string>Missing attribute</string><translation>Hiányzó attribútum</translation></entry>
+<entry><string>The Blocklayout parser could not find a tag attribute.</string><translation>A BlockLayout értelmező nem talált egy elem attribútumot.</translation></entry>
+<entry><string>A tag attribute required by syntax was not found.</string><translation>Egy kötelező elem attribútum hiányzik.</translation></entry>
+<entry><string>Missing parameter</string><translation>Hiányzó paraméter</translation></entry>
+<entry><string>The Blocklayout parser could not resolve a tag parameter.</string><translation>A BlockLayout értelmező nem talált egy elem paramétert</translation></entry>
+<entry><string>A tag parameter could not be resolved because of bad syntax.</string><translation>Szintaktikai hiba miatt egy elem paramétere nem dolgozható fel.</translation></entry>
+<entry><string>Module Dependency</string><translation>Modulfüggőség</translation></entry>
+<entry><string>A module call failed because of an unsatisifed dependency.</string><translation>Egy modul hívása sikertelen, feloldatlan modulfüggőség miatt.</translation></entry>
+<entry><string>The current module cannot execute because another module that must first be installed is not present.</string><translation>Az aktuális modul nem futtatható, mert szükséges egy másik modult, amely nincs telepítve.</translation></entry>
+<entry><string>Module file does not exist</string><translation>Modulfájl nem létezik</translation></entry>
+<entry><string>An operation requires a module file that cannot be found.</string><translation>A művelethez olyan modulfájlra van szükség amely nem található.</translation></entry>
+<entry><string>The file may be missing, or its name may have changed. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>A fájl hiányzik vagy a neve megváltozott. Megjegyzés: Ez esetleg PHP programhiba miatti sikertelen értelmezés esetén is előfordulhat.</translation></entry>
+<entry><string>Module function does not exist</string><translation>Modulfunkció nem létezik</translation></entry>
+<entry><string>A call has been made to a module function that cannot be found.</string><translation>Nem létező függvény meghívása történt a modulban.</translation></entry>
+<entry><string>The file in which the function was expected may be missing. If not, then the error may have occurred because the actual function has a different name, or does not exist. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Egy fájl, amelyben a függvény található lenne, valószínűleg hiányzik. Ha mégsem, akkor a hibát az okozza, hogy az aktuális függvénynek más a neve vagy nem létezik. Megjegyzés: Ez esetleg PHP programhiba miatti sikertelen értelmezés esetén is előfordulhat.</translation></entry>
+<entry><string>Module is not active</string><translation>Modul nincs bekapcsolva</translation></entry>
+<entry><string>A call has been made to a module that is not active.</string><translation>Hívás történt egy kikapcsolt modulba.</translation></entry>
+<entry><string>A module was called that has not yet been activated/installed. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules.</string><translation>Egy kikapcsolt vagy nem telepített modulba történt hívási kísérlet. A Modulok modulban a Telepítés vagy Bekapcsolás paranccsal aktiválható a modul.</translation></entry>
+<entry><string>Module does not exist</string><translation>Modul nem létezik</translation></entry>
+<entry><string>A call has been made to a module that cannot be found</string><translation>Hívás történt egy nem létező modulba.</translation></entry>
+<entry><string>A module was called that has not yet been installed or is not present. Use the activate link in the modules module (Modules-&gt;ViewAll) to install modules. Note: this error sometimes also occurs when a file cannot be parsed because of PHP errors.</string><translation>Egy nem telepített vagy nem létező modulba történt hívás. A Modulok modulban az telepíthető vagy bekapcsolható a modul. Megjegyzés: Ez esetleg PHP programhiba miatti sikertelen értelmezés esetén is előfordulhat.</translation></entry>
+<entry><string>No Privilege</string><translation>Nincs jogosultság</translation></entry>
+<entry><string>You do not have the privileges for this operation.</string><translation>A művelet végrehajtásához nincs elegendő jogosultság</translation></entry>
+<entry><string>An operation was attempted for which your user has not been assigned privileges. Privileges must be assigned by the system administrator(s).</string><translation>A program olyan művelet végrehajtását próbálta meg, amelyhez az jelenleg bejelentkezett felhasználó nem férhet hozzá. A jogosultságokat az adminisztrátor határozza meg.</translation></entry>
+<entry><string>Not implemented</string><translation>Nincs kifejlesztve</translation></entry>
+<entry><string>The requested feature is not available.</string><translation>A kívánt funkció nem érhető el</translation></entry>
+<entry><string>A request was made to access a feature that is not available in this installation. The feature is either missing or unavailable in the current version of Xaraya.</string><translation>Egy nem létező funkció elérésére történt kísérlet. A funkció vagy nem létezik, vagy nem elérhető ebben a Xaraya változatban.</translation></entry>
+<entry><string>System error</string><translation>Rendszerhiba</translation></entry>
+<entry><string>A system error was encountered.</string><translation>Rendszerhiba történt.</translation></entry>
+<entry><string>Template does not exist</string><translation>Sablonfájl nem létezik</translation></entry>
+<entry><string>An unknown template name was encountered.</string><translation>A megadott sablonfájl név ismeretlen.</translation></entry>
+<entry><string>An attempt was made to render a template that was not found. The template may have been removed or does not exist, or its name may have changed.</string><translation>Nem létező sablonfájl feldolgozására történt kísérlet. A sablonfájlt törölték, nem létezik vagy megváltozott a neve.</translation></entry>
+<entry><string>Theme does not exist</string><translation>Grafika nem létezik</translation></entry>
+<entry><string>An unknown theme name was encountered.</string><translation>Ismeretlen grafika név megadása történt.</translation></entry>
+<entry><string>An attempt was made to display a theme that was not found. The theme may have been removed or does not exist, or its name may have changed.</string><translation>Nem létező grafika megjelenítésére történt kísérlet. A grafikát törölték, nem létezik vagy megváltozott a neve.</translation></entry>
+<entry><string>Unable to load</string><translation>Betöltés nem sikerült</translation></entry>
+<entry><string>An error was encountered during a load operation.</string><translation>Hiba történt egy betöltési műveletben.</translation></entry>
+<entry><string>The system was unable to successfully load a component, such as a module or theme.</string><translation>A megadott komponens (modul vagy grafika) betöltése sikertelen.</translation></entry>
+<entry><string>Unknown Error</string><translation>Ismeretlen hiba</translation></entry>
+<entry><string>An unknown error was encountered.</string><translation>Ismeretlen hiba történt.</translation></entry>
+<entry><string>Variable is not registered</string><translation>Ismeretlen változó</translation></entry>
+<entry><string>You are attempting to call a variable that the system does not recognize.</string><translation>Olyan változóra történt hivatkozás amelyet a rendszer nem ismert fel.</translation></entry>
+<entry><string>An error was encountered during a call to a variable. The variable may have been removed, or its name changed.</string><translation>Hiba történt egy változóra hivatkozás közben. A változót törölték vagy megváltozott a neve.</translation></entry>
+<entry><string>XML Parser Error</string><translation>XML értelmezési hiba</translation></entry>
+<entry><string>The XML parser has encountered an error.</string><translation>Hiba történt XML értelmezése közben.</translation></entry>
+<entry><string>The XML parser tried to execute a line that was not well formed.</string><translation>Az XML értelmező olyan sort próbált futtatni amely szintaktikai hibát tartalmaz.</translation></entry>
+<entry><string>The site is locked</string><translation>A honlap zárva</translation></entry>
+<entry><string>No access at this time</string><translation>A hozzáférés jelenleg nem lehetséges.</translation></entry>
+<entry><string>Empty database_name.</string><translation>Üres adatbázisnév.</translation></entry>
+<entry><string>Unknown database type: '#(1)'.</string><translation>Ismeretlen adatbázistípus: „#(1)”.</translation></entry>
+<entry><string>Empty tableName.</string><translation>Üres táblanév.</translation></entry>
+<entry><string>Not array fields.</string><translation>Nem tömb mezők.</translation></entry>
+<entry><string>Invalid args (must be an array, command key must be set).</string><translation>Érvénytelen paraméterek (tömb szükséges, a „command” elem pedig kötelező).</translation></entry>
+<entry><string>Invalid index (must be an array, fields key must be an array, name key must be set).</string><translation>Érvénytelen index (tömb szükséges, a „fields” elem szintén tömb kell legyen, a „name” elem pedig kötelező).</translation></entry>
+<entry><string>Invalid args (field key must be set).</string><translation>Érvénytelen paraméterek (a „field” elem megadása kötelező).</translation></entry>
+<entry><string>Invalid args (type,size,default,null, unsigned, increment, or primary_key must be set)</string><translation>Érvénytelen paraméterek („type”, „size”, „default”, „null”, „unsigned”, „increment” vagy „primary_key” megadása kötelező).</translation></entry>
+<entry><string>Invalid args (new_name key must be set.)</string><translation>Érvénytelen paraméterek (a „new_name” elem megadása kötelező).</translation></entry>
+<entry><string>Unknown command: '#(1)'.</string><translation>Ismeretlen parancs („command”): „#(1)”.</translation></entry>
+<entry><string>Modify does not currently support: type, size, default, unsigned, increment, or primary_key)</string><translation>A módosítás jelenleg nem támogatja a következőket: „type”, „size”, „default”, „unsigned”, „increment” és „primary_key”.</translation></entry>
+<entry><string>Invalid #(1) for function #(2)() in #(3)</string><translation>Érvénytelen „#(1)”. Függvény: #(2)(), modul: #(3)</translation></entry>
+<entry><string>No validation type present.</string><translation>Nincs ellenőrzési típus megadva.</translation></entry>
+<entry><string>The #(1) type '#(2)' could not be found.</string><translation>A „#(1)” típusú „#(2)” nem található.</translation></entry>
+<entry><string>Variable #(1) is not an array: "#(2)"</string><translation>A „#(1)” változó nem egy tömb: „#(2)”.</translation></entry>
+<entry><string>Not an array: "#(1)"</string><translation>Nem tömb: „#(1)”.</translation></entry>
+<entry><string>Array variable has less elements "#(1)" than the specified minimum "#(2)"</string><translation>A tömbben kevesebb elem (#(1)) található, mint amennyi minimálisan szükséges (#(2)).</translation></entry>
+<entry><string>Array variable has more elements "#(1)" than the specified maximum "#(2)"</string><translation>A tömbben több elem (#(1)) található, mint amennyi megadható (#(2)).</translation></entry>
+<entry><string>Variable #(1) is not a boolean: "#(2)"</string><translation>A(z) „#(1)” változó nem egy logikai típus: „#(2)”.</translation></entry>
+<entry><string>Not a boolean: "#(1)"</string><translation>Nem logikaik típus: „#(1)”.</translation></entry>
+<entry><string>Variable #(1) is not a checkbox: "#(2)"</string><translation>A(z) „#(1)” változó nem jelölőnégyzet: „#(2)”.</translation></entry>
+<entry><string>Not a scheckbox: "#(1)"</string><translation>Nem jelölőnégyzet: „#(1)”.</translation></entry>
+<entry><string>Variable #(1) does not match an e-mail type: "#(2)"</string><translation>A(z) „#(1)” változó nem e-mail típusú: „#(2)”.</translation></entry>
+<entry><string>Not an e-mail type: "#(1)"</string><translation>Nem e-mail típus: „#(1)”.</translation></entry>
+<entry><string>Input "#(1)" was not one of the possibilities for #(2): "</string><translation>Nem megengedett érték (#(2)) a mezőben: „#(1)”.</translation></entry>
+<entry><string>Input "#(1)" was not one of the possibilities.</string><translation>A(z) „#(1)” nem megengedett érték.</translation></entry>
+<entry><string>Variable #(1) is not a float type: "#(2)"</string><translation>A(z) „#(1)” változó nem törtszám: „#(2)”.</translation></entry>
+<entry><string>Not a float type: "#(1)"</string><translation>Nem törtszám: „#(1)”.</translation></entry>
+<entry><string>Float Value "#(1)" is smaller than the specified minimum "#(2)"</string><translation>Törtszám értéke (#(1)) kisebb a megadható minimumnál: „#(2)”.</translation></entry>
+<entry><string>Float Value "#(1)" is bigger than the specified maximum "#(2)"</string><translation>Törtszám értéke (#(1)) nagyobb a megadható maximumnál: „#(2)”.</translation></entry>
+<entry><string>Variable #(1) contains a tag not allowed: "#(2)"</string><translation>A(z) „#(1)” változó nem megengedett kulcsszót tartalmaz: „#(2)”.</translation></entry>
+<entry><string>Not an allowed tag: "#(1)"</string><translation>Érvénytelen kulcsszó: „#(1)”.</translation></entry>
+<entry><string>Attributes are not allowed for this tag in variable #(1): "#(2)"</string><translation>Paraméterek megadása nem engedélyezett ehhez a kulcsszóhoz a(z) „#(1)” változóban: „#(2)”.</translation></entry>
+<entry><string>Variable #(1) is not an integer: "#(2)"</string><translation>A(z) „#(1)” változó nem egész szám: „#(2)”.</translation></entry>
+<entry><string>Not an integer: "#(1)"</string><translation>Nem egész érték: „#(1)”.</translation></entry>
+<entry><string>Integer Value "#(1)" is smaller than the specified minimum "#(2)"</string><translation>Egész szám értéke (#(1)) kisebb a megadható minimumnál: „#(2)”.</translation></entry>
+<entry><string>Integer Value "#(1)" is bigger than the specified maximum "#(2)"</string><translation>Egész szám értéke (#(1)) nagyobb a megadható maximumnál: „#(2)”.</translation></entry>
+<entry><string>The variable is not set!</string><translation>A változónak nincs értéke!</translation></entry>
+<entry><string>Invalid e-mail #(1), the mail server doesnt recognize it.</string><translation>Hibás e-mail: „#(1)”. A levelező-kiszolgáló nem fogadta el.</translation></entry>
+<entry><string>Unable to connect to the mail server #(1) for e-mail #(2).</string><translation>Sikertelen kapcsolódás a(z) „#(1)” levelező-kiszolgálóhoz a(z) „#(2)” elküldéséhez.</translation></entry>
+<entry><string>Variable #(1) should not be empty: "#(2)"</string><translation>A(z) „#(1)” változó nem lehet üres: „#(2)”.</translation></entry>
+<entry><string>Should not be empty: "#(1)"</string><translation>Megadása kötelező: „#(1)”</translation></entry>
+<entry><string>There is no parameter to check against in the Regexp validation of #(1)</string><translation>Nincs paraméter a meghatározott szabványos kifejezésben a „#(1)” vizsgálatához.</translation></entry>
+<entry><string>There is no parameter to check against in the Regexp validation</string><translation>Nincs paraméter a szabványos kifejezés vizsgálatához.</translation></entry>
+<entry><string>Variable #(1): "#(2)" did not match pattern "#(3)"</string><translation>A(z) „#(1)” változó: „#(2)” nem felel meg a „#(3)” mintának.</translation></entry>
+<entry><string>Variable #(1) is not a string: "#(2)"</string><translation>A(z) „#(1)” változó nem szöveges érték: „#(2)”.</translation></entry>
+<entry><string>Not a string: "#(1)"</string><translation>Nem szöveg: „#(1)”</translation></entry>
+<entry><string>Size of the string "#(1)" is smaller than the specified minimum "#(2)"</string><translation>A szöveg („#(1)”) rövidebb a meghatározott miniumnál: „#(2)”.</translation></entry>
+<entry><string>Size of the string "#(1)" is bigger than the specified maximum "#(2)"</string><translation>A szöveg („#(1)”) hosszabb a meghatározott maximumnál: „#(2)”.</translation></entry>
+<entry><string>This call needs to be removed</string><translation>A hívás el kell távolítani</translation></entry>
+<entry><string>The directories under #(1) must be writeable by PHP.</string><translation>A(z) „#(1)” alatti könyvtáraknak a PHP által írhatónak kell lennie.</translation></entry>
+<entry><string>Context type: #(1) and file name: #(2)</string><translation>Környezet típus: „#(1)” és fájlnév: „#(2)”</translation></entry>
+<entry><string>Module or Theme Name #(1) is empty.</string><translation>Modul vagy Grafika neve üres. #(1)</translation></entry>
+<entry><string>Empty RegId (#(1)) or RegId is equal to 0.</string><translation>Üres vagy nulla RegID érték (#(1)).</translation></entry>
+<entry><string>Unknown</string><translation>Ismeretlen</translation></entry>
+<entry><string>This module is not installed properly. Not all info could be retrieved</string><translation>Ez a modul nincs helyesen telepítve. Nem sikerült az összes információ betöltése.</translation></entry>
+<entry><string>Unable to find Base Info for Module: #(1)</string><translation>Alapvető információ hiányzik a „#(1)” modulhoz.</translation></entry>
+<entry><string>Module Name #(1) is empty.</string><translation>Üres modul név #(1).</translation></entry>
+<entry><string>Could not load function file: [#(1)].</string><translation>A függvény fájl betöltése nem sikerült: „#(1)”.</translation></entry>
+<entry><string>Error Caught:</string><translation>Hiba:</translation></entry>
+<entry><string>Module function #(1) does not exist.</string><translation>Modul függvény: „#(1)” nem létezik.</translation></entry>
+<entry><string>Could not load function file: [#(1)].\n\n Error Caught:\n #(2)</string><translation>A függvény fájl betöltése nem sikerült: „#(1)”.\n\nHiba:\n#(2)</translation></entry>
+<entry><string>Module API function #(1) does not exist or could not be loaded.</string><translation>Modul API függvény: #(1) nem létezik, vagy a betöltés sikertelen.</translation></entry>
+<entry><string>Empty Module or Theme Name (#(1)).</string><translation>Üres modul vagy grafika név. #(1)</translation></entry>
+<entry><string>Directory information #(1) is empty.</string><translation>Üres könyvtárnév. #(1)</translation></entry>
+<entry><string>Cannot open file #(1).</string><translation>Fájl megnyitása sikertelen: „#(1)”.</translation></entry>
+<entry><string>Wrong type, it must be 'module' or 'theme': #(1).</string><translation>Hibás típus. Csak „module” és „theme” lehetséges: „#(1)”.</translation></entry>
+<entry><string>Empty theme or module name (#(1)).</string><translation>Üres modul vagy grafika név. #(1)</translation></entry>
+<entry><string>Empty Theme or Module variable name (#(1)).</string><translation>Üres Grafika vagy Modul név változó. #(1)</translation></entry>
+<entry><string>Illegal attribute name ('#(1)'): Attribute name may contain letters, numbers, _ and -, and must start with a letter.</string><translation>Helytelen attribútum név („#(1)”): Az attribútum név angol betűkből, számokból, aláhúzás és mínusz karakterekből állhat és betűvel kell kezdődnie.</translation></entry>
+<entry><string>Illegal attribute flags ('#(1)'): flags must be of integer type.</string><translation>Helytelen attribútum kapcsolók („#(1)”): a kapcsolók csak egész típusúak lehetnek.</translation></entry>
+<entry><string>Illegal tag definition: '#(1)' is an invalid tag name.</string><translation>Helytelen kulcsszó definíció. Hibás kulcsszó név: „#(1)”.</translation></entry>
+<entry><string>Illegal tag definition: '#(1)' is an invalid handler.</string><translation>Helytelen kulcsszó definíció. Hibás feldolgozó: „#(1)”.</translation></entry>
+<entry><string>Illegal tag registration flags ('#(1)'): flags must be of integer type.</string><translation>Érvénytelen kulcsszó regisztrálási kapcsoló („#(1)”): a kapcsolók csak egész típusúak lehetnek.</translation></entry>
+<entry><string>&lt;xar:#(1)&gt; tag is already defined.</string><translation>A „&lt;xar:#(1)&gt;” tag már korábban definiált.</translation></entry>
+<entry><string>&lt;xar:#(1)&gt; tag is not defined.</string><translation>A „&lt;xar:#(1)&gt;” nincs definiálva.</translation></entry>
+<entry><string>'#(1)' attribute in &lt;xar:#(2)&gt; tag does not have correct type. See tag documentation.</string><translation>A „#(1)” attribútum a „&lt;xar:#(2)&gt;” elemben nem megfelelő típusú. Lásd a kulcsszó dokumentációját.</translation></entry>
+<entry><string>Required '#(1)' attribute is missing from &lt;xar:#(2)&gt; tag. See tag documentation.</string><translation>A „#(1)” kötelező attribútum hiányzik a „&lt;xar:#(2)&gt;” elemből. Lásd a kulcsszó dokumentációját.</translation></entry>
+<entry><string>Empty themeName (#(1)).</string><translation>Üres „themeName” változó. #(1)</translation></entry>
+<entry><string>#(1) css stylesheet file cannot be found at this location:</string><translation>#(1) css stíluslap fájl nem található a következő helyen:</translation></entry>
+<entry><string>#(1) (no valid scope attribute could be deduced from this xar:style tag)</string><translation>#(1) (Nem származtatható érvényes hatókör érték ebből a xar:style kulcsszóból.)</translation></entry>
+<entry><string>Anonymous</string><translation>Névtelen</translation></entry>
+<entry><string>No Information</string><translation>Nincs információ</translation></entry>
+<entry><string>User identified by uid #(1) does not exist.</string><translation>A „#(1)” uid azonosítójú felhasználó nem létezik.</translation></entry>
+<entry><string>User variable #(1) was not correctly registered</string><translation>A „#(1)” felhasználói változó nincs helyesen regisztrálva.</translation></entry>
+<entry><string>Security Realm #(1) - Component #(2) - Instance #(3) - Level #(4) : This call needs to be converted to the Xaraya security system</string><translation>Biztonsági tartomány „#(1)” - Komponens „#(2)” - Példány „#(3)” - Szint „#(4)” : Ezt a hívást a Xaraya biztonsági rendszeréhez kell illeszteni.</translation></entry>
+<entry><string>Show the Users in this Group</string><translation>A csoport felhasználóinak megjelenítése</translation></entry>
+<entry><string>Delete this Group</string><translation>Csoport törlése</translation></entry>
+<entry><string>Email the Users in this Group</string><translation>E-mail küldés a csoportban lévő felhasználóknak</translation></entry>
+<entry><string>Show the Privileges assigned to this Group</string><translation>A csoporthoz rendelt jogosultságok megjelenítése</translation></entry>
+<entry><string>Test this Groups's Privileges</string><translation>A csoport jogosultságainak tesztelése</translation></entry>
+<entry><string>subgroup</string><translation>alcsoport</translation></entry>
+<entry><string>subgroups</string><translation>alcsoport</translation></entry>
+<entry><string>user</string><translation>felhasználó</translation></entry>
+<entry><string>users</string><translation>felhasználó</translation></entry>
+<entry><string>Modify this Group</string><translation>Csoport szerkesztése</translation></entry>
+<entry><string>You must enter a user name and a valid email address.</string><translation>A név és egy valós e-mail cím megadása kötelező.</translation></entry>
+<entry><string>This entry already exists.</string><translation>Ez az elem már létezik.</translation></entry>
+<entry><string>You must enter a name.</string><translation>A név megadása kötelező.</translation></entry>
+<entry><string>deleted</string><translation>törölt</translation></entry>
+<entry><string>Parameters to winnow need to be arrays</string><translation>A „winnow” paraméterének tömbnek kell lennie.</translation></entry>
+<entry><string>Did not find mask #(1) registered for an unspecified component in module #(2)</string><translation>A regisztrált maszk („#(1)”) egy meghatározatlan komponenshez nem található. Modul: „#(2)”.</translation></entry>
+<entry><string>Did not find mask #(1) registered for component #(2) in module #(3)</string><translation>A regisztrált maszk („#(1)”) nem található. Komponens: „#(2)”, modul: „#(3)”.</translation></entry>
+<entry><string>No privilege for #(1)</string><translation>Nincs jogosultság a „#(1)” maszkhoz.</translation></entry>
+<entry><string>A query is missing in component #(1) of module #(2)</string><translation>Egy lekérdezés hiányzik. Komponens: „#(1)”, modul: „#(2)”.</translation></entry>
+<entry><string>#(1) and #(2) do not have the same instances. #(3) | #(4) | #(5)</string><translation>„#(1)” és „#(2)” nem rendelkezik közös példánnyal. „#(3) | #(4) | #(5)”</translation></entry>
 </translations>

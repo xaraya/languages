@@ -1,185 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="6"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="8"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthphpBB2 module allows Xaraya to automatically log users authenticated by the phpBB2 into Xaraya.</string>
-		<translation>A phpBB2 azonosítási rendszer a phpBB2 által sikeresen azonosított felhasználók automatikus bejelentkezését teszi lehetővé a Xaraya rendszerbe.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="10"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="11"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Authentication by AuthphpBB2 is automatically available once the AuthphpBB2 module has been initialized. To enable/disable AuthphpBB2 authentication, you must adjust the setting in the modify config screen. But if your phpBB2 settins differ from the defautl ones (they are, sure) you need to set them up in "Admin panel/authphpbb2/Modify Config".</string>
-		<translation>A phpBB2 azonosítás automatikusan elérhető a modul telepítése után. A lehetőség ki- és bekapcsolásához a modul beállításait kell módosítani a Beállítások menüben. Amennyiben a phpBB2 beállításai különböznek az alapértelmezett értékektől (ez valószínű), akkor ezek az „Adminpanel -&amp;gt; phpBB2 azonosítás -&amp;gt; Beállítások” menüben adhatóak meg.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Notices:</string>
-		<translation>Megjegyzések:</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>When user logs in using this module new record appears in Xaraya's roles table. And user can change this table using Roles module. But all that changes wouldn't be synchronized back to phpBB2.</string>
-		<translation>Amikor egy felhasználó ennek a modulnak a segítségével lép be, új sor kerül a Xaraya szerepkörök tábláiba. A felhasználó a bekerült adatokat a Xaraya szerepkörök moduljában szerkeszheti, de ezek a változások nem kerülnek vissza automatikusan a phpBB2 adatbázisába.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya uses username (login) to refer to phpBB2 users. So if user changes there names in phpBB2 they will get problems in Xaraya account.</string>
-		<translation>A Xaraya a felhasználónév alapján kapcsolja az információkat a phpBB2 felhasználókhoz. Tehát, amennyiben a felhasználó ezt megváltoztatja a phpBB2-ben, a Xarayába való belépés problémákba fog ütközni.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have one choice. "Modify Config".</string>
-		<translation>A menüből egyetlen lehetőség érhető el: „Beállítások”.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config -- Here you should set your phpBB2 settings to allow Xaraya to connect to phpBB2 db and get user's info from there. You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string>
-		<translation>Beállítások: Itt kell meghatározni a phpBB2 beállításait, hogy a Xaraya csatlakozhasson a phpBB2 adatbázishoz a felhasználók lekérdezéséhez. Beállítható, hogy a sikeresen azonosított felhasználók automatikusan bekerüljenek a Xaraya adatbázisába és beléphessenek.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No blocks yet. It's possible to add some like "Last messages", "Registered users" etc.</string>
-		<translation>Nincsenek kapcsolódó blokkok, de elképzelhetők például „Legutóbbi üzenetek” vagy „Regisztált felhasználók” blokkok a későbbiekben.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthphpBB2 module has no hooks included at this time.</string>
-		<translation>Nincsenek kapcsolódó hurkok.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>TODO List</string>
-		<translation>Tennivalók</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The 0.01 version of the AuthphpBB2 module is just a copy/paste-made module. If there will be realized some usefull functionality in any other Auth module, it will be added here too. Now I just don't know clearly how Xaraya works with all that stuff.</string>
-		<translation>A modul 0.01-es változata egyszerű másolgatás a többi azonosítási modulból. A fejlesztők reményei szerint, ha a többi hasonló modulba hasznos dolgok kerülnek, azok ide is átvehetőek, de egyelőre nincsenek pontos tervek.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the AuthphpBB2 module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthphpBB2 Extension page at</string>
-		<translation>Az AuthphpBB2 azonosítás modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthphpBB2 Module - Xaraya Extension 77102</string>
-		<translation>AuthphpBB2 azonosítás modul - Xaraya bővítmény: 77102</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on AuthphpBB2 found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on AuthphpBB2</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthphpBB2 Module Overview</string>
-		<translation>AuthphpBB2 azonosítási modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/authphpbb2/xartemplates/admin-main.xd" line="44"/>
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The AuthphpBB2 module allows Xaraya to automatically log users authenticated by the phpBB2 into Xaraya.</string><translation>A phpBB2 azonosítási rendszer a phpBB2 által sikeresen azonosított felhasználók automatikus bejelentkezését teszi lehetővé a Xaraya rendszerbe.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>Authentication by AuthphpBB2 is automatically available once the AuthphpBB2 module has been initialized. To enable/disable AuthphpBB2 authentication, you must adjust the setting in the modify config screen. But if your phpBB2 settins differ from the defautl ones (they are, sure) you need to set them up in "Admin panel/authphpbb2/Modify Config".</string><translation>A phpBB2 azonosítás automatikusan elérhető a modul telepítése után. A lehetőség ki- és bekapcsolásához a modul beállításait kell módosítani a Beállítások menüben. Amennyiben a phpBB2 beállításai különböznek az alapértelmezett értékektől (ez valószínű), akkor ezek az „Adminpanel -&amp;gt; phpBB2 azonosítás -&amp;gt; Beállítások” menüben adhatóak meg.</translation></entry>
+<entry><string>Notices:</string><translation>Megjegyzések:</translation></entry>
+<entry><string>When user logs in using this module new record appears in Xaraya's roles table. And user can change this table using Roles module. But all that changes wouldn't be synchronized back to phpBB2.</string><translation>Amikor egy felhasználó ennek a modulnak a segítségével lép be, új sor kerül a Xaraya szerepkörök tábláiba. A felhasználó a bekerült adatokat a Xaraya szerepkörök moduljában szerkeszheti, de ezek a változások nem kerülnek vissza automatikusan a phpBB2 adatbázisába.</translation></entry>
+<entry><string>Xaraya uses username (login) to refer to phpBB2 users. So if user changes there names in phpBB2 they will get problems in Xaraya account.</string><translation>A Xaraya a felhasználónév alapján kapcsolja az információkat a phpBB2 felhasználókhoz. Tehát, amennyiben a felhasználó ezt megváltoztatja a phpBB2-ben, a Xarayába való belépés problémákba fog ütközni.</translation></entry>
+<entry><string>From the menu, you have one choice. "Modify Config".</string><translation>A menüből egyetlen lehetőség érhető el: „Beállítások”.</translation></entry>
+<entry><string>Modify Config -- Here you should set your phpBB2 settings to allow Xaraya to connect to phpBB2 db and get user's info from there. You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string><translation>Beállítások: Itt kell meghatározni a phpBB2 beállításait, hogy a Xaraya csatlakozhasson a phpBB2 adatbázishoz a felhasználók lekérdezéséhez. Beállítható, hogy a sikeresen azonosított felhasználók automatikusan bekerüljenek a Xaraya adatbázisába és beléphessenek.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>No blocks yet. It's possible to add some like "Last messages", "Registered users" etc.</string><translation>Nincsenek kapcsolódó blokkok, de elképzelhetők például „Legutóbbi üzenetek” vagy „Regisztált felhasználók” blokkok a későbbiekben.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>The AuthphpBB2 module has no hooks included at this time.</string><translation>Nincsenek kapcsolódó hurkok.</translation></entry>
+<entry><string>TODO List</string><translation>Tennivalók</translation></entry>
+<entry><string>The 0.01 version of the AuthphpBB2 module is just a copy/paste-made module. If there will be realized some usefull functionality in any other Auth module, it will be added here too. Now I just don't know clearly how Xaraya works with all that stuff.</string><translation>A modul 0.01-es változata egyszerű másolgatás a többi azonosítási modulból. A fejlesztők reményei szerint, ha a többi hasonló modulba hasznos dolgok kerülnek, azok ide is átvehetőek, de egyelőre nincsenek pontos tervek.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the AuthphpBB2 module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>AuthphpBB2 Extension page at</string><translation>Az AuthphpBB2 azonosítás modul bővítmény oldala</translation></entry>
+<entry><string>AuthphpBB2 Module - Xaraya Extension 77102</string><translation>AuthphpBB2 azonosítás modul - Xaraya bővítmény: 77102</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on AuthphpBB2 found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on AuthphpBB2</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>AuthphpBB2 Module Overview</string><translation>AuthphpBB2 azonosítási modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

@@ -1,199 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Weather</string>
-		<translation>Időjárás</translation>
-		<references>
-			<reference file="modules/weather/xarversion.php" line="18"/>
-			<reference file="modules/weather/xartemplates/admin-main.xd" line="3"/>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="3"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config</string>
-		<translation>Beállítások módosítása</translation>
-		<references>
-			<reference file="modules/weather/xaradminapi/getmenulinks.php" line="26"/>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="8"/>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="81"/>
-			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="51"/>
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="53"/>
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="54"/>
-			<reference file="modules/weather/xartemplates/includes/admin-menu.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-main.xd" line="10"/>
-			<reference file="modules/weather/xartemplates/includes/admin-menu.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Current Conditions</string>
-		<translation>Időjárás</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-main.xd" line="35"/>
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="29"/>
-			<reference file="modules/weather/xaruserapi/getmenulinks.php" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Default Location</string>
-		<translation>Alapértelmezett hely</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="27"/>
-			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Number of Days for Extended Forecasts</string>
-		<translation>A bővebb előrejelzésben szereplő napok száma</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="31"/>
-			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Measurement Units</string>
-		<translation>Mértékegység</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="44"/>
-			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Standard</string>
-		<translation>Szabvány</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="46"/>
-			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Metric</string>
-		<translation>Metrikus</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/admin-modifyconfig.xd" line="47"/>
-			<reference file="modules/weather/xartemplates/user-modifyconfig.xd" line="36"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Feels Like</string>
-		<translation>Érzés</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="26"/>
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Today</string>
-		<translation>Ma</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="34"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Tonight</string>
-		<translation>Este</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="35"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Daytime High</string>
-		<translation>Napi legmagasabb</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="50"/>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="121"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="32"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overnight Low</string>
-		<translation>Éjszakai legalacsonyabb</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="51"/>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="122"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Sunrise</string>
-		<translation>Napkelte</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="62"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Sunset</string>
-		<translation>Naplemente</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="63"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>UV Index:</string>
-		<translation>UV Index:</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="74"/>
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="17"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Dew Point:</string>
-		<translation>Harmatpont:</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="76"/>
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Humidity:</string>
-		<translation>Páratartalom:</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="77"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="62"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="71"/>
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Pressure:</string>
-		<translation>Légnyomás:</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="78"/>
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Wind:</string>
-		<translation>Szél:</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="86"/>
-			<reference file="modules/weather/xartemplates/blocks/currentconditions.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Wind Gusts:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/weather/xartemplates/user-cc.xd" line="94"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="59"/>
-			<reference file="modules/weather/xartemplates/user-details.xd" line="68"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Weather data provided by #(1)</string>
-		<translation>Az időjárási adatok szolgáltatója:</translation>
-		<references>
-			<reference file="modules/weather/xartemplates/includes/weatherdotcomfull.xd" line="16"/>
-			<reference file="modules/weather/xartemplates/includes/weatherdotcommini.xd" line="5"/>
-		</references>
-	</entry>
+<entry><string>Weather</string><translation>Időjárás</translation></entry>
+<entry><string>Modify Config</string><translation>Beállítások módosítása</translation></entry>
+<entry><string>Overview</string><translation>Áttekintés</translation></entry>
+<entry><string>Default Location</string><translation>Alapértelmezett hely</translation></entry>
+<entry><string>Number of Days for Extended Forecasts</string><translation>A bővebb előrejelzésben szereplő napok száma</translation></entry>
+<entry><string>Measurement Units</string><translation>Mértékegység</translation></entry>
+<entry><string>Standard</string><translation>Szabvány</translation></entry>
+<entry><string>Metric</string><translation>Metrikus</translation></entry>
+<entry><string>Feels Like</string><translation>Érzés</translation></entry>
+<entry><string>UV Index</string><translation></translation></entry>
+<entry><string>Dew Point</string><translation></translation></entry>
+<entry><string>Humidity</string><translation></translation></entry>
+<entry><string>Pressure</string><translation></translation></entry>
+<entry><string>and</string><translation></translation></entry>
+<entry><string>Wind</string><translation></translation></entry>
+<entry><string>at</string><translation></translation></entry>
+<entry><string>As reported at</string><translation></translation></entry>
+<entry><string>Weather Forecast</string><translation></translation></entry>
+<entry><string>Today</string><translation>Ma</translation></entry>
+<entry><string>Tonight</string><translation>Este</translation></entry>
+<entry><string>Daytime High</string><translation>Napi legmagasabb</translation></entry>
+<entry><string>Overnight Low</string><translation>Éjszakai legalacsonyabb</translation></entry>
+<entry><string>Sunrise</string><translation>Napkelte</translation></entry>
+<entry><string>Sunset</string><translation>Naplemente</translation></entry>
+<entry><string>Wind Gusts</string><translation></translation></entry>
+<entry><string>Actions:</string><translation>Műveletek:</translation></entry>
+<entry><string>Weather data provided by #(1)</string><translation>Az időjárási adatok szolgáltatója:</translation></entry>
 </translations>

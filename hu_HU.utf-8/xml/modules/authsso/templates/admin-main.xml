@@ -1,199 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="6"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="8"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthSSO module allows Xaraya to automatically log users authenticated by the web server into Xaraya. The original intent was to transparently log in users whose credentials could be passed by their browser to the web server for authentication. Additionally, this module can be used to leverage other authentication mechanisms via its ability to delegate authentication to the web server (say, by having the web server authenticate with mod_auth_pam and then using pam to plug into an external authentication system).</string>
-		<translation>Az AuthSSO azonosítási rendszer a webkiszolgáló által sikeresen azonosított felhasználók automatikus bejelentkezését teszi lehetővé. Célja, hogy a felhasználók akiknek a böngészője sikeres bejelentkezést küld a webszervernek, ezzel automatikusan be is léphessenek a Xarayába. Ezen felül, ez a modul további azonosítási metóduskkal is kibővíti a Xarayát, azzal, hogy az azonosítást a webkiszolgálóra bízza. Használhatjuk például az Apache webszerver mod_auth_pam modulját, és pam bővítmények segítségével tetszőleges külső azonosítási rendszert.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="9"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Warning: this module is useless if you do not have your web server set up to authenticate users. Refer to your web server's documentation on how to set this up.</string>
-		<translation>Figyelem: Ez a modul hasztalan, ha a webkiszolgálóban nem állítjuk be a felhasználók azonosítását. Ennek részleteiről a webkiszolgáló dokumentációjában olvashatunk.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="10"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Warning: this module is only as secure as your web server authentication mechanism. It completely trusts the web server to handle user credential processing.</string>
-		<translation>Figyelem: Ez a modul csak annyira biztonságos, amennyire a webkiszolgáló azonosítási mechanizmusa. Ez a modul az azonosítás feldolgozását teljes mértében a webkiszolgálóra bízza.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="11"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Authentication by AuthSSO is automatically available once the AuthSSO module has been initialized. To disable AuthSSO authentication, you must remove the module or disable it in the modify config screen (or disable the webserver authentication, which is a prerequisite of AuthSSO functionality).</string>
-		<translation>Az AuthSSO általi azonosítás azonnal életbe lép az AuthSSO modul bekapcsolásakor. Az AuthSSO azonosítás kikapcsolásához a modult el kell távolítani vagy működését a beállítási oldalán kikapcsolni (vagy letiltani a webkiszolgálóban az azonosítást, ami előfeltétele az AuthSSO működésének).</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have one choice. "Modify Config".</string>
-		<translation>A menüből egyetlen lehetőség érhető el: „Beállítások”.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config -- You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string>
-		<translation>Beállítások: Erről az oldalról engedélyezhető, hogy a webkiszolgáló által azonosított felhasználók automatikusan bekerüljenek a Xaraya adatbázisba és beléphessenek.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>No blocks yet, but one is coming...</string>
-		<translation>Nincsenek kapcsolódó blokkok.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="23"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthSSO module has no hooks included at this time.</string>
-		<translation>Nincsenek kapcsolódó hurkok.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>TODO List</string>
-		<translation>Tennivalók</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The 0.02 version of the AuthSSO module is a skeleton proof of concept. There are many "ToDo"s.</string>
-		<translation>Az AuthSSO azonosítási modul 0.02-es változata egy alap az azonosítási koncepcióra. Sok tennivaló van még.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Rework to make natively pluggable with external auth systems other than the web server (i.e. allow xaraya to trust the authentication of other external systems, or to validate a ticket issued by a third party SSO product).</string>
-		<translation>Átalakítás más külső, a webkiszolgálón kívüli azonosítási rendszerekkel való együttműkésre. Például a Xaraya támaszkodhatna a külső azonosítási rendszerekre vagy ellenőrizhetne más külső SSO termékek által elvégzett azonosítást.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Make integration with other external user information options easily configurable and extendable.</string>
-		<translation>Egyéb külső felhasználói adatok beállításának és bővítésének támogatása.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow site administrators to configure which modules or pages do not auto sign in the web server authenticated user.</string>
-		<translation>Lehetőséget biztosítani az adminisztrátoroknak, hogy meghatározzák mely oldalak vagy modulok nem fogadhatják a webkiszolgáló általi azonosítást.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the AuthSSO module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="35"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthSSO Extension page at</string>
-		<translation>Az AuthSSO azonosítás modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthSSO Module - Xaraya Extension 51</string>
-		<translation>AuthSSO azonosítás modul - Xaraya bővítmény: 51</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on AuthSSO found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on AuthSSO</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthSSO Module Overview</string>
-		<translation>AuthSSO azonosítási modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/authsso/xartemplates/admin-main.xd" line="44"/>
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The AuthSSO module allows Xaraya to automatically log users authenticated by the web server into Xaraya. The original intent was to transparently log in users whose credentials could be passed by their browser to the web server for authentication. Additionally, this module can be used to leverage other authentication mechanisms via its ability to delegate authentication to the web server (say, by having the web server authenticate with mod_auth_pam and then using pam to plug into an external authentication system).</string><translation>Az AuthSSO azonosítási rendszer a webkiszolgáló által sikeresen azonosított felhasználók automatikus bejelentkezését teszi lehetővé. Célja, hogy a felhasználók akiknek a böngészője sikeres bejelentkezést küld a webszervernek, ezzel automatikusan be is léphessenek a Xarayába. Ezen felül, ez a modul további azonosítási metóduskkal is kibővíti a Xarayát, azzal, hogy az azonosítást a webkiszolgálóra bízza. Használhatjuk például az Apache webszerver mod_auth_pam modulját, és pam bővítmények segítségével tetszőleges külső azonosítási rendszert.</translation></entry>
+<entry><string>Warning: this module is useless if you do not have your web server set up to authenticate users. Refer to your web server's documentation on how to set this up.</string><translation>Figyelem: Ez a modul hasztalan, ha a webkiszolgálóban nem állítjuk be a felhasználók azonosítását. Ennek részleteiről a webkiszolgáló dokumentációjában olvashatunk.</translation></entry>
+<entry><string>Warning: this module is only as secure as your web server authentication mechanism. It completely trusts the web server to handle user credential processing.</string><translation>Figyelem: Ez a modul csak annyira biztonságos, amennyire a webkiszolgáló azonosítási mechanizmusa. Ez a modul az azonosítás feldolgozását teljes mértében a webkiszolgálóra bízza.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>Authentication by AuthSSO is automatically available once the AuthSSO module has been initialized. To disable AuthSSO authentication, you must remove the module or disable it in the modify config screen (or disable the webserver authentication, which is a prerequisite of AuthSSO functionality).</string><translation>Az AuthSSO általi azonosítás azonnal életbe lép az AuthSSO modul bekapcsolásakor. Az AuthSSO azonosítás kikapcsolásához a modult el kell távolítani vagy működését a beállítási oldalán kikapcsolni (vagy letiltani a webkiszolgálóban az azonosítást, ami előfeltétele az AuthSSO működésének).</translation></entry>
+<entry><string>From the menu, you have one choice. "Modify Config".</string><translation>A menüből egyetlen lehetőség érhető el: „Beállítások”.</translation></entry>
+<entry><string>Modify Config -- You can also allow a user that has been authenticated by the web server to be automatically added to the Xaraya database and allowed to login.</string><translation>Beállítások: Erről az oldalról engedélyezhető, hogy a webkiszolgáló által azonosított felhasználók automatikusan bekerüljenek a Xaraya adatbázisba és beléphessenek.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>No blocks yet, but one is coming...</string><translation>Nincsenek kapcsolódó blokkok.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>The AuthSSO module has no hooks included at this time.</string><translation>Nincsenek kapcsolódó hurkok.</translation></entry>
+<entry><string>TODO List</string><translation>Tennivalók</translation></entry>
+<entry><string>The 0.02 version of the AuthSSO module is a skeleton proof of concept. There are many "ToDo"s.</string><translation>Az AuthSSO azonosítási modul 0.02-es változata egy alap az azonosítási koncepcióra. Sok tennivaló van még.</translation></entry>
+<entry><string>Rework to make natively pluggable with external auth systems other than the web server (i.e. allow xaraya to trust the authentication of other external systems, or to validate a ticket issued by a third party SSO product).</string><translation>Átalakítás más külső, a webkiszolgálón kívüli azonosítási rendszerekkel való együttműkésre. Például a Xaraya támaszkodhatna a külső azonosítási rendszerekre vagy ellenőrizhetne más külső SSO termékek által elvégzett azonosítást.</translation></entry>
+<entry><string>Make integration with other external user information options easily configurable and extendable.</string><translation>Egyéb külső felhasználói adatok beállításának és bővítésének támogatása.</translation></entry>
+<entry><string>Allow site administrators to configure which modules or pages do not auto sign in the web server authenticated user.</string><translation>Lehetőséget biztosítani az adminisztrátoroknak, hogy meghatározzák mely oldalak vagy modulok nem fogadhatják a webkiszolgáló általi azonosítást.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the AuthSSO module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>AuthSSO Extension page at</string><translation>Az AuthSSO azonosítás modul bővítmény oldala</translation></entry>
+<entry><string>AuthSSO Module - Xaraya Extension 51</string><translation>AuthSSO azonosítás modul - Xaraya bővítmény: 51</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on AuthSSO found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on AuthSSO</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>AuthSSO Module Overview</string><translation>AuthSSO azonosítási modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

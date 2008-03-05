@@ -1,318 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Administration - xarCacheManager</string>
-		<translation>Gyorstár kezelő adminisztrálása</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="3"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The xarCacheManager module provides an administrator interface to control the settings of the xarCache system of Xaraya. It also provides hooks that allow the cache system to know when changes have happened to modules so that it can respond accordingly (event based cache expiration/invalidation).</string>
-		<translation>A Gyorstár kezelő modul a Xaraya gyorstárazási (cache) rendszerének beállítására használható. A modul egy hurok rendszert is biztosít más modulok részére, amely lehetővé teszi a megváltoztatott tartalmi elemek jelzését a gyorstár kezelőnek, hogy az erre megfelelően reagálhasson (esemény alapú gyorstár törlések, érvénytelenítések).</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The output cache system is designed to reduce the amount of work a server system has to do under heavy load conditions. It saves the output used by Xaraya so that it does not need to go through the entire process to reproduce the same output over and over again. At this point, only page level output caching for anonymous users and block level output caching for all users are available. In time, the output cache system will also support module level output caching for all users, as well as more efficient serving of cached pages for anonymous users. Page level output caching for certain user groups is also planed to be available to sites that can take advantage of this.</string>
-		<translation>A kimeneti gyorstár rendszer nagy látogatottságú oldalak esetén a kiszolgáló terhelésének csökkentésére készült. A Xaraya által létrehozott megjelenítendő részeket menti el, így nincs szükség a létrehozáshoz szükséges folyamatok rendszeres ismételgetésére. Jelenleg csak oldal szintű kimenet gyorstárazás érhető el a nem bejelentkezett felhasználók felé és blokk szintű kimenet gyorstárazás minden felhasználó felé. A későbbiekben a modul biztosítani fogja a modul szintű kimenet gyorstárazást minden felhasználó felé és a tárolt oldalak jobb hatásfokú kiszolgálást a be nem jelentkezett felhasználók felé. Az oldal szintű kimenet gyorstárazás meghatározott felhasználói csoportok felé szintén szerepel a tervek között, azokhoz a weblapokhoz amelyeknél ez hasznos lehet.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please do not confuse output caching with Xaraya's variable or template caching systems. Each are different. In time, they will likely use the same caching infrastructure, but will still provide different caching for different purposes. General data caching is also planned for xarCache. For more on the different points of caching in Xaraya, please refer to:</string>
-		<translation>Ne keverjük össze a kimenet gyorstárazást a Xaraya változó vagy sablonfájl gyorstárazási rendszerével, ezek mind különböző műveletek. Idővel valószínűleg ezek ugyanazt a gyorstárazási rendszert fogják használni, de jelenleg különböző megoldások látják el a feladatot. Egy általános adat gyorstárazási rendszer szintén szerepel a tervek között. A Xaraya gyorstárazási rendszeréről további információk:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The xarCacheManager module has several tools for managing the xarCache system and your cached output files. The tools are organized under the following menu links:</string>
-		<translation>A Gyorstár kezelő modul számos eszközt biztosít a xarCache gyorstár rendszer és a gyorstárazott kimeneti fájlok kezelésére. Az eszközök a következő menüszerkezetben találhatóak:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Query Caching - Queries in the certain functions could be quite expensive for large sites. You can use this tool to set query caching to save the results of some expensive queries for reuse. Please note that cached query results will only be invalidated based on expiration time.</string>
-		<translation>Lekérdezés gyorstár - Az adatbázis lekérdezések nagyobb oldalaknál igen időigényesek lehetnek. Ezzel az eszközzel beállíthatjuk az időigényes lekérdezések eredményének gyorstárazását, ismételt felhasználáshoz. Fontos megjegyezni, hogy a lekérdezések gyorstárazott eredményének érvénytelenítése csak lejárati időtől függhet.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Flush Cache - allows you to flush (delete) the output cache of specific Cache Keys. Page output Cache Keys are define by module, type, and function. Block output Cache Keys are define by module, block instance id, and block group.</string>
-		<translation>Gyorstár ürítése - Lehetőséget biztosít a gyorstárazott kimeneti fájlok törlésére bizonyos kulcsok alapján. Az oldal kimeneti kulcsokat a modulok, függvény típusok és függvények határozzák meg. A blokk kimeneti kulcsokat a modul, a blokk példány azonosító és a blokkcsoport határozza meg.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Page Caching - allows you to enable page caching for certain user groups, set up session-less page caching, and configure auto-cache settings. Session-less page caching allows cached pages to be served before loading xarCore to users who do not have a session (new/first-time visitors). Auto-cache allows you to configure your site to dynamically enable session-less page caching for pages that hit certain page view thresholds.</string>
-		<translation>Oldal gyorstár - Lehetőséget biztosít az oldal gyorstárazás különböző felhasználói csoportokhoz való engedélyezésére, munkafolyamat nélküli gyorstárazás és az automatikus gyorstárazás beállítására. A munkafolyamat nélküli gyorstárazás lehetőséget biztosít gyorstárazott oldalak kiszolgálására a „xarCore” betöltése előtt, azok felé a felhasználók felé, akiknek még nincs munkafolyamat azonosító sütijük (első látogatás). Az automatikus gyorstárazás lehetőséget biztosít bizonyos oldalak automatikus felvételére a munkafolyamat nélküli gyorstárazási rendszerbe, amikor azok bizonyos mértékűnél nagyobb nézettséget érnek el.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Block Caching - provides a single view and management point of the output caching settings of all block instances.</string>
-		<translation>Blokk gyorstár - Egy egyszerű felületet biztosít a blokkok kimeneti gyorstárazásának példányonkénti beállítására.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config - allows you to set the values for the output cache system. Mouse over the setting titles for more information.</string>
-		<translation>Beállítások - A kimeneti gyorstár beállításainak szerkesztése. Az egeret a címsorok fölé mozgatva bővebb információkat kaphatunk.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The xarCacheManager Module has no blocks included at this time.</string>
-		<translation>Nincsenek kapcsolódó blokkok.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="36"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The xarCacheManager module provides create, update, delete and modify config API hooks and a modify GUI hook (currently only used for adding caching configuration administration to block instance modify pages). To activate these hooks, go to Admin panel -&gt; Modules -&gt; Configure Hooks and click on the xarcachemanager link. Select the modules you would like to enable the xarCacheManager hook functionality for (articles, categories, autolinks, blocks, html are likely candidates) and click the Save Changes button. Once hooked to xarCacheManager, when you create, update, or delete items of the module, or modify the configuration of a module, the call to the xarCacheManager hooks will flush the appropriate cache to insure that your changes will be instantly available on your site (not masked by cached output files).</string>
-		<translation>A Gyorstár kezelő modul „create”, „update”, „delete” és „modify config” API hurkokat és „modify” GUI hurkot biztosít (ez utóbbi jelenleg csak a blokkok beállításainál a gyorstárazási beállítások szerkesztésére biztosít lehetőséget).  A hurkok beállításához kattintsunk az Adminpanel -&gt; Modulok -&gt; Hurkok beállítása menüre, majd ott a „Gyorstár kezelő” sorra. Jelöljük be azokat a modulokat amelyeknél a gyorstárazási hurkokat engedélyezni szeretnénk (Cikkek, Kategóriák, Automatikus hivatkozások, Blokkok, HTML esetében általában hasznos), majd kattintsunk a „Változtatások mentése” gombra.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Additional Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please note that page level output caching is not appropriate for sites that require the serving of dynamic content to anonymous users. Example: if each page contains data that changes every second and must be presented to the anonymous viewer in the latest state, you do not want to use page level output caching. However, if it is acceptable to present the data with changes no older than 1 minute, you can enable page level output caching and set the Cache Expiration Time to 60 seconds. If your site serves the same page 100 times per minute this will measurably reduce the load on your systems to do so.</string>
-		<translation>Az oldal szintű gyorstárazás nem megfelelő azokhoz az oldalakhoz, amelyek dinamikus tartalmat szolgálnak ki a nem bejelentkezett felhasználók számára. Példa: Nem megfelelő az oldal szintű gyorstárazás, ha minden oldal tartalmaz olyan információt, amely minden másodpercben frissül és a nem bejelentkezett felhasználóknak az aktuális tartalmat szeretnénk megjeleníteni. Amennyiben elfogadható az 1 percnél nem régebbi, nem aktuális adatok megjelenítése, beállíthatjuk az oldal szintű gyorstárazást, 1 perces lejárati idővel. Ha a weboldal egy percben százszor is megjeleníti az oldalt, ezzel jelentős teljesítmény igény csökkenést érhetünk el.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Page level output caching may also affect the expected behavior of certain aspects of Xaraya as cached pages are served without loading the modules. Example: the stats and opentracker modules will not accurately reflect the total number of page views your site receives because they are not invoked when serving cached pages. If your site is under heavy load that needs to be reduced, you may want to consider doing your site statistic tracking via the web server log files or a javascript based solution like that implemented by Hitbox or WebTrends Live, anyway. Either of these methods will accurately work with page level caching enabled.</string>
-		<translation>Az oldal szintű gyorstárazás a Xaraya működésének bizonyos jellemzőit is megváltoztathatja, ugyanis a megjelenítés a modulok valódi betöltése nélkül történik meg. Például: A Statisztikák vagy az Opentracker statisztika nem a valós oldalletöltési értékeket fogja mutatni, mivel ezek meghívása elmarad az oldalletöltéskor. Amennyiben a weboldal jelentős terhelésnek van kitéve, amelyet csökkenteni szeretnénk, megfontolandó a statisztikák elkészítése a webkiszolgáló naplófájljai alapján, vagy JavaScript alapú statisztika megoldással, mint például a „Hitbox” vagy a „WebTrends Live”. Ezek a módszerek az oldal szintű gyorstárazás esetén is pontos eredményeket szolgáltatnak.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configured to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Page level and block level output caching can be used in tandem to reduce loads and improve page generation times on sites that serve both anonymous and non-anonymous audience members, or on sites with varying page and block level output caching requirements.</string>
-		<translation>Az oldal és a blokk szintű gyorstárazás keverve is használható az teljesítményigény csökkentésére és a az oldalak kiszolgálási idejének növelésére, olyan oldalaknál amelyeket bejelentkezett és nem bejelentkezett látogatók egyáránt használnak, vagy olyan oldalakon ahol változó oldal és blokk szintű gyorstárazásra van szükség.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="43"/>
-		</references>
-	</entry>
-	<entry>
-		<string>TODO List</string>
-		<translation>Tennivalók</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>General caching related:</string>
-		<translation>Általános gyorstárazás:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="49"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Support multisite configurations.</string>
-		<translation>A „Multisite” telepítések támogatása.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Provide data caching API.</string>
-		<translation>Adat gyorstárazási API elkészítése.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="53"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Provide an output cache file browser, like the template cache file browser in SiteTools.</string>
-		<translation>Egy kimenet gyorstárazott fájl böngésző elkészítése, a Weblap Eszközök modul sablonfájl böngészőjéhez hasonlóan.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="54"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Refactor, refactor, refactor.</string>
-		<translation>Átdolgozás, átdolgozás és átdolgozás.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="55"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Page level output caching related:</string>
-		<translation>Oldal szintű kimenet gyorstárazás:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="60"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Support itemtype as a 'name' between cacheKey and page when available.</string>
-		<translation>Az elemtípus támogatása „name”-ként a kulcsok között, ha elérhető.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="63"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Provide Scheduler, getfile/link integration for pre-population of output cache.</string>
-		<translation>Ütemező biztosítása, fájl/hivatkozás integráció a kimeneti gyorstár előtöltésére.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="64"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Analyze Slashdot and Google News use of 304 &amp;amp; ETag HTTP headers and rework our use of these headers based on findings.</string>
-		<translation>A Slashdot és a Google News 304 és ETag HTTP fejléceinek elemzése és a kimeneti HTTP fejlécek átdolgozása az összegyűjtött információk alapján.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="65"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Block/module level output caching related:</string>
-		<translation>Blokk és modul szintű kimeneti gyorstárazás:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="69"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Add module output caching functions, reutilizing xarBlock*Cached functions when appropriate.</string>
-		<translation>A modul kimeneti gyorstár funkciók elkészítése, a blokk gyorstárazási funkciók felhasználásával, ahol ez lehetséges.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="72"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Add xarMod*Cached() calls in xarModFunc().</string>
-		<translation>A „xarMod*Cached()” hívások hozzáadása a „xarModFunc()” hívásokhoz.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="73"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Provide Admin GUI hooks to modules beyond Blocks for the configuration of per module output cache settings.</string>
-		<translation>Adminisztrálási GUI hurkok elkészítése a modulokhoz, a modulonkénti gyorstárazási beállítások szerkesztéséhez.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="78"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the xarcachemanager module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="81"/>
-		</references>
-	</entry>
-	<entry>
-		<string>xarcachemanager Extension page at</string>
-		<translation>A Gyorstár kezelő modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="84"/>
-		</references>
-	</entry>
-	<entry>
-		<string>xarcachemanager Module - Xaraya Extension 1652</string>
-		<translation>Gyorstár kezelő modul - Xaraya bővítmény: 1652</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="84"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="85"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on xarcachemanager found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on xarcachemanager</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="87"/>
-		</references>
-	</entry>
-	<entry>
-		<string>xarcachemanager Overview</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="91"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/xarcachemanager/xartemplates/admin-main.xd" line="91"/>
-		</references>
-	</entry>
+<entry><string>Administration - xarCacheManager</string><translation>Gyorstár kezelő adminisztrálása</translation></entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The xarCacheManager module provides an administrator interface to control the settings of the xarCache system of Xaraya. It also provides hooks that allow the cache system to know when changes have happened to modules so that it can respond accordingly (event based cache expiration/invalidation).</string><translation>A Gyorstár kezelő modul a Xaraya gyorstárazási (cache) rendszerének beállítására használható. A modul egy hurok rendszert is biztosít más modulok részére, amely lehetővé teszi a megváltoztatott tartalmi elemek jelzését a gyorstár kezelőnek, hogy az erre megfelelően reagálhasson (esemény alapú gyorstár törlések, érvénytelenítések).</translation></entry>
+<entry><string>The output cache system is designed to reduce the amount of work a server system has to do under heavy load conditions. It saves the output used by Xaraya so that it does not need to go through the entire process to reproduce the same output over and over again. At this point, only page level output caching for anonymous users and block level output caching for all users are available. In time, the output cache system will also support module level output caching for all users, as well as more efficient serving of cached pages for anonymous users. Page level output caching for certain user groups is also planed to be available to sites that can take advantage of this.</string><translation>A kimeneti gyorstár rendszer nagy látogatottságú oldalak esetén a kiszolgáló terhelésének csökkentésére készült. A Xaraya által létrehozott megjelenítendő részeket menti el, így nincs szükség a létrehozáshoz szükséges folyamatok rendszeres ismételgetésére. Jelenleg csak oldal szintű kimenet gyorstárazás érhető el a nem bejelentkezett felhasználók felé és blokk szintű kimenet gyorstárazás minden felhasználó felé. A későbbiekben a modul biztosítani fogja a modul szintű kimenet gyorstárazást minden felhasználó felé és a tárolt oldalak jobb hatásfokú kiszolgálást a be nem jelentkezett felhasználók felé. Az oldal szintű kimenet gyorstárazás meghatározott felhasználói csoportok felé szintén szerepel a tervek között, azokhoz a weblapokhoz amelyeknél ez hasznos lehet.</translation></entry>
+<entry><string>Please do not confuse output caching with Xaraya's variable or template caching systems. Each are different. In time, they will likely use the same caching infrastructure, but will still provide different caching for different purposes. General data caching is also planned for xarCache. For more on the different points of caching in Xaraya, please refer to:</string><translation>Ne keverjük össze a kimenet gyorstárazást a Xaraya változó vagy sablonfájl gyorstárazási rendszerével, ezek mind különböző műveletek. Idővel valószínűleg ezek ugyanazt a gyorstárazási rendszert fogják használni, de jelenleg különböző megoldások látják el a feladatot. Egy általános adat gyorstárazási rendszer szintén szerepel a tervek között. A Xaraya gyorstárazási rendszeréről további információk:</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>The xarCacheManager module has several tools for managing the xarCache system and your cached output files. The tools are organized under the following menu links:</string><translation>A Gyorstár kezelő modul számos eszközt biztosít a xarCache gyorstár rendszer és a gyorstárazott kimeneti fájlok kezelésére. Az eszközök a következő menüszerkezetben találhatóak:</translation></entry>
+<entry><string>Query Caching - Queries in the certain functions could be quite expensive for large sites. You can use this tool to set query caching to save the results of some expensive queries for reuse. Please note that cached query results will only be invalidated based on expiration time.</string><translation>Lekérdezés gyorstár - Az adatbázis lekérdezések nagyobb oldalaknál igen időigényesek lehetnek. Ezzel az eszközzel beállíthatjuk az időigényes lekérdezések eredményének gyorstárazását, ismételt felhasználáshoz. Fontos megjegyezni, hogy a lekérdezések gyorstárazott eredményének érvénytelenítése csak lejárati időtől függhet.</translation></entry>
+<entry><string>Flush Cache - allows you to flush (delete) the output cache of specific Cache Keys. Page output Cache Keys are define by module, type, and function. Block output Cache Keys are define by module, block instance id, and block group.</string><translation>Gyorstár ürítése - Lehetőséget biztosít a gyorstárazott kimeneti fájlok törlésére bizonyos kulcsok alapján. Az oldal kimeneti kulcsokat a modulok, függvény típusok és függvények határozzák meg. A blokk kimeneti kulcsokat a modul, a blokk példány azonosító és a blokkcsoport határozza meg.</translation></entry>
+<entry><string>Page Caching - allows you to enable page caching for certain user groups, set up session-less page caching, and configure auto-cache settings. Session-less page caching allows cached pages to be served before loading xarCore to users who do not have a session (new/first-time visitors). Auto-cache allows you to configure your site to dynamically enable session-less page caching for pages that hit certain page view thresholds.</string><translation>Oldal gyorstár - Lehetőséget biztosít az oldal gyorstárazás különböző felhasználói csoportokhoz való engedélyezésére, munkafolyamat nélküli gyorstárazás és az automatikus gyorstárazás beállítására. A munkafolyamat nélküli gyorstárazás lehetőséget biztosít gyorstárazott oldalak kiszolgálására a „xarCore” betöltése előtt, azok felé a felhasználók felé, akiknek még nincs munkafolyamat azonosító sütijük (első látogatás). Az automatikus gyorstárazás lehetőséget biztosít bizonyos oldalak automatikus felvételére a munkafolyamat nélküli gyorstárazási rendszerbe, amikor azok bizonyos mértékűnél nagyobb nézettséget érnek el.</translation></entry>
+<entry><string>Block Caching - provides a single view and management point of the output caching settings of all block instances.</string><translation>Blokk gyorstár - Egy egyszerű felületet biztosít a blokkok kimeneti gyorstárazásának példányonkénti beállítására.</translation></entry>
+<entry><string>Modify Config - allows you to set the values for the output cache system. Mouse over the setting titles for more information.</string><translation>Beállítások - A kimeneti gyorstár beállításainak szerkesztése. Az egeret a címsorok fölé mozgatva bővebb információkat kaphatunk.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>The xarCacheManager Module has no blocks included at this time.</string><translation>Nincsenek kapcsolódó blokkok.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>The xarCacheManager module provides create, update, delete and modify config API hooks and a modify GUI hook (currently only used for adding caching configuration administration to block instance modify pages). To activate these hooks, go to Admin panel -&gt; Modules -&gt; Configure Hooks and click on the xarcachemanager link. Select the modules you would like to enable the xarCacheManager hook functionality for (articles, categories, autolinks, blocks, html are likely candidates) and click the Save Changes button. Once hooked to xarCacheManager, when you create, update, or delete items of the module, or modify the configuration of a module, the call to the xarCacheManager hooks will flush the appropriate cache to insure that your changes will be instantly available on your site (not masked by cached output files).</string><translation>A Gyorstár kezelő modul „create”, „update”, „delete” és „modify config” API hurkokat és „modify” GUI hurkot biztosít (ez utóbbi jelenleg csak a blokkok beállításainál a gyorstárazási beállítások szerkesztésére biztosít lehetőséget).  A hurkok beállításához kattintsunk az Adminpanel -&gt; Modulok -&gt; Hurkok beállítása menüre, majd ott a „Gyorstár kezelő” sorra. Jelöljük be azokat a modulokat amelyeknél a gyorstárazási hurkokat engedélyezni szeretnénk (Cikkek, Kategóriák, Automatikus hivatkozások, Blokkok, HTML esetében általában hasznos), majd kattintsunk a „Változtatások mentése” gombra.</translation></entry>
+<entry><string>Additional Information</string><translation>További információk</translation></entry>
+<entry><string>Please note that page level output caching is not appropriate for sites that require the serving of dynamic content to anonymous users. Example: if each page contains data that changes every second and must be presented to the anonymous viewer in the latest state, you do not want to use page level output caching. However, if it is acceptable to present the data with changes no older than 1 minute, you can enable page level output caching and set the Cache Expiration Time to 60 seconds. If your site serves the same page 100 times per minute this will measurably reduce the load on your systems to do so.</string><translation>Az oldal szintű gyorstárazás nem megfelelő azokhoz az oldalakhoz, amelyek dinamikus tartalmat szolgálnak ki a nem bejelentkezett felhasználók számára. Példa: Nem megfelelő az oldal szintű gyorstárazás, ha minden oldal tartalmaz olyan információt, amely minden másodpercben frissül és a nem bejelentkezett felhasználóknak az aktuális tartalmat szeretnénk megjeleníteni. Amennyiben elfogadható az 1 percnél nem régebbi, nem aktuális adatok megjelenítése, beállíthatjuk az oldal szintű gyorstárazást, 1 perces lejárati idővel. Ha a weboldal egy percben százszor is megjeleníti az oldalt, ezzel jelentős teljesítmény igény csökkenést érhetünk el.</translation></entry>
+<entry><string>Page level output caching may also affect the expected behavior of certain aspects of Xaraya as cached pages are served without loading the modules. Example: the stats and opentracker modules will not accurately reflect the total number of page views your site receives because they are not invoked when serving cached pages. If your site is under heavy load that needs to be reduced, you may want to consider doing your site statistic tracking via the web server log files or a javascript based solution like that implemented by Hitbox or WebTrends Live, anyway. Either of these methods will accurately work with page level caching enabled.</string><translation>Az oldal szintű gyorstárazás a Xaraya működésének bizonyos jellemzőit is megváltoztathatja, ugyanis a megjelenítés a modulok valódi betöltése nélkül történik meg. Például: A Statisztikák vagy az Opentracker statisztika nem a valós oldalletöltési értékeket fogja mutatni, mivel ezek meghívása elmarad az oldalletöltéskor. Amennyiben a weboldal jelentős terhelésnek van kitéve, amelyet csökkenteni szeretnénk, megfontolandó a statisztikák elkészítése a webkiszolgáló naplófájljai alapján, vagy JavaScript alapú statisztika megoldással, mint például a „Hitbox” vagy a „WebTrends Live”. Ezek a módszerek az oldal szintű gyorstárazás esetén is pontos eredményeket szolgáltatnak.</translation></entry>
+<entry><string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configured to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string><translation></translation></entry>
+<entry><string>Page level and block level output caching can be used in tandem to reduce loads and improve page generation times on sites that serve both anonymous and non-anonymous audience members, or on sites with varying page and block level output caching requirements.</string><translation>Az oldal és a blokk szintű gyorstárazás keverve is használható az teljesítményigény csökkentésére és a az oldalak kiszolgálási idejének növelésére, olyan oldalaknál amelyeket bejelentkezett és nem bejelentkezett látogatók egyáránt használnak, vagy olyan oldalakon ahol változó oldal és blokk szintű gyorstárazásra van szükség.</translation></entry>
+<entry><string>TODO List</string><translation>Tennivalók</translation></entry>
+<entry><string>General caching related:</string><translation>Általános gyorstárazás:</translation></entry>
+<entry><string>Support multisite configurations.</string><translation>A „Multisite” telepítések támogatása.</translation></entry>
+<entry><string>Provide data caching API.</string><translation>Adat gyorstárazási API elkészítése.</translation></entry>
+<entry><string>Provide an output cache file browser, like the template cache file browser in SiteTools.</string><translation>Egy kimenet gyorstárazott fájl böngésző elkészítése, a Weblap Eszközök modul sablonfájl böngészőjéhez hasonlóan.</translation></entry>
+<entry><string>Refactor, refactor, refactor.</string><translation>Átdolgozás, átdolgozás és átdolgozás.</translation></entry>
+<entry><string>Page level output caching related:</string><translation>Oldal szintű kimenet gyorstárazás:</translation></entry>
+<entry><string>Support itemtype as a 'name' between cacheKey and page when available.</string><translation>Az elemtípus támogatása „name”-ként a kulcsok között, ha elérhető.</translation></entry>
+<entry><string>Provide Scheduler, getfile/link integration for pre-population of output cache.</string><translation>Ütemező biztosítása, fájl/hivatkozás integráció a kimeneti gyorstár előtöltésére.</translation></entry>
+<entry><string>Analyze Slashdot and Google News use of 304 &amp;amp; ETag HTTP headers and rework our use of these headers based on findings.</string><translation>A Slashdot és a Google News 304 és ETag HTTP fejléceinek elemzése és a kimeneti HTTP fejlécek átdolgozása az összegyűjtött információk alapján.</translation></entry>
+<entry><string>Block/module level output caching related:</string><translation>Blokk és modul szintű kimeneti gyorstárazás:</translation></entry>
+<entry><string>Add module output caching functions, reutilizing xarBlock*Cached functions when appropriate.</string><translation>A modul kimeneti gyorstár funkciók elkészítése, a blokk gyorstárazási funkciók felhasználásával, ahol ez lehetséges.</translation></entry>
+<entry><string>Add xarMod*Cached() calls in xarModFunc().</string><translation>A „xarMod*Cached()” hívások hozzáadása a „xarModFunc()” hívásokhoz.</translation></entry>
+<entry><string>Provide Admin GUI hooks to modules beyond Blocks for the configuration of per module output cache settings.</string><translation>Adminisztrálási GUI hurkok elkészítése a modulokhoz, a modulonkénti gyorstárazási beállítások szerkesztéséhez.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the xarcachemanager module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>xarcachemanager Extension page at</string><translation>A Gyorstár kezelő modul bővítmény oldala</translation></entry>
+<entry><string>xarcachemanager Module - Xaraya Extension 1652</string><translation>Gyorstár kezelő modul - Xaraya bővítmény: 1652</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on xarcachemanager found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on xarcachemanager</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>xarcachemanager Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

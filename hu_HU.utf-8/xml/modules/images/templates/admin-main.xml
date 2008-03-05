@@ -1,196 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Images is a Xaraya Utility Module.</string>
-		<translation>A Képek egy Xaraya segédmodul.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="15"/>
-		</references>
-	</entry>
-	<entry>
-		<string>It is currently responsible for basic image manipulation, including the following:</string>
-		<translation>Feladata az alapvető képmanipuláció, beleértve az alábbiakat:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Resize Image files</string>
-		<translation>Képfájlok átméretezése</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Crop image files</string>
-		<translation>Képfájlok kivágása</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Rotate image files</string>
-		<translation>Képfájlok elforgatása</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="20"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Add text to an image file (think buttons here...)</string>
-		<translation>Szöveg hozzáadása egy képfájlhoz (például nyomógombok...)</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Image Tags</string>
-		<translation>Képkezelési kulcsszavak</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The IMAGE tag is useful for displaying (cached) images at different proportions. Images are resized according
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>Images is a Xaraya Utility Module.</string><translation>A Képek egy Xaraya segédmodul.</translation></entry>
+<entry><string>It is currently responsible for basic image manipulation, including the following:</string><translation>Feladata az alapvető képmanipuláció, beleértve az alábbiakat:</translation></entry>
+<entry><string>Resize Image files</string><translation>Képfájlok átméretezése</translation></entry>
+<entry><string>Crop image files</string><translation>Képfájlok kivágása</translation></entry>
+<entry><string>Rotate image files</string><translation>Képfájlok elforgatása</translation></entry>
+<entry><string>Add text to an image file (think buttons here...)</string><translation>Szöveg hozzáadása egy képfájlhoz (például nyomógombok...)</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>Image Tags</string><translation>Képkezelési kulcsszavak</translation></entry>
+<entry><string>The IMAGE tag is useful for displaying (cached) images at different proportions. Images are resized according
 to the height/width values you specify with the resulting image cached for faster displaying later on. Note: Any other attribute
-not listed will be passed directly on to the resultant &amp;lt;img&amp;gt; tag.</string>
-		<translation>Az „IMAGE” kulcsszó használható a (letárolt) képek különböző méretben történő megjelenítéséhez. A képek átméretezhetőek a megfelelő szélesség/magasság értékek megadásával, amelynek során a tárolásra is kerülnek a későbbi gyorsabb megjelenítés érdekében. Megjegyzés: minden egyéb nem részletezett tulajdonság közvetlenül átadásra kerül az &amp;lt;img&amp;gt; kulcsszónak.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Examples:
+not listed will be passed directly on to the resultant &amp;lt;img&amp;gt; tag.</string><translation>Az „IMAGE” kulcsszó használható a (letárolt) képek különböző méretben történő megjelenítéséhez. A képek átméretezhetőek a megfelelő szélesség/magasság értékek megadásával, amelynek során a tárolásra is kerülnek a későbbi gyorsabb megjelenítés érdekében. Megjegyzés: minden egyéb nem részletezett tulajdonság közvetlenül átadásra kerül az &amp;lt;img&amp;gt; kulcsszónak.</translation></entry>
+<entry><string>Examples:
 &lt;p&gt;
 Resize an image's width while keeping the proportions:&lt;br /&gt;
 &lt;br /&gt;
 &amp;lt;xar:image-resize src="23" width="92px" constrain="1" label="my logo" /&amp;gt;
-&lt;/p&gt;</string>
-		<translation>Például: &lt;p&gt;átméretezi a kép szélességét az arányok megtartásával:&lt;br /&gt;&lt;br /&gt;&amp;lt;xar:image-resize src="23" width="92px" constrain="1" label="my logo" /&amp;gt; &lt;/p&gt;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="50"/>
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;p&gt;
+&lt;/p&gt;</string><translation>Például: &lt;p&gt;átméretezi a kép szélességét az arányok megtartásával:&lt;br /&gt;&lt;br /&gt;&amp;lt;xar:image-resize src="23" width="92px" constrain="1" label="my logo" /&amp;gt; &lt;/p&gt;</translation></entry>
+<entry><string>&lt;p&gt;
 Apply some pre-defined image processing (e.g. watermark):&lt;br /&gt;
 &lt;br /&gt;
 &amp;lt;xar:image-resize src="test/image.jpg" setting="JPEG 800 x 600" label="my image" /&amp;gt;
-&lt;/p&gt;</string>
-		<translation>&lt;p&gt;Valamilyen előre meghatározott feldolgozás alkalmazása (pl.: vízjel):&lt;br /&gt;&lt;br /&gt;&amp;lt;xar:image-resize src="test/image.jpg" setting="JPEG 800 x 600" label="én képem" /&amp;gt; &lt;/p&gt;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="57"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="60"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks.</string>
-		<translation>Nincsenek kapcsolódó blokkok.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="63"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="66"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Upgrade from version 1.0.0</string>
-		<translation>Frissítés az 1.0.0 változatról</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="73"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The naming convention for derivative images has changed since version 1.0.0. So you can delete the old derivative images, and new derivative images will be created as needed in the same directory...</string>
-		<translation>Az 1.0.0 változtattól a származék képek elnevezési rendszere megváltozott. A régi származék képek törölhetőek, a modul új képeket fog létrehozni ugyanabban a könyvtárban.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="76"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="79"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Extended information about this module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="81"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Images Module - Xaraya Extension 152</string>
-		<translation>Képek modul - Xaraya bővítmény: 152</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="81"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="84"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Images found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="86"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Images</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="86"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="86"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Images module - Overview</string>
-		<translation>Képek modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="90"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="90"/>
-		</references>
-	</entry>
+&lt;/p&gt;</string><translation>&lt;p&gt;Valamilyen előre meghatározott feldolgozás alkalmazása (pl.: vízjel):&lt;br /&gt;&lt;br /&gt;&amp;lt;xar:image-resize src="test/image.jpg" setting="JPEG 800 x 600" label="én képem" /&amp;gt; &lt;/p&gt;</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>There are no included blocks.</string><translation>Nincsenek kapcsolódó blokkok.</translation></entry>
+<entry><string>Privileges</string><translation>Jogosultságok</translation></entry>
+<entry><string>The Images module only has the Admin privilege to assign. You will need this level if you want to set the general settings for the Images module.
+The Images module interacts with the uploads module, so make sure you set appropriate levels for that module as well.
+Take special note on the approval of files in the uploads module. Only files that have been approved will normally be accessible by standard users, or you need to assign them the EDIT privilege for the uploads.</string><translation>A Képek modulhoz csak az Adminisztrálás jogosultsági szintet rendelhetjük. Ez a jogosultság lehetővé teszi a Képek modul beállításainak szerkesztését. Mivel a Képek modul együttműködik a Feltöltések modullal, ahhoz is adjuk meg a szükséges jogosultságokat. Különösen figyeljünk a jóváhagyás beállításra a Feltöltéseknél. Egyszerű felhasználók számára csak a jóváhagyott fájlok lesznek elérhetőek, vagy biztosítanunk kell számukra a Szerkesztés jogosultsági szintet a Feltöltésekhez.</translation></entry>
+<entry><string>Upgrade from version 1.0.0</string><translation>Frissítés az 1.0.0 változatról</translation></entry>
+<entry><string>The naming convention for derivative images has changed since version 1.0.0. So you can delete the old derivative images, and new derivative images will be created as needed in the same directory...</string><translation>Az 1.0.0 változtattól a származék képek elnevezési rendszere megváltozott. A régi származék képek törölhetőek, a modul új képeket fog létrehozni ugyanabban a könyvtárban.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Extended information about this module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Images Module - Xaraya Extension 152</string><translation>Képek modul - Xaraya bővítmény: 152</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Images found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on Images</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>Images module - Overview</string><translation>Képek modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

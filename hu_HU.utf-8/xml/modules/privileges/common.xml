@@ -1,506 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Delete this Privilege</string>
-		<translation>Jogosultság törlése</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="224"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Groups/Users this Privilege is assigned to</string>
-		<translation>A jogosultsághoz rendelt Csoportok és Felhasználók  megjelenítése</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="237"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Remove this privilege from its parent</string>
-		<translation>Jogosultság eltávolítása a szülő jogosultságból.</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="253"/>
-		</references>
-	</entry>
-	<entry>
-		<string>components</string>
-		<translation>összetevő</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="288"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Refresh</string>
-		<translation>Frissítés</translation>
-		<references>
-			<reference file="modules/privileges/xaradmin/modifyprivilege.php" line="130"/>
-			<reference file="modules/privileges/xaradmin/viewprivileges.php" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There is already a realm with the name #(1)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xaradmin/modifyrealm.php" line="45"/>
-			<reference file="modules/privileges/xaradmin/newrealm.php" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>View Privileges</string>
-		<translation>Jogosultságok megjelenítése</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="30"/>
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="24"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-menu.xd" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Add Privilege</string>
-		<translation>Új jogosultság</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="38"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="34"/>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="60"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="154"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-menu.xd" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Manage Realms</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="46"/>
-			<reference file="modules/privileges/xartemplates/admin-viewrealms.xd" line="34"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-menu.xd" line="34"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-realms.xd" line="6"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config</string>
-		<translation>Beállítások</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="54"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-menu.xd" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Administration</string>
-		<translation>Jogosultságok adminisztrálása</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/menu.php" line="22"/>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="5"/>
-			<reference file="modules/privileges/xartemplates/admin-deleterealm.xd" line="3"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="26"/>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="3"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="9"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="26"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyrealm.xd" line="3"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="25"/>
-			<reference file="modules/privileges/xartemplates/admin-newrealm.xd" line="3"/>
-			<reference file="modules/privileges/xartemplates/admin-removerole.xd" line="6"/>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="6"/>
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="19"/>
-			<reference file="modules/privileges/xartemplates/admin-viewrealms.xd" line="3"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Used in</string>
-		<translation>Használatban a következőkben:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="18"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="38"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="37"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Show this privilege</string>
-		<translation>Jogosultság megjelenítése</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="24"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="44"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="43"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="46"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Choose an action to perform on this privilege</string>
-		<translation>A jogosultságon elvégzendő művelet kiválasztása.</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="35"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="55"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="54"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="59"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Manage privilege</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="36"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="56"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="55"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="60"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Display</string>
-		<translation>Megjelenítés</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="39"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="59"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="58"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="64"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify</string>
-		<translation>Szerkesztés</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="42"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="62"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="61"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="69"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Törlés</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="45"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="65"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="119"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="64"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="211"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="213"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="262"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="268"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Groups/Users</string>
-		<translation>Csoportok/Felhasználók</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="48"/>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="68"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="67"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="79"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Cancel</string>
-		<translation>Mégsem</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="66"/>
-			<reference file="modules/privileges/xartemplates/admin-removerole.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Privilege properties</string>
-		<translation>Jogosultság tulajdonságai</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="74"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Name:</string>
-		<translation>Név:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="76"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="78"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="89"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyrealm.xd" line="21"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="40"/>
-			<reference file="modules/privileges/xartemplates/admin-newrealm.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Realm:</string>
-		<translation>Tartomány:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="87"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="124"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="103"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Module:</string>
-		<translation>Modul:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="92"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="142"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="124"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Component:</string>
-		<translation>Komponens:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="97"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="157"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="144"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Level:</string>
-		<translation>Jogosultsági szint:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="102"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="172"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="164"/>
-		</references>
-	</entry>
-	<entry>
-		<string>None</string>
-		<translation>Nincs jogosultság</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="105"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="176"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="178"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="171"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="177"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="107"/>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="10"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="181"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="183"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="184"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="190"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-menu.xd" line="49"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Read</string>
-		<translation>Olvasás</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="109"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="186"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="188"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="197"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="203"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Comment</string>
-		<translation>Hozzászólás</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="111"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="191"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="193"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="210"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="216"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Moderate</string>
-		<translation>Moderálás</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="113"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="196"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="198"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="223"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="229"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Edit</string>
-		<translation>Szerkesztés</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="115"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="201"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="203"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="236"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="242"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Add</string>
-		<translation>Hozzáadás</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="117"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="206"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="208"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="301"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="249"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="255"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="336"/>
-			<reference file="modules/privileges/xartemplates/admin-newrealm.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Admin</string>
-		<translation>Adminisztrálás</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="121"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="216"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="218"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="275"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="281"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The Components of '#(1)':</string>
-		<translation>„#(1)” összetevői:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-displayprivilege.xd" line="136"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="277"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Realms</string>
-		<translation>Tartományok</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="111"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="44"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyconfig.xd" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>empty</string>
-		<translation>üres</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="97"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="111"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="50"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="67"/>
-		</references>
-	</entry>
-	<entry>
-		<string>with rights</string>
-		<translation>jogosultságokkal</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="104"/>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="117"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="58"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="75"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Component to which this privilege applies</string>
-		<translation>Az elem amelyre ez a jogosultság érvényes</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="156"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="141"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Allow instances of component #(1) that have:</string>
-		<translation>Azon #(1) komponensek példányainak engedélyezése amelyek:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="227"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="293"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Use Wizard</string>
-		<translation>Varázsló használata</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="261"/>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="323"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Remove</string>
-		<translation>Törlés</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="336"/>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Name of the realm</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-modifyrealm.xd" line="18"/>
-			<reference file="modules/privileges/xartemplates/admin-newrealm.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Add Realm</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newrealm.xd" line="15"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-realms.xd" line="26"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This privilege is not assigned to any user or group.</string>
-		<translation>Ez a jogosultság egyetlen felhasználóhoz vagy csoporthoz sincs hozzárendelve</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="17"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="89"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Type</string>
-		<translation>Típus</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="23"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="95"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Name</string>
-		<translation>Név</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="26"/>
-			<reference file="modules/privileges/xartemplates/admin-viewrealms.xd" line="14"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="98"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Remove this Privilege assignment</string>
-		<translation>Jogosultság hozzárendelés törlése</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="39"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="119"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Current Privileges</string>
-		<translation>Jelenlegi jogosultságok</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="52"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="149"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Actions</string>
-		<translation>Műveletek</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-viewrealms.xd" line="17"/>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="101"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Assigned</string>
-		<translation>Csak a hozzárendeltek</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="166"/>
-			<reference file="modules/privileges/xartemplates/includes/tablist.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>All</string>
-		<translation>Mind</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="175"/>
-			<reference file="modules/privileges/xartemplates/includes/tablist.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Choose an action to perform</string>
-		<translation>Az elvégzendő művelet kiválasztása</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/includes/admin-menu.xd" line="7"/>
-			<reference file="modules/privileges/xartemplates/includes/admin-realms.xd" line="10"/>
-		</references>
-	</entry>
+<entry><string>Delete this Privilege</string><translation>Jogosultság törlése</translation></entry>
+<entry><string>Show the Groups/Users this Privilege is assigned to</string><translation>A jogosultsághoz rendelt Csoportok és Felhasználók  megjelenítése</translation></entry>
+<entry><string>Remove this privilege from its parent</string><translation>Jogosultság eltávolítása a szülő jogosultságból.</translation></entry>
+<entry><string>components</string><translation>összetevő</translation></entry>
+<entry><string>Privileges Administration</string><translation>Jogosultságok adminisztrálása</translation></entry>
+<entry><string>Used in</string><translation>Használatban a következőkben:</translation></entry>
+<entry><string>Show this privilege</string><translation>Jogosultság megjelenítése</translation></entry>
+<entry><string>Choose an action to perform on this privilege</string><translation>A jogosultságon elvégzendő művelet kiválasztása.</translation></entry>
+<entry><string>Manage privilege</string><translation>Jogosultság kezelése</translation></entry>
+<entry><string>Display</string><translation>Megjelenítés</translation></entry>
+<entry><string>Modify</string><translation>Szerkesztés</translation></entry>
+<entry><string>Delete</string><translation>Törlés</translation></entry>
+<entry><string>Groups/Users</string><translation>Csoportok/Felhasználók</translation></entry>
+<entry><string>Cancel</string><translation>Mégsem</translation></entry>
+<entry><string>Privilege properties</string><translation>Jogosultság tulajdonságai</translation></entry>
+<entry><string>Name:</string><translation>Név:</translation></entry>
+<entry><string>empty</string><translation>üres</translation></entry>
+<entry><string>with rights</string><translation>jogosultságokkal</translation></entry>
+<entry><string>Realm:</string><translation>Tartomány:</translation></entry>
+<entry><string>Module:</string><translation>Modul:</translation></entry>
+<entry><string>Component to which this privilege applies</string><translation>Az elem amelyre ez a jogosultság érvényes</translation></entry>
+<entry><string>Component:</string><translation>Komponens:</translation></entry>
+<entry><string>Level:</string><translation>Jogosultsági szint:</translation></entry>
+<entry><string>None</string><translation>Nincs jogosultság</translation></entry>
+<entry><string>Overview</string><translation>Áttekintés</translation></entry>
+<entry><string>Read</string><translation>Olvasás</translation></entry>
+<entry><string>Comment</string><translation>Hozzászólás</translation></entry>
+<entry><string>Moderate</string><translation>Moderálás</translation></entry>
+<entry><string>Edit</string><translation>Szerkesztés</translation></entry>
+<entry><string>Add</string><translation>Hozzáadás</translation></entry>
+<entry><string>Admin</string><translation>Adminisztrálás</translation></entry>
+<entry><string>Allow instances of component #(1) that have:</string><translation>Azon #(1) komponensek példányainak engedélyezése amelyek:</translation></entry>
+<entry><string>Use Wizard</string><translation>Varázsló használata</translation></entry>
+<entry><string>The Components of '#(1)':</string><translation>„#(1)” összetevői:</translation></entry>
+<entry><string>Remove</string><translation>Törlés</translation></entry>
+<entry><string>Add Privilege</string><translation>Új jogosultság</translation></entry>
+<entry><string>This privilege is not assigned to any user or group.</string><translation>Ez a jogosultság egyetlen felhasználóhoz vagy csoporthoz sincs hozzárendelve</translation></entry>
+<entry><string>Type</string><translation>Típus</translation></entry>
+<entry><string>Name</string><translation>Név</translation></entry>
+<entry><string>Remove this Privilege assignment</string><translation>Jogosultság hozzárendelés törlése</translation></entry>
+<entry><string>Current Privileges</string><translation>Jelenlegi jogosultságok</translation></entry>
+<entry><string>View Privileges</string><translation>Jogosultságok megjelenítése</translation></entry>
+<entry><string>Actions</string><translation>Műveletek</translation></entry>
+<entry><string>Assigned</string><translation>Csak a hozzárendeltek</translation></entry>
+<entry><string>All</string><translation>Mind</translation></entry>
+<entry><string>Realms</string><translation>Tartományok</translation></entry>
+<entry><string>Name of the realm</string><translation>Tartomány neve</translation></entry>
+<entry><string>Add Realm</string><translation>Új tartomány</translation></entry>
+<entry><string>Manage Realms</string><translation>Tartományok kezelése</translation></entry>
+<entry><string>Refresh</string><translation>Frissítés</translation></entry>
+<entry><string>There is already a realm with the name #(1)</string><translation>Már létezik tartomány ezzel a névvel (#(1)).</translation></entry>
+<entry><string>Modify Config</string><translation>Beállítások</translation></entry>
+<entry><string>Choose an action to perform</string><translation>Az elvégzendő művelet kiválasztása</translation></entry>
 </translations>

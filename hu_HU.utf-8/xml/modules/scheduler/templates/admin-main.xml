@@ -1,199 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This module allows you to schedule Xaraya jobs at certain times of the day/week/month (cron)</string>
-		<translation>Az Ütemező modul lehetővé teszi bizonyos Xaraya feladatok időzített futtatását, meghatározott napokon, heteken, hónapokban (crontab).</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Those jobs could be for instance :</string>
-		<translation>Ilyen feladatok lehetnek például:</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>sending a daily digest mail</string>
-		<translation>napi kivonat levelek elküldése</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>expiring temporary user passwords</string>
-		<translation>ideiglenes felhasználói jelszavak érvénytelenítése</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>escalating a workflow process</string>
-		<translation>egy munkafolyamat feldolgozásának kiterjesztése</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="31"/>
-		</references>
-	</entry>
-	<entry>
-		<string>doing a backup of the database</string>
-		<translation>adatbázis mentés</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="34"/>
-		</references>
-	</entry>
-	<entry>
-		<string>refreshing cache files</string>
-		<translation>gyorstár fájlok frissítése</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="37"/>
-		</references>
-	</entry>
-	<entry>
-		<string>...</string>
-		<translation>...</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="40"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The scheduler module relies on other modules to actually execute
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>This module allows you to schedule Xaraya jobs at certain times of the day/week/month (cron)</string><translation>Az Ütemező modul lehetővé teszi bizonyos Xaraya feladatok időzített futtatását, meghatározott napokon, heteken, hónapokban (crontab).</translation></entry>
+<entry><string>Those jobs could be for instance :</string><translation>Ilyen feladatok lehetnek például:</translation></entry>
+<entry><string>sending a daily digest mail</string><translation>napi kivonat levelek elküldése</translation></entry>
+<entry><string>expiring temporary user passwords</string><translation>ideiglenes felhasználói jelszavak érvénytelenítése</translation></entry>
+<entry><string>escalating a workflow process</string><translation>egy munkafolyamat feldolgozásának kiterjesztése</translation></entry>
+<entry><string>doing a backup of the database</string><translation>adatbázis mentés</translation></entry>
+<entry><string>refreshing cache files</string><translation>gyorstár fájlok frissítése</translation></entry>
+<entry><string>...</string><translation>...</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>The scheduler module relies on other modules to actually execute
 whatever jobs are scheduled, so first you need to find out
-which &lt;b&gt;module functions&lt;/b&gt; can be scheduled.</string>
-		<translation>Az Ütemező csak más modulok által biztosított feladatokat képes futtatni, tehát először meg kell keresnünk, melyik modul milyen ütemezhető funkciókat biztosít.</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="52"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Then you need some kind of &lt;b&gt;trigger&lt;/b&gt; to wake up the scheduler -
+which &lt;b&gt;module functions&lt;/b&gt; can be scheduled.</string><translation>Az Ütemező csak más modulok által biztosított feladatokat képes futtatni, tehát először meg kell keresnünk, melyik modul milyen ütemezhető funkciókat biztosít.</translation></entry>
+<entry><string>Then you need some kind of &lt;b&gt;trigger&lt;/b&gt; to wake up the scheduler -
 this can be done e.g. by requesting a specific webpage automatically
 from your own system via a Unix cron entry or Windows AT command,
 or via a web-based scheduler service like &lt;a href="http://webcron.org/"&gt;http://webcron.org/&lt;/a&gt;,
 or (if you really have no other choice) by relying on web hits from your
-visitors if your site is relatively busy.</string>
-		<translation>Szükség van egy &lt;b&gt;indítóra&lt;/b&gt; is, amely időnként jelzést küld az Ütemezőnek. Ez lehet egy URL cím lehívása az operációs rendszer időzítőjéből (Unix cron, Windows at parancs) vagy egy web alapú időzítőről mint például a &lt;a href="http://webcron.org/"&gt;http://webcron.org/&lt;/a&gt;. Az ütemező indítható a Xaraya látogatói általi kattintásokkal is, ha a weboldal elég forgalmas és nincs más lehetőségünk.</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="68"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The rest will be handled by the scheduler module :-)</string>
-		<translation>Minden mást az ütemező elvégez. :-)</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="71"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="74"/>
-		</references>
-	</entry>
-	<entry>
-		<string>trigger block</string>
-		<translation>trigger: indító blokk</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="78"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="83"/>
-		</references>
-	</entry>
-	<entry>
-		<string>to be defined</string>
-		<translation>később</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="87"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="91"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the Scheduler module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="94"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Example Extension page at</string>
-		<translation>A Minta modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="97"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Scheduler Module - Xaraya Extension 189</string>
-		<translation>Ütemező modul - Xaraya bővítmény: 189</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="97"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="98"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Scheduler found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="100"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Scheduler</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="100"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="100"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Scheduler Module Overview</string>
-		<translation>Ütemező modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/scheduler/xartemplates/admin-main.xd" line="104"/>
-		</references>
-	</entry>
+visitors if your site is relatively busy.</string><translation>Szükség van egy &lt;b&gt;indítóra&lt;/b&gt; is, amely időnként jelzést küld az Ütemezőnek. Ez lehet egy URL cím lehívása az operációs rendszer időzítőjéből (Unix cron, Windows at parancs) vagy egy web alapú időzítőről mint például a &lt;a href="http://webcron.org/"&gt;http://webcron.org/&lt;/a&gt;. Az ütemező indítható a Xaraya látogatói általi kattintásokkal is, ha a weboldal elég forgalmas és nincs más lehetőségünk.</translation></entry>
+<entry><string>The rest will be handled by the scheduler module :-)</string><translation>Minden mást az ütemező elvégez. :-)</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>Trigger block. This block will trigger the scheduler process.
+You can hide it from view, or let administrator see the progress. The block will
+then show the time the last trigger was run.</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>to be defined</string><translation>később</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the Scheduler module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Scheduler Extension page at</string><translation></translation></entry>
+<entry><string>Scheduler Module - Xaraya Extension 189</string><translation>Ütemező modul - Xaraya bővítmény: 189</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Scheduler found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on Scheduler</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>Scheduler Module Overview</string><translation>Ütemező modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

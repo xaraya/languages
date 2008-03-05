@@ -1,157 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>Overview</string>
-		<translation>Áttekintés</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="9"/>
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="10"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string>
-		<translation>Az AuthLDAP modul a felhasználok LDAP kiszolgálón keresztüli azonosítását teszi lehetővé. A modul a nevet és a jelszót a bejelentkezési képernyőről egy LDAP szerverhez továbbítja az azonosítás elvégzésére.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="13"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have one choice. "Modify Config".</string>
-		<translation>A menüből egyetlen lehetőség érhető el: "Beállítások".</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="19"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login. You can also setup the synchronization settings for LDAP groups.</string>
-		<translation>Beállítások: Erről az oldalról engedélyezhető, hogy az LDAP szerveren fiókkal rendelkező felhasználók automatikusan bekerüljenek a Xaraya adatbázisba és beléphessenek. Az LDAP csoportok szinkronizációja is beállítható.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Manually Sync Groups -- This will resynchronize the imported LDAP groups. It may be long the first time if you have lots of Xaraya users imported from LDAP, or lots of (sub)groups to import.</string>
-		<translation>Manuális csoportszinkronizálás: Újraszinkronizálja az importált LDAP csoportokat. Ez a művelet hosszú ideig eltarthat, ha sok Xaraya felhasználó került importálásra az LDAP-ból, vagy sok az importálandó csoport és alcsoport.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="22"/>
-		</references>
-	</entry>
-	<entry>
-		<string>To synchronize the groups, we recommand to setup a job entry in the scheduler module. You need to call the function in (module:authldap, type:admin, function:syncgroups). The module has some caching mecanism for LDAP user profiles, so you can run this job frequently, for example every 30 minutes, without fearing about resource usage.</string>
-		<translation>A csoportok szinkronizálásához javasolt egy ütemezett feladat beállítása az „Ütemező” modulban. A következő függvény meghívása szükséges: modul: authldap, típus: admin, függvény: syncgroups. A modul tartalmaz LDAP felhasználói profil gyorstárazást, tehát ezt az ütemezett feladatot sűrűn, akár 30 percenként is lefuttathatjuk, különösebb erőforrás igény nélkül.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks with the AuthLDAP Module</string>
-		<translation>Nincsenek kapcsolódó blokkok.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="30"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included Hooks with the AuthLDAP Module</string>
-		<translation>Nincsenek kapcsolódó hurkok.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="36"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="39"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further information on the AuthLDAP module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="41"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthLDAP Extension page at</string>
-		<translation>Az AuthLDAP azonosítás modul bővítmény oldala</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthLDAP Module - Xaraya Extension 50</string>
-		<translation>AuthLDAP azonosítás modul - Xaraya bővítmény: 50</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="44"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="45"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on AuthLDAP found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="47"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on AuthLDAP</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="47"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="47"/>
-		</references>
-	</entry>
-	<entry>
-		<string>AuthLDAP Module Overview</string>
-		<translation>AuthLDAP azonosítási modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="50"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="50"/>
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string><translation>Az AuthLDAP modul a felhasználok LDAP kiszolgálón keresztüli azonosítását teszi lehetővé. A modul a nevet és a jelszót a bejelentkezési képernyőről egy LDAP szerverhez továbbítja az azonosítás elvégzésére.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>From the menu, you have one choice. "Modify Config".</string><translation>A menüből egyetlen lehetőség érhető el: "Beállítások".</translation></entry>
+<entry><string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login. You can also setup the synchronization settings for LDAP groups.</string><translation>Beállítások: Erről az oldalról engedélyezhető, hogy az LDAP szerveren fiókkal rendelkező felhasználók automatikusan bekerüljenek a Xaraya adatbázisba és beléphessenek. Az LDAP csoportok szinkronizációja is beállítható.</translation></entry>
+<entry><string>Manually Sync Groups -- This will resynchronize the imported LDAP groups. It may be long the first time if you have lots of Xaraya users imported from LDAP, or lots of (sub)groups to import.</string><translation>Manuális csoportszinkronizálás: Újraszinkronizálja az importált LDAP csoportokat. Ez a művelet hosszú ideig eltarthat, ha sok Xaraya felhasználó került importálásra az LDAP-ból, vagy sok az importálandó csoport és alcsoport.</translation></entry>
+<entry><string>To synchronize the groups, we recommand to setup a job entry in the scheduler module. You need to call the function in (module:authldap, type:admin, function:syncgroups). The module has some caching mecanism for LDAP user profiles, so you can run this job frequently, for example every 30 minutes, without fearing about resource usage.</string><translation>A csoportok szinkronizálásához javasolt egy ütemezett feladat beállítása az „Ütemező” modulban. A következő függvény meghívása szükséges: modul: authldap, típus: admin, függvény: syncgroups. A modul tartalmaz LDAP felhasználói profil gyorstárazást, tehát ezt az ütemezett feladatot sűrűn, akár 30 percenként is lefuttathatjuk, különösebb erőforrás igény nélkül.</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>There are no included blocks with the AuthLDAP Module</string><translation>Nincsenek kapcsolódó blokkok.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>There are no included Hooks with the AuthLDAP Module</string><translation>Nincsenek kapcsolódó hurkok.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Further information on the AuthLDAP module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>AuthLDAP Extension page at</string><translation>Az AuthLDAP azonosítás modul bővítmény oldala</translation></entry>
+<entry><string>AuthLDAP Module - Xaraya Extension 50</string><translation>AuthLDAP azonosítás modul - Xaraya bővítmény: 50</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on AuthLDAP found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on AuthLDAP</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>AuthLDAP Module Overview</string><translation>AuthLDAP azonosítási modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

@@ -1,213 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>What is it?</string>
-		<translation>Mi ez?</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="12"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Censor is a Xaraya Utility Module.</string>
-		<translation>A Cenzúra egy Xaraya segédmodul.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="16"/>
-		</references>
-	</entry>
-	<entry>
-		<string>It is currently responsible for removing words and phrases deemed inappropriate from content displayed on your website.</string>
-		<translation>Jelenlegi feladata olyan szavak és kifejezések törlése a weboldalon, amelyeket nem találunk odaillőnek.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>You have the ability to add, delete, modify and view the censor words that you find offensive. In addition, in the modify config portion of your module, you can decide what to replace the words with, and the number of censor items to view at once.</string>
-		<translation>Lehetőségünk van olyan cenzúrázandó szavak felvételére, törlésére és szerkesztésére, amelyeket nem találunk a weboldalon elfogadhatónak. A modul beállításainál meghatározhatjuk, hogy ezeket a kifejezéseket mire cserélje le a program és beállíthatjuk az oldalanként megjelenített elemek számát.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="21"/>
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hogyan kell használni?</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="24"/>
-		</references>
-	</entry>
-	<entry>
-		<string>The administrative menu choices for this module are:</string>
-		<translation>A modul menüelemei:</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>view words that are currently being censored</string>
-		<translation>Cenzúrázott kifejezések megjelenítése</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="38"/>
-		</references>
-	</entry>
-	<entry>
-		<string>this option is for adding words to be censored. The 'Add' page contains the following fields:</string>
-		<translation>lehetőséget biztosít a törlésre szánt szavak felvételére. A „Felvétel” oldal a következő mezőket tartalmazza:</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="49"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Keyword - the word to be censored</string>
-		<translation>Kulcsszó: a cenzúrázandó kifejezés</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="55"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Case sensitive - this option declares whether or not upper of lower case letters are taken into consideration in the censoring process</string>
-		<translation>Kis- és nagybetűk különböznek: meghatározza, hogy a cenzúrázáskor a kifejezésnek kis- és nagybetűk szempontjából is meg kell e felelnie a beírt kulcsszónak.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="60"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Match Case - this provides the following options:</string>
-		<translation>Egyezés: A következő lehetőségek állnak rendelkezésre:</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="65"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Exact - replace ONLY the exact word</string>
-		<translation>Pontos egyezés: csak pontosan a beírt szó kerül cenzúrázásra</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="71"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Start with - replace only words STARTING with the censored word</string>
-		<translation>Szó elején szerepel: csak a beírt szóval kezdődő kifejezések kerülnek cenzúrázásra</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="76"/>
-		</references>
-	</entry>
-	<entry>
-		<string>End with - replace only words ENDING with the censored word</string>
-		<translation>Szó végén szerepel: csak a beírt szövegre végződő kifejezések kerülnek cenzúrázásra</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="81"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Everywhere - replace the censored word regardless of where it occurs (beginning, ending, middle, or by its self</string>
-		<translation>Bárhol szerepelhet: előfordulás helyétől függetlenül cenzúrázásra kerül a beírt szó (kezdet, vég, középen vagy maga a szó)</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="86"/>
-		</references>
-	</entry>
-	<entry>
-		<string>- this page currently has two fields:</string>
-		<translation>- ezen az oldalon két mező található:</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="98"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Replace String - what you will replace the censored word with</string>
-		<translation>Csereszöveg: A szöveg amelyre a cenzúrázott szavak kicserélésre kerülnek</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="103"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation>Kapcsolódó blokkok</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="113"/>
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks.</string>
-		<translation>Nincsenek kapcsolódó blokkok.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="116"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation>Kapcsolódó hurkok</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="119"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Transform hook allows you to choose which modules you want to censor and which you do not.</string>
-		<translation>Az átalakító hurok lehetőséget biztosít a cenzúrázandó modulok kiválasztására.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="122"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information</string>
-		<translation>További információk</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="124"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Extended information about this module can be found at</string>
-		<translation>További információk a modulról:</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="126"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Censor Module - Xaraya Extension 776</string>
-		<translation>Cenzúra modul - Xaraya bővítmény: 776</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="126"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Click on Version History tab at the bottom to get the latest release information.</string>
-		<translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="129"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related tutorials and documentation on Censor found at</string>
-		<translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="131"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Related documentation on Censor</string>
-		<translation>A modulhoz kapcsolódó dokumentáció.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="131"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya Documentation.</string>
-		<translation>Xaraya dokumentáció.</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="131"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Censor module - Overview</string>
-		<translation>Cenzúra modul - Áttekintés</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="135"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Version</string>
-		<translation>Változat</translation>
-		<references>
-			<reference file="modules/censor/xartemplates/admin-main.xd" line="135"/>
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Mi ez?</translation></entry>
+<entry><string>Censor is a Xaraya Utility Module.</string><translation>A Cenzúra egy Xaraya segédmodul.</translation></entry>
+<entry><string>It is currently responsible for removing words and phrases deemed inappropriate from content displayed on your website.</string><translation>Jelenlegi feladata olyan szavak és kifejezések törlése a weboldalon, amelyeket nem találunk odaillőnek.</translation></entry>
+<entry><string>You have the ability to add, delete, modify and view the censor words that you find offensive. In addition, in the modify config portion of your module, you can decide what to replace the words with, and the number of censor items to view at once.</string><translation>Lehetőségünk van olyan cenzúrázandó szavak felvételére, törlésére és szerkesztésére, amelyeket nem találunk a weboldalon elfogadhatónak. A modul beállításainál meghatározhatjuk, hogy ezeket a kifejezéseket mire cserélje le a program és beállíthatjuk az oldalanként megjelenített elemek számát.</translation></entry>
+<entry><string>How to use it?</string><translation>Hogyan kell használni?</translation></entry>
+<entry><string>The administrative menu choices for this module are:</string><translation>A modul menüelemei:</translation></entry>
+<entry><string>view words that are currently being censored</string><translation>Cenzúrázott kifejezések megjelenítése</translation></entry>
+<entry><string>this option is for adding words to be censored. The 'Add' page contains the following fields:</string><translation>lehetőséget biztosít a törlésre szánt szavak felvételére. A „Felvétel” oldal a következő mezőket tartalmazza:</translation></entry>
+<entry><string>Keyword - the word to be censored</string><translation>Kulcsszó: a cenzúrázandó kifejezés</translation></entry>
+<entry><string>Case sensitive - this option declares whether or not upper of lower case letters are taken into consideration in the censoring process</string><translation>Kis- és nagybetűk különböznek: meghatározza, hogy a cenzúrázáskor a kifejezésnek kis- és nagybetűk szempontjából is meg kell e felelnie a beírt kulcsszónak.</translation></entry>
+<entry><string>Match Case - this provides the following options:</string><translation>Egyezés: A következő lehetőségek állnak rendelkezésre:</translation></entry>
+<entry><string>Exact - replace ONLY the exact word</string><translation>Pontos egyezés: csak pontosan a beírt szó kerül cenzúrázásra</translation></entry>
+<entry><string>Start with - replace only words STARTING with the censored word</string><translation>Szó elején szerepel: csak a beírt szóval kezdődő kifejezések kerülnek cenzúrázásra</translation></entry>
+<entry><string>End with - replace only words ENDING with the censored word</string><translation>Szó végén szerepel: csak a beírt szövegre végződő kifejezések kerülnek cenzúrázásra</translation></entry>
+<entry><string>Everywhere - replace the censored word regardless of where it occurs (beginning, ending, middle, or by its self</string><translation>Bárhol szerepelhet: előfordulás helyétől függetlenül cenzúrázásra kerül a beírt szó (kezdet, vég, középen vagy maga a szó)</translation></entry>
+<entry><string>- this page currently has two fields:</string><translation>- ezen az oldalon két mező található:</translation></entry>
+<entry><string>Replace String - what you will replace the censored word with</string><translation>Csereszöveg: A szöveg amelyre a cenzúrázott szavak kicserélésre kerülnek</translation></entry>
+<entry><string>Included Blocks</string><translation>Kapcsolódó blokkok</translation></entry>
+<entry><string>There are no included blocks.</string><translation>Nincsenek kapcsolódó blokkok.</translation></entry>
+<entry><string>Included Hooks</string><translation>Kapcsolódó hurkok</translation></entry>
+<entry><string>Transform hook allows you to choose which modules you want to censor and which you do not.</string><translation>Az átalakító hurok lehetőséget biztosít a cenzúrázandó modulok kiválasztására.</translation></entry>
+<entry><string>Further Information</string><translation>További információk</translation></entry>
+<entry><string>Extended information about this module can be found at</string><translation>További információk a modulról:</translation></entry>
+<entry><string>Censor Module - Xaraya Extension 776</string><translation>Cenzúra modul - Xaraya bővítmény: 776</translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation>A „Version History” fülre kattintva található információ a legfrissebb kiadásról.</translation></entry>
+<entry><string>Related tutorials and documentation on Censor found at</string><translation>A modulhoz kapcsolódó oktatóanyagok és dokumentáció:</translation></entry>
+<entry><string>Related documentation on Censor</string><translation>A modulhoz kapcsolódó dokumentáció.</translation></entry>
+<entry><string>Xaraya Documentation.</string><translation>Xaraya dokumentáció.</translation></entry>
+<entry><string>Censor module - Overview</string><translation>Cenzúra modul - Áttekintés</translation></entry>
+<entry><string>Version</string><translation>Változat</translation></entry>
 </translations>

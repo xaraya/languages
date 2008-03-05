@@ -1,383 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="hu_HU.utf-8">
-	<entry>
-		<string>SUCCESS</string>
-		<translation>SIKERES</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="4"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="29"/>
-		</references>
-	</entry>
-	<entry>
-		<string>FAILURE</string>
-		<translation>SIKERTELEN</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="9"/>
-		</references>
-	</entry>
-	<entry>
-		<string>CAUTION</string>
-		<translation>FIGYELMEZTETÉS</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="14"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Capabilities inventory</string>
-		<translation>Rendszerbeállítások ellenőrzése</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="18"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya requires a number of settings and extentions to be present and have
+<entry><string>SUCCESS</string><translation>SIKERES</translation></entry>
+<entry><string>FAILURE</string><translation>SIKERTELEN</translation></entry>
+<entry><string>CAUTION</string><translation>FIGYELMEZTETÉS</translation></entry>
+<entry><string>Capabilities inventory</string><translation>Rendszerbeállítások ellenőrzése</translation></entry>
+<entry><string>Xaraya requires a number of settings and extentions to be present and have
 a certain value.
 We have checked these and the results are listed below. Each check
-is marked as either:</string>
-		<translation>A Xaraya működéséhez számos beállítás és bővítmény megléte és helyes beállítása szükséges. Ezek ellenőrzése a képernyőn látható. Jelölések:</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="25"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ERROR</string>
-		<translation>HIBA</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please rectify the error to continue installation</string>
-		<translation>Hozzuk helyre a hibát és folytassuk a telepítést.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="27"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Ensure you understand the warning consequences</string>
-		<translation>Gondoljuk át a figyelmezetés elfogadásának következményeit.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="28"/>
-		</references>
-	</entry>
-	<entry>
-		<string>PHP Settings Check</string>
-		<translation>PHP beállítások ellenőrzése</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="33"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Xaraya has recommended settings for PHP. If your PHP settings do not meet requirements you may have difficulties in running install to completion.</string>
-		<translation>A Xarayához egy bizonyos PHP konfiguráció javasolt. Ha a telepített PHP beállításai ennek nem felelnek meg, problémákba ütközhetünk a telepítés során.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="42"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: PHP Version is greater than or equal to 4.1.2. Your PHP Version is #(1)</string>
-		<translation>SIKERES: 4.1.2-es vagy annál újabb PHP változat. A rendszer PHP változata: #(1)</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="55"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ERROR: PHP Version is less than 4.1.2. Your PHP Version is #(1) please upgrade PHP.</string>
-		<translation>HIBA: 4.1.2-nél régebbi PHP változat. A rendszer PHP változata: #(1), melynek frissítése szükséges.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="66"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
-The current memory limit is #(1).</string>
-		<translation>SIKERES: A Xarayának legalább 8 megabyte PHP memóriára van szüksége (16 MB vagy több erősen javasolt). A jelenlegi memória korlát #(1) MB.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="80"/>
-		</references>
-	</entry>
-	<entry>
-		<string>If you are planning to install modules during the install phase, a lot of memory is
-required. If in doubt, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
-		<translation>Ha a telepítés során több modul is telepítésre kerül, különösen sok memóriára lesz szükség. Ez elkerülhető, ha a telepítés során &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítjük, majd a további modulokat egyenként hozzáadjuk.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="88"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
-The current memory limit is &lt;strong&gt;#(1)&lt;/strong&gt;.</string>
-		<translation>FIGYELMEZTETÉS: A Xarayának legalább 8 megabyte PHP memóriára van szüksége (16 MB vagy több erősen javasolt). A jelenlegi memóriakorlát &lt;strong&gt;#(1) MB&lt;/strong&gt;.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="96"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please check your PHP memory limit. Installation requires a lot of memory especially if you are planning to install modules during this phase.
-If in doubt about your PHP memory limit, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string>
-		<translation>Ellenőrizzük a PHP memóriakorlátját. A telepítés során sok memóriára van szükség, különösen akkor ha több modul is telepítésre kerül. Ez elkerülhető, ha a telepítés során &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítjük, majd a további modulokat egyenként hozzáadjuk.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="104"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ERROR: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
-The current memory limit is #(1).</string>
-		<translation>HIBA: A Xarayának legalább 8 megabyte PHP memóriára van szüksége (16 MB vagy több erősen javasolt). A jelenlegi memóriakorlát #(1) MB.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="112"/>
-		</references>
-	</entry>
-	<entry>
-		<string>If you are planning to install modules during the install phase, a lot of memory is
-required. If in doubt, do a core only install and install modules manually later.</string>
-		<translation>Ha a telepítés során több modul is telepítésre kerül, különösen sok memóriára lesz szükség. Ez elkerülhető, ha a telepítés során &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítjük, majd a további modulokat egyenként hozzáadjuk.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="120"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: Your max_execution_time for a php script is set to #(1) seconds. 30 seconds is
+is marked as either:</string><translation>A Xaraya működéséhez számos beállítás és bővítmény megléte és helyes beállítása szükséges. Ezek ellenőrzése a képernyőn látható. Jelölések:</translation></entry>
+<entry><string>ERROR</string><translation>HIBA</translation></entry>
+<entry><string>Please rectify the error to continue installation</string><translation>Hozzuk helyre a hibát és folytassuk a telepítést.</translation></entry>
+<entry><string>Ensure you understand the warning consequences</string><translation>Gondoljuk át a figyelmezetés elfogadásának következményeit.</translation></entry>
+<entry><string>PHP Settings Check</string><translation>PHP beállítások ellenőrzése</translation></entry>
+<entry><string>Xaraya has recommended settings for PHP. If your PHP settings do not meet requirements you may have difficulties in running install to completion.</string><translation>A Xarayához egy bizonyos PHP konfiguráció javasolt. Ha a telepített PHP beállításai ennek nem felelnek meg, problémákba ütközhetünk a telepítés során.</translation></entry>
+<entry><string>SUCCESS: PHP Version is greater than or equal to 4.1.2. Your PHP Version is #(1)</string><translation>SIKERES: 4.1.2-es vagy annál újabb PHP változat. A rendszer PHP változata: #(1)</translation></entry>
+<entry><string>ERROR: PHP Version is less than 4.1.2. Your PHP Version is #(1) please upgrade PHP.</string><translation>HIBA: 4.1.2-nél régebbi PHP változat. A rendszer PHP változata: #(1), melynek frissítése szükséges.</translation></entry>
+<entry><string>SUCCESS: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is #(1).</string><translation>SIKERES: A Xarayának legalább 8 megabyte PHP memóriára van szüksége (16 MB vagy több erősen javasolt). A jelenlegi memória korlát #(1) MB.</translation></entry>
+<entry><string>If you are planning to install modules during the install phase, a lot of memory is
+required. If in doubt, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string><translation>Ha a telepítés során több modul is telepítésre kerül, különösen sok memóriára lesz szükség. Ez elkerülhető, ha a telepítés során &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítjük, majd a további modulokat egyenként hozzáadjuk.</translation></entry>
+<entry><string>WARNING: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is &lt;strong&gt;#(1)&lt;/strong&gt;.</string><translation>FIGYELMEZTETÉS: A Xarayának legalább 8 megabyte PHP memóriára van szüksége (16 MB vagy több erősen javasolt). A jelenlegi memóriakorlát &lt;strong&gt;#(1) MB&lt;/strong&gt;.</translation></entry>
+<entry><string>Please check your PHP memory limit. Installation requires a lot of memory especially if you are planning to install modules during this phase.
+If in doubt about your PHP memory limit, &lt;strong&gt;do a core only install&lt;/strong&gt; and install modules manually later.</string><translation>Ellenőrizzük a PHP memóriakorlátját. A telepítés során sok memóriára van szükség, különösen akkor ha több modul is telepítésre kerül. Ez elkerülhető, ha a telepítés során &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítjük, majd a további modulokat egyenként hozzáadjuk.</translation></entry>
+<entry><string>ERROR: Xaraya needs a MINIMUM of 8 Megabyte of PHP memory (16M or higher STRONGLY recommended).
+The current memory limit is #(1).</string><translation>HIBA: A Xarayának legalább 8 megabyte PHP memóriára van szüksége (16 MB vagy több erősen javasolt). A jelenlegi memóriakorlát #(1) MB.</translation></entry>
+<entry><string>If you are planning to install modules during the install phase, a lot of memory is
+required. If in doubt, do a core only install and install modules manually later.</string><translation>Ha a telepítés során több modul is telepítésre kerül, különösen sok memóriára lesz szükség. Ez elkerülhető, ha a telepítés során &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítjük, majd a további modulokat egyenként hozzáadjuk.</translation></entry>
+<entry><string>WARNING: Your max_execution_time for a php script is set to #(1) seconds. 30 seconds is
 usually sufficient but you may want to increase it for a full distribution install. How much time
 you need will depend on your system and number of modules you choose during this installation.
 If in doubt about your maximum (script) execution time, &lt;strong&gt;do a core only install&lt;/strong&gt;
-and install modules manually later.</string>
-		<translation>FIGYELMEZTETÉS: A PHP szkriptek futtatásának maximális ideje (max_execution_time beállítás) #(1) másodperc. 30 másodperc általában megfelelő, de egy teljes csomag telepítéshez érdemes lehet növelni. A szükséges idő függ a szerver teljesítményétől és a telepítés folyamán bekapcsolt moduloktól. Ha nem vagyunk biztosak a futtatási időben, &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítsük, majd később a további modulokat egyenként adjuk hozzá.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="132"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: Your max_execution_time for a php script is set to #(1) seconds. 30 seconds is
+and install modules manually later.</string><translation>FIGYELMEZTETÉS: A PHP szkriptek futtatásának maximális ideje (max_execution_time beállítás) #(1) másodperc. 30 másodperc általában megfelelő, de egy teljes csomag telepítéshez érdemes lehet növelni. A szükséges idő függ a szerver teljesítményétől és a telepítés folyamán bekapcsolt moduloktól. Ha nem vagyunk biztosak a futtatási időben, &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítsük, majd később a további modulokat egyenként adjuk hozzá.</translation></entry>
+<entry><string>SUCCESS: Your max_execution_time for a php script is set to #(1) seconds. 30 seconds is
 usually sufficient but you may want to increase it for a full distribution install. How much time
 you need will depend on your system and number of modules you choose during this installation.
 If in doubt about your maximum (script) execution time, &lt;strong&gt;do a core only install&lt;/strong&gt;
-and install modules manually later.</string>
-		<translation>SIKERES: A PHP szkriptek futtatásának maximális ideje (max_execution_time beállítás) #(1) másodperc. 30 másodperc általában megfelelő, de egy teljes csomag telepítéshez érdemes lehet növelni. A szükséges idő függ a szerver teljesítményétől és a telepítés folyamán bekapcsolt moduloktól. Ha nem vagyunk biztosak a futtatási időben, &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítsük, majd később a további modulokat egyenként adjuk hozzá.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="147"/>
-		</references>
-	</entry>
-	<entry>
-		<string>File Settings Check</string>
-		<translation>Fájl beállítások ellenőrzése</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="155"/>
-		</references>
-	</entry>
-	<entry>
-		<string>For Xaraya to function properly, the installer must write your database information to the configuration file #(1).
-If your settings are not correct, this script will not be able to do so.</string>
-		<translation>A Xaraya működéséhez a telepítőnek írás jogosultságra van szüksége a(z) „#(1)” bállítási fájlra. Helytelen beállítások esetén ez nem lesz lehetséges.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="161"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The installer can write to your configuration file.</string>
-		<translation>SIKERES: A telepítőprogram írhat a beállításfájlba.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="170"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ERROR: The installer cannot write to the configuration file.
-Please verify that your webserver has write access to the file #(1)</string>
-		<translation>HIBA: A telepítőprogram nem írhatja a beállításfájt. Ellenőrizzük, hogy a webkiszolgáló rendelkezik írás jogosultsággal a következő fájlra: #(1).</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="178"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The installer can write to the directory #(1)</string>
-		<translation>SIKERES: A telepítő írhat a(z) „#(1)” könyvtárba.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="191"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="219"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="247"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="277"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ERROR: The installer cannot write to the directory #(1).
-Please verify that your webserver has write access to the directory #(2)</string>
-		<translation>HIBA: A telepítő nem írhat a(z) „#(1)” könyvtárba. Ellenőrizzük, hogy a webkiszolgáló rendelkezik-e írás jogosultsággal a(z) „#(2)” könyvtárra.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="203"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="231"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="289"/>
-		</references>
-	</entry>
-	<entry>
-		<string>ERROR: The installer cannot write to the #(1).
-Please verify that your webserver has write access to the directory #(2)</string>
-		<translation>HIBA: A telepítő nem írhat a(z) „#(1)” könyvtárba. Ellenőrizzük, hogy a webkiszolgáló rendelkezik-e írás jogosultsággal a(z) „#(2)” könyvtárra.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="259"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Locales Settings Check</string>
-		<translation>Területi beállítások ellenőrzése</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="300"/>
-		</references>
-	</entry>
-	<entry>
-		<string>For translation to function properly, Xaraya must have write access to files in the locales directory</string>
-		<translation>Ahhoz, hogy a fordítás megfelelően működjön, a Xarayának írás jogosultságra van szüksége a nyelvi csomag könyvtáraira.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="304"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: Xaraya can write to the directory #(1) and all its files and subdirectories.</string>
-		<translation>SIKERES: A Xaraya írhat a(z) „#(1)” könyvtárba és alkönyvtáraiba, és az ezekben található fájlokba.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="312"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="347"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: Xaraya cannot write to the directory #(1) and all its files and subdirectories.</string>
-		<translation>FIGYELMEZTETÉS: A Xaraya nem írhat a(z) „#(1)” könyvtárba és alkönyvtáraiba, és az ezekben található fájlokba.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="323"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="358"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Please verify that your webserver has write access to the files under the directory: #(1)</string>
-		<translation>Ellenőrizzük, hogy a webkiszolgáló rendelkezik-e írás jogosultsággal #(1) könyvtárra.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="331"/>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="366"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Write access is required to cache language text for locales other than en.
-If you're not sure, ignore this warning.</string>
-		<translation>Írás jogosultságra van szükség az angoltól eltérő nyelvi fájlok gyorstárazására.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="339"/>
-		</references>
-	</entry>
-	<entry>
-		<string>This write access is only needed if you intend on using translations module at your site actively.</string>
-		<translation>Erre az írás jogosultságra csak akkor van szükség, ha rendszeresen használni akarjuk a Fordítás modult.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="373"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Information on Loaded PHP Extensions</string>
-		<translation>Információk a betöltött PHP bővítményekről</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="377"/>
-		</references>
-	</entry>
-	<entry>
-		<string>These extensions may be required for some modules to work, however Xaraya
+and install modules manually later.</string><translation>SIKERES: A PHP szkriptek futtatásának maximális ideje (max_execution_time beállítás) #(1) másodperc. 30 másodperc általában megfelelő, de egy teljes csomag telepítéshez érdemes lehet növelni. A szükséges idő függ a szerver teljesítményétől és a telepítés folyamán bekapcsolt moduloktól. Ha nem vagyunk biztosak a futtatási időben, &lt;strong&gt;csak a Xaraya Rendszer csomagját&lt;/strong&gt; telepítsük, majd később a további modulokat egyenként adjuk hozzá.</translation></entry>
+<entry><string>File Settings Check</string><translation>Fájl beállítások ellenőrzése</translation></entry>
+<entry><string>For Xaraya to function properly, the installer must write your database information to the configuration file #(1).
+If your settings are not correct, this script will not be able to do so.</string><translation>A Xaraya működéséhez a telepítőnek írás jogosultságra van szüksége a(z) „#(1)” bállítási fájlra. Helytelen beállítások esetén ez nem lesz lehetséges.</translation></entry>
+<entry><string>SUCCESS: The installer can write to your configuration file.</string><translation>SIKERES: A telepítőprogram írhat a beállításfájlba.</translation></entry>
+<entry><string>ERROR: The installer cannot write to the configuration file.
+Please verify that your webserver has write access to the file #(1)</string><translation>HIBA: A telepítőprogram nem írhatja a beállításfájt. Ellenőrizzük, hogy a webkiszolgáló rendelkezik írás jogosultsággal a következő fájlra: #(1).</translation></entry>
+<entry><string>SUCCESS: The installer can write to the directory #(1)</string><translation>SIKERES: A telepítő írhat a(z) „#(1)” könyvtárba.</translation></entry>
+<entry><string>ERROR: The installer cannot write to the directory #(1).
+Please verify that your webserver has write access to the directory #(2)</string><translation>HIBA: A telepítő nem írhat a(z) „#(1)” könyvtárba. Ellenőrizzük, hogy a webkiszolgáló rendelkezik-e írás jogosultsággal a(z) „#(2)” könyvtárra.</translation></entry>
+<entry><string>ERROR: The installer cannot write to the #(1).
+Please verify that your webserver has write access to the directory #(2)</string><translation>HIBA: A telepítő nem írhat a(z) „#(1)” könyvtárba. Ellenőrizzük, hogy a webkiszolgáló rendelkezik-e írás jogosultsággal a(z) „#(2)” könyvtárra.</translation></entry>
+<entry><string>Locales Settings Check</string><translation>Területi beállítások ellenőrzése</translation></entry>
+<entry><string>For translation to function properly, Xaraya must have write access to files in the locales directory</string><translation>Ahhoz, hogy a fordítás megfelelően működjön, a Xarayának írás jogosultságra van szüksége a nyelvi csomag könyvtáraira.</translation></entry>
+<entry><string>SUCCESS: Xaraya can write to the directory #(1) and all its files and subdirectories.</string><translation>SIKERES: A Xaraya írhat a(z) „#(1)” könyvtárba és alkönyvtáraiba, és az ezekben található fájlokba.</translation></entry>
+<entry><string>WARNING: Xaraya cannot write to the directory #(1) and all its files and subdirectories.</string><translation>FIGYELMEZTETÉS: A Xaraya nem írhat a(z) „#(1)” könyvtárba és alkönyvtáraiba, és az ezekben található fájlokba.</translation></entry>
+<entry><string>Please verify that your webserver has write access to the files under the directory: #(1)</string><translation>Ellenőrizzük, hogy a webkiszolgáló rendelkezik-e írás jogosultsággal #(1) könyvtárra.</translation></entry>
+<entry><string>Write access is required to cache language text for locales other than en.
+If you're not sure, ignore this warning.</string><translation>Írás jogosultságra van szükség az angoltól eltérő nyelvi fájlok gyorstárazására.</translation></entry>
+<entry><string>This write access is only needed if you intend on using translations module at your site actively.</string><translation>Erre az írás jogosultságra csak akkor van szükség, ha rendszeresen használni akarjuk a Fordítás modult.</translation></entry>
+<entry><string>Information on Loaded PHP Extensions</string><translation>Információk a betöltött PHP bővítményekről</translation></entry>
+<entry><string>These extensions may be required for some modules to work, however Xaraya
 is not dependant on these extensions for installation.
-Refer to #(1) for further information on these extensions.</string>
-		<translation>Ezek a bővítmények szükségesek lehetnek néhány Xaraya modul működéséhez, de a telepítés nélkülük is elvégezhető. A bővítményekről további információ a #(1) oldalon található.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="386"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The XML Extension is loaded.</string>
-		<translation>SIKERES: Az XML bővítmény elérhető.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="396"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: The XML Extension is not loaded. You will require this extension
-if you plan to use the Xaraya Translations module.</string>
-		<translation>HIBA: Az XML bővítmény nem érhető el. Erre a bővítményre szükség lesz amennyiben a Xaraya Fordítás modulját használni szeretnénk.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="401"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The MySQL Extension is loaded.</string>
-		<translation>SIKERES: A MySQL bővítmény elérhető.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="406"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: MySQL as database will not be available</string>
-		<translation>FIGYELMEZTETÉS: MySQL adatbázis használatára nem lesz lehetőség.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="410"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The PGSQL Extension is loaded.</string>
-		<translation>SIKERES: A PGSQL bővítmény elérhető.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="415"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: PostgreSQL as database will not be available</string>
-		<translation>FIGYELMEZTETÉS: PostgreSQL adatbázis használatára nem lesz lehetőség.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="419"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The PHP4 XSLT Extension is loaded.</string>
-		<translation>SIKERES: A PHP4 XSLT bővítmény elérhető.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="424"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: The PHP4 XSLT Extension is not loaded.
-This PHP4 extension is only needed for the PHP4 XSLT transform module at this time.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="431"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The LDAP Extension is loaded.</string>
-		<translation>SIKERES: Az LDAP bővítmény elérhető.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="436"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: The LDAP Extension is not loaded.
-This extension is only needed if you intend on using LDAP authentication with the Xaraya LDAP Modules.</string>
-		<translation>FIGYELMEZTETÉS: Az LDAP bővítmény nem érhető el. Erre a bővítményre csak akkor van szükség ha LDAP alapú azonosítást szeretnénk használni, a Xaraya LDAP moduljaival.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="443"/>
-		</references>
-	</entry>
-	<entry>
-		<string>SUCCESS: The GD Extension is loaded.</string>
-		<translation>SIKERES: A GD bővítmény elérhető.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="448"/>
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: The GD Extension is not loaded.
-This extension is only needed for the images module at this time for resizing of thumbnails.</string>
-		<translation>FIGYELMEZTETÉS: A GD bővítmény nem érhető el. Ez a bővítmény jelenleg csak a Képek modul használatakor szükséges, a képek átméretezéséhez.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="455"/>
-		</references>
-	</entry>
-	<entry>
-		<string>Check Again</string>
-		<translation>Ellenőrzés megismétlése</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase3.xd" line="469"/>
-		</references>
-	</entry>
+Refer to #(1) for further information on these extensions.</string><translation>Ezek a bővítmények szükségesek lehetnek néhány Xaraya modul működéséhez, de a telepítés nélkülük is elvégezhető. A bővítményekről további információ a #(1) oldalon található.</translation></entry>
+<entry><string>SUCCESS: The XML Extension is loaded.</string><translation>SIKERES: Az XML bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: The XML Extension is not loaded. You will require this extension
+if you plan to use the Xaraya Translations module.</string><translation>HIBA: Az XML bővítmény nem érhető el. Erre a bővítményre szükség lesz amennyiben a Xaraya Fordítás modulját használni szeretnénk.</translation></entry>
+<entry><string>You will need at least one available database type</string><translation>Legalább egy támogatott adatbázis típusra szükség van.</translation></entry>
+<entry><string>SUCCESS: You have at least one database type available.</string><translation>SIKERES: Egy vagy több támogatott adatbázis típus elérhető.</translation></entry>
+<entry><string>WARNING: You do not have a supported database type available.</string><translation>FIGYELMEZTETÉS: Nem érhető el egyetlen támogatott adatbázis típus sem.</translation></entry>
+<entry><string>SUCCESS: The MySQL Extension is loaded.</string><translation>SIKERES: A MySQL bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: MySQL as database will not be available</string><translation>FIGYELMEZTETÉS: MySQL adatbázis használatára nem lesz lehetőség.</translation></entry>
+<entry><string>SUCCESS: The PGSQL Extension is loaded.</string><translation>SIKERES: A PGSQL bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: PostgreSQL as database will not be available</string><translation>FIGYELMEZTETÉS: PostgreSQL adatbázis használatára nem lesz lehetőség.</translation></entry>
+<entry><string>SUCCESS: The SQLite Extension is loaded.</string><translation>SIKERES: Az SQLite bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: SQLITE as database will not be available</string><translation>FIGYELMEZTETÉS: SQLlite adatbázis használatára nem lesz lehetőség.</translation></entry>
+<entry><string>SUCCESS: The PHP4 XSLT Extension is loaded.</string><translation>SIKERES: A PHP4 XSLT bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: The PHP4 XSLT Extension is not loaded.
+This PHP4 extension is only needed for the PHP4 XSLT transform module at this time.</string><translation>FIGYELMEZTETÉS: A PHP4 XSLT bővítmény nem érhető el. Jelenleg ez a PHP4 bővítmény csak az PHP4 XSLT átalakító modul használatához szükséges.</translation></entry>
+<entry><string>SUCCESS: The LDAP Extension is loaded.</string><translation>SIKERES: Az LDAP bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: The LDAP Extension is not loaded.
+This extension is only needed if you intend on using LDAP authentication with the Xaraya LDAP Modules.</string><translation>FIGYELMEZTETÉS: Az LDAP bővítmény nem érhető el. Erre a bővítményre csak akkor van szükség ha LDAP alapú azonosítást szeretnénk használni, a Xaraya LDAP moduljaival.</translation></entry>
+<entry><string>SUCCESS: The GD Extension is loaded.</string><translation>SIKERES: A GD bővítmény elérhető.</translation></entry>
+<entry><string>WARNING: The GD Extension is not loaded.
+This extension is only needed for the images module at this time for resizing of thumbnails.</string><translation>FIGYELMEZTETÉS: A GD bővítmény nem érhető el. Ez a bővítmény jelenleg csak a Képek modul használatakor szükséges, a képek átméretezéséhez.</translation></entry>
+<entry><string>Check Again</string><translation>Ellenőrzés megismétlése</translation></entry>
 </translations>
