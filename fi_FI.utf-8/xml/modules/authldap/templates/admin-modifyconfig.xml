@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fi_FI.utf-8">
+<entry><string>Modify AuthLDAP Configuration</string><translation></translation></entry>
+<entry><string>LDAP Server Configuration</string><translation></translation></entry>
+<entry><string>If you are configuring Xaraya to use LDAP for user authentication, you should configure the LDAP server within the &lt;a href=&quot;#(1)&quot;&gt;authldap module&lt;/a&gt;.</string><translation></translation></entry>
+<entry><string>LDAP Server Name or IP</string><translation></translation></entry>
+<entry><string>LDAP Server Port Number</string><translation></translation></entry>
+<entry><string>Note:</string><translation></translation></entry>
+<entry><string>If the server name contains &quot;ldap://&quot; or &quot;ldaps://&quot;, then the port number is ignored. Instead, append the port number to the server name as in &quot;ldaps://server:port&quot;.</string><translation></translation></entry>
+<entry><string>Anonymously Bind to Server</string><translation></translation></entry>
+<entry><string>LDAP bind DN</string><translation></translation></entry>
+<entry><string>LDAP UserID Field Name</string><translation></translation></entry>
+<entry><string>Search User DN</string><translation></translation></entry>
+<entry><string>LDAP Admin ID</string><translation></translation></entry>
+<entry><string>LDAP Admin Password</string><translation></translation></entry>
+<entry><string>Use TLS (LDAP Protocol 3 only)</string><translation></translation></entry>
+<entry><string>Authentication Configuration</string><translation></translation></entry>
+<entry><string>Activate authentication module</string><translation></translation></entry>
+<entry><string>If the LDAP Server is unavailable for authentication, Xaraya authentication can be used as a failover authentication system. If failover to Xaraya is allowed, then this will only occur if authentication by LDAP is not available. If the LDAP bind is successful but the user is not authenticated, then the failover will not be permitted.</string><translation></translation></entry>
+<entry><string>Allow Authentication by Xaraya if the LDAP Server is Unavailable?</string><translation></translation></entry>
+<entry><string>User Configuration</string><translation></translation></entry>
+<entry><string>If a user exists in LDAP but does not have a login account to Xaraya, the user will not be able to login. By selecting the option below and entering the attribute values, a user that has account information in LDAP will be automatically added to the Xaraya database and allowed to login.</string><translation></translation></entry>
+<entry><string>Add LDAP User to Xaraya Database on Login</string><translation></translation></entry>
+<entry><string>Store Users LDAP Password in the Xaraya Database</string><translation></translation></entry>
+<entry><string>Store User's LDAP Password in the Xaraya Database?</string><translation></translation></entry>
+<entry><string>LDAP Username Attribute Name</string><translation></translation></entry>
+<entry><string>LDAP Email Attribute Name</string><translation></translation></entry>
+<entry><string>Default Group</string><translation></translation></entry>
+<entry><string>Group Configuration</string><translation></translation></entry>
+<entry><string>Default Group for Groups</string><translation></translation></entry>
+<entry><string>LDAP base for group search</string><translation></translation></entry>
+<entry><string>LDAP groups to import</string><translation></translation></entry>
+<entry><string>LDAP groups to import (separated by comma &lt;kdb&gt;','&lt;/kdb&gt;)</string><translation></translation></entry>
+<entry><string>LDAP attribute name: group name</string><translation></translation></entry>
+<entry><string>LDAP attribute name: children group reference</string><translation></translation></entry>
+<entry><string>LDAP attribute type: children group reference</string><translation></translation></entry>
+<entry><string>LDAP attribute name: user member reference</string><translation></translation></entry>
+<entry><string>LDAP attribute type: user member reference</string><translation></translation></entry>
+<entry><string>Click &quot;Submit&quot; to change configuration:</string><translation></translation></entry>
+<entry><string>Submit</string><translation></translation></entry>
+</translations>
