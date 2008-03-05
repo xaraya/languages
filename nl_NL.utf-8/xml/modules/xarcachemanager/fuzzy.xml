@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+<entry><string>The xarCacheManager module upgrade has failed.
+The #(1) directory is missing, and the #(2) is not
+writable by the web server process owner. Please
+make #(2) writable by the web server process owner
+to complete the upgrade. Alternatively, the #(1)
+directory can be manually created. #(1) must be
+writable by the web service process owner for
+output caching to work.</string><translation></translation></entry>
+<entry><string>The #(1) directory is not writable by the web
+web server. The #(1) must be writable by the web
+server process owner for output caching to work.
+Please change the permission on the #(1) directory
+so that the web server can write to it.</string><translation></translation></entry>
+<entry><string>Cached #(1) files have been successfully flushed.</string><translation></translation></entry>
+<entry><string>Please add the following line to your config.caching.php file :n#(1)</string><translation></translation></entry>
+<entry><string>That is strange. The #(1) file seems to be
+missing.</string><translation></translation></entry>
+<entry><string>Cache Key</string><translation></translation></entry>
+<entry><string>The Output Cache size is currently:</string><translation></translation></entry>
+<entry><string>Directory</string><translation></translation></entry>
+<entry><string>Block level output caching does not have the same dynamic content limitations. It is purpose-built to allow Xaraya to fully load the core and active module(s) with each page request. Block output caching can be configure on a per block instance basis, so you can have some block instances be fully dynamic (never cached), while other instances are cached for varying lifetimes. The cache of each block instance can be configure to be or not be shared between users (or groups of users) and pages. This allows for very flexible output caching behaviors for sites with mixed static and dynamic pages, but the tradeoff is a much higher fixed cost (page generation time). Where page level output caching can reduce a site's page generation time by 65 to 80% (YMMV depending on site configuration), block level output caching general only reduced page generation time by 20 to 30%.</string><translation></translation></entry>
+<entry><string>Analyze Slashdot and Google News use of 304 &amp; ETag HTTP headers and rework our use of these headers based on findings.</string><translation></translation></entry>
+<entry><string>Extended information about this module can be found here. [modules module]</string><translation></translation></entry>
+<entry><string>Enable the Output Caching System:</string><translation></translation></entry>
+<entry><string>Cache the Output of this Theme:</string><translation></translation></entry>
+<entry><string>Cache Size Limit (in MB):</string><translation></translation></entry>
+<entry><string>Enable Page Output Caching:</string><translation></translation></entry>
+<entry><string>Page Cache Expiration Time (in hh:mm:ss):</string><translation></translation></entry>
+<entry><string>Cache Item Display Pages:</string><translation></translation></entry>
+<entry><string>Flush Cached Display Page on New Comment:</string><translation></translation></entry>
+<entry><string>Flush Cached Display Page on New Hooked Poll Vote:</string><translation></translation></entry>
+<entry><string>Show the &quot;Last Modified&quot; Stamp on Cached Pages:</string><translation></translation></entry>
+<entry><string>Allow clients to reuse locally cached pages without re-validation:</string><translation></translation></entry>
+<entry><string>Auto-regenerate cache of session-less URL list:</string><translation></translation></entry>
+<entry><string>Only cache pages of modules hooked to xarCacheManger:</string><translation></translation></entry>
+<entry><string>Block Cache Expiration Time (in hh:mm:ss):</string><translation></translation></entry>
+<entry><string>Block caching is currently disabled...</string><translation></translation></entry>
+<entry><string>Expiration Time</string><translation></translation></entry>
+<entry><string>Anonymous</string><translation></translation></entry>
+</translations>

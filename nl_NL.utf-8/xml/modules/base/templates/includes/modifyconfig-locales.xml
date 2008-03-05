@@ -1,175 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
-	<entry>
-		<string>Mode of Operation</string>
-		<translation>Type werking</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>The multilanguage system (MLS) works in three different modes.</string>
-		<translation>Het meertalensysteem (MLS) werkt in 3 verschillende modes.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
-with the mbstring extension compiled in.</string>
-		<translation>U kunt UNBOXED modus niet gebruiken tenzij uw PHP versie 4.3.0 is met de 'mbstring' extentie ingecompileerd.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Single Language Mode (SINGLE)</string>
-		<translation>Enkele Taal Modus (ENKEL)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
+<entry><string>Mode of Operation</string><translation>Type werking</translation></entry>
+<entry><string>The multilanguage system (MLS) works in three different modes.</string><translation>Het meertalensysteem (MLS) werkt in 3 verschillende modes.</translation></entry>
+<entry><string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
+with the mbstring extension compiled in.</string><translation>U kunt UNBOXED modus niet gebruiken tenzij uw PHP versie 4.3.0 is met de 'mbstring' extentie ingecompileerd.</translation></entry>
+<entry><string>Single Language Mode (SINGLE)</string><translation>Enkele Taal Modus (ENKEL)</translation></entry>
+<entry><string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
 built in. All information is stored coherently with the chosen character set (at installation time),
-and also user data is meaningful in the chosen character set.</string>
-		<translation>MLS gebruikt slechts 1 tekenset, meestal 8 bits, maar mogelijk hoger als mb_string in PHP is ingebouwd. Alle informatie wordt opgeslagen volgens de gekozen tekenset (zoals tijdens installatie gekozen), en de data van de gebruiker heeft betekenis binnen deze tekenset.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Per Page Mode (BOXED)</string>
-		<translation>Per pagina modus (BOXED)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
+and also user data is meaningful in the chosen character set.</string><translation>MLS gebruikt slechts 1 tekenset, meestal 8 bits, maar mogelijk hoger als mb_string in PHP is ingebouwd. Alle informatie wordt opgeslagen volgens de gekozen tekenset (zoals tijdens installatie gekozen), en de data van de gebruiker heeft betekenis binnen deze tekenset.</translation></entry>
+<entry><string>Per Page Mode (BOXED)</string><translation>Per pagina modus (BOXED)</translation></entry>
+<entry><string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
 above can be applied here), but only one character set per page is used (this is an obvious concept maybe,
 but important to understand). Due to this fact content cannot be shared across through different
 language areas (for example an Arabic comment won't be shown in the English area even if
 they are referring to the same object, e.g. an article available in both English and Arabic).
 Another point is that every operation involves only a single language. This mode can produce
-unexpected results if mb_string is not installed.</string>
-		<translation>MLS kan meerdere tekensets gebruiken in de site (dezelfde afwegingen gelden hier als in the ENKEL mode), maar per pagina wordt slechts 1 tekenset gebruikt. Dit lijkt misschien voor de hand liggend, maar is belangrijk om te begrijpen. Hierdoor kan content namenlijk NIET worden gedeeld door talen die verschillende tekensets gebruiken. (bijv.: Arabische en Engelse teksten kunnen niet tegelijkertijd worden getoond ) Een ander punt is dat elke handeling zicht op 1 taal concentreert. Deze mode kan onverwachte resultaten produceren als mb_string niet is geinstalleerd.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is installed on this server, so you can give this mode a try</string>
-		<translation>Het is geïnstalleerd op deze server, dus u kunt deze mode proberen.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
-		<translation>WAARSCHUWING: mb_string is NIET aanwezig op deze server. Vervolg op eigen risico.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>Full Multilanguage (UNBOXED) (experimental!)</string>
-		<translation>Volledig meertalig (UNBOXED) (experimenteel)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
+unexpected results if mb_string is not installed.</string><translation>MLS kan meerdere tekensets gebruiken in de site (dezelfde afwegingen gelden hier als in the ENKEL mode), maar per pagina wordt slechts 1 tekenset gebruikt. Dit lijkt misschien voor de hand liggend, maar is belangrijk om te begrijpen. Hierdoor kan content namenlijk NIET worden gedeeld door talen die verschillende tekensets gebruiken. (bijv.: Arabische en Engelse teksten kunnen niet tegelijkertijd worden getoond ) Een ander punt is dat elke handeling zicht op 1 taal concentreert. Deze mode kan onverwachte resultaten produceren als mb_string niet is geinstalleerd.</translation></entry>
+<entry><string>It is installed on this server, so you can give this mode a try</string><translation>Het is geïnstalleerd op deze server, dus u kunt deze mode proberen.</translation></entry>
+<entry><string>WARNING: mb_string is NOT installed on this server, proceed with caution</string><translation>WAARSCHUWING: mb_string is NIET aanwezig op deze server. Vervolg op eigen risico.</translation></entry>
+<entry><string>Full Multilanguage (UNBOXED) (experimental!)</string><translation>Volledig meertalig (UNBOXED) (experimenteel)</translation></entry>
+<entry><string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
 conversion is needed for the content representation. Every page is always shown according to
 the user chosen language, but the page can contain texts in other languages
-(for example a French article and comments inside an English page).</string>
-		<translation>MLS gebruikt een universele tekenset (UTF-8) om alle inhoud te presenteren. Dit garandeert dat er geen conversie nodig is voor de inhoud in verschillende talen. Elke pagina wordt altijd getoond in the door de gebruiker gekozen taal, maar de pagina kan teksten bevatten in andere talen. (bijv. een Frans artikel met reacties in het Engels)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>Language/Locale Configuration</string>
-		<translation>Taal / Locale configuratie</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="90" />
-		</references>
-	</entry>
-	<entry>
-		<string>The following locales are available to this site:</string>
-		<translation>De volgende locales zijn beschikbaar:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default locale to load</string>
-		<translation>Standaard locale die geladen moet worden</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="113" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Locale:</string>
-		<translation>Standaard locale:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="114" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations backend</string>
-		<translation>Vertaal back-end</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="134" />
-		</references>
-	</entry>
-	<entry>
-		<string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="138" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations Backend</string>
-		<translation>Vertaal backend</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="142" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations Backend:</string>
-		<translation>Vertaal backend:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="143" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML (good for interoperability)</string>
-		<translation>XML (geschikt voor uitwisseling)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="147" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP (good for programmed access)</string>
-		<translation>PHP (geschikt voor programmatische toegang)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="148" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="152" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML with caching in PHP (new experimental)</string>
-		<translation>XML die wordt gecached in PHP (nieuw en experimenteel)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="149" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="153" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="157" />
-		</references>
-	</entry>
+(for example a French article and comments inside an English page).</string><translation>MLS gebruikt een universele tekenset (UTF-8) om alle inhoud te presenteren. Dit garandeert dat er geen conversie nodig is voor de inhoud in verschillende talen. Elke pagina wordt altijd getoond in the door de gebruiker gekozen taal, maar de pagina kan teksten bevatten in andere talen. (bijv. een Frans artikel met reacties in het Engels)</translation></entry>
+<entry><string>Language/Locale Configuration</string><translation>Taal / Locale configuratie</translation></entry>
+<entry><string>The following locales are available to this site:</string><translation>De volgende locales zijn beschikbaar:</translation></entry>
+<entry><string>Default locale to load</string><translation>Standaard locale die geladen moet worden</translation></entry>
+<entry><string>Default Locale:</string><translation>Standaard locale:</translation></entry>
+<entry><string>Translations backend</string><translation>Vertaal back-end</translation></entry>
+<entry><string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string><translation></translation></entry>
+<entry><string>Translations Backend</string><translation>Vertaal backend</translation></entry>
+<entry><string>Translations Backend:</string><translation>Vertaal backend:</translation></entry>
+<entry><string>XML (good for interoperability)</string><translation>XML (geschikt voor uitwisseling)</translation></entry>
+<entry><string>PHP (good for programmed access)</string><translation>PHP (geschikt voor programmatische toegang)</translation></entry>
+<entry><string>XML with caching in PHP (new experimental)</string><translation>XML die wordt gecached in PHP (nieuw en experimenteel)</translation></entry>
 </translations>

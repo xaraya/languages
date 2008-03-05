@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+<entry><string>Subscription Summary</string><translation></translation></entry>
+<entry><string>&lt;p&gt;The pubsub module should be hooked to the categories module first, so that your users can subscribe to events concerning a particular category.&lt;/p&gt;
+&lt;p&gt;Then you should enable the pubsub hooks for any other module (e.g. articles) where you want to send out create/update/delete notifications to your users.&lt;/p&gt;
+&lt;p&gt;And finally you should specify which templates to use for each module and how often events should be processed in &quot;Modify Configuration&quot;.&lt;/p&gt;</string><translation></translation></entry>
+<entry><string>Extended information about this module can be found here. [modules module]</string><translation></translation></entry>
+<entry><string>&lt;b&gt;Description:&lt;/b&gt; first enable pubsub hooks for a particular module+itemtype,
+then specify here which template should be used when an item is created, updated or deleted for that module+itemtype.
+Setting a template to 'not supported' means that your users will not receive any notifications for that event.</string><translation></translation></entry>
+<entry><string>Template for Create Hook Calls</string><translation></translation></entry>
+<entry><string>Template for Update Hook Calls</string><translation></translation></entry>
+<entry><string>Template for Delete Hook Calls</string><translation></translation></entry>
+<entry><string>&lt;b&gt;Description:&lt;/b&gt; in order to process queued events, you need to install the 'scheduler' module first.
+Then you can specify here how often the event queue should be processed.</string><translation></translation></entry>
+</translations>

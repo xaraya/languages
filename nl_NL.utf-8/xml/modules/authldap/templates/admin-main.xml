@@ -1,66 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
-	<entry>
-		<string>Overview</string>
-		<translation>Overzicht</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Wat is het?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string>
-		<translation>De AuthLDAP module stelt u in staat om gebruikers te authenticeren met een LDAP server. De AuthLDAP module stuurt de gebruikersnaam en wachtwoord van het login scherm naar de LDAP server ter authenticatie.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Hoe te gebruiken ?</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>Authentication by AuthLDAP is automatically set once the the AuthLDAP module has been initialized. You must configure XarLDAP before a user will be able to login to Xaraya. To remove AuthLDAP authentication, you must remove the module.</string>
-		<translation>Zodra de AuthLDAP module is geinitialiseerd is authenticatie via AuthLDAP automatisch ingesteld. De XarLDAP module moet wel eerst geconfigureerd zijn voordat gebruikers zich kunnen aanmelden bij Xaraya. Om de AuthLDAP authenticatie te verwijderen, verwijderd u de module.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>From the menu, you have one choice. &quot;Modify Config&quot;.</string>
-		<translation>Vanuit het menu heeft u een keuze. &quot;Configuratie Aanpassen&quot;.</translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks with the AuthLDAP Module</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/authldap/xartemplates/admin-main.xd" line="40" />
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation>Wat is het?</translation></entry>
+<entry><string>The AuthLDAP module allows you to authenticate a user with an LDAP server. The AuthLDAP module forwards the username and password from the login screen to the LDAP server for authentication.</string><translation>De AuthLDAP module stelt u in staat om gebruikers te authenticeren met een LDAP server. De AuthLDAP module stuurt de gebruikersnaam en wachtwoord van het login scherm naar de LDAP server ter authenticatie.</translation></entry>
+<entry><string>How to use it?</string><translation>Hoe te gebruiken ?</translation></entry>
+<entry><string>From the menu, you have one choice. &quot;Modify Config&quot;.</string><translation>Vanuit het menu heeft u een keuze. &quot;Configuratie Aanpassen&quot;.</translation></entry>
+<entry><string>Modify Config -- From here, you can allow a user that has account information in LDAP to be automatically added to the Xaraya database and allowed to login. You can also setup the synchronization settings for LDAP groups.</string><translation></translation></entry>
+<entry><string>Manually Sync Groups -- This will resynchronize the imported LDAP groups. It may be long the first time if you have lots of Xaraya users imported from LDAP, or lots of (sub)groups to import.</string><translation></translation></entry>
+<entry><string>To synchronize the groups, we recommand to setup a job entry in the scheduler module. You need to call the function in (module:authldap, type:admin, function:syncgroups). The module has some caching mecanism for LDAP user profiles, so you can run this job frequently, for example every 30 minutes, without fearing about resource usage.</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation></translation></entry>
+<entry><string>There are no included blocks with the AuthLDAP Module</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation></translation></entry>
+<entry><string>There are no included Hooks with the AuthLDAP Module</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the AuthLDAP module can be found at</string><translation></translation></entry>
+<entry><string>AuthLDAP Extension page at</string><translation></translation></entry>
+<entry><string>AuthLDAP Module - Xaraya Extension 50</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on AuthLDAP found at</string><translation></translation></entry>
+<entry><string>Related documentation on AuthLDAP</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>AuthLDAP Module Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>

@@ -1,113 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
-	<entry>
-		<string>Search capability</string>
-		<translation>Zoekmogelijkheid</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Enable searching</string>
-		<translation>Schakel zoekfunctie aan</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>By hooking search into bkview we enable the search results screen provide by the search
+<entry><string>Search capability</string><translation>Zoekmogelijkheid</translation></entry>
+<entry><string>Enable searching</string><translation>Schakel zoekfunctie aan</translation></entry>
+<entry><string>(Search module not available)</string><translation></translation></entry>
+<entry><string>By hooking search into bkview we enable the search results screen provide by the search
 module (GUI hook) and by hooking bkview into search module, we expose the bkview search
-function to the search module (API) hook</string>
-		<translation>Door de search module aan bkview te koppelen wordt een zoekscherm geactiveerd  (GUI hook) en door bkview aan de searchmodule te koppen, wordt de bkview zoekfunctionaliteit aan de searchmodule aangeboden (API hook)</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>By clicking the checkbox these hooks will be enabled for you, so you dont have to do this
-manually</string>
-		<translation>Door het aankruisvakje aan te klikken worden deze hooks automatisch voor U aangemaakt, zodat U dit niet handmatig hoeft te doen.</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Request method</string>
-		<translation>Opvraagmethode</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use an XMLHTTP request method</string>
-		<translation>Gebruik XML-HTTP </translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>BK-view can use an XML http request for all links in the module. This means that only the
+function to the search module (API) hook</string><translation>Door de search module aan bkview te koppelen wordt een zoekscherm geactiveerd  (GUI hook) en door bkview aan de searchmodule te koppen, wordt de bkview zoekfunctionaliteit aan de searchmodule aangeboden (API hook)</translation></entry>
+<entry><string>By clicking the checkbox these hooks will be enabled for you, so you dont have to do this
+manually</string><translation>Door het aankruisvakje aan te klikken worden deze hooks automatisch voor U aangemaakt, zodat U dit niet handmatig hoeft te doen.</translation></entry>
+<entry><string>Request method</string><translation>Opvraagmethode</translation></entry>
+<entry><string>Use an XMLHTTP request method</string><translation>Gebruik XML-HTTP</translation></entry>
+<entry><string>BK-view can use an XML http request for all links in the module. This means that only the
 module area is fetched from the server and dynamically replaced, and not the whole theme with it. If you have a site
 configuration which is suitable this can speed up the access to bkview considerably. This option works
-only with browsers which have support for the XMLHTTPRequest object (Opera has not, for example).</string>
-		<translation>BK-view kan een XML http verzoek gebruik voor alle links binnen de module. Dit betekent dat alleen het gedeelte waarin de module gegevens staan voor bkview wordt opgehaald en niet het complete framework. Als uw applicatie hiervoor geschikt is kan dit een snelheidsverbetering opleveren die aanzienlijk kan zijn. Deze optie werkt alleen met browsers die het zgn. XMLHTTPRequest object ondersteunen. (Opera ondersteunt dit bijvoorbeeld niet)</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>Setting this wont break the site if your clients browser does not support the xmlhttprequest object, it
-should gracefully fall back to a normal page request, so it's safe to set this to ON if you like.</string>
-		<translation>Het activeren van deze optie heeft geen effect als een browser het object niet ondersteunt. Er wordt dan automatisch van de normale opvraagmethode gebruik gemaakt.</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>These are the &lt;em&gt;known&lt;/em&gt; issues:</string>
-		<translation>Dit zijn de &lt;em&gt;bekende&lt;/em&gt; problemen:</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="56" />
-		</references>
-	</entry>
-	<entry>
-		<string>You will have to have the module.xt page template (included in recent distributions) on the server, otherwise the
-speed increase is considerably less, because the whole page will be fetched regardless.</string>
-		<translation>Om deze methode te laten werken moet u een module.xt pagina sjabloon opnemen in uw thema. (wordt standaard in de distributie meegeleverd), anders is de snelheidsverbetering aanzienlijk minder, omdat dan toch de complete pagina wordt opgehaald.</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>If you have page caching enabled, and bkview pages are normally cached, this option will defeat this. This needs
+only with browsers which have support for the XMLHTTPRequest object (Opera has not, for example).</string><translation>BK-view kan een XML http verzoek gebruik voor alle links binnen de module. Dit betekent dat alleen het gedeelte waarin de module gegevens staan voor bkview wordt opgehaald en niet het complete framework. Als uw applicatie hiervoor geschikt is kan dit een snelheidsverbetering opleveren die aanzienlijk kan zijn. Deze optie werkt alleen met browsers die het zgn. XMLHTTPRequest object ondersteunen. (Opera ondersteunt dit bijvoorbeeld niet)</translation></entry>
+<entry><string>Setting this wont break the site if your clients browser does not support the xmlhttprequest object, it
+should gracefully fall back to a normal page request, so it's safe to set this to ON if you like.</string><translation>Het activeren van deze optie heeft geen effect als een browser het object niet ondersteunt. Er wordt dan automatisch van de normale opvraagmethode gebruik gemaakt.</translation></entry>
+<entry><string>These are the &lt;em&gt;known&lt;/em&gt; issues:</string><translation>Dit zijn de &lt;em&gt;bekende&lt;/em&gt; problemen:</translation></entry>
+<entry><string>You will have to have the module.xt page template (included in recent distributions) on the server, otherwise the
+speed increase is considerably less, because the whole page will be fetched regardless.</string><translation>Om deze methode te laten werken moet u een module.xt pagina sjabloon opnemen in uw thema. (wordt standaard in de distributie meegeleverd), anders is de snelheidsverbetering aanzienlijk minder, omdat dan toch de complete pagina wordt opgehaald.</translation></entry>
+<entry><string>If you have page caching enabled, and bkview pages are normally cached, this option will defeat this. This needs
 to be fixed eventually. For now, if you have page caching, this option will still work, but the page wont be cached
-in the output cache. In your configuration, you'll have to test what is the optimal configuration.</string>
-		<translation>Als u pagina caching heeft geactiveerd, en de bkview pagina's worden normaliter opgenomen in deze cache, zal activeren van deze optie deze caching functie teniet doen. Uiteindelijk moet dit worden aangepast. Op dit moment, als u pagina caching gebruikt, zal de optie wel werken, maar de pagina zal niet worden opgenomen in de pagina output cache. In uw specifieke configuratie zult u moeten testen wat de optimale configuratie is.</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="65" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not really an issue, because it is by design, but worth mentioning is that this technique basically NEVER
-refreshes the page. This has two major consequences:</string>
-		<translation>Niet echt een probleem, omdat het inherent is aan het ontwerp, maar de moeite waard om te vermelden is dat deze techniek er voor zorgt dat de pagina eigenlijk NOOIT wordt ververst. Dit heeft 2 belangrijke consequenties:</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>The back button (history functionality) will not be updated while navigating bkview</string>
-		<translation>De 'back' knop (historie functionaliteit) zal niet worden bijgewerkt terwijl u door de schermen van bkview heenbladert.</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="75" />
-		</references>
-	</entry>
-	<entry>
-		<string>Dynamic blocks which base their content on the &lt;em&gt;current page&lt;/em&gt; will keep their content as if still on the
-main page of the bkview module.</string>
-		<translation>Dynamische blokken die hun inhoud baseren op de &lt;em&gt;huidige pagina&lt;/em&gt; zullen hun inhoud weergeven alsof de huidige pagina nog steeds de hoofdpagina van bkview is.</translation>
-		<references>
-			<reference file="modules/bkview/xartemplates/admin-modifyconfig.xd" line="81" />
-		</references>
-	</entry>
+in the output cache. In your configuration, you'll have to test what is the optimal configuration.</string><translation>Als u pagina caching heeft geactiveerd, en de bkview pagina's worden normaliter opgenomen in deze cache, zal activeren van deze optie deze caching functie teniet doen. Uiteindelijk moet dit worden aangepast. Op dit moment, als u pagina caching gebruikt, zal de optie wel werken, maar de pagina zal niet worden opgenomen in de pagina output cache. In uw specifieke configuratie zult u moeten testen wat de optimale configuratie is.</translation></entry>
+<entry><string>Not really an issue, because it is by design, but worth mentioning is that this technique basically NEVER
+refreshes the page. This has two major consequences:</string><translation>Niet echt een probleem, omdat het inherent is aan het ontwerp, maar de moeite waard om te vermelden is dat deze techniek er voor zorgt dat de pagina eigenlijk NOOIT wordt ververst. Dit heeft 2 belangrijke consequenties:</translation></entry>
+<entry><string>The back button (history functionality) will not be updated while navigating bkview.&lt;br/&gt;
+UPDATE: An emulation for this has been implemented.</string><translation></translation></entry>
+<entry><string>Dynamic blocks which base their content on the &lt;em&gt;current page&lt;/em&gt; will keep their content as if still on the
+main page of the bkview module.</string><translation>Dynamische blokken die hun inhoud baseren op de &lt;em&gt;huidige pagina&lt;/em&gt; zullen hun inhoud weergeven alsof de huidige pagina nog steeds de hoofdpagina van bkview is.</translation></entry>
 </translations>

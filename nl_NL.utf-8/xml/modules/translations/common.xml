@@ -1,176 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
-	<entry>
-		<string>Core</string>
-		<translation>Core</translation>
-		<references>
-			<reference file="modules/translations/xaradmin.php" line="51" />
-			<reference file="modules/translations/xartemplates/admin-show_status.xd" line="31" />
-			<reference file="modules/translations/xartemplates/admin-show_status.xd" line="82" />
-			<reference file="modules/translations/xartemplates/admin-show_status.xd" line="99" />
-			<reference file="modules/translations/xartemplates/admin-show_status.xd" line="110" />
-			<reference file="modules/translations/xartemplates/admin-show_status.xd" line="121" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Overzicht</translation>
-		<references>
-			<reference file="modules/translations/xaradmin.php" line="52" />
-			<reference file="modules/translations/xaradmin.php" line="94" />
-			<reference file="modules/translations/xaradmin.php" line="144" />
-			<reference file="modules/translations/xaradmin.php" line="206" />
-			<reference file="modules/translations/xartemplates/admin-main.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translate</string>
-		<translation>Vertalen</translation>
-		<references>
-			<reference file="modules/translations/xaradmin.php" line="54" />
-			<reference file="modules/translations/xaradmin.php" line="96" />
-			<reference file="modules/translations/xaradmin.php" line="146" />
-			<reference file="modules/translations/xaradmin.php" line="220" />
-			<reference file="modules/translations/xaradminapi/getmenulinks.php" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Click here to proceed.</string>
-		<translation>Klik hier om door te gaan</translation>
-		<references>
-			<reference file="modules/translations/xaradminapi/generate_core_trans.php" line="47" />
-			<reference file="modules/translations/xaradminapi/generate_module_skels.php" line="52" />
-			<reference file="modules/translations/xaradminapi/generate_module_trans.php" line="56" />
-			<reference file="modules/translations/xaradminapi/generate_theme_skels.php" line="50" />
-			<reference file="modules/translations/xaradminapi/generate_theme_trans.php" line="54" />
-			<reference file="modules/translations/xaradminapi/release_core_trans.php" line="35" />
-			<reference file="modules/translations/xaradminapi/release_module_trans.php" line="47" />
-			<reference file="modules/translations/xaradminapi/release_theme_trans.php" line="47" />
-		</references>
-	</entry>
-	<entry>
-		<string>Before generating translations you must first generate skels.</string>
-		<translation>Voordat er vertalingen kunnen worden aangemaakt moeten er eerst skeletten worden gegenereerd</translation>
-		<references>
-			<reference file="modules/translations/xaradminapi/generate_module_trans.php" line="55" />
-			<reference file="modules/translations/xaradminapi/generate_theme_trans.php" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the progress status of the locale currently being translated</string>
-		<translation>Geef een statusrapport weer van de locale die op dit moment wordt vertaald</translation>
-		<references>
-			<reference file="modules/translations/xaradminapi/getmenulinks.php" line="28" />
-			<reference file="modules/translations/xaruserapi/getmenulinks.php" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Progress report</string>
-		<translation>Statusrapport</translation>
-		<references>
-			<reference file="modules/translations/xaradminapi/getmenulinks.php" line="29" />
-			<reference file="modules/translations/xaruserapi/getmenulinks.php" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unsupported backend type '#(1)'. Don't know how to generate release package for that backend.</string>
-		<translation>Niet ondersteund backend type '#(1). Ik weet niet hoe voor dit backend een vrijgave pakket te genereren.</translation>
-		<references>
-			<reference file="modules/translations/xaradminapi/release_core_trans.php" line="27" />
-			<reference file="modules/translations/xaradminapi/release_module_trans.php" line="39" />
-			<reference file="modules/translations/xaradminapi/release_theme_trans.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Before releasing translations package you must first generate translations.</string>
-		<translation>Voordat een vertaalpakket kan worden vrijgegeven moet u eerst de vertalingen genereren.</translation>
-		<references>
-			<reference file="modules/translations/xaradminapi/release_core_trans.php" line="34" />
-			<reference file="modules/translations/xaradminapi/release_module_trans.php" line="46" />
-			<reference file="modules/translations/xaradminapi/release_theme_trans.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Make a choice</string>
-		<translation>Maak uw keuze</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-core_overview.xd" line="8" />
-			<reference file="modules/translations/xartemplates/admin-module_overview.xd" line="8" />
-			<reference file="modules/translations/xartemplates/admin-see_module_details.xd" line="7" />
-			<reference file="modules/translations/xartemplates/admin-theme_overview.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>GO</string>
-		<translation>Starten!</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-generate_skels_info.xd" line="20" />
-			<reference file="modules/translations/xartemplates/admin-generate_trans_info.xd" line="39" />
-			<reference file="modules/translations/xartemplates/admin-release_info.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation took #(1) seconds.</string>
-		<translation>De bewerking vergde #(1) seconden.</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-generate_skels_result.xd" line="22" />
-			<reference file="modules/translations/xartemplates/admin-generate_trans_result.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations Administration</string>
-		<translation>Vertalingen beheer</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-main.xd" line="3" />
-			<reference file="modules/translations/xartemplates/includes/admin-menu.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translating</string>
-		<translation>Vertalen</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-main.xd" line="12" />
-			<reference file="modules/translations/xartemplates/includes/admin-menu.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>Release Backend</string>
-		<translation>Vrijgave formaat</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-modifyconfig.xd" line="135" />
-			<reference file="modules/translations/xartemplates/includes/admin-menu.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module name</string>
-		<translation>Modulenaam</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-module_overview.xd" line="4" />
-			<reference file="modules/translations/xartemplates/admin-see_module_details.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module original name</string>
-		<translation>Originele modulenaam</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-module_overview.xd" line="5" />
-			<reference file="modules/translations/xartemplates/admin-see_module_details.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module version</string>
-		<translation>Module versie</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/admin-module_overview.xd" line="6" />
-			<reference file="modules/translations/xartemplates/admin-see_module_details.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Other #(1) references are not shown.</string>
-		<translation>Andere #(1) verwijzingen zijn niet getoond.</translation>
-		<references>
-			<reference file="modules/translations/xartemplates/includes/translate-key-item.xd" line="45" />
-			<reference file="modules/translations/xartemplates/includes/translate-string-item.xd" line="41" />
-		</references>
-	</entry>
+<entry><string>Core</string><translation>Core</translation></entry>
+<entry><string>Overview</string><translation>Overzicht</translation></entry>
+<entry><string>Translate</string><translation>Vertalen</translation></entry>
+<entry><string>Choose a module</string><translation>Kies een module</translation></entry>
+<entry><string>Translations Administration</string><translation>Vertalingen beheer</translation></entry>
+<entry><string>Make a choice</string><translation>Maak uw keuze</translation></entry>
+<entry><string>GO</string><translation>Starten!</translation></entry>
+<entry><string>The operation took #(1) seconds.</string><translation>De bewerking vergde #(1) seconden.</translation></entry>
+<entry><string>Translating</string><translation>Vertalen</translation></entry>
+<entry><string>Module name</string><translation>Modulenaam</translation></entry>
+<entry><string>Module original name</string><translation>Originele modulenaam</translation></entry>
+<entry><string>Module version</string><translation>Module versie</translation></entry>
+<entry><string>Release Backend</string><translation>Vrijgave formaat</translation></entry>
+<entry><string>Batch Operations</string><translation></translation></entry>
+<entry><string>Show the progress status of the locale currently being translated</string><translation>Geef een statusrapport weer van de locale die op dit moment wordt vertaald</translation></entry>
+<entry><string>Progress report</string><translation>Statusrapport</translation></entry>
+<entry><string>Modify Config</string><translation>Wijzig instellingen</translation></entry>
+<entry><string>Click here to proceed.</string><translation>Klik hier om door te gaan</translation></entry>
+<entry><string>Before generating translations you must first generate skels.</string><translation>Voordat er vertalingen kunnen worden aangemaakt moeten er eerst skeletten worden gegenereerd</translation></entry>
+<entry><string>Unsupported backend type '#(1)'. Don't know how to generate release package for that backend.</string><translation>Niet ondersteund backend type '#(1). Ik weet niet hoe voor dit backend een vrijgave pakket te genereren.</translation></entry>
+<entry><string>Before releasing translations package you must first generate translations.</string><translation>Voordat een vertaalpakket kan worden vrijgegeven moet u eerst de vertalingen genereren.</translation></entry>
+<entry><string>Other #(1) references are not shown.</string><translation>Andere #(1) verwijzingen zijn niet getoond.</translation></entry>
 </translations>
