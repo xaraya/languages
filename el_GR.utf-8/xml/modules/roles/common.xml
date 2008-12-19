@@ -1,1520 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Roles</string>
-		<translation>Ρόλοι</translation>
-		<references>
-			<reference file="modules/roles/xarversion.php" line="24" />
-			<reference file="modules/roles/xartemplates/user-requestpw.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="3" />
-			<reference file="modules/roles/xartemplates/user-requestpwconfirm.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-viewtree.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Users in this Group</string>
-		<translation>Εμφάνιση των Χρηστών σε αυτή την Ομάδα</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="272" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this Group</string>
-		<translation>Διαγραφή της Ομάδας</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="286" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email the Users in this Group</string>
-		<translation>Αποστολή e-mail στους χρήστες της Ομάδας</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="300" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Privileges assigned to this Group</string>
-		<translation>Εμφάνιση των Προνομίων που ανατέθηκαν σε αυτή την Ομάδα</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="314" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Test this Groups's Privileges</string>
-		<translation>Έλεγχος των Προνομίων της Ομάδας</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="328" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify this Group</string>
-		<translation>Τροποποίηση της Ομάδας</translation>
-		<references>
-			<reference file="modules/roles/xartreerenderer.php" line="339" />
-			<reference file="modules/roles/xartreerenderer.php" line="355" />
-		</references>
-	</entry>
-	<entry>
-		<string>deleted</string>
-		<translation>διεγραμμένο</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="735" />
-			<reference file="modules/roles/xaradmin/purge.php" line="35" />
-			<reference file="modules/roles/xaradminapi/recall.php" line="39" />
-			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation #(1) is not supported</string>
-		<translation>Η λειτουργία #(1) δεν υποστηρίζεται</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>SELECT with total of columns different from the number retrieved.</string>
-		<translation>Εντολή SELECT όπου το σύνολο των στηλών είναι διαφορετικό από τον αριθμό που επιστράφηκε</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
-		<translation>Ο πίνακας #(1) που προσπαθείτε να προσθέσετε πρέπει να είναι string ή array</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="170" />
-		</references>
-	</entry>
-	<entry>
-		<string>This function only take 1 or 2 parameters</string>
-		<translation>Αυτή συνάρτηση δέχεται μόνο 1 ή 2 παραμέτρους</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="189" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="236" />
-		</references>
-	</entry>
-	<entry>
-		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
-		<translation>Το πεδίο #(1) που προσπαθείτε να προσθέσετε πρέπει να είναι string ή array</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="217" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your query has no fields.</string>
-		<translation>Το ερώτημά σας δεν έχει πεδία.</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="683" />
-		</references>
-	</entry>
-	<entry>
-		<string>Update</string>
-		<translation>Ενημέρωση</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/modifyrole.php" line="101" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="96" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add</string>
-		<translation>Προσθήκη</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/modifyrole.php" line="102" />
-			<reference file="modules/roles/xaradmin/showprivileges.php" line="212" />
-			<reference file="modules/roles/xaradmin/newrole.php" line="94" />
-			<reference file="modules/roles/xaradminapi/getgroupmenulinks.php" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>That username is already taken.</string>
-		<translation>Το όνομα χρήστη χρησιμοποιείται</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/updaterole.php" line="56" />
-			<reference file="modules/roles/xaradmin/addrole.php" line="55" />
-			<reference file="modules/roles/xaruser/register.php" line="164" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is an error in the username</string>
-		<translation>Υπάρχει ένα σφάλμα στο όνομα χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/updaterole.php" line="62" />
-			<reference file="modules/roles/xaradmin/addrole.php" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is a space in the username</string>
-		<translation>Υπάρχει ένα κενό στο όνομα χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/updaterole.php" line="68" />
-			<reference file="modules/roles/xaradmin/addrole.php" line="61" />
-			<reference file="modules/roles/xaruser/register.php" line="146" />
-		</references>
-	</entry>
-	<entry>
-		<string>There is an error in the email address</string>
-		<translation>Υπάρχει ένα σφάλμα στην διεύθυνση email</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/updaterole.php" line="76" />
-			<reference file="modules/roles/xaradmin/addrole.php" line="87" />
-		</references>
-	</entry>
-	<entry>
-		<string>The two password entries are not the same</string>
-		<translation>Οι δύο καταχωρήσεις κωδικών δεν είναι οι ίδιες</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/updaterole.php" line="82" />
-			<reference file="modules/roles/xaradmin/addrole.php" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Μη αποδεκτό #(1) για την συνάρτηση #(2) #(3)() στην μονάδα #(4)</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/createpassword.php" line="26" />
-			<reference file="modules/roles/xaradmin/updatestate.php" line="64" />
-		</references>
-	</entry>
-	<entry>
-		<string>Problem generating new password</string>
-		<translation>Πρόβλημα στην δημιουργία νέου κωδικού</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/createpassword.php" line="35" />
-			<reference file="modules/roles/xaruser/lostpassword.php" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>Empty</string>
-		<translation>Κενό</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/modifyemail.php" line="35" />
-			<reference file="modules/roles/xaradmin/createmail.php" line="139" />
-		</references>
-	</entry>
-	<entry>
-		<string>Remove</string>
-		<translation>Διαγραφή</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/removeprivilege.php" line="64" />
-			<reference file="modules/roles/xaradmin/sitelock.php" line="170" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="226" />
-		</references>
-	</entry>
-	<entry>
-		<string>All</string>
-		<translation>Όλα</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/showusers.php" line="72" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="10" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="44" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="145" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="149" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="115" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="119" />
-		</references>
-	</entry>
-	<entry>
-		<string>Users</string>
-		<translation>Χρήστες</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/showusers.php" line="120" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="30" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="28" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="30" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="31" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="28" />
-			<reference file="modules/roles/xartemplates/blocks/online.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Διαγραφή</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/deleterole.php" line="66" />
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="27" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="222" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="224" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="22" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="27" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="28" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>That email address is already registered.</string>
-		<translation>Αυτή η διεύθυνση email έχει ήδη καταχωρηθεί</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/addrole.php" line="78" />
-			<reference file="modules/roles/xaruser/usermenu.php" line="166" />
-			<reference file="modules/roles/xaruser/register.php" line="211" />
-		</references>
-	</entry>
-	<entry>
-		<string>Recall</string>
-		<translation>Ανάκληση</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/purge.php" line="49" />
-			<reference file="modules/roles/xaradmin/purge.php" line="144" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>Purge</string>
-		<translation>Εκκαθάριση</translation>
-		<references>
-			<reference file="modules/roles/xaradmin/purge.php" line="162" />
-			<reference file="modules/roles/xaradmin/purge.php" line="293" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="277" />
-		</references>
-	</entry>
-	<entry>
-		<string>Roles Administration</string>
-		<translation>Διαχείριση Ρόλων</translation>
-		<references>
-			<reference file="modules/roles/xaradminapi/menu.php" line="23" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="6" />
-			<reference file="modules/roles/xartemplates/admin-createuser.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="12" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="9" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="6" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="8" />
-			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="2" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="10" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="4" />
-			<reference file="modules/roles/xartemplates/admin-viewroles.xd" line="21" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="6" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid Parameter Count</string>
-		<translation>Μη Αποδεκτός Αριθμός Παραμέτρων</translation>
-		<references>
-			<reference file="modules/roles/xaradminapi/update.php" line="37" />
-			<reference file="modules/roles/xaradminapi/stateupdate.php" line="33" />
-			<reference file="modules/roles/xaruserapi/updatestatus.php" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>No such user</string>
-		<translation>Δεν υπάρχει ο χρήστης</translation>
-		<references>
-			<reference file="modules/roles/xaradminapi/update.php" line="50" />
-			<reference file="modules/roles/xaradminapi/delete.php" line="41" />
-			<reference file="modules/roles/xaradminapi/stateupdate.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>Did not find a group</string>
-		<translation>Δεν βρέθηκε η ομάδα</translation>
-		<references>
-			<reference file="modules/roles/xaradminapi/deleteuser.php" line="35" />
-			<reference file="modules/roles/xaruserapi/removemember.php" line="38" />
-			<reference file="modules/roles/xaruserapi/addmember.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>Site Lock</string>
-		<translation>Κλείδωμα Site</translation>
-		<references>
-			<reference file="modules/roles/xaradminapi/getmenulinks.php" line="74" />
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Username</string>
-		<translation>Όνομα Χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-requestpw.xd" line="11" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="13" />
-			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="16" />
-			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="40" />
-			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="5" />
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="10" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="10" />
-			<reference file="modules/roles/xaruser/register.php" line="338" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="124" />
-			<reference file="modules/roles/xartemplates/blocks/login.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>User Information</string>
-		<translation>Πληροφορίες Χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="3" />
-			<reference file="modules/roles/xartemplates/user-display.xd" line="3" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Manage the user</string>
-		<translation>Διαχείριση του χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="6" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="6" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="8" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>Manage the group</string>
-		<translation>Διαχείριση της ομάδας</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="7" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="7" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="9" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Parent Groups</string>
-		<translation>Μητρικές Ομάδες</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="13" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="11" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="8" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="13" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="14" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show this group</string>
-		<translation>Εμφάνιση της Ομάδας</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="17" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="15" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="12" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="17" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="18" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Actions</string>
-		<translation>Ενέργειες</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="24" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="7" />
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="12" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="17" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="22" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="19" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="24" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display</string>
-		<translation>Εμφάνιση</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="23" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="20" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="26" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify</string>
-		<translation>Τροποποίηση</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="26" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="24" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="21" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="26" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="27" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges</string>
-		<translation>Προνόμια</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="28" />
-			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="26" />
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="23" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="28" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="29" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Real Name</string>
-		<translation>Πραγματικό Όνομα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="37" />
-			<reference file="modules/roles/xartemplates/user-new.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Login</string>
-		<translation>Είσοδος</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="42" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="238" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="226" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email</string>
-		<translation>e-mail</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="46" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="89" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="118" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="120" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="153" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="155" />
-			<reference file="modules/roles/xartemplates/user-display.xd" line="15" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="115" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="268" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="243" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="106" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="231" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>Configuration</string>
-		<translation>Ρυθμίσεις</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="5" />
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Registration</string>
-		<translation>Εγγραφή</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="24" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="30" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Member List</string>
-		<translation>Κατάλογος Μελών</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="63" />
-			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="69" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="6" />
-			<reference file="modules/roles/xartemplates/user-email.xd" line="8" />
-			<reference file="modules/roles/xartemplates/user-display.xd" line="8" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display Name</string>
-		<translation>Όνομα Εμφάνισης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-view.xd" line="73" />
-			<reference file="modules/roles/xartemplates/user-view.xd" line="84" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="21" />
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="25" />
-			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="13" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Subject</string>
-		<translation>Θέμα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-email.xd" line="26" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="78" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="312" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>Message</string>
-		<translation>Μήνυμα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-email.xd" line="34" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="88" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="322" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="60" />
-		</references>
-	</entry>
-	<entry>
-		<string>Action</string>
-		<translation>Ενέργεια</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="43" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="97" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="257" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="53" />
-		</references>
-	</entry>
-	<entry>
-		<string>Create User Account</string>
-		<translation>Δημιουργία Λογαριασμού Χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-checkage.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-new.xd" line="17" />
-			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>E-mail Address</string>
-		<translation>Διεύθυνση E-mail</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="29" />
-			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Password</string>
-		<translation>Κωδικός</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="38" />
-			<reference file="modules/roles/xartemplates/user-new.xd" line="50" />
-			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="6" />
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="143" />
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="39" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="21" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="110" />
-			<reference file="modules/roles/xartemplates/blocks/login.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privacy Policy</string>
-		<translation>Πολιτικής Προσωπικών Δεδομένων</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="60" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="87" />
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="34" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="42" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="63" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="64" />
-			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Terms of Use</string>
-		<translation>Όροι Χρήσης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="74" />
-			<reference file="modules/roles/xartemplates/user-registerform.xd" line="87" />
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="42" />
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="86" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="31" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="38" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="39" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="42" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="59" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="100" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="126" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="130" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="131" />
-			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>zero</string>
-		<translation>μηδέν</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="3" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>one</string>
-		<translation>ένα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="4" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>two</string>
-		<translation>δύο</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="5" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>three</string>
-		<translation>τρία</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="6" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="6" />
-		</references>
-	</entry>
-	<entry>
-		<string>four</string>
-		<translation>τέσσερα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="7" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>five</string>
-		<translation>πέντε</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="8" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>six</string>
-		<translation>έξι</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="9" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>seven</string>
-		<translation>επτά</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="10" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>eight</string>
-		<translation>οκτώ</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="11" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>nine</string>
-		<translation>εννέα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="12" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>ten</string>
-		<translation>δέκα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="13" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>eleven</string>
-		<translation>έντεκα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="14" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>twelve</string>
-		<translation>δώδεκα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="15" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>thirteen</string>
-		<translation>δεκατρία</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="16" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>fourteen</string>
-		<translation>δεκατέσσερα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="17" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>fifteen</string>
-		<translation>δεκαπέντε</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="18" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>sixteen</string>
-		<translation>δεκαέξι</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="19" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>seventeen</string>
-		<translation>δεκαεπτά</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="20" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>eighteen</string>
-		<translation>δεκαοκτώ</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="21" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>nineteen</string>
-		<translation>δεκαεννιά</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="22" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>twenty</string>
-		<translation>είκοσι</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="23" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>twenty-one</string>
-		<translation>εικοσιένα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="24" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please see our</string>
-		<translation>Παρακαλούμε δείτε</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-privacy.xd" line="86" />
-			<reference file="modules/roles/xartemplates/user-terms.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Logout</string>
-		<translation>Έξοδος</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-user_menu_icon.xd" line="13" />
-			<reference file="modules/roles/xartemplates/blocks/logout.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Messaging system</string>
-		<translation>Σύστημα Μυνημάτων</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="5" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="9" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Send mail to groups, configure automatic notification or edit notification templates</string>
-		<translation>Αποστολή μηνύματος στις μονάδες, ρύθμιση αυτόματων ειδοποιήσων ή τροποποίηδη υποδειγμάτων ειδοποιήσεως</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="11" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="16" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Send mail</string>
-		<translation>Αποστολή μηνύματος</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="13" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="18" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>Templates</string>
-		<translation>Υποδείγματα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="14" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="19" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Configure</string>
-		<translation>Ρυθμίσεις</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="15" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="20" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Write this string in the message body or subject to display the corresponding information</string>
-		<translation>Γράψτε αυτό το κείμενο στο σώμα ή στο θέμα του μυνήματος για να εμφανιστεί η αντίστοιχη πληροφορία.</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="5" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="8" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>This email will be sent to users to complete their registration by a link in the email</string>
-		<translation>Αυτό το e-mail θα σταλεί στους χρήστες ώστε να ολοκληρώσουν την εγγραφή τους ακολουθώντας έναν σύνδεσμο στο email</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="49" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>This email will be sent to users to welcome them</string>
-		<translation>Αυτό το email θα σταλεί σαν καλωσόρισμα στους χρήστες</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="51" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="21" />
-		</references>
-	</entry>
-	<entry>
-		<string>This email will be sent to users who use the lost password option</string>
-		<translation>Αυτό το email θα σταλεί στους χρήστες που χρησιμοποιούν την επιλογή χαμένου κωδικού</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="53" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="23" />
-		</references>
-	</entry>
-	<entry>
-		<string>This email will be sent to users when their accounts are pending approval</string>
-		<translation>Αυτό το email θα αποσταλεί στους χρήστες όταν εκρεμμεί η έγκριση εγγραφής τους</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="55" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>This email will be sent to users when their accounts are deactivated</string>
-		<translation>Αυτό το email θα αποσταλεί στους χρήστες όταν απενεργοποιείται ο λογαριασμός τους</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="57" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Title of the notification</string>
-		<translation>Τίτλος της ειδοποίησης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="77" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="311" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="49" />
-		</references>
-	</entry>
-	<entry>
-		<string>Body of the notification</string>
-		<translation>Σώμα της ειδοποίησης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="87" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="321" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="59" />
-		</references>
-	</entry>
-	<entry>
-		<string>The following variables will be replaced in the text with specific information</string>
-		<translation>Οι ακόλουθες μεταβλητές θα αντικατασταθούν στο κείμενο με ειδική πληροφορία</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="100" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="72" />
-		</references>
-	</entry>
-	<entry>
-		<string>Password of the user</string>
-		<translation>Κωδικός του χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="108" />
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="133" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="80" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="105" />
-		</references>
-	</entry>
-	<entry>
-		<string>Validation link for the user</string>
-		<translation>Σύνδεσμος επαλήθευσης για τον χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="114" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>Validation code for the user</string>
-		<translation>Κωδικός επαλήθευσης για τον χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="120" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="92" />
-		</references>
-	</entry>
-	<entry>
-		<string>IP address of the user</string>
-		<translation>IP διεύθυνση του χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="126" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name of the site</string>
-		<translation>Όνομα του site</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="140" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="112" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name of the administrator</string>
-		<translation>Όνομα του διαχειριστή</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="146" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email address of the administrator</string>
-		<translation>Διεύθυνση e-mail του διαχειριστή</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="152" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="124" />
-		</references>
-	</entry>
-	<entry>
-		<string>URL of the site</string>
-		<translation>URL του site</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="158" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="130" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name of the user</string>
-		<translation>Όνομα του χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="164" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="136" />
-		</references>
-	</entry>
-	<entry>
-		<string>Username of the user</string>
-		<translation>Αναγνωριστικό του χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="170" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="142" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email address of the user</string>
-		<translation>Διεύθυνση email του χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="176" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="148" />
-		</references>
-	</entry>
-	<entry>
-		<string>Dynamic property</string>
-		<translation>Δυναμική ιδιότητα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="184" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>Account Validation</string>
-		<translation>Επαλήθευση Κωδικού</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="2" />
-			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>User Name</string>
-		<translation>Όνομα Χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-new.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="112" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="265" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="98" />
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="17" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="65" />
-		</references>
-	</entry>
-	<entry>
-		<string>Confirm Password</string>
-		<translation>Επιβεβαίωση Κωδικού</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-new.xd" line="58" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="151" />
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="43" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="118" />
-		</references>
-	</entry>
-	<entry>
-		<string>Account Information</string>
-		<translation>Πληροφορίες Κωδικού</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-account.xd" line="4" />
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Search for users with either their real name, login name or email matching the string</string>
-		<translation>Αναζήτηση για χρήστες είτε μέσω του πραγματικού ονόματος, του κωδικού πρόσβασης ή της διεύθυνσης email</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="56" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="208" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="94" />
-		</references>
-	</entry>
-	<entry>
-		<string>Inactive</string>
-		<translation>Ανενεργός</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="79" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="81" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="227" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="229" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="154" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="158" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="219" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="288" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="119" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="121" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="124" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="128" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="266" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="86" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="88" />
-		</references>
-	</entry>
-	<entry>
-		<string>Not Validated</string>
-		<translation>Μη επαληθευμένος</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="84" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="86" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="232" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="234" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="163" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="167" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="220" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="290" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="124" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="126" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="133" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="137" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="268" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="91" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Active</string>
-		<translation>Ενεργός</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="89" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="91" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="237" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="239" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="172" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="176" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="221" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="292" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="129" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="131" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="142" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="146" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="270" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="98" />
-		</references>
-	</entry>
-	<entry>
-		<string>Pending</string>
-		<translation>Σε Αναμονή</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="94" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="242" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="244" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="181" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="185" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="222" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="294" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="134" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="136" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="151" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="155" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="272" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="101" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="103" />
-		</references>
-	</entry>
-	<entry>
-		<string>Real name</string>
-		<translation>Πραγματικό όνομα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="109" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="262" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="233" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="221" />
-		</references>
-	</entry>
-	<entry>
-		<string>Date Registered</string>
-		<translation>Ημερομηνία Εγγραφής</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="118" />
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="271" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="248" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="236" />
-		</references>
-	</entry>
-	<entry>
-		<string>Type</string>
-		<translation>Τύπος</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="121" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="73" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>matching</string>
-		<translation>ταιριάζει με</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-purge.xd" line="131" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="17" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="263" />
-		</references>
-	</entry>
-	<entry>
-		<string>Group</string>
-		<translation>Ομάδα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="37" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="197" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="225" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="6" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>User</string>
-		<translation>Χρήστης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="38" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="198" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="7" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email Title</string>
-		<translation>Τίτλος e-mail</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="25" />
-			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email Body</string>
-		<translation>Σώμα e-mail</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="33" />
-			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>All Users</string>
-		<translation>Όλοι οι Χρήστες</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="56" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="61" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="117" />
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="121" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="82" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>Select display type</string>
-		<translation>Επιλέξτε τύπο εμφάνισης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="85" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="36" />
-		</references>
-	</entry>
-	<entry>
-		<string>Select the state of users</string>
-		<translation>Επιλέξτε κατάσταση των χρηστών</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="91" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>Reload</string>
-		<translation>Επαναφόρτωση</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="194" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="185" />
-		</references>
-	</entry>
-	<entry>
-		<string>State</string>
-		<translation>Κατάσταση</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="253" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="114" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="241" />
-			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email this user</string>
-		<translation>Αποστολή email στον χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="280" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="261" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name</string>
-		<translation>Όνομα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="52" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="124" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="45" />
-			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="65" />
-		</references>
-	</entry>
-	<entry>
-		<string>Realm</string>
-		<translation>Realm</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="55" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="127" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="53" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="96" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="170" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module</string>
-		<translation>Μονάδα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="58" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="130" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="56" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="99" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="173" />
-		</references>
-	</entry>
-	<entry>
-		<string>Component</string>
-		<translation>Εξάρτημα</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="61" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="133" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="59" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="102" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="176" />
-		</references>
-	</entry>
-	<entry>
-		<string>Instance</string>
-		<translation>Υλοποίηση</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="64" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="136" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="62" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="105" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="179" />
-		</references>
-	</entry>
-	<entry>
-		<string>Level</string>
-		<translation>Επίπεδο</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="67" />
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="139" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="65" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="108" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="182" />
-		</references>
-	</entry>
-	<entry>
-		<string>&amp;nbsp;</string>
-		<translation>&amp;nbsp;</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="142" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="106" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="245" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privilege</string>
-		<translation>Προνόμιο</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="207" />
-			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="93" />
-		</references>
-	</entry>
-	<entry>
-		<string>Registration / Login</string>
-		<translation>Εγγραφή / Είσοδος</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="3" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Forget your password?</string>
-		<translation>Ξεχάσατε τον κωδικό σας;</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="31" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Remember me</string>
-		<translation>Να με θυμάσαι</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-choices.xd" line="36" />
-			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="32" />
-			<reference file="modules/roles/xartemplates/blocks/login.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Send notification</string>
-		<translation>Αποστολή ειδοποίησης</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="3" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Cancel</string>
-		<translation>Ακύρωση</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="331" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>Send</string>
-		<translation>Αποστολή</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="334" />
-			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="336" />
-			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="68" />
-		</references>
-	</entry>
-	<entry>
-		<string>Email Address</string>
-		<translation>Διεύθυνση Email</translation>
-		<references>
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="21" />
-			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="29" />
-			<reference file="modules/roles/xaruser/register.php" line="339" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="125" />
-		</references>
-	</entry>
-	<entry>
-		<string>Wrong arguments to roles_userapi_get.</string>
-		<translation>Λάθος ορίσματα στην συνάρτηση roles_userapi_get</translation>
-		<references>
-			<reference file="modules/roles/xaruserapi/getactive.php" line="25" />
-			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="32" />
-			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="38" />
-			<reference file="modules/roles/xaruserapi/get.php" line="31" />
-			<reference file="modules/roles/xaruserapi/get.php" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your password must be #(1) characters long.</string>
-		<translation>Ο κωδικός πρόσβασης πρέπει να έχει μήκος τουλάχιστον #(1) χαρακτήρες</translation>
-		<references>
-			<reference file="modules/roles/xaruser/usermenu.php" line="114" />
-			<reference file="modules/roles/xaruser/register.php" line="235" />
-			<reference file="modules/roles/xaruser/register.php" line="236" />
-		</references>
-	</entry>
-	<entry>
-		<string>The passwords do not match</string>
-		<translation>Οι κωδικοί δεν ταιριάζουν</translation>
-		<references>
-			<reference file="modules/roles/xaruser/usermenu.php" line="122" />
-			<reference file="modules/roles/xaruser/register.php" line="242" />
-		</references>
-	</entry>
-	<entry>
-		<string>That email address is either reserved or not allowed on this website</string>
-		<translation>Αυτή η διεύθυνση e-mail είναι ήδη κατοχυρωμένη ή δεν επιτρέπεται στο website</translation>
-		<references>
-			<reference file="modules/roles/xaruser/usermenu.php" line="177" />
-			<reference file="modules/roles/xaruser/register.php" line="221" />
-		</references>
-	</entry>
-	<entry>
-		<string>Problem sending confirmation email</string>
-		<translation>Πρόβλημα αποστολής e-mail επιβεβαίωσης</translation>
-		<references>
-			<reference file="modules/roles/xaruser/usermenu.php" line="219" />
-			<reference file="modules/roles/xaruser/register.php" line="413" />
-		</references>
-	</entry>
-	<entry>
-		<string>Log In</string>
-		<translation>Είσοδος</translation>
-		<references>
-			<reference file="modules/roles/xaruser/register.php" line="53" />
-			<reference file="modules/roles/xaruser/showloginform.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>A new user has registered. Here are the details</string>
-		<translation>Έγινε εγγραφή ενός νέου χρήστη. Εδώ είναι τα στοιχεία</translation>
-		<references>
-			<reference file="modules/roles/xaruser/register.php" line="337" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>A New User Has Registered</string>
-		<translation>Έγινε Εγγραφή ενός νέου Χρήστη</translation>
-		<references>
-			<reference file="modules/roles/xaruser/register.php" line="341" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="127" />
-		</references>
-	</entry>
-	<entry>
-		<string>Problem sending welcome email</string>
-		<translation>Πρόβλημα αποστολής μηνύματος υποδοχής</translation>
-		<references>
-			<reference file="modules/roles/xaruser/register.php" line="369" />
-			<reference file="modules/roles/xaruser/getvalidation.php" line="108" />
-		</references>
-	</entry>
+<entry><string>Roles</string><translation>Ρόλοι</translation></entry>
+<entry><string>Did not find mask #(1) registered for an unspecified component in module #(2)</string><translation></translation></entry>
+<entry><string>Did not find mask #(1) registered for component #(2) in module #(3)</string><translation></translation></entry>
+<entry><string>Roles Administration</string><translation>Διαχείριση Ρόλων</translation></entry>
+<entry><string>Overview</string><translation>Περίληψη</translation></entry>
+<entry><string>Member List</string><translation>Κατάλογος Μελών</translation></entry>
+<entry><string>All</string><translation>Όλα</translation></entry>
+<entry><string>Display Name</string><translation>Όνομα Εμφάνισης</translation></entry>
+<entry><string>Email</string><translation>e-mail</translation></entry>
+<entry><string>Update Roles Configuration</string><translation></translation></entry>
+<entry><string>Name</string><translation>Όνομα</translation></entry>
+<entry><string>Allow users to send emails?</string><translation></translation></entry>
+<entry><string>zero</string><translation>μηδέν</translation></entry>
+<entry><string>one</string><translation>ένα</translation></entry>
+<entry><string>two</string><translation>δύο</translation></entry>
+<entry><string>three</string><translation>τρία</translation></entry>
+<entry><string>four</string><translation>τέσσερα</translation></entry>
+<entry><string>five</string><translation>πέντε</translation></entry>
+<entry><string>six</string><translation>έξι</translation></entry>
+<entry><string>seven</string><translation>επτά</translation></entry>
+<entry><string>eight</string><translation>οκτώ</translation></entry>
+<entry><string>nine</string><translation>εννέα</translation></entry>
+<entry><string>ten</string><translation>δέκα</translation></entry>
+<entry><string>eleven</string><translation>έντεκα</translation></entry>
+<entry><string>twelve</string><translation>δώδεκα</translation></entry>
+<entry><string>thirteen</string><translation>δεκατρία</translation></entry>
+<entry><string>fourteen</string><translation>δεκατέσσερα</translation></entry>
+<entry><string>fifteen</string><translation>δεκαπέντε</translation></entry>
+<entry><string>sixteen</string><translation>δεκαέξι</translation></entry>
+<entry><string>seventeen</string><translation>δεκαεπτά</translation></entry>
+<entry><string>eighteen</string><translation>δεκαοκτώ</translation></entry>
+<entry><string>nineteen</string><translation>δεκαεννιά</translation></entry>
+<entry><string>twenty</string><translation>είκοσι</translation></entry>
+<entry><string>twenty-one</string><translation>εικοσιένα</translation></entry>
+<entry><string>Privacy Policy</string><translation>Πολιτικής Προσωπικών Δεδομένων</translation></entry>
+<entry><string>Terms of Use</string><translation>Όροι Χρήσης</translation></entry>
+<entry><string>User Information</string><translation>Πληροφορίες Χρήστη</translation></entry>
+<entry><string>Write this string in the message body or subject to display the corresponding information</string><translation>Γράψτε αυτό το κείμενο στο σώμα ή στο θέμα του μυνήματος για να εμφανιστεί η αντίστοιχη πληροφορία.</translation></entry>
+<entry><string>Messaging System:</string><translation></translation></entry>
+<entry><string>Send mail</string><translation>Αποστολή μηνύματος</translation></entry>
+<entry><string>Templates</string><translation>Υποδείγματα</translation></entry>
+<entry><string>Configure</string><translation>Ρυθμίσεις</translation></entry>
+<entry><string>Select display type</string><translation>Επιλέξτε τύπο εμφάνισης</translation></entry>
+<entry><string>Groups</string><translation></translation></entry>
+<entry><string>Select the state of users</string><translation>Επιλέξτε κατάσταση των χρηστών</translation></entry>
+<entry><string>State</string><translation>Κατάσταση</translation></entry>
+<entry><string>Action</string><translation>Ενέργεια</translation></entry>
+<entry><string>All Users</string><translation>Όλοι οι Χρήστες</translation></entry>
+<entry><string>Inactive</string><translation>Ανενεργός</translation></entry>
+<entry><string>Not Validated</string><translation>Μη επαληθευμένος</translation></entry>
+<entry><string>Active</string><translation>Ενεργός</translation></entry>
+<entry><string>Pending</string><translation>Σε Αναμονή</translation></entry>
+<entry><string>Reload</string><translation>Επαναφόρτωση</translation></entry>
+<entry><string>Users</string><translation>Χρήστες</translation></entry>
+<entry><string>Display name</string><translation></translation></entry>
+<entry><string>Login</string><translation>Είσοδος</translation></entry>
+<entry><string>Date Registered</string><translation>Ημερομηνία Εγγραφής</translation></entry>
+<entry><string>Email this user</string><translation>Αποστολή email στον χρήστη</translation></entry>
+<entry><string>Message</string><translation>Μήνυμα</translation></entry>
+<entry><string>Subject:</string><translation></translation></entry>
+<entry><string>Message:</string><translation></translation></entry>
+<entry><string>Send</string><translation>Αποστολή</translation></entry>
+<entry><string>Cancel</string><translation>Ακύρωση</translation></entry>
+<entry><string>Create User Account</string><translation>Δημιουργία Λογαριασμού Χρήστη</translation></entry>
+<entry><string>User Name</string><translation>Όνομα Χρήστη</translation></entry>
+<entry><string>E-Mail</string><translation>e-mail</translation></entry>
+<entry><string>Password</string><translation>Κωδικός</translation></entry>
+<entry><string>Confirm Password</string><translation>Επιβεβαίωση Κωδικού</translation></entry>
+<entry><string>E-mail Address</string><translation>Διεύθυνση E-mail</translation></entry>
+<entry><string>Username</string><translation>Όνομα Χρήστη</translation></entry>
+<entry><string>User Details</string><translation></translation></entry>
+<entry><string>Account Validation</string><translation>Επαλήθευση Κωδικού</translation></entry>
+<entry><string>This email will be sent to users to welcome them.</string><translation>Αυτό το email θα σταλεί στους χρήστες σαν καλωσόρισμα</translation></entry>
+<entry><string>The following variables will be replaced in the text with specific information:</string><translation>Οι παρακάτω μεταβλητές θα πρέπει να αλλάξουν στο κείμενο με ειδική πληροφορία:</translation></entry>
+<entry><string>Search Users</string><translation>Αναζήτηση Χρηστών</translation></entry>
+<entry><string>Email Address</string><translation>Διεύθυνση Email</translation></entry>
+<entry><string>Password last updated:</string><translation></translation></entry>
+<entry><string>Parent Groups:</string><translation></translation></entry>
+<entry><string>Show this group</string><translation>Εμφάνιση της Ομάδας</translation></entry>
+<entry><string>Actions:</string><translation></translation></entry>
+<entry><string>Display</string><translation>Εμφάνιση</translation></entry>
+<entry><string>Modify</string><translation>Τροποποίηση</translation></entry>
+<entry><string>Delete</string><translation>Διαγραφή</translation></entry>
+<entry><string>Privileges</string><translation>Προνόμια</translation></entry>
+<entry><string>Manage User:</string><translation></translation></entry>
+<entry><string>Manage Group:</string><translation></translation></entry>
+<entry><string>Common name</string><translation></translation></entry>
+<entry><string>Display Name:</string><translation></translation></entry>
+<entry><string>Type of Role</string><translation></translation></entry>
+<entry><string>Type:</string><translation></translation></entry>
+<entry><string>Group</string><translation>Ομάδα</translation></entry>
+<entry><string>User</string><translation>Χρήστης</translation></entry>
+<entry><string>Home URL</string><translation></translation></entry>
+<entry><string>Primary Parent Group:</string><translation></translation></entry>
+<entry><string>Name used for user log on</string><translation></translation></entry>
+<entry><string>User Name:</string><translation></translation></entry>
+<entry><string>Email address for this user</string><translation></translation></entry>
+<entry><string>Email:</string><translation></translation></entry>
+<entry><string>Status of this user</string><translation></translation></entry>
+<entry><string>Status:</string><translation></translation></entry>
+<entry><string>Password for this user</string><translation></translation></entry>
+<entry><string>Password:</string><translation></translation></entry>
+<entry><string>Confirm password for this user</string><translation></translation></entry>
+<entry><string>Confirm Password:</string><translation></translation></entry>
+<entry><string>User Timezone:</string><translation></translation></entry>
+<entry><string>Update</string><translation>Ενημέρωση</translation></entry>
+<entry><string>Remove</string><translation>Διαγραφή</translation></entry>
+<entry><string>Add</string><translation>Προσθήκη</translation></entry>
+<entry><string>Home:</string><translation></translation></entry>
+<entry><string>Realm</string><translation>Realm</translation></entry>
+<entry><string>Module</string><translation>Μονάδα</translation></entry>
+<entry><string>Component</string><translation>Εξάρτημα</translation></entry>
+<entry><string>Instance</string><translation>Υλοποίηση</translation></entry>
+<entry><string>Level</string><translation>Επίπεδο</translation></entry>
+<entry><string>None</string><translation>Κανένα</translation></entry>
+<entry><string>matching</string><translation>ταιριάζει με</translation></entry>
+<entry><string>Search for users with either their display name, login name or email matching the string</string><translation></translation></entry>
+<entry><string>Search</string><translation>Αναζήτηση</translation></entry>
+<entry><string>TITLE</string><translation></translation></entry>
+<entry><string>Change Status</string><translation>Αλλαγή Κατάστασης</translation></entry>
+<entry><string>Check All</string><translation></translation></entry>
+<entry><string>Uncheck All</string><translation></translation></entry>
+<entry><string>Recall</string><translation>Ανάκληση</translation></entry>
+<entry><string>Status</string><translation>Κατάσταση</translation></entry>
+<entry><string>Purge</string><translation>Εκκαθάριση</translation></entry>
+<entry><string>Site Lock</string><translation>Κλείδωμα Site</translation></entry>
+<entry><string>Send notification</string><translation>Αποστολή ειδοποίησης</translation></entry>
+<entry><string>Title of the notification</string><translation>Τίτλος της ειδοποίησης</translation></entry>
+<entry><string>Body of the notification</string><translation>Σώμα της ειδοποίησης</translation></entry>
+<entry><string>Password of the user</string><translation>Κωδικός του χρήστη</translation></entry>
+<entry><string>Validation link for the user</string><translation>Σύνδεσμος επαλήθευσης για τον χρήστη</translation></entry>
+<entry><string>Validation code for the user</string><translation>Κωδικός επαλήθευσης για τον χρήστη</translation></entry>
+<entry><string>IP address of the user</string><translation>IP διεύθυνση του χρήστη</translation></entry>
+<entry><string>Name of the site</string><translation>Όνομα του site</translation></entry>
+<entry><string>Name of the administrator</string><translation>Όνομα του διαχειριστή</translation></entry>
+<entry><string>Email address of the administrator</string><translation>Διεύθυνση e-mail του διαχειριστή</translation></entry>
+<entry><string>URL of the site</string><translation>URL του site</translation></entry>
+<entry><string>Name of the user</string><translation>Όνομα του χρήστη</translation></entry>
+<entry><string>Username of the user</string><translation>Αναγνωριστικό του χρήστη</translation></entry>
+<entry><string>Email address of the user</string><translation>Διεύθυνση email του χρήστη</translation></entry>
+<entry><string>(Dynamic property)</string><translation></translation></entry>
+<entry><string>Options:</string><translation></translation></entry>
+<entry><string>Update Notification Configuration</string><translation>Ενημέρωση Ρυθμίσεων Ενημερώσεων</translation></entry>
+<entry><string>Invalid #(1)</string><translation></translation></entry>
+<entry><string>Please specify the icon to use in the validation field</string><translation></translation></entry>
+<entry><string>URL</string><translation></translation></entry>
+<entry><string>check</string><translation></translation></entry>
+<entry><string>text : must be less than #(1) characters long</string><translation></translation></entry>
+<entry><string>text : must be at least #(1) characters long</string><translation></translation></entry>
+<entry><string>text : does not match regular expression</string><translation></translation></entry>
+<entry><string>Field #(1) (#(2)) is missing.</string><translation></translation></entry>
+<entry><string>unknown property</string><translation></translation></entry>
+<entry><string>This property is unknown...</string><translation></translation></entry>
+<entry><string>Yahoo Messenger</string><translation></translation></entry>
+<entry><string>selection</string><translation></translation></entry>
+<entry><string>There is an error in the username</string><translation>Υπάρχει ένα σφάλμα στο όνομα χρήστη</translation></entry>
+<entry><string>That username is already taken.</string><translation>Το όνομα χρήστη χρησιμοποιείται</translation></entry>
+<entry><string>There is a space in the username</string><translation>Υπάρχει ένα κενό στο όνομα χρήστη</translation></entry>
+<entry><string>That email address is already registered.</string><translation>Αυτή η διεύθυνση email έχει ήδη καταχωρηθεί</translation></entry>
+<entry><string>There is an error in the email address</string><translation>Υπάρχει ένα σφάλμα στην διεύθυνση email</translation></entry>
+<entry><string>The two password entries are not the same</string><translation>Οι δύο καταχωρήσεις κωδικών δεν είναι οι ίδιες</translation></entry>
+<entry><string>Empty</string><translation>Κενό</translation></entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Μη αποδεκτό #(1) για την συνάρτηση #(2) #(3)() στην μονάδα #(4)</translation></entry>
+<entry><string>Problem generating new password</string><translation>Πρόβλημα στην δημιουργία νέου κωδικού</translation></entry>
+<entry><string>No such user</string><translation>Δεν υπάρχει ο χρήστης</translation></entry>
+<entry><string>Did not find a group</string><translation>Δεν βρέθηκε η ομάδα</translation></entry>
+<entry><string>Add Group/User</string><translation>Προσθήκη Ομάδας/Χρήστη</translation></entry>
+<entry><string>Recall/Purge</string><translation>Ανάκληση/Καθάρισμα</translation></entry>
+<entry><string>Modify Config</string><translation>Τροποποίηση Ρυθμίσεων</translation></entry>
+<entry><string>Invalid Parameter Count</string><translation>Μη Αποδεκτός Αριθμός Παραμέτρων</translation></entry>
+<entry><string>There is no active registration module installed</string><translation></translation></entry>
+<entry><string>Wrong arguments to roles_userapi_get.</string><translation>Λάθος ορίσματα στην συνάρτηση roles_userapi_get</translation></entry>
+<entry><string>see the entry above</string><translation></translation></entry>
+<entry><string>preview</string><translation></translation></entry>
 </translations>

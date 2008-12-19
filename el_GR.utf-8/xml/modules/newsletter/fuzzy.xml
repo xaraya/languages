@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
+<entry><string>How To Use It?</string><translation>Πως χρησιμοποιείται;</translation></entry>
+<entry><string>You are about to delete a subscription.</string><translation>Πρόκειται να διαγράψετε μια συνδρομή.</translation></entry>
+<entry><string>(overrides publication default)</string><translation>(υπερτερεί της προεπιλογής της έκδοσης)</translation></entry>
+<entry><string>You must register before you can subscribe to an program area.</string><translation>Πρέπει να εγγραφείτε πριν γραφτείτε σαν συνδρομητής σε μια περιοχή προγράμματος.</translation></entry>
+<entry><string>Subscribe to a Newsletter</string><translation>Συνδρομή σε ένα Newsletter</translation></entry>
+<entry><string>Error: Could not move category .'.$category['name']);
+return $data;
+}
+}
+}
+// Set all modules variables
+xarModSetVar('newsletter</string><translation>Σφάλμα: Δεν ήταν δυνατή η μετακίνηση της κατηγορίας</translation></entry>
+<entry><string>Importing the '.$iapOwners.' table.</string><translation>Εισάγεται ο πίνακας '.$iapOwners.'</translation></entry>
+<entry><string>Error retrieving data from '.$iapOwners.' table.</string><translation>Σφάλμα στην ανάληψη δεδομένων από τον πίνακα '.$iapOwners.'</translation></entry>
+<entry><string>Owner ID '.$uid.' already exists in '.$nwsltrOwners.' table - skipping.</string><translation>Το ID κατόχου '.$uid.' υπάρχει ήδη στον πίνακα '.$nwsltrOwners.' - θα παραλειφθεί</translation></entry>
+<entry><string>Inserting data into '.$nwsltrOwners.' table. Owner ID = '. $uid);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the disclaimers table
+$nwsltrDisclaimers = $nwsltrTables['nwsltrDisclaimers'];
+$iapDisclaimers = $iapTables['iapDisclaimers'];
+$data['output'][] = xarML('Importing the '.$iapDisclaimers.' table.</string><translation>Εισαγωγή δεδομένων στον πίνακα '.$nwsltrOwners.' Κωδικός Ιδιοκτήτη = '.$uid</translation></entry>
+<entry><string>Importing the '.$iapDisclaimers.' table.</string><translation>Εισαγωγή δεδομένων στον πίνακα '.$iapDisclaimers</translation></entry>
+<entry><string>Error retrieving data from '.$iapDisclaimers.' table.</string><translation>Σφάλμα ανάκτησης δεδομένων από τον πίνακα '.$iapDisclaimers</translation></entry>
+<entry><string>Error inserting data into '.$nwsltrDisclaimers.' table.</string><translation>Σφάλμα ανάκτησης δεδομένων από τον πίνακα '.$nwsltrDisclaimers</translation></entry>
+<entry><string>Inserting data into '.$nwsltrDisclaimers.' table. Old ID = '.$id.' New ID = '.$disclaimerID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the publication data
+$nwsltrPublications = $nwsltrTables['nwsltrPublications'];
+$iapPublications = $iapTables['iapPublications'];
+$data['output'][] = xarML('Importing the '.$iapPublications.' table.</string><translation>Εισαγωγή δεδομένων στον πίνακα '.$nwsltrDisclaimers</translation></entry>
+<entry><string>Importing the '.$iapPublications.' table.</string><translation>Εισαγεται ο πίνακας '.$iapPublications</translation></entry>
+<entry><string>Error retrieving data from '.$iapPublications.' table.</string><translation>Σφάλμα ανάκτησης δεδομένων από τον πίνακα '.$iapPublications</translation></entry>
+<entry><string>Error inserting data into '.$nwsltrPublications.' table.</string><translation>Σφάλμα εισαγωγής δεδομένων στον πίνακα '.$nwsltrPublications</translation></entry>
+<entry><string>Inserting data into '.$nwsltrPublications.' table. Old ID = '.$id.' New ID = '.$pubID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the issues table
+$nwsltrIssues = $nwsltrTables['nwsltrIssues'];
+$iapIssues = $iapTables['iapIssues'];
+$data['output'][] = xarML('Importing the '.$iapIssues.' table.</string><translation></translation></entry>
+<entry><string>Importing the '.$iapIssues.' table.</string><translation></translation></entry>
+<entry><string>Error retrieving data from '.$iapIssues.' table.</string><translation></translation></entry>
+<entry><string>Error inserting data into '.$nwsltrIssues.' table.</string><translation></translation></entry>
+<entry><string>Inserting data into '.$nwsltrIssues.' table. Old ID = '.$id.' New ID = '.$issueID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the stories table
+$nwsltrStories = $nwsltrTables['nwsltrStories'];
+$iapStories = $iapTables['iapStories'];
+$data['output'][] = xarML('Importing the '.$iapStories.' table.</string><translation></translation></entry>
+<entry><string>Importing the '.$iapStories.' table.</string><translation></translation></entry>
+<entry><string>Error retrieving data from '.$iapStories.' table.</string><translation></translation></entry>
+<entry><string>Error inserting data into '.$nwsltrStories.' table.</string><translation></translation></entry>
+<entry><string>Inserting data into '.$nwsltrStories.' table. Old ID = '.$id.' New ID = '.$storyID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the topics table
+$nwsltrTopics = $nwsltrTables['nwsltrTopics'];
+$iapTopics = $iapTables['iapTopics'];
+$data['output'][] = xarML('Importing the '.$iapTopics.' table.</string><translation></translation></entry>
+<entry><string>Importing the '.$iapTopics.' table.</string><translation></translation></entry>
+<entry><string>Error retrieving data from '.$iapTopics.' table.</string><translation></translation></entry>
+<entry><string>Error inserting data into '.$nwsltrTopics.' table.</string><translation></translation></entry>
+<entry><string>Inserting data into '.$nwsltrTopics.' table. Issue/Story IDs = '.$issueId.'-'.$storyId);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the subscriptions table
+$nwsltrSubscriptions = $nwsltrTables['nwsltrSubscriptions'];
+$iapSubscriptions = $iapTables['iapSubscriptions'];
+$data['output'][] = xarML('Importing the '.$iapSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Importing the '.$iapSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Error retrieving data from '.$iapSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Error inserting data into '.$nwsltrSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Inserting data into '.$nwsltrSubscriptions.' table. Subscription ID = '.$uid);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Import the alternative subscriptions table
+$nwsltrAltSubscriptions = $nwsltrTables['nwsltrAltSubscriptions'];
+$iapAltSubscriptions = $iapTables['iapAltSubscriptions'];
+$data['output'][] = xarML('Importing the '.$iapAltSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Importing the '.$iapAltSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Error retrieving data from '.$iapAltSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Error inserting data into '.$nwsltrAltSubscriptions.' table.</string><translation></translation></entry>
+<entry><string>Inserting data into '.$nwsltrAltSubscriptions.' table. Alt Subscription ID = '.$altID);
+}
+}
+// Close result set
+$result-&gt;Close();
+// Done!
+$data['output'][] = xarML('Finished importing data</string><translation></translation></entry>
+<entry><string>master category</string><translation></translation></entry>
+<entry><string>- General information about the publications that a user can subscribe to. This information is created in the Newsletter user modify configuration screen in the text fields &quot;Publisher or Company Name&quot; and &quot;Information about Newsletter&quot;</string><translation></translation></entry>
+<entry><string>- Allows non-registered users to view past issues.</string><translation></translation></entry>
+<entry><string>- Allows logged in users to modify their subscription(s) to the publications.</string><translation></translation></entry>
+<entry><string>You are about to delete a disclaimer.</string><translation>Πρόκειτε να διαγράψετε ένα disclaimer.</translation></entry>
+<entry><string>You are about to delete an issue.</string><translation>Πρόκειται να διαγράψετε ένα τεύχεος</translation></entry>
+<entry><string>You are about to delete an Newsletter user.</string><translation>Πρόκειτε να διαγράψετε έναν χρήστη Newsletter</translation></entry>
+<entry><string>Confirm removal of Newsletter user:</string><translation>Επιβεβαιώστε την διαγραφή του χρήστη Newsletter:</translation></entry>
+<entry><string>You are about to delete a publication.</string><translation>Πρόκειται να διαγράψετε μια έκδοση.</translation></entry>
+<entry><string>You are about to delete a story.</string><translation>Πρόκειται να διαγράψετε ένα άρθρο.</translation></entry>
+<entry><string>The Newsletter module allows an individual or organization to compile and distribute news and research updates to interested parties via email. This module gives writers, editors and publishers a comprehensive process to easily assemble the stories for an newsletter and subsequently publish the information to a subscription base.</string><translation></translation></entry>
+<entry><string>&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;&amp;nbsp;If you have not yet configured the module, please do so.</string><translation></translation></entry>
+<entry><string>&lt;b&gt;Default Groups&lt;/b&gt;</string><translation>&lt;b&gt;Προεπιλεγμένες Ομάδες&lt;/b&gt;</translation></entry>
+<entry><string>As a user of the Newsletter module, you will be added to either the publisher, editor or writer group. Once the module administrator has added you to one of these groups, you will be able to create content for a publication.</string><translation></translation></entry>
+<entry><string>&lt;b&gt;Publication Items&lt;/b&gt;</string><translation>&lt;b&gt;Αντικείμενα Έκδοσης&lt;/b&gt;</translation></entry>
+<entry><string>A publication is the top-level wrapper for each issue and sets default information for each issue and story within the issue.</string><translation></translation></entry>
+<entry><string>Each publication should have a disclaimer or confidentiality clause. Once a disclaimer is created, it can be used by multiple publications.</string><translation></translation></entry>
+<entry><string>An issue contains the news and research updates that have been compiled as stories. Once the issue is ready to be published, the issue will be sent to the subscription base. After an issue has been published, it can be view by non-registered users from the Newsletter information block.</string><translation>Κάθε τεύχος περιλαμβάνει τα νέα, τις ενημερώσεις για την έρευνα κ.α. Όταν η ύλη είναι έτοιμη για έκδοση, το τεύχος θα σταλεί στην συνδρομητική βάση. Μετά την έκδοση ενός τεύχους, μπορεί να εμφανίσει το block Newsletter Information</translation></entry>
+<entry><string>Each issue will have multiple stories relating to the news and research updates that will be presented to the subscription base.</string><translation>Κάθε τεύχος θα έχει πολλά άρθρα με θέματα σχετικά με τα νέα της έρευνας που θα αποστέλλονται στην συνδρομητική βάση.</translation></entry>
+<entry><string>publication</string><translation>έκδοση</translation></entry>
+<entry><string>The admin or publisher should first update the module's configuration within the Newsletter &lt;i&gt;modify configuration&lt;/i&gt; before publishing an issue. If the Newsletter information block has been added, then the &lt;i&gt;Publisher or Company Name&lt;/i&gt; and &lt;i&gt;Information&lt;/i&gt; fields will be displayed within the information block. &lt;i&gt;Information&lt;/i&gt; should contain a general description about the publications that are available to the subscription base.</string><translation></translation></entry>
+<entry><string>Add a signature block if you wish to include a signature in each issue. Do not include a user name in your signature block as this will be automatically included in the template. By default, the signature block will be displayed after your user name.</string><translation></translation></entry>
+<entry><string>Each publication can have it's own HTML and text email template. To create a new template, you will need to copy one of the existing templates and modify the template for the desired appearance. A README file is included in the templates directory with the necessary information on creating a new template.</string><translation>Η κάθε έκδοση μπορεί να έχει υποδείγματα για HTML &amp; text e-mail. Για να δημιουργήσετε ένα υπόδειγμα, θα πρέπει να αντιγράψετε ένα από τα υπάρχοντα και να το τροποποιήσετε για να έχει την επιθυμητή εμφάνιση. Υπάρχει ένα αρχείο README στο αντίστοιχο directory με τις απαραίτητες πληροφορίες για την δημιουργία ενός νέου υποδείγματος.</translation></entry>
+<entry><string>The default templates are located the directory &lt;i&gt;&quot;modules/newsletter/templates&quot;&lt;/i&gt;</string><translation>Τα προεπιλεγμένα υποδείγματα βρίσκονται στο directory &lt;i&gt;&quot;modules/newsletter/templates&quot;&lt;/i&gt;</translation></entry>
+<entry><string>Either create a new publication or choose a publication that already exists. (publisher)</string><translation>Δημιουργία μιας νέας έκδοσης ή επιλογή μιας έκδοσης που ήδη υπάρχει. (εκδότης)</translation></entry>
+<entry><string>You can continue adding stories to the issue until you have finished and are ready to publish the issue.</string><translation>Μπορείτε να συνεχίσετε να προσθέτετε άρθρα στο τεύχος μέχρις να ολοκληρώσετε και να είστε έτοιμος για έκδοση του τεύχους.</translation></entry>
+<entry><string>Select an issue to preview. The publication's HTML template will be used to display the issue.</string><translation>Επιλέξτε ένα τεύχος για προεπισκόπηση. Θα χρησιμοποιηθεί το υπόδειγμα HTML για την εμφάνιση του τεύχους</translation></entry>
+<entry><string>&lt;b&gt;Subscriptions&lt;/b&gt;</string><translation>&lt;b&gt;Συνδρομές&lt;/b&gt;</translation></entry>
+<entry><string>Normally, a user cannot subscribe to a publication unless they are a registered user on your site. If the Newsletter information block has been added, then a registered user will be able to subscribe to a publication and modify their subscriptions.</string><translation>Κανονικά ένας χρήστης δεν μπορεί να γραφτεί συνδρομήτης εκτός αν είναι καταχωρημένος χρήστης στο site. Αν το Newsletter Information block έχει προστεθεί, τότε ένας καταχωρημένος χρήστης θα έχει γραφεί συνδρομητής και να τροποποιεί τις συνδρομές του.</translation></entry>
+<entry><string>If you wish to add a subscription that is not a registered user, then you can add a subscription from the &lt;i&gt;add subscription&lt;/i&gt; menu. You will need to provide a user name and email address. This provides an alternative way of adding subscriptions to a publication for users that are not registered.</string><translation>Αν επιθυμείτε να προσθέσετε μια συνδρομή σε μη εγγεγραμμένο χρήστη, μπορείτε να προσθέσετε την συνδρομή από το menu &lt;i&gt;συνδρομές&lt;/i&gt;. Θα πρέπει να δώσετε ένα όνομα χρήστη και μια διεύθυνση e-mail Αυτός είναι ένας εναλλακτικός τρόπος προσθήκης συνδρομών για χρήστης που δέν έχουν εγγραφεί.</translation></entry>
+<entry><string>From the main menu, you have the following choices based on your privileges:</string><translation>Από το κυρίως menu έχετε τις παρακάτω επιλογές</translation></entry>
+<entry><string>&lt;b&gt;Publication&lt;/b&gt;</string><translation>&lt;b&gt;Έκδοση&lt;/b&gt;</translation></entry>
+<entry><string>&lt;b&gt;Field&lt;/b&gt;</string><translation>&lt;b&gt;Πεδίο&lt;/b&gt;</translation></entry>
+<entry><string>&lt;b&gt;Description&lt;/b&gt;</string><translation>&lt;b&gt;Περιγραφή&lt;/b&gt;</translation></entry>
+<entry><string>The name of the HTML template to use for the publication. The HTML template located in the &lt;i&gt;modules/newsletter/templates&lt;/i&gt; directory.</string><translation>Το όνομα του υποδείγματος HTML που θα χρησιμοποιηθεί στην έκδοση. Το υπόδειγμα HTML βρίσκεται στο directory &lt;i&gt;modules/newsletter/templates&lt;/i&gt;</translation></entry>
+<entry><string>Active Users</string><translation>Ενεργοί Χρήστες</translation></entry>
+<entry><string>Send newsletter only to active users. This does not include alternative subscriptions.</string><translation>Αποστολή newsletter μόνο στους ενεργούς χρήστες. Αυτό δεν περιλαμβάνει εναλλακτικές συνδρομές.</translation></entry>
+<entry><string>Send to active users:</string><translation>Αποστολή στους ενεργούς χρήστες:</translation></entry>
+<entry><string>Short URL Support</string><translation>Υποστήριξη σύντομων URL</translation></entry>
+<entry><string>Modify the following for display in the information block.</string><translation>Τροποποίηση των παραπάνω για εμφάνιση στο block πληροφοριών</translation></entry>
+<entry><string>(turn off to display by order of category id)</string><translation>(απενεργοποιήστε την εμφάνιση με σειρά id κατηγορίας)</translation></entry>
+<entry><string>If you want to use the default groups and privileges for Newsletter, set the groups accordingly.</string><translation>Αν επιθυμείτε να χρησιμοποιήσετε τις προεπιλεγμένες ομάδες και προνόμια για το Newsletter πρέπει να ορίσετε τις ομάδες σχετικά.</translation></entry>
+<entry><string>&amp;nbsp;&amp;nbsp;firstname,lastname,email</string><translation>&amp;nbps;&amp;nbsp;όνομα,επώνυμο,e-mail</translation></entry>
+<entry><string>You are about to publish an issue.</string><translation>Πρόκειται να εκδώσετε ένα τεύχος.</translation></entry>
+<entry><string>Confirm publication of issue:</string><translation>Επιβεβαιώστε την έκδοση του τεύχους:</translation></entry>
+<entry><string>Show all subscriptions for a publication:</string><translation>Εμφάνιση όλων των συνδρομών για μια έκδοση:</translation></entry>
+<entry><string>Search by name:</string><translation>Αναζήτηση με όνομα:</translation></entry>
+<entry><string>Search by email address:</string><translation>Αναζήτση με διεύθυνση email:</translation></entry>
+<entry><string>Choose Publication:</string><translation>Επιλέξτε Έκδοση:</translation></entry>
+<entry><string>Select if you would like a publication received in HTML format.</string><translation>Επιλέξτε εδώ αν επιθυμείτε η έκδοση να λαμβάνεται σε μορφή HTML</translation></entry>
+<entry><string>Select if you would like the Newsletter received in HTML format.</string><translation>Επιλέξτε εδώ αν επιθυμείτε να λαμβάνετε το Newsletter σε μορφή HTML.</translation></entry>
+<keyEntry><key>DATABASE_ERROR</key><translation>ΛΑΘΟΣ_ΒΑΣΗΣ_ΔΕΔΟΜΕΝΩΝ</translation>	</keyEntry>
+</translations>

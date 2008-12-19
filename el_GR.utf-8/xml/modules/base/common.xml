@@ -1,285 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Unknown document format: #(1)</string>
-		<translation>Άγνωστη μορφή αρχείου: #(1)</translation>
-		<references>
-			<reference file="modules/base/xarclass/feedParser.php" line="195" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid XML data</string>
-		<translation>Μη αποδεκτά δεδομένα XML</translation>
-		<references>
-			<reference file="modules/base/xarclass/feedParser.php" line="201" />
-		</references>
-	</entry>
-	<entry>
-		<string>Text</string>
-		<translation>Κείμενο</translation>
-		<references>
-			<reference file="modules/base/xarblocks/modify-content.php" line="36" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>HTML</string>
-		<translation>HTML</translation>
-		<references>
-			<reference file="modules/base/xarblocks/modify-content.php" line="37" />
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="31" />
-		</references>
-	</entry>
-	<entry>
-		<string>Base Administration</string>
-		<translation>Βασική Διαχείριση</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/base/xartemplates/admin-modifyconfig.xd" line="11" />
-			<reference file="modules/base/xartemplates/admin-release.xd" line="2" />
-			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modules</string>
-		<translation>Modules</translation>
-		<references>
-			<reference file="modules/base/xartemplates/admin-sysinfo.xd" line="51" />
-			<reference file="modules/base/xartemplates/blocks/menu.xd" line="62" />
-		</references>
-	</entry>
-	<entry>
-		<string>System Message</string>
-		<translation>Μύνημα Συστήματος</translation>
-		<references>
-			<reference file="modules/base/xartemplates/message-exception.xd" line="11" />
-			<reference file="modules/base/xartemplates/message-systeminfo.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Explanation:</string>
-		<translation>Επεξήγηση:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/message-exception.xd" line="25" />
-			<reference file="modules/base/xartemplates/message-systemerror.xd" line="25" />
-			<reference file="modules/base/xartemplates/message-systeminfo.xd" line="25" />
-			<reference file="modules/base/xartemplates/system-exception.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Further Information:</string>
-		<translation>Περισσότερες Πληροφορίες:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/message-exception.xd" line="33" />
-			<reference file="modules/base/xartemplates/message-systemerror.xd" line="33" />
-			<reference file="modules/base/xartemplates/message-systeminfo.xd" line="33" />
-			<reference file="modules/base/xartemplates/message-usererror.xd" line="34" />
-			<reference file="modules/base/xartemplates/system-exception.xd" line="34" />
-			<reference file="modules/base/xartemplates/user-exception.xd" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>Stack:</string>
-		<translation>Στοίβα:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/message-exception.xd" line="41" />
-			<reference file="modules/base/xartemplates/message-systemerror.xd" line="41" />
-			<reference file="modules/base/xartemplates/system-exception.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>Error Message</string>
-		<translation>Μύνημα Λάθους</translation>
-		<references>
-			<reference file="modules/base/xartemplates/message-systemerror.xd" line="10" />
-			<reference file="modules/base/xartemplates/message-usererror.xd" line="11" />
-			<reference file="modules/base/xartemplates/system-exception.xd" line="11" />
-			<reference file="modules/base/xartemplates/user-exception.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>Problem:</string>
-		<translation>Πρόβλημα:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/message-usererror.xd" line="26" />
-			<reference file="modules/base/xartemplates/user-exception.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>First page</string>
-		<translation>Πρώτη Σελίδα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-default.xd" line="5" />
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="6" />
-			<reference file="modules/base/xartemplates/pager-multipageprev.xd" line="6" />
-			<reference file="modules/base/xartemplates/pager-openended.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>Previous #(1) pages</string>
-		<translation>Προηγούμενες #(1) σελίδες</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-default.xd" line="15" />
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="12" />
-			<reference file="modules/base/xartemplates/pager-openended.xd" line="20" />
-		</references>
-	</entry>
-	<entry>
-		<string>Page #(1)</string>
-		<translation>Σελίδα #(1)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-default.xd" line="48" />
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="26" />
-			<reference file="modules/base/xartemplates/pager-openended.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>Next #(1) pages</string>
-		<translation>Επόμενες #(1) σελίδες</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-default.xd" line="77" />
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="43" />
-		</references>
-	</entry>
-	<entry>
-		<string>Last page</string>
-		<translation>Τελευταία σελίδα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-default.xd" line="89" />
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="52" />
-			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Previous page</string>
-		<translation>Προηγούμενη σελίδα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="20" />
-			<reference file="modules/base/xartemplates/pager-multipageprev.xd" line="13" />
-			<reference file="modules/base/xartemplates/pager-openended.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Next page</string>
-		<translation>Επόμενη σελίδα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/pager-multipage.xd" line="37" />
-			<reference file="modules/base/xartemplates/pager-multipagenext.xd" line="6" />
-			<reference file="modules/base/xartemplates/pager-openended.xd" line="57" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid URL [#(1)]</string>
-		<translation>Μη αποδεκτό URL [#(1)]</translation>
-		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="58" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="76" />
-		</references>
-	</entry>
-	<entry>
-		<string>Socket error #(1) : #(2) while retrieving URL #(3)</string>
-		<translation>Σφάλμα Socket #(1) : #(2) κατά την ανάκτηση του URL #(3)</translation>
-		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="71" />
-			<reference file="modules/base/xaruserapi/checklink.php" line="86" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="152" />
-		</references>
-	</entry>
-	<entry>
-		<string>Error sending request for URL #(1)</string>
-		<translation>Σφάλμα αποστολής αιτήματος για το URL #(1)</translation>
-		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="97" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="163" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid response headers for URL #(1) : #(2)</string>
-		<translation>Μη αποδεκτή επικεφαλίδα απόκρισης για το URL #(1) : #(2)</translation>
-		<references>
-			<reference file="modules/base/xaruserapi/checklink.php" line="109" />
-			<reference file="modules/base/xaruserapi/getfile.php" line="177" />
-		</references>
-	</entry>
-	<entry>
-		<string>Select when the block will expire, if at all.</string>
-		<translation>Επιλογή του χρόνου λήξης του block (αν προβλέπεται)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="4" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Block Expiration</string>
-		<translation>Λήξη Block</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="4" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>1 Day</string>
-		<translation>1 Ημέρα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="8" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>2 Days</string>
-		<translation>2 Ημέρες</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="9" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>5 Days</string>
-		<translation>5 Ημέρες</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="10" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>15 Days</string>
-		<translation>15 Ημέρες</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="11" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>30 Days</string>
-		<translation>30 Ημέρες</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="12" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unlimited</string>
-		<translation>Απεριόριστο</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="13" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="15" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>This Block Will Expire:</string>
-		<translation>Αυτό το Τμήμα Θα Λήξει Στις:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="21" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>hours from now.</string>
-		<translation>ώρες από τώρα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/blocks/modify-html.xd" line="24" />
-			<reference file="modules/base/xartemplates/blocks/modify-text.xd" line="30" />
-		</references>
-	</entry>
+<entry><string>By Name</string><translation></translation></entry>
+<entry><string>By Category</string><translation></translation></entry>
+<entry><string>Base Administration</string><translation>Βασική Διαχείριση</translation></entry>
+<entry><string>System Information</string><translation>Πληροφορίες Συστήματος</translation></entry>
+<entry><string>Modules</string><translation>Modules</translation></entry>
+<entry><string>official icon</string><translation></translation></entry>
+<entry><string>Overview</string><translation>Περίληψη</translation></entry>
+<entry><string>Version</string><translation></translation></entry>
+<entry><string>Move Up</string><translation>Μετακίνηση Πάνω</translation></entry>
+<entry><string>Up Arrow</string><translation></translation></entry>
+<entry><string>Move Down</string><translation>Μετακίνηση Κάτω</translation></entry>
+<entry><string>Down Arrow</string><translation></translation></entry>
+<entry><string>Error Message</string><translation>Μύνημα Λάθους</translation></entry>
+<entry><string>Exception Icon</string><translation></translation></entry>
+<entry><string>Explanation:</string><translation>Επεξήγηση:</translation></entry>
+<entry><string>Further Information:</string><translation>Περισσότερες Πληροφορίες:</translation></entry>
+<entry><string>Stack:</string><translation>Στοίβα:</translation></entry>
+<entry><string>Problem:</string><translation>Πρόβλημα:</translation></entry>
+<entry><string>First page</string><translation>Πρώτη Σελίδα</translation></entry>
+<entry><string>Previous #(1) pages</string><translation>Προηγούμενες #(1) σελίδες</translation></entry>
+<entry><string>Page #(1)</string><translation>Σελίδα #(1)</translation></entry>
+<entry><string>Next #(1) pages</string><translation>Επόμενες #(1) σελίδες</translation></entry>
+<entry><string>Last page</string><translation>Τελευταία σελίδα</translation></entry>
+<entry><string>System Message</string><translation>Μύνημα Συστήματος</translation></entry>
+<entry><string>Message Icon</string><translation></translation></entry>
+<entry><string>Previous page</string><translation>Προηγούμενη σελίδα</translation></entry>
+<entry><string>Next page</string><translation>Επόμενη σελίδα</translation></entry>
+<entry><string>date</string><translation></translation></entry>
+<entry><string>Invalid #(1)</string><translation></translation></entry>
+<entry><string>yes</string><translation></translation></entry>
+<entry><string>no</string><translation></translation></entry>
+<entry><string>Field #(1) (#(2)) is missing.</string><translation></translation></entry>
+<entry><string>unknown property</string><translation></translation></entry>
+<entry><string>This property is unknown...</string><translation></translation></entry>
+<entry><string>selection</string><translation></translation></entry>
+<entry><string>value</string><translation></translation></entry>
+<entry><string>Allowed file types : #(1)</string><translation></translation></entry>
+<entry><string>invalid number</string><translation></translation></entry>
+<entry><string>value must be between #(1) and #(2)</string><translation></translation></entry>
+<entry><string>value must be no less than #(1)</string><translation></translation></entry>
+<entry><string>value must be no greater than #(1)</string><translation></translation></entry>
+<entry><string>text : must be less than #(1) characters long</string><translation></translation></entry>
+<entry><string>text : must be at least #(1) characters long</string><translation></translation></entry>
+<entry><string>text : does not match regular expression</string><translation></translation></entry>
+<entry><string>integer</string><translation></translation></entry>
+<entry><string>URL</string><translation>URL</translation></entry>
+<entry><string>check</string><translation></translation></entry>
+<entry><string>Click Here to select a color</string><translation></translation></entry>
+<entry><string>Modify Config</string><translation>Τροποποίηση Ρυθμίσεων</translation></entry>
+<entry><string>Invalid URL [#(1)]</string><translation>Μη αποδεκτό URL [#(1)]</translation></entry>
+<entry><string>Socket error #(1) : #(2) while retrieving URL #(3)</string><translation>Σφάλμα Socket #(1) : #(2) κατά την ανάκτηση του URL #(3)</translation></entry>
+<entry><string>Error sending request for URL #(1)</string><translation>Σφάλμα αποστολής αιτήματος για το URL #(1)</translation></entry>
+<entry><string>Invalid response headers for URL #(1) : #(2)</string><translation>Μη αποδεκτή επικεφαλίδα απόκρισης για το URL #(1) : #(2)</translation></entry>
+<entry><string>Title</string><translation>Τίτλος</translation></entry>
+<entry><string>Select when the block will expire, if at all.</string><translation>Επιλογή του χρόνου λήξης του block (αν προβλέπεται)</translation></entry>
+<entry><string>Block Expiration:</string><translation></translation></entry>
+<entry><string>1 Day</string><translation>1 Ημέρα</translation></entry>
+<entry><string>2 Days</string><translation>2 Ημέρες</translation></entry>
+<entry><string>5 Days</string><translation>5 Ημέρες</translation></entry>
+<entry><string>15 Days</string><translation>15 Ημέρες</translation></entry>
+<entry><string>30 Days</string><translation>30 Ημέρες</translation></entry>
+<entry><string>Unlimited</string><translation>Απεριόριστο</translation></entry>
+<entry><string>This Block Will Expire:</string><translation>Αυτό το Τμήμα Θα Λήξει Στις:</translation></entry>
+<entry><string>#(1) hours from now.</string><translation></translation></entry>
+<entry><string>Admin logout</string><translation></translation></entry>
+<entry><string>System help</string><translation></translation></entry>
+<entry><string>Help</string><translation></translation></entry>
+<entry><string>Logout as administrator</string><translation></translation></entry>
+<entry><string>preview</string><translation></translation></entry>
+<entry><string>Icon</string><translation></translation></entry>
+<entry><string>Options not specified in validation field.</string><translation></translation></entry>
+<entry><string>Other rule</string><translation></translation></entry>
+<entry><string>Minimum value</string><translation></translation></entry>
+<entry><string>Maximum value</string><translation></translation></entry>
+<entry><string>Base directory</string><translation></translation></entry>
+<entry><string>Note : {theme} will be replaced by the current theme directory
+- e.g. {theme}/images -&amp;gt; themes/Xaraya_Classic/images</string><translation></translation></entry>
+<entry><string>File extensions</string><translation></translation></entry>
+<entry><string>Note: the uploads module is not hooked</string><translation></translation></entry>
+<entry><string>Methods</string><translation></translation></entry>
+<entry><string>Upload Directory</string><translation></translation></entry>
+<entry><string>Note : {user} will be replaced by the current user uploading the file
+- e.g. var/uploads/{user} -&amp;gt; var/uploads/myusername_123</string><translation></translation></entry>
+<entry><string>Trusted Directory</string><translation></translation></entry>
+<entry><string>Note : {user} will be replaced by the current user importing the file
+- e.g. var/imports/{user} -&amp;gt; var/imports/myusername_123</string><translation></translation></entry>
+<entry><string>Note: the uploads module is hooked</string><translation></translation></entry>
 </translations>

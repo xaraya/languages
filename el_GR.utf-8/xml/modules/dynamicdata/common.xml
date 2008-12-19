@@ -1,498 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Invalid #(1) #(2) for dynamic object #(3)</string>
-		<translation>Μη αποδεκτός #(1) #(2) για το δυναμικό αντικείμενο #(3)</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="87" />
-			<reference file="modules/dynamicdata/class/objects.php" line="137" />
-			<reference file="modules/dynamicdata/class/objects.php" line="675" />
-		</references>
-	</entry>
-	<entry>
-		<string>Table #(1)</string>
-		<translation>Πίνακας #(1)</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="419" />
-			<reference file="modules/dynamicdata/xaradmin/query.php" line="190" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Μη αποδεκτή #(1) για την συνάρτηση #(2) #(3)() στο module #(4)</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="720" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1037" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1060" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1425" />
-			<reference file="includes/datastores/Dynamic_FlatTable_DataStore.php" line="178" />
-			<reference file="includes/datastores/Dynamic_VariableTable_DataStore.php" line="560" />
-			<reference file="modules/dynamicdata/xaradmin/modifyhook.php" line="29" />
-			<reference file="modules/dynamicdata/xaradmin/modifyhook.php" line="37" />
-			<reference file="modules/dynamicdata/xaradmin/modifyhook.php" line="54" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="67" />
-			<reference file="modules/dynamicdata/xaradmin/updateprop.php" line="72" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="29" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="46" />
-			<reference file="modules/dynamicdata/xaradmin/newhook.php" line="29" />
-			<reference file="modules/dynamicdata/xaradmin/newhook.php" line="46" />
-			<reference file="modules/dynamicdata/xaradminapi/syncprops.php" line="41" />
-			<reference file="modules/dynamicdata/xaradminapi/removehook.php" line="35" />
-			<reference file="modules/dynamicdata/xaradminapi/removehook.php" line="45" />
-			<reference file="modules/dynamicdata/xaradminapi/update.php" line="45" />
-			<reference file="modules/dynamicdata/xaradminapi/updatehook.php" line="42" />
-			<reference file="modules/dynamicdata/xaradminapi/updatehook.php" line="67" />
-			<reference file="modules/dynamicdata/xaradminapi/updatehook.php" line="87" />
-			<reference file="modules/dynamicdata/xaradminapi/updatehook.php" line="99" />
-			<reference file="modules/dynamicdata/xaradminapi/updatehook.php" line="111" />
-			<reference file="modules/dynamicdata/xaradminapi/updatehook.php" line="134" />
-			<reference file="modules/dynamicdata/xaradminapi/browse.php" line="21" />
-			<reference file="modules/dynamicdata/xaradminapi/deleteprop.php" line="43" />
-			<reference file="modules/dynamicdata/xaradminapi/create.php" line="42" />
-			<reference file="modules/dynamicdata/xaradminapi/updateprop.php" line="49" />
-			<reference file="modules/dynamicdata/xaradminapi/showlist.php" line="62" />
-			<reference file="modules/dynamicdata/xaradminapi/createproperty.php" line="47" />
-			<reference file="modules/dynamicdata/xaradminapi/showform.php" line="61" />
-			<reference file="modules/dynamicdata/xaradminapi/delete.php" line="38" />
-			<reference file="modules/dynamicdata/xaradminapi/deletehook.php" line="29" />
-			<reference file="modules/dynamicdata/xaradminapi/deletehook.php" line="37" />
-			<reference file="modules/dynamicdata/xaradminapi/deletehook.php" line="55" />
-			<reference file="modules/dynamicdata/xaradminapi/deletehook.php" line="75" />
-			<reference file="modules/dynamicdata/xaruserapi/getprop.php" line="83" />
-			<reference file="modules/dynamicdata/xaruserapi/showview.php" line="64" />
-			<reference file="modules/dynamicdata/xaruserapi/showdisplay.php" line="53" />
-			<reference file="modules/dynamicdata/xaruserapi/getfield.php" line="54" />
-			<reference file="modules/dynamicdata/xaruserapi/dropdownlist.php" line="38" />
-			<reference file="modules/dynamicdata/xaruserapi/dropdownlist.php" line="56" />
-			<reference file="modules/dynamicdata/xaruserapi/getitems.php" line="71" />
-			<reference file="modules/dynamicdata/xaruserapi/getitem.php" line="69" />
-			<reference file="modules/dynamicdata/xarutilapi/getrelations.php" line="54" />
-			<reference file="modules/dynamicdata/xarutilapi/getstatic.php" line="55" />
-			<reference file="modules/dynamicdata/xarutilapi/importproperties.php" line="35" />
-			<reference file="modules/dynamicdata/xaruser/displayhook.php" line="29" />
-			<reference file="modules/dynamicdata/xaruser/displayhook.php" line="37" />
-			<reference file="modules/dynamicdata/xaruser/displayhook.php" line="54" />
-			<reference file="modules/dynamicdata/xarutil/importprops.php" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid item id in method #(1)() for dynamic object [#(2)] #(3)</string>
-		<translation>Μη αποδκετό id αντικειμένου στην μέθοδο #(1)() για το δυναμικό αντικείμενο [#(2)] #(3)</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="797" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1116" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1160" />
-		</references>
-	</entry>
-	<entry>
-		<string>Display</string>
-		<translation>Εμφάνιση</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="1597" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1771" />
-		</references>
-	</entry>
-	<entry>
-		<string>View</string>
-		<translation>Εμφάνιση</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="1646" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1650" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1671" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1675" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1690" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1694" />
-			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="4" />
-			<reference file="modules/dynamicdata/xartemplates/user-view.xd" line="9" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="18" />
-			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="222" />
-		</references>
-	</entry>
-	<entry>
-		<string>Edit</string>
-		<translation>Τροποποίηση</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="1657" />
-			<reference file="modules/dynamicdata/class/objects.php" line="1682" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="121" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="123" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Διαγραφή</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/objects.php" line="1663" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="131" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="133" />
-		</references>
-	</entry>
-	<entry>
-		<string>unknown property</string>
-		<translation>άγνωστη ιδιότητα</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/properties.php" line="391" />
-		</references>
-	</entry>
-	<entry>
-		<string>This property is unknown...</string>
-		<translation>Αυτή η ιδιότητα είναι άγνωστη...</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/properties.php" line="425" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1)</string>
-		<translation>Μη αποδεκτό #(1)</translation>
-		<references>
-			<reference file="modules/dynamicdata/class/properties.php" line="477" />
-		</references>
-	</entry>
-	<entry>
-		<string>ID</string>
-		<translation>Κωδικός</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="46" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="138" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="69" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name</string>
-		<translation>Όνομα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="47" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="139" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="70" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Validation</string>
-		<translation>Επαλήθευση</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="51" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="145" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="75" />
-		</references>
-	</entry>
-	<entry>
-		<string>New</string>
-		<translation>Νέο</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyconfig.php" line="53" />
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="146" />
-			<reference file="modules/dynamicdata/xartemplates/admin-objectlist.xd" line="40" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="29" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="70" />
-		</references>
-	</entry>
-	<entry>
-		<string>Label</string>
-		<translation>Εττικέτα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="140" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default</string>
-		<translation>Προεπιλογή</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="142" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>Data Source</string>
-		<translation>Πηγή Δεδομένων</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="143" />
-			<reference file="modules/dynamicdata/xaradmin/modifyconfighook.php" line="74" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module</string>
-		<translation>Μονάδα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="204" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="71" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="18" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="7" />
-		</references>
-	</entry>
-	<entry>
-		<string>Link Type</string>
-		<translation>Είδος Συνδέσμου</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="205" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>From</string>
-		<translation>Από</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="206" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="9" />
-		</references>
-	</entry>
-	<entry>
-		<string>To</string>
-		<translation>Προς</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/modifyprop.php" line="207" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>Refresh</string>
-		<translation>Ανανέωση</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradmin/privileges.php" line="195" />
-			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Dynamic Data Administration</string>
-		<translation>Διαχείριση Δυναμικών Δεδομένων</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradminapi/menu.php" line="23" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="1" />
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyconfig.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-import.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="8" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-export.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>fields or values</string>
-		<translation>πεδία ή τιμές</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradminapi/update.php" line="42" />
-			<reference file="modules/dynamicdata/xaradminapi/create.php" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Utilities</string>
-		<translation>Βοηθήματα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaradminapi/getmenulinks.php" line="45" />
-			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Περίληψη</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="111" />
-			<reference file="modules/dynamicdata/xartemplates/admin-privileges.xd" line="113" />
-			<reference file="modules/dynamicdata/xartemplates/admin-main.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add Relation</string>
-		<translation>Προσθήκη Σχέσης</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="16" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>Import table</string>
-		<translation>Εισαγωγή πίνακα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="38" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="166" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show Table Definitions</string>
-		<translation>Εμφάνιση Ορισμών Πίνακα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-static.xd" line="81" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>check</string>
-		<translation>έλεγχος</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-affero.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-yahoo.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urlicon.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-aim.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-icq.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-msn.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-url.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urltitle.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>preview</string>
-		<translation>προεπισκόπηση</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-affero.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-yahoo.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-username.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urlicon.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-aim.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-icq.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-msn.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-url.xd" line="3" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showinput-urltitle.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Specify your own layout here...</string>
-		<translation>Προσδιορίστε το layoyt εδώ...</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/user-showview.xd" line="136" />
-			<reference file="modules/dynamicdata/xartemplates/admin-objectlist.xd" line="107" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="155" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="93" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectdisplay.xd" line="15" />
-			<reference file="modules/dynamicdata/xartemplates/admin-objectform.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/user-showdisplay.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showform.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>You can also specify a separate template, e.g. if you want to handle individual fields differently for a particular module / itemtype</string>
-		<translation>Μπορείτε επίσης να προσδιορίσετε ένα ξεχωριστό υπόδειγμα, π.χ. αν επιθυμείτε να χειριστείτε ξεχωριστά πεδία διαφορετικά για μια συγκεκριμμένη μονάδα ή τύπου αντικειμένου</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/user-showview.xd" line="138" />
-			<reference file="modules/dynamicdata/xartemplates/admin-objectlist.xd" line="109" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectview.xd" line="157" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="95" />
-			<reference file="modules/dynamicdata/xartemplates/user-objectdisplay.xd" line="17" />
-			<reference file="modules/dynamicdata/xartemplates/admin-objectform.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/user-showdisplay.xd" line="14" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showform.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Dynamic Properties</string>
-		<translation>Τροποποίηση Δυναμικών Ιδιοτήτων</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Export Object Definition to XML</string>
-		<translation>Εξαγωγή Ορισμού Αντικειμένου σε XML</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="11" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Preview</string>
-		<translation>Προεπισκόπηση</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="20" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modify.xd" line="62" />
-			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="10" />
-			<reference file="modules/dynamicdata/xartemplates/admin-new.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>Yes</string>
-		<translation>Ναι</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="25" />
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-checkbox.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>No</string>
-		<translation>Όχι</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-delete.xd" line="27" />
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-checkbox.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Icon</string>
-		<translation>Εικονίδιο</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-urlicon.xd" line="2" />
-			<reference file="modules/dynamicdata/xartemplates/user-showoutput-icq.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>not found</string>
-		<translation>δεν βρέθηκε</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="207" />
-			<reference file="modules/dynamicdata/xartemplates/admin-modifyprop.xd" line="209" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="26" />
-			<reference file="modules/dynamicdata/xartemplates/util-relations.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Query</string>
-		<translation>Ερώτημα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="9" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="21" />
-			<reference file="modules/dynamicdata/xartemplates/admin-query.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Options</string>
-		<translation>Επιλογές</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/admin-view.xd" line="19" />
-			<reference file="modules/dynamicdata/xartemplates/admin-objectlist.xd" line="11" />
-			<reference file="modules/dynamicdata/xartemplates/admin-showlist.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>Welcome to Dynamic Data</string>
-		<translation>Καλώς ήρθατε στα Δυναμικά Δεδομένα</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/user-main.xd" line="2" />
-			<reference file="modules/dynamicdata/xaruserapi/menu.php" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Meta Table Definitions</string>
-		<translation>Ορισμοί Meta Πινάκων</translation>
-		<references>
-			<reference file="modules/dynamicdata/xartemplates/util-main.xd" line="12" />
-			<reference file="modules/dynamicdata/xartemplates/util-meta.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>View #(1)</string>
-		<translation>Εμφάνιση #(1)</translation>
-		<references>
-			<reference file="modules/dynamicdata/xaruserapi/getitemtypes.php" line="35" />
-			<reference file="modules/dynamicdata/xaruserapi/getmenulinks.php" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>Dynamic Data Utilities</string>
-		<translation>Βοηθήματα Δυναμικών Δεδομένων</translation>
-		<references>
-			<reference file="modules/dynamicdata/xarutil/meta.php" line="29" />
-			<reference file="modules/dynamicdata/xarutil/main.php" line="24" />
-			<reference file="modules/dynamicdata/xarutil/static.php" line="37" />
-			<reference file="modules/dynamicdata/xarutil/relations.php" line="30" />
-			<reference file="modules/dynamicdata/xarutil/export.php" line="39" />
-		</references>
-	</entry>
+<entry><string>Invalid #(1) #(2) for dynamic object #(3)</string><translation>Μη αποδεκτός #(1) #(2) για το δυναμικό αντικείμενο #(3)</translation></entry>
+<entry><string>Table #(1)</string><translation>Πίνακας #(1)</translation></entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Μη αποδεκτή #(1) για την συνάρτηση #(2) #(3)() στο module #(4)</translation></entry>
+<entry><string>Invalid item id in method #(1)() for dynamic object [#(2)] #(3)</string><translation>Μη αποδκετό id αντικειμένου στην μέθοδο #(1)() για το δυναμικό αντικείμενο [#(2)] #(3)</translation></entry>
+<entry><string>Display</string><translation>Εμφάνιση</translation></entry>
+<entry><string>View</string><translation>Εμφάνιση</translation></entry>
+<entry><string>Edit</string><translation>Τροποποίηση</translation></entry>
+<entry><string>Delete</string><translation>Διαγραφή</translation></entry>
+<entry><string>Field #(1) (#(2)) is missing.</string><translation></translation></entry>
+<entry><string>unknown property</string><translation>άγνωστη ιδιότητα</translation></entry>
+<entry><string>This property is unknown...</string><translation>Αυτή η ιδιότητα είναι άγνωστη...</translation></entry>
+<entry><string>Invalid #(1)</string><translation>Μη αποδεκτό #(1)</translation></entry>
+<entry><string>New #(1)</string><translation></translation></entry>
+<entry><string>Invalid itemid</string><translation></translation></entry>
+<entry><string>Modify #(1)</string><translation></translation></entry>
+<entry><string>Delete #(1)</string><translation></translation></entry>
+<entry><string>Display #(1)</string><translation></translation></entry>
+<entry><string>List #(1)</string><translation></translation></entry>
+<entry><string>View #(1)</string><translation>Εμφάνιση #(1)</translation></entry>
+<entry><string>Dynamic Data</string><translation></translation></entry>
+<entry><string>Dynamic Data Administration</string><translation>Διαχείριση Δυναμικών Δεδομένων</translation></entry>
+<entry><string>Warning! This is a system object used internally by the Dynamic Data module.</string><translation></translation></entry>
+<entry><string>Overview</string><translation>Περίληψη</translation></entry>
+<entry><string>Property Types</string><translation>Τύποι Ιδιοτήτων</translation></entry>
+<entry><string>Options:</string><translation></translation></entry>
+<entry><string>Modify Dynamic Properties</string><translation>Τροποποίηση Δυναμικών Ιδιοτήτων</translation></entry>
+<entry><string>Export Object Definition to XML</string><translation>Εξαγωγή Ορισμού Αντικειμένου σε XML</translation></entry>
+<entry><string>Preview</string><translation>Προεπισκόπηση</translation></entry>
+<entry><string>Modify Object Definition</string><translation>Τροποποίηση Ορισμού Αντικειμένου</translation></entry>
+<entry><string>Update</string><translation>Ενημέρωση</translation></entry>
+<entry><string>Update Property Types</string><translation>Ενημέρωση Τύπων Ιδιότητας</translation></entry>
+<entry><string>Not Applicable</string><translation>Μη Εφαρμόσιμο</translation></entry>
+<entry><string>Welcome to Dynamic Data</string><translation>Καλώς ήρθατε στα Δυναμικά Δεδομένα</translation></entry>
+<entry><string>Name</string><translation>Όνομα</translation></entry>
+<entry><string>Label</string><translation>Εττικέτα</translation></entry>
+<entry><string>Property Type</string><translation>Τύπος Ιδιότητας</translation></entry>
+<entry><string>Default</string><translation>Προεπιλογή</translation></entry>
+<entry><string>Data Source</string><translation>Πηγή Δεδομένων</translation></entry>
+<entry><string>Validation</string><translation>Επαλήθευση</translation></entry>
+<entry><string>not found</string><translation>δεν βρέθηκε</translation></entry>
+<entry><string>Specify your own layout here...</string><translation>Προσδιορίστε το layoyt εδώ...</translation></entry>
+<entry><string>You can also specify a separate template, e.g. if you want to handle individual fields differently for a particular module / itemtype</string><translation>Μπορείτε επίσης να προσδιορίσετε ένα ξεχωριστό υπόδειγμα, π.χ. αν επιθυμείτε να χειριστείτε ξεχωριστά πεδία διαφορετικά για μια συγκεκριμμένη μονάδα ή τύπου αντικειμένου</translation></entry>
+<entry><string>Options</string><translation>Επιλογές</translation></entry>
+<entry><string>New</string><translation>Νέο</translation></entry>
+<entry><string>Definition</string><translation></translation></entry>
+<entry><string>Refresh</string><translation>Ανανέωση</translation></entry>
+<entry><string>Query</string><translation>Ερώτημα</translation></entry>
+<entry><string>Add Relation</string><translation>Προσθήκη Σχέσης</translation></entry>
+<entry><string>Type</string><translation>Τύπος</translation></entry>
+<entry><string>Source</string><translation></translation></entry>
+<entry><string>Show Table Definitions</string><translation>Εμφάνιση Ορισμών Πίνακα</translation></entry>
+<entry><string>Module</string><translation>Μονάδα</translation></entry>
+<entry><string>Link Type</string><translation>Είδος Συνδέσμου</translation></entry>
+<entry><string>From</string><translation>Από</translation></entry>
+<entry><string>To</string><translation>Προς</translation></entry>
+<entry><string>Object:</string><translation>Αντικείμενο:</translation></entry>
+<entry><string>Table:</string><translation>Πίνακας:</translation></entry>
+<entry><string>Dynamic Data Utilities</string><translation>Βοηθήματα Δυναμικών Δεδομένων</translation></entry>
+<entry><string>Items:</string><translation>Αντικείμενα:</translation></entry>
+<entry><string>Property</string><translation>Ιδιότητα</translation></entry>
+<entry><string>Item Type</string><translation>Τύπος Αντικειμένου</translation></entry>
+<entry><string>Add</string><translation>Προσθήκη</translation></entry>
+<entry><string>Import</string><translation></translation></entry>
+<entry><string>Export</string><translation></translation></entry>
+<entry><string>Table Definition</string><translation></translation></entry>
+<entry><string>Relationships</string><translation></translation></entry>
+<entry><string>Meta Definitions</string><translation></translation></entry>
+<entry><string>Migrate Items</string><translation></translation></entry>
+<entry><string>selection</string><translation></translation></entry>
+<entry><string>integer : allowed range is between #(1) and #(2)</string><translation></translation></entry>
+<entry><string>integer : must be #(1) or more</string><translation></translation></entry>
+<entry><string>integer : must be #(1) or less</string><translation></translation></entry>
+<entry><string>integer</string><translation></translation></entry>
+<entry><string>text : must be less than #(1) characters long</string><translation></translation></entry>
+<entry><string>text : must be at least #(1) characters long</string><translation></translation></entry>
+<entry><string>text : does not match regular expression</string><translation></translation></entry>
+<entry><string>ID</string><translation>Κωδικός</translation></entry>
+<entry><string>Update Properties</string><translation>Ενημέρωση Ιδιοτήτων</translation></entry>
+<entry><string>fields or values</string><translation>πεδία ή τιμές</translation></entry>
+<entry><string>Utilities</string><translation>Βοηθήματα</translation></entry>
+<entry><string>Create New</string><translation></translation></entry>
+<entry><string>Other rule</string><translation></translation></entry>
 </translations>

@@ -1,187 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Mode of operation</string>
-		<translation>Κατάσταση λειτουργίας</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>The multilanguage system (MLS) works in three different modes.</string>
-		<translation>Το πολυγλωσσικό σύστημα (MLS) λειτουργεί σε τρείς διαφοτικές καταστάσεις.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
-with the mbstring extension compiled in.</string>
-		<translation>Παρακαλώ σημειώστε ότι δεν μπορείτε να χρησιμοποιήσετε την κατάσταση UNBOXED του πολυγλωσσικού συστήματος εκτός αν έχετε PHP 4.3.0 μεταγλωτισμένη με την επέκταση mbstring.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="14" />
-		</references>
-	</entry>
-	<entry>
-		<string>Single language mode (SINGLE)</string>
-		<translation>Κατάσταση μοναδικής γλώσσας (SINGLE)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
+<entry><string>Mode of Operation</string><translation></translation></entry>
+<entry><string>The multilanguage system (MLS) works in three different modes.</string><translation>Το πολυγλωσσικό σύστημα (MLS) λειτουργεί σε τρείς διαφοτικές καταστάσεις.</translation></entry>
+<entry><string>Please note that you cannot use UNBOXED mode of the MultiLanguage system unless you have php 4.3.0
+with the mbstring extension compiled in.</string><translation>Παρακαλώ σημειώστε ότι δεν μπορείτε να χρησιμοποιήσετε την κατάσταση UNBOXED του πολυγλωσσικού συστήματος εκτός αν έχετε PHP 4.3.0 μεταγλωτισμένη με την επέκταση mbstring.</translation></entry>
+<entry><string>Single Language Mode (SINGLE)</string><translation></translation></entry>
+<entry><string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is
 built in. All information is stored coherently with the chosen character set (at installation time),
-and also user data is meaningful in the chosen character set.</string>
-		<translation>Το MLS χρησιμοποιεί μόνο μία ομάδα χαρακτήρων, τυπικά του μονού byte αλλά δυνητικά πολλαπλών byte αν το mb_string είναι εγκατεστημένο. Όλες οι πληροφορίες αποθηκεύονται σύμφωνα με την επιλεγμένη ομάδα χαρακτήρων (κατά την φάση της εγκατάστασης), και επίσης τα δεδομένα χρήστη έχουν νόημα εντός της επιλεγμένης ομάδας χαρακτήρων.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>Per page mode (BOXED)</string>
-		<translation>Κατάσταση ανά σελίδα (BOXED)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="41" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
+and also user data is meaningful in the chosen character set.</string><translation>Το MLS χρησιμοποιεί μόνο μία ομάδα χαρακτήρων, τυπικά του μονού byte αλλά δυνητικά πολλαπλών byte αν το mb_string είναι εγκατεστημένο. Όλες οι πληροφορίες αποθηκεύονται σύμφωνα με την επιλεγμένη ομάδα χαρακτήρων (κατά την φάση της εγκατάστασης), και επίσης τα δεδομένα χρήστη έχουν νόημα εντός της επιλεγμένης ομάδας χαρακτήρων.</translation></entry>
+<entry><string>Per Page Mode (BOXED)</string><translation></translation></entry>
+<entry><string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as
 above can be applied here), but only one character set per page is used (this is an obvious concept maybe,
 but important to understand). Due to this fact content cannot be shared across through different
 language areas (for example an Arabic comment won't be shown in the English area even if
 they are referring to the same object, e.g. an article available in both English and Arabic).
 Another point is that every operation involves only a single language. This mode can produce
-unexpected results if mb_string is not installed.</string>
-		<translation>Το MLS μπορεί να χρησιμποποιεί περισσότερες από μία ομάδες χαρακτήρων μέσα στο site (η παραπάνω θεώρηση για το θέμα των μονών και πολλαπλών byte εφαρμόζεται και εδώ), αλλά χρησιμοποιείται μόνο μία μονάδα χαρακτήρων ανά σελίδα (ίσως αυτονόητο, αλλά είναι σημαντικό να γίνει κατανοητό). Λόγω αυτού του γεγονότος, τα περιεχόμενα δεν μπορούν να μοιραστούν ανάμεσα σε διαφορετικές γλωσσικές περιοχές (για παράδειγμα Αραβικά σχόλια δεν θα εμφανίζονται σε μία Αγγλική περιοχή αν αναφέρονται στο ίδιο αντικείμενο, π.χ. ένα άρθρο διαθέσιμο στα Αγγλικά και Αραβικά μαζί). Ένα ακόμα σημείο είναι ότι κάθε λειτουργία εμπλέκει μόνο μία γλώσσα. Αυτή η κατάσταση μπορεί να παράξει απρόσμενα αποτελέσματα αν το mb_string δεν είναι εγκατεστημένο.</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="50" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is installed on this server, so you can give this mode a try</string>
-		<translation>Είναι εγκατεστημένο σε αυτόν τον διακομιστή, οπότε μπορείτε να δοκιμάσετε αυτή την κατάσταση λειτουργίας</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>WARNING: mb_string is NOT installed on this server, proceed with caution</string>
-		<translation>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Το mb_string ΔΕΝ είναι εγκατεστημένο στον διακομιστή, συνεχίστε με προσοχή</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="54" />
-		</references>
-	</entry>
-	<entry>
-		<string>Full multilanguage (UNBOXED) (experimental!)</string>
-		<translation>Πλήρης πολυγλωσσική (UNBOXED) (πειραματικό!)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="64" />
-		</references>
-	</entry>
-	<entry>
-		<string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
+unexpected results if mb_string is not installed.</string><translation>Το MLS μπορεί να χρησιμποποιεί περισσότερες από μία ομάδες χαρακτήρων μέσα στο site (η παραπάνω θεώρηση για το θέμα των μονών και πολλαπλών byte εφαρμόζεται και εδώ), αλλά χρησιμοποιείται μόνο μία μονάδα χαρακτήρων ανά σελίδα (ίσως αυτονόητο, αλλά είναι σημαντικό να γίνει κατανοητό). Λόγω αυτού του γεγονότος, τα περιεχόμενα δεν μπορούν να μοιραστούν ανάμεσα σε διαφορετικές γλωσσικές περιοχές (για παράδειγμα Αραβικά σχόλια δεν θα εμφανίζονται σε μία Αγγλική περιοχή αν αναφέρονται στο ίδιο αντικείμενο, π.χ. ένα άρθρο διαθέσιμο στα Αγγλικά και Αραβικά μαζί). Ένα ακόμα σημείο είναι ότι κάθε λειτουργία εμπλέκει μόνο μία γλώσσα. Αυτή η κατάσταση μπορεί να παράξει απρόσμενα αποτελέσματα αν το mb_string δεν είναι εγκατεστημένο.</translation></entry>
+<entry><string>It is installed on this server, so you can give this mode a try</string><translation>Είναι εγκατεστημένο σε αυτόν τον διακομιστή, οπότε μπορείτε να δοκιμάσετε αυτή την κατάσταση λειτουργίας</translation></entry>
+<entry><string>WARNING: mb_string is NOT installed on this server, proceed with caution</string><translation>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Το mb_string ΔΕΝ είναι εγκατεστημένο στον διακομιστή, συνεχίστε με προσοχή</translation></entry>
+<entry><string>Full Multilanguage (UNBOXED) (experimental!)</string><translation></translation></entry>
+<entry><string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no
 conversion is needed for the content representation. Every page is always shown according to
 the user chosen language, but the page can contain texts in other languages
-(for example a French article and comments inside an English page).</string>
-		<translation>Το MLS χρησιμοποιεί μία παγκόσμια ομάδα χαρακτήρων για να αναπαραστήσει τα πάντα (βλέπε: UTF-8). Αυτό εγγυάται ότι δεν χρειάζεται καμία μετατροπή για την αναπαράσταση των περιεχομένων. Κάθε σελίδα παρουσιάζεται σύμφωνα με την επιλεγμένη από τον χρήστη γλώσσα αλλά η σελίδα μπορεί να περιέχει κείμενα σε άλλες γλώσσες (για παράδειγμα ένα Γαλλικό άρθρο και σχόλια μέσα σε μία Αγγλική σελίδα).</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>Language/Locale Configuration</string>
-		<translation>Ρυθμίσεις Γλώσσας</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="79" />
-		</references>
-	</entry>
-	<entry>
-		<string>The following locales are available to this site:</string>
-		<translation>Οι παρακάτω γλωσσικές ρυθμίσεις είναι διαθέσιμες για αυτό το site:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Locale</string>
-		<translation>Γλώσσα</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>Active</string>
-		<translation>Ενεργό</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="89" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default locale to load</string>
-		<translation>Προεπιλγμένες τοπικές ρυθμίσεις</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Locale</string>
-		<translation>Προεπιλογή Γλώσσας</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="110" />
-		</references>
-	</entry>
-	<entry>
-		<string>Timezone Configuration</string>
-		<translation>Ρυθμίσεις Ζώνης Ώρας</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="126" />
-		</references>
-	</entry>
-	<entry>
-		<string>Default Timezone</string>
-		<translation>Προεπιλεγμένη Ζώνη Ώρας</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="131" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="131" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations backend</string>
-		<translation>Σύστημα υποστήριξης μεταφράσεων</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="140" />
-		</references>
-	</entry>
-	<entry>
-		<string>The translated information for xaraya and her modules can be stored in different back-ends. The following back-ends are supported:</string>
-		<translation>Οι μεταφρασμένες πληροφορίες για το Xaraya και τις μονάδες του μπορούν να αποθηκευθούν σε διαφορετικά back-end. Υποστηρίζονται τα παρακάτω back-end:</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="141" />
-		</references>
-	</entry>
-	<entry>
-		<string>Translations Backend</string>
-		<translation>Σύστημα Υποστήριξης Μεταφράσεων</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="146" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="146" />
-		</references>
-	</entry>
-	<entry>
-		<string>XML (good for interoperability)</string>
-		<translation>XML (καλή διαλειτουργικότητα)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="151" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="154" />
-		</references>
-	</entry>
-	<entry>
-		<string>PHP (good for programmed access)</string>
-		<translation>PHP (καλή πρόσβαση προγραμματισμού)</translation>
-		<references>
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="152" />
-			<reference file="modules/base/xartemplates/includes/modifyconfig-locales.xd" line="155" />
-		</references>
-	</entry>
+(for example a French article and comments inside an English page).</string><translation>Το MLS χρησιμοποιεί μία παγκόσμια ομάδα χαρακτήρων για να αναπαραστήσει τα πάντα (βλέπε: UTF-8). Αυτό εγγυάται ότι δεν χρειάζεται καμία μετατροπή για την αναπαράσταση των περιεχομένων. Κάθε σελίδα παρουσιάζεται σύμφωνα με την επιλεγμένη από τον χρήστη γλώσσα αλλά η σελίδα μπορεί να περιέχει κείμενα σε άλλες γλώσσες (για παράδειγμα ένα Γαλλικό άρθρο και σχόλια μέσα σε μία Αγγλική σελίδα).</translation></entry>
+<entry><string>Language/Locale Configuration</string><translation>Ρυθμίσεις Γλώσσας</translation></entry>
+<entry><string>The following locales are available to this site:</string><translation>Οι παρακάτω γλωσσικές ρυθμίσεις είναι διαθέσιμες για αυτό το site:</translation></entry>
+<entry><string>Default locale to load</string><translation>Προεπιλγμένες τοπικές ρυθμίσεις</translation></entry>
+<entry><string>Default Locale:</string><translation></translation></entry>
+<entry><string>Translations backend</string><translation>Σύστημα υποστήριξης μεταφράσεων</translation></entry>
+<entry><string>The translated information for Xaraya and its modules can be stored in different back-ends. The following back-ends are supported:</string><translation></translation></entry>
+<entry><string>Translations Backend</string><translation>Σύστημα Υποστήριξης Μεταφράσεων</translation></entry>
+<entry><string>Translations Backend:</string><translation></translation></entry>
+<entry><string>XML (good for interoperability)</string><translation>XML (καλή διαλειτουργικότητα)</translation></entry>
+<entry><string>PHP (good for programmed access)</string><translation>PHP (καλή πρόσβαση προγραμματισμού)</translation></entry>
+<entry><string>XML with caching in PHP (new experimental)</string><translation></translation></entry>
 </translations>

@@ -1,121 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Administration - Example</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>This module allows you to create and display sub-items for any module item. In the words of the author :</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;p&gt;For example, if you want to have a pubtype &quot;cooking recipe&quot;. This 
-pubtype could be to store the ingredients of the meal, thus there would 
-be required a list of input fields: ingredient1, quantity1, 
-pic1(extended info :-) ) , ingredient2, quantity2, pic2,...&lt;/p&gt;
-&lt;p&gt;The disadvantage of this is the high number of fields to ensure, that 
-there your users aren't going against the limit. Furthermore there are 
-always displayed all input fields. And of  course it's not a very nice 
-way to do it.&lt;/p&gt;
-&lt;p&gt;As I didn't know how to do this better, I had a dream about a module, 
-which can be hooked from any other module and which is able to display / 
-provide editing / etc. for subitems to an item. I had a dream about a 
-table, which saves the information, which DD-Object stores the subitems 
-of &quot;module&quot; / &quot;itemtype&quot; combination and another table containing which 
-DD-Itemids belong to &quot;module&quot; / &quot;itemtype&quot; / &quot;itemid&quot; in this DD-Object 
-(1 to n Relation). I had the dream to share my module with the community.
-Now, the module is here, and all dreams got true. If you didn't get my 
-technical information, don't worry. &lt;/p&gt;</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="34" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>&lt;ol&gt;
-&lt;li&gt; install module&lt;/li&gt;
-&lt;li&gt; goto dynamicdata admin area, new object, create a dynamic data object 
-, which should hold the subitem information (you must have one field 
-with the ItemID, default 0, display only) -&gt; remember the objectid, edit 
-label (used for display) and name (used for custom default template)&lt;/li&gt;
-&lt;li&gt; goto subitems module, admin area -&gt; add link -&gt; type in objectid (from 
-previsously created dd-object), module name, itemtype&lt;/li&gt;
-&lt;li&gt; goto module modules, hooks -&gt; subitems -&gt; enable the hook for the 
-module /itemtype combination, you created the link for&lt;/li&gt;
-&lt;/ol&gt;
--&gt; now it should work (tested with custom pubtype)</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="55" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="59" />
-		</references>
-	</entry>
-	<entry>
-		<string>none</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="63" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="67" />
-		</references>
-	</entry>
-	<entry>
-		<string>new/create/modify/update/delete -- Allows you to create/update sub-items</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="72" />
-		</references>
-	</entry>
-	<entry>
-		<string>display -- Allows you to display sub-items</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>Extended information about this module can be found here. [modules module]</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/subitems/xartemplates/admin-main.xd" line="78" />
-		</references>
-	</entry>
+<entry><string>What is it?</string><translation></translation></entry>
+<entry><string>The Subitems module allows you to create and display subitems for any module item.</string><translation></translation></entry>
+<entry><string>As an illustration of how subitems could be used</string><translation></translation></entry>
+<entry><string>You may want a publication type (Articles pubtype) to hold 'cooking recipies'</string><translation></translation></entry>
+<entry><string>This pubtype would store and display recipe details such as ingredients. Namely ingredient1, quantity 1, picture1 and for another article ingredient2, quantity2, picture2.
+Each article or recipe would need to contain a different number of ingredients.</string><translation></translation></entry>
+<entry><string>The disadvantage of this is the high number of ingredient fields you would need to ensure that your users always have sufficient ingredient fields for entry. Furthermore all input fields are always displayed.
+So, the above is not a practical way to accomplish this.</string><translation></translation></entry>
+<entry><string>The module author's intent was to produce a module which can be hooked from any other module and is able to both display and provide
+editing of subitems for an item. The design provides for one table which saves the subitem information with module/itemtype. A second table
+contains the DD Itemids with corresponding module/itemtype/itemid in the DD object (1 to n Relation).</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation></translation></entry>
+<entry><string>Install the module (done by now, as you are seeing this page)</string><translation></translation></entry>
+<entry><string>Go to Admin - DynamicData - View Objects</string><translation></translation></entry>
+<entry><string>create a new object</string><translation></translation></entry>
+<entry><string>(Create New)</string><translation></translation></entry>
+<entry><string>This new dynamic data object will hold the subitem information.</string><translation></translation></entry>
+<entry><string>Go to Dynamic Data - View Objects - Edit [YOUR OBJECT]. This displays the Modify Dynamic Properties screen.</string><translation></translation></entry>
+<entry><string>Add your properties (fields) for your object. You &lt;strong&gt;must have&lt;/strong&gt; at least
+one field with a Property Type of 'ItemID', default of 0 and Status of Display Only.</string><translation></translation></entry>
+<entry><string>Go to</string><translation></translation></entry>
+<entry><string>Admin - Subitems module (admin area) - Add link</string><translation></translation></entry>
+<entry><string>. There, choose the object you have just created, and select the module and the itemtype that you will attach this property to.</string><translation></translation></entry>
+<entry><string>Modules - Configure Hooks</string><translation></translation></entry>
+<entry><string>where you can choose the Subitems module. Enable the hook for the module and itemtype combination that you just created the link for</string><translation></translation></entry>
+<entry><string>That should be it (it has been tested with custom pubtypes)</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation></translation></entry>
+<entry><string>none</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation></translation></entry>
+<entry><string>new/create/modify/update/delete -- Allows you to create/update sub-items</string><translation></translation></entry>
+<entry><string>display -- Allows you to display sub-items</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the Subitems module can be found at</string><translation></translation></entry>
+<entry><string>Subitems Extension page at</string><translation></translation></entry>
+<entry><string>Subitems Module - Xaraya Extension 9356</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on Subitems found at</string><translation></translation></entry>
+<entry><string>Related documentation on Subitems</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Subitems Module Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>

@@ -1,122 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Administration - Images</string>
-		<translation>Διαχείριση - Εικόνες</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>What is it?</string>
-		<translation>Τι είναι;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Images is a Xaraya Utility Module.</string>
-		<translation>Η μονάδα Εικόνες είναι μια βοηθητική μονάδα του Xaraya</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>It is currently responsible for basic image manipulation, including the following:</string>
-		<translation>Είναι υπεύθυνη για βασική επεξεργασία εικόνας, συμπεριλαμβανόμενων των παρακάτω:</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="18" />
-		</references>
-	</entry>
-	<entry>
-		<string>Resize Image files</string>
-		<translation>Αλλαγή μεγέθους εικόνων</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Crop image files</string>
-		<translation>Κροπάρισμα εικόνων</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Rotate image files</string>
-		<translation>Περιστροφή εικόνων</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="25" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add text to an image file (think buttons here...)</string>
-		<translation>Προσθήκη κειμένου σε μιά εικόνα (π.χ. κουμπιά)</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>Currently, this is the only supported feature - more will come later.</string>
-		<translation>Προς το παρόν υποστηρίζεται μόνο αυτή η λειτουργία - περισσότερες θα ακολουθήσουν στο μέλλον</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="32" />
-		</references>
-	</entry>
-	<entry>
-		<string>How to use it?</string>
-		<translation>Πως Χρησιμοποιείται;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="37" />
-		</references>
-	</entry>
-	<entry>
-		<string>Image Tags</string>
-		<translation>Tags Εικόνων</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>The IMAGE tag is useful for displaying (cached) images at different proportions. Images are resized according
+<entry><string>What is it?</string><translation>Τι είναι;</translation></entry>
+<entry><string>Images is a Xaraya Utility Module.</string><translation>Η μονάδα Εικόνες είναι μια βοηθητική μονάδα του Xaraya</translation></entry>
+<entry><string>It is currently responsible for basic image manipulation, including the following:</string><translation>Είναι υπεύθυνη για βασική επεξεργασία εικόνας, συμπεριλαμβανόμενων των παρακάτω:</translation></entry>
+<entry><string>Resize Image files</string><translation>Αλλαγή μεγέθους εικόνων</translation></entry>
+<entry><string>Crop image files</string><translation>Κροπάρισμα εικόνων</translation></entry>
+<entry><string>Rotate image files</string><translation>Περιστροφή εικόνων</translation></entry>
+<entry><string>Add text to an image file (think buttons here...)</string><translation>Προσθήκη κειμένου σε μιά εικόνα (π.χ. κουμπιά)</translation></entry>
+<entry><string>How to use it?</string><translation>Πως Χρησιμοποιείται;</translation></entry>
+<entry><string>Image Tags</string><translation>Tags Εικόνων</translation></entry>
+<entry><string>The IMAGE tag is useful for displaying (cached) images at different proportions. Images are resized according
 to the height/width values you specify with the resulting image cached for faster displaying later on. Note: Any other attribute
-not listed will be passed directly on to the resultant &amp;lt;img&amp;gt; tag.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="52" />
-		</references>
-	</entry>
-	<entry>
-		<string>Examples:
+not listed will be passed directly on to the resultant &amp;lt;img&amp;gt; tag.</string><translation></translation></entry>
+<entry><string>Examples:
 &lt;p&gt;
 Resize an image's width while keeping the proportions:&lt;br /&gt;
 &lt;br /&gt;
 &amp;lt;xar:image-resize src=&quot;23&quot; width=&quot;92px&quot; constrain=&quot;1&quot; label=&quot;my logo&quot; /&amp;gt;
-&lt;/p&gt;</string>
-		<translation>Παραδείγματα: &lt;p&gt; Αλλαγή μεγέθους εικόνας με διατήρηση των αναλογιών της:&lt;br /&gt; &lt;br /&gt; &amp;lt;xar:image-resize src=&quot;23&quot; width=&quot;92px&quot; constrain=&quot;1&quot; label=&quot;my logo&quot; /&amp;gt; &lt;/p&gt;</translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="62" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Blocks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="67" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no included blocks.</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="71" />
-		</references>
-	</entry>
-	<entry>
-		<string>Included Hooks</string>
-		<translation></translation>
-		<references>
-			<reference file="modules/images/xartemplates/admin-main.xd" line="75" />
-		</references>
-	</entry>
+&lt;/p&gt;</string><translation>Παραδείγματα: &lt;p&gt; Αλλαγή μεγέθους εικόνας με διατήρηση των αναλογιών της:&lt;br /&gt; &lt;br /&gt; &amp;lt;xar:image-resize src=&quot;23&quot; width=&quot;92px&quot; constrain=&quot;1&quot; label=&quot;my logo&quot; /&amp;gt; &lt;/p&gt;</translation></entry>
+<entry><string>&lt;p&gt;
+Apply some pre-defined image processing (e.g. watermark):&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;xar:image-resize src=&quot;test/image.jpg&quot; setting=&quot;JPEG 800 x 600&quot; label=&quot;my image&quot; /&amp;gt;
+&lt;/p&gt;</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation></translation></entry>
+<entry><string>There are no included blocks.</string><translation></translation></entry>
+<entry><string>Privileges</string><translation></translation></entry>
+<entry><string>The Images module only has the Admin privilege to assign. You will need this level if you want to set the general settings for the Images module.
+The Images module interacts with the uploads module, so make sure you set appropriate levels for that module as well.
+Take special note on the approval of files in the uploads module. Only files that have been approved will normally be accessible by standard users, or you need to assign them the EDIT privilege for the uploads.</string><translation></translation></entry>
+<entry><string>Upgrade from version 1.0.0</string><translation></translation></entry>
+<entry><string>The naming convention for derivative images has changed since version 1.0.0. So you can delete the old derivative images, and new derivative images will be created as needed in the same directory...</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Extended information about this module can be found at</string><translation></translation></entry>
+<entry><string>Images Module - Xaraya Extension 152</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on Images found at</string><translation></translation></entry>
+<entry><string>Related documentation on Images</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Images module - Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
 </translations>

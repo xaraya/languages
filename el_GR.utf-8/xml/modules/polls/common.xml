@@ -1,405 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>Unable to create poll</string>
-		<translation>Δεν είναι δυνατή η δημιουργία της δημοσκόπησης</translation>
-		<references>
-			<reference file="modules/polls/xaradmin/create.php" line="49" />
-			<reference file="modules/polls/xaradminapi/createhook.php" line="89" />
-			<reference file="modules/polls/xaradminapi/updatehook.php" line="122" />
-		</references>
-	</entry>
-	<entry>
-		<string>Closed</string>
-		<translation>Κλειστό</translation>
-		<references>
-			<reference file="modules/polls/xaradmin/list.php" line="57" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Open</string>
-		<translation>Ανοικτό</translation>
-		<references>
-			<reference file="modules/polls/xaradmin/list.php" line="60" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="15" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Poll</string>
-		<translation>Τροποποίηση Δημοσκόπησης</translation>
-		<references>
-			<reference file="modules/polls/xaradmin/modify.php" line="32" />
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Invalid #(1) for #(2) function #(3)() in module #(4)</string>
-		<translation>Μη αποδεκτό #(1) για την συνάρτηση #(2) #(3)() στην μονάδα #(4)</translation>
-		<references>
-			<reference file="modules/polls/xaradmin/modifyhook.php" line="17" />
-			<reference file="modules/polls/xaradmin/modifyhook.php" line="25" />
-			<reference file="modules/polls/xaradmin/modifyhook.php" line="42" />
-			<reference file="modules/polls/xaradmin/newhook.php" line="17" />
-			<reference file="modules/polls/xaradmin/newhook.php" line="25" />
-			<reference file="modules/polls/xaradmin/newhook.php" line="42" />
-			<reference file="modules/polls/xaradminapi/createhook.php" line="18" />
-			<reference file="modules/polls/xaradminapi/createhook.php" line="39" />
-			<reference file="modules/polls/xaradminapi/deletehook.php" line="17" />
-			<reference file="modules/polls/xaradminapi/deletehook.php" line="26" />
-			<reference file="modules/polls/xaradminapi/deletehook.php" line="45" />
-			<reference file="modules/polls/xaradminapi/deletehook.php" line="66" />
-			<reference file="modules/polls/xaradminapi/removehook.php" line="23" />
-			<reference file="modules/polls/xaradminapi/removehook.php" line="34" />
-			<reference file="modules/polls/xaradminapi/updatehook.php" line="18" />
-			<reference file="modules/polls/xaradminapi/updatehook.php" line="27" />
-			<reference file="modules/polls/xaradminapi/updatehook.php" line="46" />
-			<reference file="modules/polls/xaradminapi/updatehook.php" line="67" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Option</string>
-		<translation>Τροποποίηση Επιλογής</translation>
-		<references>
-			<reference file="modules/polls/xaradmin/modifyopt.php" line="43" />
-			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="2" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing poll ID or option</string>
-		<translation>Απουσιάζει το ID της δημοσκόπησης ή η επιλογή</translation>
-		<references>
-			<reference file="modules/polls/xaradminapi/createopt.php" line="18" />
-			<reference file="modules/polls/xaradminapi/decopt.php" line="18" />
-			<reference file="modules/polls/xaradminapi/incopt.php" line="18" />
-			<reference file="modules/polls/xaruserapi/vote.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Missing poll ID</string>
-		<translation>Απουσιάζει το ID της δημοσκόπησης</translation>
-		<references>
-			<reference file="modules/polls/xaradminapi/delete.php" line="16" />
-			<reference file="modules/polls/xaradminapi/resequence.php" line="13" />
-			<reference file="modules/polls/xaradminapi/reset.php" line="16" />
-			<reference file="modules/polls/xaruser/results.php" line="16" />
-			<reference file="modules/polls/xaruser/resultshook.php" line="17" />
-		</references>
-	</entry>
-	<entry>
-		<string>Unable to delete poll</string>
-		<translation>Είναι αδύνατη η διαγραφή της ψηφοφορίας</translation>
-		<references>
-			<reference file="modules/polls/xaradminapi/deletehook.php" line="90" />
-			<reference file="modules/polls/xaradminapi/updatehook.php" line="145" />
-		</references>
-	</entry>
-	<entry>
-		<string>New Poll</string>
-		<translation>Νέα Ψηφοφορία</translation>
-		<references>
-			<reference file="modules/polls/xaradminapi/getmenulinks.php" line="19" />
-			<reference file="modules/polls/xartemplates/admin-main.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>List Polls</string>
-		<translation>Κατάλογος Ψηφοφοριών</translation>
-		<references>
-			<reference file="modules/polls/xaradminapi/getmenulinks.php" line="26" />
-			<reference file="modules/polls/xartemplates/admin-main.xd" line="29" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify Config</string>
-		<translation>Τροποποίηση Ρυθμίσεων</translation>
-		<references>
-			<reference file="modules/polls/xaradminapi/getmenulinks.php" line="33" />
-			<reference file="modules/polls/xartemplates/admin-main.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Vote</string>
-		<translation>Ψήφος</translation>
-		<references>
-			<reference file="modules/polls/xarblocks/poll.php" line="70" />
-			<reference file="modules/polls/xartemplates/user-display.xd" line="1" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="26" />
-			<reference file="modules/polls/xartemplates/user-results.xd" line="33" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="31" />
-			<reference file="modules/polls/xaruser/display.php" line="83" />
-			<reference file="modules/polls/xaruser/displayhook.php" line="89" />
-		</references>
-	</entry>
-	<entry>
-		<string>Results</string>
-		<translation>Αποτελέσματα</translation>
-		<references>
-			<reference file="modules/polls/xarblocks/poll.php" line="115" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="20" />
-			<reference file="modules/polls/xartemplates/blocks/poll.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Polls Administration</string>
-		<translation>Διαχείριση Δημοσκοπήσεων</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-delete.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-display.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-modifyconfig.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="1" />
-			<reference file="modules/polls/xartemplates/admin-reset.xd" line="1" />
-		</references>
-	</entry>
-	<entry>
-		<string>Cancel Delete</string>
-		<translation>Ακύρωση Διαγραφής</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-delete.xd" line="11" />
-			<reference file="modules/polls/xartemplates/admin-deleteopt.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Actions</string>
-		<translation>Ενέργειες</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-display.xd" line="9" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="9" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>votes</string>
-		<translation>ψήφοι</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-display.xd" line="13" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="13" />
-		</references>
-	</entry>
-	<entry>
-		<string>Modify</string>
-		<translation>Τροποποίηση</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-display.xd" line="28" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="22" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Διαγραφή</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-display.xd" line="31" />
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="27" />
-		</references>
-	</entry>
-	<entry>
-		<string>There are no polls available</string>
-		<translation>Δεν υπάρχοιν διαθέσιμες ψηφοφορίες</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="4" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="5" />
-		</references>
-	</entry>
-	<entry>
-		<string>Title</string>
-		<translation>Τίτλος</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="8" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="10" />
-		</references>
-	</entry>
-	<entry>
-		<string>Private</string>
-		<translation>Ιδιωτικό</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-list.xd" line="14" />
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="35" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="26" />
-			<reference file="modules/polls/xartemplates/user-list.xd" line="16" />
-		</references>
-	</entry>
-	<entry>
-		<string>Poll title</string>
-		<translation>Τίτλος Δημοσκόπησης</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="10" />
-			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="3" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="9" />
-			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="3" />
-		</references>
-	</entry>
-	<entry>
-		<string>Poll type</string>
-		<translation>Τύπος Δημοσκόπησης</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="18" />
-			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="12" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="17" />
-			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="12" />
-		</references>
-	</entry>
-	<entry>
-		<string>Single Choice</string>
-		<translation>Απλή Επιλογή</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="25" />
-			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="19" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="20" />
-			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="19" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple Choice</string>
-		<translation>Πολλαπλές Επιλογές</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modify.xd" line="30" />
-			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="24" />
-			<reference file="modules/polls/xartemplates/admin-new.xd" line="21" />
-			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="24" />
-		</references>
-	</entry>
-	<entry>
-		<string>Private Poll</string>
-		<translation>Ιδιωτική Δημοσκόπηση</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="30" />
-			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Poll Option</string>
-		<translation>Επιλογές Δημοσκόπησης</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modifyhook.xd" line="44" />
-			<reference file="modules/polls/xartemplates/admin-newhook.xd" line="44" />
-		</references>
-	</entry>
-	<entry>
-		<string>Option Text</string>
-		<translation>Κείμενο Επιλογής</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/admin-modifyopt.xd" line="12" />
-			<reference file="modules/polls/xartemplates/admin-newopt.xd" line="11" />
-		</references>
-	</entry>
-	<entry>
-		<string>You are not allowed to vote on this Poll.</string>
-		<translation>Δεν επιτρέπεται να ψηφίσετε στην Δημοσκόπηση.</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-display.xd" line="5" />
-			<reference file="modules/polls/xartemplates/user-displayhook.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>This Poll is currently private. Results will not be shown.</string>
-		<translation>Η Δημοσκόπηση είναι αυτή την στιγμή ιδιωτική. Τα αποτελέσματα δεν θα εμφανιστούν.</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-display.xd" line="9" />
-			<reference file="modules/polls/xartemplates/user-displayhook.xd" line="8" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Results</string>
-		<translation>Εμφάνιση Αποτελεσμάτων</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-display.xd" line="30" />
-			<reference file="modules/polls/xartemplates/user-displayhook.xd" line="30" />
-		</references>
-	</entry>
-	<entry>
-		<string>Previous Polls</string>
-		<translation>Προηγούμενες Δημοσκοπήσεις</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-display.xd" line="32" />
-			<reference file="modules/polls/xartemplates/blocks/poll.xd" line="46" />
-		</references>
-	</entry>
-	<entry>
-		<string>This Poll is currently private. Please check again soon for the results.</string>
-		<translation>Η Δημοσκόπηση είναι αυτή την στιγμή ιδιωτική. Επιστρέψτε αργότερα για τα αποτελέσματα.</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-results.xd" line="5" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="4" />
-		</references>
-	</entry>
-	<entry>
-		<string>Total votes</string>
-		<translation>Σύνολο ψήφων</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-results.xd" line="27" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>We allow just one vote</string>
-		<translation>Επιτρέπεται μόνο μία ψήφος</translation>
-		<references>
-			<reference file="modules/polls/xartemplates/user-results.xd" line="29" />
-			<reference file="modules/polls/xartemplates/user-resultshook.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Error retrieving Poll data</string>
-		<translation>Σφάλμα στην ανάκτηση των δεδομένων της ψηφοφορίας</translation>
-		<references>
-			<reference file="modules/polls/xaruser/display.php" line="30" />
-			<reference file="modules/polls/xaruser/results.php" line="38" />
-			<reference file="modules/polls/xaruser/resultshook.php" line="34" />
-			<reference file="modules/polls/xaruser/vote.php" line="43" />
-			<reference file="modules/polls/xaruserapi/vote.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>per day</string>
-		<translation>ανά ημέρα</translation>
-		<references>
-			<reference file="modules/polls/xaruser/results.php" line="68" />
-			<reference file="modules/polls/xaruser/resultshook.php" line="77" />
-		</references>
-	</entry>
-	<entry>
-		<string>per week</string>
-		<translation>ανά εβδομάδα</translation>
-		<references>
-			<reference file="modules/polls/xaruser/results.php" line="71" />
-			<reference file="modules/polls/xaruser/resultshook.php" line="80" />
-		</references>
-	</entry>
-	<entry>
-		<string>per month</string>
-		<translation>ανά μήνα</translation>
-		<references>
-			<reference file="modules/polls/xaruser/results.php" line="74" />
-			<reference file="modules/polls/xaruser/resultshook.php" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>per user</string>
-		<translation>ανά χρήστη</translation>
-		<references>
-			<reference file="modules/polls/xaruser/results.php" line="77" />
-			<reference file="modules/polls/xaruser/resultshook.php" line="86" />
-		</references>
-	</entry>
-	<entry>
-		<string>No vote received</string>
-		<translation>Δεν υπάρχουν ψήφοι</translation>
-		<references>
-			<reference file="modules/polls/xaruser/vote.php" line="65" />
-			<reference file="modules/polls/xaruserapi/vote.php" line="75" />
-		</references>
-	</entry>
-	<entry>
-		<string>Multiple votes not allowed on this Poll.</string>
-		<translation>Δεν επιτρέπονται οι πολλαπλές ψήφοι σε αυτή την Ψηφοφορία.</translation>
-		<references>
-			<reference file="modules/polls/xaruser/vote.php" line="70" />
-			<reference file="modules/polls/xaruserapi/vote.php" line="82" />
-		</references>
-	</entry>
+<entry><string>Missing required field title</string><translation></translation></entry>
+<entry><string>Unable to create poll</string><translation>Δεν είναι δυνατή η δημιουργία της δημοσκόπησης</translation></entry>
+<entry><string>No poll selected</string><translation>Δεν επιλέχτηκε ψηφοφορία</translation></entry>
+<entry><string>Up</string><translation>Πάνω</translation></entry>
+<entry><string>Down</string><translation>Κάτω</translation></entry>
+<entry><string>Closed</string><translation>Κλειστό</translation></entry>
+<entry><string>Open</string><translation>Ανοικτό</translation></entry>
+<entry><string>Modify Poll</string><translation>Τροποποίηση Δημοσκόπησης</translation></entry>
+<entry><string>Create Option</string><translation>Δημιουργία Επιλογής</translation></entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>Μη αποδεκτό #(1) για την συνάρτηση #(2) #(3)() στην μονάδα #(4)</translation></entry>
+<entry><string>Missing poll ID or option</string><translation>Απουσιάζει το ID της δημοσκόπησης ή η επιλογή</translation></entry>
+<entry><string>Missing poll ID</string><translation>Απουσιάζει το ID της δημοσκόπησης</translation></entry>
+<entry><string>View, edit or create Polls</string><translation></translation></entry>
+<entry><string>Manage Polls</string><translation></translation></entry>
+<entry><string>New Poll</string><translation>Νέα Ψηφοφορία</translation></entry>
+<entry><string>Modify Config</string><translation>Τροποποίηση Ρυθμίσεων</translation></entry>
+<entry><string>Unable to delete poll</string><translation>Είναι αδύνατη η διαγραφή της ψηφοφορίας</translation></entry>
+<entry><string>Vote</string><translation>Ψήφος</translation></entry>
+<entry><string>Results</string><translation>Αποτελέσματα</translation></entry>
+<entry><string>Polls Administration</string><translation>Διαχείριση Δημοσκοπήσεων</translation></entry>
+<entry><string>Cancel</string><translation></translation></entry>
+<entry><string>Option Text</string><translation>Κείμενο Επιλογής</translation></entry>
+<entry><string>Options</string><translation>Επιλογές</translation></entry>
+<entry><string>Order</string><translation>Σειρά</translation></entry>
+<entry><string>Actions</string><translation>Ενέργειες</translation></entry>
+<entry><string>Modify</string><translation>Τροποποίηση</translation></entry>
+<entry><string>Delete</string><translation>Διαγραφή</translation></entry>
+<entry><string>New option</string><translation>Νέα επιλογή</translation></entry>
+<entry><string>There are no polls available</string><translation>Δεν υπάρχοιν διαθέσιμες ψηφοφορίες</translation></entry>
+<entry><string>Title</string><translation>Τίτλος</translation></entry>
+<entry><string>Votes</string><translation>Ψήφοι</translation></entry>
+<entry><string>Private</string><translation>Ιδιωτικό</translation></entry>
+<entry><string>Overview</string><translation>Περίληψη</translation></entry>
+<entry><string>The name of the new poll</string><translation></translation></entry>
+<entry><string>Poll title</string><translation>Τίτλος Δημοσκόπησης</translation></entry>
+<entry><string>The type of the new poll</string><translation></translation></entry>
+<entry><string>Poll type</string><translation>Τύπος Δημοσκόπησης</translation></entry>
+<entry><string>Single Choice</string><translation>Απλή Επιλογή</translation></entry>
+<entry><string>Multiple Choice</string><translation>Πολλαπλές Επιλογές</translation></entry>
+<entry><string>who can view the new poll</string><translation></translation></entry>
+<entry><string>Poll active from</string><translation></translation></entry>
+<entry><string>Start date</string><translation></translation></entry>
+<entry><string>Poll not active from</string><translation></translation></entry>
+<entry><string>End date</string><translation></translation></entry>
+<entry><string>Configure hooks</string><translation></translation></entry>
+<entry><string>Option</string><translation>Επιλογή</translation></entry>
+<entry><string>You are not allowed to vote on poll</string><translation></translation></entry>
+<entry><string>This Poll is currently private. Results will not be shown.</string><translation>Η Δημοσκόπηση είναι αυτή την στιγμή ιδιωτική. Τα αποτελέσματα δεν θα εμφανιστούν.</translation></entry>
+<entry><string>View Results</string><translation>Εμφάνιση Αποτελεσμάτων</translation></entry>
+<entry><string>Main List</string><translation></translation></entry>
+<entry><string>This Poll is currently private. Please check again soon for the results.</string><translation>Η Δημοσκόπηση είναι αυτή την στιγμή ιδιωτική. Επιστρέψτε αργότερα για τα αποτελέσματα.</translation></entry>
+<entry><string>Total votes</string><translation>Σύνολο ψήφων</translation></entry>
+<entry><string>We allow just one vote</string><translation>Επιτρέπεται μόνο μία ψήφος</translation></entry>
+<entry><string>Add a poll to this item</string><translation></translation></entry>
+<entry><string>Error retrieving Poll data</string><translation>Σφάλμα στην ανάκτηση των δεδομένων της ψηφοφορίας</translation></entry>
+<entry><string>per day</string><translation>ανά ημέρα</translation></entry>
+<entry><string>per week</string><translation>ανά εβδομάδα</translation></entry>
+<entry><string>per month</string><translation>ανά μήνα</translation></entry>
+<entry><string>per user</string><translation>ανά χρήστη</translation></entry>
+<entry><string>No vote received</string><translation>Δεν υπάρχουν ψήφοι</translation></entry>
+<entry><string>Multiple votes not allowed on this Poll.</string><translation>Δεν επιτρέπονται οι πολλαπλές ψήφοι σε αυτή την Ψηφοφορία.</translation></entry>
 </translations>

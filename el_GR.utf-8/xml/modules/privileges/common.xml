@@ -1,361 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="el_GR.utf-8">
-	<entry>
-		<string>deleted</string>
-		<translation>διαγράφηκε</translation>
-		<references>
-			<reference file="modules/roles/xarroles.php" line="725" />
-		</references>
-	</entry>
-	<entry>
-		<string>The operation #(1) is not supported</string>
-		<translation>Η λειτουργία #(1) δεν υποστηρίζεται</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="38" />
-		</references>
-	</entry>
-	<entry>
-		<string>SELECT with total of columns different from the number retrieved.</string>
-		<translation>Εντολή SELECT με σύνολο στηλών διαφορετικό από τον αριθμό που επιστράφηκε</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="87" />
-		</references>
-	</entry>
-	<entry>
-		<string>The table #(1) you are trying to add needs to be a string or an array.</string>
-		<translation>Ο πίνακας #(1) που προσπαθείτε να προσθέσετε πρέπει να είναι string ή array</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="159" />
-		</references>
-	</entry>
-	<entry>
-		<string>This function only take 1 or 2 paramters</string>
-		<translation>Αυτή η συνάρτηση δέχεται 1 ή 2 το πολύ ορίσματα</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="178" />
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="216" />
-		</references>
-	</entry>
-	<entry>
-		<string>The field #(1) you are trying to add needs to be a string or an array.</string>
-		<translation>Το πεδίο #(1) που προσπαθείτε να προσθέσετε πρέπει να είναι string ή array</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="197" />
-		</references>
-	</entry>
-	<entry>
-		<string>Your query has no fields.</string>
-		<translation>Το ερώτημα δεν έχει πεδία</translation>
-		<references>
-			<reference file="modules/roles/xarincludes/xarQuery.php" line="499" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete this Privilege</string>
-		<translation>Διαγραφή του Προνομίου</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="220" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show the Groups/Users this Privilege is assigned to</string>
-		<translation>Εμφάνιση των Ομάδων/Χρηστών στους οποίους έχει ανατεθεί το προνόμιο</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="229" />
-		</references>
-	</entry>
-	<entry>
-		<string>components</string>
-		<translation>εξαρτήματα</translation>
-		<references>
-			<reference file="modules/privileges/xartreerenderer.php" line="259" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privilege Modified</string>
-		<translation>Εκτελέστηκε η Τροποποίηση του Προνομίου</translation>
-		<references>
-			<reference file="modules/privileges/xaradmin/updateprivilege.php" line="81" />
-			<reference file="modules/privileges/xaradmin/viewroles.php" line="62" />
-		</references>
-	</entry>
-	<entry>
-		<string>Refresh</string>
-		<translation>Ανανέωση</translation>
-		<references>
-			<reference file="modules/privileges/xaradmin/modifyprivilege.php" line="136" />
-			<reference file="modules/privileges/xaradmin/viewprivileges.php" line="40" />
-		</references>
-	</entry>
-	<entry>
-		<string>Privileges Administration</string>
-		<translation>Διαχείριση Προνομίων</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/menu.php" line="24" />
-			<reference file="modules/privileges/xartemplates/admin-removerole.xd" line="2" />
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="2" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="27" />
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="20" />
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="2" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="27" />
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="27" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="26" />
-		</references>
-	</entry>
-	<entry>
-		<string>View Privileges</string>
-		<translation>Εμφάνιση Προνομίων</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="31" />
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="28" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add Privilege</string>
-		<translation>Προσθήκη Προνομίου</translation>
-		<references>
-			<reference file="modules/privileges/xaradminapi/getmenulinks.php" line="40" />
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="78" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="83" />
-		</references>
-	</entry>
-	<entry>
-		<string>Remove</string>
-		<translation>Αφαίρεση</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-removerole.xd" line="3" />
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="58" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="266" />
-		</references>
-	</entry>
-	<entry>
-		<string>Overview</string>
-		<translation>Περίληψη</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-main.xd" line="4" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="138" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="140" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="139" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="141" />
-		</references>
-	</entry>
-	<entry>
-		<string>Name</string>
-		<translation>Όνομα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="38" />
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="37" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="40" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="54" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="42" />
-		</references>
-	</entry>
-	<entry>
-		<string>empty</string>
-		<translation>κενό</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="48" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="57" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="64" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>with rights</string>
-		<translation>με δικαιώματα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="50" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="59" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="66" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="75" />
-		</references>
-	</entry>
-	<entry>
-		<string>Realm</string>
-		<translation>Realm</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="80" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="81" />
-		</references>
-	</entry>
-	<entry>
-		<string>Module</string>
-		<translation>Μονάδα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="96" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="97" />
-		</references>
-	</entry>
-	<entry>
-		<string>Component</string>
-		<translation>Εξάρτημα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="112" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="113" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="265" />
-		</references>
-	</entry>
-	<entry>
-		<string>Level</string>
-		<translation>Επίπεδο</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="128" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="129" />
-		</references>
-	</entry>
-	<entry>
-		<string>None</string>
-		<translation>Κανένα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="133" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="135" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="134" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="136" />
-		</references>
-	</entry>
-	<entry>
-		<string>Read</string>
-		<translation>Ανάγνωση</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="143" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="145" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="144" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="146" />
-		</references>
-	</entry>
-	<entry>
-		<string>Comment</string>
-		<translation>Σχόλιο</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="148" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="150" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="149" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="151" />
-		</references>
-	</entry>
-	<entry>
-		<string>Moderate</string>
-		<translation>Moderate</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="153" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="155" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="154" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="156" />
-		</references>
-	</entry>
-	<entry>
-		<string>Edit</string>
-		<translation>Τροποποίηση</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="158" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="160" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="159" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="161" />
-		</references>
-	</entry>
-	<entry>
-		<string>Add</string>
-		<translation>Προσθήκη</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="163" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="165" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="219" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="164" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="166" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="255" />
-		</references>
-	</entry>
-	<entry>
-		<string>Delete</string>
-		<translation>Διαγραφή</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="168" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="170" />
-			<reference file="modules/privileges/xartemplates/admin-deleteprivilege.xd" line="3" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="169" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="171" />
-		</references>
-	</entry>
-	<entry>
-		<string>Admin</string>
-		<translation>Διαχείριση</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="173" />
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="175" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="174" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="176" />
-		</references>
-	</entry>
-	<entry>
-		<string>Allow instances of component #(1) that have:</string>
-		<translation>Επιτρέπονται υλοποιήσεις του εξαρτήματος #(1) που έχουν:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="186" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="187" />
-		</references>
-	</entry>
-	<entry>
-		<string>Use Wizard</string>
-		<translation>Χρήση Μάγου</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-newprivilege.xd" line="210" />
-			<reference file="modules/privileges/xartemplates/admin-modifyprivilege.xd" line="221" />
-		</references>
-	</entry>
-	<entry>
-		<string>This privilege is not assigned to any user or group.</string>
-		<translation>Αυτό το προνόμιο δεν έχει ανατεθεί σε κανέναν χρήστη ή ομάδα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="28" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="33" />
-		</references>
-	</entry>
-	<entry>
-		<string>Type</string>
-		<translation>Τύπος</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="34" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="39" />
-		</references>
-	</entry>
-	<entry>
-		<string>Remove this Privilege assignment</string>
-		<translation>Αφαίρεση της ανάθεσης προνομίου</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="56" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="61" />
-		</references>
-	</entry>
-	<entry>
-		<string>Current Privileges</string>
-		<translation>Τρέχοντα Προνόμια</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-showroles.xd" line="70" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="73" />
-		</references>
-	</entry>
-	<entry>
-		<string>Show Privileges that are:</string>
-		<translation>Εμφάνιση Προνομίων που:</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="32" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="91" />
-		</references>
-	</entry>
-	<entry>
-		<string>Assigned</string>
-		<translation>Έχουν Ανατεθεί</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="37" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="96" />
-		</references>
-	</entry>
-	<entry>
-		<string>All</string>
-		<translation>Όλα</translation>
-		<references>
-			<reference file="modules/privileges/xartemplates/admin-viewprivileges.xd" line="43" />
-			<reference file="modules/privileges/xartemplates/admin-viewroles.xd" line="102" />
-		</references>
-	</entry>
+<entry><string>Did not find mask #(1) registered for an unspecified component in module #(2)</string><translation></translation></entry>
+<entry><string>Did not find mask #(1) registered for component #(2) in module #(3)</string><translation></translation></entry>
+<entry><string>Delete this Privilege</string><translation>Διαγραφή του Προνομίου</translation></entry>
+<entry><string>Show the Groups/Users this Privilege is assigned to</string><translation>Εμφάνιση των Ομάδων/Χρηστών στους οποίους έχει ανατεθεί το προνόμιο</translation></entry>
+<entry><string>Remove this privilege from its parent</string><translation></translation></entry>
+<entry><string>components</string><translation>εξαρτήματα</translation></entry>
+<entry><string>Privileges Administration</string><translation>Διαχείριση Προνομίων</translation></entry>
+<entry><string>Used in</string><translation></translation></entry>
+<entry><string>Show this privilege</string><translation></translation></entry>
+<entry><string>Choose an action to perform on this privilege</string><translation></translation></entry>
+<entry><string>Manage privilege</string><translation></translation></entry>
+<entry><string>Display</string><translation></translation></entry>
+<entry><string>Modify</string><translation></translation></entry>
+<entry><string>Delete</string><translation>Διαγραφή</translation></entry>
+<entry><string>Groups/Users</string><translation></translation></entry>
+<entry><string>Cancel</string><translation></translation></entry>
+<entry><string>Privilege properties</string><translation></translation></entry>
+<entry><string>Name:</string><translation></translation></entry>
+<entry><string>empty</string><translation>κενό</translation></entry>
+<entry><string>with rights</string><translation>με δικαιώματα</translation></entry>
+<entry><string>Realm:</string><translation></translation></entry>
+<entry><string>Module:</string><translation></translation></entry>
+<entry><string>Component to which this privilege applies</string><translation></translation></entry>
+<entry><string>Component:</string><translation></translation></entry>
+<entry><string>Level:</string><translation></translation></entry>
+<entry><string>None</string><translation>Κανένα</translation></entry>
+<entry><string>Overview</string><translation>Περίληψη</translation></entry>
+<entry><string>Read</string><translation>Ανάγνωση</translation></entry>
+<entry><string>Comment</string><translation>Σχόλιο</translation></entry>
+<entry><string>Moderate</string><translation>Moderate</translation></entry>
+<entry><string>Edit</string><translation>Τροποποίηση</translation></entry>
+<entry><string>Add</string><translation>Προσθήκη</translation></entry>
+<entry><string>Admin</string><translation>Διαχείριση</translation></entry>
+<entry><string>Allow instances of component #(1) that have:</string><translation>Επιτρέπονται υλοποιήσεις του εξαρτήματος #(1) που έχουν:</translation></entry>
+<entry><string>Use Wizard</string><translation>Χρήση Μάγου</translation></entry>
+<entry><string>The Components of '#(1)':</string><translation></translation></entry>
+<entry><string>Remove</string><translation>Αφαίρεση</translation></entry>
+<entry><string>Add Privilege</string><translation>Προσθήκη Προνομίου</translation></entry>
+<entry><string>This privilege is not assigned to any user or group.</string><translation>Αυτό το προνόμιο δεν έχει ανατεθεί σε κανέναν χρήστη ή ομάδα</translation></entry>
+<entry><string>Type</string><translation>Τύπος</translation></entry>
+<entry><string>Name</string><translation>Όνομα</translation></entry>
+<entry><string>Remove this Privilege assignment</string><translation>Αφαίρεση της ανάθεσης προνομίου</translation></entry>
+<entry><string>Current Privileges</string><translation>Τρέχοντα Προνόμια</translation></entry>
+<entry><string>View Privileges</string><translation>Εμφάνιση Προνομίων</translation></entry>
+<entry><string>Actions</string><translation></translation></entry>
+<entry><string>Assigned</string><translation>Έχουν Ανατεθεί</translation></entry>
+<entry><string>All</string><translation>Όλα</translation></entry>
+<entry><string>Realms</string><translation></translation></entry>
+<entry><string>Name of the realm</string><translation></translation></entry>
+<entry><string>Add Realm</string><translation></translation></entry>
+<entry><string>Manage Realms</string><translation></translation></entry>
+<entry><string>Refresh</string><translation>Ανανέωση</translation></entry>
+<entry><string>There is already a realm with the name #(1)</string><translation></translation></entry>
+<entry><string>Modify Config</string><translation></translation></entry>
+<entry><string>Choose an action to perform</string><translation></translation></entry>
 </translations>
