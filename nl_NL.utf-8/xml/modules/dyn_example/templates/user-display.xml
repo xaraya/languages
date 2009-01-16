@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="nl_NL.utf-8">
+<entry><string>Display a Dynamic Example</string><translation></translation></entry>
+<entry><string>APPROACH # 1 : the &amp;lt;xar:data-display ...&amp;gt; tag</string><translation></translation></entry>
+<entry><string>This tag will automatically retrieve the item from DynamicData,
+and present it according to its standard &lt;strong&gt;objects/showdisplay.xd&lt;/strong&gt; template.</string><translation></translation></entry>
+<entry><string>APPROACH # 2 : the &amp;lt;xar:data-getitem ...&amp;gt; tag</string><translation></translation></entry>
+<entry><string>This tag will retrieve the properties of this item from DynamicData and
+make them available in the 'properties' variable in your template.</string><translation></translation></entry>
+<entry><string>You can then use that variable to build your own layout.
+The &lt;code&gt;&amp;lt;xar:data-label ...&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;xar:data-output ...&amp;gt;&lt;/code&gt; tags
+allow you to show individual labels or value outputs in the template.</string><translation></translation></entry>
+<entry><string>let's be bold now</string><translation></translation></entry>
+<entry><string>APPROACH # 3 : getting the object via API</string><translation></translation></entry>
+<entry><string>After retrieving the object via API, you can pass along the whole object to
+the template and use &lt;code&gt;&amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt;&lt;/code&gt; to let
+DynamicData handle the display. Or you can use &lt;code&gt;&amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt;&lt;/code&gt;
+if you want to provide your own display template in this module :</string><translation></translation></entry>
+<entry><string>Otherwise you can pass along the properties and work like in APPROACH # 2.</string><translation></translation></entry>
+<entry><string>Notice for instance that you don't get the option to automatically display
+the image with &lt;code&gt;&amp;lt;xar:data-output ... &amp;gt;&lt;/code&gt; or not here.</string><translation></translation></entry>
+</translations>
