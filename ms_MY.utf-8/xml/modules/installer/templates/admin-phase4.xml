@@ -1,101 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations xmlns="http://xaraya.com/2002/ns/translations" locale="ms_MY.utf-8">
-	<entry>
-		<string>Database Settings Collection</string>
-		<translation>Koleksi Tetapan Pangkalan Data</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="9" />
+<entry><string>Database Settings Collection</string><translation>Koleksi Tetapan Pangkalan Data</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="5" />
 		</references>
-	</entry>
-	<entry>
-		<string>Please enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string>
-		<translation>Sila masukkan tetapan pangkalan data anda. Anda boleh menyambung ke pangkalan data pada port yang tidak piawai menggunakan 'hosname:port' dalam medan Hos (cth 'localhost:12345').</translation>
-		<references>
+</entry>
+<entry><string>Enter your database settings. You can connect to databases on non-standard ports using 'hostname:port' in the Host field. (e.g. 'localhost:12345')</string><translation>Masukkan tetapan pangkalan data anda. Anda boleh menyambung ke pangkalan data pada port yang tidak piawai menggunakan 'hosname:port' dalam medan Hos (cth 'localhost:12345')</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="11" />
+		</references>
+</entry>
+<entry><string>Note the following:</string><translation>Perhati yang berikut:</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="13" />
+		</references>
+</entry>
+<entry><string>If you do not have root access to your database (due to virtual hosting etc), you will need to have a pre-existing database installed and configured before you proceed.</string><translation>Jika anda tidak mempunyai capaian akar ke pangkalan data anda (disebabkan penghosan maya dsbnya), anda perlu mempunyai sebuah pangkalan data yang sedia ada dan telah dikonfigurasikan sebelum anda meneruskan.</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="15" />
+		</references>
+</entry>
+<entry><string>If you plan to use a SQLite database the settings could be: Host = path to SQLIite database file &quot;./var/&quot; , Username = &quot;1&quot;, Password = not needed, Database Name = file name of SQLIite database &quot;xaraya.sqlite&quot;.</string><translation>Jika anda rancang menggunakan pangkalan data SQLite, tetapan boleh jadi: Host = laluan ke fail pangkalan data SQLite &quot;./var/&quot;, Namapengguna = &quot;1&quot;, Kata laluan = tak diperlukan, Nama Pangkalan Data = nama fail pangkalan data SQLite &quot;xaraya.sqlite&quot;.</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="16" />
+		</references>
+</entry>
+<entry><string>If you plan to use a PostgreSQL database please ensure your database already exists before your proceed.</string><translation>Jika anda rancang menggunakan pangkalan data PostgreSQL sila pastikan pangkalan data anda wujud sebelum anda teruskan.</translation>		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="17" />
 		</references>
-	</entry>
-	<entry>
-		<string>If you do not have root access to your database (due to virtual hosting, etc.), you will need to have a pre-existing one configured before you proceed.</string>
-		<translation>Jika anda tidak mempunyai capaian akar ke pangkalan data anda (disebabkan penghosan maya, dsbnya), anda perlu mempunyai sebuah pangkalan data yang sedia ada dan telah dikonfigurasikan sebelum anda meneruskan.</translation>
-		<references>
+</entry>
+<entry><string>If you plan to convert from another Weblog/CMS to Xaraya, first install Xaraya as normal and then run the appropriate import script to import your prior Weblog/CMS data.</string><translation>Jika anda rancang untuk bertukar dari Weblog/CMS lain ke Xaraya, pertama, pasang Xaraya seperti biasa dan kemudian jalankan skrip import yang sesuai untuk mengimport data Weblog/CMS terdahulu.</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="19" />
+		</references>
+</entry>
+<entry><string>Make sure you only use valid characters in the username and password for the database
+(eg no spaces, '$' or others which not supported by your database type.</string><translation>Pastikan anda menggunakan aksara yang sah sahaja dalam namapengguna dan katalaluan untuk pangkalan data (cth tiada ruang, '$&quot; atau lain-lain) yang tidak disokong oleh jenis pangkalan data anda.</translation>		<references>
 			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="21" />
 		</references>
-	</entry>
-	<entry>
-		<string>UPGRADE NOTE: If you plan on upgrading to Xaraya from a previous version or another Weblog/CMS, install as normal, then run the provided upgrade script.</string>
-		<translation>NOTA NAIKTARAF: Jika anda rancang untuk menaiktaraf ke Xaraya dari versi yang sebelumnya, atau dari Weblog/CMS lain, pasang seperti biasa, kemudian jalankan skrip naiktaraf yang dibekalkan.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="26" />
+</entry>
+<entry><string>Database Information</string><translation>Maklumat Pangkalan Data</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="25" />
 		</references>
-	</entry>
-	<entry>
-		<string>Database Information</string>
-		<translation>Maklumat Pangkalan Data</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="31" />
+</entry>
+<entry><string>Database Type</string><translation>Jenis Pangkalan Data</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="30" />
 		</references>
-	</entry>
-	<entry>
-		<string>Database Type</string>
-		<translation>Jenis Pangkalan Data</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="38" />
+</entry>
+<entry><string>[not available]</string><translation>[tidak bolehsedia]</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="35" />
 		</references>
-	</entry>
-	<entry>
-		<string>[not available]</string>
-		<translation>[tidak bolehsedia]</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="43" />
+</entry>
+<entry><string>Host</string><translation>Hos</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="48" />
 		</references>
-	</entry>
-	<entry>
-		<string>Host</string>
-		<translation>Hos</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="59" />
+</entry>
+<entry><string>(Only valid characters)</string><translation>(Hanya aksara sah)</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="66" />
 		</references>
-	</entry>
-	<entry>
-		<string>(for SQLite: a directory)</string>
-		<translation>untuk SQLite: satu direktori)</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="65" />
+</entry>
+<entry><string>Database Name</string><translation>Nama Pangkalan Data</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="71" />
 		</references>
-	</entry>
-	<entry>
-		<string>Database Name</string>
-		<translation>Nama Pangkalan Data</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="91" />
+</entry>
+<entry><string>Table Prefix</string><translation>Prefik Jadual</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="78" />
 		</references>
-	</entry>
-	<entry>
-		<string>Table Prefix</string>
-		<translation>Prefik Jadual</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="100" />
+</entry>
+<entry><string>(for Table Sharing)</string><translation>(untuk Perkongsian Jadual)</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="82" />
 		</references>
-	</entry>
-	<entry>
-		<string>(for Table Sharing)</string>
-		<translation>(untuk Perkongsian Jadual)</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="106" />
+</entry>
+<entry><string>Create the database</string><translation>Cipta pangkalan data</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="89" />
 		</references>
-	</entry>
-	<entry>
-		<string>Create the database</string>
-		<translation>Cipta pangkalan data</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="117" />
+</entry>
+<entry><string>If checked, this Create the Database option allows the install process to create an empty database for you rather than just populating an existing one. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will &lt;strong&gt;not&lt;/strong&gt; be able to create the database for you. It will be able to populate an already existing database.</string><translation>Jika disemak, opsyen Cipta Pangkalan Data ini membenarkan proses pemasangan mencipta satu pangkalan data kosong untuk anda dari menempat pangkalan data yang sedia ada. Jika anda tidak dapat mencipta pangkalan data melalui phpMyAdmin disebabkan penghosan maya atau tetapan keselamatan MySQL, pemasang &lt;strong&gt;tidak&lt;/strong&gt; akan dapat mencipta pangkalan data tersebut untuk anda. Walaubagaimanapun, ia boleh menempat pada pangkalan data yang sedia ada.</translation>		<references>
+			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="93" />
 		</references>
-	</entry>
-	<entry>
-		<string>This option specifies whether you need the install to create the empty database for you first or whether it can just populate an already existing database. If you cannot create databases through phpMyAdmin because of virtual hosting or MySQL security settings, the installer will not be able to create the database for you. It will be able to populate an already existing one though.</string>
-		<translation>Opsyen ini menetapkan sama ada anda perlu pemasangan tersebut mencipta pangkalan data yang kosong untuk anda dahulu atau sama ada ia boleh sahaja menempat pada pangkalan data yang telah sedia ada. Jika anda tidak dapat mencipta pangkalan data melalui phpMyAdmin disebabkan penghosan maya atau tetapan keselamatan MySQL, pemasang tidak akan dapat mencipta pangkalan data tersebut untuk anda. Walaupun demikian, ia boleh menempat pada pangkalan data yang sedia ada.</translation>
-		<references>
-			<reference file="modules/installer/xartemplates/admin-phase4.xd" line="123" />
-		</references>
-	</entry>
+</entry>
 </translations>
