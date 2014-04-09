@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>function #$fieldprefix#_addItem()
+{
+var itemdiv = document.getElementById('#$fieldprefix#_items');
+// Get a ID value for the next item and increment the last item ID
+var lastitemfield = document.getElementById('#$fieldprefix#_lastitem');
+var lastitem = lastitemfield.value;
+lastitem++;
+lastitemfield.value = lastitem;
+// Add the next item number to the list of items
+var itemsdisplayedfield = document.getElementById('#$fieldprefix#_itemsdisplayed');
+var itemsdisplayed = itemsdisplayedfield.value;
+itemsdisplayed = itemsdisplayed + ',' + lastitem;
+itemsdisplayedfield.value = itemsdisplayed;
+// Add a new item named item(i)
+var divIdName = &quot;#$fieldprefix#_item&quot; + lastitem;
+var newdiv = document.createElement('div');
+newdiv.setAttribute(&quot;id&quot;,divIdName);
+// Replace the placeholder text with the new fieldprefix
+var template = document.getElementById('#$fieldprefix#_itemtemplate');
+var newhtml = template.innerHTML;
+var regex = new RegExp ('dummyfieldprefix', 'gi') ;
+var prefix = document.getElementById('#$fieldprefix#_fieldprefix').value;
+newhtml = newhtml.replace(regex,lastitem+&quot;_&quot;+prefix);
+// Create the HTML for the new item, add a remove button and insert the new item
+newdiv.innerHTML =newhtml+&quot;&lt;div class=\&quot;xar-form-input-wrapper-after\&quot;&gt;&lt;input type=\&quot;button\&quot; title=\&quot;#xarML('Remove')# #$label#\&quot; value=\&quot;#xarML('Remove')# #$label#\&quot; style=\&quot;height: 23px; font-size: small;\&quot; onclick=\&quot;javascript:#$fieldprefix#_removeItem(\'&quot;+divIdName+&quot;\')\&quot;&gt;&lt;/div&gt;&quot;;</string><translation></translation>		<references>
+			<reference file="code/modules/math/xartemplates/includes/subitemsjs.xt" line="4"/>
+		</references>
+</entry>
+<entry><string>itemdiv.appendChild(newdiv);
+}
+function #$fieldprefix#_removeItem(divID)
+{
+var d = document.getElementById('#$fieldprefix#_items');
+var olddiv = document.getElementById(divID);
+d.removeChild(olddiv);
+var itemsdisplayedfield = document.getElementById('#$fieldprefix#_itemsdisplayed');
+var itemsdisplayed = itemsdisplayedfield.value;
+var divnum = divID.replace('#$fieldprefix#_item','');
+itemsdisplayed = itemsdisplayed.replace(',' + divnum, '');
+itemsdisplayedfield.value = itemsdisplayed;
+}</string><translation></translation>		<references>
+			<reference file="code/modules/math/xartemplates/includes/subitemsjs.xt" line="6"/>
+		</references>
+</entry>
+</translations>

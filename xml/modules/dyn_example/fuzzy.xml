@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+	<entry>
+		<string>If you want to provide your own presentation here, you can specify a
+different layout=&quot;...&quot; to use in the default template, or you can specify your
+own template=&quot;...&quot; here as well.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="21" />
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="19" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="20" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use those variables to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="32" />
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>This uses dynamic module settings, i.e. you can add/remove settings for your module dynamically too. But you could use the 'normal' hard-coded approach here as well...</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-modifyconfig.xd" line="10" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the list of items from DynamicData,
+and present them according to its default objects/showlist.xd template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object list via API, you can pass along the whole object list to the template and use &amp;lt;xar:data-list object=&quot;$mylist&quot;&amp;gt;,</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="69" />
+		</references>
+	</entry>
+	<entry>
+		<string>or pass along the properties and values and work like in APPROACH # 2 - see the user view for an example of that.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/admin-view.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the item from DynamicData,
+and present it according to its standard objects/showdisplay.xd template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>You can then use that variable to build your own layout. The &amp;lt;xar:data-label ...&amp;gt; and &amp;lt;xar:data-output ...&amp;gt; tags allow you to show individual labels or value outputs in the template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="30" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object via API, you can pass along the whole object to the template and use &amp;lt;xar:data-display object=&quot;$object&quot; /&amp;gt; to let DynamicData handle the display. Or you can use &amp;lt;xar:data-display object=&quot;$object&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; if you want to provide your own display template in this module :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Notice for instance that you don't get the option to automatically display the image with &amp;lt;xar:data-output ... &amp;gt; or not here.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-display.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>This tag will automatically retrieve the list of items from DynamicData,
+and present them according to its standard objects/showview.xd template.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="14" />
+		</references>
+	</entry>
+	<entry>
+		<string>Here's an example that uses the layout=&quot;list&quot;, and linkfield=&quot;name&quot;
+to tell DynamicData which field should be linked to a display of the item. It also
+uses fieldlist=&quot;name,age&quot; to show only a selected list of fields.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="28" />
+		</references>
+	</entry>
+	<entry>
+		<string>See the admin list for an example... We'll skip this one here, since we'll be retrieving 'properties' and 'values'
+via the module code instead, with the next approach.</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="42" />
+		</references>
+	</entry>
+	<entry>
+		<string>After retrieving the object list via API, you can pass along the whole object list to the template and use &amp;lt;xar:data-view object=&quot;$mylist&quot; /&amp;gt; to let DynamicData handle the view. Or you can use &amp;lt;xar:data-view object=&quot;$mylist&quot; tplmodule=&quot;dyn_example&quot; /&amp;gt; if you want to provide your own view template in this module :</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/user-view.xd" line="50" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template : modules/dyn_example/xartemplates/objects/showdisplay-dyn_example.xd&lt;br/&gt;
+This is a specific display template for the dyn_example object (if you want this)
+in the dyn_example module (if you want that)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/objects/showdisplay-dyn_example.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template : modules/dyn_example/xartemplates/objects/showform.xd&lt;br/&gt;
+This is a generic form template for objects in the dyn_example module (if you want that)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/objects/showform.xd" line="8" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template : modules/dyn_example/xartemplates/objects/showlist.xd&lt;br/&gt;
+This is a generic admin list template for objects in the dyn_example module (if you want that)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/objects/showlist.xd" line="15" />
+		</references>
+	</entry>
+	<entry>
+		<string>Template : modules/dyn_example/xartemplates/objects/showview-dyn_example.xd&lt;br/&gt;
+This is a specific user view template for the dyn_example object (if you want this)
+in the dyn_example module (if you want that)</string>
+		<translation></translation>
+		<references>
+			<reference file="modules/dyn_example/xartemplates/objects/showview-dyn_example.xd" line="13" />
+		</references>
+	</entry>
+	<entry>
+		<string>Please activate the Dynamic Data module first...</string>
+		<translation>Bitte aktivieren Sie zuerst das DynamicData-Modul...</translation>
+		<references>
+			<reference file="modules/dyn_example/xarinit.php" line="27" />
+		</references>
+	</entry>
+</translations>

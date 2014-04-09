@@ -1,0 +1,50 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Modify Configuration'] = 'Konfiguration ändern';
+$xarML_PHPBackend_entries['Configure:'] = 'Unterbereich';
+$xarML_PHPBackend_entries['General'] = 'Allgemein';
+$xarML_PHPBackend_entries['User Variables'] = 'Benutzervariablen';
+$xarML_PHPBackend_entries['User Hooks'] = 'Benutzer-Hooks';
+$xarML_PHPBackend_entries['Group Hooks'] = 'Gruppen-Hooks';
+$xarML_PHPBackend_entries['Member Options'] = 'Benutzeroptionen';
+$xarML_PHPBackend_entries['Page Layout'] = 'Seitenlayout';
+$xarML_PHPBackend_entries['Users Per Page:'] = 'Benutzer je Seite';
+$xarML_PHPBackend_entries['Enable Short URLs'] = 'Short-URLs aktivieren';
+$xarML_PHPBackend_entries['Default Group and Site Administrator'] = 'Haupt-Administrator und Standardgruppe';
+$xarML_PHPBackend_entries['Designated Site Admin:'] = 'Haupt-Administrator';
+$xarML_PHPBackend_entries['Default Group For New Users:'] = 'Standardgruppe für neue Benutzer:';
+$xarML_PHPBackend_entries['Authentication:'] = 'Anmeldeverfahren';
+$xarML_PHPBackend_entries['Registration:'] = 'Neuregistrierung';
+$xarML_PHPBackend_entries['Basic User Variables'] = 'Feste Benutzervariablen';
+$xarML_PHPBackend_entries['Description'] = 'Beschreibung';
+$xarML_PHPBackend_entries['The handle or nick under which the user is known to the site. The uname is unique to each user.'] = 'Der Login- oder auch Anmeldename. Er ist eindeutig.';
+$xarML_PHPBackend_entries['The user\'s display name, as shown in the members list and other displays. The name need not be unique.'] = 'Der Anzeigename wird in der Mitgliederliste und bei den Beiträgen angezeigt. Er braucht nicht eindeutig zu sein.';
+$xarML_PHPBackend_entries['The user\'s email address. The email address can be defined by the site administrator to be unique or not.'] = 'Die E-Mailadresse kann entsprechend der Vorgabe des Administrators eindeutig sein.';
+$xarML_PHPBackend_entries['Dynamic Roles Variables'] = 'Dynamische Rollenvariablen';
+$xarML_PHPBackend_entries['The role\'s home page, which is initially displayed when the user logs in. The home page can be role/user specific or inherited from the direct parent group. The home page is specified in a similar manner to user menu item shortcuts in the modify or edit role page.'] = 'Die Einstiegsseite wird dem Nutzer nach dem Anmeldevorgang angezeigt. Sie kann gruppen- oder nutzerspezifisch sein oder aber von der Eltern-Gruppe geerbt werden. Die Einstiegsseite kann bei den Benutzereinstellungen festgelegt werden.';
+$xarML_PHPBackend_entries['The role\'s primary parent group.
+A primary parent take precendence over other parent groups for realm and user role home settings.'] = 'Die Stammeltern-Gruppe. Sie hat Vorrang bei den Realm- und Einstiegsseiten-Einstellungen.';
+$xarML_PHPBackend_entries['The date and time this role\'s password was last changed.'] = 'Zeitpunkt der letzten Änderung des Passworts dieses Benutzers';
+$xarML_PHPBackend_entries['The date and time this role last logged in.'] = 'Zeitpunkt der letzten Anmeldung des Benutzers';
+$xarML_PHPBackend_entries['This role\'s timezone.'] = 'Zeitzone des Benutzers';
+$xarML_PHPBackend_entries['Default Hooks For Users'] = 'Standardhooks für Benutzer';
+$xarML_PHPBackend_entries['No hooks are enabled for Users.'] = 'Für Benutzer sind keine Hooks aktiviert.';
+$xarML_PHPBackend_entries['Default Hooks For Groups'] = 'Standardhooks für Gruppen';
+$xarML_PHPBackend_entries['No hooks are enabled for Groups.'] = 'Für Gruppen sind keine Hooks aktiviert.';
+$xarML_PHPBackend_entries['Allow Searching By Email'] = 'Suchen anhand von E-Mail-Adressen gestatten';
+$xarML_PHPBackend_entries['CAUTION: this may reveal enough information to compromise a user\'s login.'] = 'VORSICHT: Dies könnte genug Informationen geben, um die Anmeldeinformationen eines Nutzers zu erlangen.';
+$xarML_PHPBackend_entries['Allow User Email Page?'] = 'E-Mail für Benutzer erlauben';
+$xarML_PHPBackend_entries['Allows members to send an email via a form to other users. Users must switch this option on in their own account.'] = 'Erlaubt Benutzern, E-Mails über Formulare an andere Benutzer zu senden. Diese müssen zusätzlich den Empfang in ihren Benutzereinstellungen erlauben.';
+$xarML_PHPBackend_entries['Allow users to edit their member account details'] = 'Änderungen der Benutzerangaben erlauben';
+$xarML_PHPBackend_entries['This toggles the Roles hook to the Roles module.'] = 'Dies verbindet dern Rollen-Hook zum Rollen-Modul';
+$xarML_PHPBackend_entries['Members must validate if they change their email account?'] = 'Änderungen der E-Mailadresse überprüfen';
+$xarML_PHPBackend_entries['Display member list as Roles menu option?'] = 'Menüpunkt \'Rollen\' im Benutzermenü anzeigen?';
+$xarML_PHPBackend_entries['NOTE: This is a convenience option. The members list is available
+regardless of its inclusion in the menu, for all users that have Read privileges for Roles.'] = 'Dies ändert nur die Anzeige. Die Benutzerliste ist unabhängig hiervon zugänglich, wenn der Benutzer entsprechende Leserechte hat.';
+$xarML_PHPBackend_entries['User Homepage Options'] = 'Einstiegsseite-Optionen';
+$xarML_PHPBackend_entries['Redirect users to Home Page on login?'] = 'Einstiegsseite nach dem Anmelden anzeigen?';
+$xarML_PHPBackend_entries['Allow users to set Home Page in their member account'] = 'Einstellung der Einstiegsseite durch Benutzer erlauben';
+$xarML_PHPBackend_entries['Allow users to set external URLS in their Home Page?'] = 'Externe URLs als Einstiegsseite erlauben?';
+$xarML_PHPBackend_entries['(options for Home Page are only available if the dynamic roles user variable \'userhome\' is activated)'] = 'Die Optionen für die Einstiegsseite sind nur verfügbar, wenn die dynamische Benutzervariable \'userhome\' aktiviert ist.';
+?>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>$.metadata.setType(&quot;attr&quot;, &quot;validate&quot;);
+$(document).ready(function() {
+$(&quot;##paymentform&quot;).validate();
+});
+function setValue(id)
+{
+source = document.getElementById(id);
+target = document.getElementById('dd_#$properties.net_amount:id#');
+target.value = source.value;
+}</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-amount.xt" line="12"/>
+		</references>
+</entry>
+<entry><string>Your currency and amount details</string><translation>Ihre Währung und Betragsdetails</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-amount.xt" line="40"/>
+		</references>
+</entry>
+<entry><string>Subscription payment</string><translation>Abonnementszahlung</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-amount.xt" line="52"/>
+		</references>
+</entry>
+<entry><string>ice.attest payment</string><translation>ice.attest Bezahlung</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-amount.xt" line="54"/>
+		</references>
+</entry>
+<entry><string>Payment type not recognized</string><translation>Zahlungstyp unbekannt</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-amount.xt" line="56"/>
+		</references>
+</entry>
+<entry><string>Sorry! Payments processing is currently not available</string><translation>Entschuldigen Sie! Die Zahlungsverarbeitung steht zur Zeit nicht zur Verfügung</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-amount.xt" line="76"/>
+		</references>
+</entry>
+</translations>

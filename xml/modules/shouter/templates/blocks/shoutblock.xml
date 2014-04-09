@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>function formCheck(el){
+if(el.value == ''){
+alert('Please Enter Something to Post!');
+el.focus();
+return false;
+} else {
+return true;
+}
+}
+function formPost() {
+document.getElementById('redirect').value = '';
+loadContent('#$shouturl#', 'response', 'POST', 'shoutform');
+replaceContent();
+// empty the input box
+document.getElementById('shout').value = '';
+return false;
+}
+function replaceContent(){
+// replace the block content area
+loadContent('#$blockurl#','shoutupdate');
+}
+function startTimer() {
+timer = window.setInterval(&quot;replaceContent();&quot;, &quot;#$shoutblockrefresh#&quot;);
+}</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="8" />
+		</references>
+</entry>
+<entry><string>window.onLoad = startTimer();</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="10" />
+		</references>
+</entry>
+<entry><string>begin shoutblock wrapper div (for setting width)</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="16" />
+		</references>
+</entry>
+<entry><string>$lightrow</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="30" />
+		</references>
+</entry>
+<entry><string>$darkrow</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="36" />
+		</references>
+</entry>
+<entry><string>#$item['name']#</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="44" />
+		</references>
+</entry>
+<entry><string>(#xarLocaleGetFormattedDate('medium', $item['date'])# #xarLocaleGetFormattedTime('short', $item['date'])#)</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="50" />
+		</references>
+</entry>
+<entry><string>Be the first to shout here!</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="68" />
+		</references>
+</entry>
+<entry><string>end the shout body</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="76" />
+		</references>
+</entry>
+<entry><string>You must be logged-in to post a shout.</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/blocks/shoutblock.xd" line="104" />
+		</references>
+</entry>
+</translations>

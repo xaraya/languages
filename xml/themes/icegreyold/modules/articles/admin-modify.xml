@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>You can use different admin-modify-[pubtype].xd templates for different pubtypes</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="34" />
+		</references>
+</entry>
+<entry><string>retrieve the previous article in publication type ptid (with any status here)</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="38" />
+		</references>
+</entry>
+<entry><string>#xarModAPIFunc('articles','user','getprevious',array('ptid' =&gt; $ptid, 'id' =&gt; $id, 'status' =&gt; array(0,1,2,3)))#</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="42" />
+		</references>
+</entry>
+<entry><string>retrieve the next article in publication type ptid (with any status here)</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="50" />
+		</references>
+</entry>
+<entry><string>#xarModAPIFunc('articles','user','getnext',array('ptid' =&gt; $ptid, 'id' =&gt; $id, 'status' =&gt; array(0,1,2,3)))#</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="54" />
+		</references>
+</entry>
+<entry><string>show a link to modify the previous article with title</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="62" />
+		</references>
+</entry>
+<entry><string>&lt;&lt; #xarVarPrepHTMLDisplay($prevartinfo['title'])#</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="68" />
+		</references>
+</entry>
+<entry><string>show a link to modify the next article with title</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="74" />
+		</references>
+</entry>
+<entry><string>  </string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="76" />
+		</references>
+</entry>
+<entry><string>#xarVarPrepHTMLDisplay($nextartinfo['title'])# &gt;&gt;</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="80" />
+		</references>
+</entry>
+<entry><string>Modify Article</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="110" />
+		</references>
+</entry>
+<entry><string>Publication Type</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="120" />
+		</references>
+</entry>
+<entry><string>#$values['pubtype']#</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="124" />
+		</references>
+</entry>
+<entry><string>Contrary to admin-new.xd, it is not recommended to use $field['definition']['preset'] here</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="132" />
+		</references>
+</entry>
+<entry><string>show a link to delete the article</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="226" />
+		</references>
+</entry>
+<entry><string>Delete Article</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/articles/admin-modify.xt" line="236" />
+		</references>
+</entry>
+</translations>

@@ -1,0 +1,33 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['date: #(1)'] = 'Datum:  #(1)';
+$xarML_PHPBackend_entries['Invalid #(1)'] = 'Ungültig: #(1)';
+$xarML_PHPBackend_entries['URL'] = 'URL';
+$xarML_PHPBackend_entries['selection: #(1)'] = 'Selektion: #(1)';
+$xarML_PHPBackend_entries['By Name'] = 'Nach Namen';
+$xarML_PHPBackend_entries['By Category'] = 'Nach Kategorie';
+$xarML_PHPBackend_entries['Missing label'] = 'Fehlendes Label';
+$xarML_PHPBackend_entries['System Message'] = 'Systemnachricht';
+$xarML_PHPBackend_entries['Explanation:'] = 'Erklärung:';
+$xarML_PHPBackend_entries['Further Information:'] = 'Weitere Informationen:';
+$xarML_PHPBackend_entries['Stack:'] = 'Stapel:';
+$xarML_PHPBackend_entries['Base Administration'] = 'Basis-Administration';
+$xarML_PHPBackend_entries['Error Message'] = 'Fehlermeldung';
+$xarML_PHPBackend_entries['Problem:'] = 'Problem:';
+$xarML_PHPBackend_entries['Version'] = 'Version';
+$xarML_PHPBackend_entries['Modules'] = 'Module';
+$xarML_PHPBackend_entries['Title'] = 'Titel';
+$xarML_PHPBackend_entries['Help'] = 'Hilfe';
+$xarML_PHPBackend_entries['Admin logout'] = 'Admin-Abmeldung';
+$xarML_PHPBackend_entries['Block Expiration:'] = 'Verfalldatum des Blocks';
+$xarML_PHPBackend_entries['This Block Will Expire:'] = 'Dieser Block verfällt am:';
+$xarML_PHPBackend_entries['Base directory'] = 'Basisverzeichnis';
+$xarML_PHPBackend_entries['File extensions'] = 'Dateinamenserweiterungen';
+$xarML_PHPBackend_entries['Other rule'] = 'Andere Regel';
+$xarML_PHPBackend_entries['Note: the uploads module is not hooked'] = 'Hinweis: Das Upload-Modul ist nicht per Hook verbunden';
+$xarML_PHPBackend_entries['Methods'] = 'Methoden';
+$xarML_PHPBackend_entries['Upload Directory'] = 'Upload-Verzeichnis';
+$xarML_PHPBackend_entries['Trusted Directory'] = 'Vertrauenswürdiges Verzeichnis';
+$xarML_PHPBackend_entries['Note: the uploads module is hooked'] = 'Hinweis: Das Upload-Modul ist per Hook verbunden';
+?>

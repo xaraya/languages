@@ -1,0 +1,33 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Themes'] = 'Themes';
+$xarML_PHPBackend_entries['Activate'] = 'Aktivieren';
+$xarML_PHPBackend_entries['Deactivate'] = 'Deaktivieren';
+$xarML_PHPBackend_entries['Upgrade'] = 'Aktualisieren';
+$xarML_PHPBackend_entries['Remove'] = 'Entfernen';
+$xarML_PHPBackend_entries['Themes Administration'] = 'Themes-Administration (Gestaltung)';
+$xarML_PHPBackend_entries['View Themes'] = 'Themes anzeigen';
+$xarML_PHPBackend_entries['Action'] = 'Aktion';
+$xarML_PHPBackend_entries['Refresh'] = 'Erneut laden';
+$xarML_PHPBackend_entries['Name'] = 'Name';
+$xarML_PHPBackend_entries['Version'] = 'Version';
+$xarML_PHPBackend_entries['Actions'] = 'Aktionen';
+$xarML_PHPBackend_entries['Info'] = 'Info';
+$xarML_PHPBackend_entries['Overview'] = 'Überblick';
+$xarML_PHPBackend_entries['Template Tags'] = 'Template-Tags';
+$xarML_PHPBackend_entries['Modify Config'] = 'Einstellungen';
+$xarML_PHPBackend_entries['Delete'] = 'Löschen';
+$xarML_PHPBackend_entries['Description:'] = 'Beschreibung:';
+$xarML_PHPBackend_entries['Select Theme'] = 'Theme auswählen';
+$xarML_PHPBackend_entries['Edit'] = 'Bearbeiten';
+$xarML_PHPBackend_entries['Submit'] = 'Speichern';
+$xarML_PHPBackend_entries['All'] = 'Alle(s)';
+$xarML_PHPBackend_entries['None'] = 'Keine';
+$xarML_PHPBackend_entries['Could not unregister (#(1)).'] = 'Konnte (#(1)) nicht aus dem Register austragen.';
+$xarML_PHPBackend_entries['Empty regid (#(1)).'] = 'Leere regid (#(1)).';
+$xarML_PHPBackend_entries['Missing theme regid (#(1)).'] = 'Fehlende Theme-regid (#(1)).';
+$xarML_PHPBackend_entries['Parameter filter must be an array.'] = 'Parameterfilter muss ein Array sein.';
+$xarML_PHPBackend_entries['Parameter orderBy can contain only \'name\' or \'regid\' or \'class\' as items.'] = 'Die Parameter-Sortierung kann nur die Elemente \'name\', \'regid\' oder \'class\'enthalten.';
+$xarML_PHPBackend_entries['Unable to activate module "#(1)".'] = 'Kann das #(1)-Modul nicht aktivieren.';
+?>

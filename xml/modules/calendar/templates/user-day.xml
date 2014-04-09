@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>$DayURI-&gt;prev('year')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="20" />
+		</references>
+</entry>
+<entry><string>Previous Day</string><translation>Vorhergehender Tag</translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="25" />
+		</references>
+</entry>
+<entry><string>$DayURI-&gt;prev('day')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="30" />
+		</references>
+</entry>
+<entry><string>Next Day</string><translation>Nächster Tag</translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="35" />
+		</references>
+</entry>
+<entry><string>$DayURI-&gt;next('day')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="40" />
+		</references>
+</entry>
+<entry><string>$DayURI-&gt;next('year')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="50" />
+		</references>
+</entry>
+<entry><string>xarModVars::get('calendar','windowwidth')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="56" />
+		</references>
+</entry>
+<entry><string>98</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="60" />
+		</references>
+</entry>
+<entry><string>$windowwidth-$hourcolwidth-4</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="64" />
+		</references>
+</entry>
+<entry><string>xarModVars::get('calendar','unitheight')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="68" />
+		</references>
+</entry>
+<entry><string>$windowwidth+2</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="72" />
+		</references>
+</entry>
+<entry><string>xarModVars::get('calendar','minutesperunit')</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="76" />
+		</references>
+</entry>
+<entry><string>60/$minutesperunit</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="80" />
+		</references>
+</entry>
+<entry><string>(int)(xarModVars::get('calendar','day_start')/3600)</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="84" />
+		</references>
+</entry>
+<entry><string>(int)(xarModVars::get('calendar','day_end')/3600)</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="88" />
+		</references>
+</entry>
+<entry><string>#xarLocaleFormatDate('%B %d %Y',$Day-&gt;getTimeStamp())#</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="104" />
+		</references>
+</entry>
+<entry><string>$Day-&gt;fetch()</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="122" />
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="203" />
+		</references>
+</entry>
+<entry><string>#$Hour:thisHour()#:#$Hour:thisMinute()#</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="132" />
+		</references>
+</entry>
+<entry><string>$Hour-&gt;getEntries()</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="152" />
+		</references>
+</entry>
+<entry><string>$displaywidth/$entry['neighbors']</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="160" />
+		</references>
+</entry>
+<entry><string>$entry['place']</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="164" />
+		</references>
+</entry>
+<entry><string>$thisslot*$width+2</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="168" />
+		</references>
+</entry>
+<entry><string>($entry['start_time']-$Hour-&gt;getTimestamp())/60/$minutesperunit*($unitheight+1)</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="172" />
+		</references>
+</entry>
+<entry><string>($entry['end_time'] - $entry['start_time'])/60/$minutesperunit*($unitheight+1)-2</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="176" />
+		</references>
+</entry>
+<entry><string>#$entry.name#</string><translation></translation>		<references>
+			<reference file="modules/calendar/xartemplates/user-day.xd" line="186" />
+		</references>
+</entry>
+</translations>

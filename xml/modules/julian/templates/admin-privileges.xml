@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Choose the combination of events and calendars for privilege '#(1)'</string><translation>Wählen Sie die Kombination für Termine und Kalender für Privileg '#(1)'</translation></entry>
+<entry><string>Calendar ID</string><translation>Kalender-ID</translation></entry>
+<entry><string>Organizer</string><translation>Organizer</translation></entry>
+<entry><string>All / Other --&amp;gt;</string><translation>Alle / Weitere --&amp;gt;</translation></entry>
+<entry><string>Event</string><translation>Veranstaltung</translation></entry>
+<entry><string>Enter event number</string><translation>Veranstaltungsnummer eingeben</translation></entry>
+<entry><string>Access Level</string><translation>Zugangslevel</translation></entry>
+<entry><string>No Access</string><translation>Kein Zugang</translation></entry>
+<entry><string>Read</string><translation>Lesen</translation></entry>
+<entry><string>Admin</string><translation>Admin</translation></entry>
+<entry><string>There are #(1) events matching these selection criteria at the moment</string><translation>Momentan gibt es #(1) Termine, auf die Ihre Suchkriterien zutreffen</translation></entry>
+<entry><string>Some examples : (assuming your users have read access by default)</string><translation>Einige Beispiele: (unter der Voraussetzung, dass Ihre Nutzer standardmäßig Leseberechtigung haben)</translation></entry>
+<entry><string>In order to allow 'Friends' to submit events (and only that), define a privilege 'AddJulianEvent' (or whatever name you prefer), and access level &quot;Add&quot; above.
+Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.</string><translation>Um 'Freunden' das Einreichen von Terminen (und nur das) zu gestatten, definieren Sie ein Privileg 'AddJulianEvent' (Privilegname nach Ihrr Wahl)und den Zugangslevel &quot;Hinzufügen&quot; (Add). Drücken Sie &quot;Beenden und Privileg anlegen&quot; und ordnen Sie dieses Privileg der &quot;Freunde&quot;-Rolle zu.</translation></entry>
+<entry><string>When you want users to add events, and have them also edit or delete their own, then use the organizer (submitter) role 'Myself'. Eg All:Myself:All:All and an access level of 'Delete' will give users Delete rights to all events in all categories that they have added themselves.</string><translation>Wenn Sie wollen, dass Nutzer Termine hinzufügen können und ihre eigenen Termine bearbeiten oder löschen können, dann verwenden Sie die Organizer-(Einreicher-)Rolle 'Myself'. Z.B. All:Myself:All:All und ein Zugangslevel von 'Delete' wird Nutzern Löschrechte für alle Termine in allen Kategorien einräumen, die sie selber hinzugefügt haben.</translation></entry>
+<entry><string>In order to stop 'Strangers' from viewing Events, define some privilege 'DenyJulianEvents' (instance All:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.</string><translation>Um 'Fremde' davon abzuhalten, Termine anzuschauen, definieren Sie ein Privileg 'DenyJulianEvents' (Instanz All:All:All:All) und Zugangslevel &quot;No Access&quot;.</translation></entry>
+<entry><string>Note: if you want to deny access to all events in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the Julian map and categories navigation as well.</string><translation>Hinweis: Wenn Sie den Zugang verwehren wollen zu allen Terminen in einer Einzelkategorie mit der ID 123, können Sie auch ein Privileg für das Modul &quot;Kategorien&quot;, Komponente &quot;Kategorie&quot;, Kategoriename &quot;Alle&quot; und Kategorie-ID 123 definieren. Dies entfernt dann die Kategorie aus dem Kalenderverzeichnis und auch aus der Kategoriennavigation.</translation></entry>
+</translations>

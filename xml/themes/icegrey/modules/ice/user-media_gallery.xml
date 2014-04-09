@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>var shrinkFunc = function(dimension) {
+return dimension * 0.3;
+}
+$(function() {
+$('div.gallery img').slidingGallery({
+container: $('div.gallery'),
+'Lshrink':shrinkFunc
+});
+});
+function showCaption(caption) {
+if (caption != &quot;&quot;) {
+document.getElementById('showCaption').innerHTML = caption;
+}
+else {
+if (document.getElementById('currentlocale').value == &quot;de_DE.utf-8&quot;) {
+document.getElementById('showCaption').innerHTML = &quot;Antragsformular für ice.attest&quot;;
+}
+else {
+document.getElementById('showCaption').innerHTML = &quot;Checklist Emergency Plan&quot;;
+}
+}
+}</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/ice/user-media_gallery.xt" line="12"/>
+		</references>
+</entry>
+</translations>

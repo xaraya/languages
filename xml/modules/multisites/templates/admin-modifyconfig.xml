@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Modify Multisites Configuration</string><translation>Multisites-Konfiguration ändern</translation></entry>
+<entry><string>Set Multisite Configuration</string><translation></translation></entry>
+<entry><string>This option will gather some server configuration data and then modify your main config.system.php file.
+Once this is complete, this site will become the Master site from which you can create other (sub)sites. Usually this operation is only carried out once. If there is a change in your server configuration, you may need to reconfigure this Master site using this option.&lt;br /&gt;&lt;br /&gt;
+Before you continue, please make sure that you</string><translation></translation></entry>
+<entry><string>Create the Master Data folder '$masterfolder' in your main Xaraya install directory. This is where your(sub)site configuration information is stored. If you wish to change the name of the Master Data Folder, make sure you update the name in the form below to your Master Data folder name.
+Important: Make sure your Master Data folder is writable chmod777 before you continue.</string><translation></translation></entry>
+<entry><string>Chmod 666 your main config.system.php file so this module can write to it.</string><translation></translation></entry>
+<entry><string>Change Multisite Configuration</string><translation></translation></entry>
+<entry><string>THIS SITE IS ALREADY CONFIGURED AS THE MASTER MULTISITE SITE.</string><translation></translation></entry>
+<entry><string>You should only make changes to this configuration, if</string><translation></translation></entry>
+<entry><string>You need to add or change the domains or subdomains
+extensions that you wish to use with multisites.</string><translation></translation></entry>
+<entry><string>You want to change the Master Data directory where subsite information is held. Note that if you do this, you must move any existing site data from your old Master Data Directory to your new one manually. This module will not move it for you.</string><translation></translation></entry>
+<entry><string>You need to change the server configuration to HTTP_HOST or SERVER_NAME. This should only be required if you chose the wrong setup the first time round, or in some instances, if there has been changes to the server configuration where you host your
+site.</string><translation></translation></entry>
+<entry><string>If you wish to continue with modifying your Multisites Configuration then</string><translation></translation></entry>
+<entry><string>If you are changing your Master SubSite Data folder, create this directory first, and make sure it is writable chmod 777.</string><translation></translation></entry>
+<entry><string>Chmod 666 your main config.system.php file (in the main var directory) so this module can write to it.
+When the Master Multisite Configuration is finished, make sure you chmod 444 your master config.system.php!</string><translation></translation></entry>
+<entry><string>If you wish to remove Multisites totally from this site</string><translation></translation></entry>
+<entry><string>Chmod 666 /var/config.system.php. Deactivate and Remove the Multisites module in Administration - Modules - View All. Once deactivated, remember to chmod
+your config.system.php file back to 444.</string><translation></translation></entry>
+<entry><string>The Master Data Folder and subsite subdirectories are not removed by this action, and must be removed manually if required.</string><translation></translation></entry>
+<entry><string>Server Configuration</string><translation>Serverkonfiguration</translation></entry>
+<entry><string>Multisites
+can use one of 2 possible variables, HTTP_HOST, or SERVER_NAME.&lt;br /&gt;
+One or the other may not always work on your system, depending on the
+way your server is configured.</string><translation></translation></entry>
+<entry><string>SERVER_NAME or HTTP_HOST</string><translation></translation></entry>
+<entry><string>Your SERVER_NAME value&amp;nbsp;=&amp;nbsp;&amp;nbsp;</string><translation></translation></entry>
+<entry><string>Your HTTP_HOST value&amp;nbsp;&amp;nbsp;=&amp;nbsp;</string><translation></translation></entry>
+<entry><string>HTTP_HOST</string><translation></translation></entry>
+<entry><string>SERVER_NAME</string><translation></translation></entry>
+<entry><string>If the HTTP_HOST value above displays your correct domain
+name, you should make sure HTTP_HOST is selected from the drop down
+box.</string><translation></translation></entry>
+<entry><string>If the domain name for HTTP_HOST is incorrect, only then, change the
+value in the drop down box to SERVER_NAME.</string><translation></translation></entry>
+<entry><string>File Paths &amp;amp; Domain Types</string><translation></translation></entry>
+<entry><string>All path names are relative to the directory where Xaraya is installed.</string><translation></translation></entry>
+<entry><string>Default Theme Path</string><translation></translation></entry>
+<entry><string>Default Var Path</string><translation></translation></entry>
+<entry><string>Master directory</string><translation></translation></entry>
+<entry><string>Default Master Data Directory Path</string><translation></translation></entry>
+<entry><string>NOTE: Do not enter trailing slashes.</string><translation></translation></entry>
+<entry><string>Domain and subdomain extensions that you are using</string><translation></translation></entry>
+<entry><string>Domain &amp;amp; subdomain extensions</string><translation></translation></entry>
+<entry><string>Separate each by a comma (,)</string><translation></translation></entry>
+<entry><string>The common extensions are .com, .net, .org.
+However, if for example you use a subdomain or domain such as www.domain.biz
+as a site, you will need to add the .biz extension to the list.</string><translation></translation></entry>
+</translations>

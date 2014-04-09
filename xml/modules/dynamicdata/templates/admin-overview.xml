@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Official Icon</string><translation>Offizielles Icon</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="14"/>
+		</references>
+</entry>
+<entry><string>How To</string><translation></translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="36"/>
+		</references>
+</entry>
+<entry><string>Examples</string><translation>Beispiele</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="44"/>
+		</references>
+</entry>
+<entry><string>What is it?</string><translation>Was ist das?</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="58"/>
+		</references>
+</entry>
+<entry><string>The Dynamic Data module lets you create and manage custom objects (&quot;dataobjects&quot;) on a Xaraya site. Dataobjects hold certain types of information and interact with Xaraya. You can use them to replace or extend objects Xaraya already has available (such as users, privileges, blocks etc.), or to create completely new objects for your site, representing e.g. customers, surveys, publications etc., according to your specific needs. The DynamicData module is a core module within Xaraya and cannot be removed.</string><translation>Das Dynamic Data-Modul erlaubt Ihnen individuelle Objekte (&quot;Datenobjekte&quot;) auf der Xaraya-Seite zu erstellen und zu verwalten. Datenobjekte enthalten gewisse Arten von Informationen und interagieren mit Xaraya. Sie können diese benutzen um Objekte zu ersetzen oder zu erweitern, die Xaraya schon zur Verfügung stellt (z.B. users, privileges, block etc......................) oder komplett neue Objekte für ihre Seite, die z.B. Kunden, Umfragen, Publikationen etc. darstellen können angepasst an ihre speziellen Anforderungen. Das DynamicData-Modul ist ein Kernmodul von Xaraya und kann nicht gelöscht werden.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="62"/>
+		</references>
+</entry>
+<entry><string>Detail information on this module can be found</string><translation>Detaillierte Informationen zu diesem Modul finden Sie unter</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="66"/>
+		</references>
+</entry>
+<entry><string>Concepts</string><translation>Konzepte</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="74"/>
+		</references>
+</entry>
+<entry><string>Dataobjects</string><translation>Datenobjekte</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="78"/>
+		</references>
+</entry>
+<entry><string>Dataobjects are Xaraya constructs that represent &quot;things with data&quot; in a Xaraya application. These can be real-life objects, such as news articles, projects, surveys, race tracks (depending on your application); or they can be Xaraya objects such as roles or privileges. Representing such diverse things as dataobjects lets you manage them in a consistent, and in many cases use the DynamicData module's own methods to do so. This saves development time and avoids duplication.</string><translation>Datenobjekte sind Xaraya-Konstrukte, die &quot;Dinge mit Daten&quot; in einer Xaraya-Anwendung repräsentieren. Diese können Objekte aus dem wirklichen Leben sein, wie z.B. Zeitungsartikel, Projekte, Umfragen, Rennbahnen (je nachdem welche Art von Anwendung Sie verwenden) oder sie können Xaraya-Objekte sein wie roles oder privileges........ . Da Datenobjekte so divers sein können, können Sie diese einheitlich verwalten und können in vielen Fällen sogar auf die Methoden des DynamicData-Moduls zurückgreifen. Das spart Zeit und vermeidet ungewollte Duplizierungen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="82"/>
+		</references>
+</entry>
+<entry><string>Dataobjects have a simple basic structure. Each is given a unique ID, unique name, a label and some configuration settings. What sets one dataobject apart from another is the dataproperties it is given and the data they contain.</string><translation>Datenobjekte haben eine simple Basisstruktur. Jedes bekommt eine einmalige ID, Namen, Titel und einige Konfigurationseinstellungen. Man kann Datenobjekte dadurch unterscheiden welche Dateneigenschaften sie haben und welche Daten sie enthalten.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="86"/>
+		</references>
+</entry>
+<entry><string>Dataproperties</string><translation>Dateneigenschaften</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="90"/>
+		</references>
+</entry>
+<entry><string>A dataobject is characterized by its dataproperties. A dataproperty represents a certain type of information a dataobject contains. In the case of a news article this might be a title, author or article text. In the case of a role this might be a username, password, registration date, and so on. Dataobjects can have any number of dataproperties. Note that to be useful, however, a dataobject should always have an Itemid property, which represents a unique idea for that particular set of data (an &quot;item&quot;) the dataobject contains.</string><translation>Ein Datenobjekt wird durch seine Dateneigenschaften charakterisiert. Eine Dateneigenschaft stellt eine bestimmte Art von Information dar, die ein Datenobjekt enthalten kann. Im Falle eines Zeitungsartikels kann das z.B. der Titel, Autor oder Text sein. Im Falle einer Rolle könnte das vielleicht ein Benutzername, Passwort, Anmeldedatum etc. sein. Datenobjekte haben eine Reihe von Dateneigenschaften. Beachten Sie jedoch, dass ein Datenobjekt immer eine Itemid-Eigenschaft,,,,,,,,,, haben sollte um brauchbar zu sein. Diese stellt ein einzigartiges Konzept.........für diesen bestimmten Datensatz dar (ein &quot;Item&quot;), den das Datenobjekt enthält.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="94"/>
+		</references>
+</entry>
+<entry><string>Dataproperties come in different flavors, or &quot;types&quot;. Some of these model HTML constructs such as textboxes, radio buttons, file uploads, etc., and can also be used as standalone HTML widgets without reference to a dataobject. Others model more abstract or complex concepts: there is, for instance, a username dataproperty, a password dataproperty and so on. A summary list of each modules dataproperties is given in its overview page (see above).</string><translation>Dateneigenschaften gibt es in unterschiedlichen Varianten bzw. &quot;Typen&quot;.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="98"/>
+		</references>
+</entry>
+<entry><string>Items</string><translation>Items</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="102"/>
+		</references>
+</entry>
+<entry><string>A dataobject and its dataproperties can be thought of as a container for holding different sets of data. A news article dataobject can contain specific articles, a roles dataobject can contain different users and groups. We refer to these sets of data as the dataobject's</string><translation>Ein Datenobjekt und seine Dateneigenschaften kann man sich als Container vorstellen, der bestimmte Art von Daten enthält. Eine Zeitungsartikel-Datenobjekt kann spezielle Artikel enthalten, ein Rollen-Datenobjekt kann unterschiedliche Benutzer und Gruppen enthalten. Wir beschreiben diese Art von Daten als............. des Datenobjektes</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="106"/>
+		</references>
+</entry>
+<entry><string>items</string><translation>Items</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="108"/>
+		</references>
+</entry>
+<entry><string>Note that different dataobjects can have the same items. For instance, a roles object used in a users profile display will show their name, user name, date of registration etc. A different dataobject used by the site administrator to track users may show the same item with additional fields, such as state and group memberships.</string><translation>Beachten Sie, dass unterschiedliche Datenobjekte die gleichen Items haben kann. Z.B. zeigt ein Rollen-Objekt eines Benutzer-Profils den Namen, Benutzernamen, Anmeldedatum etc. an. Ein anderes Datenobjekt, welches vom Administrator einer Seite benutzt wird um Benutzer zu zählen könnte das selbe Item anzeigen, nur mit zusätzlichen Feldern wie Status und Gruppenzugehörigkeit.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="114"/>
+		</references>
+</entry>
+<entry><string>The Admin interface</string><translation>Das Admin-Interface</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="118"/>
+		</references>
+</entry>
+<entry><string>As an administrator, you can change the modules configuration by pointing your browser to the configuration page</string><translation>Als Administrator können Sie die Modulkonfiguration verändern indem Sie mit ihrem Browser auf die Konfigurationsseite gehen</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="122"/>
+		</references>
+</entry>
+<entry><string>Admin Menu → Dynamicdata → Modify Configuration</string><translation></translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="124"/>
+		</references>
+</entry>
+<entry><string>. The configuration page includes the standard display options common to all core modules (see the Base module overview for an explanation of these).</string><translation>. Die Konfigurationsseite enthält die Standard-Anzeigeoptionen, die es in allen Kernmodulen gibt (siehe Überblick über die Basismodule für eine Erklärung dessen).</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="126"/>
+		</references>
+</entry>
+<entry><string>Available Blocks</string><translation>Verfügbare Blöcke</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="130"/>
+		</references>
+</entry>
+<entry><string>Form Block</string><translation>Form-Block</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="138"/>
+		</references>
+</entry>
+<entry><string>: displays an input form for a dataobject. This can be used for &quot;quick entry&quot; of data by users, such as a registration.or a feedback submission.</string><translation>: zeigt ein Eingabeblatt für ein Datenobjekt an. Dies kann für die &quot;schnelle Eingabe&quot; von Daten, wie Anmeldung oder Feedback, von den Benutzern verwendet werden.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="140"/>
+		</references>
+</entry>
+<entry><string>Available Hooks</string><translation>Verfügbare Hooks</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="146"/>
+		</references>
+</entry>
+<entry><string>Search Hook</string><translation>Hooks suchen</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="154"/>
+		</references>
+</entry>
+<entry><string>: allows user to search the content of the Dynamicdata module. This hook is known to be used by the Search module (a non-core module).</string><translation>: erlaubt dem Benutzer den Inhalt eines  Dynamicdata-Moduls..... zu durchsuchen. Dieser Hook wird normalerweise vom Such-Modul (kein Kernmodul) verwendet.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="156"/>
+		</references>
+</entry>
+<entry><string>Available Dataproperties</string><translation>Verfügbare Dateneigenschaften</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="162"/>
+		</references>
+</entry>
+<entry><string>: used for input and display of a dataproperty's configuration.</string><translation>: wird für die Eingabe und Anzeige der Konfiguration von Dateneigenschaften verwendet.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="172"/>
+		</references>
+</entry>
+<entry><string>Datasource</string><translation>Datenquelle</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="178"/>
+		</references>
+</entry>
+<entry><string>: displays a list of datasources of a dataobject as a dropdown.</string><translation>: zeigt eine Liste mit Datenquellen eines Datenobjektes als Klappmenü an.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="180"/>
+		</references>
+</entry>
+<entry><string>Fieldstatus</string><translation>Feldstatus:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="186"/>
+		</references>
+</entry>
+<entry><string>: displays the input and display status of a dataproperty as a set of two dropdowns.</string><translation>: zeigt die Eingabe und den Anzeige-Status einer Dateneigenschaft in zwei separaten Klappmenüs an.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="188"/>
+		</references>
+</entry>
+<entry><string>Fieldtype</string><translation>Feld-Typ</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="194"/>
+		</references>
+</entry>
+<entry><string>: displays the list of available dataproperty types as a dropdown.</string><translation>: zeigt die Liste der verfügbaren Dateneigenschafts-Typen als Klappmenü an.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="196"/>
+		</references>
+</entry>
+<entry><string>Itemid</string><translation></translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="202"/>
+		</references>
+</entry>
+<entry><string>: used for input and display of autoincremented dataobject IDs.</string><translation>: wird für die Eingabe und Anzeige von selbstinkremetierten Datenobjekt-IDs verwendet.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="204"/>
+		</references>
+</entry>
+<entry><string>Itemtype</string><translation>Item-Typ</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="210"/>
+		</references>
+</entry>
+<entry><string>: a Combobox property used for input and display of dataobject itemtypes.</string><translation>: eine Combobox-Eigenschaft, die für die Eingabe und Anzeige von Item-Typen.............. von  Datenojekten</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="212"/>
+		</references>
+</entry>
+<entry><string>: an ObjectRef property used to display the items of the Objects dataobject (i.e. the available dataobjects). This is a special case of the ObjectRef property.</string><translation>:eine ObjectRef-Eigenschaft.................., die dazu benutzt wird die Items des Datenobjektes eines Objektes (z.B. die verfügbaren Datenobjekte) anzuzeigen. Dies ist ein besonderer Fall der ObjectRef-Eigenschaft.............. .</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="220"/>
+		</references>
+</entry>
+<entry><string>ObjectRef</string><translation></translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="226"/>
+		</references>
+</entry>
+<entry><string>: a Select property used to display the items of a dataobject.</string><translation>: eine Select-Eigenschaft............., die dazu benutzt wird die Items eines Datenobjektes anzuzeigen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="228"/>
+		</references>
+</entry>
+<entry><string>PropertyRef</string><translation></translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="234"/>
+		</references>
+</entry>
+<entry><string>: a Select property used to display the properties of a dataobject.</string><translation>: eine Select-Eigenschaft............., die dazu benutzt wird die Eigenschaften eines Datenobjektes anzuzeigen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="236"/>
+		</references>
+</entry>
+<entry><string>Subform</string><translation></translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="242"/>
+		</references>
+</entry>
+<entry><string>: a property used to model subitems of a dataobject.</string><translation>: eine Eigenschaft, die dazu benutzt wird Sub-Items......... eines Datenobjektes zu modellieren........</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="244"/>
+		</references>
+</entry>
+<entry><string>Using the &lt;xar:data-* ...&gt; tags in your templates</string><translation>Das Benutzen der &lt;xar:data-* ...&gt; Tags in Ihrem Template</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="256"/>
+		</references>
+</entry>
+<entry><string>Available tags</string><translation>Verfügbare Tags</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="260"/>
+		</references>
+</entry>
+<entry><string>Tags on properties:show their input or output displays, or their labels:</string><translation>Tags über Eigenschaften: Zeigen die Anzeige ihrer  Eingabe oder ihres Output............. an oder ihre Label:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="264"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-input ... /&gt;
+&lt;xar:data-output ... /&gt;
+&lt;xar:data-label ... /&gt;</string><translation>&lt;xar:data-input ... /&gt; &lt;xar:data-output ... /&gt; &lt;xar:data-label ... /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="268"/>
+		</references>
+</entry>
+<entry><string>Tags on objects:show their forms, or item displays (one item) or item lists (many items):</string><translation>Tags über Objekte: Zeigt deren Formen oder Item-Anzeigen (1 Item) oder Item-Listen(viele Items) an:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="272"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-form ... /&gt;
+&lt;xar:data-display ... /&gt;
+&lt;xar:data-view ... /&gt;</string><translation>&lt;xar:data-form ... /&gt; &lt;xar:data-display ... /&gt; &lt;xar:data-view ... /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="276"/>
+		</references>
+</entry>
+<entry><string>Special tags can be used to retrieve properties and values related to one or more items</string><translation>Spezielle Tags könne dazu verwendet werden um Eigenschaften und Werte wiederherzustellen, die einem oder mehreren Items in Verbindung stehen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="280"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-getitem ... /&gt;
+&lt;xar:data-getitems ... /&gt;</string><translation>&lt;xar:data-getitem ... /&gt; &lt;xar:data-getitems ... /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="284"/>
+		</references>
+</entry>
+<entry><string>Working with lists of items (I)</string><translation>Arbeiten mit Listen von Items (I)</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="288"/>
+		</references>
+</entry>
+<entry><string>The data-getitems tag retrieves a list of properties and item values from a dataobject:</string><translation>Das data-getitems Tag......... stellt eine Liste mit Eigenschaften und Item_werten von einem Datenobjekt wieder her.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="292"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-getitems properties=&quot;$properties&quot; values=&quot;$values&quot; object=&quot;$myobject&quot; /&gt;</string><translation>&lt;xar:data-getitems properties=&quot;$properties&quot; values=&quot;$values&quot; object=&quot;$myobject&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="296"/>
+		</references>
+</entry>
+<entry><string>The properties and values (from the name and value attributes) can be used to display the list of items (see below). The list can be restricted by passing the tag an array of itemids::</string><translation>Die Eigenschaften und Werte (vom Namen und den Wert-Attributen) können dazu benutzt werden die Liste mit Items anzuzeigen (siehe unten). Die Liste kann beschränkt werden indem man dem Tag ein Array....... mit itemids.... hinzufügt.......</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="300"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-getitems properties=&quot;$properties&quot; values=&quot;$values&quot; object=&quot;$myobject&quot;
+itemids=&quot;$idlist&quot; /&gt;</string><translation>&lt;xar:data-getitems properties=&quot;$properties&quot; values=&quot;$values&quot; object=&quot;$myobject&quot; itemids=&quot;$idlist&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="304"/>
+		</references>
+</entry>
+<entry><string>We can build headers for the list using the data-label tag:</string><translation>Wir können Kopfzeilen für die Liste erstellen indem wir das data-label Tag...... nutzen:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="308"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:foreach in=&quot;$properties&quot; key=&quot;$name&quot;&gt;
+&lt;th width=&quot;10%&quot;&gt;
+&lt;xar:data-label property=&quot;$properties[$name]&quot; /&gt;
+&lt;/th&gt;
+&lt;/xar:foreach&gt;</string><translation>&lt;xar:foreach in=&quot;$properties&quot; key=&quot;$name&quot;&gt; &lt;th width=&quot;10%&quot;&gt; &lt;xar:data-label property=&quot;$properties[$name]&quot; /&gt; &lt;/th&gt; &lt;/xar:foreach&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="312"/>
+		</references>
+</entry>
+<entry><string>When looping over the individual items, the value for item $id) can be added dynamically:</string><translation>Wenn man den Cursor über ein bestimmtes Item hält, dann kann der Wert für das Item $id) dynamisch hinzugefügt werden:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="316"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:foreach in=&quot;$properties&quot; key=&quot;$name&quot;&gt;
+&lt;td class=&quot;xar-norm&quot;&gt;
+&lt;xar:if condition=&quot;isset($values[$id][$name])&quot;&gt;
+&lt;xar:data-output property=&quot;$properties[$name]&quot;
+value=&quot;$values[$id][$name]&quot; /&gt;
+&lt;xar:else /&gt;
+&amp;nbsp;
+&lt;/xar:if&gt;
+&lt;/td&gt;
+&lt;/xar:foreach&gt;</string><translation>&lt;xar:foreach in=&quot;$properties&quot; key=&quot;$name&quot;&gt; &lt;td class=&quot;xar-norm&quot;&gt; &lt;xar:if condition=&quot;isset($values[$id][$name])&quot;&gt; &lt;xar:data-output property=&quot;$properties[$name]&quot; value=&quot;$values[$id][$name]&quot; /&gt; &lt;xar:else /&gt; &amp;nbsp; &lt;/xar:if&gt; &lt;/td&gt; &lt;/xar:foreach&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="320"/>
+		</references>
+</entry>
+<entry><string>Working with lists of items (II)</string><translation>Arbeiten mit Listen von Items (II)</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="324"/>
+		</references>
+</entry>
+<entry><string>The basic data-view tag shows all the items of an object</string><translation>Das Standard Data-view Tag....... zeigt alle Items eines Objektes an</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="328"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-view object=&quot;$myobject&quot; /&gt;</string><translation>&lt;xar:data-view object=&quot;$myobject&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="332"/>
+		</references>
+</entry>
+<entry><string>The display of hte data can be adapted by using a custom template or layout</string><translation>Die Anzeige der Daten kann angepasst werden indem Sie ein individuelles Template oder Layout benutzen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="336"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-view object=&quot;$myobject&quot; layout=&quot;list&quot; /&gt;
+&lt;xar:data-view object=&quot;$myobject&quot; template=&quot;mylist&quot; /&gt;</string><translation>&lt;xar:data-view object=&quot;$myobject&quot; layout=&quot;list&quot; /&gt; &lt;xar:data-view object=&quot;$myobject&quot; template=&quot;mylist&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="340"/>
+		</references>
+</entry>
+<entry><string>We can specify that only certain fields (properties) be shown. They will be displayed in the order entered (left to right, top to bottom). We can also select to display only certain items, given by their ids.</string><translation>Wir können so spezifizieren, dass nur bestimmte Felder (Eigenschaften) angezeigt werden. Diese werden in der angegebenen Reihenfolge angezeigt (von links nach rechts, oben nach unten). Wir können ebenfalls bestimmen, dass nur bestimmte Items angezeigt werden gemäß ihrer IDs.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="344"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-view object=&quot;$myobject&quot; fieldlist=&quot;exid,name&quot; /&gt;
+&lt;xar:data-view object=&quot;$myobject&quot; itemids=&quot;1,20,273&quot; /&gt;</string><translation>&lt;xar:data-view object=&quot;$myobject&quot; fieldlist=&quot;exid,name&quot; /&gt; &lt;xar:data-view object=&quot;$myobject&quot; itemids=&quot;1,20,273&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="348"/>
+		</references>
+</entry>
+<entry><string>We can specify sorts, number of items to be displayed, and specify filters (given by the where attribute):</string><translation>Wir können die Arten, Anzahl der angezeigten Items genauer bestimmen und Filter angeben (der durch das Wo-Attribut bestimmt wird....)</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="352"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-view object=&quot;$myobject&quot; sort=&quot;hitcount,title&quot;
+where=&quot;authorid eq 2&quot; numitems=&quot;20&quot; /&gt;</string><translation>&lt;xar:data-view object=&quot;$myobject&quot; sort=&quot;hitcount,title&quot; where=&quot;authorid eq 2&quot; numitems=&quot;20&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="356"/>
+		</references>
+</entry>
+<entry><string>Working with a single items</string><translation>Arbeiten mit einzelnen Items</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="360"/>
+		</references>
+</entry>
+<entry><string>We can display a form for entering an item, or simply display an object item's data:</string><translation>Wir können ein Formblatt anzeigen lassen, wo man ein Item eingeben kann oder einfach nur die Daten zum einem Objekt-Item anzeigen lassen kann.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="364"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-form object=&quot;$object&quot; /&gt;
+&lt;xar:data-display object=&quot;$object&quot; /&gt;</string><translation>&lt;xar:data-form object=&quot;$object&quot; /&gt; &lt;xar:data-display object=&quot;$object&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="368"/>
+		</references>
+</entry>
+<entry><string>The tags can accept attributes, for instance to customize their display:</string><translation>Die Tags können Attribute verwenden, z.B. um die Anzeige indivieduell einzustellen:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="372"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-form object=&quot;$object&quot; template=&quot;mytemplate&quot; layout=&quot;mylayout&quot; /&gt;</string><translation>&lt;xar:data-form object=&quot;$object&quot; template=&quot;mytemplate&quot; layout=&quot;mylayout&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="376"/>
+		</references>
+</entry>
+<entry><string>In the above example the object $object already contains the item we are interested in. We can load a specific item by specifying an itemid attribute:</string><translation>In dem oben genannten Beispiel enthält das Objekt $object bereits das Item in dem wir interessiert sind. Wir können ein bestimmtes Item laden indem wir dieses durch das itemid Attribut....... genauer bestimmen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="380"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-form object=&quot;$object&quot; itemid=&quot;666&quot; /&gt;</string><translation>&lt;xar:data-form object=&quot;$object&quot; itemid=&quot;666&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="382"/>
+		</references>
+</entry>
+<entry><string>We can also assemble an object item by getting the item first via a getitem tag:</string><translation>Wir können auch ein Objekt-Item zusammensetzen indem wir das Item zuerst durch ein getitem ......Tag bekommen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="384"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-getitem properties=&quot;$properties&quot; object=&quot;$myobject&quot; itemid=&quot;$id&quot; /&gt;</string><translation>&lt;xar:data-getitem properties=&quot;$properties&quot; object=&quot;$myobject&quot; itemid=&quot;$id&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="388"/>
+		</references>
+</entry>
+<entry><string>Note that in this example the attribute object can refer to an onject or its name. The itemid attribute defines which item's data to retrieve, and the output is an array of fields with that data, called $properties. We can then use the $properties array to define a custom display, such as givne below (a custom form for input would simply use data-input, rather than data-output, tags):</string><translation>Beachten Sie, dass in diesem Beispiel das Attribut-Objekt sich auf ein Objekt oder dessen Namen beziehen kann. Das itemid Attribut........ definiert wessen Item-Daten beschafft werden und der Output...... ist ein ....... von Felder mit diesen Daten, die $properties genannt wird. wir können diese $properties..............ar ......bentzen um eine individuelle Anzeige zu bestimmen, wie z.B. unten ( ein individuelles Formblatt zur Eingabe  würde einfach nur data-input Tags................benutzen statt Data-Output Tags.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="392"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:foreach in=&quot;$properties&quot; key=&quot;$field&quot;&gt;
+&lt;tr class=&quot;xar-norm xar-valign-top&quot;&gt;
+&lt;td&gt;
+&lt;xar:data-label property=&quot;$properties[$field]&quot; /&gt;:
+&lt;/td&gt;
+&lt;td&gt;
+&lt;xar:data-output property=&quot;$properties[$field]&quot; /&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/xar:foreach&gt;</string><translation>&lt;xar:foreach in=&quot;$properties&quot; key=&quot;$field&quot;&gt; &lt;tr class=&quot;xar-norm xar-valign-top&quot;&gt; &lt;td&gt; &lt;xar:data-label property=&quot;$properties[$field]&quot; /&gt;: &lt;/td&gt; &lt;td&gt; &lt;xar:data-output property=&quot;$properties[$field]&quot; /&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/xar:foreach&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="396"/>
+		</references>
+</entry>
+<entry><string>Working with a single item fields</string><translation>Arbeiten mit einem einzelnen Item-Feld</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="400"/>
+		</references>
+</entry>
+<entry><string>We can assemble the field from scratch by stipulating its attributes in a tag:</string><translation>Wir können das Feld von Grund auf neu zusammensetzen indem wir seine Attribute in einem Tag vereinen.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="404"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:set name=&quot;myval&quot;&gt;'hello'&lt;/xar:set&gt;
+&lt;xar:data-input name=&quot;greeting&quot; type=&quot;textbox&quot; value=&quot;$myval&quot; /&gt;</string><translation>&lt;xar:set name=&quot;myval&quot;&gt;'hello'&lt;/xar:set&gt; &lt;xar:data-input name=&quot;greeting&quot; type=&quot;textbox&quot; value=&quot;$myval&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="408"/>
+		</references>
+</entry>
+<entry><string>By passing the tag a dataproperty object, it will take on the properties of that object (type, value etc.)</string><translation>Indem man dem Tag ein Dateneigenschafts-Objektes gibt, wird es die Eigenschaften dieses Objektes annehmen (Typ, Wert etc.)</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="412"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-input property=&quot;$myproperty&quot; /&gt;</string><translation>&lt;xar:data-input property=&quot;$myproperty&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="416"/>
+		</references>
+</entry>
+<entry><string>We can also override properties by explicitly adding other values as attributes:</string><translation>Wir können ebenfalls Eigenschaften überschreiben indem wir explizit andere Werte als Attribute hinzufügen:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="420"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:set name=&quot;myval&quot;&gt;'hello'&lt;/xar:set&gt;
+&lt;xar:data-input property=&quot;$myproperty&quot; value=&quot;$myval&quot; /&gt;</string><translation>&lt;xar:set name=&quot;myval&quot;&gt;'hello'&lt;/xar:set&gt; &lt;xar:data-input property=&quot;$myproperty&quot; value=&quot;$myval&quot; /&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="424"/>
+		</references>
+</entry>
+<entry><string>Dataproperty examples</string><translation>Beispiele für Dateneigenschaften</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="432"/>
+		</references>
+</entry>
+<entry><string>Dataproperties can be deployed as fields in a dataobject or as standalone widgets. The following are some examples of standalone dataproperties that can be included as tags on web pages.</string><translation>Dateneigenschaften können als Felder für ein Datenobjekt gebraucht werden oder als alleinstehendes Widget. Die folgenden sind Beispiele von alleinstehenden Dateneigenschaften, die als Tags auf Webseiten enthalten sein können.</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="436"/>
+		</references>
+</entry>
+<entry><string>Displays a dropdown of Xaraya groups:</string><translation>Zeigt ein Klappmenü von Xaraya-Gruppen an:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="450"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-input type=&quot;grouplist&quot;/&gt;</string><translation>&lt;xar:data-input type=&quot;grouplist&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="452"/>
+		</references>
+</entry>
+<entry><string>Displays a configurable group of radio buttons for input:</string><translation>Zeigt eine konfigurierbare Gruppe von Optionsfelder zur eingabe an:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="470"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:set name=&quot;options&quot;&gt;
+array(
+array('id' =&gt; 'red',
+'name' =&gt; 'Dark red'),
+array('id' =&gt; 'green',
+'name' =&gt; 'Light green'),
+)
+&lt;/xar:set&gt;
+&lt;xar:data-input type=&quot;radio&quot;
+options=&quot;$options&quot; value=&quot;green&quot;
+layout=&quot;vertical&quot;/&gt;</string><translation>&lt;xar:set name=&quot;options&quot;&gt; array( array('id' =&gt; 'red', 'name' =&gt; 'Dark red'), array('id' =&gt; 'green', 'name' =&gt; 'Light green'), ) &lt;/xar:set&gt; &lt;xar:data-input type=&quot;radio&quot; options=&quot;$options&quot; value=&quot;green&quot; layout=&quot;vertical&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="472"/>
+		</references>
+</entry>
+<entry><string>Displays a configurable group of checkboxes for input:</string><translation>Zeigt eine konfigurierbare Gruppe von Kontrollkästchen zur EIngabe an:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="490"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:set name=&quot;options&quot;&gt;
+array(
+array('id' =&gt; 'red',
+'name' =&gt; 'Dark red'),
+array('id' =&gt; 'green',
+'name' =&gt; 'Light green'),
+)
+&lt;/xar:set&gt;
+&lt;xar:data-input type=&quot;checkboxlist&quot;
+options=&quot;$options&quot; value=&quot;green&quot;
+layout=&quot;vertical&quot;/&gt;</string><translation>&lt;xar:set name=&quot;options&quot;&gt; array( array('id' =&gt; 'red', 'name' =&gt; 'Dark red'), array('id' =&gt; 'green', 'name' =&gt; 'Light green'), ) &lt;/xar:set&gt; &lt;xar:data-input type=&quot;checkboxlist&quot; options=&quot;$options&quot; value=&quot;green&quot; layout=&quot;vertical&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="492"/>
+		</references>
+</entry>
+<entry><string>Displays the user name of the current user:</string><translation>Zeigt den Benutzernamen des aktuellen Benutzers an: </translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="508"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-output type=&quot;username&quot;
+user=&quot;myself&quot;/&gt;</string><translation>&lt;xar:data-output type=&quot;username&quot; user=&quot;myself&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="510"/>
+		</references>
+</entry>
+<entry><string>Displays a link to a url in an icon:</string><translation>Zeigt einen Link zur einer URL in einem Icon an:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="526"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-output type=&quot;urlicon&quot;
+link=&quot;http://www.xaraya.com&quot;/&gt;</string><translation>&lt;xar:data-output type=&quot;urlicon&quot; link=&quot;http://www.xaraya.com&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="528"/>
+		</references>
+</entry>
+<entry><string>Displays a dropdown of the files in a directory:</string><translation>Zeigt ein Klappmenü der Dateien in einem Verzeichnis an:</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="544"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-input type=&quot;filepicker&quot;
+basedir=&quot;var/messaging/roles&quot;/&gt;</string><translation>&lt;xar:data-input type=&quot;filepicker&quot; basedir=&quot;var/messaging/roles&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="546"/>
+		</references>
+</entry>
+<entry><string>Displays a popup calendar for dae input:</string><translation>Zeigt einen Popup-Kalender zur Eingabe an: </translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="562"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-input type=&quot;calendar&quot;/&gt;</string><translation>&lt;xar:data-input type=&quot;calendar&quot;/&gt;</translation>		<references>
+			<reference file="code/modules/dynamicdata/xartemplates/admin-overview.xt" line="564"/>
+		</references>
+</entry>
+</translations>

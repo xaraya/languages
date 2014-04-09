@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Common Administration menu</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="8" />
+		</references>
+</entry>
+<entry><string>Simple demonstration of using xml http requests (aka 'ajax'). The xml http
+request is enabled on the links of the tabs in the admin part, meaning that
+if you click them, only the chunk of html which is relevant for that tab is
+retrieved. If you want to see the difference in behaviour, set the condition
+in the next xar:if statement to false. You will then get the behaviour as if:
+* normal links were present or
+* the browser has javascript disabled or
+* do not support javascript or
+* do not support xmlhttp requests
+Things to notice for the different behaviour:
+* speed difference
+* the url in the address area of your browser</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="14" />
+		</references>
+</entry>
+<entry><string>&quot;return loadContent(this.href,'notsogoodbutok');&quot;</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="28" />
+		</references>
+</entry>
+<entry><string>&quot;return true;&quot;</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="34" />
+		</references>
+</entry>
+<entry><string>Set a variable that matches the template name. It does not consider template type.
+If you wanted to look at type of template you would need to check #$request.1#
+(eg to see if it's admin or user)
+xarRequestInfo() returns the modulename, type and function in an array for
+the function we want the third element (i.e. at index 2)</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="42" />
+		</references>
+</entry>
+<entry><string>xarRequestGetInfo()</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="46" />
+		</references>
+</entry>
+<entry><string>#$request.2#</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="50" />
+		</references>
+</entry>
+<entry><string>Actions:</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="60" />
+		</references>
+</entry>
+<entry><string>($activetab=='view' or $activetab=='new')?'active':''</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="70" />
+		</references>
+</entry>
+<entry><string>Manage Items</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="78" />
+		</references>
+</entry>
+<entry><string>The overview function may use the admin-main template so we test
+to see if $activetab is equal to 'main' too and set the tab active if it matches.</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="88" />
+		</references>
+</entry>
+<entry><string>($activetab=='main' or $activetab=='overview')?'active':''</string><translation></translation>		<references>
+			<reference file="modules/shouter/xartemplates/includes/admin-menu.xd" line="94" />
+		</references>
+</entry>
+</translations>

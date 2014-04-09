@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Select Publications for Privilege '#(1)'</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="14"/>
+		</references>
+</entry>
+<entry><string>Enter article number:</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="130"/>
+		</references>
+</entry>
+<entry><string>Title: #$title#</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="138"/>
+		</references>
+</entry>
+<entry><string>Access Level</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="147"/>
+		</references>
+</entry>
+<entry><string>There are #(1) publications matching these selection criteria at the moment</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="187"/>
+		</references>
+</entry>
+<entry><string>(Instance Definition #$extinstance#)</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="201"/>
+		</references>
+</entry>
+<entry><string>Some examples : (assuming your users have read access by default)</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="212"/>
+		</references>
+</entry>
+<entry><string>- In order to allow 'Friends' to submit News Publications (and only that), define a privilege 'SubmitNews' (or whatever name you prefer), and choose the publication type &quot;News Publications&quot; (instance 1:All:All:All) and access level &quot;Submit (Comment)&quot; above. Press &quot;Finish and Apply to Privilege&quot;, and then assign that privilege to the 'Friends' role.</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="216"/>
+		</references>
+</entry>
+<entry><string>- In order to stop 'Strangers' from viewing Documents, define some privilege 'NoDocuments' with publication type &quot;Documents&quot; (instance 2:All:All:All) and access level &quot;No Access&quot;. Then assign that privilege to the 'Strangers' role.</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="220"/>
+		</references>
+</entry>
+<entry><string>- ...</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="224"/>
+		</references>
+</entry>
+<entry><string>Note: if you want to deny access to all publications in a particular category with ID 123, you can also define a privilege for module 'categories', component 'Category', category name 'All' and category ID '123'. This will remove the category from the publications map and categories navigation as well.</string><translation></translation>		<references>
+			<reference file="code/modules/publications/xartemplates/admin-privileges.xt" line="228"/>
+		</references>
+</entry>
+</translations>

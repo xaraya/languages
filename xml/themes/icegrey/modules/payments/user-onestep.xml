@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>$.metadata.setType(&quot;attr&quot;, &quot;validate&quot;);
+$(document).ready(function() {
+$(&quot;##paymentform&quot;).validate();
+});
+function setValue(id)
+{
+source = document.getElementById(id);
+target = document.getElementById('dd_#$order_properties.net_amount:id#');
+target.value = source.value;
+}</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="12"/>
+		</references>
+</entry>
+<entry><string>Enter payment information</string><translation>Bitte geben Sie die Zahlungsdaten ein</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="34"/>
+		</references>
+</entry>
+<entry><string>Name on card</string><translation>Name auf der Karte</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="56"/>
+		</references>
+</entry>
+<entry><string>The name must be at least 4 characters long</string><translation>Der Name muss mindestens 4 Zeichen enthalten</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="68"/>
+		</references>
+</entry>
+<entry><string>Credit card type</string><translation>Kreditkarten-Typ</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="76"/>
+		</references>
+</entry>
+<entry><string>The number entered is too short</string><translation>Die eingegebene Nummer ist zu kurz</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="100"/>
+		</references>
+</entry>
+<entry><string>Expiration date</string><translation>Gültig bis</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="108"/>
+		</references>
+</entry>
+<entry><string>Security code</string><translation>Sicherheitskode</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="130"/>
+		</references>
+</entry>
+<entry><string>Where is my security code?</string><translation>Wo ist mein Sicherheitscode?</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="140"/>
+		</references>
+</entry>
+<entry><string>The security code must be at least 3 digits</string><translation>Der Sicherheitskode muss mindestens 3 Stellen enthalten</translation>		<references>
+			<reference file="themes/icegrey/modules/payments/user-onestep.xt" line="150"/>
+		</references>
+</entry>
+</translations>

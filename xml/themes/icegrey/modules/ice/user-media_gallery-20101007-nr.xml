@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>$(document).ready(function(){
+$(function() {
+var zoomFunc = function(dimension) {
+return dimension * 2.5;
+}
+var shrinkFunc = function(dimension) {
+return dimension * 0.3;
+}
+$('div.gallery img').slidingGallery({'slideSpeed':'slow','Lzoom':zoomFunc, 'Pzoom':zoomFunc,'Lshrink':shrinkFunc,'Pshrink':shrinkFunc, 'Lwidth':400, 'Pwidth':400, 'Lheight':270, 'Pheight':270});
+});
+});</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/ice/user-media_gallery-20101007-nr.xt" line="12"/>
+		</references>
+</entry>
+</translations>

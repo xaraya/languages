@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Official Icon</string><translation>Offizielles Icon</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="12"/>
+		</references>
+</entry>
+<entry><string>What is it?</string><translation>Was ist das?</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="26"/>
+		</references>
+</entry>
+<entry><string>The Privileges module manages privileges on a Xaraya site. Privileges give users and groups
+different types of access (viewing, changing, deleting etc.) to resources and content on the site. They are the basic components of Xaraya's security system. The Privileges module is a core module within Xaraya and cannot be removed.</string><translation>Das Privileges-Modul verwaltet die Privilegien auf einer Xaraya-Seite.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="30"/>
+		</references>
+</entry>
+<entry><string>Detail information on this module can be found</string><translation>Detailierte Informationen zu diesem Modul finden Sie unter</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="34"/>
+		</references>
+</entry>
+<entry><string>Here are some of the things you can do with privileges:</string><translation>Hier sind einige Beispiele von Dingen, die Sie mit Privilegien tun können:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="42"/>
+		</references>
+</entry>
+<entry><string>Xaraya's privileges are extremely flexible. You can define privileges at the level
+of site, realms, modules, component classes within modules, or single instances of
+those classes.</string><translation>Xarayas Privilegien sind extrem flexibel. Sie können Privilegien für Seiten, Realms, Module, Komponentenklassen innerhalb von Modulen oder einzelnen Instanzen dieser Klassen definieren.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="48"/>
+		</references>
+</entry>
+<entry><string>You can use privileges as building blocks. Assemble them into compound privileges
+tailored to any specific role on the site.</string><translation>Sie können Privilegien als Bausteine verwenden. Fügen Sie diese zu Massenprivilegien........... zusammen, die speziell an eine bestimmte Rolle auf Ihrer Seite angepasst werden können.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="52"/>
+		</references>
+</entry>
+<entry><string>You can assign privileges to roles which then pass them on to their children in the
+roles hierarchy through inheritance.</string><translation>Sie können Privilegien an Rollen verteilen, die diese durch Vererbung an ihre Kinder...... weitergeben in der Rollenhierarchie.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="56"/>
+		</references>
+</entry>
+<entry><string>Using the realms functionality you can subdivide one site into many &quot;virtual&quot; sites
+sharing the same resources.</string><translation>Das Benutzen der Realms-Funktion erlaubt Ihnen eine Seite in mehrere einzelne &quot;virtuelle&quot; Seiten aufzuteilen, die dieselben Ressourcen nutzen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="60"/>
+		</references>
+</entry>
+<entry><string>Concepts</string><translation>Konzepte</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="66"/>
+		</references>
+</entry>
+<entry><string>Masks</string><translation>Masks</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="70"/>
+		</references>
+</entry>
+<entry><string>Masks are the &quot;barriers to entry&quot; that restrict access to code and data. The are created during the installation of Xaraya, or whenever a new module is added. Masks are deployed in</string><translation>Masks sind die &quot;Zugangsbarrieren&quot;, die den Zugang zum Code und Daten begrenzen. Sie werden während der Installation von Xaraya erstellt oder wenn ein neues Modul erstellt wird. Masks werden benutzt in</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="74"/>
+		</references>
+</entry>
+<entry><string>security checks</string><translation>Sicherheitschecks</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="76"/>
+		</references>
+</entry>
+<entry><string>throughout the system. A security check compares the current user's privileges against its mask, and decides whether to grant access or not.</string><translation>im ganzen System. Ein Sicherheitscheck vergleicht die Privilegien des aktuellen Benutzers mit seiner Mask und entscheidet ob der Zugang erlaubt werden soll oder nicht.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="78"/>
+		</references>
+</entry>
+<entry><string>Privileges grant certain acess rights to the users or groups they are assigned to. Most modules and Xaray itself come with a set of predefined privileges that can be used, but site administrators can create. modify and assign new privileges as required. You can also combine privileges by using them as elements to create compound privileges. There is no limit to the number of privileges you can create or their levels of nesting.</string><translation>Privilegien gewähren Zugangsrechte für Benutzer oder Gruppen, zu denen Sie zugeordnet sind. Die meisten Module und Xaraya selbst haben eine Reihe von vordefinierten Privilegien, die benutzt werden können, die aber nur Administratoren der Seite erstellt, verändert und verteilt werden können. Sie können ebenfalls Privilegien kombinieren, indem Sie diese Elemente benutzen um Massen-Privilegien...... zu kreieren. Es gibt keine Grenze für die Anzahl von Privilegien oder deren Verschachtelung.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="86"/>
+		</references>
+</entry>
+<entry><string>Access Levels</string><translation>Zugangslevels</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="90"/>
+		</references>
+</entry>
+<entry><string>When you create a privilege that applies to a given module, component and instance, you give it an access level whcih represents the rights a user with the provilege has in the area it applies to. The access levels are:</string><translation>Wenn Sie ein Privileg erstellen, welches sich ein bestimmtes Modul, Komponente oder Instanz bezieht, geben Sie diesem einen Zugangslevel, der die Recht</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="94"/>
+		</references>
+</entry>
+<entry><string>None:</string><translation>Keine:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="100"/>
+		</references>
+</entry>
+<entry><string> no access</string><translation>kein Zugang</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="102"/>
+		</references>
+</entry>
+<entry><string>Overview:</string><translation>Überblick:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="108"/>
+		</references>
+</entry>
+<entry><string> access to some part of the content, but not full content. This level is often used deciding which items in a list to show.</string><translation>Zugang zu einigen Teilen des Inhalts aber nicht zur Gesamtheit. Diese Zugangsebene wird oft dazu verwendet um zu entscheiden, welche Items aus der Liste angezeigt werden sollen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="110"/>
+		</references>
+</entry>
+<entry><string>Read:</string><translation>Lesen:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="116"/>
+		</references>
+</entry>
+<entry><string> full read access</string><translation>kompletter Lese-Zugang</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="118"/>
+		</references>
+</entry>
+<entry><string>Comment:</string><translation>Kommentare:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="124"/>
+		</references>
+</entry>
+<entry><string> allows a user to submit content eg submit a document, submit a
+comment</string><translation>erlaubt einem Benutzer Inhalte einzustellen wie z.B. ein Dokument oder einen Kommentar</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="126"/>
+		</references>
+</entry>
+<entry><string>Moderate:</string><translation>Moderieren:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="132"/>
+		</references>
+</entry>
+<entry><string> may vary from module to module but usually allows editing of other
+users' content</string><translation>ist von Modul zu Modul unterschiedlich, aber erlaubt normalerweise den den Inhalt von anderen Benutzern zu verändern</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="134"/>
+		</references>
+</entry>
+<entry><string>Edit:</string><translation>Editieren</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="140"/>
+		</references>
+</entry>
+<entry><string> can edit content but not add or delete</string><translation>erlaubt Inhalt zu verändern aber nichts hinzuzufügen oder zu löschen</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="142"/>
+		</references>
+</entry>
+<entry><string>Add:</string><translation>Hinzufügen</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="148"/>
+		</references>
+</entry>
+<entry><string> can add and edit but not delete</string><translation>erlaubt es Inhalt hinzuzufügen und zu verändern aber nichts zu löschen</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="150"/>
+		</references>
+</entry>
+<entry><string>Delete:</string><translation>Löschen:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="156"/>
+		</references>
+</entry>
+<entry><string> can delete content as well as add and edit. This level is also known as</string><translation>erlaubt es Inhalt zu löschen, hinzuzufügen und zu verändern. Diese Zugangsebene  ist auch bekannt als</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="158"/>
+		</references>
+</entry>
+<entry><string>Manage</string><translation>Verwalten</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="160"/>
+		</references>
+</entry>
+<entry><string>, and is usually used to allow full modification of a module's data, without access to its configuration settings.</string><translation>, und wird normalerweise dazu verwendet um die völlige Überarbeitung eines Moduls zu ermöglichen, ohne dass dazu Zugang zu den Konfigurationseinstellungen des Moduls nötig ist.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="162"/>
+		</references>
+</entry>
+<entry><string>Admin:</string><translation>Admin:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="168"/>
+		</references>
+</entry>
+<entry><string> full administration access</string><translation>voller Administrator-Zugang</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="170"/>
+		</references>
+</entry>
+<entry><string>.
+Note that the exact meaning of the access levels will vary somewhat across modules. Module authors are free to define how access levels apply to their module(s).</string><translation>. Beachten Sie dass die genaue Bedeutung der Zugangslevels leicht unterschiedlich in den verschiedenen Modulen ist. Die Autoren von Modulen haben freie Entscheidung darüber, wie sich Zugangslevels auf ihr(e) Modul(e) beziehen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="174"/>
+		</references>
+</entry>
+<entry><string>Predefined Privileges</string><translation>Vordefinierte Privilegien</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="178"/>
+		</references>
+</entry>
+<entry><string>Xaraya comes preconfigured with a minimal set of privileges that are loaded when you run the installer. These will vary according to the configuration you chose. Examples are:</string><translation>Xaraya ist mit einem geringen Satz von Privilegien ausgestattet, die geladen werden, wenn Sie das Installationsprogramm starten. Diese sind unterschiedlich entsprechend der Konfiguration, die Sie auswählen. Beispiele sind:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="182"/>
+		</references>
+</entry>
+<entry><string>Administration:</string><translation>Administrator:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="190"/>
+		</references>
+</entry>
+<entry><string>a privilege that gives a role complete access to all
+resources on the site. At installation this privilege is assigned to the role Administrators group and is inherited by the default site administrator (known as</string><translation>ein Privileg, welches einer Rolle den kompletten Zugang zu allen Ressourcen auf einer Seite ermöglicht. Bei der Installation wird dieses Privileg der Rolle der Administratoren-Gruppe zugeteilt und wird auf den standardmäßigen Administrator der  Seite vererbt (auch</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="192"/>
+		</references>
+</entry>
+<entry><string>admin</string><translation>Admin</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="194"/>
+		</references>
+</entry>
+<entry><string>).</string><translation>).</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="196"/>
+		</references>
+</entry>
+<entry><string>CasualAccess:</string><translation>Gelegentlicher Zugang:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="202"/>
+		</references>
+</entry>
+<entry><string>this is the privilege assigned to unregistered users (known as</string><translation>dieses Privileg wird anonymen Benutzern (auch</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="204"/>
+		</references>
+</entry>
+<entry><string>anonymous</string><translation>anonym</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="206"/>
+		</references>
+</entry>
+<entry><string>) on the site. It is initially defined to allow viewing access of the front page, as well as
+access to the login block.</string><translation>) auf der Seite zugeteilt. Es ist grundsätzlich so definiert, dass es Zugang zur Eingangsseite gewährt sowie Zugang zum Einloggen-Block.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="208"/>
+		</references>
+</entry>
+<entry><string>GeneralLock:</string><translation></translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="214"/>
+		</references>
+</entry>
+<entry><string>a privilege that restricts access to certain basic roles and privileges the system requires, such as the default admininstrator. This is to avoid inadvertent removal.</string><translation>ein Privileg, welches den Zugang zu...............</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="216"/>
+		</references>
+</entry>
+<entry><string>All privileges in the system can be changed or removed but it is recommended you do not remove the default and lock privileges unless you are sure you understand what you are doing.</string><translation>Alle Privilegien im System können geändert oder gelöscht werden, aber es wird empfohlen, dass Sie nicht die Standard- und Lock-........Privilegien löschen, solange Sie nicht genau wissen, was Sie tun.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="222"/>
+		</references>
+</entry>
+<entry><string>The Admin interface</string><translation>Das Admin-Interface</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="226"/>
+		</references>
+</entry>
+<entry><string>As an administrator, you can change the module's configuration by pointing your browser to the configuration page</string><translation>Als Administrator können Sie die Modul-Konfiguration verändern, indem Sie mit Ihrem Browser auf die Konfigurationsseite gehen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="230"/>
+		</references>
+</entry>
+<entry><string>Admin Menu → Privileges → Modify Configuration</string><translation></translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="232"/>
+		</references>
+</entry>
+<entry><string>. The configuration page includes the standard display options common to all core modules (see the Base module overview for an explanation of these).</string><translation>. Die Konfigurationsseite</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="234"/>
+		</references>
+</entry>
+<entry><string>In addition, this module also supports the following configuration options:</string><translation>Zusätzlich unterstützt dieses Modul die folgenden Konfigurationsoptionen:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="238"/>
+		</references>
+</entry>
+<entry><string>Exception redirect:</string><translation>Weiterleitung bei schwerem Ausnahmefehler</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="244"/>
+		</references>
+</entry>
+<entry><string> insufficient access rights usually result in an error message. If this option is checked users that are not logged in will be redirected to the login page instead..</string><translation>unzureichende Zugangsrechte führen normalerweise zu einer Fehlermeldung. Wenn diese Option angekreuzt ist, dann werden Benutzer, die nicht eingeloggt sind, stattdessen auf die Einloggen-Seite weitergeleitet.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="246"/>
+		</references>
+</entry>
+<entry><string>Last resort admin:</string><translation>Admin als letzte Instanz:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="252"/>
+		</references>
+</entry>
+<entry><string> lets you create an emergency user that can be useful in recovering a site if normal users are shut out because privileges have been misconfigured or corrupted. Checking this option will display a link to the page where the last resort admin is created.</string><translation>erlaubt Ihnen eine Art Notfall-Benutzer zu erstellen, der nützlich sein kann bei der Wiederherstellung einer Seite, wenn normale Benutzer ausgeschlossen sind, weil Privilegien falsch konfiguriert oder beschädigt ist. Das Ankreuzen dieser Option zeigt einen Link zu der Seite an, wo der Admin als letzte Instanz erschaffen wird.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="254"/>
+		</references>
+</entry>
+<entry><string>Realms support:</string><translation>Realms-Unterstützung</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="260"/>
+		</references>
+</entry>
+<entry><string> checking this option opens a page which lets you define the behavior of</string><translation>das Ankreuzen dieser Option öffnet eine Seite, die Ihnen erlaubt das Verhalten von</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="262"/>
+		</references>
+</entry>
+<entry><string>realms</string><translation>Realms zu definieren</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="264"/>
+		</references>
+</entry>
+<entry><string>in your privileges, and also an entry on the Privileges menu for creating and managing realms. Realms are used in conjunction with privileges to create different &quot;views&quot; of a site according to which realms users &quot;belong&quot; to. For more information on realms see</string><translation>in Ihren Privilegien und Ihnen ebenfalls einen Eintrag im Privilegien-Menü bietet um Realms zu kreieren und zu verwalten. Realms werden in Verbindung mit Privilegien verwendet um unterschiedliche &quot;Ansichten&quot; einer Seite zu erschaffen, zu denen Benutzer von Realms &quot;zugehörig&quot; sind. Für weitere Informationen schau Sie bitte bei</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="266"/>
+		</references>
+</entry>
+<entry><string>Xaraya Realms</string><translation>Xaraya-Realms nach</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="268"/>
+		</references>
+</entry>
+<entry><string>Testing settings:</string><translation>Einstellungen testen:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="276"/>
+		</references>
+</entry>
+<entry><string> lets you display debugging information on privleges to certain users. This is useful for testing new privilege situations on running sites.</string><translation>erlaubt Ihnen Debug-Informationen über Privilegien bestimmten Benutzern anzuzeigen. Das ist nützlich um neue Privilegien auf laufenden Seiten zu testen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="278"/>
+		</references>
+</entry>
+<entry><string>Clicking on the</string><translation>Das Klicken auf den</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="286"/>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="294"/>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="302"/>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="310"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu gives you an overview of all the privileges on your system, both those assigned to roles and those unassigned. Compound privileges are collapsed, but you can click on them to open them up and view their components.</string><translation>Link im Admin-Menü bietet Ihnen einen Überblick über alles Privilegien in Ihrem System, einschließlich der zugeordneten und nicht zugeordneten Rollen. Massenprivilegien....... werden auseinander gebrochen......., aber Sie können zum öffnen auf diese klicken und die Komponenten anschauen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="290"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu lets you create a new unassigned privilege.When adding or modifying a privilege, you can define it to have its own access rights, or simply to serve as a container for other privileges.</string><translation>Link im Admin-Menü erlaubt Ihnen eine neues, nicht zugeordnetes Privileg zu erstellen. Wenn Sie ein Privileg hinzufügen oder verändern, können Sie es so definieren, dass es seine eigenen Zugangsrechte hat oder einfach als Container für andere Privilegien benutzen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="298"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu lets you assign existing privileges to existing users and groups..</string><translation>Link im Admin-Menü erlaubt Ihnen existierende Privilegien zu existierenden Benutzern und Gruppe zuzuordnen.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="306"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu lets create and manage realms. This menu itme is available only if realms support is active (see above).</string><translation>Link im Admin-Menü erlaubt Ihnen Realms zu erschaffen und zu verwalten. Dieses Menü-Item ist nur verfügbar, wenn die Realm-Unterstützung ein geschaltet ist (siehe oben).</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="314"/>
+		</references>
+</entry>
+<entry><string>Available Blocks</string><translation>Verfügbare Blöcke</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="318"/>
+		</references>
+</entry>
+<entry><string>The Privileges module has no blocks.</string><translation>Das Privileges-Modul hat keine Blöcke.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="322"/>
+		</references>
+</entry>
+<entry><string>Available Dataproperties</string><translation>Verfügbare Dateneigenschaften</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="326"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays the settings for an (extended) security check.</string><translation>:</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="336"/>
+		</references>
+</entry>
+<entry><string>Privilegestree</string><translation>Privilegien-Baum</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="342"/>
+		</references>
+</entry>
+<entry><string>: displays a tree of privileges.</string><translation>: zeigt einen Privilegien-Baum an.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="344"/>
+		</references>
+</entry>
+<entry><string>Available Hooks</string><translation>Verfügbare Hooks</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="350"/>
+		</references>
+</entry>
+<entry><string>The Privileges module has no hooks</string><translation>Das Privileges-Modul hat keine Hooks.</translation>		<references>
+			<reference file="code/modules/privileges/xartemplates/admin-overview.xt" line="354"/>
+		</references>
+</entry>
+</translations>

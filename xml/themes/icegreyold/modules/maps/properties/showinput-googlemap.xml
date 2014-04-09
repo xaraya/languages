@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>//</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="9" />
+		</references>
+</entry>
+<entry><string>function fillmap(){</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="15" />
+		</references>
+</entry>
+<entry><string>point = new GLatLng(#$location['latitude']#,#$location['longitude']#);</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="19" />
+		</references>
+</entry>
+<entry><string>$location['windowtext']</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="23" />
+		</references>
+</entry>
+<entry><string>No details available</string><translation>Keine Details verfügbar</translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="29" />
+		</references>
+</entry>
+<entry><string>marker = createMarker(mapnumber,point,&quot;#$windowtext#&quot;);
+maps[mapnumber].addOverlay(marker);</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="33" />
+		</references>
+</entry>
+<entry><string>var points = new Array();
+points[1] = new GLatLng(#$location['latitude']#,#$location['longitude']#);
+points[2] = new GLatLng(#$location['latitude2']#,#$location['longitude2']#);
+var bounds = new GBounds(points);
+polyline = new GPolyline([new GPoint(bounds.maxX, bounds.maxY), new GPoint(bounds.maxX, bounds.minY), new GPoint(bounds.minX, bounds.minY), new GPoint(bounds.minX,bounds.maxY), new GPoint(bounds.maxX,bounds.maxY)], &quot;#00ff00&quot;, 5, 0.5);
+maps[mapnumber].addOverlay(polyline);</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="35" />
+		</references>
+</entry>
+<entry><string>}
+function showAddress(address) {
+map = maps[mapnumber];
+if (geocoder) {
+geocoder.getLatLng(
+address,
+function(point) {
+if (!point) {
+alert(address + &quot; not found&quot;);
+} else {
+map.setCenter(point, 13);
+var marker = new GMarker(point);
+map.addOverlay(marker);
+marker.openInfoWindowHtml(address);
+}
+}
+);
+}
+}</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="39" />
+		</references>
+</entry>
+<entry><string>TODO: There may be multiple map divs on the same screen. Need to ID each one uniquely</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="45" />
+		</references>
+</entry>
+<entry><string>Coordinates:</string><translation>Koordinaten:</translation>		<references>
+			<reference file="themes/icegrey/modules/maps/properties/showinput-googlemap.xt" line="75" />
+		</references>
+</entry>
+</translations>

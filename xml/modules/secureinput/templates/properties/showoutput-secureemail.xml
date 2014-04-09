@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>No Spam</string><translation></translation>		<references>
+			<reference file="modules/secureinput/xartemplates/properties/showoutput-secureemail.xd" line="6" />
+		</references>
+</entry>
+<entry><string>var nospam = 'mailto:';
+var value1 = '#$value[0]#';
+var value2 = '#$value[1]#';
+var value3 = '#$value[2]#';
+var a = document.getElementById('#$name#_#$_itemid#_securelink');
+var value = value1 + '@' + value2 + '.' + value3;
+a.href = nospam + value;
+a.innerHTML = value;</string><translation></translation>		<references>
+			<reference file="modules/secureinput/xartemplates/properties/showoutput-secureemail.xd" line="10" />
+		</references>
+</entry>
+</translations>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>$(document).ready(function(){
+$(function() {
+var zoomFunc = function(dimension) {
+return dimension * 2.5;
+}
+var shrinkFunc = function(dimension) {
+return dimension * 0.3;
+}
+$('div.gallery img').slidingGallery({
+'slideSpeed':'slow',
+'Lzoom':zoomFunc,
+'Pzoom':zoomFunc,
+'Lshrink':shrinkFunc,
+'Pshrink':shrinkFunc,
+'Lwidth':400,
+'Pwidth':400,
+'Lheight':270,
+'Pheight':270,
+container: $('div.gallery')});
+});
+});
+function showCaption(caption) {
+if (caption != &quot;&quot;) {
+document.getElementById('showCaption').innerHTML = caption;
+}
+else {
+if (document.getElementById('currentlocale').value == &quot;de_DE.utf-8&quot;) {
+document.getElementById('showCaption').innerHTML = &quot;Antragsformular für ice.attest&quot;;
+}
+else {
+document.getElementById('showCaption').innerHTML = &quot;Checklist Emergency Plan&quot;;
+}
+}
+}</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/ice/user-media_gallery2.xt" line="12"/>
+		</references>
+</entry>
+<entry><string>.gallery {display:none;}
+.gallery_message {display:none;}</string><translation></translation>		<references>
+			<reference file="themes/icegrey/modules/ice/user-media_gallery2.xt" line="40"/>
+		</references>
+</entry>
+<entry><string>Currently JavaScript is disabled on your browser.</string><translation>Javascript ist auf Ihrem Browser nicht aktiviert.</translation>		<references>
+			<reference file="themes/icegrey/modules/ice/user-media_gallery2.xt" line="46"/>
+		</references>
+</entry>
+<entry><string>Please enable JavaScript to activate image gallery.</string><translation>Um die Bildergalerie anschauen zu können aktivierten Sie bitte Javascript.</translation>		<references>
+			<reference file="themes/icegrey/modules/ice/user-media_gallery2.xt" line="51"/>
+		</references>
+</entry>
+</translations>

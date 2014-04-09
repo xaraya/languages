@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>Administration - Forms</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="8"/>
+		</references>
+</entry>
+<entry><string>What is it?</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="24"/>
+		</references>
+</entry>
+<entry><string>Forms
+is a simple module that allows visitors to easily contact the Site
+Administrator (or other persons configured as recipients) by email. The module allows you to setup one or more forms with different fields and configurations using dynamic data. It comes preinstalled with one default contact form.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="28"/>
+		</references>
+</entry>
+<entry><string>Form responses and the data submitted are automatically saved to the database and can be viewed by site administrators.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="32"/>
+		</references>
+</entry>
+<entry><string>How to use it?</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="36"/>
+		</references>
+</entry>
+<entry><string>Managing Forms and their Associated Objects</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="40"/>
+		</references>
+</entry>
+<entry><string>You can provide a link to any form by appending the form name variable called:</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="44"/>
+		</references>
+</entry>
+<entry><string>form</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="46"/>
+		</references>
+</entry>
+<entry><string>and a form name, for example 'basic', to the main user url eg</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="48"/>
+		</references>
+</entry>
+<entry><string>index.php?module=forms&amp;form=basic</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="50"/>
+		</references>
+</entry>
+<entry><string>or
+with short urls</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="52"/>
+		</references>
+</entry>
+<entry><string>index.php/forms/basic</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="54"/>
+		</references>
+</entry>
+<entry><string>. If no form is specified in a URL, the Forms module will display a &quot;page not found&quot; error page.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="56"/>
+		</references>
+</entry>
+<entry><string>Each form is based on a DynamicData object. This object is defined outside the Forms module (in the DynamicData module) and is then associated with one or more forms. The data on the form can therefore be displayed by a custom template for the associated object. If no custom template is defined, the standard DynamicData input form is used. Custom templates should be placed in the module/forms/objects directory of your theme as</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="60"/>
+		</references>
+</entry>
+<entry><string>showform-[object name].xt</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="62"/>
+		</references>
+</entry>
+<entry><string>Managing Form Emails</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="68"/>
+		</references>
+</entry>
+<entry><string>When a form is submitted an email is sent to a recipient defined for the form (&quot;admin email&quot;). In addition, you can add CC and BCC email addresses the response email should go to. Note that each recipient will only receive one copy of the email (no matter how many times his/her email is added).</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="72"/>
+		</references>
+</entry>
+<entry><string>You can also choose to send the user submitting a form a confirmation email (&quot;user email&quot;). For this to work the form must have a field called &quot;email&quot;. In other words, its associated DD object must have a property named &quot;email&quot;. If no such field/property is found then no user email will be sent, regardless of the settings.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="76"/>
+		</references>
+</entry>
+<entry><string>Emails for your forms are defined using the functionality of the Mailer module. This gives you full control over type, language and format of your email responses. It also lets you include Blocklayout in your mails. See the Mailer module for more information.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="80"/>
+		</references>
+</entry>
+<entry><string>Admin Interface</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="84"/>
+		</references>
+</entry>
+<entry><string>Form Definitions:</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="91"/>
+		</references>
+</entry>
+<entry><string>Create, modify or delete forms.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="93"/>
+		</references>
+</entry>
+<entry><string>Form Responses:</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="98"/>
+		</references>
+</entry>
+<entry><string>View submitted forms and their data.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="100"/>
+		</references>
+</entry>
+<entry><string>Manage Emails:</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="105"/>
+		</references>
+</entry>
+<entry><string>Create, modify or delete emails of the Forms module.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="107"/>
+		</references>
+</entry>
+<entry><string>Master Tables:</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="112"/>
+		</references>
+</entry>
+<entry><string>Manage the data in the tables of the Forms module</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="114"/>
+		</references>
+</entry>
+<entry><string>Modify Configuration:</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="119"/>
+		</references>
+</entry>
+<entry><string>This page controls the module's global settings.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="121"/>
+		</references>
+</entry>
+<entry><string>Testing/Debugging</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="127"/>
+		</references>
+</entry>
+<entry><string>The Forms module lets you make debugging information visible to site administrators. This can be set under the Modify Configuration tab. Normal users will not be affected.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="131"/>
+		</references>
+</entry>
+<entry><string>You can also override email recipients, CCs and BCCs by setting the redirect option in the Mail module</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="135"/>
+		</references>
+</entry>
+<entry><string>. This will cause all emails generated by Xaraya to be sent to a single redirect address. Note that the recipient will only receive one copy of any given email.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="139"/>
+		</references>
+</entry>
+<entry><string>Available Blocks</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="143"/>
+		</references>
+</entry>
+<entry><string>This module does not have any blocks.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="147"/>
+		</references>
+</entry>
+<entry><string>Available Dataproperties</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="153"/>
+		</references>
+</entry>
+<entry><string>This module does not have any dataproperties.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="157"/>
+		</references>
+</entry>
+<entry><string>Available Hooks</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="161"/>
+		</references>
+</entry>
+<entry><string>This module does not have any hooks.</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="165"/>
+		</references>
+</entry>
+<entry><string> Forms Module Overview</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="171"/>
+		</references>
+</entry>
+<entry><string> Doc Version 1.0.0  2013-02-20</string><translation></translation>		<references>
+			<reference file="code/modules/forms/xartemplates/admin-main.xt" line="174"/>
+		</references>
+</entry>
+</translations>

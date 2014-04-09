@@ -1,0 +1,44 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Modules Administration'] = 'Moduladministration';
+$xarML_PHPBackend_entries['The name which will be shown to identify this module.'] = 'Der Name, der zur Identifikation des Moduls angezeigt wird.';
+$xarML_PHPBackend_entries['Save Changes'] = 'Änderungen speichern';
+$xarML_PHPBackend_entries['Overview'] = 'Überblick';
+$xarML_PHPBackend_entries['View All'] = 'Alle anzeigen';
+$xarML_PHPBackend_entries['Configure Hooks'] = 'Hooks konfigurieren';
+$xarML_PHPBackend_entries['Version'] = 'Version';
+$xarML_PHPBackend_entries['View'] = 'Anzeigen';
+$xarML_PHPBackend_entries['Info'] = 'Info';
+$xarML_PHPBackend_entries['Properties'] = 'Eigenschaften';
+$xarML_PHPBackend_entries['Activate'] = 'Aktivieren';
+$xarML_PHPBackend_entries['Deactivate'] = 'Deaktivieren';
+$xarML_PHPBackend_entries['Upgrade'] = 'Aktualisieren';
+$xarML_PHPBackend_entries['Install'] = 'Installieren';
+$xarML_PHPBackend_entries['Remove'] = 'Entfernen';
+$xarML_PHPBackend_entries['Preferences'] = 'Vorlieben';
+$xarML_PHPBackend_entries['Modules List'] = 'Modul-Verzeichnis';
+$xarML_PHPBackend_entries['Style:'] = 'Stil:';
+$xarML_PHPBackend_entries['View number of modules per page:'] = 'Anzahl pro Seite';
+$xarML_PHPBackend_entries['Most preferences for this module have default values. Changing your preferences does not affect other users [admins] e.g., people who use different login name than your own.'] = 'Die meisten Präferenzen für dieses Modul haben Stnadardwerte. Das Ändern der Präferenzen berührt nicht andere Nutzer {Admins], z.B. wenn Nutzer einen anderen Login-Namen benutzen.';
+$xarML_PHPBackend_entries['Your preferences can be reset to defaults from this page, so that you can, for instance, see the same startup page as a new admin..'] = 'Die Präferenzen konnen auf Standardwerte gesetzt werden, so dass beispielsweise die gleiche Anfangsseeite angezeigt wird, die auch ein neuer Admin sieht.';
+$xarML_PHPBackend_entries['Status: your current preferences are the same as defaults'] = 'Status: die aktuellen Präferenzen entsprechen den Standards';
+$xarML_PHPBackend_entries['Toolbox'] = 'Werkzeugsammlung';
+$xarML_PHPBackend_entries['Display Name:'] = 'Anzeigename:';
+$xarML_PHPBackend_entries['Go back to the modules list'] = 'Zum Modul-Verzeichnis zurückkehren';
+$xarML_PHPBackend_entries['Dependents still Active'] = 'Abhängige noch aktiv';
+$xarML_PHPBackend_entries['Hide Details'] = 'Details verbergen';
+$xarML_PHPBackend_entries['Show Details'] = 'Details anzeigen';
+$xarML_PHPBackend_entries['as provided by the author'] = 'wie vom Autor zur Verfügung gestellt';
+$xarML_PHPBackend_entries['Only generic icon has been provided'] = 'Nur ein allgemeines Icon wurde zur Verfügung gestellt';
+$xarML_PHPBackend_entries['[Original icon is missing..
+please ask this module developer to provide one in accordance with MDG]'] = '[Das Original-Icon fehlt. Bitte den Modul-Entwickler wegen eines Icons kontakten.';
+$xarML_PHPBackend_entries['Working on it...'] = 'Daran wird gearbeitet...';
+$xarML_PHPBackend_entries['None'] = 'Keine';
+$xarML_PHPBackend_entries['Empty regid (#(1)).'] = 'Leere regid (#(1)).';
+$xarML_PHPBackend_entries['callerModName or hookModName'] = 'callerModName oder hookModName';
+$xarML_PHPBackend_entries['Missing module regid (#(1)).'] = 'Fehlende Modul- regid (#(1)).';
+$xarML_PHPBackend_entries['Required PHP extension \'#(1)\' is missing for module \'#(2)\''] = 'Erforderliche PHP-Erweiterung \'#(1)\' fehlt für Modul \'#(2)\'';
+$xarML_PHPBackend_entries['Unable to deactivate module "#(1)".'] = 'Kann Modul "#(1)" nicht deaktivieren.';
+$xarML_PHPBackend_entries['Unable to get dependencies for module with ID (#(1)).'] = 'Kann keine Abhängigkeiten für Modul mit der ID (#(1)) erhalten.';
+?>

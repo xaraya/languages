@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>What is it?</string><translation>Wozu dient es?</translation></entry>
+<entry><string>The Subitems module allows you to create and display subitems for any module item.</string><translation></translation></entry>
+<entry><string>As an illustration of how subitems could be used</string><translation></translation></entry>
+<entry><string>You may want a publication type (Articles pubtype) to hold 'cooking recipies'</string><translation></translation></entry>
+<entry><string>This pubtype would store and display recipe details such as ingredients. Namely ingredient1, quantity 1, picture1 and for another article ingredient2, quantity2, picture2.
+Each article or recipe would need to contain a different number of ingredients.</string><translation></translation></entry>
+<entry><string>The disadvantage of this is the high number of ingredient fields you would need to ensure that your users always have sufficient ingredient fields for entry. Furthermore all input fields are always displayed.
+So, the above is not a practical way to accomplish this.</string><translation></translation></entry>
+<entry><string>The module author's intent was to produce a module which can be hooked from any other module and is able to both display and provide
+editing of subitems for an item. The design provides for one table which saves the subitem information with module/itemtype. A second table
+contains the DD Itemids with corresponding module/itemtype/itemid in the DD object (1 to n Relation).</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation>Wie setzt man es ein?</translation></entry>
+<entry><string>Install the module (done by now, as you are seeing this page)</string><translation></translation></entry>
+<entry><string>Go to Admin - DynamicData - View Objects</string><translation></translation></entry>
+<entry><string>create a new object</string><translation></translation></entry>
+<entry><string>(Create New)</string><translation></translation></entry>
+<entry><string>This new dynamic data object will hold the subitem information.</string><translation></translation></entry>
+<entry><string>Go to Dynamic Data - View Objects - Edit [YOUR OBJECT]. This displays the Modify Dynamic Properties screen.</string><translation></translation></entry>
+<entry><string>Add your properties (fields) for your object. You &lt;strong&gt;must have&lt;/strong&gt; at least
+one field with a Property Type of 'ItemID', default of 0 and Status of Display Only.</string><translation></translation></entry>
+<entry><string>Go to</string><translation></translation></entry>
+<entry><string>Admin - Subitems module (admin area) - Add link</string><translation></translation></entry>
+<entry><string>. There, choose the object you have just created, and select the module and the itemtype that you will attach this property to.</string><translation></translation></entry>
+<entry><string>Modules - Configure Hooks</string><translation></translation></entry>
+<entry><string>where you can choose the Subitems module. Enable the hook for the module and itemtype combination that you just created the link for</string><translation></translation></entry>
+<entry><string>That should be it (it has been tested with custom pubtypes)</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation>Dazugehörige Blöcke</translation></entry>
+<entry><string>none</string><translation>Keine</translation></entry>
+<entry><string>Included Hooks</string><translation></translation></entry>
+<entry><string>new/create/modify/update/delete -- Allows you to create/update sub-items</string><translation></translation></entry>
+<entry><string>display -- Allows you to display sub-items</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Further information on the Subitems module can be found at</string><translation></translation></entry>
+<entry><string>Subitems Extension page at</string><translation></translation></entry>
+<entry><string>Subitems Module - Xaraya Extension 9356</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on Subitems found at</string><translation></translation></entry>
+<entry><string>Related documentation on Subitems</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Subitems Module Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
+</translations>

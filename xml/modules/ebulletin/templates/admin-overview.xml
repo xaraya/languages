@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>official icon</string><translation></translation></entry>
+<entry><string>What is it?</string><translation></translation></entry>
+<entry><string>The eBulletin module is an email newsletter system that
+exclusively uses Blocklayout to generate newsletters using content that's
+already on your site. This gives you the power of determining exactly what
+content is included and how it is formatted.</string><translation></translation></entry>
+<entry><string>Mail templates</string><translation></translation></entry>
+<entry><string>After installing this module, you will have to create Blocklayout templates for your newsletters.</string><translation></translation></entry>
+<entry><string>In each publication config page you can choose the theme where
+you would like to place the templates, and create in that theme's &lt;i&gt;modules/ebulletin&lt;/i&gt;
+directory a template named &lt;i&gt;admin-publication-[name].xd&lt;/i&gt;, where [name] is the name specified in the publication config. See &lt;code&gt;modules/ebulletin/contrib/templates/sample.xd&lt;/code&gt; for a sample template with instructions.</string><translation></translation></entry>
+<entry><string>If you would like to specify a different template for html mail, you &lt;i&gt;can&lt;/i&gt; add a template named &lt;i&gt;admin-publication-[name]-html.xd&lt;/i&gt;. If this template is not found, the system will generate html mail with the default template.</string><translation></translation></entry>
+<entry><string>eBulletin can also be configured to use an alternate theme when generating templates. You might consider creating your own customized theme (perhaps starting with
+the 'print' theme due to its simplicity).</string><translation></translation></entry>
+<entry><string>How to use it?</string><translation></translation></entry>
+<entry><string>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Create publications&lt;/a&gt; for as many diffent newsletters as you want to have.&lt;/em&gt;</string><translation></translation></entry>
+<entry><string>When configurating a publication, you can set a starting and ending interval, which is the range of dates to select content from when creating an Issue. These dates are provided to your templates, which you can then use in BlockLayout tags when calling blocks, modules, etc. The intervals are based on the Issue Date which is specified at the time each issue is created.</string><translation></translation></entry>
+<entry><string>You must define an email address to go in the &lt;code&gt;TO:&lt;/code&gt; and &lt;code&gt;FROM:&lt;/code&gt; fields of each issue when it is sent. These will be seen by every recipient of your newsletter, so they should be easily recognizable and preferably real addresses.</string><translation></translation></entry>
+<entry><string>Each publication can be assigned its own HTML and/or text template. If you only want a text email, then leave the HTML template blank, or vice versa. You can, of course, specify templates for each. You can even assign the same template for both HTML and text versions of your newsletter. eBulletin does some rudimentary conversions (a.k.a. &lt;code&gt;strip_tags()&lt;/code&gt;) to make sure things look fairly decent in the absence of a specialized template.</string><translation></translation></entry>
+<entry><string>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Add subscribers&lt;/a&gt; for each publication.&lt;/em&gt;</string><translation></translation></entry>
+<entry><string>It is &lt;em&gt;not&lt;/em&gt; necessary for a user to be registered on your website in order to subscribe. Anonymous users are not allowed to subscribe using emails owned by the registered users of your site. A name is required for each subscriber. Also, eBulletin has a ModifyConfig option to require unregistered users to validate subscription changes through email. &lt;em&gt;Important:&lt;/em&gt; if you use this option, you must copy &lt;code&gt;modules/ebulletin/contrib/ebval.php&lt;/code&gt; to the top level of your website (in the same folder as &lt;code&gt;index.php&lt;/code&gt;).</string><translation></translation></entry>
+<entry><string>A separate Batch interface is provided for subscribing registered and nonregistered users. The non-registered interface can accept a list of names and emails, one per line, in several different formats. Notably, it can take the contents of a standard CSV (comma-separated) file if you have a large list of people to subscribe. See the example provided below the text box.</string><translation></translation></entry>
+<entry><string>Users may subscribe themselves using one of several methods:</string><translation></translation></entry>
+<entry><string>If the &lt;code&gt;usermenu&lt;/code&gt; hook is enabled, by a &quot;Newsletter&quot; tab in their Account section. Note that enabling this hook also enables eBulletin's &lt;code&gt;create&lt;/code&gt; hook. See below.</string><translation></translation></entry>
+<entry><string>The &lt;code&gt;ebulletin/subscription&lt;/code&gt; block</string><translation></translation></entry>
+<entry><string>eBulletin's &lt;code&gt;main&lt;/code&gt; user function</string><translation></translation></entry>
+<entry><string>Or, if you have a legitimate mailing list, you could put it in the publication's &lt;code&gt;TO:&lt;/code&gt; field and use it as an external tool to manage subscriptions. If you do this, you may want to make that publication private. Otherwise, users may end up subscribed to both lists and therefore receive duplicate copies of every issue.</string><translation></translation></entry>
+<entry><string>&lt;em&gt;&lt;a href=&quot;#(1)&quot;&gt;Create a new issue&lt;/a&gt; for a given publication as often as desired, whenever you want to send something out to your subscribers.&lt;/em&gt;</string><translation></translation></entry>
+<entry><string>eBulletin will then use your templates to generate HTML and/or text versions of your newsletter. You can view, edit, or even regenerate issues whenever you want, even after you've published them. (In that case, it asks you for a confirmation first.) Note that by modifying the Issue Date and then regenerating, you can effectively change the entire issue.</string><translation></translation></entry>
+<entry><string>Whenever you're ready, press the &lt;code&gt;Publish&lt;/code&gt; link. This will show you a summary of the issue, including the list of emails it will be sent to. Press the &lt;code&gt;Send&lt;/code&gt; button to actually send the newsletter out.</string><translation></translation></entry>
+<entry><string>Scheduler support</string><translation></translation></entry>
+<entry><string>You can schedule the automatic creation of new issues and their publication by installing the scheduler module.</string><translation></translation></entry>
+<entry><string>When the scheduler module is installed, you can configure each publication to create and publish new issues in the publication options page.</string><translation></translation></entry>
+<entry><string>Once the appropriate option is selected, you need to schedule the execution of the appropriate function in the scheduler module config page. Two scheduler functions are supplied:</string><translation></translation></entry>
+<entry><string>&lt;i&gt;createissues&lt;/i&gt;: this function creates new issues for each publication that is enabled to be automatically published</string><translation></translation></entry>
+<entry><string>&lt;i&gt;publishissues&lt;/i&gt;: this function publishes all unpublished issues of each publication that is enabled to be automatically published</string><translation></translation></entry>
+<entry><string>Included Blocks</string><translation></translation></entry>
+<entry><string>&lt;code&gt;ebulletin/subscription&lt;/code&gt; - Allow users to subscribe or unsubscribe from a block instead of going to eBulletin's main page.</string><translation></translation></entry>
+<entry><string>Included Hooks</string><translation></translation></entry>
+<entry><string>&lt;code&gt;usermenu&lt;/code&gt; - adds a &quot;Newsletter&quot; tab to your users' Account pages for ease of managing one's subscriptions</string><translation></translation></entry>
+<entry><string>&lt;code&gt;create&lt;/code&gt; - automatically subscribes users to all public newsletters when they register on your website</string><translation></translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Documentation folder: &lt;code&gt;modules/ebulletin/xardocs/&lt;/code&gt;</string><translation></translation></entry>
+<entry><string>This module's page at Xaraya.com: &lt;a href=&quot;http://www.xaraya.com/index.php/release/557.html&quot; target=&quot;_blank&quot;&gt;Xaraya Extension and Releases&lt;/a&gt;</string><translation></translation></entry>
+<entry><string>Bugs and feature requests: &lt;a href=&quot;http://bugs.xaraya.com/&quot; target=&quot;_blank&quot;&gt;Xaraya Bug Tracker&lt;/a&gt;</string><translation></translation></entry>
+<entry><string>Support issues of general interest: &lt;a href=&quot;http://xaraya.curtisfarnham.com/forums/&quot; target=&quot;_blank&quot;&gt;Forums at the author's website&lt;/a&gt;</string><translation></translation></entry>
+<entry><string>Everything else: &lt;a href=&quot;http://xaraya.curtisfarnham.com/contact/&quot; target=&quot;_blank&quot;&gt;Contact form at the author's website&lt;/a&gt;</string><translation></translation></entry>
+</translations>

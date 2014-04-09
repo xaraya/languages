@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="de_DE.utf-8">
+<entry><string>What is it?</string><translation>Wozu dient es?</translation></entry>
+<entry><string>Images is a Xaraya Utility Module.</string><translation>Das Bilder-Modul ist ein Hilfsmodul von Xaraya.</translation></entry>
+<entry><string>It is currently responsible for basic image manipulation, including the following:</string><translation>Es dient zur die automatischen Bildbearbeitung, unter anderem kann es:</translation></entry>
+<entry><string>Resize Image files</string><translation>Bildergrößen verändern</translation></entry>
+<entry><string>Crop image files</string><translation>Bilder beschneiden</translation></entry>
+<entry><string>Rotate image files</string><translation>Bilder drehen</translation></entry>
+<entry><string>Add text to an image file (think buttons here...)</string><translation>Text zu einer Bilddatei hinzufügen (beispielsweise Logos...)</translation></entry>
+<entry><string>How to use it?</string><translation>Wie setzt man es ein?</translation></entry>
+<entry><string>Image Tags</string><translation>Bild-Tag für Schablonen (Templates)</translation></entry>
+<entry><string>The IMAGE tag is useful for displaying (cached) images at different proportions. Images are resized according
+to the height/width values you specify with the resulting image cached for faster displaying later on. Note: Any other attribute
+not listed will be passed directly on to the resultant &amp;lt;img&amp;gt; tag.</string><translation>Das IMAGE-RESIZE-Tag ist sinnvoll zur Anzeige von Bildern in verschiedenen Größen. Diese werden entsprechend der Größenvorgaben angepasst. Das abgeleitete Bild wird zur späteren schnellere Anzeige in einem Cache zwischengespeichert. Hinweis: Jede weitere nicht angegebene Eigenschaft wird direkt an das Ergebnis-&amp;lt;img&amp;gt;-Tag durchgereicht.</translation></entry>
+<entry><string>Examples:
+&lt;p&gt;
+Resize an image's width while keeping the proportions:&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;xar:image-resize src=&quot;23&quot; width=&quot;92px&quot; constrain=&quot;1&quot; label=&quot;my logo&quot; /&amp;gt;
+&lt;/p&gt;</string><translation>Beispiele: &lt;p&gt;Verändert das Bild 23 auf eine Breite von 92 Pixeln unter Beibehaltung des Seitenverhältnisses:&lt;br /&gt;&amp;lt;xar:image-resize src=&quot;23&quot; width=&quot;92px&quot; constrain=&quot;1&quot; label=&quot;Mein Logo&quot; /&amp;gt; &lt;/p&gt;</translation></entry>
+<entry><string>&lt;p&gt;
+Apply some pre-defined image processing (e.g. watermark):&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;xar:image-resize src=&quot;test/image.jpg&quot; setting=&quot;JPEG 800 x 600&quot; label=&quot;my image&quot; /&amp;gt;
+&lt;/p&gt;</string><translation>&lt;p&gt;Vollzieht die vordefinierte Bildverarbeitung 'JPEG 800 x 600' (z.B. Wasserzeichenprägung):&lt;br /&gt;&amp;lt;xar:image-resize src=&quot;test/image.jpg&quot; setting=&quot;JPEG 800 x 600&quot; label=&quot;Mein Bild&quot; /&amp;gt; &lt;/p&gt;</translation></entry>
+<entry><string>Included Blocks</string><translation>Dazugehörige Blöcke</translation></entry>
+<entry><string>There are no included blocks.</string><translation>Keine.</translation></entry>
+<entry><string>Privileges</string><translation></translation></entry>
+<entry><string>The Images module only has the Admin privilege to assign. You will need this level if you want to set the general settings for the Images module.
+The Images module interacts with the uploads module, so make sure you set appropriate levels for that module as well.
+Take special note on the approval of files in the uploads module. Only files that have been approved will normally be accessible by standard users, or you need to assign them the EDIT privilege for the uploads.</string><translation></translation></entry>
+<entry><string>Upgrade from version 1.0.0</string><translation>Veränderung gegenüber Version 1.0.0</translation></entry>
+<entry><string>The naming convention for derivative images has changed since version 1.0.0. So you can delete the old derivative images, and new derivative images will be created as needed in the same directory...</string><translation>Die Benennungsrichtlinien für abgeleitete Bilder haben sich seit der Version 1.0.0 verändert. Sie können also die alten Ableitungen löschen, weil die neuen Ableitungen bei Bedarf im gleichen Speicherverzeichnis erzeugt werden.</translation></entry>
+<entry><string>Further Information</string><translation></translation></entry>
+<entry><string>Extended information about this module can be found at</string><translation></translation></entry>
+<entry><string>Images Module - Xaraya Extension 152</string><translation></translation></entry>
+<entry><string>Click on Version History tab at the bottom to get the latest release information.</string><translation></translation></entry>
+<entry><string>Related tutorials and documentation on Images found at</string><translation></translation></entry>
+<entry><string>Related documentation on Images</string><translation></translation></entry>
+<entry><string>Xaraya Documentation.</string><translation></translation></entry>
+<entry><string>Images module - Overview</string><translation></translation></entry>
+<entry><string>Version</string><translation></translation></entry>
+</translations>

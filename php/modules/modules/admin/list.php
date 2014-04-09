@@ -1,0 +1,36 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Reload'] = 'Erneut laden';
+$xarML_PHPBackend_entries['Plain'] = 'Vollständig';
+$xarML_PHPBackend_entries['Icons'] = 'Icons';
+$xarML_PHPBackend_entries['Compact-A'] = 'Kompakt-A';
+$xarML_PHPBackend_entries['Compact-B'] = 'Kompakt-B';
+$xarML_PHPBackend_entries['All Modules'] = 'Alle Module';
+$xarML_PHPBackend_entries['All Installed'] = 'Alle installierten';
+$xarML_PHPBackend_entries['All Active'] = 'Alle aktivierten';
+$xarML_PHPBackend_entries['All Inactive'] = 'Alle inaktiven';
+$xarML_PHPBackend_entries['All Upgraded'] = 'Alle upgegradeten';
+$xarML_PHPBackend_entries['Not Installed'] = 'Nicht installiert';
+$xarML_PHPBackend_entries['Missing (Not Installed)'] = 'Fehlend (nicht installiert)';
+$xarML_PHPBackend_entries['Missing (Inactive)'] = 'Fehlend (inaktiv)';
+$xarML_PHPBackend_entries['Missing (Active)'] = 'Fehlend (aktiv)';
+$xarML_PHPBackend_entries['Missing (Upgraded)'] = 'Fehlend (aktualisliert)';
+$xarML_PHPBackend_entries['Update (Not Installed)'] = 'Aktualisieren (nicht installiert)';
+$xarML_PHPBackend_entries['Update (Inactive)'] = 'Aktualisieren (inaktiv)';
+$xarML_PHPBackend_entries['Update (Active)'] = 'Aktualisieren (aktiv)';
+$xarML_PHPBackend_entries['Update (Upgraded)'] = 'Aktualisieren (aktualisiert)';
+$xarML_PHPBackend_entries['Name [a-z]'] = 'Name [a-z]';
+$xarML_PHPBackend_entries['Name [z-a]'] = 'Name [z-a]';
+$xarML_PHPBackend_entries['Go to administration of'] = 'Weiter zur Administration von';
+$xarML_PHPBackend_entries['On/Off'] = 'An/Aus';
+$xarML_PHPBackend_entries['Modify'] = 'Ändern';
+$xarML_PHPBackend_entries['Inactive'] = 'Inaktiv';
+$xarML_PHPBackend_entries['Active'] = 'Aktiv';
+$xarML_PHPBackend_entries['[core module]'] = '[Core-Modul]';
+$xarML_PHPBackend_entries['Missing'] = 'Fehlend';
+$xarML_PHPBackend_entries['Error'] = 'Fehler';
+$xarML_PHPBackend_entries['View Error'] = 'Fehler anzeigen';
+$xarML_PHPBackend_entries['New version'] = 'Neue Version';
+$xarML_PHPBackend_entries['Remove (Bug! in list generation)'] = 'Entfernen (Bug! in der Listen-Erzeugung)';
+?>

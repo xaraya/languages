@@ -1,0 +1,31 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['User Registration Administration'] = 'Administration - Registrierung';
+$xarML_PHPBackend_entries['Configure:'] = 'Unterbereich:';
+$xarML_PHPBackend_entries['General'] = 'Allgemein';
+$xarML_PHPBackend_entries['Filtering'] = 'Ausschlusslisten';
+$xarML_PHPBackend_entries['General Options'] = 'Allgemein';
+$xarML_PHPBackend_entries['Enable short URLs?'] = 'Short-URLs aktiv';
+$xarML_PHPBackend_entries['Service/Privacy'] = 'Nutzungsbedingungen/Datenschutzerklärung';
+$xarML_PHPBackend_entries['Show Terms of Service link in the menu?'] = 'Nutzungsbedingungen im Menü anzeigen?';
+$xarML_PHPBackend_entries['Show Privacy Policy link in the menu?'] = 'Datenschutzerklärung zeigen';
+$xarML_PHPBackend_entries['Terms Link'] = 'Nutzungsrichtlinien';
+$xarML_PHPBackend_entries['Privacy Link'] = 'Datenschutz Link';
+$xarML_PHPBackend_entries['Basic Configuration'] = 'Grundlegende Konfiguration';
+$xarML_PHPBackend_entries['Allow Registration'] = 'Registrierung erlauben';
+$xarML_PHPBackend_entries['Default Group For New Users:'] = 'Standardgruppe für neue Benutzer';
+$xarML_PHPBackend_entries['Default State For New Users:'] = 'Default Status für neue Benutzer:';
+$xarML_PHPBackend_entries['User Settings'] = 'Benutzer Einstellungen';
+$xarML_PHPBackend_entries['Minimum Age To Be A User:'] = 'Mindestalter für die Registrierung:';
+$xarML_PHPBackend_entries['Users May Choose Their Own Password'] = 'Benutzer dürfen ihr eigenes Kennwort wählen';
+$xarML_PHPBackend_entries['Require Validation Of New Users'] = 'E-Mailadressen müssen bestätigt werden';
+$xarML_PHPBackend_entries['Notification'] = 'Notifikation';
+$xarML_PHPBackend_entries['Email for notification to Admin'] = 'Email für die Admin Notifikation';
+$xarML_PHPBackend_entries['Send Notice To Admin Upon User Registration'] = 'E-Mail an Admin nach Registrierung';
+$xarML_PHPBackend_entries['Filtering Options'] = 'Ausschlusslisten';
+$xarML_PHPBackend_entries['Disallowed User Names:'] = 'Unzulässige Benutzernamen:';
+$xarML_PHPBackend_entries['Note: Enter each name on a single line. Do not separate with comma, etc'] = 'Geben Sie jeden Eintrag in einer eigenen Zeile ein. Verwenden Sie keine Trennzeichen.';
+$xarML_PHPBackend_entries['Disallowed IP Addresses:'] = 'Unzulässige IP-Adressen:';
+$xarML_PHPBackend_entries['User Registration must be enabled.'] = 'Benutzerregistrierung muss aktiviert sein';
+?>

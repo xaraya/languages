@@ -1,0 +1,34 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Invalid #(1) for #(2) function #(3)() in module #(4)'] = 'Ungültig: #(1) für #(2) Funktion #(3)() in Modul #(4)';
+$xarML_PHPBackend_entries['Modify Config'] = 'Konfiguration ändern';
+$xarML_PHPBackend_entries['Cancel'] = 'Abbrechen';
+$xarML_PHPBackend_entries['Overview'] = 'Überblick';
+$xarML_PHPBackend_entries['Preview'] = 'Vorschau';
+$xarML_PHPBackend_entries['New'] = 'Neu';
+$xarML_PHPBackend_entries['Display'] = 'Anzeigen';
+$xarML_PHPBackend_entries['Name:'] = 'Name:';
+$xarML_PHPBackend_entries['Updated:'] = 'Aktualisiert:';
+$xarML_PHPBackend_entries['Status:'] = '^Status:';
+$xarML_PHPBackend_entries['Priority:'] = 'Priorität:';
+$xarML_PHPBackend_entries['Closed By:'] = 'Geschlossen von:';
+$xarML_PHPBackend_entries['Domain:'] = 'Domain:';
+$xarML_PHPBackend_entries['Ticket'] = 'Ticket';
+$xarML_PHPBackend_entries['Phone:'] = 'Fon:';
+$xarML_PHPBackend_entries['Subject:'] = 'Betreff:';
+$xarML_PHPBackend_entries['Ticket Source:'] = 'Ticketquelle:';
+$xarML_PHPBackend_entries['Subject'] = 'Betreff';
+$xarML_PHPBackend_entries['View Tickets'] = 'Tickets anzeigen';
+$xarML_PHPBackend_entries['Status'] = 'Status';
+$xarML_PHPBackend_entries['My Tickets'] = 'Meine Tickets';
+$xarML_PHPBackend_entries['My Assigned Tickets'] = 'Meine zugeordneten Tickets';
+$xarML_PHPBackend_entries['Unassigned Tickets'] = 'Nicht zugeordnete Tickets';
+$xarML_PHPBackend_entries['All Tickets'] = 'Alle Tickets';
+$xarML_PHPBackend_entries['Dear'] = 'Liebe(r)';
+$xarML_PHPBackend_entries['View all your tickets:'] = 'Alle Ihre Tickets anzeigen:';
+$xarML_PHPBackend_entries['Link all your tickets:'] = 'Link zu allen Ihren Tickets:';
+$xarML_PHPBackend_entries['Name of submitter:'] = 'Name des Abonnenten';
+$xarML_PHPBackend_entries['Issue:'] = 'Ausgabe:';
+$xarML_PHPBackend_entries['Notes:'] = 'Anmerkungen:';
+?>
