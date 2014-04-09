@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+<entry><string>Security Precautions</string><translation>Précautions de sécurité</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="18"/>
+		</references>
+</entry>
+<entry><string>Secure the Installer:</string><translation>Sécuriser l'installation</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="22"/>
+		</references>
+</entry>
+<entry><string>The install script that runs the installer is a security risk to your site. We suggest you let the installer rename or remove the install script so that the installer cannot be used by unauthorized persons. If you choose neither of the options below you (the site administrator) will be reminded to remove the install script via the site's reminder block for a period of 3 days. After that, you're on your own.</string><translation>Le script d'installation qui éxécute l'installation est un risque de sécurité pour votre site. Nous suggérons que vous laisser l'installateur renommer ou supprimer le script d'installation pour que l'installateur ne peuvent pas être utilisé par les pesonnes non authorisées. Si vous choissisez aucunes des options ci-dessous vous (l'administrateur du site) serez rappeler de supprimer le script d'installation via le bloc de rappel du site pour une période de 3 jours. Apres ça, vous êtes seul.</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="28"/>
+		</references>
+</entry>
+<entry><string>Removing the install script will make a reinstalltion impossible unless you manually add a copy of the script to your site's root directory.</string><translation>Supprimer le script d'installation rendra la réimstallation impossible à moin que vous installez une copie du script manuellement à la racine du registre de votre site</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="34"/>
+		</references>
+</entry>
+<entry><string>Remove the install script</string><translation>Supprimer le script d'installation</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="44"/>
+		</references>
+</entry>
+<entry><string>Renaming the install script will let you run it under its new name. This is less secure,</string><translation>Renommer le script d'installation vous laissera l'éxécuter sous son nouveau nom. Ceci est moin sécuritaire,</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="68"/>
+		</references>
+</entry>
+<entry><string>Rename the install script</string><translation>Renommer le script d'installation</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="78"/>
+		</references>
+</entry>
+<entry><string>  </string><translation>.</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="86"/>
+		</references>
+</entry>
+<entry><string>New name for the script</string><translation>Nouveau nom pour le script</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="88"/>
+		</references>
+</entry>
+<entry><string>.php</string><translation>.php</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="92"/>
+		</references>
+</entry>
+<entry><string>Write Permissions</string><translation>Écrire les permissions</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="125"/>
+		</references>
+</entry>
+<entry><string>You are strongly advised to remove write access to html/var/config.system.php once the install has completed. This can be done on UNIX using the command</string><translation>Il vous est fortement recommandé de supprimer les droits d'écriture sur le fichier /html/var/config.system.php une fois l'installation achevée. Celà peut être fait sur UNIX grâce à la commande</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="129"/>
+		</references>
+</entry>
+<entry><string>chmod 444 config.system.php</string><translation>chmod 444 config.system.php</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="133"/>
+		</references>
+</entry>
+<entry><string>from within the html/var directory.</string><translation>à l'intérieur du répertoire html/var.</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="137"/>
+		</references>
+</entry>
+<entry><string>If you are feeling even more security conscious you could remove read access from those who don't need it: (substitute &quot;apache&quot; for the group your webserver runs as, probably one of apache, web, www or www-data)</string><translation>Si vous vous sentez encore plus concerner par la sécurité vous pouvez supprimer l'accès de lecture pour ceux qui en n'ont pas de besoin. (subtituer ''apache'' pour le groupe sur lequel votre serveur web s'éxécutem probablement un des apaches, web, wwww ou donnée-www.</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="141"/>
+		</references>
+</entry>
+<entry><string>chgrp apache config.system.php</string><translation>chgrp apache config.system.php</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="145"/>
+		</references>
+</entry>
+<entry><string>chmod 440 config.system.php</string><translation>chmod 440 config.system.php</translation>		<references>
+			<reference file="code/modules/installer/xartemplates/admin-security.xt" line="151"/>
+		</references>
+</entry>
+</translations>

@@ -1,0 +1,53 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Official Icon'] = 'Icône officiel';
+$xarML_PHPBackend_entries['Overview'] = 'Aperçu';
+$xarML_PHPBackend_entries['What is it?'] = 'Quest-ce que c\'est?';
+$xarML_PHPBackend_entries['The Modules module controls the installation, upgrade, and removal of modules on your Xaraya site. The module also lets you connect different modules via "hooks" to allow them to share functionality The Modules module is a core module within Xaraya and cannot be removed.'] = 'Le module des modules contrôle l\'installation, la mise à jour et la supression des modules sur votre site Xaraya. Le module vous liasse aussi connecter différents modules via \'\'les crochets\'\' pour leur permettre de partager la fonctionnalité. Le module des modules est un module du noyau dans Xaraya et ne peut pas être supprimer.';
+$xarML_PHPBackend_entries['Detail information on this module can be found'] = 'Les informations détaillées sur ce module peuvent être trouvé';
+$xarML_PHPBackend_entries['here'] = 'ici';
+$xarML_PHPBackend_entries['.'] = '.';
+$xarML_PHPBackend_entries['Concepts'] = 'Concepts';
+$xarML_PHPBackend_entries['Modules are self-contained building blocks that provide functionality. Xaraya comes with 10 so-called core modules that provide basic services. Further modules can be added and installed at any time. Modules generally focus on functionality in one area, such as content management, messaging, forums, calendaring etc. The ability to combine modules easily to achieve a desired overall result is a characteristic of Xaraya.'] = 'Les modules sont par eux-mêmes des blocs qui fournissent la fonctionnalité. Xaraya vient avec 10 modules surnomés \'\'de noyau\'\' qui fournissent des services de bases. D\'autres modules peuvent être ajoutés et installés à n\'importe quel moment. Les modules se concentrent habituellement sur la fonctionnalité d\'une zone, comme la gestion du contenu, l\'envoi de message, les forums, les calendriers, etc. L,habilité à combiner les modules facilement pour atteindre le résultat final souhaité est une caractéristique de Xaraya.';
+$xarML_PHPBackend_entries['Hooks are a way of sharing functionality across modules. Similar to the publish/subscribe functionality in other systems, each module can broadcast services it makes available, and other modules can use those services if they are hooked. For instance, hooking the Mail module to the Roles module will cause Xaraya to send an email to the site administrator on certain changes to users and groups.'] = 'Les crochets sont une façon de partager la fonctionnalité à travers les modules. Similaire à la fonctionnalité de publication/d\'abonnement dans autres systèmes, chaque module peut publié les services qu\'ils rendent disponibles, et les autres modules peut utiliser ces services s\'ils sont crochetés. Par example, crocheté le module du courrier au module des rôles fera que Xaraya envoyera un courriel à l\'administrateur du site lors de certains changements aux utilisateurs et aux groupes.';
+$xarML_PHPBackend_entries['Hooks are'] = 'Les crochets sont';
+$xarML_PHPBackend_entries['anonymous'] = 'anonyme';
+$xarML_PHPBackend_entries[': The modules providing and using the service(s) need know almost nothing about each other. Note that the order in which hook services are executed is not defined.'] = ':Les modules fournissant et utilisant le9s) service(s) n\'ont pas besoin de savoir grand chose l\'un de l\'autre. Noter que l\'ordre dans lequel les services de crochet sont exécutés n\'est pas défini.';
+$xarML_PHPBackend_entries['flexible'] = 'flexible';
+$xarML_PHPBackend_entries[': They can be applied to all or only some of the'] = ': Ils peuvent être appliqué à tous ou seulement certains de';
+$xarML_PHPBackend_entries['itemtypes'] = 'types d\'objets';
+$xarML_PHPBackend_entries['of the module receiving the service(s). See the DynamicData module for more information on itemtypes.'] = 'du module recevant le (s) service(s). Voir le module de donnée dynamique pour plus d\'information sur les types d\'objets.';
+$xarML_PHPBackend_entries['versatile'] = 'versatile';
+$xarML_PHPBackend_entries[': They can be activated or disabled at any time..'] = ': Ils peuvent être activé ou désactivé à n\'importe quel moment...';
+$xarML_PHPBackend_entries['The Admin interface'] = 'L\'interface de l\'Admin';
+$xarML_PHPBackend_entries['As an administrator, you can change the module\'s configuration by pointing your browser to the configuration page'] = 'En tant qu\'administrateur, vous pouvez changer la configuration du module en pointant votre navigateur dans la page de configuration.';
+$xarML_PHPBackend_entries['Admin Menu → Modules → Modify Configuration'] = 'Menu Admin → Modules → Modifier la configuration';
+$xarML_PHPBackend_entries['. The configuration page includes the standard display options common to all core modules (see the Base module overview for an explanation of these).'] = '.La page de configuration inclut les options d\'affichage commune à tous les modules de noyau (voir l\'aperçu du module de base pour une explication de ceux-ci)';
+$xarML_PHPBackend_entries['In addition, this module also supports the following configuration options:'] = 'En plus, ce module supporte aussi les options de configuration suivantes:';
+$xarML_PHPBackend_entries['Disable overviews:'] = 'Désactiver les aperçus:';
+$xarML_PHPBackend_entries[' If this option is active, the module overview page will not be displayed when going to the admin menu of a module.'] = 'Si cette option est active, la page d\'aperçu du module ne peut pas être affiché dans le menu admin d\'un module.';
+$xarML_PHPBackend_entries['Clicking on the'] = 'Cliquer sur le';
+$xarML_PHPBackend_entries['link in the Admin menu displays a list of all modules that are available, but not necessarily active and installed, in your Xaraya installation. Note that:'] = 'Un lien dans le menu Admin affiche une liste de tous les modules qui sont disponibles, mais pas nécessairement actifs et installés, dans votre installation Xaraya. Noter que:';
+$xarML_PHPBackend_entries['You can add more modules to this list at any time by adding them to your Xaraya modules directory and clicking the Reload button'] = 'Vous pouvez ajouter plus de modules à cette liste à n\'importe quel moment en les ajoutant au registre de  vos modules Xaraya et en cliquant le bouton actualiser.';
+$xarML_PHPBackend_entries['Modules must be installed and active to be available for use on your Xaraya site.
+You may also need to setup the appropriate privileges for your users to view or use the
+module (see Privileges and Roles modules).'] = 'Les modules peuvent être installés et activés afin d\'être disponibles pour utilisation sur votre site Xaraya. Vous pourriez aussi avoir de besoin de configurer les privilèges appropriés pour que vous utilisateurs peuvent voir ou utiliser le module (voir les modules Privilèges et Rôles).';
+$xarML_PHPBackend_entries['When installing a new version of an existing module, check its state and click on the "upgrade" link if it is shpw in order to run its upgrade routine. Modules in upgrade state are not available on your site until actually upgraded and set to active.'] = 'Quand vous installez une nouvelle version d\'un module existant, vérifier son état et cliquer sur le lien \'\'metrre à jour\'\' s\'il est affiché afin d\'éxécuter sa routine de mise à jour. Les modules dans l\'état de mise à jour ne sont pas disponibles sur votre site jusqu\'à ce qu\'ils soint mis à jour et ocnfigurer pour être actif.';
+$xarML_PHPBackend_entries['You cannot uninstall or deactivate core modules.'] = 'Vous ne pouvez pas désinstallé ou désactivé des modules du noyau';
+$xarML_PHPBackend_entries['There are a number of options with drop down selection lists for displaying your modules.'] = 'Il y a un nombre d\'options avec une sélection de liste déroulante pour afficher vos modules.';
+$xarML_PHPBackend_entries['displays the interface with icons or text links..'] = 'afficher l\'interface avec des icônes ou des liens de texte...';
+$xarML_PHPBackend_entries['View:'] = 'Voir:';
+$xarML_PHPBackend_entries['filters the modules to be listed. By default ALL modules are displayed.'] = 'filtrer les modules à être lister. Par défaut TOUT les modules sont affichés.';
+$xarML_PHPBackend_entries['Sort By:'] = 'Trier Par:';
+$xarML_PHPBackend_entries['defines the sort order for the module list.'] = 'définir l\'ordre de tri pour la liste de module.';
+$xarML_PHPBackend_entries['Hide'] = 'Cacher';
+$xarML_PHPBackend_entries[': removes the core modules from the display.'] = ': supprimer les modules du noyau de l\'affichage.';
+$xarML_PHPBackend_entries['link in the Admin menu lets you add extra functionality to modules by configuring hooks from one module to another.'] = 'Un lien dans le menu Admin vous laisse ajouter une fonctionnalité de plus en configurant les crochets d\'un module à un autre.';
+$xarML_PHPBackend_entries['Available Blocks'] = 'Blocs Disponibles';
+$xarML_PHPBackend_entries['The Modules module has no blocks'] = 'Les modules du module n\'a pas de blocs';
+$xarML_PHPBackend_entries['Available Dataproperties'] = 'Propriétés de données disponible';
+$xarML_PHPBackend_entries[': displays a list of modules of the site as a dropdown.'] = ': afficher une liste des modules du site comme une liste déroulante';
+$xarML_PHPBackend_entries['Available Hooks'] = 'Crochets Disponibles';
+$xarML_PHPBackend_entries['The Modules module has no hooks'] = 'Les modules du module n\'a pas de crochets';
+?>

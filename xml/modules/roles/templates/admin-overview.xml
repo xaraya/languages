@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+<entry><string>Official Icon</string><translation>Icône officiel</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="12"/>
+		</references>
+</entry>
+<entry><string>Overview</string><translation>Overview</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="18"/>
+		</references>
+</entry>
+<entry><string>What is it?</string><translation>What is it?</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="26"/>
+		</references>
+</entry>
+<entry><string>The Roles module lets you create and manage roles on your Xaraya site. Roles are
+representations of the site's registered users and the different groups they can belong to. The Roles module is a core module within Xaraya and cannot be removed.</string><translation>Le module des rôles vous laisse créer et gérer les rôles sur votre site Xaraya. Les rôles sont des représentations des utilisateurs enregistrés sur le site et des différents groupes auxquels ils appartiennent. Le module des rôles est un module du noyau qui fait partie de Xaraya et ne peut pas être supprimé.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="30"/>
+		</references>
+</entry>
+<entry><string>Detail information on this module can be found</string><translation>De l'information détaillée sur ce module peut être trouvée</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="34"/>
+		</references>
+</entry>
+<entry><string>Concepts</string><translation>Concepts</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="42"/>
+		</references>
+</entry>
+<entry><string>Roles represent</string><translation>Rôles représentés</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="50"/>
+		</references>
+</entry>
+<entry><string>and</string><translation>et</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="54"/>
+		</references>
+</entry>
+<entry><string>groups of users</string><translation>groupe d'utilisateurs</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="56"/>
+		</references>
+</entry>
+<entry><string>in Xaraya. Roles can be members of other roles, to any degree. You can, for instance, use roles to represent a company's organization chart, or class enrolements at a university.</string><translation>dans Xaraya. Les rôles peuvent être des membres d'autres rôles, à n'importe quel degré. Vous pouvez, par exemple, utiliser les rôles pour représenter une charte d'organisation d'une compagnie ou les enrôlements dUne classe à l'université.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="58"/>
+		</references>
+</entry>
+<entry><string>By assigning privileges to roles, you define what a given role may or may not do on the site. Moreover, roles inherit the privileges of their ancestors, so in assigning a role to a specific group, it automatically has the privileges common to the group. The inherited privileges can be supplemented or constrained by assigning further privileges directly to the role.</string><translation>En assignant les privilèges aux rôles, vous définissez ce qu'un rôle donné peut ou ne peut pas faire sur le site. En plus, les rôles héritent les privilèges de leurs ancêtres, alors en assignant un rôle à un groupe spécifique, cela rend le privilège automatiquement commun au groupe. Les privilèges hérités peuvent être augmenter ou restreint en assigannt plus de privilèges directement au rôle.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="62"/>
+		</references>
+</entry>
+<entry><string>Default Roles in Xaraya</string><translation>Default Roles in Xaraya</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="66"/>
+		</references>
+</entry>
+<entry><string>The roles on your site are arranged in a tree, at the top of which is a role called Everybody, which represents the &quot;group of all groups&quot; on your site. Every user and every group is a member or descendent of Everybody. The structure of the default roles that are installed with Xaraya is shown below:</string><translation>Les rôles de votre site sont arrangés dans un arbre, au dessus- duquel il y  a un rôle appelé Tout le monde, qui représentent le ''groupe de tous les groupes'' sur votre site. Chaque utilisateur et chaque groupe est un membre ou un descendant de tout le monde. La structure des rôles par défaut qui sont installés avec Xaraya est affiché ci-dessous.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="70"/>
+		</references>
+</entry>
+<entry><string>Everybody (group)
+|
+|---Anonymous (user)
+|
+|---Administrators (group)
+| |
+| |---Admin (user)
+|
+|---SiteManagers (group)
+| |
+| |---SiteManager (user)
+|
+|---Users (group)</string><translation>Tout le monde (groupe) | |--Anonyme (groupe) | |-- Administrateurs  (groupe) | | | |---Admin (utilisateur) | |--- Gestionnaires de site (groupe) | | | |--- Gestionnaires de site (utilisateur) | |--- Utilisateurs (groupe)</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="74"/>
+		</references>
+</entry>
+<entry><string>At installation time you are asked to choose a configuration that affects preinstalled
+privileges assigned to the default roles. The privileges can be changed after installation.
+The default roles and minimum privileges at installation time are.</string><translation>Au moment de l'installation vous vous verrez demander de choisir une configuration qui affecte les privilèges préinstallés assignés au rôles par défaut. Les privilèges peuvent être changer après l'installation. Les rôles par défaut et les privilèges minimum aux moment de l'installation sont.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="78"/>
+		</references>
+</entry>
+<entry><string>Everybody:</string><translation>Everybody:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="86"/>
+		</references>
+</entry>
+<entry><string> the role containing all other roles. The access privileges are defined by the configuration chosen.</string><translation>le rôle contient tous les autres rôles. Les privilèges d'accès sont définispar la configuration choisie.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="88"/>
+		</references>
+</entry>
+<entry><string>Anonymous:</string><translation>Anonymous:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="94"/>
+		</references>
+</entry>
+<entry><string> a user that represents the unregistered users on your site. The access privileges are defined by the configuration chosen. This role can be initially configured with privileges only to access the front page of the site and the login block.</string><translation>un utilisateur qui représente les utilisateurs non enregistrés de votre site. Les privilèges d'accès sont définis par la configuration choisie. Ce rôle peut être configuré intialement avec des privilèges seulement pour accéder à la page d'accueil du site et le bloc de connexion.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="96"/>
+		</references>
+</entry>
+<entry><string>Administrators:</string><translation>Administrators:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="102"/>
+		</references>
+</entry>
+<entry><string> a group that has administration privileges. By default it has complete access to the site.</string><translation>Un groupe qui a des privilèges d'administration. Par défaut il a un accès complet au site.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="104"/>
+		</references>
+</entry>
+<entry><string>Admin:</string><translation>Admin:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="110"/>
+		</references>
+</entry>
+<entry><string> a member of Administrators. This is the Admin role you create with the Xaraya installer. It inherits the privileges of its parent group.</string><translation>un membre des administrateurs. Cela esr le rôle d'admin que vous avez crée avec l'installeur Xaraya. Il hérite des privilèges du groupe parent.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="112"/>
+		</references>
+</entry>
+<entry><string>SiteManagers:</string><translation>SiteManagers:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="118"/>
+		</references>
+</entry>
+<entry><string> a group that has DELETE privileges. The members of this group can modify, add and delete data throughout the site, but are barred from changing the configuration settings of modules.</string><translation>un groupe qui a des privilèges de suppression. Les membres de ce groupe peuvent modifier, ajouter et supprimer les données à travers le site, mais sont barrer de changer la configuration des paramètres des modules.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="120"/>
+		</references>
+</entry>
+<entry><string>SiteManager:</string><translation>SiteManager:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="126"/>
+		</references>
+</entry>
+<entry><string> a member of SiteManagers. This is the default SiteManager role you create with the Xaraya installer. It inherits the privileges of its parent group.</string><translation>un membre des gestionnaires du site. Ceci est le rôle de gestionnaire du site par défaut que vous créez avec l'installeur Xaraya. Il hérite des privilèges de son groupe parent</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="128"/>
+		</references>
+</entry>
+<entry><string>Users:</string><translation>Users:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="134"/>
+		</references>
+</entry>
+<entry><string> a group that normally holds registered users of the site. N.B.: this role does not come preconfigured with any privileges.</string><translation>un groupe qui normalement contient les utilisateurs enregistrés du site. N.B. ce rôle ne vient pas pré ocnfiguré avec des privilèges.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="136"/>
+		</references>
+</entry>
+<entry><string>Its members will not have access to the site until you assign some privileges.</string><translation>Ces membres n'auront pas accès au site avant que vous assigner quelques privilèges.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="138"/>
+		</references>
+</entry>
+<entry><string>To reduce the risk of inadvertent damage Xaraya places constraints on how preconfigured roles can be changed or removed. However, you can define as many more roles in the tree as you wish in whatever configuration you choose.</string><translation>Pour réduire le risque de dommage par inadvertance Xaraya place des restrictions sur comment pré configuré les rôles peuvent être changé et supprimé. Cependant, vous pouvez définir autant de rôles dans l'arbre que vous le souhaitez et n'importe quelle configuration que vous choissez.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="146"/>
+		</references>
+</entry>
+<entry><string>Designated Site Administrator</string><translation>Designated Site Administrator</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="150"/>
+		</references>
+</entry>
+<entry><string>The designated site admin is a role that is distinguished among others. Xaraya keepts track fo this role's ID, and its value can be retrieved at any time through a special module variable:</string><translation>L'admin du site désigné est un rôle qui se distingue des autres. Xaraya garde trace de ces identifiants de rôles et sa vlaeur peut être retrouvée à n'importe quel moment à travers une variable spécial de module.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="154"/>
+		</references>
+</entry>
+<entry><string>xarModVars::get('roles', 'admin')</string><translation>xarModVars::get('roles', 'admin')</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="156"/>
+		</references>
+</entry>
+<entry><string>The designated site admin is used in several places in Xaraya for privileged access. It can be thought of as the &quot;root&quot; user of a Xaraya site and is by convention a member of the Administrator's group (although Xaraya places no restriction on which user can be the designated site admin.</string><translation>L'admin du site désigné est utilisé dans plusieurs endroits dans Xaraya pour un accès privilégier. Il peut être considérer comme un utilisateur ',racine'' du site de Xaraya et est par convention un membre du groupe des administrateurs (même si Xaraya ne place aucune restriction sur quel utilisateur peut être désigné comme admin du site.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="158"/>
+		</references>
+</entry>
+<entry><string>The Admin interface</string><translation>The Admin interface</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="162"/>
+		</references>
+</entry>
+<entry><string>As an administrator, you can change the module's configuration by pointing your browser to the configuration page</string><translation>Comme administrateurs vous pouvez changer la configuration du module en pointant votre navigateur dans la page de configuration</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="166"/>
+		</references>
+</entry>
+<entry><string>Admin Menu → Roles → Modify Configuration</string><translation>Menu Admin  →Rôles → Modifier la configuration</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="168"/>
+		</references>
+</entry>
+<entry><string>. The configuration page includes the standard display options common to all core modules (see the Base module overview for an explanation of these).</string><translation>La page de configuration inclut les options d'affichage standard communes à tout les modules du noyau (voir l'aperçu du module de base pour une expliaction de ceux-ci).</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="170"/>
+		</references>
+</entry>
+<entry><string>In addition, this module also supports the following configuration options:</string><translation>En plus, ce module supporte aussi les options de configuration suivante:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="174"/>
+		</references>
+</entry>
+<entry><string>Designated site administrator:</string><translation>Designated site administrator:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="180"/>
+		</references>
+</entry>
+<entry><string> defines a &quot;root&quot; administrator for the site who is guaranteed to have unrestricted access at all times. The designated site admin is by definition a member of the Administrators group.</string><translation>défini comme un administrateur ''racine'' pour ce site qui est garanti d'avoir un accès sans restrictions à n'importe quel moment. L'admin désigné du site est par définition un membre du groupe d'administrateurs.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="182"/>
+		</references>
+</entry>
+<entry><string>Default group for new users:</string><translation>Default group for new users:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="188"/>
+		</references>
+</entry>
+<entry><string> When creating new users on the site they will automatically be made members of this group, unless specifically overridden.</string><translation>Quand vous créer de nouveaux utilisateurs ils seront automatiquement reconnu comme membres de ce groupe, à moins spécifiquement remplacer.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="190"/>
+		</references>
+</entry>
+<entry><string>Authentication module:</string><translation>Authentication module:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="196"/>
+		</references>
+</entry>
+<entry><string> defines the module to be used when users log in to the site. The default is the core Authsystem module.</string><translation>définir le module à être utilisé quand les utilisateurs se connectent au site. Par défaut c'est le module Authsyst</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="198"/>
+		</references>
+</entry>
+<entry><string>Registration module:</string><translation>Registration module:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="204"/>
+		</references>
+</entry>
+<entry><string> defines the module to be used for registering new users.</string><translation>définir le module à être utilisé pour enregistré les nouveaux utilisateurs.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="206"/>
+		</references>
+</entry>
+<entry><string>User variables:</string><translation>User variables:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="212"/>
+		</references>
+</entry>
+<entry><string> Common variable such as Last Login, User Home Page, Last Password Update and Timezone can be activated for roles as needed.</string><translation>Variable commune tel que la dernière connexion, la page d'accueil de l'utilisateur, la dernière mise à jour du mot de passe et le fuseau horraire peuvent être activés pour les rôles au besoin.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="214"/>
+		</references>
+</entry>
+<entry><string>User hooks:</string><translation>User hooks:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="220"/>
+		</references>
+</entry>
+<entry><string> access to user hooks defined for roles in the dynamicdata module..</string><translation>accès aux crochets d'utilisateur définis pour les rôles dans le module de données dynamique du module...</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="222"/>
+		</references>
+</entry>
+<entry><string>Account options:</string><translation>Account options:</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="228"/>
+		</references>
+</entry>
+<entry><string> various configurations pertaining to managing and displaying users' accounts.</string><translation>configurations variés qui permettent autant de gérer que d'afficher les comptes d'utilisateurs.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="230"/>
+		</references>
+</entry>
+<entry><string>Clicking on the</string><translation>Cliquer sur le</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="238"/>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="246"/>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="254"/>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="262"/>
+		</references>
+</entry>
+<entry><string>Groups &amp; Users</string><translation>Groups &amp; Users</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="240"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu displays a tabbed interface to roles listings with a variety of display options. You can also add users and groups from this view, delete or modify users, and assign and test their privileges, and view them by various sorting and selection criteria.</string><translation>Un lien dans le menu Admin affiche une interface étiquettée dans une liste de rôles avec une variété d'options d'affichage. Vous pouvez aussi ajouter des utilisateurs et des groupes de cet aperçu, supprimer ou modifier des utilisateurs et tester leurs privilèges, et les voir en utilisant des tris variés et des critères de sélection.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="242"/>
+		</references>
+</entry>
+<entry><string>Messaging</string><translation>Messaging</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="248"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu lets you configure email notifications to users on registration, change of passwords, and account activation, including template customization. You can also email groups of users from this view.</string><translation>Un lien dans le menu Admin vous laisse configurer les notifications par courriel aux utilisateurs lors de l'enregistrement, du changement de mot de passe et l'activation de compte, incluant une personnalisation de modèle. Vous pouvez aussi envoyer un courriel aux utilsateurs à partir de cet aperçu.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="250"/>
+		</references>
+</entry>
+<entry><string>Recall/Purge</string><translation>Recall/Purge</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="256"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu lets you recover users or groups that have been deleted, or purge them for good from the system.</string><translation>Un lien dans le menu Admin vous laisse remettre des utilisateurs ou des groupes qui ont été supprimés, ou les purger pour de bon du système</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="258"/>
+		</references>
+</entry>
+<entry><string>link in the Admin menu lets you lock your site to registration or login during maintenance or updates.</string><translation>Un lien dans le menu Admin vous laisse vérouiller votre site pour l'enregistrement ou la connexion durant la maintenance ou les mise à jour.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="266"/>
+		</references>
+</entry>
+<entry><string>Available Blocks</string><translation>Blocs disponibles</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="270"/>
+		</references>
+</entry>
+<entry><string>Language Block</string><translation>Language Block</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="278"/>
+		</references>
+</entry>
+<entry><string>: allows user to select the language the site displays in to him/her</string><translation>permet à l'utilisateur de délectionner la langage d'affichage pour lui/elle</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="280"/>
+		</references>
+</entry>
+<entry><string>Online Block</string><translation>Online Block</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="286"/>
+		</references>
+</entry>
+<entry><string>: shows information on the number visiting your site right now</string><translation>: afficher l'information de combien visitent votre site en ce moment même</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="288"/>
+		</references>
+</entry>
+<entry><string>User Block</string><translation>User Block</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="294"/>
+		</references>
+</entry>
+<entry><string>: displays information on the current user's profile</string><translation>: afficher l'informtaion du profile de l'utilisateurs actuel</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="296"/>
+		</references>
+</entry>
+<entry><string>Available Dataproperties</string><translation>propriétés de données disponibles</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="302"/>
+		</references>
+</entry>
+<entry><string>Affero</string><translation>Affero</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="310"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays a user's Affero user name.</string><translation>accepter comme entrée, ou afficher le nom d'utilisateur d'un utilisateur Affero</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="312"/>
+		</references>
+</entry>
+<entry><string>AIM</string><translation>AIM</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="318"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays a user's AIM user name.</string><translation>accepter comme entrée, ou afficher le nom d'utilisateur d'un utilisateur AIM.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="320"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays an email address.</string><translation>accepter comme entrée, ou afficher une addresse de courriel.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="328"/>
+		</references>
+</entry>
+<entry><string>Grouplist</string><translation>Grouplist</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="334"/>
+		</references>
+</entry>
+<entry><string>: displays a list of groups of the site as a dropdown.</string><translation>Afficher une liste des groupes sur le site comme liste déroulante.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="336"/>
+		</references>
+</entry>
+<entry><string>ICQ</string><translation>ICQ</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="342"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays an ICQ user address.</string><translation>accepter comme entrée, ou afficher une addresse d'utilisateur ICQ</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="344"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays a user's display name.</string><translation>accepter comme entrée, ou afficher le nom d'utilisateur</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="352"/>
+		</references>
+</entry>
+<entry><string>: accepts a password as input.</string><translation>accepter un mot de passe comme entrée</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="360"/>
+		</references>
+</entry>
+<entry><string>Rolestree</string><translation>Rolestree</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="366"/>
+		</references>
+</entry>
+<entry><string>: displays a tree of groups and users.</string><translation>Afficher un arbre des groupes et des utilisateurs.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="368"/>
+		</references>
+</entry>
+<entry><string>Social Profile</string><translation>Social Profile</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="374"/>
+		</references>
+</entry>
+<entry><string>: manages a user's profile on social network sites.</string><translation>gérer un profile d'utilisateur sur des sites de réseaux sociaux.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="376"/>
+		</references>
+</entry>
+<entry><string>Userlist</string><translation>Userlist</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="382"/>
+		</references>
+</entry>
+<entry><string>: displays a list of users of the site as a dropdown.</string><translation>afficher une liste des utilisateurs du site comme liste déroulante</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="384"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays a user's user name.</string><translation>accepter comme entrée, ou afficher le nom d'utilisateur d'un utilisateur</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="392"/>
+		</references>
+</entry>
+<entry><string>Yahoo</string><translation>Yahoo</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="398"/>
+		</references>
+</entry>
+<entry><string>: accepts as input or displays a Yahoo user address.</string><translation>accepter comme entrée, ou afficher une addresse d'utilisateur yahoo</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="400"/>
+		</references>
+</entry>
+<entry><string>Available Hooks</string><translation>Crochets disponibles</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="406"/>
+		</references>
+</entry>
+<entry><string>Search Hook</string><translation>Search Hook</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="414"/>
+		</references>
+</entry>
+<entry><string>: allows user to search the content of the Roles module. This hook is known to be used by the Search module (a non-core module).</string><translation>: permet aux utilisateurs de rechercher le contenu du module des Rôles. Ce crochet est connu pour être utiliser par le module de recherche (un module qui ne fait pas partie du noyau).</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="416"/>
+		</references>
+</entry>
+<entry><string>Usermenu Hook</string><translation>Usermenu Hook</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="422"/>
+		</references>
+</entry>
+<entry><string>: lets other modules that hook into the Roles module display content in the current user's account page. This hook is used by e.g. the Themes module, allowing the user to define the theme for the site to display in. When the Roles module is hooked into itself, it lets the user edit his/her profile.</string><translation>: laisse les autres modules qui se crochètent dans le module des rôles afficher du contenu dans la page de compte de l'utilisateur actuel. Ce crochet est utilisé par e.x. le module des thèmes, permettant à l'utilisateur de définir le thème dans lequel le site affichera. Quand le module des rôles est crocheter dans lui-même, il laisse l'utilisateur modifier son profile.</translation>		<references>
+			<reference file="code/modules/roles/xartemplates/admin-overview.xt" line="424"/>
+		</references>
+</entry>
+</translations>

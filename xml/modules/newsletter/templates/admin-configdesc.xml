@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>The Newsletter module allows an individual or organization to compile and distribute news and research updates to interested parties via email.  This module gives writers, editors, and publishers a comprehensive process to easily assemble the stories for a newsletter and subsequently publish the information to a subscription base.</string>
+		<translation>Le module de Newsletters permet à un particulier ou une organisation de diffuser des informations par email. Ce module fourni aux éditeurs, rédacteurs en chef et rédacteurs un processus complet pour assembler facilement les articles pour une lettre d'information et par la suite de diffuser les informations à une base d'abonnés.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;  This overview is focused on the administrative tasks that must be performed before a publication can be created.  For an overview of Newsletter, please refer to the overview in the main menu.</string>
+		<translation>&lt;b&gt;Note :&lt;/b&gt; Cette vue d'ensemble se focalise sur les tâches administratives qui doivent être effectuées avant de pouvoir créer un nouveau type de newsletter. Pour une vue d'ensemble du module Newsletter, merci de se référer à la vue d'ensemble du menu principal.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="35" />
+		</references>
+	</entry>
+	<entry>
+		<string>As the module administrator, you will need to complete the following steps before you can start using the Newsletter module:</string>
+		<translation>En tant qu'administrateur du module, vous devrez effectuer les étapes suivantes avant de pouvoir commencer à utiliser le module Newsletter :</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>1.  Configure Roles and Privileges</string>
+		<translation>1. Configuration des Roles et Privilèges</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="41" />
+		</references>
+	</entry>
+	<entry>
+		<string>As the module administrator, you must configure the necessary roles and privileges for the Newsletter publishers, editors and writers.  You can create the groups and privileges manually or can you use the adminstration modify configuration menu to easily create the default groups and privileges.  After these groups and privileges have been created, you can then add a user to the publisher, editor or writer group.</string>
+		<translation>En tant qu'administrateur du module, vous devez configurer les roles et privilèges nécessaires aux rédacteurs, auteurs et éditeurs de newsletters. Vous pouvez créer les groupes et privilèges manuellement ou vous pouvez utiliser le menu de modification de la configuration de l'administration pour créer facilement les groupes et privilèges par défaut. Une fois les groupes et privilèges créés, vous pouvez alors ajouter un utilisateur au groupe auteurs, rédacteurs ou éditeurs.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="43" />
+		</references>
+	</entry>
+	<entry>
+		<string>To add the groups and privileges, select Modify Configuration from the Newsletter administration menu.  By default, the groups are assigned to the Everybody role.  You can select the default groups and privileges to be created or you can set which role to assign these groups and change the default privilege for each group.</string>
+		<translation>Pour ajouter les groupes et privilèges, sélectionnez &quot;Modifier la configuration&quot; dans le menu d'administration de Newsletter. Par défaut, les groupes sont assignés au role Everybody (tout le monde). Vous pouvez sélectionner les groupes et privilèges par défaut à créer ou vous pouvez définir quel role doit être assigné aux groupes et changer le privilège par défaut pour chaque groupe.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;NewsletterPublisher&lt;/b&gt; (AdminNewsletter privilege)</string>
+		<translation>&lt;b&gt;Editeur&lt;/b&gt; (privilège AdminNewsletter)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="49" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can create, edit and delete stories, issues, publications and subscriptions.  Can set configuration for the information block.  Can publish issues.</string>
+		<translation>Peut créer, éditer et effacer des articles, newsletters, types de newsletters et abonnements. Peut définir la configuration du block d'information. Peut publier des newsletters.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="51" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;NewsletterEditor&lt;/b&gt; (DeleteNewsletter privilege)</string>
+		<translation>&lt;b&gt;Redacteur en chef&lt;/b&gt; (privilège DeleteNewsletter)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="52" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can create, edit and delete stories or issues.  Cannot publish issues.</string>
+		<translation>Peut créer, éditer et supprimer des articles ou des newsletters. Ne peut pas publier des newsletters.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="54" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;NewsletterWriter&lt;/b&gt; (AddNewsletter privilege)</string>
+		<translation>&lt;b&gt;Redacteur&lt;/b&gt; (privilège AddNewsletter)</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="55" />
+		</references>
+	</entry>
+	<entry>
+		<string>Can add, edit or delete stories.  Cannot publish issues.</string>
+		<translation>Peut ajouter, éditer et supprimer des articles. Ne peut pas publier des newsletters.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="57" />
+		</references>
+	</entry>
+	<entry>
+		<string>Once the groups and privileges are created, you do not need to modify the admin configuration unless you want to change the privilege of a group.</string>
+		<translation>Quand les groupes et privilèges sont créés, vous n'avez plus besoin de modifier la configuration de l'administration à moins de vouloir changer les privilèges d'un groupe.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>2.  Add a Newsletter user</string>
+		<translation>2. Ajouter un utilisateur à Newsletter</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="63" />
+		</references>
+	</entry>
+	<entry>
+		<string>After the Newsletter groups and privileges have been successfully created, you can add users to these groups.  Select &quot;Add Newsletter User&quot; from the Newsletter administration menu to add a user.   Once a user has been added to the appropriate group, that user will have writer, editor or publisher privileges and will be able to start creating content for a publication.</string>
+		<translation>Une fois les groupes et privilèges créés, vous pouvez ajouter des utilisateurs à ces groupes. Choisissez &quot;Ajouter un utilisateur à Newsletter&quot; dans le menu d'administration de Newsletter pour ajouter un utilisateur. Quand un utilisateurs a été ajouté au groupe approprié, cet utilisateur hérite des privilèges d'auteur, rédacteur ou éditeur et est en mesure de commencer à créer du contenu pour un type de newsletter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="65" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;  You will not be able to create a publication until at least one user is added to the Newsletter Publisher group.</string>
+		<translation>&lt;b&gt;Note :&lt;/b&gt; Vous ne pouvez créer un type de newsletter tant qu'au moins un utilisateur n'a été ajouté au groupe Editeur de Newsletter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="67" />
+		</references>
+	</entry>
+	<entry>
+		<string>3.  Add publication and story categories</string>
+		<translation>3. Ajouter des catégories de type de newsletter et d'articles</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="71" />
+		</references>
+	</entry>
+	<entry>
+		<string>When the module is first activated, a category named &quot;Newsletter&quot; is created.  You must create sub-categories of this master category before a publication can be created.   Each sub-category of &quot;Newsletter&quot; will be a publication category.  Under each publication category, you will want to create another set of categories corresponding to the story categories for each publication.</string>
+		<translation>Lors de la première activation du module, une catégorie &quot;Newsletter&quot; est créée. Vous devez créer des sous-catégories de cette catégorie principale avant de pouvoir créer des types de newsletter. Chaque sous-catégories de &quot;Newsletter&quot; sera une catégorie de type de newsletter. Sous chaque catégorie de type de newsletter, vous voudrez créer un autre jeu de catégories correspondant aux catégories d'articles pour chaque type de newsletter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="73" />
+		</references>
+	</entry>
+	<entry>
+		<string>For example:</string>
+		<translation>Par exemple :</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="75" />
+		</references>
+	</entry>
+	<entry>
+		<string>master category</string>
+		<translation>catégorie principale</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="81" />
+		</references>
+	</entry>
+	<entry>
+		<string>Learning Differences</string>
+		<translation>Différences d'apprentissage</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="86" />
+		</references>
+	</entry>
+	<entry>
+		<string>publication category</string>
+		<translation>Categorie de tupe de newsletter</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="87" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="116" />
+		</references>
+	</entry>
+	<entry>
+		<string>LD Experts in the News</string>
+		<translation>Expert en nouveautés</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="92" />
+		</references>
+	</entry>
+	<entry>
+		<string>story category</string>
+		<translation>catégorie d'article</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="93" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="99" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="105" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="111" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="122" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="128" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="134" />
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="140" />
+		</references>
+	</entry>
+	<entry>
+		<string>Education / Schools</string>
+		<translation>Education / Ecoles</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="98" />
+		</references>
+	</entry>
+	<entry>
+		<string>Successful People</string>
+		<translation>Successful People</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="104" />
+		</references>
+	</entry>
+	<entry>
+		<string>Controversial Treatment</string>
+		<translation>Traitements controversés</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="110" />
+		</references>
+	</entry>
+	<entry>
+		<string>Internet Technology</string>
+		<translation>Technologie Internet</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="115" />
+		</references>
+	</entry>
+	<entry>
+		<string>Design and Architecture</string>
+		<translation>Design et Architecture</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="121" />
+		</references>
+	</entry>
+	<entry>
+		<string>Emerging Technologies</string>
+		<translation>Technologies émergeantes</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="127" />
+		</references>
+	</entry>
+	<entry>
+		<string>Networks and Infrastructure</string>
+		<translation>Reseaux et Infrastructure</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="133" />
+		</references>
+	</entry>
+	<entry>
+		<string>Standards and Practices</string>
+		<translation>Standards et Pratiques</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="139" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;Note:&lt;/b&gt;  The stories within a publication will ordered in the same order as the story categories, so place the story categories accordingly.</string>
+		<translation>&lt;b&gt;Note :&lt;/b&gt; Les articles d'un type de newsletter seront mis dans l'ordre des catégories d'article, donc il faut trier les catégories d'article en conséquence.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="144" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Blocks</string>
+		<translation>Blocks inclus</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="150" />
+		</references>
+	</entry>
+	<entry>
+		<string>The following blocks are included:</string>
+		<translation>Les blocks suivant sont inclus :</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="154" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;b&gt;information&lt;/b&gt; - This block provides the following:</string>
+		<translation>&lt;b&gt;information&lt;/b&gt; - Ce block fourni :</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="156" />
+		</references>
+	</entry>
+	<entry>
+		<string>- General information about the publications that a user can subscribe to.  This information is created in the Newsletter user modify configuration screen in the text fields &quot;Publisher or Company Name&quot; and &quot;Information about Newsletter&quot;</string>
+		<translation>- une information générale sur les types de newsletter auxquels un utilisateur peut s'abonner. Cette information est créée dans l'écran de modification de la configuration de l'utilisateur de Newsletter, dans le champ texte &quot;Editeur ou nom de la société&quot; et &quot;Information à propos de Newsletter&quot;</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="157" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows non-registered users to view past issues.</string>
+		<translation>- la possibilité pour les utilisateurs non enregistrés pour voir les anciennes newsletters.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="158" />
+		</references>
+	</entry>
+	<entry>
+		<string>- Allows logged in users to modify their subscription(s) to the publications.</string>
+		<translation>- la possibilité pour les utilisateurs enregistrés de modifier leur(s) abonnement(s) aux types de newsletter.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>Included Hooks</string>
+		<translation>Crochets inclus</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="165" />
+		</references>
+	</entry>
+	<entry>
+		<string>Newsletter provides all the necessary hooks to be present within other modules.  But these hooks have not been thoroughly tested.</string>
+		<translation>Newsletter fourni tous les crochets nécessaires pour être présent à l'interieur d'autres modules. Mais ces crochets n'ont pas encore été testés de manière approfondies.</translation>
+		<references>
+			<reference file="modules/newsletter/xartemplates/admin-configdesc.xd" line="169" />
+		</references>
+	</entry>
+</translations>

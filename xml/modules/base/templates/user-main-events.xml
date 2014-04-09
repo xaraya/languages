@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+<entry><string>EventSystem Scenario</string><translation>Scénario du Système d'Événement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="22"/>
+		</references>
+</entry>
+<entry><string>The event system is used by packages of Xaraya to trigger certain events in the system. These events are dispatched to the active modules which may define special functions that can act on those events.</string><translation>Le système d'événement est utilisé par les paquets de Xaraya pour cibler certains événements dans le système. Ces événement sont envoyés au modules actifs qui pourraient définir les fonctions spéciales qui peuvent agir sur ces événements.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="26"/>
+		</references>
+</entry>
+<entry><string>NOTE: The event system is distinct from hooks in that events belonging to the event system are guaranteed to happen, unlike hooks which may, or may not have been configured by the site administrator.</string><translation>Note: Le système d'événement est distinct des crochets dans ces événements appartenant au système d'événement sont garantis d'arriver, contrairement aux crochets qui peuvent ou ne peuvent pas être configurer par l'administrateur du site.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="30"/>
+		</references>
+</entry>
+<entry><string>The Xaraya event system as it currently stands deals with system level events. That is events which happen during loading of the core.</string><translation>Le système d'événement Xaraya comme il est présentement avec les événements au niveau du système. C'est à dire les événements qui arrivent durant le chargement du noyau.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="62"/>
+		</references>
+</entry>
+<entry><string>The Xaraya hook system as it currently stands deals with module level events. That is events which happen during the course of a modules operation.</string><translation>Le système de crochet Xaraya tel qu'il est présentement gére les événements au niveau du module. C'est à dire les événements qui arrivent durant le cours d'opération du module.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="66"/>
+		</references>
+</entry>
+<entry><string>The *only* difference between the two systems is that events are guaranteed to be notified to all observers, regardless of intervention by the Xaraya admin, whereas hooks can be configured in the UI.</string><translation>La ''seule'' différence entres les deux systèmes est que les événements sont garantis d'être notifiés à tous les observateurs peut importe l'intervention de l'admin de Xarayaoù les crochets peuvent être configurés dans le UL</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="70"/>
+		</references>
+</entry>
+<entry><string>That difference boils down to where the list of observers comes from. For the event system itself, that is all observers it knows about for the signalled event, and for hooks it is all modules hooked to a given module/itemtype with an observer for the signalled event (hook scope/type).</string><translation>La différence en revient à d'où vient la liste des observateurs. Pour le système d'événement lui-même, c'est tout ce que l'observateur sait de cet événement signalé, et pour les crochets et tous les modules crochetés pour un module/type d'objet donnée avec l'obsevateur pour l'événement signalé (crochet type)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="74"/>
+		</references>
+</entry>
+<entry><string>The workflow is as follows for both system, it conforms to a standard subject/observer pattern.</string><translation>Le déroulement des opérations est comme ceci pour les deux systèmes, il est conforme au modèle de sujet/observateur standard.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="78"/>
+		</references>
+</entry>
+<entry><string>Event (subject) is raised by caller (xarEvents::notify() or xarModCallHooks())</string><translation>Événement (sujet) est élevé par l'appelant  (xarEvents::notify() ou xarModCallHooks())</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="83"/>
+		</references>
+</entry>
+<entry><string>Listeners (observers) are retrieved and notified</string><translation>Les gens qui écoutent (observateurs) sont retrouvés et notifiés</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="87"/>
+		</references>
+</entry>
+<entry><string>Response is returned to caller</string><translation>La réponse est retournée à l'appelant</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="91"/>
+		</references>
+</entry>
+<entry><string>Aims</string><translation>Programmer</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="96"/>
+		</references>
+</entry>
+<entry><string>Replace the underlying code with a solid api.</string><translation>Remplacer le code souligné avec une api solide.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="102"/>
+		</references>
+</entry>
+<entry><string>Provide a means for other systems using the same pattern (eg, hooks) to leverage and/or extend that api with minimal code.</string><translation>Fournit une signification aux autres systèmes utilisant le même modèle (ex crochets) pour mettre à niveau et/ou étendre cette api avec un code minimal.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="106"/>
+		</references>
+</entry>
+<entry><string>Event System</string><translation>Système d'Événement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="112"/>
+		</references>
+</entry>
+<entry><string>In order for the event system to function it needs to know two things.</string><translation>Afin que le système d'événement fonctionne il a besoin de savoir deux choses</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="116"/>
+		</references>
+</entry>
+<entry><string>The list of subjects available</string><translation>La liste des sujets disponibles</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="122"/>
+		</references>
+</entry>
+<entry><string>The list of observers available for those subjects</string><translation>La liste des observateurs disponibles pour ces sujets</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="126"/>
+		</references>
+</entry>
+<entry><string>In the existing system, subjects are registered on the fly during page load, and observers are obtained from a config var, which is itself generated by looking for specific files and functions in the file system.</string><translation>Dans le système existant, les sujets sont enregistrés sur le vif durant le chargement de la page, et les observateurs sont obtenus d'une variable de configuration, laquelle est générée elle-même en regardant des fichiers spécifiques et les fonctions dans le système de fichier.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="132"/>
+		</references>
+</entry>
+<entry><string>In the new system, a db table is provided, and both subjects and observers are registered during module init. Because subjects and observers share the same properties, they can co-exist in the same table by each belonging to a distinct itemtype.</string><translation>Dans le nouveau système une table db est fournie, et les deux sujets et les observateurs sont enregistrés durant l'unité module. Parce ques les sujets et les observateurs partagent les mêmes propriétés, il speuvent co-exister dans la même table par chaque apparteient à un type d'objet distint.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="136"/>
+		</references>
+</entry>
+<entry><string>Subjects</string><translation>Sujets</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="140"/>
+		</references>
+</entry>
+<entry><string>In the existing system, subjects are registered on the fly, they only indicate an event exists, and provide no other information to the event system.</string><translation>Dans le système existant, les sujets sont enregistrés sur le vif, ils indiquent seulement un événement existant, et fournit aucune autre information à un système d'évenement.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="144"/>
+		</references>
+</entry>
+<entry><string>In the new system, subjects are registered into the db. Not only do they indicate an event exists, they serve as a pointer to a file in the file system. This file can be thought of as the event definition. The subject file must exist and its whereabouts must be registered in the event system. It is the responsibility of the event subject to supply any additional information needed by it's observers, eg as arguments, class properties, or methods.</string><translation>Dans le nouveau système, les fichiers sont enregistrés dans le db. Non seulement ils indiquent qu'un événement existe, ils servent comme un pointeur dans un fichier dans le système de fichier. Ce fichier peut être pensé comme une définition d'événement. Le fichier de sujet doit exister et où il se situe doit être enregistré dans le système de fichier. C'est la responsabilité du sujet de l'événement de fournir des informations additionnelles dont les observateurs ont de besoin, ex comme arguments, les propriétés de classe, ou les méthodes.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="148"/>
+		</references>
+</entry>
+<entry><string>In both systems each event must be unique.</string><translation>dans les deux systèmes chaque événement doit être unique.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="152"/>
+		</references>
+</entry>
+<entry><string>Registering Subjects</string><translation>Sujets Enregistrés</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="156"/>
+		</references>
+</entry>
+<entry><string>When registering a subject the following function is called</string><translation>Lors de la registration d'un sujet la fonction suivante est appelée</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="160"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerSubject($event,$scope,$module,$area='class',$type='eventsubjects',$func='notify')
+The parameters define the event name and where the event system will look for the subject file
+@event, string, name of the event, required, must be unique
+@scope, string, the scope of the event (Server, Session, Module, User, Item, etc, etc..), required
+@module, string, the name of the module the file can be found in, required
+@area, string, the area in which the file can be found, either api or class, default class
+@type, string, if area is api the type of api function (user, admin, etc) or
+if area is class the name of a subfolder in /module/class/, default eventsubjects
+@func, string, if area is api, the name of the function to call, defaults to strtolower(event)
+if area is class, the name of the method to call, default is notify</string><translation>xarEvents::registerSubject($event,$scope,$module,$area='class',$type='eventsubjects',$func='notify') The parameters define the event name and where the event system will look for the subject file @event, string, name of the event, required, must be unique @scope, string, the scope of the event (Server, Session, Module, User, Item, etc, etc..), required @module, string, the name of the module the file can be found in, required @area, string, the area in which the file can be found, either api or class, default class @type, string, if area is api the type of api function (user, admin, etc) or if area is class the name of a subfolder in /module/class/, default eventsubjects @func, string, if area is api, the name of the function to call, defaults to strtolower(event) if area is class, the name of the method to call, default is notify</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="165"/>
+		</references>
+</entry>
+<entry><string>Class subjects</string><translation>Sujets de Classe</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="170"/>
+		</references>
+</entry>
+<entry><string>Subject class names must always be defined as follows</string><translation>Les noms des sujets de classe doivent toujours être définis comme ceci</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="174"/>
+		</references>
+</entry>
+<entry><string>ucfirst(module) . event . &quot;Subject&quot;, eg BaseSessionCreateSubject</string><translation>ucpremier(module)-événement. ''Sujet'' ex BaseSessionCréationSujet</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="179"/>
+		</references>
+</entry>
+<entry><string>All subject classes must implement ixarEventSubject interface (see xaraya.structures.events.subject)</string><translation>Tous les classes de sujet doivent être implanter dans l'interface  ixarEventSubject interface (voir xaraya.structures.événenements.sujet)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="184"/>
+		</references>
+</entry>
+<entry><string>xarEvents::notify('event', $args) is called</string><translation>xarEvents::notify('event', $args) est appelé</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="190"/>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="230"/>
+		</references>
+</entry>
+<entry><string>The event system instantiates the event subject, passing args (if any) to constructor.</string><translation>Le système d'événement rénitialise le sujet d'événement, en passant les args (s'il y en a ) au constructeur.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="194"/>
+		</references>
+</entry>
+<entry><string>The event system retrieves, instantiates and attaches class observers to the subject.</string><translation>Le système d'événement recouvre, réinitialise et attache les observateurs de classe du sujet.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="198"/>
+		</references>
+</entry>
+<entry><string>The event system calls the method ($func defined when subject was registered)</string><translation>Le système d'événement appelle la méthode ($fonc quand le sujet a été enregistré)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="202"/>
+		</references>
+</entry>
+<entry><string>The subject class is responsible for notifying each of those observers and handling any responses.</string><translation>La classe du sujet est ressponsable de notifier chacun de ces observateurs et de gérer les réponses.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="206"/>
+		</references>
+</entry>
+<entry><string>The subject class is responsible for returning any response to the event system.</string><translation>La classe du sujet est ressponsable de retourner n'importe quelle réponse au système d'événement.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="210"/>
+		</references>
+</entry>
+<entry><string>The event system is responsible for returning response (if any) to the caller.</string><translation>le système d'événement est responsable de retourner la réponse (s'il y en a une) à l'appelant</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="214"/>
+		</references>
+</entry>
+<entry><string>API subjects</string><translation>Sujets API</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="220"/>
+		</references>
+</entry>
+<entry><string>This is basically by-passing the event system and calling an api function. The api function itself is responsible for retrieving and notifying its observers, and returning a response (if any) to the event system. Observers of API subjects may or may not be registered in the event system, it is up to the API function to retrieve them from wherever it was designed to store them</string><translation>C'est basiquement en passant le système d'événement et en appelant la fonction api. La fonction api elle-même est responsable de retrouver et de notifier ses observateurs et de retourner la réponse (s'il y en a une) au système d'événement. Les observateurs des sujets API peuvent être ou non enregistrés dans le système d'événement, c'est le rôle de la fonction APi de les retrouver peut importe où ils avaient été désignés de les stocker.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="224"/>
+		</references>
+</entry>
+<entry><string>The event system calls the api function passing it args (if any) and returns the response (if any) to the caller.</string><translation>Le système d'événement appelle la fonction api en passant son arg (s'il y en a ) et retourne la réponse (s'il y en a une) à l'appelant</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="234"/>
+		</references>
+</entry>
+<entry><string>Some class subject registration examples</string><translation>Quelques exemples d'enregistrement de sujet de classe</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="240"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerSubject('MyEvent','MyItems','mymodule');</string><translation>xarEvents::registerSubject('MyEvent','MyItems','mymodule');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="245"/>
+		</references>
+</entry>
+<entry><string>will look for class MymoduleMyEventSubject</string><translation>recherchera la classe MonmoduleMonsujetd'événement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="252"/>
+		</references>
+</entry>
+<entry><string>with a method of notify()</string><translation>avec une méthode de notification ()</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="256"/>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="412"/>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="434"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/class/eventsubjects/myevent.php</string><translation>dans le fichier code/modules/monmodule/classe/sujetsd'événements/monévénement.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="260"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerSubject('MyOtherEvent','MyOtherItems','mymodule', 'class', 'mysubjects', 'alert');</string><translation>xarEvents::registerSubject('MyOtherEvent','MyOtherItems','mymodule', 'class', 'mysubjects', 'alert');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="267"/>
+		</references>
+</entry>
+<entry><string>will look for class MymoduleMyOtherEventSubject</string><translation>recherchera la classe Monmodule/Monsujetd'autreévénement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="274"/>
+		</references>
+</entry>
+<entry><string>with a method of alert()</string><translation>avec une méthode d'alerte ()</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="278"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/class/mysubjects/myotherevent.php</string><translation>dans le fichier code/modules/monmodule/classe/messujets/monautreévénement.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="282"/>
+		</references>
+</entry>
+<entry><string>Some api subject registration examples</string><translation>Quelques exemples d'enregistrement de sujet api</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="288"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerSubject('MyAPIEvent','MyItems','mymodule', 'api', 'user');</string><translation>xarEvents::registerSubject('MyAPIEvent','MyItems','mymodule', 'api', 'user');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="293"/>
+		</references>
+</entry>
+<entry><string>will look for function mymodule_userapi_myapievent()</string><translation>recherchera la fonction monmodule_apid'utilisateur_monévénementapit()</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="300"/>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="456"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/xaruserapi/myapievent.php</string><translation>dans le fichier code/modules/monmodule/xarapid'utilisateur/monévénementapi.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="304"/>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="460"/>
+		</references>
+</entry>
+<entry><string>falling back to code/modules/mymodule/xaruserapi.php</string><translation>retourner en arrière au  code/modules/monmodule/xarapid'utilisateur.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="308"/>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="464"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerSubject('MyOtherAPIEvent','MyOtherItems','mymodule', 'api', 'admin', 'alert');</string><translation>xarEvents::registerSubject('MyOtherAPIEvent','MyOtherItems','mymodule', 'api', 'admin', 'alert');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="315"/>
+		</references>
+</entry>
+<entry><string>will look for function mymodule_adminapi_alert()</string><translation>recherchera la fonction monmodule_adminapi_alerte()</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="322"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/xaradminapi/alert.php</string><translation>dans le fichier in file code/modules/monmodule/xaradminapi/alert.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="326"/>
+		</references>
+</entry>
+<entry><string>falling back to code/modules/mymodule/xaradminapi.php</string><translation>Retourner en arrière à code/modules/monmodule/xaradminapi.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="330"/>
+		</references>
+</entry>
+<entry><string>Observers</string><translation>Obsevateurs</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="336"/>
+		</references>
+</entry>
+<entry><string>In the existing system observers are 'registered' by the system itself. An api function is called which traverses the filesystem looking for matching module observers (xareventapi functions)</string><translation>Dans le système existant les observateurs sont 'enregistrés' par le fichier lui-même. Une fonction api est appelée qui traverse le système de fichier recherchant des observateurs du module (fonctions xareventapi)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="340"/>
+		</references>
+</entry>
+<entry><string>In the new system, observers are registered into the db. Not only do they indicate an observer exists, they serve as a pointer to a file in the file system. The observer file must exist and its whereabouts must be registered in the event system. It is the responsibility of the observer to be aware of the requirements of the subject it's observing.</string><translation>Dans le nouveau système, les observateurs sont enregistrés dans le db. Non seulement ils indiquent qu'un observateur existe, ils servent comme pointeur au fichier dans le système de fichier. L'observateur de fichier doit exister et où il est situé dans le système d'événement. C'est la responsabilité de l'observateur d'être conscient des pré requis du sujet qu'il observe.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="344"/>
+		</references>
+</entry>
+<entry><string>In both systems each observer must be unique to the module providing it (that is, you can't register two observers of the same event subject in one module)</string><translation>Dans les deux systèmes chaque observateur doit être unique au module qui le fournit (c'est à dire que vous ne pouvez enregistrer deux  observateurs du même sujet d'événement dans un module)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="348"/>
+		</references>
+</entry>
+<entry><string>Registering Observers</string><translation>Observateurs S'Enregistrant</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="352"/>
+		</references>
+</entry>
+<entry><string>When registering observers the following function is called...</string><translation>Quand les observateurs s'enregistrent la fonction suivante est appelés</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="356"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerObserver($event,$module,$area='class',$type='eventobservers',$func='notify')
+The parameters define the event being observed and where the event system will look for the observer file
+@event, string, name of the event, required, must be unique
+@module, string, the name of the module the file can be found in, required
+@area, string, the area in which the file can be found, either api, gui or class, default class
+@type, string, if area is api or gui the type of api function (user, admin, etc) or
+if area is class the name of a subfolder in /module/class/, default eventsubjects
+@func, string, if area is api or gui, the name of the function to call, defaults to strtolower(event)
+if area is class, the method is always notify</string><translation>xarEvents::registerObserver($event,$module,$area='class',$type='eventobservers',$func='notify') The parameters define the event being observed and where the event system will look for the observer file @event, string, name of the event, required, must be unique @module, string, the name of the module the file can be found in, required @area, string, the area in which the file can be found, either api, gui or class, default class @type, string, if area is api or gui the type of api function (user, admin, etc) or if area is class the name of a subfolder in /module/class/, default eventsubjects @func, string, if area is api or gui, the name of the function to call, defaults to strtolower(event) if area is class, the method is always notify</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="361"/>
+		</references>
+</entry>
+<entry><string>Class Observers</string><translation>Observateurs de Classe</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="366"/>
+		</references>
+</entry>
+<entry><string>Observer class names must always be defined as follows</string><translation>Les noms de classe d'observateurs doivent toujours être définis comme ceci</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="370"/>
+		</references>
+</entry>
+<entry><string>ucfirst(module) . event . &quot;Observer&quot;, eg RolesSessionCreateObserver</string><translation>ucfirst(module) . event . &quot;Observer&quot;, eg RolesSessionCreateObserver</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="375"/>
+		</references>
+</entry>
+<entry><string>All observer classes must implement ixarEventObserver interface (see xaraya.structures.events.observer)</string><translation>Tous les classes d'observateurs doivent implanter l'interface ixarEventObserver (voir xaraya.structures.événements.observateurs)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="380"/>
+		</references>
+</entry>
+<entry><string>It is the responsibility of the observer to be aware of expected parameters from the subject it's observing, and return a valid response (if any) to the subject. It must supply a notify method which will be called by the event subject.</string><translation>C'est la responsabilité de l'observateur d'être conscient des paramètres attendus du sujet qu'il observe et de retourner une réponse valide (s'il en a une) au sujet. Il doit fournir une méthode de notification laquelle sera appelée par le sujet de l'événement.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="384"/>
+		</references>
+</entry>
+<entry><string>API and GUI Observers</string><translation>Observateurs API et GUI</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="388"/>
+		</references>
+</entry>
+<entry><string>The event system wraps API and GUI observers in a class for compatibility with event subjects, calling the api or gui function and passing args from the subject (if any) and returning a response (if any) to the subject. This only applies to observers of class subjects.</string><translation>Le système d'événement enveloppe les observateurs API et GUi dans une classe pour compatibilité avec les sujets d'événements, appelés la fonction api ou gui et faire passer les args à partir du sujet (s'il y en a ) et retourner la réponse (S'il y en a une ) au sujet. Cela s'applique seulement aux observateurs des sujets de classe.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="392"/>
+		</references>
+</entry>
+<entry><string>Some class observer registration examples</string><translation>Quelques exemples d'enregistrement d'observateur de classe</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="396"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerObserver('MyEvent','mymodule');</string><translation>xarEvents::registerObserver('MyEvent','mymodule');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="401"/>
+		</references>
+</entry>
+<entry><string>will look for class MymoduleMyEventObserver</string><translation>recherchera la classe monmodulemonobservateurd'événement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="408"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/class/eventobservers/myevent.php</string><translation>dans le fichier code/modules/monmodule/classe/observateurd'événement/monévénement.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="416"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerObserver('MyOtherEvent', 'mymodule', 'class', 'myobservers');</string><translation>xarEvents::registerObserver('MyOtherEvent', 'mymodule', 'class', 'myobservers');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="423"/>
+		</references>
+</entry>
+<entry><string>will look for class MymoduleMyOtherEventObserver</string><translation>recherchera la classe monmodulemonautreobservateurd'événement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="430"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/class/myobservers/myotherevent.php</string><translation>dans le fichier code/modules/monmodule/clase/monobservateur/monautreévénement.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="438"/>
+		</references>
+</entry>
+<entry><string>Some api and gui observer registration examples</string><translation>Quelques exemples d'api et d'observateur d.enregistrement</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="444"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerObserver('MyAPIEvent', 'mymodule', 'api', 'user');</string><translation>xarEvents::registerObserver('MyAPIEvent', 'mymodule', 'api', 'user');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="449"/>
+		</references>
+</entry>
+<entry><string>xarEvents::registerObserver('MyGUIEvent', 'mymodule', 'gui', 'admin', 'alert');</string><translation>xarEvents::registerObserver('MyGUIEvent', 'mymodule', 'gui', 'admin', 'alert');</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="471"/>
+		</references>
+</entry>
+<entry><string>will look for function mymodule_admin_alert()</string><translation>recherchera la fonction mondule_admin_alerte()</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="478"/>
+		</references>
+</entry>
+<entry><string>in file code/modules/mymodule/xaradmin/alert.php</string><translation>dans le fichier code/modules/mymodule/xaradmin/alert.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="482"/>
+		</references>
+</entry>
+<entry><string>falling back to code/modules/mymodule/xaradmin.php</string><translation>Retomber à code/modules/mymodule/xaradmin.php</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="486"/>
+		</references>
+</entry>
+<entry><string>Document Version 2.0: 03 Oct 2010</string><translation>Version du Document 2.0:03 Oct 2010</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-events.xt" line="500"/>
+		</references>
+</entry>
+</translations>

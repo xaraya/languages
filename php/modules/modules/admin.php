@@ -1,0 +1,38 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Save Changes'] = 'Sauvegarder les changements';
+$xarML_PHPBackend_entries['Hide Details'] = 'Cacher les détails';
+$xarML_PHPBackend_entries['Show Details'] = 'Afficher les détails';
+$xarML_PHPBackend_entries['Action'] = 'Actions';
+$xarML_PHPBackend_entries['Options'] = 'Options';
+$xarML_PHPBackend_entries['Reload'] = 'Recharger';
+$xarML_PHPBackend_entries['Plain'] = 'A plat';
+$xarML_PHPBackend_entries['Icons'] = 'Icones';
+$xarML_PHPBackend_entries['Compact-A'] = 'Compacte-A';
+$xarML_PHPBackend_entries['Compact-B'] = 'Compacte-B';
+$xarML_PHPBackend_entries['Pro HTML'] = 'Pro HTML';
+$xarML_PHPBackend_entries['Dog\'s Bollocks'] = 'Dog\'s Bollocks';
+$xarML_PHPBackend_entries['All Modules'] = 'Tous les modules';
+$xarML_PHPBackend_entries['All Installed'] = 'Installés';
+$xarML_PHPBackend_entries['All Active'] = 'Actifs';
+$xarML_PHPBackend_entries['All Inactive'] = 'Inactifs';
+$xarML_PHPBackend_entries['Not Installed'] = 'Non installés';
+$xarML_PHPBackend_entries['Missing files'] = 'Fichiers manquants';
+$xarML_PHPBackend_entries['Name [a-z]'] = 'Nom [a-z]';
+$xarML_PHPBackend_entries['Name [z-a]'] = 'Nom [z-a]';
+$xarML_PHPBackend_entries['Go to administration of'] = 'Aller à l\'administration de ';
+$xarML_PHPBackend_entries['On/Off'] = 'Marche/Arrêt';
+$xarML_PHPBackend_entries['Inactive'] = 'Inactif';
+$xarML_PHPBackend_entries['Active'] = 'Actif';
+$xarML_PHPBackend_entries['[core module]'] = '[module du noyau]';
+$xarML_PHPBackend_entries['Missing'] = 'Manquant';
+$xarML_PHPBackend_entries['Upgraded'] = 'Mis à jour';
+$xarML_PHPBackend_entries['as provided by the author'] = 'Comme fournit par l\'auteur';
+$xarML_PHPBackend_entries['Only generic icon has been provided'] = 'Seulement l\'icone générique a été fourni';
+$xarML_PHPBackend_entries['Working on it...'] = 'En travaux...';
+$xarML_PHPBackend_entries['None'] = 'Aucun';
+$xarML_PHPBackend_entries['There is a problem with a feed.'] = 'Il y a un problème avec un fournisseur.';
+$xarML_PHPBackend_entries['No module id specified'] = 'Pas d\'id de module spécifié';
+$xarML_PHPBackend_entries['Invalid hook'] = 'Crochet invalide';
+?>

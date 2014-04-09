@@ -1,0 +1,63 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Official Icon'] = 'Icône officiel';
+$xarML_PHPBackend_entries['Overview'] = 'Aperçu';
+$xarML_PHPBackend_entries['What is it?'] = 'Quest-ce que c\'est?';
+$xarML_PHPBackend_entries['The Mail module controls the ways that your site sends email to users or groups of users.
+This is a utility module that takes information from other modules installed on your site,
+and formats and sends email for them. The Mail module is a core module within Xaraya and cannot be removed.'] = 'Le module de courrier contrôle les façons dont votre site envoie des courriels aux utilisateurs ou aux groupes d\'utilisateurs. C\'est un module utilitaire qui prend de l\'information des autres modules installés sur votre site, et les formattent et leur envoie des courriels. Le module de courrier est un module de noyau dans Xaraya et ne peut pas être supprimer.';
+$xarML_PHPBackend_entries['Detail information on this module can be found'] = 'De l\'information détaillée sur ce module peut être trouvée';
+$xarML_PHPBackend_entries['here'] = 'ici';
+$xarML_PHPBackend_entries['.'] = '.';
+$xarML_PHPBackend_entries['The Admin interface'] = 'L\'interface de l\'Admin';
+$xarML_PHPBackend_entries['As an administrator, you can change the module\'s configuration by pointing your browser to the configuration page'] = 'En tant que administrateur, vous pouvez changer la configuration du module en pointant votre navigateur dans la page de configuration';
+$xarML_PHPBackend_entries['Admin Menu → Mail → Modify Configuration'] = 'Menu Admin → Courrier→ Modifier la Configuration';
+$xarML_PHPBackend_entries['. The configuration page includes the standard display options common to all core modules (see the Base module overview for an explanation of these).'] = '. La page de configuration inclut des options d\'afficahge standard commune à tout les modules de noyau (vvoir l\'aperçu du module de base pour une explication de ceux-ci).';
+$xarML_PHPBackend_entries['In addition, this module also supports the following configuration options:'] = 'En plus, le module supporte aussi les options de configuration suivantes:';
+$xarML_PHPBackend_entries['Mail Admin:'] = 'Admin de Courrier:';
+$xarML_PHPBackend_entries['lets you define the user that will receive notification emails. This must be a member of the Administrators group. This is also the user whose email address is the reply-to address on the emails Xaraya sends.'] = 'Vous laisse définir l\'utilisateur qui recevra les courriels de notification. Il doit être un membre du groupe d\'administrateurs. C\'est aussi l\'utilisateur dont l\'adresse couriel est l\'adresse de réponse pour les courriels que Xaraya envoi.';
+$xarML_PHPBackend_entries['Different reply-to:'] = 'adresse de réponse différente:';
+$xarML_PHPBackend_entries['lets you define a different reply-to address on the emails Xaraya sends to users.'] = 'vous laisse définir une adresse de réponse différente sur les courriels Xarya envoyés aux utilisateurs.';
+$xarML_PHPBackend_entries['Show templates in emails:'] = 'Afficher les modèles dans les courriels:';
+$xarML_PHPBackend_entries['If this option is checked, the names of the templates used in emails will appear in the email texts. This is a debugging aid and should not be checked in production sites.'] = 'Si cette option est cochée, les noms des modèles utilisé dans les courriels apparaîtra dans le texte des courriels. Cele est une aide de débogage et ne devrait pas être coché dans les sites de production.';
+$xarML_PHPBackend_entries['HTML options:'] = 'options HTML:';
+$xarML_PHPBackend_entries['lets you define a HTML header and footer for emails sent as HTML..'] = 'vous laisse définir un en-tête et un pied de page HTML pour les courriels envoyés comme HTML...';
+$xarML_PHPBackend_entries['Text options:'] = 'optiosn de texte:';
+$xarML_PHPBackend_entries['lets you define settings for emails sent as plain text..'] = 'vous laisse définir  les paramètres pour les courriels envoyés comme simple texte.';
+$xarML_PHPBackend_entries['Sending server options:'] = 'options d\'envoi de serveur';
+$xarML_PHPBackend_entries['lets you define the server for outgoing mail. The choices are:'] = 'vous laisse définirle serveur pour le courrier entrant: Les choix sont:';
+$xarML_PHPBackend_entries['Sendmail:'] = 'Sendmail';
+$xarML_PHPBackend_entries['the Sendmail MTA needs to be installed on your server for this to work..'] = 'le  Sendmail  MTA a de besoin d\'être installé sur votre serveur pour ce travail.';
+$xarML_PHPBackend_entries['Qmail:'] = 'Qmail:';
+$xarML_PHPBackend_entries['the Qmail MTA needs to be installed on your server for this to work..'] = 'le Qmail MTA a de besoin d\'être installé sur votre serveur pour ce travail.';
+$xarML_PHPBackend_entries['Mail:'] = 'Courrier:';
+$xarML_PHPBackend_entries['uses the PHP mail() function to send emails..'] = 'utilise la fonction de courrier PHP pour envoyer des courriels:';
+$xarML_PHPBackend_entries['SMTP server:'] = 'serveur SMTP:';
+$xarML_PHPBackend_entries['lets you define your own SMTP server for the Mail module to use...'] = 'vous laisse définir votre propre serveur SMTP que le module de courrier utilisera:';
+$xarML_PHPBackend_entries['Scheduled mails:'] = 'courriers programmés';
+$xarML_PHPBackend_entries['lets send emails at predetermined intervals. The Scheduler module must be installed in order to configure this option..'] = 'vous laisse envoyer des courriels à des intervlles réguliers. Le module planificateur doit être installé afin de pouvoir configurer cette option.';
+$xarML_PHPBackend_entries['Filtering options:'] = 'options de filtrage:';
+$xarML_PHPBackend_entries['lets you filter email texts fro certain strings and replace them with others. This can be used to customize generic email templates for specific purposes.'] = 'vous laisse filtrer les textes des courriels pour certaines chaînes et les remplacer avec d\'autres. Il peut être utilisé pour personnalisé des modèles de courriel générique pour des buts spécifiques.';
+$xarML_PHPBackend_entries['Redirect emails:'] = 'Rediriger les courriels:';
+$xarML_PHPBackend_entries['This debugging option lets you redirect all mail output to a defined email address. CCs and BCCs are suppressed...'] = 'Cette option de débogage vous laisse rediriger tout les courriels sortants à une adresse de courriel défini. Les CCS er les BCI sont supprimés.';
+$xarML_PHPBackend_entries['Supress emails:'] = 'Supprimer les courriels:';
+$xarML_PHPBackend_entries['This debugging option suppresses emails sent from the Mail module. You can use it to test other modules using email without actually sending the mail.'] = 'Cette option de débogage supprime les courriels du module du courrier. Vous pouves l\'utiliser pour tester les autres modules en un courriel sans vraiment envoyer un courriel.';
+$xarML_PHPBackend_entries['Clicking on the'] = 'Cliquer sur le :';
+$xarML_PHPBackend_entries['Test Configuration'] = 'Tester la configuration';
+$xarML_PHPBackend_entries['link in the Admin menu lets you send a test email to an email address of your choice (the default is the site administrator email address entered when Xaraya is installed).'] = 'lien dans le menu Admin vous laisse envoyer un courriel de test à une adresse de courriel de votre choix (l\'adresse de courriel par défaut est celle de l\'administrateur qui a été entré quand Xaraya a été installé).';
+$xarML_PHPBackend_entries['Notification Templates'] = 'Modèles de Notification:';
+$xarML_PHPBackend_entries['link in the Admin menu lets you to customize the notification
+templates that are sent when the Mail module is hooked to another module.'] = 'lien dans le menu Admin vous laisse personnalisser le modèle de notification qui a été emvoyé quand le module du courrier est accroché à un autre module.';
+$xarML_PHPBackend_entries['Available Blocks'] = 'blocs disponibles';
+$xarML_PHPBackend_entries['The Mail module has no blocks.'] = 'Le module de courrier n\'a pas de blocs.';
+$xarML_PHPBackend_entries['Available Dataproperties'] = 'propriétés de données disponibles';
+$xarML_PHPBackend_entries['The Mail module has no dataproperties'] = 'Ce module de courrier n\'a pas de propriétés de données';
+$xarML_PHPBackend_entries['Available Hooks'] = 'Crochets Disponibles';
+$xarML_PHPBackend_entries['Create Hook'] = 'Créer un crochet';
+$xarML_PHPBackend_entries[': lets other modules send an email when an item is created.'] = 'laisse les autres modules envoyer un courriel quand un objet est créer';
+$xarML_PHPBackend_entries['Delete Hook'] = 'Supprimer un Crochet';
+$xarML_PHPBackend_entries[': lets other modules send an email when an item is deleted.'] = 'laisse les autres modules envoyer un courriel quand un objet est supprimé.';
+$xarML_PHPBackend_entries['Update Hook'] = 'Mise à jour du Crochet';
+$xarML_PHPBackend_entries[': lets other modules send an email when an item is updated.'] = 'laisse les autres modules envoyer un courriel quand un objet est mis à jour.';
+?>

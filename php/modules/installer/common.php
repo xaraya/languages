@@ -1,0 +1,30 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries[' '] = '.';
+$xarML_PHPBackend_entries['Continue'] = 'Continu';
+$xarML_PHPBackend_entries['.'] = '.';
+$xarML_PHPBackend_entries['Back'] = 'Retour arrière';
+$xarML_PHPBackend_entries['Password'] = 'Mot de passe';
+$xarML_PHPBackend_entries['Running the Upgrade'] = 'Éxécuter la mise à jour';
+$xarML_PHPBackend_entries['Database Checks'] = 'Vérifications de la base de donnée';
+$xarML_PHPBackend_entries['Notes on this Version'] = 'Notes sur cette version';
+$xarML_PHPBackend_entries['Next Steps:'] = 'Étapes suivantes:';
+$xarML_PHPBackend_entries['You can now customize your installation to match your needs. Manage sitewide settings with the configuration options of the'] = 'Vous pouvez maintenant personnaliser votre installation pour quelle corresponde à vos besoins. Gérer les paramètres de tout le site avec les options de configuration du ';
+$xarML_PHPBackend_entries['Base module'] = 'module de base';
+$xarML_PHPBackend_entries['. Use the'] = '.Utiliser le ';
+$xarML_PHPBackend_entries['Modules administration'] = 'Modules d\'administration';
+$xarML_PHPBackend_entries['to install any additional features, or use the'] = 'pour installer n\'importe quelles fonctions additionnelles ou utiliser le ';
+$xarML_PHPBackend_entries['Blocks administration'] = 'Blocs d\'administration';
+$xarML_PHPBackend_entries['to adjust the look of your sidebars or add blocks to your site. You can do either of these at any time via the Admin menu.'] = 'pour ajuster l\'apparence de vos barres de côté ou ajouter des blocs à votre site. Vous pouvez faire une de ces choses à n\'importe quel moment via le menu d\'admin';
+$xarML_PHPBackend_entries['I want to configure the site'] = 'Je veux configurer le site';
+$xarML_PHPBackend_entries['I want to add modules'] = 'je veux ajouter des modules';
+$xarML_PHPBackend_entries['I want to manage blocks'] = 'Je veux gérer les blocs';
+$xarML_PHPBackend_entries['Just launch the site!'] = 'Lancer le site!';
+$xarML_PHPBackend_entries['Thank you for using Xaraya.'] = 'Nous vous remercions d\'avoir choisis Xaraya.';
+$xarML_PHPBackend_entries['No notes available'] = 'Aucunes notes disponibles';
+$xarML_PHPBackend_entries['System Message'] = 'Système de message';
+$xarML_PHPBackend_entries['No error message is available.'] = 'Aucun message d\'erreur n\'est disponible';
+$xarML_PHPBackend_entries['Please contact the system administrator.'] = 'S\'il vous plaît contacter l\'administrateur du système';
+$xarML_PHPBackend_entries['Go back'] = 'Retour arrière';
+?>

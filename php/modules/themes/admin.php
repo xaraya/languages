@@ -1,0 +1,35 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['Action'] = 'Action';
+$xarML_PHPBackend_entries['Options'] = 'Options';
+$xarML_PHPBackend_entries['Refresh'] = 'Rafraichir';
+$xarML_PHPBackend_entries['Plain (fast)'] = 'A Plat (rapide)';
+$xarML_PHPBackend_entries['Pro ICONS'] = 'Pro Icones';
+$xarML_PHPBackend_entries['Developer'] = 'Développeur';
+$xarML_PHPBackend_entries['All Themes'] = 'Tous les thèmes';
+$xarML_PHPBackend_entries['Active'] = 'Actifs';
+$xarML_PHPBackend_entries['Inactive'] = 'Inactifs';
+$xarML_PHPBackend_entries['Uninitialised'] = 'Non initialisés';
+$xarML_PHPBackend_entries['Name [a-z]'] = 'Nom [a-z]';
+$xarML_PHPBackend_entries['Name [z-a]'] = 'Nom [z-a]';
+$xarML_PHPBackend_entries['Edit'] = 'Editer';
+$xarML_PHPBackend_entries['Initialise'] = 'Initialiser';
+$xarML_PHPBackend_entries['Remove'] = 'Supprimer';
+$xarML_PHPBackend_entries['Activate'] = 'Activer';
+$xarML_PHPBackend_entries['Deactivate'] = 'Désactiver';
+$xarML_PHPBackend_entries['[core module]'] = '[module noyau]';
+$xarML_PHPBackend_entries['Missing'] = 'Manquant';
+$xarML_PHPBackend_entries['Upgraded'] = 'Mis à jour';
+$xarML_PHPBackend_entries['Save Changes'] = 'Sauvegarder les changements';
+$xarML_PHPBackend_entries['Configure Themes'] = 'Configurer les thèmes';
+$xarML_PHPBackend_entries['Configure Overview'] = 'Configurer la vue d\'ensemble';
+$xarML_PHPBackend_entries['Default Theme:'] = 'Thème par défaut :';
+$xarML_PHPBackend_entries['Show module "Help" in the menu:'] = 'Afficher l\'aide du module dans le menu';
+$xarML_PHPBackend_entries['Submit'] = 'Soumettre';
+$xarML_PHPBackend_entries['Working on it...'] = 'En travaux...';
+$xarML_PHPBackend_entries['None'] = 'Aucun';
+$xarML_PHPBackend_entries['There is a problem with a feed.'] = 'Il y a un problème avec un fournisseur.';
+$xarML_PHPBackend_entries['Unable to update theme variable #(1)'] = 'Impossible de mettre à jour la variable de thème #(1)';
+$xarML_PHPBackend_entries['Unable to delete theme variable #(1)'] = 'Impossible d\'effacer la variable de thème #(1)';
+?>

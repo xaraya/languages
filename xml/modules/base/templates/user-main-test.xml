@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+<entry><string>This template</string><translation>Ce modèle</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="10"/>
+		</references>
+</entry>
+<entry><string>modules/base/xartemplates/user-main</string><translation>modules/base/xartemplates/user-main</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="12"/>
+		</references>
+</entry>
+<entry><string>-test</string><translation>-test</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="14"/>
+		</references>
+</entry>
+<entry><string>.xt</string><translation>xt</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="16"/>
+		</references>
+</entry>
+<entry><string>can be reached by adding</string><translation>peut être atteint en ajoutant</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="18"/>
+		</references>
+</entry>
+<entry><string>page=</string><translation>page=</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="21"/>
+		</references>
+</entry>
+<entry><string>test</string><translation>test</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="23"/>
+		</references>
+</entry>
+<entry><string>to the base module URL.
+You can experiment with various blocklayout features and template tags here if you want...</string><translation>Au URL du module de base. Vous pouvez expérimenter avec des caractéristiques variées de diposition de bloc et des étiquettes de modèle ici si vous voulez...</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="27"/>
+		</references>
+</entry>
+<entry><string>XML to SQL Proof of Concept</string><translation>XML à SQL Preuve du Concept</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="31"/>
+		</references>
+</entry>
+<entry><string>First create the roles object</string><translation>Créer premièrement l'objet des rôles</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="35"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:set name=&quot;dummy&quot;&gt;1;
+sys::import('modules.dynamicdata.class.objects.master');
+$roles = DataObjectMaster::getObjectList(array('name'=&gt;'roles_users'));
+&lt;/xar:set&gt;</string><translation>&lt;xar:set name=&quot;dummy&quot;&gt;1; sys::import('modules.dynamicdata.class.objects.master'); $roles = DataObjectMaster::getObjectList(array('name'=&gt;'roles_users')); &lt;/xar:set&gt;</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="39"/>
+		</references>
+</entry>
+<entry><string>1. A simple example</string><translation>1. Un exemple simple</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="47"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-getitems properties=&quot;$properties&quot; values=&quot;$items&quot; object=&quot;$roles&quot;&gt;</string><translation>&lt;xar:data-getitems properties=&quot;$properties&quot; values=&quot;$items&quot; object=&quot;$roles&quot;&gt;</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="51"/>
+		</references>
+</entry>
+<entry><string>2. Same example using a xar:select tag</string><translation>2. Même exemple utilisant l'étiquette xar:select</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="81"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:data-getitems object=&quot;$roles&quot; properties=&quot;$properties&quot; values=&quot;$items&quot; tplmodule=&quot;dynamicdata&quot;&gt;
+&lt;xar:select&gt;
+&lt;xar:andconditions&gt;
+&lt;xar:condition operator=&quot;eq&quot; property=&quot;uname&quot;&gt;'admin'&lt;/xar:condition&gt;
+&lt;/xar:andconditions&gt;
+&lt;/xar:select&gt;
+&lt;/xar:data-getitems&gt;</string><translation>&lt;xar:data-getitems object=&quot;$roles&quot; properties=&quot;$properties&quot; values=&quot;$items&quot; tplmodule=&quot;dynamicdata&quot;&gt; &lt;xar:select&gt; &lt;xar:andconditions&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;uname&quot;&gt;'admin'&lt;/xar:condition&gt; &lt;/xar:andconditions&gt; &lt;/xar:select&gt; &lt;/xar:data-getitems&gt;</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="85"/>
+		</references>
+</entry>
+<entry><string>'admin'</string><translation>'admin'</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="101"/>
+		</references>
+</entry>
+<entry><string>3. The xar:select tag</string><translation>3. L'Étiquette xar:select</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="116"/>
+		</references>
+</entry>
+<entry><string>3.1. Markup</string><translation>3.1. Majoration</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="120"/>
+		</references>
+</entry>
+<entry><string>&lt;xar:select objectname=&quot;modules&quot; items=&quot;$items&quot; name=&quot;myquery&quot;&gt;
+&lt;xar:orconditions&gt;
+&lt;xar:andconditions&gt;
+&lt;xar:condition operator=&quot;eq&quot; property=&quot;regid&quot;&gt;8&lt;/xar:condition&gt;
+&lt;xar:orconditions&gt;
+&lt;xar:andconditions&gt;
+&lt;xar:orconditions&gt;
+&lt;xar:condition operator=&quot;eq&quot; property=&quot;name&quot;&gt;'base'&lt;/xar:condition&gt;
+&lt;xar:condition operator=&quot;eq&quot; property=&quot;name&quot;&gt;'roles'&lt;/xar:condition&gt;
+&lt;/xar:orconditions&gt;
+&lt;xar:condition operator=&quot;gt&quot; property=&quot;id&quot;&gt;1&lt;/xar:condition&gt;
+&lt;xar:condition operator=&quot;lt&quot; property=&quot;id&quot;&gt;5&lt;/xar:condition&gt;
+&lt;/xar:andconditions&gt;
+&lt;xar:condition operator=&quot;ne&quot; property=&quot;regid&quot;&gt;27&lt;/xar:condition&gt;
+&lt;/xar:orconditions&gt;
+&lt;/xar:andconditions&gt;
+&lt;xar:condition operator=&quot;in&quot; property=&quot;regid&quot;&gt;array(2,3,4,5,6,7,8,9,10)&lt;/xar:condition&gt;
+&lt;xar:condition operator=&quot;like&quot; property=&quot;name&quot;&gt;'themes'&lt;/xar:condition&gt;
+&lt;/xar:orconditions&gt;
+&lt;/xar:select&gt;</string><translation>&lt;xar:select objectname=&quot;modules&quot; items=&quot;$items&quot; name=&quot;myquery&quot;&gt; &lt;xar:orconditions&gt; &lt;xar:andconditions&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;regid&quot;&gt;8&lt;/xar:condition&gt; &lt;xar:orconditions&gt; &lt;xar:andconditions&gt; &lt;xar:orconditions&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;name&quot;&gt;'base'&lt;/xar:condition&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;name&quot;&gt;'roles'&lt;/xar:condition&gt; &lt;/xar:orconditions&gt; &lt;xar:condition operator=&quot;gt&quot; property=&quot;id&quot;&gt;1&lt;/xar:condition&gt; &lt;xar:condition operator=&quot;lt&quot; property=&quot;id&quot;&gt;5&lt;/xar:condition&gt; &lt;/xar:andconditions&gt; &lt;xar:condition operator=&quot;ne&quot; property=&quot;regid&quot;&gt;27&lt;/xar:condition&gt; &lt;/xar:orconditions&gt; &lt;/xar:andconditions&gt; &lt;xar:condition operator=&quot;in&quot; property=&quot;regid&quot;&gt;array(2,3,4,5,6,7,8,9,10)&lt;/xar:condition&gt; &lt;xar:condition operator=&quot;like&quot; property=&quot;name&quot;&gt;'themes'&lt;/xar:condition&gt; &lt;/xar:orconditions&gt; &lt;/xar:select&gt;</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="124"/>
+		</references>
+</entry>
+<entry><string>8</string><translation>&lt;xar:select objectname=&quot;modules&quot; items=&quot;$items&quot; name=&quot;myquery&quot;&gt; &lt;xar:orconditions&gt; &lt;xar:andconditions&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;regid&quot;&gt;8&lt;/xar:condition&gt; &lt;xar:orconditions&gt; &lt;xar:andconditions&gt; &lt;xar:orconditions&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;name&quot;&gt;'base'&lt;/xar:condition&gt; &lt;xar:condition operator=&quot;eq&quot; property=&quot;name&quot;&gt;'roles'&lt;/xar:condition&gt; &lt;/xar:orconditions&gt; &lt;xar:condition operator=&quot;gt&quot; property=&quot;id&quot;&gt;1&lt;/xar:condition&gt; &lt;xar:condition operator=&quot;lt&quot; property=&quot;id&quot;&gt;5&lt;/xar:condition&gt; &lt;/xar:andconditions&gt; &lt;xar:condition operator=&quot;ne&quot; property=&quot;regid&quot;&gt;27&lt;/xar:condition&gt; &lt;/xar:orconditions&gt; &lt;/xar:andconditions&gt; &lt;xar:condition operator=&quot;in&quot; property=&quot;regid&quot;&gt;array(2,3,4,5,6,7,8,9,10)&lt;/xar:condition&gt; &lt;xar:condition operator=&quot;like&quot; property=&quot;name&quot;&gt;'themes'&lt;/xar:condition&gt; &lt;/xar:orconditions&gt; &lt;/xar:select&gt;</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="134"/>
+		</references>
+</entry>
+<entry><string>'base'</string><translation>'base'</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="144"/>
+		</references>
+</entry>
+<entry><string>'roles'</string><translation>'rôles'</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="148"/>
+		</references>
+</entry>
+<entry><string>1</string><translation>1</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="154"/>
+		</references>
+</entry>
+<entry><string>5</string><translation>5</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="158"/>
+		</references>
+</entry>
+<entry><string>27</string><translation>27</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="164"/>
+		</references>
+</entry>
+<entry><string>array(2,3,4,5,6,7,8,9,10)</string><translation>tableau (2,3,4,5,6,7,8,9,10)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="172"/>
+		</references>
+</entry>
+<entry><string>'themes'</string><translation>'thèmes'</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="176"/>
+		</references>
+</entry>
+<entry><string>3.2. Resulting query string</string><translation>3.2. Chaîne résultant de la requête</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="187"/>
+		</references>
+</entry>
+<entry><string>3.3. Result of running the query</string><translation>3.3. Résultant d'avoir fait la requête</translation>		<references>
+			<reference file="code/modules/base/xartemplates/user-main-test.xt" line="196"/>
+		</references>
+</entry>
+</translations>

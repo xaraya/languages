@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+	<entry>
+		<string>Modify Uploads Configuration</string>
+		<translation>Modifier la configuration de Uploads</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="9" />
+		</references>
+	</entry>
+	<entry>
+		<string>Uploads Directory</string>
+		<translation>Répertoire de Upload</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="16" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the full path to the directory where uploaded and external import files will be placed. 
+                    It is stronly recommended that this directory be located outside of your web directory.
+                    &lt;br /&gt;NOTE: This directory MUST be writable by the webserver.</string>
+		<translation>Ceci est le chemin complet vers le répertoire où les fichiers uploadés ou importés de l'exterieur seront placés. Il est fortement recommandé que ce répertoire soit situé à l'exterieur de vote site web.&lt;br /&gt;NOTE : ce répertoire DOIT être accessible en écriture pour le serveur web.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="23" />
+		</references>
+	</entry>
+	<entry>
+		<string>Trusted Directory:</string>
+		<translation>Répertoire certifié :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="29" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the full path to the local trusted directory. Files located in this directory will 
+                    be immediately available for users to attach to other objects (ie: articles). Files in this directory 
+                    are &lt;strong&gt;not&lt;/strong&gt; counted in the disk usage summary totals. It is strongly recommended 
+                    that this directory be located outside of your web directory. 
+                    &lt;br /&gt;NOTE: This directory MUST be readable and should also be writable by the webserver.</string>
+		<translation>Ceci est le chemin complet vers le répertoire certifié local. Les fichiers placés dans ce répertoire seront immédiatement disponibles pour être attachés à d'autres objets (ex : articles) par les utilisateurs. Les fichiers de ce répertoire &lt;strong&gt;ne sont pas&lt;/strong&gt; comptés dans les totaux du résumé de l'utilisation du disque. Il est fortement recommandé que ce répertoire soit situé à l'exterieur de vote site web.&lt;br /&gt;NOTE : ce répertoire DOIT être accessible en lecture et devrait l'être en écriture pour le serveur web.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="39" />
+		</references>
+	</entry>
+	<entry>
+		<string>Maximum Upload Size in bytes (commas are fine):</string>
+		<translation>Taille maximale des fichiers uploadés &lt;strong&gt;en octets&lt;/strong&gt; :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="45" />
+		</references>
+	</entry>
+	<entry>
+		<string>This is the maximum size an uploaded file may be.&lt;br /&gt;
+                    NOTE: The server wide PHP setting, if set to a lower value, &lt;em&gt;will&lt;/em&gt; override this setting. 
+                    Please ask your web host provider for details on the settings that they use for uploaded files.</string>
+		<translation>Ceci est la taille maximale pour un fichier uploadé.&lt;br /&gt;NOTE : Les paramètres du serveur PHP, si ils sont définis à une valeur inférieur, &lt;em&gt;passeront outre&lt;/em&gt; la valeur défini ici. Merci de demander à votre hébergeur pour plus de détails à propos des paramètre qu'il utilise pour l'upload de fichiers.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="53" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto approve files added by:</string>
+		<translation>Approuver automatiquement les fichiers ajoutés par :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="59" />
+		</references>
+	</entry>
+	<entry>
+		<string>No one</string>
+		<translation>Personne</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="62" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="66" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="70" />
+		</references>
+	</entry>
+	<entry>
+		<string>Everyone</string>
+		<translation>Tout le monde</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="64" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="68" />
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="72" />
+		</references>
+	</entry>
+	<entry>
+		<string>This option allows you to make all newly added files' status set to approved for Everyone (not recommended), Admins only, or No One.</string>
+		<translation>Cette option vous permet de faire en sorte qu'un fichier nouvellement ajouté par &quot;Tout le monde&quot; (pas recommandé), &quot;Administrateurs seulement&quot; ou &quot;Personne&quot; voit sont status défini à &quot;approuvé&quot;.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="77" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirm deletion of files:</string>
+		<translation>Confirmez la suppression des fichiers :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="84" />
+		</references>
+	</entry>
+	<entry>
+		<string>Confirmation must be provided before files are deleted.</string>
+		<translation>La confirmation doit être fournie avant que les fichiers ne soient supprimés.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="97" />
+		</references>
+	</entry>
+	<entry>
+		<string>Auto purge files marked as 'rejected':</string>
+		<translation>Purger automatiquement les fichiers marqués comme &quot;rejeté&quot; :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="103" />
+		</references>
+	</entry>
+	<entry>
+		<string>Normally, when you reject files, you have to manually purge them by clicking on 
+                    the 'Purge Rejected' button located on the &lt;em&gt;Admin-&gt;Uploads-&gt;View page&lt;/em&gt;. This 
+                    option forces any file you set to 'rejected' status to be deleted right away.</string>
+		<translation>Habituellement, quand vous rejetez des fichiers, vous devez les purger manuellement en cliquant sur le bouton &quot;Purger les rejetés&quot; situé dans la page &lt;em&gt;Admin-&gt;Uploads-&gt;Afficher les fichiers&lt;/em&gt;. Cette option force la suppression immédiate de tout fichier dont le status est mis à &quot;rejeté&quot;.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="118" />
+		</references>
+	</entry>
+	<entry>
+		<string>Obfuscate/Secure Imported Files:</string>
+		<translation>Sécuriser/maquillés les fichiers importés :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="124" />
+		</references>
+	</entry>
+	<entry>
+		<string>If Yes, imported files will be stored with their original names obfuscated for added security.</string>
+		<translation>Si oui, les fichiers importés seront stockés avec leur noms originaux maquillés pour plus de sécurité.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="136" />
+		</references>
+	</entry>
+	<entry>
+		<string>Obfuscate/Secure Uploaded Files:</string>
+		<translation>Sécuriser/maquillés les fichiers uploadés :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="142" />
+		</references>
+	</entry>
+	<entry>
+		<string>If Yes, uploaded files will be stored with their original names obfuscated for added security.
+                    &lt;br /&gt;
+                    &lt;strong style=&quot;color: red;&quot;&gt;NOTE:&lt;/strong&gt;Setting this option to 'No' can open a possible route for users
+                    to upload and run malicious scripts on your site. It is &lt;strong&gt;highly&lt;/strong&gt;
+                    recommended that you leave this option on unless you have a thorough understanding
+                    of the implications behind turning it off.</string>
+		<translation>Si oui, les fichiers importés seront stockés avec leur noms originaux maquillés pour plus de sécurité.&lt;br /&gt;&lt;strong style=&quot;color: red;&quot;&gt;NOTE :&lt;/strong&gt; Paramètrer cette option à &quot;Non&quot; peut ouvrir la voie à des utilisateurs pour uploader et lancer des scripts malveillants sur votre site. Il est &lt;strong&gt;fortement&lt;/strong&gt; recommandé de laisser cette option sur &quot;Oui&quot; à moins d'avoir une complête compréhention des implications qu'aura le fait de mettre cette option sur &quot;Non&quot;.</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="159" />
+		</references>
+	</entry>
+	<entry>
+		<string>Dynamic File Upload Property Configuration</string>
+		<translation>Configuration des propriétés de données dynamiques de &quot;Upload&quot;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="163" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;
+                    These settings allow you to redefine certain characteristics of the FileUpload DynamicData Property. 
+                    These settings only take effect if you have 'hooked' the uploads module to the module using the 
+                    FileUpload property.
+                &lt;/p&gt;</string>
+		<translation>&lt;p&gt;Ces paramètres vous permettent de redéfinir certaines caractèristiques des propriétés de données dynamiques de &quot;Upload&quot; (c'est une des données dynamique disponible, elle sert à ajouter une photo dans un article par exemple). Ces paramètres ne sont effectif que si vous avec &quot;accroché&quot; le module Uploads au module utilisant la propriété &quot;Upload&quot;.&lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="171" />
+		</references>
+	</entry>
+	<entry>
+		<string>Select available file sources for the FileUpload Property:</string>
+		<translation>Séléctionnez les sources de fichier disponibles pour la propriété &quot;Upload&quot; :</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="176" />
+		</references>
+	</entry>
+	<entry>
+		<string>&lt;p&gt;
+                Note: be sure to choose at &lt;strong&gt;least&lt;/strong&gt; one!
+                &lt;/p&gt;</string>
+		<translation>&lt;p&gt; Note: attention à en choisir &lt;strong&gt;au moins&lt;/strong&gt; une ! &lt;/p&gt;</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="182" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files located in the Trusted directory</string>
+		<translation>Fichiers situés dans le répertoire certifié</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="192" />
+		</references>
+	</entry>
+	<entry>
+		<string>Externally located files (http / ftp / file)</string>
+		<translation>Fichiers externes (http / ftp / file)</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="204" />
+		</references>
+	</entry>
+	<entry>
+		<string>User uploaded files</string>
+		<translation>Fichiers uploadés par un utilisateur</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="216" />
+		</references>
+	</entry>
+	<entry>
+		<string>Files previously stored</string>
+		<translation>Fichiers stockés préalablement</translation>
+		<references>
+			<reference file="modules/uploads/xartemplates/admin-modifyconfig.xd" line="228" />
+		</references>
+	</entry>
+</translations>

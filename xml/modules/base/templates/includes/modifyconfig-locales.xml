@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+<entry><string>Mode of Operation</string><translation>Mode d'Opération</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="34"/>
+		</references>
+</entry>
+<entry><string>The multilanguage system (MLS) works in three different modes.</string><translation>Le système multilangue (MLS) fonctionne en trois modes différents.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="38"/>
+		</references>
+</entry>
+<entry><string>SINGLE</string><translation>SIMPLE</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="45"/>
+		</references>
+</entry>
+<entry><string> 
+Single Language Mode</string><translation>Mode de Langage Simple</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="60"/>
+		</references>
+</entry>
+<entry><string>MLS uses only one character set, typically single byte but potentially multi byte if mb_string is built in. All information is stored coherently with the chosen character set (at installation time), and also user data is meaningful in the chosen character set.</string><translation>MLS utilise un seul ensemble de caractère, typiquement des bytes simples mais possiblement des bytes multi si le mb_string est intégré. Toute information est stockée de manière cohérente (au moment de l'installation) et aussi les données d'utilisateur sont significative dans l'ensemble de caractère choisi</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="66"/>
+		</references>
+</entry>
+<entry><string>BOXED</string><translation>ENCADRER</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="78"/>
+		</references>
+</entry>
+<entry><string> 
+Per Page Mode</string><translation>Par Mode de Page</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="94"/>
+		</references>
+</entry>
+<entry><string>MLS can use more than one character set in the site (the same consideration for the single or multi byte matter as above can be applied here), but only one character set per page is used (this is an obvious concept maybe, but important to understand). Due to this fact content cannot be shared across through different language areas (for example an Arabic comment won't be shown in the English area even if they are referring to the same object, e.g. an article available in both English and Arabic). Another point is that every operation involves only a single language. This mode can produce unexpected results if mb_string is not installed.</string><translation>MLS peut utiliser plus d'un caractère paramétrer dans le site (la même considération pour les bytes simple ou multi ci-dessus peuvent être appliqués ici), mais seulement un ensemble de caractère par page est utilisé (c'est un concept évident peut-être mais important à comprendre. Dû au fait que le contenu ne peut pas être partagé à travers différentes zones de langages (par exemple un commentaire arabe ne sera pas affiché dans la zone anglaise même s'il référe au même objet, e.x. un article disponible  en anglais et en arabe) Un autre point est que chaque opération implique seulement un seul langage. Ce mode peut produire des résultats non espérés si mb_string n'est pas installé.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="100"/>
+		</references>
+</entry>
+<entry><string>It is installed on this server, so you can give this mode a try.</string><translation>C'est installé sur le serveur, alors vous pouvez essayer ce mode.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="106"/>
+		</references>
+</entry>
+<entry><string>UNBOXED</string><translation>DÉSENCADRER</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="122"/>
+		</references>
+</entry>
+<entry><string>(experimental!)</string><translation>(expérimental!)</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="126"/>
+		</references>
+</entry>
+<entry><string> 
+Full Multilanguage</string><translation>Multi Langue Complet</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="142"/>
+		</references>
+</entry>
+<entry><string>Please note that you cannot use the UNBOXED mode of the MultiLanguage system unless you have php 4.3.0 with the mbstring extension compiled in.</string><translation>S'il vous plaît noter que vous ne pouvez pas utiliser le mode DÉSENCADRÉ du système multilangue à moins d'avoir le  php 4.3.0  avec les extension mbstring compiléES.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="144"/>
+		</references>
+</entry>
+<entry><string>MLS uses an universal character set to represent everything (read: UTF-8). This guarantees that no conversion is needed for the content representation. Every page is always shown according to the user chosen language, but the page can contain texts in other languages (for example a French article and comments inside an English page).</string><translation>MLS utilise un ensemble de caractère universel qui représente tout (lire:UTF-8). Cela garantie qu'aucune conversion n'est nécessaire pour la représentation du contenu. Chaque page est toujours affiché en accord avec le langage choisi par l'utilisateur, mais la page peut contenir les textes dans d'autres langages (par exemple un article français et ses commentaires dans une page anglaise).</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="148"/>
+		</references>
+</entry>
+<entry><string>Note</string><translation>Note</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="158"/>
+		</references>
+</entry>
+<entry><string>Full multilanguage functionality (UNBOXED) is not available. To enable it you need to install the mb_string PHP extension on this server.</string><translation>La fonctionnalité multilangue complète n'est pas disponible. Pour activer vous avez besoin d'installer l'extension  mb_string PHP  sur ce serveur.</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="166"/>
+		</references>
+</entry>
+<entry><string>Language/Locale Configuration</string><translation>Configuration des langues/Configuration de l'encodage</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="180"/>
+		</references>
+</entry>
+<entry><string>Available Locales</string><translation>Encodages disponibles</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="188"/>
+		</references>
+</entry>
+<entry><string>The following locales are available to this site:</string><translation>Les encodages suivants sont disponibles sur ce site :</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="192"/>
+		</references>
+</entry>
+<entry><string>Default locale to load</string><translation>Encodage par défaut à charger</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="210"/>
+		</references>
+</entry>
+<entry><string>Default Locale</string><translation>Encodage par Défaut</translation>		<references>
+			<reference file="code/modules/base/xartemplates/includes/modifyconfig-locales.xt" line="214"/>
+		</references>
+</entry>
+</translations>

@@ -1,0 +1,32 @@
+<?php
+global $xarML_PHPBackend_entries;
+global $xarML_PHPBackend_keyEntries;
+$xarML_PHPBackend_entries['by_author'] = 'Par auteur';
+$xarML_PHPBackend_entries['Display Article'] = 'Afficher les publications';
+$xarML_PHPBackend_entries['Display #(1)'] = 'Afficher #(1)';
+$xarML_PHPBackend_entries['Highlighted Articles'] = 'Publications sélectionnées';
+$xarML_PHPBackend_entries['Submit #(1)'] = 'Soumettre #(1)';
+$xarML_PHPBackend_entries['Submit Now'] = 'Soumettre maintenant';
+$xarML_PHPBackend_entries['View #(1) Archive'] = 'Voir les archives #(1)';
+$xarML_PHPBackend_entries['Archives'] = 'Archives';
+$xarML_PHPBackend_entries['Displays a map of all published content'] = 'Afficher une carte de tout le contenu publié';
+$xarML_PHPBackend_entries['Article Map'] = 'Carte des publications';
+$xarML_PHPBackend_entries['Displays an archive for all published content'] = 'Afficher les archives de tout le contenu publié';
+$xarML_PHPBackend_entries['Static Text'] = 'Texte statique';
+$xarML_PHPBackend_entries['Text Box'] = 'Boîte de texte';
+$xarML_PHPBackend_entries['Small Text Area'] = 'Petit champ de texte';
+$xarML_PHPBackend_entries['Medium Text Area'] = 'Champ de texte moyen';
+$xarML_PHPBackend_entries['Large Text Area'] = 'Grand champ de texte';
+$xarML_PHPBackend_entries['Dropdown List'] = 'Menu déroulant';
+$xarML_PHPBackend_entries['Username'] = 'Nom d\'utilisateur';
+$xarML_PHPBackend_entries['Calendar'] = 'Calendrier';
+$xarML_PHPBackend_entries['File Upload'] = 'Fichier à charger';
+$xarML_PHPBackend_entries['URL'] = 'URL';
+$xarML_PHPBackend_entries['HTML Page'] = 'Page HTML';
+$xarML_PHPBackend_entries['...'] = '...';
+$xarML_PHPBackend_entries['Missing \'name\' attribute in field tag or definition'] = 'Attribut \'nom\' manquant dans les champs ou dans la définition';
+$xarML_PHPBackend_entries['check'] = 'Vérifier';
+$xarML_PHPBackend_entries['show'] = 'Afficher';
+$xarML_PHPBackend_entries['profile'] = 'Profil';
+$xarML_PHPBackend_entries['Time'] = 'Heure';
+?>

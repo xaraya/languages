@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations xmlns="http://xaraya.com/2002/ns/translations" locale="fr_FR.utf-8">
+<entry><string>There is an error in the username</string><translation>Il y a une erreur dans le nom d'utilisateur</translation>		<references>
+			<reference file="modules/roles/xaradmin/addrole.php" line="43"/>
+			<reference file="modules/roles/xaradmin/updaterole.php" line="62"/>
+		</references>
+</entry>
+<entry><string>That username is already taken.</string><translation>Ce nom d'utilisateur est déjà pris.</translation>		<references>
+			<reference file="modules/roles/xaradmin/addrole.php" line="55"/>
+			<reference file="modules/roles/xaradmin/updaterole.php" line="56"/>
+			<reference file="modules/roles/xaruser/register.php" line="164"/>
+		</references>
+</entry>
+<entry><string>There is a space in the username</string><translation>Il y a un espace dans le nom d'utilisateur</translation>		<references>
+			<reference file="modules/roles/xaradmin/addrole.php" line="61"/>
+			<reference file="modules/roles/xaradmin/updaterole.php" line="68"/>
+			<reference file="modules/roles/xaruser/register.php" line="146"/>
+		</references>
+</entry>
+<entry><string>That email address is already registered.</string><translation>Cette adresse courriel est déjà enregistrée.</translation>		<references>
+			<reference file="modules/roles/xaradmin/addrole.php" line="78"/>
+			<reference file="modules/roles/xaruser/register.php" line="211"/>
+			<reference file="modules/roles/xaruser/usermenu.php" line="166"/>
+		</references>
+</entry>
+<entry><string>There is an error in the email address</string><translation>Il y a une erreur dans l'adresse courriel</translation>		<references>
+			<reference file="modules/roles/xaradmin/addrole.php" line="87"/>
+			<reference file="modules/roles/xaradmin/updaterole.php" line="76"/>
+		</references>
+</entry>
+<entry><string>The two password entries are not the same</string><translation>Les deux mot de passe entrés ne sont pas équivalent</translation>		<references>
+			<reference file="modules/roles/xaradmin/addrole.php" line="93"/>
+			<reference file="modules/roles/xaradmin/updaterole.php" line="82"/>
+		</references>
+</entry>
+<entry><string>Invalid #(1) for #(2) function #(3)() in module #(4)</string><translation>#(1) invalide pour la fonction #(2) #(3)() dans le module #(4)</translation>		<references>
+			<reference file="modules/roles/xaradmin/createpassword.php" line="26"/>
+			<reference file="modules/roles/xaradmin/updatestate.php" line="64"/>
+		</references>
+</entry>
+<entry><string>Problem generating new password</string><translation>Problème durant la génération du nouveau mot de passe</translation>		<references>
+			<reference file="modules/roles/xaradmin/createpassword.php" line="35"/>
+			<reference file="modules/roles/xaruser/lostpassword.php" line="79"/>
+		</references>
+</entry>
+<entry><string>No such user</string><translation>Pas de tel utilisateur</translation>		<references>
+			<reference file="modules/roles/xaradminapi/delete.php" line="41"/>
+			<reference file="modules/roles/xaradminapi/stateupdate.php" line="46"/>
+			<reference file="modules/roles/xaradminapi/update.php" line="50"/>
+		</references>
+</entry>
+<entry><string>Did not find a group</string><translation>Impossible de trouver un groupe</translation>		<references>
+			<reference file="modules/roles/xaradminapi/deleteuser.php" line="35"/>
+			<reference file="modules/roles/xaruserapi/addmember.php" line="38"/>
+			<reference file="modules/roles/xaruserapi/removemember.php" line="38"/>
+		</references>
+</entry>
+<entry><string>Invalid Parameter Count</string><translation>Nombre de paramètres invalide</translation>		<references>
+			<reference file="modules/roles/xaradminapi/stateupdate.php" line="33"/>
+			<reference file="modules/roles/xaradminapi/update.php" line="37"/>
+			<reference file="modules/roles/xaruserapi/updatestatus.php" line="26"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users to complete their registration by a link in the email</string><translation>Ce courriel sera envoyé aux utilisateurs afin qu'ils complètent leur enregistrement sur le site par un lien dans le courriel</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="19"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="49"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users to welcome them</string><translation>Ce courriel sera envoyé aux utilisateurs pour leur souhaiter la  bienvene</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="21"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="51"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users who use the lost password option</string><translation>Ce courriel sera envoyé aux utilisateurs qui ont perdu leur mot de passe</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="23"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="53"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users when their accounts are pending approval</string><translation>Ce courriel sera envoyé aux utilisateurs quand leur compte sera en attente de validation</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="25"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="55"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users when their accounts are deactivated</string><translation>Ce courriel sera envoyé aux utilisateurs quand leur compte sera désactivé</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="27"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="57"/>
+		</references>
+</entry>
+<entry><string>Subject</string><translation>Sujet</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="50"/>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="312"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="78"/>
+			<reference file="modules/roles/xartemplates/user-email.xd" line="26"/>
+		</references>
+</entry>
+<entry><string>The following variables will be replaced in the text with specific information</string><translation>Les variables suivantes seront remplacées dans le texte par les informations spécifiques correspondantes</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="72"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="100"/>
+		</references>
+</entry>
+<entry><string>Dynamic property</string><translation>Propriétés dynamiques</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="156"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="184"/>
+		</references>
+</entry>
+<entry><string>Messaging system</string><translation>Système de message</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="16"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="9"/>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>Send mail to groups, configure automatic notification or edit notification templates</string><translation>Envoyer des courriels aux groupes, configurer les notifications automatiques ou modifier les modèles de notifications</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="22"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="16"/>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="11"/>
+		</references>
+</entry>
+<entry><string>&amp;nbsp;</string><translation>&amp;nbsp;</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="106"/>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="245"/>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="142"/>
+		</references>
+</entry>
+<entry><string>Manage the user</string><translation>Gérer l'utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="6"/>
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="6"/>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="10"/>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="8"/>
+		</references>
+</entry>
+<entry><string>Manage the group</string><translation>Gérer le groupe</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-deleterole.xd" line="7"/>
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="7"/>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="11"/>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="9"/>
+		</references>
+</entry>
+<entry><string>User Information</string><translation>Informations de l'utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="3"/>
+			<reference file="modules/roles/xartemplates/user-display.xd" line="3"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="29"/>
+		</references>
+</entry>
+<entry><string>Real Name</string><translation>Nom Réel</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-displayrole.xd" line="37"/>
+			<reference file="modules/roles/xartemplates/user-new.xd" line="33"/>
+		</references>
+</entry>
+<entry><string>Registration</string><translation>Inscription</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="24"/>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="30"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="3"/>
+		</references>
+</entry>
+<entry><string>Confirm Password</string><translation>Confirmer le mot de passe</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyrole.xd" line="151"/>
+			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="118"/>
+			<reference file="modules/roles/xartemplates/user-new.xd" line="58"/>
+			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="43"/>
+		</references>
+</entry>
+<entry><string>Display Name</string><translation>Nom Réel</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-newrole.xd" line="15"/>
+			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="13"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="21"/>
+			<reference file="modules/roles/xartemplates/user-user_menu_form.xd" line="25"/>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="73"/>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="84"/>
+		</references>
+</entry>
+<entry><string>New User</string><translation>Nouvel utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="331"/>
+			<reference file="modules/roles/xaruser/register.php" line="101"/>
+			<reference file="modules/roles/xaruser/register.php" line="284"/>
+		</references>
+</entry>
+<entry><string>Create User Account</string><translation>Créer un compte utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-checkage.xd" line="2"/>
+			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="2"/>
+			<reference file="modules/roles/xartemplates/user-new.xd" line="17"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="2"/>
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="2"/>
+		</references>
+</entry>
+<entry><string>Registration / Login</string><translation>Inscription / Connexion</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="3"/>
+			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="3"/>
+		</references>
+</entry>
+<entry><string>Forget your password?</string><translation>Mot de passe oublié ?</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="31"/>
+			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="27"/>
+		</references>
+</entry>
+<entry><string>Remember me</string><translation>Se souvenir de moi</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-choices.xd" line="36"/>
+			<reference file="modules/roles/xartemplates/user-showloginform.xd" line="32"/>
+			<reference file="modules/roles/xartemplates/blocks/login.xd" line="24"/>
+		</references>
+</entry>
+<entry><string>E-mail Address</string><translation>Adresse courriel</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-confirmregistration.xd" line="17"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="29"/>
+		</references>
+</entry>
+<entry><string>zero</string><translation>zéro</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="3"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="3"/>
+		</references>
+</entry>
+<entry><string>one</string><translation>un</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="4"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="4"/>
+		</references>
+</entry>
+<entry><string>two</string><translation>deux</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="5"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>three</string><translation>trois</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="6"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="6"/>
+		</references>
+</entry>
+<entry><string>four</string><translation>quatre</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="7"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="7"/>
+		</references>
+</entry>
+<entry><string>five</string><translation>cinq</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="8"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="8"/>
+		</references>
+</entry>
+<entry><string>six</string><translation>six</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="9"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="9"/>
+		</references>
+</entry>
+<entry><string>seven</string><translation>sept</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="10"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="10"/>
+		</references>
+</entry>
+<entry><string>eight</string><translation>huit</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="11"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="11"/>
+		</references>
+</entry>
+<entry><string>nine</string><translation>neuf</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="12"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="12"/>
+		</references>
+</entry>
+<entry><string>ten</string><translation>dix</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="13"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="13"/>
+		</references>
+</entry>
+<entry><string>eleven</string><translation>onze</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="14"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="14"/>
+		</references>
+</entry>
+<entry><string>twelve</string><translation>douze</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="15"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="15"/>
+		</references>
+</entry>
+<entry><string>thirteen</string><translation>treize</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="16"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="16"/>
+		</references>
+</entry>
+<entry><string>fourteen</string><translation>quatorze</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="17"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="17"/>
+		</references>
+</entry>
+<entry><string>fifteen</string><translation>quinze</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="18"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="18"/>
+		</references>
+</entry>
+<entry><string>sixteen</string><translation>seize</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="19"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="19"/>
+		</references>
+</entry>
+<entry><string>seventeen</string><translation>dix-sept</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="20"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="20"/>
+		</references>
+</entry>
+<entry><string>eighteen</string><translation>dix-huit</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="21"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="21"/>
+		</references>
+</entry>
+<entry><string>nineteen</string><translation>dix-neuf</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="22"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="22"/>
+		</references>
+</entry>
+<entry><string>twenty</string><translation>vingt</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="23"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="23"/>
+		</references>
+</entry>
+<entry><string>twenty-one</string><translation>vingt-et-un</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="24"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="24"/>
+		</references>
+</entry>
+<entry><string>Privacy Policy</string><translation>Politique de vie privée</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="34"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="60"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="87"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="42"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="63"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="64"/>
+			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="39"/>
+		</references>
+</entry>
+<entry><string>Terms of Use</string><translation>Conditions d'utilisation</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="42"/>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="86"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="74"/>
+			<reference file="modules/roles/xartemplates/user-registerform.xd" line="87"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="31"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="38"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="39"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="42"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="59"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="100"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="126"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="130"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="131"/>
+			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="46"/>
+		</references>
+</entry>
+<entry><string>Please see our</string><translation>S'il vous plaît, lisez nos</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-privacy.xd" line="86"/>
+			<reference file="modules/roles/xartemplates/user-terms.xd" line="41"/>
+		</references>
+</entry>
+<entry><string>Problem sending welcome email</string><translation>Problème durant l'envoi du courriel de bienvenue</translation>		<references>
+			<reference file="modules/roles/xaruser/getvalidation.php" line="108"/>
+			<reference file="modules/roles/xaruser/register.php" line="369"/>
+		</references>
+</entry>
+<entry><string>A new user has registered. Here are the details</string><translation>Un nouvel utilisateur s'est enregistré. Voilà les détails</translation>		<references>
+			<reference file="modules/roles/xaruser/getvalidation.php" line="123"/>
+			<reference file="modules/roles/xaruser/register.php" line="337"/>
+		</references>
+</entry>
+<entry><string>A New User Has Registered</string><translation>Un nouvel utilisateur s'est inscrit</translation>		<references>
+			<reference file="modules/roles/xaruser/getvalidation.php" line="127"/>
+			<reference file="modules/roles/xaruser/register.php" line="341"/>
+		</references>
+</entry>
+<entry><string>Log In</string><translation>Connexion</translation>		<references>
+			<reference file="modules/roles/xaruser/register.php" line="53"/>
+			<reference file="modules/roles/xaruser/showloginform.php" line="21"/>
+		</references>
+</entry>
+<entry><string>That email address is either reserved or not allowed on this website</string><translation>Cette adresse courriel est soit réservée soit interdite sur ce site web</translation>		<references>
+			<reference file="modules/roles/xaruser/register.php" line="221"/>
+			<reference file="modules/roles/xaruser/usermenu.php" line="177"/>
+		</references>
+</entry>
+<entry><string>Your password must be #(1) characters long.</string><translation>Votre mot de passe doit avoir #(1) caractères de long.</translation>		<references>
+			<reference file="modules/roles/xaruser/register.php" line="235"/>
+			<reference file="modules/roles/xaruser/register.php" line="236"/>
+			<reference file="modules/roles/xaruser/usermenu.php" line="114"/>
+		</references>
+</entry>
+<entry><string>The passwords do not match</string><translation>Les mots de passe ne correspondent pas</translation>		<references>
+			<reference file="modules/roles/xaruser/register.php" line="242"/>
+			<reference file="modules/roles/xaruser/usermenu.php" line="122"/>
+		</references>
+</entry>
+<entry><string>Wrong arguments to roles_userapi_get.</string><translation>Mauvais arguments pour roles_userapi_get.</translation>		<references>
+			<reference file="modules/roles/xaruserapi/get.php" line="31"/>
+			<reference file="modules/roles/xaruserapi/get.php" line="37"/>
+			<reference file="modules/roles/xaruserapi/getactive.php" line="25"/>
+			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="32"/>
+			<reference file="modules/roles/xaruserapi/getdeleteduser.php" line="38"/>
+		</references>
+</entry>
+<entry><string>This assignment is not possible</string><translation>Cette assignation n'est pas possible</translation>		<references>
+			<reference file="modules/roles/xaradmin/addmember.php" line="44"/>
+		</references>
+</entry>
+<entry><string>This assignment already exists</string><translation>Cette assignation existe déjà</translation>		<references>
+			<reference file="modules/roles/xaradmin/addmember.php" line="50"/>
+		</references>
+</entry>
+<entry><string>Cannot make this assignment</string><translation>Impossible de faire cette assignation</translation>		<references>
+			<reference file="modules/roles/xaradmin/addmember.php" line="56"/>
+		</references>
+</entry>
+<entry><string>Problem sending email for #(1) Userid: #(2)</string><translation>Problème durant l'envoi du courriel pour #(1) Userid : #(2)</translation>		<references>
+			<reference file="modules/roles/xaradmin/asknotification.php" line="94"/>
+		</references>
+</entry>
+<entry><string>of group</string><translation>du groupe</translation>		<references>
+			<reference file="modules/roles/xaradmin/showusers.php" line="151"/>
+		</references>
+</entry>
+<entry><string>This privilege cannot be removed</string><translation>Ce privilège ne peut pas être supprimé</translation>		<references>
+			<reference file="modules/roles/xaradmin/removeprivilege.php" line="45"/>
+		</references>
+</entry>
+<entry><string>Update Users Configuration</string><translation>Mettre à jour la configuration des utilisateurs</translation>		<references>
+			<reference file="modules/roles/xaradmin/modifyconfig.php" line="100"/>
+		</references>
+</entry>
+<entry><string>Menu For #(1)</string><translation>Menu pour #(1)</translation>		<references>
+			<reference file="modules/roles/xarblocks/user.php" line="51"/>
+		</references>
+</entry>
+<entry><string>Cannot Purge Active Users</string><translation>Impossible de purger les utilisateurs actifs</translation>		<references>
+			<reference file="modules/roles/xaradminapi/purge.php" line="27"/>
+		</references>
+</entry>
+<entry><string>Wrong arguments to roles_adminapi_senduseremail. uid: #(1) type: #(2)</string><translation>Mauvais arguments pour roles_adminapi_senduseremail. uid: #(1) type: #(2)</translation>		<references>
+			<reference file="modules/roles/xaradminapi/senduseremail.php" line="34"/>
+		</references>
+</entry>
+<entry><string>The user to be recalled does not exist or is not deleted</string><translation>L'utilisateur à restaurer n'existe pas ou n'a pas été supprimé</translation>		<references>
+			<reference file="modules/roles/xaradminapi/recall.php" line="24"/>
+		</references>
+</entry>
+<entry><string>The state to be recalled to is missing or 0</string><translation>L'état à restaurer est manquant ou 0</translation>		<references>
+			<reference file="modules/roles/xaradminapi/recall.php" line="29"/>
+		</references>
+</entry>
+<entry><string>Wrong arguments to groups_adminapi_clearsessions</string><translation>Mauvais argument pour groups_adminapi_clearsessions</translation>		<references>
+			<reference file="modules/roles/xaradminapi/clearsessions.php" line="22"/>
+		</references>
+</entry>
+<entry><string>Members whose Display Name begins with character not listed in alphabet above (labeled as &quot;Other&quot;)</string><translation>Membres dont le nom d'affichage commence avec un caractère non présent dans la liste alphabétique (classé comme &quot;Autres&quot;)</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="47"/>
+		</references>
+</entry>
+<entry><string>Members whose Display Name begins with &quot;#(1)&quot;</string><translation>Membres dont le nom d'affichage commence par &quot;#(1)&quot;</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="51"/>
+		</references>
+</entry>
+<entry><string>Members whose Display Name or User Name or Email Address contains &quot;#(1)&quot;</string><translation>Membres dont le nom d'affichage, le nom d'utilisateur ou l'adresse courriel contient &quot;#(1)&quot;</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="60"/>
+		</references>
+</entry>
+<entry><string>Members whose Display Name or User Name &quot;#(1)&quot;</string><translation>Membres dont le nom d'affichage ou le nom d'utilisateur contient &quot;#(1)&quot;</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="62"/>
+		</references>
+</entry>
+<entry><string>All members</string><translation>Tous les membres</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="67"/>
+		</references>
+</entry>
+<entry><string>Go</string><translation>Valider</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="72"/>
+		</references>
+</entry>
+<entry><string>Online Members</string><translation>Utilisateurs en ligne</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="80"/>
+		</references>
+</entry>
+<entry><string>Active Members</string><translation>Membres actifs</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="94"/>
+		</references>
+</entry>
+<entry><string>There are no online members selected</string><translation>Il n'y a pas de membres en ligne sélectionnés</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="96"/>
+		</references>
+</entry>
+<entry><string>All Members</string><translation>Tous les utilisateurs</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="118"/>
+			<reference file="modules/roles/xaruser/view.php" line="135"/>
+		</references>
+</entry>
+<entry><string>There are no members selected</string><translation>Il n'y a pas de membres sélectionnés</translation>		<references>
+			<reference file="modules/roles/xaruser/view.php" line="130"/>
+		</references>
+</entry>
+<entry><string>Unsupported locale.</string><translation>Langue  non supportée</translation>		<references>
+			<reference file="modules/roles/xaruser/changelanguage.php" line="28"/>
+		</references>
+</entry>
+<entry><string>Your Account Preferences</string><translation>Vos préférences de compte</translation>		<references>
+			<reference file="modules/roles/xaruser/usermenu.php" line="21"/>
+		</references>
+</entry>
+<entry><string>Submit</string><translation>Soumettre</translation>		<references>
+			<reference file="modules/roles/xaruser/usermenu.php" line="55"/>
+		</references>
+</entry>
+<entry><string>There is an error in the supplied email address</string><translation>Il y a une erreur dans l'adresse courriel fournie</translation>		<references>
+			<reference file="modules/roles/xaruser/usermenu.php" line="154"/>
+		</references>
+</entry>
+<entry><string>There are no account options configured.</string><translation>Il n'y a pas d'options de compte configurée</translation>		<references>
+			<reference file="modules/roles/xaruser/account.php" line="33"/>
+		</references>
+</entry>
+<entry><string>The validation codes do not match</string><translation>Le code de validation ne correspond pas</translation>		<references>
+			<reference file="modules/roles/xaruser/getvalidation.php" line="69"/>
+		</references>
+</entry>
+<entry><string>Problem sending pending email</string><translation>Problème pour envoyer le courriel en cours</translation>		<references>
+			<reference file="modules/roles/xaruser/getvalidation.php" line="91"/>
+		</references>
+</entry>
+<entry><string>Problem resending confirmation email</string><translation>Problème pour envoyer à nouveau le courriel de confirmation</translation>		<references>
+			<reference file="modules/roles/xaruser/getvalidation.php" line="157"/>
+		</references>
+</entry>
+<entry><string>You must enter your username or your email to proceed</string><translation>Vous devez entrer votre nom d'utilisateur ou votre courriel pour continuer</translation>		<references>
+			<reference file="modules/roles/xaruser/lostpassword.php" line="56"/>
+		</references>
+</entry>
+<entry><string>That email address or username is not registered</string><translation>Cette adresse courriel ou ce nom d'utilisateur n'est pas inscrit</translation>		<references>
+			<reference file="modules/roles/xaruser/lostpassword.php" line="69"/>
+		</references>
+</entry>
+<entry><string>Problem updating the user information</string><translation>Problème pour mettre à jour les informations de cet utilisateur</translation>		<references>
+			<reference file="modules/roles/xaruser/lostpassword.php" line="86"/>
+		</references>
+</entry>
+<entry><string>Other</string><translation>Autres</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="18"/>
+		</references>
+</entry>
+<entry><string>Search:</string><translation>Recherche :</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="24"/>
+		</references>
+</entry>
+<entry><string>Search condition</string><translation>Condition de recherche</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="33"/>
+		</references>
+</entry>
+<entry><string>Show</string><translation>Afficher</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="40"/>
+		</references>
+</entry>
+<entry><string>&lt;b&gt;Online&lt;/b&gt;</string><translation>&lt;b&gt;En ligne&lt;/b&gt;</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="42"/>
+		</references>
+</entry>
+<entry><string>Online</string><translation>En ligne</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="48"/>
+		</references>
+</entry>
+<entry><string>&lt;b&gt;All&lt;/b&gt;</string><translation>&lt;b&gt;Tous&lt;/b&gt;</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="50"/>
+		</references>
+</entry>
+<entry><string>#(1) selected</string><translation>#(1) sélectionné(s)</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="55"/>
+		</references>
+</entry>
+<entry><string>IP Address</string><translation>Adresse IP</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-view.xd" line="78"/>
+		</references>
+</entry>
+<entry><string>dynamic property</string><translation>Données dynamiques</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-welcomeemail.xd" line="75"/>
+		</references>
+</entry>
+<entry><string>Send mail to users/groups</string><translation>Envoyer un courriel aux utilisateurs ou aux groupes</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="18"/>
+		</references>
+</entry>
+<entry><string>No users selected</string><translation>Pas d'utilisateurs sélectionnés</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="203"/>
+		</references>
+</entry>
+<entry><string>user(s) selected</string><translation>utilisateur(s) sélectionné(s)</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="211"/>
+		</references>
+</entry>
+<entry><string>Choose a message template from the Templates dropdown above, or type in your message directly :</string><translation>Choisissez un modèle de message dans le menu déroulant ci-dessous, ou saisissez votre message directement :</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="306"/>
+		</references>
+</entry>
+<entry><string>Look in the file var/messaging/roles/includes/message-vars.xd to see how the different variables used in the templates are defined.</string><translation>Regardez dans le fichier var/messaging/roles/includes/message-vars.xd pour voir comment les différentes variables utilisées dans le modèle sont définies.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="342"/>
+		</references>
+</entry>
+<entry><string>Note that some variables (e.g. $myusername in the confirmation template) are defined dynamically during Xaraya processes, such as registration. You cannot use those variables, nor can you send messages that contain them from here.</string><translation>Notez que certaines variables (ex: $myusername dans le modèle de confirmation) sont définies dynamiquement pendant les processus Xaraya, comme l'enregistrement. Vous ne pouvez utiliser ces variables, ni envoyer d'ici des messages les contenant.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createmail.xd" line="347"/>
+		</references>
+</entry>
+<entry><string>Modify notification options</string><translation>Modifier les options de notifications</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="7"/>
+		</references>
+</entry>
+<entry><string>Notification email :</string><translation>Courriel de notification :</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="24"/>
+		</references>
+</entry>
+<entry><string>Ask about sending a notification when an administrator changes the state of a user to</string><translation>Proposer d'envoyer une notification quand un administrateur change l'état d'un utilisateur en</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="27"/>
+		</references>
+</entry>
+<entry><string>pending</string><translation>En attente</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="34"/>
+		</references>
+</entry>
+<entry><string>active</string><translation>Actif</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="44"/>
+		</references>
+</entry>
+<entry><string>inactive</string><translation>Inactif</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="54"/>
+		</references>
+</entry>
+<entry><string>Not validated</string><translation>Non validé</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="64"/>
+		</references>
+</entry>
+<entry><string>Ask about sending a notification when an administrator changes the password of a user</string><translation>Proposer d'envoyer une notification quand un administrateur change le mot de passe d'un utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifynotice.xd" line="67"/>
+		</references>
+</entry>
+<entry><string>Send $mailtype notification</string><translation>Envoyer la notification '$mailtype'</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="11"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users when they re-validate their account (IE, change email address)</string><translation>Ce courriel sera envoyé aux utilisateurs quand ils valident leur compte une deuxième fois (ex quand ils changent d'adresse courriel)</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="17"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users when an administrator change their password</string><translation>Ce courriel sera envoyé aux utilisateurs quand quand un administrateur changera leur mot de passe</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-asknotification.xd" line="29"/>
+		</references>
+</entry>
+<entry><string>Modify notification template</string><translation>Modifier les modèles de notification</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="11"/>
+		</references>
+</entry>
+<entry><string>Template</string><translation>Modèle</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="28"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users when they re-validate their account (i.e. change email address)</string><translation>Ce courriel sera envoyé aux utilisateurs quand ils valident leur compte pour la deuxième fois (ex après un changement d'adresse courriel)</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="47"/>
+		</references>
+</entry>
+<entry><string>This email will be sent to users when an administrator changes their password</string><translation>Ce courriel sera envoyé aux utilisateurs quand un administrateur changera leur mot de passe</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="59"/>
+			<reference file="modules/roles/xartemplates/admin-modifyemail.xd" line="61"/>
+		</references>
+</entry>
+<entry><string>On a locked site only the following users and groups will have access. &lt;br/&gt;
+Entering a group name allows access to the users of that group. &lt;br/&gt;
+Unknown names will be ignored.</string><translation>Sur un site verrouillé, seul les groupes et les utilisateurs suivants auront accès au site.&lt;br /&gt;Entrer un nom de groupe ouvre l'accès aux utiliateurs de ce groupe.&lt;br /&gt; Les noms inconnus seront ignorés.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="35"/>
+		</references>
+</entry>
+<entry><string>Role</string><translation>Rôle</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="46"/>
+		</references>
+</entry>
+<entry><string>Notify</string><translation>Notifier</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="49"/>
+		</references>
+</entry>
+<entry><string>The following message will be emailed to members in the above list when the site is locked or unlocked.
+&lt;br /&gt;
+It is prefaced by a short: &quot;Site &amp;lt;sitename&amp;gt; has been locked/unlocked&quot;.</string><translation>Le message suivant sera envoyé par courriel aux membres de la liste ci-dessus quand le site est vérrouillé ou déverrouillé.&lt;br /&gt; Il est préfacé d'un court : 'Le site &amp;lt;sitename&amp;gt; a été vérrouillé/dévérouillé'.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-sitelock.xd" line="110"/>
+		</references>
+</entry>
+<entry><string>Send an Email to #(1)</string><translation>Envoyer un courriel à #(1)</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-display.xd" line="18"/>
+		</references>
+</entry>
+<entry><string>Send an Email to</string><translation>Envoyer un courriel à</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-email.xd" line="13"/>
+		</references>
+</entry>
+<entry><string>Confirm the removal of</string><translation>Confirmer la suppression de</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="36"/>
+		</references>
+</entry>
+<entry><string>from</string><translation>du/de</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="36"/>
+		</references>
+</entry>
+<entry><string>Cancel Removal</string><translation>Annuler la suppression</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-removeprivilege.xd" line="44"/>
+		</references>
+</entry>
+<entry><string>Test Privileges Of</string><translation>Tester les privilèges de</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>Show the privileges of</string><translation>Afficher les privilèges de</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="35"/>
+		</references>
+</entry>
+<entry><string>is not permitted</string><translation>n'est pas autorisé</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="44"/>
+		</references>
+</entry>
+<entry><string>is permitted</string><translation>est autorisé</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="45"/>
+		</references>
+</entry>
+<entry><string>Registered Masks For Module</string><translation>Masques enregistrés pour le module</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="139"/>
+		</references>
+</entry>
+<entry><string>Choose a module from the list and click on &quot;Test&quot;</string><translation>Choisissez un module dans la liste et cliquez sur &quot;Tester&quot;</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="158"/>
+		</references>
+</entry>
+<entry><string>Click on the mask you want to test privileges against:</string><translation>Cliquer sur le masque pour lequel vous voulez tester les privilèges :</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-testprivileges.xd" line="163"/>
+		</references>
+</entry>
+<entry><string>Test the privileges of</string><translation>Tester les privilèges de</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="40"/>
+		</references>
+</entry>
+<entry><string>Privileges inherited by</string><translation>Privilèges hérités par</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="43"/>
+		</references>
+</entry>
+<entry><string>Overridden privileges: light gray (partial), dark gray (full)</string><translation>Privilèges ignorés : gris clair (partiellement), gris foncé (complètement)</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="47"/>
+		</references>
+</entry>
+<entry><string>Privileges assigned to</string><translation>Privilèges affectés à</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="115"/>
+		</references>
+</entry>
+<entry><string>only relevant privileges are shown</string><translation>seulement les privilèges pertinents sont affichés</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="119"/>
+		</references>
+</entry>
+<entry><string>Assign a Privilege to</string><translation>Assigner un privilège à</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showprivileges.xd" line="196"/>
+		</references>
+</entry>
+<entry><string>Attach recalled groups/users to</string><translation>Attacher les groupes et les utilisateurs rapellés à</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="42"/>
+		</references>
+</entry>
+<entry><string>Set recalled users to</string><translation>Mettre les utilisateurs rappellés dans l'état</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="47"/>
+		</references>
+</entry>
+<entry><string>Note: Shaded groups/users cannot be recalled because another group/user of the same name already exists.</string><translation>Note : Les groupes/utilisateurs ombrés ne peuvent pas être rapellés car un autre groupe/utilisateur du même nom existe déjà.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="171"/>
+		</references>
+</entry>
+<entry><string>Search users</string><translation>Rechercher des utilisateurs</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="188"/>
+		</references>
+</entry>
+<entry><string>&amp;nbsp;matching</string><translation>&amp;nbsp;correspondant</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="271"/>
+		</references>
+</entry>
+<entry><string>Note: Purged users cannot be recalled. Groups cannot be purged.</string><translation>Note : Les utilisateurs purgés ne peuvent pas être rappellés. Les groupes ne peuvent pas être purgés.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-purge.xd" line="313"/>
+		</references>
+</entry>
+<entry><string>Display your profile</string><translation>Afficher votre compte</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-account.xd" line="16"/>
+		</references>
+</entry>
+<entry><string>Configure Your Account Settings:</string><translation>Configurer les paramêtres de votre compte :</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-account.xd" line="22"/>
+		</references>
+</entry>
+<entry><string>Your account has not yet been activated. You need to finish these final steps in order to complete your registration.</string><translation>Votre compte n'a pas encore été activé. Vous devez finir cette dernière étape afin de compléter votre inscription.</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>Please enter your username and validation code below</string><translation>Entrez votre nom d'utilisateur et votre code de validation ci dessous s'il vous plaît</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="12"/>
+		</references>
+</entry>
+<entry><string>Your validation code has been sent again.</string><translation>Votre code de validation a été envoyé une nouvelle fois.</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-startvalidation.xd" line="33"/>
+		</references>
+</entry>
+<entry><string>This page allows you to send a notification to the changed user(s)</string><translation>Cette page vous permet d'envoyer une notification aux utilisateurs modifiés</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-updatestate.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>Password created</string><translation>Mot de passe créé</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="2"/>
+		</references>
+</entry>
+<entry><string>Caution : this password has just been generated by the system and assigned to this user. This password has not been sent by mail to the user.&lt;br /&gt;
+For security, It's the only time you will see this password in clear text, please write it down if you want to send it to the user.</string><translation>Attention : ce mot de passe vient juste d'être généré par le système et assigné à cet utilisateur. Ce mot de passe n'a pas été envoyé par courriel à l'utilisateur.&lt;br /&gt;Pour des raisons de sécurité, c'est la seule fois ou ce mot de passe apparaîtra en clair sur le site, notez le si vous désirez l'envoyer à l'utilisateur.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="8"/>
+		</references>
+</entry>
+<entry><string>Click here to get back to the users list</string><translation>Cliquer ici pour retourner à la liste des utilisateurs</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="9"/>
+		</references>
+</entry>
+<entry><string>This form allows you to send a notification to the changed user(s)</string><translation>Ce formulaire vous permet d'envoyer une notification aux utilisateurs modifiés</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-createpassword.xd" line="13"/>
+		</references>
+</entry>
+<entry><string>Your account has been validated, but must be reviewed by the administrator. You should be activated shortly</string><translation>Votre compte a été validé, mais doit maintenant être revu par l'administrateur. Votre compte devrez être activé bientôt.</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="6"/>
+		</references>
+</entry>
+<entry><string>Your account has been validated and you can now log in.</string><translation>Votre compte a été validé, maintenant vous pouvez vous connecté.</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-getvalidation.xd" line="8"/>
+		</references>
+</entry>
+<entry><string>Filtering</string><translation>Filtrage</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="37"/>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="43"/>
+		</references>
+</entry>
+<entry><string>Hooks</string><translation>Crochets</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="50"/>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="56"/>
+		</references>
+</entry>
+<entry><string>Page Layout</string><translation>Disposition de la page</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="83"/>
+		</references>
+</entry>
+<entry><string>Number of users to view per page</string><translation>Nombre d'utilisateurs à afficher par page</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="86"/>
+		</references>
+</entry>
+<entry><string>Enable Short URLs</string><translation>Activer les URLs courtes</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="92"/>
+		</references>
+</entry>
+<entry><string>Show Terms of Service</string><translation>Montrer les Conditions d'Utilisations</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="105"/>
+		</references>
+</entry>
+<entry><string>Show Privacy Policy</string><translation>Montrer la Politique de vie privée</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="118"/>
+		</references>
+</entry>
+<entry><string>The designated site admin that cannot be deleted</string><translation>L'administrateur désigné du site ne peut pas être supprimé</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="134"/>
+		</references>
+</entry>
+<entry><string>User Registration Options</string><translation>Options de l'inscription des utilisateurs</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="159"/>
+		</references>
+</entry>
+<entry><string>Default Group for new users</string><translation>Groupe par défaut pour les nouveaux utilisateurs</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="162"/>
+		</references>
+</entry>
+<entry><string>Allow registration</string><translation>Permettre l'inscription</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="176"/>
+		</references>
+</entry>
+<entry><string>Minimum age to be a user</string><translation>Age minimum pour s'inscrire</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="186"/>
+		</references>
+</entry>
+<entry><string>Allow users to choose their own password when registering</string><translation>Permettre aux utilisateurs de choisir leur propre mot de passe pendant l'inscription</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="190"/>
+		</references>
+</entry>
+<entry><string>Minimum length for password</string><translation>Longueur minimum du mot de passe</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="200"/>
+		</references>
+</entry>
+<entry><string>Send notice to admin when new user registers</string><translation>Envoyer une notification à l'administrateur quand un nouvel utilisateur s'inscrit</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="205"/>
+		</references>
+</entry>
+<entry><string>Require explicit administrator approval before activating new user</string><translation>Accord explicite de l'administrateur requis avant l'activation d'un nouvel utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="215"/>
+		</references>
+</entry>
+<entry><string>Require validation of new user</string><translation>Validation d'un nouvel utilisateur requise</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="224"/>
+		</references>
+</entry>
+<entry><string>Show dynamic properties on registration (if enabled)</string><translation>Montrer les données dynamiques à l'inscription (si activé)</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="234"/>
+		</references>
+</entry>
+<entry><string>Send welcome email on successful registration of user</string><translation>Envoyer un courriel de bienvenue après le succès de l'inscription d'un utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="243"/>
+		</references>
+</entry>
+<entry><string>Email address must be unique to each registered user</string><translation>L'adresse courriel doit être unique pour chaque utilisateur enregistré</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="252"/>
+		</references>
+</entry>
+<entry><string>Allow users to be invisible in users list</string><translation>Permettre aux utilisateurs d'être invisible dans la liste des utilisateurs</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="263"/>
+		</references>
+</entry>
+<entry><string>Filtering Options</string><translation>Options de filtrage</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="287"/>
+		</references>
+</entry>
+<entry><string>Disallowed user names</string><translation>Noms d'utilisateurs interdits</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="288"/>
+		</references>
+</entry>
+<entry><string>Note: Enter each name on a single line. Do not separate with comma, etc</string><translation>Note : Entrez chaque nom sur une ligne unique. Ne pas séparer avec une virgule, etc.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="289"/>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="294"/>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="299"/>
+		</references>
+</entry>
+<entry><string>Disallowed email addresses</string><translation>Adresses courriel interdites</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="293"/>
+		</references>
+</entry>
+<entry><string>Disallowed IP addresses</string><translation>Adresses IP interdites</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="298"/>
+		</references>
+</entry>
+<entry><string>Configuration of Hooked Modules</string><translation>Configuration des modules accrochés</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="310"/>
+		</references>
+</entry>
+<entry><string>Default hooks for user roles</string><translation>Crochets par défaut pour les rôles utilisateur</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="315"/>
+		</references>
+</entry>
+<entry><string>No modules are hooked to this one</string><translation>Aucun modules n'est crocheté à celui-ci</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="323"/>
+		</references>
+</entry>
+<entry><string>Allow searching by email</string><translation>Autoriser la recherche par courriel</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="334"/>
+		</references>
+</entry>
+<entry><string>Note: Be careful, it might reveal enough information to help compromising user's login.</string><translation>Note : soyez prudent, cela pourrait révéler suffisement d'informations pour compromettre l'identifiant de l'utilisateur.</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-modifyconfig.xd" line="343"/>
+		</references>
+</entry>
+<entry><string>Further instructions for registering have been sent to the email you provided. Please take a moment and read the instructions. If you have a question, or didn't receive your instructions please contact the</string><translation>Des instructions complémentaires pour s'inscrire ont été envoyées à l'adresse courriel que vous avez fourni. Veuillez prendre un moment pour lire ces instructions. Si vous avez une question, ou si vous n'avez pas reçu vos instructions, s'il vous plaît contactez</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>&amp;nbsp;website administrator</string><translation>&amp;nbsp;l'administrateur du site</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-waitingconfirm.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>Users Found</string><translation>Utilisateurs trouvés</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-search.xd" line="4"/>
+		</references>
+</entry>
+<entry><string>Search on</string><translation>Chercher sur</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-search.xd" line="19"/>
+		</references>
+</entry>
+<entry><string>Change the state of selected users</string><translation>Changer l'état des utilisateurs sélectionnés</translation>		<references>
+			<reference file="modules/roles/xartemplates/admin-showusers.xd" line="216"/>
+		</references>
+</entry>
+<entry><string>Your new password has been sent to your email address of record. You will want to change this new password once you have logged in.</string><translation>Votre nouveau mot de passe a été envoyé à l'adresse courriel que vous avez fournit. Vous pouvez changer ce nouveau mot de passe une fois connecté.</translation>		<references>
+			<reference file="modules/roles/xartemplates/user-requestpwconfirm.xd" line="5"/>
+		</references>
+</entry>
+<entry><string>groups_userapi_removemember</string><translation>groups_userapi_removemember</translation>		<references>
+			<reference file="modules/roles/xaruserapi/removemember.php" line="25"/>
+		</references>
+</entry>
+<entry><string>groups_userapi_addmember</string><translation>groups_userapi_addmember</translation>		<references>
+			<reference file="modules/roles/xaruserapi/addmember.php" line="25"/>
+		</references>
+</entry>
+<entry><string>Privacy Policy for this Website</string><translation>Politique de vie privée de ce site</translation>		<references>
+			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="38"/>
+		</references>
+</entry>
+<entry><string>Terms of Use for this website</string><translation>Conditions d'utilisations de ce site</translation>		<references>
+			<reference file="modules/roles/xaruserapi/getmenulinks.php" line="45"/>
+		</references>
+</entry>
+<entry><string>roles_userapi_checkprivilege</string><translation>roles_userapi_checkprivilege</translation>		<references>
+			<reference file="modules/roles/xaruserapi/checkprivilege.php" line="24"/>
+		</references>
+</entry>
+<entry><string>Wrong arguments to roles_userapi_getusers.</string><translation>Mauvais arguments pour roles_userapi_getusers.</translation>		<references>
+			<reference file="modules/roles/xaruserapi/getusers.php" line="24"/>
+		</references>
+</entry>
+</translations>
